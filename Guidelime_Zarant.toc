@@ -1,0 +1,36 @@
+## Title: Guidelime_Zarant
+## Author: Zarant
+## Version: 1.0
+## Interface: 11302
+## Dependencies: Guidelime
+## Notes: Alliance Hunter Leveling Guide
+
+1-11_DunMorogh.lua
+1-12_Teldrassil.lua
+11-13_LochModan.lua
+12-16_Darkshore.lua
+16-22_Darkshore-Ashenvale.lua
+22-23_Wetlands.lua
+23-26_Redridge-Duskwood.lua
+26-28_Wetlands.lua
+28-32_Duskwood.lua
+32-32_Hillsbrad.lua
+32-34_1kNeedles.lua
+34-35_STV.lua
+35-37_Desolace.lua
+37-38_STV.lua
+38-39_Swamp.lua
+39-40_Alterac-Arathi.lua
+40-40_Dustwallow.lua
+40-41_Badlands.lua
+41-43_STV.lua
+43-48_Feralas.lua
+48-50_Tanaris.lua
+50-51_STV-BL-SG.lua
+51-52_Hinterlands-WPL.lua
+52-53_Felwood-Feralas.lua
+53-54_Ungoro.lua
+54-56_Felwood-Azshara-WS.lua
+56-57_BS.lua
+57-59_WPL-EPL.lua
+59-60.lua
