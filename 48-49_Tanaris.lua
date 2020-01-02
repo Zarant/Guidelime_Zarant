@@ -10,7 +10,7 @@ Accept [QA1691]
 --Bank Ironfur/Groddoc Livers[O]
 Accept [QA5863]
 Turn in [QT2941] \\Accept [QA2944] 
-Click on the Egg-O-Matic and turn in your Hippogryph Egg \\([QA2741-][QT2741])
+Click on the Egg-O-Matic and turn in your Hippogryph Egg \\([QA2741-][O][QT2741][O])
 [G51.84,27.02Tanaris] Click on the wanted poster \\Accept [QA2781] \\Accept [QA2875]
 Accept [QA992]
 --Kill [QC1452,1Vultures] as you go[O]
