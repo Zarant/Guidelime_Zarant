@@ -120,7 +120,8 @@ Kill [G39.54,36.47Ashenvale][QC1054Dal Bloodclaw], he patrols around the fulborg
 [G46.37,46.38,50Ashenvale][QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater
 [G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear] \\Accept [QA1034 The Ruins of Stardust]
 [G33.3,67.79,101Ashenvale][QC1034 -]Loot the bushes around the lake
-[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
+[G31.67,64.24Ashenvale]Head south to the base of the mountain\\[G31.21,61.60Ashenvale]Run straight north while climbing the mountain
+[G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
 [G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
 [G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
 Kill Murlocs until the [QC1023 Glowing Gem] drops \\Save *Murloc Fins* for later
