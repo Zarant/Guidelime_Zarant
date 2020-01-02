@@ -5,6 +5,9 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Fly to [F Southshore][OC]
+
+Accept [QA659]
+
 Keep an eye out for Syndicate Assassins while in Southshore \\ ([QA522][O])
 Set your HS to [S Southshore]
 Go upstairs and turn in [QT1052 Down the Scarlet Path]
@@ -38,7 +41,7 @@ Turn in [QT512 Noble Deaths] \\Turn in [QT537 Dark Council]
 Turn in [QT523 Baron's Demise] if you have the quest [OC]
 Turn in [QT551 The Ensorcelled Parchment] \\Accept [QA554 Stormpike's Deciphering]
 Skip this step if you don't have this quest \\Turn in [QT540 Preserving Knowledge][O] \\Accept [QA542 Return to Milton][O]
-[QC658 -][O]Look for the forsaken courier in hillsbrad if you haven't done it already
+[QC658 -][O]Use eagle eye to look for the forsaken courier\\She patrols the road between Go'shek farm and Tarren Mill
 Fly to [F Arathi Highlands][OC]
 Speak with Apprentice Kryten\\Accept [QA691 Worth Its Weight in Gold]
 Click on the Wanted Poster \\Accept [QA684 Wanted!  Marez Cowl]
@@ -47,6 +50,7 @@ Do [QC642 The Princess Trapped]
 Turn in [QT642 The Princess Trapped] \\Accept [QA651 Stones of Binding]
 [QC651,2 -] Loot the Cresting Key
 [G68.33,75.39Arathi Highlands]Do [QC691 Worth Its Weight in Gold]
+Turn in [QT659] \\Accept [QA658]
 Turn in [QT658 Hints of a New Plague?] 
 Accept [QA657 Hints of a New Plague?]
 [G60.23,53.91,20Arathi Highlands] Speak with Kinelory and start the escort quest \\Turn in [QT657] \\Accept [QA660]
@@ -59,9 +63,9 @@ Do [QC693 Wand over Fist]
 Grind until your HS is off cooldown\\[H] Hearth to Southshore
 Turn in [QT661 Hints of a New Plague?]
 [QC651,1 -]Loot the Burning Key
-Do [QC684 Wanted!  Marez Cowl] \\Use eagle eye to find her first, she has 2 different spawn locations
+Head to Stromgarde Keep\\Do [QC684 Wanted!  Marez Cowl] \\Use eagle eye to find her first, she has 2 different spawn locations\\Getting there can be tricky, you can skip this quest if necessary
 Turn in [QT651 Stones of Binding] \\Accept [QA652 Breaking the Keystone]
-[QC652 -]Use eagle eye to find Fozruk\\Make sure to kill Sleeby first, he heals for a lot
+[QC652 -]Use eagle eye to find Fozruk\\Make sure to kill Sleeby and the rest of the kobolds first
 Turn in [QT652 Breaking the Keystone] \\Accept [QA653 Myzrael's Allies]
 Head to Faldir's Cove \\Accept [QA663 Land Ho!]
 Turn in [QT663 Land Ho!]
