@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N53-54Un'Goro Crater]
-[NX54-56Felwood/Azshara/Winterspring]
+[NX54-56Felwood/Winterspring]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Turn in [QT5158] \\Accept [QA5159] 

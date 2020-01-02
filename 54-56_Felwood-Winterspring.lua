@@ -1,6 +1,6 @@
 
 Guidelime.registerGuide([[
-[N54-56Felwood/Azshara/Winterspring]
+[N54-56Felwood/Winterspring]
 [NX56-57Burning Steppes]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]

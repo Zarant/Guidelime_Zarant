@@ -13,11 +13,11 @@ Turn in [QT6186]
 [G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][O][QT7791-][O]Wool \\[QA7793-][O][QT7793-][O]Silk \\[QA7794-][O][QT7794-][O]Mageweave \\[QA7795-][O][QT7795-][O]Runecloth
 Fly to [F Booty Bay]
 Take the boat to ratchet [OC]
+Withdraw Tinkee's Letter from your bank[OC]
 
 Fly to [F Winterspring]
 [S]Set your HS to Everlook
 
-Withdraw Tinkee's Letter from your bank[OC]
 Turn in [QT4808] \\Accept [QA4809]
 Accept [QA969]
 Accept [QA3783 Are We There, Yeti?]

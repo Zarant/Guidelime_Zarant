@@ -16,7 +16,7 @@ Turn in [QT1122 Report Back to Fizzlebub]
 Accept [QA580 Whiskey Slim's Lost Grog]
 [S]Set HS to Booty Bay
 Accept [QA608 The Bloodsail Buccaneers]
-[L23.25,71.85Stranglethorn Vale]Use eagle eye at the goblin statue and look for Mok'rash\\Kill him and accept [QA8552 The Monogrammed Sash][O]
+[L23.25,71.85Stranglethorn Vale]Use eagle eye at the goblin statue and look for Mok'rash\\Kill him by running in circles around the gobling statue\\Loot and right click [QA8552 The Monogrammed Sash][O]
 Loot the green bottles at the beach \\Accept [QA594 Message in a Bottle][O]
 [QC608,2-]Kill Captain Keelhaul
 [QC608,3-]Kill Fleet Master Firallon

@@ -94,7 +94,7 @@ Grind harpies until your HS cooldown is <8 minutes
 [G42.38,22.00][QC2845-]Escort Shay
 Turn in [QT2845]
 [G45.12,25.56Feralas][QC3909-]Talk to Gregan and trade in the Evoroot
-Death warp to Diremaul, enter DM east[OC] --Pre requisite for reliquary of purity later
+[OC]Death warp to Dire Maul, enter DM east (this is a pre requisite for another quest later) --reliquary of purity
 [H]Once you're inside the instance, hearth back to Feathermoon
 Turn in [QT2942]
 Turn in [QT7733] \\Turn in [QT7735]
@@ -117,7 +117,7 @@ Fly to [F Azshara]
 --[QC8153-]Kill mosshoof coursers as you quest [O]
 Accept [QA3601 Kim'jael Indeed!]
 [G57.02,29.45,170Azshara][QC3601-][O]Loot the boxes scattered around the camp
-[XP53.65 Grind elves until you are 65% into level 53]
+[XP53.65 Grind elves until you are 65% (13 bars) into level 53]
 Turn in [QT3601 Kim'jael Indeed!] \\Accept [QA5534 Kim'jael's "Missing" Equipment]
 --Turn in [QT8153] \\Accept [QA8231]
 --[G88.47,29.61,200Azshara][QC8231-]Kill Wavethrashers along the northeastern coast

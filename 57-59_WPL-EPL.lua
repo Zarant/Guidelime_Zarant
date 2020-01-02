@@ -106,11 +106,11 @@ Turn in [QT5225 Target: Gahrron's Withering] \\Accept [QA5226 Return to Chillwin
 Accept [QA6004 Unfinished Business]
 Do [QC6004 Unfinished Business]
 Turn in [QT6004 Unfinished Business] \\Accept [QA6023 Unfinished Business]
-[G54.94,23.40 Western Plaguelands][QC6023,2-]Kill Cavalier Durgen, he spawns at the top of the tower and patrols all the way down\\Do your best to avoid the 63 elite mob on top of the tower
+[G54.94,23.40 Western Plaguelands][QC6023,2-]Kill Cavalier Durgen, he spawns at the top of the tower and patrols all the way down\\Do your best to avoid the level 63 elite mob on top of the tower, keep grinding mobs until you have an opening.
 [G57.81,36.12 Western Plaguelands][QC6023,1-]Kill Huntsman Radley
 Turn in [QT6023 Unfinished Business] \\Accept [QA6025 Unfinished Business]
 [G45.78,18.57 Western Plaguelands][QC6025-]Head to Hearthglen\\Climb to the top of the tower
-[G42.53,18.99,1 Western Plaguelands][QC5168,1]Loot Davil's Libram inside the town hall, use your pet to pull mobs away
+[G42.53,18.99,1 Western Plaguelands][QC5168,1]Loot Davil's Libram inside the town hall, use your pet to pull mobs away\\Pay attention to the rare mob that patrols the building.
 Turn in [QT6025 Unfinished Business]
 Grind mobs around the Lumber mill until your HS is off cooldown\\[H]Use your Hearthstone
 Fly to [F Eastern Plaguelands][OC]
