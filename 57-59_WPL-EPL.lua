@@ -4,6 +4,13 @@ Guidelime.registerGuide([[
 [NX59-60Winterspring/Un'Goro/Silithus]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
+
+Head to Stormwind\\Turn in [QT5022] \\Accept [QA5048]
+[G52.48,41.95Stormwind City]Find Ol'Emma, she can roam around SW from time to time\\Turn in [QT5048] \\Accept [QA5050]
+Accept [QA6182]
+Turn in [QT6182] \\Accept [QA6183] \\Turn in [QT6183] \\Accept [QA6184]
+
+Before starting this segment make sure you have 2 stacks of Noggenfogger Elixir or some other form of slow fall [OC]
 Fly to [F Southshore][OC]
 [S]Set your HS to Southshore
 Fly to [F Western Plaguelands]
@@ -14,7 +21,7 @@ Accept [QA5097 All Along the Watchtowers]
 Turn in [QT6028 The Everlook Report]
 [G46.62,71.19 Western Plaguelands][QC5097,4-]Mark the fourth tower
 Accept [QA4984 The Wildlife Suffers Too]
-[QC4984-][O]Kill wolves as you quest, they share spawns with carrion lurkers
+[QC4984-][O]Kill wolves as you quest\\Make sure to kill Carrion Lurkers if you can't find any wolves since they share spawns points
 [G47.80,50.67,1 Western Plaguelands]Click on Mrs. Dalson's Diary\\Turn in [QA5058-][QT5058 Mrs. Dalson's Diary]
 Look for the *Wandering Skeleton* as you quest around Dalson's Tears\\Loot the *Dalson Outhouse Key*[O]
 [QC5219-][OC]Kill the cauldron lord
@@ -83,7 +90,7 @@ Turn in [QT6185 The Eastern Plagues] \\Accept [QA6186 The Blightcaller Cometh]
 Turn in [QT5152 Auntie Marlene] \\Accept [QA5153 A Strange Historian]
 [G49.68,76.78 Western Plaguelands][QC5153-]Click on the gravestone
 Accept [QA4971 A Matter of Time] \\Turn in [QT5153 A Strange Historian] \\Accept [QA5154 The Annals of Darrowshire]
-[G43.56,69.25,20 Western Plaguelands][QC5154-]Loot books inside the Andorhal town hall until you get the correct one\\The correct book's pages has a lighter shade of grey
+[G43.56,69.25,20 Western Plaguelands][QC5154-]Loot books inside the Andorhal town hall until you get the correct one\\The correct book's pages has a lighter shade of grey and sometimes the correct book won't spawn\\If you're unlucky, you have to keep looting bad tomes until the good one spawns
 [G46.32,62.67,60 Western Plaguelands][QC4971-]Use the temporal displacer on the grain silos
 *Quest turn in order here is important*\\Turn in [QT4971 A Matter of Time] \\Accept [QA4972 Counting Out Time] 
 Turn in [QT5154 The Annals of Darrowshire]
@@ -115,7 +122,7 @@ Turn in [QT6025 Unfinished Business]
 Grind mobs around the Lumber mill until your HS is off cooldown\\[H]Use your Hearthstone
 Fly to [F Eastern Plaguelands][OC]
 Turn in [QT5168 Heroes of Darrowshire] \\Turn in [QT5181 Villains of Darrowshire] \\Accept [QA5206 Marauders of Darrowshire]
-[G83.28,42.02,130 Eastern Plaguelands][QC5206-]Kill Scourge Champions\\Loot Fetid Skulls and use the Mystic Crystal
+[G83.28,42.02,130 Eastern Plaguelands][QC5206-]Kill Scourge Champions, loot Fetid Skulls and use the Mystic Crystal\\Scourge Champions share spawns with several different mobs, make sure to keep grinding mobs if you can't find any
 Turn in [QT5211 Defenders of Darrowshire] \\Turn in [QT5206 Marauders of Darrowshire] \\Accept [QA5941 Return to Chromie]
 Fly to [F Western Plaguelands]
 Turn in [QT5226 Return to Chillwind Point]

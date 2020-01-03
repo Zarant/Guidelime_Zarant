@@ -4,6 +4,7 @@ Guidelime.registerGuide([[
 [NX52-53Azshara]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
+
 Take the boat to Darkshore [OC]
 Fly to [F Teldrassil]
 Turn in [QT3661]

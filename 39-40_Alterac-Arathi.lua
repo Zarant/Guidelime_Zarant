@@ -9,16 +9,15 @@ Fly to [F Southshore][OC]
 
 Accept [QA659]
 
-Keep an eye out for Syndicate Assassins while in Southshore \\ ([QA522][O])
+Kill Syndicate Assassins in Southshore\\Accept/turn in [QA522-][QT522][O] \\Accept [QA523 Baron's Demise] \\The scripted event related to this quest might not start at all, skip this step if you have to
 Set your HS to [S Southshore]
 Go upstairs and turn in [QT1052 Down the Scarlet Path]
 Accept [QA500 Crushridge Bounty]
 Turn in [QT525 Further Mysteries] \\Accept [QA537 Dark Council] \\Accept [QA512 Noble Deaths]
-Skip this step if you haven't found the assassin's contract from the southshore RP event \\Turn in [G48.14,59.11Hillsbrad Foothills][QT522 Assassin's Contract][O] \\Accept [QA523 Baron's Demise][O]
 Skip this step if you haven't found the old history book in duskwood \\Turn in [G50.6,57.1Hillsbrad Foothills][QT538 Southshore] \\Accept [QA540 Preserving Knowledge]
 Turn in [QT602 Magical Analysis] \\Accept [QA603 Ansirem's Key]
 [G32.36,68.22,20Alterac Mountains]Head to ruins of alterac
-[QC543 -]Kill Grel'borg
+[QC543 -]Kill Grel'borg, he patrols around the ruins of alterac
 [QC540,2][O] Click on the bookshelf inside the town hall \\Skip this step if you don't have [QA540 Preserving Knowledge][O]
 [QC537,2 -]Kill Nagaz
 Click on the wooden chest on the ground \\Accept [QA551 The Ensorcelled Parchment]
@@ -66,7 +65,7 @@ Turn in [QT661 Hints of a New Plague?]
 [QC651,1 -]Loot the Burning Key
 Head to Stromgarde Keep\\Do [QC684 Wanted!  Marez Cowl] \\Use eagle eye to find her first, she has 2 different spawn locations\\Getting there can be tricky, you can skip this quest if necessary
 Turn in [QT651 Stones of Binding] \\Accept [QA652 Breaking the Keystone]
-[QC652 -]Use your eagle eye macro to find Fozruk\\Make sure to kill Sleeby and the rest of the kobolds first, you can kill one add at a time and reset the fight\\Kill Fozruk by kiting him around Refugee Point
+[QC652 -]Use your eagle eye macro to find Fozruk\\Make sure to kill Sleeby and the rest of the kobolds first, you can kill one add at a time and reset the fight\\Kill Fozruk by kiting him around Refuge Point
 Turn in [QT652 Breaking the Keystone] \\Accept [QA653 Myzrael's Allies]
 [G21.5,72.6,20Arathi Highlands]Head to Faldir's Cove, follow the path between the mountains and Stromgarde's southeastern wall
 Accept [QA663 Land Ho!]

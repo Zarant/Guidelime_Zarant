@@ -53,7 +53,7 @@ Fly to [F Searing Gorge]
 
 Guidelime.registerGuide([[
 [N50-51Searing Gorge]
-[NX51-52Hinterlands/WPL]
+[NX51-51Hinterlands]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Make sure you have 15 *Silk Cloth* on your bags before starting this segment[O]

@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
-[N51-52Hinterlands/WPL]
-[NX52-53Felwood/Feralas]
+[N51-51Hinterlands]
+[NX51-52WPL]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Fly to [F The Hinterlands][OC]
@@ -31,6 +31,14 @@ Grind mobs until your HS is off cooldown \\[H]Hearth to Aerie Peak
 Turn in [QT2880] \\Turn in [QT2877]
 Turn in [QT2989]
 
+Fly to [F Western Plaguelands]
+]], "Zarant")
+
+Guidelime.registerGuide([[
+[N51-52WPL]
+[NX52-53Felwood/Feralas]
+[GA Alliance]
+[D Alliance Hunter Leveling Guide]
 Fly to [F Western Plaguelands]
 Turn in [QT5066][OC]
 Turn in [QT5090][OC]
