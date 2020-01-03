@@ -4,6 +4,7 @@ Guidelime.registerGuide([[
 [NX40-40Dustwallow]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
+Make sure you have water breathing pots for this segment [OC]
 Fly to [F Southshore][OC]
 
 Accept [QA659]
@@ -65,9 +66,10 @@ Turn in [QT661 Hints of a New Plague?]
 [QC651,1 -]Loot the Burning Key
 Head to Stromgarde Keep\\Do [QC684 Wanted!  Marez Cowl] \\Use eagle eye to find her first, she has 2 different spawn locations\\Getting there can be tricky, you can skip this quest if necessary
 Turn in [QT651 Stones of Binding] \\Accept [QA652 Breaking the Keystone]
-[QC652 -]Use eagle eye to find Fozruk\\Make sure to kill Sleeby and the rest of the kobolds first
+[QC652 -]Use your eagle eye macro to find Fozruk\\Make sure to kill Sleeby and the rest of the kobolds first, you can kill one add at a time and reset the fight\\Kill Fozruk by kiting him around Refugee Point
 Turn in [QT652 Breaking the Keystone] \\Accept [QA653 Myzrael's Allies]
-Head to Faldir's Cove \\Accept [QA663 Land Ho!]
+[G21.5,72.6,20Arathi Highlands]Head to Faldir's Cove, follow the path between the mountains and Stromgarde's southeastern wall
+Accept [QA663 Land Ho!]
 Turn in [QT663 Land Ho!]
 Accept [QA662 Deep Sea Salvage]
 Accept [QA664 Drowned Sorrows][O]
@@ -75,7 +77,7 @@ Accept [QA665 Sunken Treasure]
 [QC665 -]Do the escort quest
 Turn in [QT665 Sunken Treasure] \\Accept [QA666 Sunken Treasure]
 [QC664-]Kill Nagas[O]
-[QC666 -]Look for Elven Gems underwater [O]
+[QC666 -]Look for Elven Gems underwater, use the goggles provided to track them on your map[O]
 [G23.39,85.09,1Arathi Highlands][QC662,2 -]Enter the ship through the stairs at the front side of the deck\\Loot the book inside the cauldron next to the stairs
 [G23.05,84.52,1Arathi Highlands][QC662,1 -]Move towards the back of the ship \\Loot the chart hanging on the ledge of the wooden ring that supports the ship's mast
 [G20.46,85.62,1Arathi Highlands][QC662,3 -]Enter the ship through the opening on the front side of the deck\\Loot the chart on top of a box next to a cannon
