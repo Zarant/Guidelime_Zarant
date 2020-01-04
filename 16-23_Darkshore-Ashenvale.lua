@@ -1,15 +1,15 @@
 
 Guidelime.registerGuide([[
-[N16-23Darkshore/Ashenvale]
+[N16-21Darkshore/Ashenvale]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-[NX23-24Wetlands(1)]
-
+[NX21-23Ashenvale]
+If you are starting this segment at level 16 you will have to grind about 2 full levels, make sure to kill every mob on your way to smooth it out[O]
 [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
 [G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
-[G39.99,78.46,40Darkshore]Grind your way south
-Kill any [QC986 Moonstalker Sire][O] you find
-[G20.93,60.93,160Felwood]Kill [QC1003 Grizzled Thistle Bears]
+Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears
+[G39.99,78.46,40Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
+[G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears], keep grinding fulborgs while waiting for respawns
 [G24.53,60.46Felwood][QT1003 Buzzbox 525]
 [G27,55.59Felwood]Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]
 [G27,55.59Felwood][QT952 Grove of the Ancients][A NightElf][OC]
@@ -20,6 +20,7 @@ Drop the scrying bowl on the ground \\Turn in [QT944 The Master's Glaive] \\Acce
 [QC945 -] Finish the escort quest
 [G27,55.59Felwood]Turn in [QT950 Return to Onu] \\Accept [QA951 Mathystra Relics]
 [G39.99,78.46,40Darkshore] Clear the fulborg camp
+Finish off [G39.99,78.46,40Darkshore][QC986], keep grinding bears and fulborgs while waiting for respawns
 Start killing crabs for [QC1138 Fine Crab Chunks][O] 
 [G18.41,49.43Felwood][QA4728 Beached Sea Creature]
 [G19.64,39.52Felwood][QA4722 Beached Sea Turtle]
@@ -36,7 +37,7 @@ Turn in [G21.63,18.15Felwood][QT2138 Cleansing of the Infected] \\Accept [QA2139
 [G50.74,34.68Darkshore]Head to the fulborg camp north, loot the Grain Stores
 Loot the Nut/Fruit Stores and use the bowl to summon [QC4763 Xabraxxis]
 [G52.46,36.90Darkshore]Cimb the ramp and kill the [QC2139 Den Mother]
-[G50.74,74.68Darkshore][XP19-4850 Grind mobs until your HS cooldown is <10min]
+[G50.74,74.68Darkshore][XP18.5 Grind to 18 + 50%] \\Make sure your HS cooldown is <10 min\\Skip this step if the area is too crowded
 Do [G7.52,23.26,158Winterspring][QC951 Mathystra Relics]
 Accept [G6.37,16.66Winterspring][QA2098 Gyromast's Retrieval]
 [QC2098,3 -] Kill crabs along the coast [O]
@@ -66,8 +67,8 @@ Turn in [G21.63,18.15Felwood][QT2139 Tharnariun's Hope]
 [QC731-]Escort Prospector Remtravel
 [G27,55.59Felwood]Turn in [QT951 Mathystra Relics]
 [G27.96,55.76Felwood]Accept [QA5321 The Sleeper Has Awakened] 
-Loot the [QC5321,1 chest] next to the quest giver
-[G29.58,1.67Ashenvale]Clear the fulborg camp before doing the next quest\\Make sure quest auto turn in is disabled \\Turn in [QT993 A Lost Master] \\Accept [QA994 Escape Through Force]
+[QC5321,1-]Loot the chest next to the quest giver
+[G29.58,1.67Ashenvale]Clear the fulborg camp before doing the next quest\\Turn in [QT993 A Lost Master] \\Accept [QA994] \\*DO NOT ACCEPT* [QS995]
 [QC994 Escort Volcor]
 
 Head to ashenvale[OC]
@@ -96,6 +97,7 @@ Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling
 Accept [G22.28,10.86The Barrens][QA1093 Super Reaper 6000]
 Do [G23.91,6.24,109The Barrens][QC1093 Super Reaper 6000]
 Do [G25.86,5.28,137The Barrens][QC1071 A Gnome's Respite]
+Grind to [XP20.5 20 + 50%]
 Turn in [G22.28,10.86The Barrens][QT1093 Super Reaper 6000]
 [G22.53,13.05The Barrens]Turn in [QT1071 A Gnome's Respite] \\Accept [QA1072 An Old Colleague] \\Accept [QA1075 A Scroll from Mauren]
 Turn in [G4.61,52.55Ashenvale][QT1056 Journey to Stonetalon Peak]
@@ -112,11 +114,17 @@ Turn in  [QT4731 Beached Sea Turtle]
 Turn in  [QT4732 Beached Sea Turtle]
 Turn in  [QT4733 Beached Sea Creature]
 Fly to [F Astranaar]
+]], "Zarant")
 
+Guidelime.registerGuide([[
+[N21-23Ashenvale]
+[GA Alliance]
+[D Alliance Hunter Leveling Guide]
+[NX23-24Wetlands(1)]
 
-Stable your pet, tame a level 20 wolf and learn *Bite 3*\\Ditch the wolf, tame a level 21 bear and learn *Claw 3*\\Run back to Astranaar and withdraw your main pet from stables[O][A Hunter]
-[S]Set your Hearthstone to Astranaar
-Kill [G39.54,36.47Ashenvale][QC1054Dal Bloodclaw], he patrols around the fulborg camps\\Don't go deep into the village, grind mobs until you have an opening
+Stable your pet\\Tame a Ghostpaw Runner and learn *Bite 3*\\Tame an Ashenvale Bear and learn *Claw 3*\\ \\Run back to Astranaar and withdraw your main pet from stables[O][A Hunter]
+Set your Hearthstone to [S Astranaar]
+Kill [G39.54,36.47Ashenvale][QC1054Dal Bloodclaw] \\Don't go deep into the village, grind mobs until you have an opening, he will eventually walk into the fulborg camp just outside the entrance of the village
 [G46.37,46.38,50Ashenvale][QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater
 [G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear] \\Accept [QA1034 The Ruins of Stardust]
 [G33.3,67.79,101Ashenvale][QC1034 -]Loot the bushes around the lake

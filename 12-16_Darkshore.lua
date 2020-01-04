@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N11-16Darkshore]
-[NX16-23Darkshore/Ashenvale]
+[NX16-21Darkshore/Ashenvale]
 [D Alliance Hunter Leveling Guide]
 [GA Alliance]
 
@@ -47,7 +47,7 @@ Accept [G18.1,18.48Felwood][QA963 For Love Eternal]
 [G33.70,42.45,15Darkshore] Run up to the docks then jump in the water at the intersection
 [G13.63,21.44Felwood][QC1001 -]Start working on darkshore threshers[OC]
 [G13.63,21.44Felwood][QC4681 Washed Ashore]
-[H Hearth to Auberdine][OC]
+[H]Hearth to Auberdine[OC]
 [G19.1,20.63Felwood][QT4681 Washed Ashore]
 
 Tame a level 14/15 cat [O][A Hunter]
@@ -80,17 +80,20 @@ Turn in [G19.98,14.4Felwood][QT958 Tools of the Highborne]
 Accept [G25.15,4.61Felwood][QA4723 Beached Sea Creature]
 Turn in [G25.19,1.29Felwood][QT1001 Buzzbox 411] \\Accept [G25.19,1.29Felwood][QA1002 Buzzbox 323]
 Turn in [G27.7,10.03Felwood][QT957 Bashal'Aran]
-[G5.49,36.64,144Winterspring]Kill [QC1002 Cats] and [QC2138 Bears] as you go[OC]
-[G5.49,36.64,144Winterspring][QC947 Loot mushrooms inside the cave]
+Kill [QC1002 Cats][OC] and [QC2138 Bears][OC] as you go
+[G5.49,36.64,144Winterspring]Head to the cave above the waterfall
+[QC947,1-]Loot the blue mushrooms on the ground[OC]
+[QC947,2-]Once you enter the cave, turn right and look for a yellow mushroom on the ground
+Finish off [QC947]
 Turn in [G4.82,27.18Winterspring][QT965 The Tower of Althalaxx] pt.1 \\Accept [QA966 The Tower of Althalaxx] pt.2
 [G6.06,28.81,154Winterspring][QC966 Kill cultists]
 Turn in [G4.82,27.18Winterspring][QT966 The Tower of Althalaxx] pt.2 \\Accept [G4.82,27.18Winterspring][QA967 The Tower of Althalaxx] pt.3
 [G1.42,26.89Winterspring] Finish off [QC1002]
 Turn in [G1.42,26.89Winterspring][QT1002 Buzzbox 323] \\Accept [G1.42,26.89Winterspring][QA1003 Buzzbox 525]
 [G50.81,25.50Darkshore]Use the [QC4762 Empty Sampling Tube] at the base of the waterfall
-[G44.18,20.6Darkshore]Start killing crabs your level for [QC1138 Fine Crab Chunks][OC] 
+[G44.18,20.6Darkshore]Kill *Reef Crawlers* for [QC1138 Fine Crab Chunks][OC] 
 Accept [G44.18,20.6Darkshore][QA4725 Beached Sea Turtle]
-Finish off [QC1138]
+Finish off [QC1138], you can skip this step and finish that later if the area is too crowded
 Death warp to Auberdine [OC]
 
 Turn in [G20.8,15.58Felwood][QT982 Deep Ocean, Vast Sea]
