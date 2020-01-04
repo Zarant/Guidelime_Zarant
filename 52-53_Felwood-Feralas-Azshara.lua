@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
-[N52-53Felwood/Feralas]
-[NX52-53Azshara]
+[N52-52Felwood]
+[NX52-53Feralas]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
@@ -39,7 +39,7 @@ Accept [QA5156]
 Accept [QA6131]
 Do [QC6131]
 Turn in [QT6131] \\Accept [QA8462]
-Grind fulborgs until you get unfriendly with Timbermaw Hold\\Keep grinding fulborgs until you have enough Mageweave for alliance cloth turn ins (240 total)
+Grind fulborgs until you get unfriendly with Timbermaw Hold\\ \\Keep grinding fulborgs until you have enough Mageweave for alliance cloth turn ins (12 stacks)\\You can skip the mageweave farm if you can afford to buy it from the AH
 [G35.16,59.77Felwood][QC5157-]Fill the empty canteen at the Jaedenar moonwell
 
 Do [QC5156]
@@ -68,11 +68,22 @@ Turn in [QT5156]
 --35%
 Run southeast to Azshara[OC]
 [G11.90,77.57Azshara]Fly to [F Ratchet]
-[V][O]Bank the follwing: \\Eridan's Vial\\Cenarion Beacon\\Slime jars
+[V][O]Bank the follwing: \\Eridan's Vial\\Cenarion Beacon\\Slime jars\\ \\[V]Withdraw *Pupellyverbos Port* from your bank
 Withdraw your pet from the stables [A Hunter][O]
-[S]Set your HS to Ratchet
-Take the boat to STV\\Turn in [QT836][O]\\Turn in [QA3721-][O][QT3721][O]\\Withdraw *Pupellyverbos Port* from your bank\\Turn in [QT580][O]\\[H][O]Hearth back to ratchet
+Set your HS to [S Ratchet]
+Take the boat to STV[OC]
+Turn in [QT836]
+Turn in [QA3721-][QT3721]
+Turn in [QT580]
+[H]Hearth back to ratchet
 Fly to [F Feathermoon]
+]], "Zarant")
+
+Guidelime.registerGuide([[
+[N52-53Feralas]
+[NX53-54Azshara]
+[GA Alliance]
+[D Alliance Hunter Leveling Guide]
 
 Accept [QA7733]
 [S]Set your HS to Feathermoon
@@ -90,9 +101,10 @@ Accept [QA2844]
 [G44.64,10.59Feralas][V]Give some bait to the gnoll guarding the Evoroot
 [L38.53,15.78Feralas][L37.76,12.22Feralas][L40.52,12.69Feralas][L39.91,9.47Feralas][QC2879-]Loot all 4 flames \\Right click on Troyas' Staff at the [G38.88,13.13Feralas]monolith
 Click on the monolith\\Turn in [QT2879] \\Accept [QA2942]
-Turn in [QT2844] \\Accept [QA2845]
 Grind harpies until your HS cooldown is <8 minutes
-[G42.38,22.00][QC2845-]Escort Shay
+Turn in [QT2844] \\Accept [QA2845]
+[QC2845,1-]Loot the chest next to the quest giver
+[G42.38,22.00Feralas][QC2845-]Escort Shay
 Turn in [QT2845]
 [G45.12,25.56Feralas][QC3909-]Talk to Gregan and trade in the Evoroot
 [OC]Death warp to Dire Maul, enter DM east (this is a pre requisite for another quest later) --reliquary of purity
@@ -103,7 +115,7 @@ Fly to [F Ratchet]
 ]], "Zarant")
 
 Guidelime.registerGuide([[
-[N52-53Azshara]
+[N53-54Azshara]
 [NX53-54Un'Goro Crater]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]

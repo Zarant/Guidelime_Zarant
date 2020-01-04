@@ -21,7 +21,7 @@ Accept [QA5097 All Along the Watchtowers]
 Turn in [QT6028 The Everlook Report]
 [G46.62,71.19 Western Plaguelands][QC5097,4-]Mark the fourth tower
 Accept [QA4984 The Wildlife Suffers Too]
-[QC4984-][O]Kill wolves as you quest\\Make sure to kill Carrion Lurkers if you can't find any wolves since they share spawns points
+[QC4984-][O]Kill wolves as you quest\\Make sure to kill Carrion Lurkers if you can't find any wolves since they share spawn points
 [G47.80,50.67,1 Western Plaguelands]Click on Mrs. Dalson's Diary\\Turn in [QA5058-][QT5058 Mrs. Dalson's Diary]
 Look for the *Wandering Skeleton* as you quest around Dalson's Tears\\Loot the *Dalson Outhouse Key*[O]
 [QC5219-][OC]Kill the cauldron lord

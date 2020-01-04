@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N39-40Alterac/Arathi]
-[NX40-40Dustwallow]
+[NX40-40Dustwallow Marsh]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Make sure you have water breathing pots for this segment [OC]

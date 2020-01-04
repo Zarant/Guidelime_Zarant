@@ -36,10 +36,9 @@ Fly to [F Western Plaguelands]
 
 Guidelime.registerGuide([[
 [N51-52WPL]
-[NX52-53Felwood/Feralas]
+[NX52-52Felwood]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-Fly to [F Western Plaguelands]
 Turn in [QT5066][OC]
 Turn in [QT5090][OC]
 Turn in [QT5091][OC]
