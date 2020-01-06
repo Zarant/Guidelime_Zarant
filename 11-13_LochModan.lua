@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N11-13Loch Modan]
 [NX11-16Darkshore]
 [D Alliance Hunter Leveling Guide]
-[GA Alliance]
+[GA Dwarf,Gnome]
 [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
 [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
 [G33.93,50.95Loch Modan][P Throw away your HS and unstuck, then get the flight path]

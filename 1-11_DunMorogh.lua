@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [D Alliance Hunter Leveling Guide]
-[GA Alliance]
+[GA Dwarf,Gnome]
 [N1-11Dun Morogh]
 [NX11-13Loch Modan]
 [D Alliance Hunter Leveling Guide]

@@ -74,7 +74,7 @@ Turn in [QT628 Excelsior]
 
 Do [QC604 The Bloodsail Buccaneers]
 [QC587-][QC576-]Kill more pirates
-Use eagle eye to find [QA624 Cortello's Riddle] \\It can spawn in any of the 3 ships south
+Use eagle eye to find [QA624 Cortello's Riddle] \\It's a small parchment that can spawn inside one of the 3 ships\\Right click the parchment and accept the quest from the item in your bag
 [QC609,3-]Kill Chucky "Ten Thumbs"
 [QC609,2-] Kill Jon-Jon the Crow \\[QC609,1-] Kill Maury "Club Foot" Wilkins\\[QC621-]Get 12 mixtures
 Do [G38.2,35.57,30Stranglethorn Vale][QC208 Big Game Hunter] \\Kite it towards the quest giver, keep hitting the adds to prevent them from resetting

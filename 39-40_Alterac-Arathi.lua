@@ -9,7 +9,7 @@ Fly to [F Southshore][OC]
 
 Accept [QA659]
 
-Kill Syndicate Assassins in Southshore\\Accept/turn in [QA522-][QT522][O] \\Accept [QA523 Baron's Demise] \\The scripted event related to this quest might not start at all, skip this step if you have to
+Kill Syndicate Assassins in Southshore\\Accept/turn in [QA522-][O][QT522][O] \\Accept [QA523 Baron's Demise][O] \\The scripted event related to this quest only happens once every several hours, skip this step if you have to
 Set your HS to [S Southshore]
 Go upstairs and turn in [QT1052 Down the Scarlet Path]
 Accept [QA500 Crushridge Bounty]

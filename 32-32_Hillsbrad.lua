@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [NX33-34Thousand Needles]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-As you quest through Hillsbrad pay attention to the syndicate assassin event in southshore \\If you manage to kill an assassin, turn in the [QA522-][QT522 Assassin's Contract] and skip the follow up[O]
+As you quest through Hillsbrad pay attention to the syndicate assassin event in southshore \\If you manage to kill an assassin, turn in the [QA522-][O][QT522 Assassin's Contract][O] and skip the follow up
 Fly to [F Southshore][OC]
 Accept [G52.41,55.96,20Hillsbrad Foothills][QA564 Costly Menace]
 Turn in [QT538]

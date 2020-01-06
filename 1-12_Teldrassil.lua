@@ -1,8 +1,8 @@
 
 Guidelime.registerGuide([[
-[N1-12Teldrassil Solo]
+[N1-11Teldrassil Solo]
 [NX11-16Darkshore]
-[GA Alliance]
+[GA NightElf]
 [NX12-20Darkshore/Ashenvale]
 [D Alliance Hunter Leveling Guide]
 
@@ -155,7 +155,6 @@ Turn in [QT930 The Glowing Fruit]
 [G38.31,34.36Teldrassil]Turn in [QT937 The Enchanted Glade]
 [OC]Turn in [QT938 Mist]
 Accept [QA940 Teldrassil]
-[XP12-1540 Grind harpies until you are 1540 xp away from level 12]
 Kill yourself and spirit rez at darnassus [OC]
 
 
@@ -174,7 +173,7 @@ Kill yourself and spirit rez at darnassus [OC]
 Guidelime.registerGuide([[
 [N1-12Teldrassil Duo]
 [NX11-16Darkshore]
-[GA Alliance]
+[GA NightElf]
 [D Alliance Hunter Leveling Guide]
 
 -- Shadowglen
