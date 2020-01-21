@@ -4,7 +4,9 @@ Guidelime.registerGuide([[
 [NX16-21Darkshore/Ashenvale]
 [D Alliance Hunter Leveling Guide]
 [GA Alliance]
-
+[G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil][A NightElf]
+[G58.39,94.01Teldrassil]Turn in [QT6341 The Bounty of Teldrassil] \\Accept [QA6342 Flight to Auberdine][A NightElf]
+[F Fly to Darkshore][OC][A NightElf]
 [A Dwarf,Human,Gnome][G19.1,20.63Felwood][P Get the Auberdine flight path]
 [G19.1,20.63Felwood]Accept [QA3524 Washed Ashore]
 [G19.27,19.14Felwood]Turn in [QT6342 Flight to Auberdine][A NightElf] \\Accept [QA6343 Return to Nessa][A NightElf]
@@ -23,7 +25,7 @@ Turn in [G19.13,21.39Felwood][QT983 Buzzbox 827] \\Accept [G19.13,21.39Felwood][
 Turn in [G19.1,20.63Felwood][QT3524 Washed Ashore pt.1] \\Accept [G19.1,20.63Felwood][QA4681 Washed Ashore pt.2]
 [G19.9,18.4Felwood]Accept [QA947 Cave Mushrooms]
 [G20.34,18.12Felwood]Accept [QA4811 The Red Crystal]
-Turn in [G21.63,18.15Felwood][QT2118 Plagued Lands] \\Accept [G21.63,18.15Felwood][QA2138 Cleansing of the Infected]
+Turn in [G21.63,18.15Felwood][QT2118 Plagued Lands][OC] \\Accept [G21.63,18.15Felwood][QA2138 Cleansing of the Infected][OC]
 Turn in [G22.24,18.22Felwood][QT984 How Big a Threat?] pt.1 \\Accept [QA985 How Big a Threat?] pt.2 \\Accept [G22.24,18.22Felwood][QA4761 Thundris Windweaver]
 Turn in [G19.98,14.4Felwood][QT4761 Thundris Windweaver] \\Accept [G19.98,14.4Felwood][QA4762 The Cliffspring River] \\Accept [G19.98,14.4Felwood][QA958 Tools of the Highborne] \\Accept [G19.98,14.4Felwood][QA954 Bashal'Aran]
 [V] Buy extra stacks of arrows, long grinding session ahead
@@ -61,10 +63,10 @@ Finish off [QC958 Tools of the Highborne]
 Turn in [G23.29,36.73Felwood][QT953 The Fall of Ameth'Aran]
 [XP14 Grind to level 14]
 Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [G31.29,24.14Felwood][QA4813 The Fragments Within][A Dwarf,Human,Gnome]
-Grind moonkins until you have enough small eggs to level cooking to 50 (about 6 stacks)
+Grind moonkins until you have enough small eggs to level cooking to 50 (about 5 and a half stacks)
 [L22.39,29.45Felwood][L45.8,49.0Darkshore] Grind to [XP15 level 15]
 
-
+Turn in [G21.63,18.15Felwood][QT2118 Plagued Lands] \\Accept [G21.63,18.15Felwood][QA2138 Cleansing of the Infected]
 Turn in [G22.24,18.22Felwood][QT985 How Big a Threat?] \\Accept [G22.24,18.22Felwood][QA986 A Lost Master]
 [G21.86,18.3Felwood] Go upstairs and accept [QA965 The Tower of Althalaxx] pt.1
 Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A Dwarf,Human,Gnome]
@@ -80,7 +82,7 @@ Turn in [G19.98,14.4Felwood][QT958 Tools of the Highborne]
 Accept [G25.15,4.61Felwood][QA4723 Beached Sea Creature]
 Turn in [G25.19,1.29Felwood][QT1001 Buzzbox 411] \\Accept [G25.19,1.29Felwood][QA1002 Buzzbox 323]
 Turn in [G27.7,10.03Felwood][QT957 Bashal'Aran]
-Kill [QC1002 Cats][OC] and [QC2138 Bears][OC] as you go
+Kill [QC1002 Cats][O] and [QC2138 Bears][O] as you go
 [G5.49,36.64,144Winterspring]Head to the cave above the waterfall
 [QC947,1-]Loot the blue mushrooms on the ground[OC]
 [QC947,2-]Once you enter the cave, turn right and look for a yellow mushroom on the ground
@@ -88,8 +90,7 @@ Finish off [QC947]
 Turn in [G4.82,27.18Winterspring][QT965 The Tower of Althalaxx] pt.1 \\Accept [QA966 The Tower of Althalaxx] pt.2
 [G6.06,28.81,154Winterspring][QC966 Kill cultists]
 Turn in [G4.82,27.18Winterspring][QT966 The Tower of Althalaxx] pt.2 \\Accept [G4.82,27.18Winterspring][QA967 The Tower of Althalaxx] pt.3
-[G1.42,26.89Winterspring] Finish off [QC1002]
-Turn in [G1.42,26.89Winterspring][QT1002 Buzzbox 323] \\Accept [G1.42,26.89Winterspring][QA1003 Buzzbox 525]
+Turn in [G1.42,26.89Winterspring][QT1002 Buzzbox 323] \\Accept [G1.42,26.89Winterspring][QA1003 Buzzbox 525] \\Skip this step if you don't have enough moonstalker fangs
 [G50.81,25.50Darkshore]Use the [QC4762 Empty Sampling Tube] at the base of the waterfall
 [G44.18,20.6Darkshore]Kill *Reef Crawlers* for [QC1138 Fine Crab Chunks][OC] 
 Accept [G44.18,20.6Darkshore][QA4725 Beached Sea Turtle]

@@ -20,7 +20,7 @@ Accept [G49.91,39.36Wetlands][QA469 Daily Delivery]
 Accept [QA276 Tramping Paws]
 Do [G61.91,71.32,168Wetlands][QC276 Tramping Paws]
 [G56.37,40.4Wetlands]Turn in [QT276 Tramping Paws] \\Accept [QA277 Fire Taboo]
-[G54.5,72.3,60Wetlands] Head to Loch Modan
+[G54.5,72.3,60Wetlands] Head to Loch Modan \\*OR*\\Use the website unstuck feature and skip the rest of this segment if you already have the Loch Modan FP
 
 Accept [G46.04,13.61Loch Modan][QA250 A Dark Threat Looms]
 [G56.05,13.23Loch Modan]Click on the [QT250 Suspicious Barrel] \\Accept [QA199 A Dark Threat Looms] pt.2

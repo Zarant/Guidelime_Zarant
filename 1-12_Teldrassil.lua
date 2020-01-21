@@ -1,9 +1,9 @@
 
 Guidelime.registerGuide([[
 [N1-11Teldrassil Solo]
+[NX11-14Dun Morogh/Loch Modan]
 [NX11-16Darkshore]
 [GA NightElf]
-[NX12-20Darkshore/Ashenvale]
 [D Alliance Hunter Leveling Guide]
 
 -- Shadowglen
@@ -163,15 +163,14 @@ Kill yourself and spirit rez at darnassus [OC]
 [OC][G57.55,46.73Darnassus][T Train staves]
 [G24.44,48.86Teldrassil]Turn in [QT935 Crown of the Earth] \\Turn in [QT940 Teldrassil] \\Accept [QA952 Grove of the Ancients]
 [G25.6,48.71Teldrassil]Turn in [QT6103 Training the Beast][A NightElf,Hunter]
-[G25.6,48.71Teldrassil][T]Train wing clip and serpent sting, skip the rest[A NightElf,Hunter][OC]
-[G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil]
-[G58.39,94.01Teldrassil]Turn in [QT6341 The Bounty of Teldrassil] \\Accept [QA6342 Flight to Auberdine][A NightElf]
-[F Fly to Darkshore]
+You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Head to darkshore and make up the xp loss by grinding later on
+
 ]], "Zarant")
 
 
 Guidelime.registerGuide([[
 [N1-12Teldrassil Duo]
+[NX11-14Dun Morogh/Loch Modan]
 [NX11-16Darkshore]
 [GA NightElf]
 [D Alliance Hunter Leveling Guide]
@@ -321,7 +320,5 @@ Kill yourself and spirit rez at darnassus [OC]
 [OC][G57.55,46.73Darnassus][T Train staves]
 [G24.44,48.86Teldrassil]Turn in [QT935 Crown of the Earth] \\Turn in [QT940 Teldrassil] \\Accept [QA952 Grove of the Ancients]
 [G25.6,48.71Teldrassil]Turn in [QT6103 Training the Beast][A NightElf,Hunter]
-[G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil]
-[G58.39,94.01Teldrassil]Turn in [QT6341 The Bounty of Teldrassil] \\Accept [QA6342 Flight to Auberdine][A NightElf]
-[F Fly to Darkshore]
+You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Head to darkshore and make up the xp loss by grinding later on
 ]], "Zarant")

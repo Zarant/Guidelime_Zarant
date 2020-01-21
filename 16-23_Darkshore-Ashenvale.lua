@@ -8,9 +8,9 @@ If you are starting this segment at level 16 you will have to grind about 2 full
 [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
 [G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
 Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears
-[G39.99,78.46,40Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
+[G39.99,78.46,55Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
 [G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears], keep grinding fulborgs while waiting for respawns
-[G24.53,60.46Felwood][QT1003 Buzzbox 525]
+Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]
 [G27,55.59Felwood]Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]
 [G27,55.59Felwood][QT952 Grove of the Ancients][A NightElf][OC]
 [G22.36,3.98Ashenvale] [QC944 Enter The Master's Glaive] and clear mobs around the altar in the center
@@ -19,9 +19,8 @@ Drop the scrying bowl on the ground \\Turn in [QT944 The Master's Glaive] \\Acce
 [G22.24,2.52Ashenvale]Click on the book on top of the pedestal \\Turn in [QT949 The Twilight Camp] \\Accept[QA950 Return to Onu]
 [QC945 -] Finish the escort quest
 [G27,55.59Felwood]Turn in [QT950 Return to Onu] \\Accept [QA951 Mathystra Relics]
-[G39.99,78.46,40Darkshore] Clear the fulborg camp
-Finish off [G39.99,78.46,40Darkshore][QC986], keep grinding bears and fulborgs while waiting for respawns
-Start killing crabs for [QC1138 Fine Crab Chunks][O] 
+[G39.99,78.46,40Darkshore] Clear the fulborg camp and look for moonstalkers while you do it
+Start killing crabs along the coast for [QC1138 Fine Crab Chunks][O] 
 [G18.41,49.43Felwood][QA4728 Beached Sea Creature]
 [G19.64,39.52Felwood][QA4722 Beached Sea Turtle]
 
@@ -37,7 +36,8 @@ Turn in [G21.63,18.15Felwood][QT2138 Cleansing of the Infected] \\Accept [QA2139
 [G50.74,34.68Darkshore]Head to the fulborg camp north, loot the Grain Stores
 Loot the Nut/Fruit Stores and use the bowl to summon [QC4763 Xabraxxis]
 [G52.46,36.90Darkshore]Cimb the ramp and kill the [QC2139 Den Mother]
-[G50.74,74.68Darkshore][XP18.5 Grind to 18 + 50%] \\Make sure your HS cooldown is <10 min\\Skip this step if the area is too crowded
+[G50.74,74.68Darkshore]Grind to [XP18.5 18 + 50%] \\Make sure your HS cooldown is <10 min\\Skip this step if the area is too crowded
+Turn in [G1.42,26.89Winterspring][QT1002 Buzzbox 323] \\Accept [G1.42,26.89Winterspring][QA1003 Buzzbox 525]
 Do [G7.52,23.26,158Winterspring][QC951 Mathystra Relics]
 Accept [G6.37,16.66Winterspring][QA2098 Gyromast's Retrieval]
 [QC2098,3 -] Kill crabs along the coast [O]
@@ -65,6 +65,7 @@ Turn in [G21.63,18.15Felwood][QT2139 Tharnariun's Hope]
 [G13.97,4.1Ashenvale]Accept [QA4733 Beached Sea Creature]
 [G18.08,64.03Felwood]Start the escort quest\\Turn in [QT729 The Absent Minded Prospector] pt.1 \\ Accept [QA731 The Absent Minded Prospector] pt.2 
 [QC731-]Escort Prospector Remtravel
+Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]
 [G27,55.59Felwood]Turn in [QT951 Mathystra Relics]
 [G27.96,55.76Felwood]Accept [QA5321 The Sleeper Has Awakened] 
 [QC5321,1-]Loot the chest next to the quest giver

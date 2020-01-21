@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [NX27-29Wetlands(2)]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-
+If you used the unstuck feature to port to SW do the following route:\\>Mage quarter (Scroll from Mauren)\\>Cathedral District/SW Keep (Speaking of fortitude)\\>Buy Seasoning Hebs[O]
 Take the tram to Stormwind [OC]
 [G55.21,7.04Stormwind City] Buy a [V]*Bronze Tube* if you haven't[OC]
 Accept [G45.69,38.42Stormwind City][QA343 Speaking of Fortitude]
@@ -150,8 +150,6 @@ If you haven't found a bronze tube, run to burning steppes, die on purpose, buy 
 [G33.5,48.96Redridge Mountains][QT19 Tharil'zun]
 [G31.53,57.85Redridge Mountains][QT128 Blackrock Bounty]
 Fly to [F Stormwind]
-
-
 
 ]], "Zarant")
 
