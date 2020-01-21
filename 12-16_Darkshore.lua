@@ -82,7 +82,8 @@ Turn in [G19.98,14.4Felwood][QT958 Tools of the Highborne]
 Accept [G25.15,4.61Felwood][QA4723 Beached Sea Creature]
 Turn in [G25.19,1.29Felwood][QT1001 Buzzbox 411] \\Accept [G25.19,1.29Felwood][QA1002 Buzzbox 323]
 Turn in [G27.7,10.03Felwood][QT957 Bashal'Aran]
-Kill [QC1002 Cats][O] and [QC2138 Bears][O] as you go
+[QC1002-]Kill any tipe of Moonstalker[O] 
+Do [QC2138][O]
 [G5.49,36.64,144Winterspring]Head to the cave above the waterfall
 [QC947,1-]Loot the blue mushrooms on the ground[OC]
 [QC947,2-]Once you enter the cave, turn right and look for a yellow mushroom on the ground
