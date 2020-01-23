@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N24-27Redridge/Duskwood]
-[NX27-29Wetlands(2)]
+[NX27-29Wetlands/Hillsbrad]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 If you used the unstuck feature to port to SW do the following route:\\>Mage quarter (Scroll from Mauren)\\>Cathedral District/SW Keep (Speaking of fortitude)\\>Buy Seasoning Hebs[O]
@@ -47,7 +47,8 @@ Do [G23.29,35.83,148Redridge Mountains][QC124 A Baying of Gnolls]
 Do [G27.65,21.38Redridge Mountains][QC126 Howling in the Hills]
 [L56.8,50.86Redridge Mountains][QC150 -][O][QC127 -][O]Kill murlocs
 [G61.76,43.51Redridge Mountains][QC20 -]Prioritize killing orcs\\Once you clear the camp, kill murlocs southwest while you wait for respawns
-Turn in [G33.5,48.96Redridge Mountains][QT20 Blackrock Menace] 
+Turn in [G33.5,48.96Redridge Mountains][QT20 Blackrock Menace]
+Turn in [QT89 The Everstill Bridge]
 [G30.97,47.27Redridge Mountains][QT126 Howling in the Hills]
 Turn in [G27.72,47.38Redridge Mountains][QT127 Selling Fish] \\Turn in [G27.72,47.38Redridge Mountains][QT150 Murloc Poachers]
 [G15.27,71.45Redridge Mountains][QT129 A Free Lunch]
@@ -55,7 +56,7 @@ Turn in [G27.72,47.38Redridge Mountains][QT127 Selling Fish] \\Turn in [G27.72,4
 
 --Duskwood - 1st pass [OC]
 Speak with Madame Eva\\Accept [G75.81,45.29Duskwood][QA66 The Legend of Stalvan] \\Accept [G75.81,45.29Duskwood][QA101 The Totem of Infliction]
-Speak with Chief Grual \\Accept [G73.88,43.45Duskwood][QA90 Seasoned Wolf Kabobs]
+Speak with Chief Grual \\Accept [G73.88,43.45Duskwood][QA90 Seasoned Wolf Kabobs] \\You need 50 cooking to accept this quest
 Set your hearth to [S Duskwood]
 Head towards the Town Hall [OC]
 Accept [G73.59,46.89Duskwood][QA56 The Night Watch]
@@ -67,7 +68,7 @@ Accept [G79.8,48.02Duskwood][QA174 Look To The Stars]
 Turn in [G79.8,48.02Duskwood][QT174 Look To The Stars] \\Skip this step if you haven't found a bronze tube yet
 Accept [G79.8,48.02Duskwood][QA175 Look To The Stars]
 [G81.46,59.02,30Duskwood] Head south towards the chapel \\Turn in [G81.98,59.08Duskwood][QT175 Look To The Stars] \\Accept [QA177 Look To The Stars]
-[QC177 -]Kill the Insane Ghoul
+[QC177 -]Kill the Insane Ghoul inside the chapel
 Do [G79.4,70.77,166Duskwood][QC56 The Night Watch]
 Accept [G97.18,65.28Westfall][QA245 Eight-Legged Menaces]
 Start saving [QC90 Lean Wolf Flank] and [QC93 Gooey Spider Leg] [O]

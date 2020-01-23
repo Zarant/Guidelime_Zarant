@@ -15,7 +15,7 @@ Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
 [T] Train first aid at the cathedral [O]
 
 [T][O]If you get level 30 turning in the next few quests in SW, remember to buy class/pet skills
-Accept [QA1274 The Missing Diplomat] pt.1 \\Turn in [QA293 Cleansing the Eye]
+Accept [QA1274 The Missing Diplomat] pt.1 \\Turn in [QT293 Cleansing the Eye]
 
 Turn in [QT1274 The Missing Diplomat] pt.1 \\Accept [QA1241 The Missing Diplomat] pt.2
 
@@ -23,8 +23,13 @@ Turn in [QT1241 The Missing Diplomat] pt.2 \\Accept [QA1242 The Missing Diplomat
 
 Turn in [QT1242 The Missing Diplomat] pt.3  \\Accept [QA1243 The Missing Diplomat] pt.4
 
-Fly to [F Duskwood]
-Accept [QA181 Look To The Stars]
+Fly to [F Duskwood][OC]
+Accept [G79.8,48.02Duskwood][QA174 Look To The Stars] \\Turn in [QT174 Look To The Stars] \\Skip this step if you haven't found a bronze tube yet
+Accept [G79.8,48.02Duskwood][QA175 Look To The Stars] pt.2
+[G81.46,59.02,30Duskwood] Head south towards the chapel \\Turn in [G81.98,59.08Duskwood][QT175 Look To The Stars] pt.2 \\Accept [QA177 Look To The Stars] pt.3
+[QC177 -]Kill the Insane Ghoul inside the chapel
+Turn in [QT177] pt.3
+Accept [QA181 Look To The Stars] pt.4
 Accept [QA173 Worgen in the Woods]
 Accept [QA58 The Night Watch]
 Set your HS to [S Darkshire]

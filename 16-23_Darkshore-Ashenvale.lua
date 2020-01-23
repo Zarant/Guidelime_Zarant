@@ -121,7 +121,7 @@ Guidelime.registerGuide([[
 [N21-23Ashenvale]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-[NX23-24Wetlands(1)]
+[NX23-24Wetlands]
 
 Stable your pet\\Tame a Ghostpaw Runner and learn *Bite 3*\\Tame an Ashenvale Bear and learn *Claw 3*\\ \\Run back to Astranaar and withdraw your main pet from stables[O][A Hunter]
 Set your Hearthstone to [S Astranaar]

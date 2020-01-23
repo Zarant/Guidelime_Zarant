@@ -1,6 +1,6 @@
 
 Guidelime.registerGuide([[
-[N27-29Wetlands(2)]
+[N27-29Wetlands/Hillsbrad]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 --[A Dwarf,Gnome,Human][NX28-30Ashenvale]
@@ -9,6 +9,7 @@ Fly to [F Stormwind][OC]
 Turn in [QT269] \\Accept [QA270]
 Accept [G40.55,30.91Stormwind City][QA2923 Tinkmaster Overspark]
 Take the tram to Ironforge [OC]
+Turn in [QT1072]
 [G69.54,50.32Ironforge]Turn in [QT2923 Tinkmaster Overspark]
 Fly to [F Wetlands][OC]
 Accept [G10.89,59.66,20Wetlands][QA289 The Cursed Crew]
@@ -71,11 +72,12 @@ Turn in [G49.91,18.21,20Wetlands][QT633 The Thandol Span] \\Accept [QA634 Plea T
 Turn in [G45.83,47.55,20Arathi Highlands][QT634 Plea To The Alliance]
 Get the [P Arathi Highlands] FP
 [G26.99,58.84Arathi Highlands][V] Buy all 3 first aid books inside Stromgarde [OC]
-[G20.08,29.74,60Arathi Highlands]Head to Southshore [OC] --<<
+[G20.08,29.74,65Arathi Highlands]Head to Southshore
 Turn in [G52.13,58.73,20Hillsbrad Foothills][QT647 MacKreel's Moonshine]
 Get the [P Southshore] FP
 Do the murloc quests in Southshore until you are at least [XP29.55 50% into level 29] [O]
 Stable your pet and head east \\Tame a spider, learn bite rank 4 [A Hunter]
+Kill turtles along the river and save turtle meat for later, don't go out of your way to kill them [OC]
 [H]Hearth to Menethil Harbor[OC]
 Turn in [G10.58,60.59,20Wetlands][QT292 The Eye of Paleth] \\Accept [QA293 Cleansing the Eye]
 Accept [QA321 Lightforge Iron]

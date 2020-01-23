@@ -1,6 +1,6 @@
 
 Guidelime.registerGuide([[
-[N23-24Wetlands(1)]
+[N23-24Wetlands]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [NX24-27Redridge/Duskwood]
