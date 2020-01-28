@@ -84,7 +84,8 @@ Head to ashenvale[OC]
 Save *Gooey Spider Leg* and *Lean Wolf Flank* [O]
 [G18,59.8Ashenvale][T] Train *Growl 3* and *Aspect of the Cheetah*[A Hunter]
 [G34.4,48Ashenvale]Get the [P Astranaar] Flight Path 
-Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand]
+Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand] 
+--Accept [QA1134 Pridewings of Stonetalon]
 Accept [G34.89,49.79Ashenvale][QA1070 On Guard in Stonetalon]
 Accept [G35.76,49.1Ashenvale][QA1056 Journey to Stonetalon Peak]
 Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling the Threat] 
@@ -93,6 +94,7 @@ Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling
 
 
 [G42.5,71.7,50Ashenvale] Head to stonetalon
+--[QC1134-][O]Kill all wyverns you encounter
 [G22.71,12.91The Barrens]Turn in [QT1070 On Guard in Stonetalon] \\Accept [QA1085 On Guard in Stonetalon]
 [G22.53,13.05The Barrens]Turn in [QT1085 On Guard in Stonetalon] \\Accept [QA1071 A Gnome's Respite]
 Accept [G22.28,10.86The Barrens][QA1093 Super Reaper 6000]
@@ -101,6 +103,7 @@ Do [G25.86,5.28,137The Barrens][QC1071 A Gnome's Respite]
 Grind to [XP20.5 20 + 50%]
 Turn in [G22.28,10.86The Barrens][QT1093 Super Reaper 6000]
 [G22.53,13.05The Barrens]Turn in [QT1071 A Gnome's Respite] \\Accept [QA1072 An Old Colleague] \\Accept [QA1075 A Scroll from Mauren]
+--Do [QC1134 Pridewings of Stonetalon]
 Turn in [G4.61,52.55Ashenvale][QT1056 Journey to Stonetalon Peak]
 Get the [P Stonetalon Peak] Flight Path
 Hearth to [H Auberdine]
@@ -124,6 +127,7 @@ Guidelime.registerGuide([[
 [NX23-24Wetlands]
 
 Stable your pet\\Tame a Ghostpaw Runner and learn *Bite 3*\\Tame an Ashenvale Bear and learn *Claw 3*\\ \\Run back to Astranaar and withdraw your main pet from stables[O][A Hunter]
+--Turn in [QT1134 Pridewings of Stonetalon]
 Set your Hearthstone to [S Astranaar]
 Kill [G39.54,36.47Ashenvale][QC1054Dal Bloodclaw] \\Don't go deep into the village, grind mobs until you have an opening, he will eventually walk into the fulborg camp just outside the entrance of the village
 [G46.37,46.38,50Ashenvale][QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater

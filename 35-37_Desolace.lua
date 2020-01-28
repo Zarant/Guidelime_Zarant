@@ -17,7 +17,7 @@ Accept [QA1437 Vahlarriel's Search]
 Turn in [QT6141 Brother Anton][OC]
 Accept [QA261 Down the Scarlet Path]
 Turn in [QT1453 Reclaimers' Business in Desolace] \\Accept [QA1454 The Karnitol Shipwreck] \\Accept [QA1458 Reagents for Reclaimers Inc.] 
-Accept [QA1387 Centaur Bounty]
+Accept [QA1387 Centaur Bounty] \\Accept [QA1385 Brutal Politics]
 --Accept [QA1385]
 [QC1458 -]Kill Satyrs
 Turn in [QT1458 Reagents for Reclaimers Inc.] \\Accept [QA1459 Reagents for Reclaimers Inc.]
@@ -37,7 +37,7 @@ Accept the escort quest [QA1440 Return to Vahlarriel]
 [QC1440 -] Escort Dalinda Malem
 Accept [QA5501 Bone Collector]
 Turn in [QT5741 Sceptre of Light] \\Accept [QA6027 Book of the Ancients]
-[QC6161,1 -] Murder some crab people
+[G33.1,29.8,130Desolace][QC6161,1 -] Murder some crab people
 [QC6161,2 -] Kill nagas [O]
 [QC1456 -] Kill Sea Witches/Tidehunters [O]
 [G28.26,6.57Desolace][QC6027 -] Click on the naga statue
@@ -48,10 +48,13 @@ Accept [QA6134 Ghost-o-plasm Round Up]
 Do [QC5501 Bone Collector][O]
 Accept [QA5561 Kodo Roundup]
 Do [QT5561 Kodo Roundup][O] \\Grind mobs on your way back and forth\\Be on the lookout for the kodos that patrol next to the quest giver
+[QC1459,2-]Make sure you have 3 Aged Kodo Hides before leaving the graveyard
 [G34.88,85.38,160Desolace][QC1387 -] Kill centaurs
-Kill centaurs until you get *friendly* rept. with Magram centaur \\Keep grinding mobs until your HS is off cooldown\\ Hearth back to [H Nijel's Point]
+[QC1385-]Kill centaurs until you get *friendly* rep. with Magram centaur 
+[G28.70,82.10,70Desolace][QC1459,1-]Head west and finish grinding level 38/39 scorpids 
+Keep grinding mobs until your HS is off cooldown\\ Hearth back to [H Nijel's Point]
 Turn in [QT1456 The Karnitol Shipwreck] \\Accept [QA1457 The Karnitol Shipwreck] \\Turn in [QT1459 Reagents for Reclaimers Inc.] \\Accept [QA1466 Reagents for Reclaimers Inc.]
-Turn in [QT1387 Centaur Bounty] \\Accept [QA1385 Brutal Politics]
+Turn in [QT1387 Centaur Bounty]
 Turn in [QT1440 Return to Vahlarriel]
 Turn in [QT5501 Bone Collector]
 Turn in [QT1385 Brutal Politics] \\Accept [QA1386 Assault on the Kolkar]

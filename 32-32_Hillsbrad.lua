@@ -26,7 +26,7 @@ Turn in [G51.46,58.38,20Hillsbrad Foothills][QT562 Stormwind Ho!] \\Accept [QA56
 [G30.92,84.58,100Alterac Mountains]Do [QC564 Costly Menace]
 Click on the scroll on top of the table \\Accept [G58.31,67.92,20Alterac Mountains][QA510 Foreboding Plans] \\Accept [QA511 Encrypted Letter]
 Do [G58.3,67.97,88Alterac Mountains][QC505 Syndicate Assassins]
-[QC555,1 -] Kill turtles along the river
+[G69.3,12.4,60Hillsbrad Foothills][QC555,1 -] Kill turtles along the river
 [G42.93,85.06Western Plaguelands]Get the [P Western Plaguelands] FP
 Fly to [F Southshore]
 

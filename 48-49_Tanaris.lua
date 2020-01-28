@@ -72,8 +72,8 @@ Get the [P Un'Goro Crater] FP
 [QC4141-][O]Kill level 48-50 Lashers in northeastern Un'goro
 --[QC3882-][O]Kill Diametradons
 Turn in [QT4290] \\Accept [QA4291]
-Do [QC4291] by stepping on a raptor nest
-Turn in [QC4291] \\Accept [QA4289]
+Do [G67.3,73.1Un'Goro Crater][G66.6,66.7Un'Goro Crater][QC4291] by stepping on a raptor nest
+Turn in [QT4291] \\Accept [QA4292]
 Finish off [QC4141]
 Grind raptors until you find *A Mangled Journal* \\Accept [QA3884]
 Make sure you have 7 crystals of each color\\(blue, yellow, green, red)
@@ -87,5 +87,5 @@ Fly to [F Un'Goro Crater]
 Turn in [QT3882]
 Turn in [QT4141] \\Accept [QA4142]
 
-Fly to [F Ratchet]
+Fly to [F Ratchet] and take the boat to STV
 ]], "Zarant")
