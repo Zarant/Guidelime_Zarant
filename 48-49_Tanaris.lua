@@ -84,8 +84,8 @@ Turn in [QT3362]
 Turn in [QT2606] \\Accept [QA2641]
 Accept [QA162]
 Fly to [F Un'Goro Crater]
-Turn in [QT3882]
+--Turn in [QT3882]
 Turn in [QT4141] \\Accept [QA4142]
 
-Fly to [F Ratchet] and take the boat to STV
+Fly to [F Ratchet] and take the boat to STV\\*OR*\\Use the website unstuck request to port to stormwind and train skills/pet skills
 ]], "Zarant")

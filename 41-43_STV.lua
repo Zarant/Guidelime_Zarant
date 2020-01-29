@@ -26,7 +26,7 @@ Turn in [QT212 A Meal Served Cold]
 
 Fly to [F Booty Bay]
 Turn in [QT1116 Dream Dust in the Swamp] at the top floor
-Accept [QA587 Up to Snuff] at the top floor\\Accept [QA209 Skullsplitter Tusks]
+Accept [QA209 Skullsplitter Tusks] at the top floor
 Turn in [QT669 Sunken Treasure]
 Turn in [QT603 Ansirem's Key] at the middle floor \\Accept [QA610 "Pretty Boy" Duncan]
 Accept [QA600 Venture Company Mining] \\Accept [QA621 Zanzil's Secret]
@@ -42,10 +42,10 @@ Accept [QA595 The Bloodsail Buccaneers]
 Kill [QC610 "Pretty Boy" Duncan] \\Click on the map on top of a barrel\\Turn in [QT595 The Bloodsail Buccaneers] \\Accept [QA597 The Bloodsail Buccaneers]
 Turn in [QT597 The Bloodsail Buccaneers] \\Accept [QA599 The Bloodsail Buccaneers]
 Turn in [QT610 "Pretty Boy" Duncan] at the middle floor \\Accept [QA611 The Curse of the Tides]
+Accept [QA587 Up to Snuff] at the top floor
 Turn in [QT599 The Bloodsail Buccaneers] 
 Accept [QA576 Keep An Eye Out]
 
-Do [G27.27,62.11,184Stranglethorn Vale][QC617 Akiris by the Bundle]
 Do [G33.58,66.24,150Stranglethorn Vale][QC606 Scaring Shaky] \\Save Gorilla Fangs for later
 Do [G28.73,44.84,70Stranglethorn Vale][QC197 Raptor Mastery] \\Tethis spawns in a random location
 Do [G41.65,43.69,185Stranglethorn Vale][QC600 Venture Company Mining]
@@ -63,15 +63,14 @@ Turn in [QT193 Panther Mastery]\\Turn in [QT197 Raptor Mastery] \\Accept [QA208 
 Turn in [QT600 Venture Company Mining]
 Turn in [QT209 Skullsplitter Tusks] at the top floor
 Accept [QA604 The Bloodsail Buccaneers] \\Turn in [QT611 The Curse of the Tides]
-Turn in [QT617 Akiris by the Bundle] \\Accept [QA623 Akiris by the Bundle]
 Bank the *Bundle of Akiris Reeds*\\Withdraw *Khadgar's Essays on Dimensional Convergence* if you have it[O]
 Withdraw Green Hills pages from your bank\\Ch.1: 1,4,6,8\\Ch.2: 10,11,14,16\\Ch.3: 18,20,21,24\\Ch.4: 25,26,27 [O]
 Turn in [QT606 Scaring Shaky] \\Accept [QA607 Return to MacKinley]
 Turn in [QT607 Return to MacKinley] \\Accept [QA609 Voodoo Dues]
 Turn in [QT628 Excelsior]
 
-
-
+[QC587-][O]Kill every pirate you see
+Do [G27.27,62.11,184Stranglethorn Vale][QC617 Akiris by the Bundle]
 Do [QC604 The Bloodsail Buccaneers]
 [QC587-][QC576-]Kill more pirates
 Use eagle eye to find [QA624 Cortello's Riddle] \\It's a small parchment that can spawn inside one of the 3 ships\\Right click the parchment and accept the quest from the item in your bag
@@ -90,8 +89,9 @@ Run to Swamp of Sorrows \\Nethergarde supplies has a 1hr timer, be mindful of th
 Turn in [QT624 Cortello's Riddle] \\Accept [QA625 Cortello's Riddle]
 [QC1364-]Kill all swamp creatures you see [O]
 Accept [QA1398 Driftwood]
-[QC1398-]Loot 8 pieces of driftwood along the coast [O]
+[G76.47,5.11,70Swamp of Sorrows][QC1398-]Loot 8 pieces of driftwood along the coast [OC]
 [G76.47,5.11,70Swamp of Sorrows][QC1258-]Get some crab legs
+Finish off [QC1398]
 [G14.97,37.31,70Swamp of Sorrows]Finish off [QC1364 Mazen's Behest]
 Turn in [QT1398 Driftwood] \\Accept [QA1425 Deliver the Shipment]
 Run to Blasted Lands [OC]
@@ -105,6 +105,7 @@ Turn in [QT587 Up to Snuff] \\Accept [QA2864 Tran'rek]
 --Accept [QA1117 Rumors for Kravel]
 Turn in [QT604 The Bloodsail Buccaneers]
 Turn in [QT621 Zanzil's Secret] \\Accept [QA1119]
+Turn in [QT617 Akiris by the Bundle] \\Accept [QA623 Akiris by the Bundle]
 Bank your gorilla fangs / Carfully folded note [OC]
 Withdraw the following: Bundle of Akiris Reeds\\Seaforium Booster[OC]
 Accept [QA2872] 

@@ -88,7 +88,7 @@ Turn in [QT2969 Freedom for All Creatures] \\Accept [QA2970 Doling Justice]
 Do [G19.7,85.85,150The Barrens][QC2970 Doling Justice]
 Turn in [QT2970 Doling Justice] \\Accept [QA2972 Doling Justice]
 Click on the 2 pouches hanging on the tree\\Turn in [QT4131 The Woodpaw Gnolls] \\Accept [QA4135 The Writhing Deep]
-Click on the Undelivered Parcel in your bags\\Accept [QA4281 Thalanaar Delivery]
+Click on the Undelivered Parcel in your bags\\Accept [QA4281 Thalanaar Delivery][O]
 Turn in [QT4135 The Writhing Deep] \\Accept [QA4265 Freed from the Hive]
 [QC4265-]Wait for the RP sequence to end
 Grind mobs until your HS is off cooldown\\[H]Hearth to Feathermoon
@@ -100,7 +100,7 @@ Turn in [QT2982 The High Wilderness] \\Accept [QA3445 The Sunken Temple]
 Turn in [QT2821 The Mark of Quality]
 [V]Restock/resupply
 Fly to [F Thalanaar]
-Turn in [QT4281]
+Turn in [QA4281-][QT4281]
 Fly to [F Tanaris]
 
 ]], "Zarant")
