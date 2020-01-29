@@ -39,6 +39,7 @@ Turn in [QT1116] \\Accept [QA1117]
 
 Fly to [F Stormwind]
 
+Withdraw all quest items that you banked in the previous segment[O]
 Bank *Khadgar's Essays on Dimensional Convergence* if you have it[O]
 Accept [QA543 The Perenolde Tiara]
 Turn in [QT1448 In Search of The Temple] \\Accept [QA1449]

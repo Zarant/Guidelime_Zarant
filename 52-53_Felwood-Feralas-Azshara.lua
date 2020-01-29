@@ -11,7 +11,7 @@ Turn in [QT3661]
 Accept [QA978][OC]
 Turn in [QT2944] \\Accept [QA2943]
 [V][O]Bank the follwing: \\Janice's Parcel\\Violet Tragan\\Pupellyverbos Port\\Flare gun\\Drawing kit
-[V][O]Withdraw the following:\\Jer'kai's Signet Ring\\Raschal's Report\\Insect Analysis Report\\Linken's Training Sword
+[V][O]Withdraw the following:\\Jer'kai's Signet Ring\\Raschal's Report\\Insect Analysis Report\\Linken's Training Sword\\Package of Empty Ooze Containers
 [T]Train skills [O]
 [V][O]Restock on supplies, long grinding session ahead
 --Sunken Temple class quest
@@ -45,7 +45,7 @@ Grind fulborgs until you get unfriendly with Timbermaw Hold\\ \\Keep grinding fu
 Do [QC5156]
 [G39.07,22.31Felwood]Kill Xavaric\\Accept [QA939]
 Do [QC4906] \\Do [QC939]
-Do [QC4101]
+Do [G56.1,17.0,70Felwood][QC4101]
 [V]Vendor stuff, you gonna spirit rez 3 times on the next segment[OC]
 [G62.50,24.24Felwood]Get the [P Felwood] FP
 Turn in [QT8462]
@@ -68,15 +68,7 @@ Turn in [QT5156]
 --35%
 Run southeast to Azshara[OC]
 [G11.90,77.57Azshara]Fly to [F Ratchet]
-[V][O]Bank the follwing: \\Eridan's Vial\\Cenarion Beacon\\Slime jars\\ \\[V]Withdraw *Pupellyverbos Port* from your bank
-Withdraw your pet from the stables [A Hunter][O]
-Set your HS to [S Ratchet]
-Take the boat to STV[OC]
-Turn in [QT836]
-Turn in [QA3721-][QT3721]
-Turn in [QT580]
-[H]Hearth back to ratchet
-Fly to [F Feathermoon]
+
 ]], "Zarant")
 
 Guidelime.registerGuide([[
@@ -85,6 +77,16 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
+[V][O]Bank the follwing: \\Eridan's Vial\\Cenarion Beacon\\Slime jars
+[V][O]Withdraw the follwing:\\Pupellyverbos Port\\Bloodpetal
+Withdraw your pet from the stables [A Hunter][O]
+Set your HS to [S Ratchet]
+Take the boat to STV[OC]
+Turn in [QT836]
+Turn in [QA3721-][QT3721]
+Turn in [QT580]
+[H]Hearth back to ratchet
+Fly to [F Feathermoon]
 Accept [QA7733]
 [S]Set your HS to Feathermoon
 Turn in [QT2943] \\Accept [QA2879]
