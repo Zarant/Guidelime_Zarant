@@ -58,7 +58,7 @@ Turn in [QT4301]
 Make sure you have 20 Un'Goro soil before leaving Un'Goro[O]
 [H]Hearth to Ratchet
 Turn in [QT4502] --volcanic activity
-[V]Withdraw the follwoing: \\Eridan's vial\\Purified Moonwell Water\\Cenarion beacon
+[V]Withdraw the following: \\Eridan's vial\\Purified Moonwell Water\\Cenarion beacon\\Moontouched Feathers
 
 --Darn
 Fly to [F Teldrassil]

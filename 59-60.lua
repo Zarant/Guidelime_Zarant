@@ -24,15 +24,13 @@ Accept [QA3783 Are We There, Yeti?]
 Do [QC3783 Are We There, Yeti?]
 Turn in [QT3783 Are We There, Yeti?]
 Accept [QA977]
-[QC4809-]Kill chillwind chimeras[O]
+[QC4809-]Kill chillwind chimeras, don't go out of your way to finish it[O]
 Do [QC5121]
 Loot the Crudely-written Log from the High Chief\\Accept [QA5123]
 Do [QC977]
-Finish off [QC4809]
 Head south to Frowstwhisper Gorge\\Do [QC969]
 [H]Hearth to Everlook - Do not skip this step
 Turn in [QT977] \\Accept [QA5163]
-Turn in [QT4809] \\Accept [QA4810]
 [QC5163,1-]Use the Mechanical Yet on Legacki
 Turn in [QT969]
 Withdraw the following: \\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head[O]
@@ -76,22 +74,19 @@ Turn in [QT3962]
 Fly to [F Tanaris]
 Turn in [QT4507] \\Accept [QA4508]
 [H]Hearth to Everlook
-Withdraw Winterfall/Deadwood Ritual Totem from your bank and right click them\\Accept [QA8471] \\Accept [QA8470]
-Fly to [F Felwood]
-Grind fulborgs until you are neutral with Timbermaw Hold \\Ritual totems are worth 11450xp total\\Headdress feathers are worth 110xp each[O]
---Grind until you are [XP60-28000 28k away from level 60] --Phase 1
-Grind until you are [XP60-34600 34.6k away from level 60] --If reliquary of purity is available
-Enter the fulborg tunnel\\Turn in [QT8470] \\Turn in [QT8471]
-Run to Moonglade[OC]
-Turn in [QT6844] \\Accept [QA6845]
-Turn in [QT6845]
-Turn in [QT5527]
-Turn in [G44.87,35.62Moonglade][QA1185-][QT1185]
+Grind until you are [XP60-34640 35k] xp away from 60[O]
+Turn in [QT4809] (5450xp) \\Skip this quest if you have enough xp to ding from all the quest turn-ins from moonglade/darnassus\\(about 35k xp total)
+Fly to [F Moonglade]
+
+Turn in [QT6844] (3000xp) \\Accept [QA6845]
+Turn in [QT6845] (7550xp)
+Turn in [QT5527] (6600xp)
+Turn in [G44.87,35.62Moonglade][QA1185-][QT1185] (3000xp)
 
 Fly to [F Teldrassil]
-Turn in [G41.85,85.64Darnassus][QT4508] \\Accept [QA4510]
-Turn in [QT4510]
-Turn in [QT4986] at the middle floor
+Turn in [G41.85,85.64Darnassus][QT4508] (540xp) \\Accept [QA4510]
+Turn in [QT4510] (8150xp)
+Turn in [QT4986] at the middle floor (5800xp)
 ]], "Zarant")
 
 --[[
