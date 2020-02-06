@@ -64,6 +64,7 @@ Turn in [QT4502] --volcanic activity
 Fly to [F Teldrassil]
 Turn in [QT978] \\Accept [QA979]
 Run upstairs\\Accept [QA5250]
+[L63.8,22.8Darnassus]Do the Darnassus cloth turn ins:\\[QA7792-][O][QT7792-][O]Wool \\[QA7798-][O][QT7798-][O]Silk \\[QA7799-][O][QT7799-][O]Mageweave \\[QA7800-][O][QT7800-][O]Runecloth
 Accept [QA1015][O] from the courier that roams darnassus
 [G39.19,85.12Darnassus][QC4441-]Use Eridan's Vial at the fountain inside the temple
 [V][O]Buy food/water

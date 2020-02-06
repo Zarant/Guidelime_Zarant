@@ -130,6 +130,5 @@ Turn in [QA5237-][QT5237 Mission Accomplished!]
 Turn in [QT6389 A Plague Upon Thee]
 Turn in [QT5941 Return to Chromie]
 Turn in [QT5846 Of Love and Family]
-Unstuck back to Chillwind Camp [OC]
-Fly to [F Ironforge]
+Use the website unstuck tool to teleport to SW\\*OR*\\Throw away your HS and unstuck back to Chillwind Camp, then fly to [F Ironforge]
 ]], "Zarant")

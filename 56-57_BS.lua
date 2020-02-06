@@ -52,6 +52,9 @@ Turn in [QT4224]
 [V]Withdraw the follwing: \\Everlook report\\Studies in spirit speaking\\4 relic fragments and Jaron's pick[O]
 [V]Make sure you have 2 stacks of noggenfogger with you[O]
 [V]Bank Tinkee's Letter[O]
+[G43.22,31.57Ironforge]Do the Ironforge cloth turn ins:\\[QA7807-][O][QT7807-][O]Wool \\[QA7808-][O][QT7808-][O]Silk \\[QA7804-][O][QT7804-][O]Mageweave \\[QA7805-][O][QT7805-][O]Runecloth
+--Accept [QA4513]
+[G43.22,31.57Ironforge]Do the Gnomeregan Exiles cloth turn ins:\\[QA7802-][O][QT7802-][O]Wool \\[QA7803-][O][QT7803-][O]Silk \\[QA7809-][O][QT7809-][O]Mageweave \\[QA7811-][O][QT7811-][O]Runecloth
 Turn in [QT3701]
 Fly to [F Southshore]
 ]], "Zarant")
