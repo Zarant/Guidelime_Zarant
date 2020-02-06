@@ -12,7 +12,7 @@ Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
 Accept [G34.26,47.7Loch Modan][QA416 Rat Catching]
 Accept [G34.26,47.7Loch Modan][QA1339 Mountaineer Stormpike's Task]
 Accept [G37.01,47.8Loch Modan][QA6387 Honor Students]
-[QC418-]Kill beasts on your way north[OC]
+[QC418-]Kill beasts on your way north[O]
 Turn in [G24.76,18.39Loch Modan][QT1339 Mountaineer Stormpike's Task]
 Accept [G24.76,18.39Loch Modan][QA307 Filthy Paws]
 Accept [G24.76,18.39Loch Modan][QA1338 Stormpike's Order]
@@ -58,11 +58,11 @@ Guidelime.registerGuide([[
 [GA NightElf,Human]
 Accept [QA353 Stormpike's Delivery]
 Cross the Deeprun Tram, train First Aid as you wait[OC]
-Head to Deeprun Tram\\Accept [G74.4,51.1Ironforge][QA6661 Deeprun Rat Roundup]
+Head to Deeprun Tram\\Accept [QA6661 Deeprun Rat Roundup]
 Do [QC6661]
 Turn in [QT6661]
 Get the [P Ironforge] FP
-Save *Chunk of Boar Meat* for leveling cooking later[O]
+Save *Chunk of Boar Meat* and *Stringy Wolf Meat* for leveling cooking later[O]
 Accept [G63.08,49.84Dun Morogh][QA314 Protecting the Herd]
 [G62.62,46.04Dun Morogh] Kill [QC314Vagash] by kiting him to the guard parked at the road intersection\\Make sure to get him below 50% before reaching the guard
 Turn in [G63.08,49.84Dun Morogh][QT314 Protecting the Herd]
@@ -78,11 +78,11 @@ Turn in [G12.17,36.76Loch Modan][QT417 A Pilot's Revenge]
 Head to Loch Modan[OC]
 Accept [G24.76,18.39Loch Modan][QA307 Filthy Paws] 
 Turn in [QT353 Stormpike's Delivery]
-Grind beasts on your way south \\([QA418-][OC][QT418][OC])
+Kill Bears/Boars/Spiders\\([QA418-][O][QT418][O])
 Accept [G34.26,47.7Loch Modan][QA416 Rat Catching] from the guard patrolling Thelsamar
 Accept [G34.82,49.28Loch Modan][QA418 Thelsamar Blood Sausages]
-[QC418-]Kill beasts on your way north[O]
-[QC416-]Kill kobolds[OC]
+Stable your pet and learn *Bite 2* from a spider[O][A Hunter]
+[G35.48,24.36,129Loch Modan][QC416-]Kill kobolds[OC]
 [G35.48,24.36,129Loch Modan][QC307-]Loot the crates inside the mine
 Finish off [QC416]
 Grind your way back to Thelsamar\\Finish off [QC418]
@@ -100,6 +100,7 @@ Turn in [G23.23,73.67Loch Modan][QT267 The Trogg Threat]
 [G33.93,50.95Loch Modan] Throw away your HS and unstuck\\Fly to [F Ironforge][A Human]
 [H] Hearth to Darnassus[A NightElf]
 [T][O]Train skills
+[V][O]Bank your cooking mats
 [G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut[A Human]
 [G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor[A Human]
 [P Get the Menethil FP][A Human]

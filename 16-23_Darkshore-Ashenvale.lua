@@ -4,26 +4,26 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [NX21-23Ashenvale]
-If you are starting this segment at level 16 you will have to grind about 2 full levels, make sure to kill every mob on your way to smooth it out[O]
+[XP17 If you are starting this segment at level 16 you will have to grind about 2 full levels, make sure to kill every mob on your way to smooth it out][O]
 [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
 [G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
-Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears
+Finish off [QC1002][O] 
+Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears, don't go out of your way to finish it
 [G39.99,78.46,55Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
 [G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears], keep grinding fulborgs while waiting for respawns
 Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]
 [G27,55.59Felwood]Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]
 [G27,55.59Felwood][QT952 Grove of the Ancients][A NightElf][OC]
-[G22.36,3.98Ashenvale] [QC944 Enter The Master's Glaive] and clear mobs around the altar in the center
+[G22.36,3.98Ashenvale][QC944 Enter The Master's Glaive] and clear mobs around the altar in the center
 Drop the scrying bowl on the ground \\Turn in [QT944 The Master's Glaive] \\Accept [QA949 The Twilight Camp]
-[G22.36,3.98Ashenvale] Accept [QA945 Therylune's Escape]
+[G22.36,3.98Ashenvale] Accept [QA945 Therylune's Escape][O]
 [G22.24,2.52Ashenvale]Click on the book on top of the pedestal \\Turn in [QT949 The Twilight Camp] \\Accept[QA950 Return to Onu]
-[QC945 -] Finish the escort quest
+[QC945 -]Finish the escort quest
 [G27,55.59Felwood]Turn in [QT950 Return to Onu] \\Accept [QA951 Mathystra Relics]
 [G39.99,78.46,40Darkshore] Clear the fulborg camp and look for moonstalkers while you do it
-Start killing crabs along the coast for [QC1138 Fine Crab Chunks][O] 
+Kill crabs along the coast for [QC1138 Fine Crab Chunks][O] 
 [G18.41,49.43Felwood][QA4728 Beached Sea Creature]
 [G19.64,39.52Felwood][QA4722 Beached Sea Turtle]
-
 
 [G19.1,20.63Felwood]Turn in [QT4728 Beached Sea Creature]
 Turn in [QT4722 Beached Sea Turtle]
@@ -40,7 +40,7 @@ Loot the Nut/Fruit Stores and use the bowl to summon [QC4763 Xabraxxis]
 Turn in [G1.42,26.89Winterspring][QT1002 Buzzbox 323] \\Accept [G1.42,26.89Winterspring][QA1003 Buzzbox 525]
 Do [G7.52,23.26,158Winterspring][QC951 Mathystra Relics]
 Accept [G6.37,16.66Winterspring][QA2098 Gyromast's Retrieval]
-[QC2098,3 -] Kill crabs along the coast [O]
+[QC2098,3 -]Kill crabs along the coast [O]
 [G61.4,9.4,150Darkshore]Kill [QC2098,1 Foreststriders][O]
 [G55.59,12.9,20Darkshore]Kill [QC2098,2Murlocs][O]
 [G61.4,9.4,100Darkshore][QC986-]Grind Moonstalker Sire/Matriarch for pelts
@@ -49,7 +49,6 @@ Accept [G6.37,16.66Winterspring][QA2098 Gyromast's Retrieval]
 Turn in [G6.37,16.66Winterspring][QT2078 Gyromast's Revenge]
 Accept [G3.1,20.9Winterspring][QA4727 Beached Sea Turtle]
 [H Hearth to Auberdine][OC]
-
 
 Turn in [G19.1,20.63Felwood][QT4727 Beached Sea Turtle]
 Turn in [G18.5,19.87Felwood][QT1138 Fruit of the Sea]
@@ -77,7 +76,7 @@ Head to ashenvale[OC]
 [G26.19,38.69Ashenvale]Turn in [QT967 The Tower of Althalaxx] pt.3 \\Accept [QA970 The Tower of Althalaxx] pt.4
 [G26.43,38.59Ashenvale][QA1010 Bathran's Hair]
 [G31.41,30.66,145Ashenvale][QC970 Kill cultists]
-[G31.63,22.33,114Ashenvale][QC1010 Look out for the herb sacks on the ground]
+[G31.63,22.33,114Ashenvale][QC1010-]Look out for the herb sacks on the ground\\Use *Track Herbs* to show them on your minimap
 [G26.19,38.69Ashenvale]Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5
 [G26.43,38.59Ashenvale]Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]
 [G22.64,51.91Ashenvale]Turn in [QT945 Therylune's Escape]
@@ -89,9 +88,7 @@ Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand]
 Accept [G34.89,49.79Ashenvale][QA1070 On Guard in Stonetalon]
 Accept [G35.76,49.1Ashenvale][QA1056 Journey to Stonetalon Peak]
 Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling the Threat] 
-
 [G37.36,51.79Ashenvale]Turn in [QT1020 Orendil's Cure] \\Wait for the RP sequence to end \\Accept [QA1033 Elune's Tear]
-
 
 [G42.5,71.7,50Ashenvale] Head to stonetalon
 --[QC1134-][O]Kill all wyverns you encounter
@@ -139,14 +136,14 @@ Kill [G39.54,36.47Ashenvale][QC1054Dal Bloodclaw] \\Don't go deep into the villa
 [G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
 Kill Murlocs until the [QC1023 Glowing Gem] drops \\Save *Murloc Fins* for later
 Accept [G14.79,31.29Ashenvale][QA1007 The Ancient Statuette]
-[QC1008 Kill nagas][O]
+[QC1008-]Kill nagas[O]
 [G14.2,20.64Ashenvale]Loot [QC1007 The Ancient Statuette]
-[G14.79,31.29Ashenvale]Turn in [QT1007 The Ancient Statuette] \\Accept [QA1009 Ruuzel]
+[G14.79,31.29Ashenvale]Turn in [QT1007 The Ancient Statuette] \\Wait for the RP sequence\\Accept [QA1009 Ruuzel]
 [G7.4,13.4Ashenvale]Kill [QC1009 Ruuzel] \\Lady Vespia (rare) can also drop the ring
 Finish off [QC1008 The Zoram Strand]
 Turn in [QT1009]
-[XP23-5000 Grind until you are 5k XP away from level 23]
-Grind until your HS is off cooldown\\[H]Hearth to Astranaar
+[XP23-5000 Grind nagas until you are 5k XP away from level 23]
+Grind nagas until your HS is off cooldown\\[H]Hearth to Astranaar
 
 Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing] \\Turn in [QT1054 Culling the Threat]
 Accept [QA1025 An Aggressive Defense]

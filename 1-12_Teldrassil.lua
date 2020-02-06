@@ -1,6 +1,6 @@
 
 Guidelime.registerGuide([[
-[N1-11Teldrassil Solo]
+[N1-11Teldrassil]
 [NX11-14Dun Morogh/Loch Modan]
 [NX11-16Darkshore]
 [GA NightElf]
@@ -60,9 +60,9 @@ Do [QC488 Zenn's Bidding][O] as you quest
 Do [QC918] \\Do [QC919]
 [G60.89,68.48Teldrassil]Turn in [QT918 Timberling Seeds] \\Turn in [QT919 Timberling Sprouts]
 Accept [QA922 Rellian Greenspyre]
-[G68.01,59.65Teldrassil][QC2438 -] Loot the dresser inside the house
-[G66.25,58.52Teldrassil]Turn in [QT475 A Troubling Breeze] \\Accept [QA476 Gnarlpine Corruption]
 [G63.37,58.12Teldrassil][QC929 -] Use the empty phial on the moonwell
+[G66.25,58.52Teldrassil]Turn in [QT475 A Troubling Breeze] \\Accept [QA476 Gnarlpine Corruption]
+[G68.01,59.65Teldrassil][QC2438 -] Loot the dresser inside the house
 Finish off [QC488]
 [G60.44,56.14Teldrassil]Turn in [QT488 Zenn's Bidding]
 Unstuck back to the graveyard [OC]
@@ -98,7 +98,7 @@ Unstuck back to the graveyard[OC]
 [G55.57,56.94Teldrassil]Turn in [QT932 Twisted Hatred] \\Turn in [QT2459 Ferocitas the Dream Eater]
 
 
-[G55.94,58.75Teldrassil][QA487 The Road to Darnassus] - The quest giver patrols the road
+[G55.94,58.75Teldrassil][QA487 The Road to Darnassus] \\The quest giver patrols the road
 [G46.33,53.36Teldrassil]Do [QC487 The Road to Darnassus]
 [G43.27,54.05Teldrassil] Pull mobs past the tree root to your left and death warp to darnassus [OC]
 
@@ -148,13 +148,12 @@ Turn in [QT930 The Glowing Fruit]
 [A NightElf,Hunter][OC] Unstuck back to the graveyard
 [G56.67,59.48Teldrassil]Turn in [QT6102 Taming the Beast] pt.3[A NightElf,Hunter] \\Accept [QA6103 Training the Beast][A NightElf,Hunter]
 
-
+Speak to the NPC patrolling the road\\Turn in [QT487 The Road to Darnassus]
 [OC][G32.84,32.47Teldrassil][A NightElf,Hunter] Head to the harpy area and tame a level 9 owl on the way
+[G34.82,34.69Teldrassil][QC937-][O]Kill Harpies
 [G31.53,31.61Teldrassil]Accept [QA938 Mist]
-[G34.82,34.69Teldrassil][QC937 -]Kill Harpies
 [G38.31,34.36Teldrassil]Turn in [QT937 The Enchanted Glade]
-[OC]Turn in [QT938 Mist]
-Accept [QA940 Teldrassil]
+Turn in [QT938 Mist] \\Accept [QA940 Teldrassil]
 Kill yourself and spirit rez at darnassus [OC]
 
 
@@ -163,11 +162,11 @@ Kill yourself and spirit rez at darnassus [OC]
 [OC][G57.55,46.73Darnassus][T Train staves]
 [G24.44,48.86Teldrassil]Turn in [QT935 Crown of the Earth] \\Turn in [QT940 Teldrassil] \\Accept [QA952 Grove of the Ancients]
 [G25.6,48.71Teldrassil]Turn in [QT6103 Training the Beast][A NightElf,Hunter]
-You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Head to darkshore and make up the xp loss by grinding later on
+You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Skip this step and start the Darkshore part of the guide (slightly more grindier)\\ \\Loch Modan Segment has slightly worse XP/hr but you save time later by getting early FPs.
 
 ]], "Zarant")
 
-
+--WIP
 Guidelime.registerGuide([[
 [N1-12Teldrassil Duo]
 [NX11-14Dun Morogh/Loch Modan]
@@ -307,11 +306,12 @@ Turn in [QT483] \\Accept [QA486]
 [G60.44,56.14Teldrassil]Turn in [QT489 Seek Redemption!]
 [G56.67,59.48Teldrassil]Turn in [QT6102 Taming the Beast] pt.3[A NightElf,Hunter] \\Accept [QA6103 Training the Beast][A NightElf,Hunter]
 
-Turn in [QT487 The Road to Darnassus]
+Speak to the NPC patrolling the road\\Turn in [QT487 The Road to Darnassus]
 [OC][A NightElf,Hunter] Head to the harpy area and tame a level 9 owl on the way
+[G34.82,34.69Teldrassil][QC937-][O]Kill Harpies
 [G31.53,31.61Teldrassil]Accept [QA938 Mist]
-[G34.82,34.69Teldrassil][QC937 -]Kill Harpies
-[G38.31,34.36Teldrassil]Turn in [QT937 The Enchanted Glade] \\Accept [QA940 Teldrassil] \\Turn in [QT938 Mist]
+[G38.31,34.36Teldrassil]Turn in [QT937 The Enchanted Glade]
+Accept [QA940 Teldrassil] \\Turn in [QT938 Mist]
 Kill yourself and spirit rez at darnassus [OC]
 
 
