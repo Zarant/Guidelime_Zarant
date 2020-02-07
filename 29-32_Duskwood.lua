@@ -34,15 +34,13 @@ Accept [QA173 Worgen in the Woods]
 Accept [QA58 The Night Watch]
 Set your HS to [S Darkshire]
 Turn in [QT1243 The Missing Diplomat] pt.4 \\Accept [QA1244 The Missing Diplomat] pt.5
-Do [QC173 Worgen in the Woods]
+Do [G63.0,41.6,120Duskwood][QC173 Worgen in the Woods]
 Turn in [QT173 Worgen in the Woods] pt.1\\Accept [QA221 Worgen in the Woods] pt.2
-Do [QC221 Worgen in the Woods] pt.2
+Do [G61.8,45.3,120Duskwood][QC221 Worgen in the Woods] pt.2
 
---Elwynn
-Turn in [QT74 The Legend of Stalvan] pt.7 \\Accept [QA75 The Legend of Stalvan] pt.8
-[QC75 -] Loot the chest inside the house
+Head North to Elwynn Forest\\Turn in [QT74 The Legend of Stalvan] pt.7 \\Accept [QA75 The Legend of Stalvan] pt.8
+[QC75-]Loot the chest inside the house
 Turn in [QT75 The Legend of Stalvan] pt.8 \\Accept [QA78 The Legend of Stalvan] pt.9
-
 
 Turn in [QT159 Juice Delivery] \\Accept [QA133 Ghoulish Effigy] --<< 
 Finish off [QC101 The Totem of Infliction][O]
@@ -72,17 +70,17 @@ Turn in [QT221 Worgen in the Woods] pt.2
 Accept [QA222 Worgen in the Woods] pt.3
 Turn in [QT181 Look To The Stars]
 [QC222 -]Kill Vile Fangs/Tanted Ones[OC]
+Do [G62.9,81.4,40Duskwood][QC222]
 Grind mobs until you find *An Old History Book*\\Accept [QA337][O]
 [L72.8,73.0Duskwood][L62.9,81.4Duskwood][L63.7,71.5Duskwood]Grind to [XP32]
-Finish off [QC222]
-[G28.8,31.0Duskwood][QC253 -] Click on the grave to summon Eliza --<<
+[G28.8,31.0Duskwood][QC253-]Click on the grave to summon Eliza\\Use the wagon to jump on top of Abercrombie's shed\\Kill Eliza and loot her heart --<<
 [QC55 -]Equip *Morbent's Bane* in your off-hand \\Kill Morbent Fel
 Turn in [QT55]
-[QC228 -]Kill Mor'Ladim, kite him to STV[O]
+[QC228 -]Kill Mor'Ladim, kite him to STV\\(Level 35 elite roaming the cemetery)[O]
 Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]
 Accept [QA185 Tiger Mastery] pt.1\\Accept [QA190 Panther Mastery] pt.1
 Look out for Private Thorsen's RP event while you quest \\He patrols down the road every ~30 minutes \\([QA215-][O][QT215 Jungle Secrets][O])
-Do [QC185 Tiger Mastery] pt.1\\Do [QC190 Panther Mastery] pt.1
+Do [G41.5,12.0,100Stranglethorn Vale][QC190 Panther Mastery] pt.1 \\Do [G35.4,12.5,110Stranglethorn Vale][QC185 Tiger Mastery] pt.1
 Turn in [QT185 Tiger Mastery] pt.1\\Accept [QA186 Tiger Mastery] pt.2
 Turn in [QT190 Panther Mastery] pt.1
 [H]Hearth to Darkshire

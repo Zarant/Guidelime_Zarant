@@ -122,15 +122,15 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [NX23-24Wetlands]
-
+[L72.81,6.11Stonetalon Mountains][V][O]Restock/Resupply
 Stable your pet\\Tame a Ghostpaw Runner and learn *Bite 3*\\Tame an Ashenvale Bear and learn *Claw 3*\\ \\Run back to Astranaar and withdraw your main pet from stables[O][A Hunter]
 --Turn in [QT1134 Pridewings of Stonetalon]
 Set your Hearthstone to [S Astranaar]
 Kill [G39.54,36.47Ashenvale][QC1054Dal Bloodclaw] \\Don't go deep into the village, grind mobs until you have an opening, he will eventually walk into the fulborg camp just outside the entrance of the village
 [G46.37,46.38,50Ashenvale][QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater
-[G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear] \\Accept [QA1034 The Ruins of Stardust]
+[G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear]\\Wait for the RP sequence to end\\Accept [QA1034 The Ruins of Stardust]
 [G33.3,67.79,101Ashenvale][QC1034 -]Loot the bushes around the lake
-[G31.67,64.24Ashenvale]Head south to the base of the mountain\\[G31.21,61.60Ashenvale]Run straight north while climbing the mountain
+[G31.67,64.24Ashenvale]Head to the base of the mountain\\[G31.21,61.60Ashenvale]Run straight north while climbing the mountain
 [G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
 [G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
 [G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
@@ -147,17 +147,17 @@ Grind nagas until your HS is off cooldown\\[H]Hearth to Astranaar
 
 Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing] \\Turn in [QT1054 Culling the Threat]
 Accept [QA1025 An Aggressive Defense]
+Turn in [QT1008 The Zoram Strand]
 Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
+Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
 Accept [G49.79,67.21,20Ashenvale][QA1016 Elemental Bracers]
 [G50.14,67.94Ashenvale][T] Train skills [A Hunter][OC]
 [QC1016 -]Loot 5 *Intact Elemental Bracers* \\Right click the *Divining Scroll*
 Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
-Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
 Death warp to Astranaar [OC]
 Turn in [QT1025 An Aggressive Defense]
 [G73.13,7.59Stonetalon Mountains]Buy [V Mild Spices] for leveling cooking
 [G72.81,6.11Stonetalon Mountains]Buy [V Flint and Tinder] \\Buy 2x[V Simple Wood]
-Turn in [QT1008 The Zoram Strand]
 Fly to [F Teldrassil]
 [G39.89,42.11Darnassus][V]Withdraw your cooking mats from the bank [O]
 [T] Train skills [O]

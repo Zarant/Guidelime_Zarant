@@ -30,9 +30,9 @@ Do [G58.3,67.97,88Alterac Mountains][QC505 Syndicate Assassins]
 [G42.93,85.06Western Plaguelands]Get the [P Western Plaguelands] FP
 Fly to [F Southshore]
 
+Turn in [G50.57,57.09,20Hillsbrad Foothills][QT511 Encrypted Letter] \\Accept [QA514 Letter to Stormpike]
 Turn in [G51.88,58.67,20Hillsbrad Foothills][QT555 Soothing Turtle Bisque]
 Turn in [G48.13,59.1,20Hillsbrad Foothills][QT505 Syndicate Assassins] \\Turn in [QT510 Foreboding Plans]
-Turn in [G50.57,57.09,20Hillsbrad Foothills][QT511 Encrypted Letter] \\Accept [QA514 Letter to Stormpike]
 Turn in [G52.41,55.96,20Hillsbrad Foothills][QT564 Costly Menace]
 
 Fly to [F Arathi Highlands]

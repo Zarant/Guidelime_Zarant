@@ -12,10 +12,10 @@ Take the tram to Ironforge [OC]
 Turn in [QT1072]
 [G69.54,50.32Ironforge]Turn in [QT2923 Tinkmaster Overspark]
 Fly to [F Wetlands][OC]
-Accept [G10.89,59.66,20Wetlands][QA289 The Cursed Crew]
 Turn in [QT270] \\Skip the follow up
 [S] Set your Hearthstone to Wetlands
 Go upstairs and accept [G10.84,60.43,20Wetlands][QA943 The Absent Minded Prospector]
+Accept [G10.89,59.66,20Wetlands][QA289 The Cursed Crew]
 Accept [G11.79,57.99,20Wetlands][QA470 Digging Through the Ooze]
 Turn in [QT279] \\Accept [G8.3,58.53,20Wetlands][QA281 Reclaiming Goods]
 [G8.54,55.73,20Wetlands]Turn in [QT469] \\Turn in [QT484] \\Accept [QA471 Apprentice's Duties]
@@ -66,7 +66,7 @@ Turn in [G49.8,18.25,20Wetlands][QT472 Fall of Dun Modr] \\Accept [QA631 The Tha
 Turn in [G45.65,93.07,20Arathi Highlands][QT631 The Thandol Span] \\Accept [QA632 The Thandol Span]
 Turn in [G49.91,18.21,20Wetlands][QT632 The Thandol Span] \\Accept [QA633 The Thandol Span]
 Jump down the bridge and accept [G43.24,92.64,20Arathi Highlands][QA647 MacKreel's Moonshine]
-Loot the [G44.28,92.88,20Arathi Highlands][QA637 Waterlogged Envelope] underwater [OC]
+Loot the [G44.28,92.88,1Arathi Highlands][QA637 Waterlogged Envelope] underwater [OC]
 [G48.79,88.04,20Arathi Highlands][QC633 -] Click on the cart full of explosives
 Turn in [G49.91,18.21,20Wetlands][QT633 The Thandol Span] \\Accept [QA634 Plea To The Alliance]
 Turn in [G45.83,47.55,20Arathi Highlands][QT634 Plea To The Alliance]
@@ -76,7 +76,7 @@ Get the [P Arathi Highlands] FP
 Turn in [G52.13,58.73,20Hillsbrad Foothills][QT647 MacKreel's Moonshine]
 Get the [P Southshore] FP
 Do the murloc quests in Southshore until you are at least [XP29.55 50% into level 29] [O]
-Stable your pet and head east \\Tame a spider, learn bite rank 4 [A Hunter]
+Stable your pet and head east \\Tame a spider, learn bite rank 4 [A Hunter][OC]'
 Kill turtles along the river and save turtle meat for later, don't go out of your way to kill them [OC]
 [H]Hearth to Menethil Harbor[OC]
 Turn in [G10.58,60.59,20Wetlands][QT292 The Eye of Paleth] \\Accept [QA293 Cleansing the Eye]
@@ -92,9 +92,6 @@ Turn in [G8.54,55.73,20Wetlands][QT471 Apprentice's Duties]
 Turn in [G9.86,57.48Wetlands][QT474 Defeat Nek'rosh]
 
 Turn in [G10.58,60.59,20Wetlands][QT324 The Lost Ingots] \\Accept [QA322 Blessed Arm]
-
-
-
 
 Fly to [F Ironforge]
 ]], "Zarant")

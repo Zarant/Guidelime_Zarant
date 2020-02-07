@@ -313,6 +313,7 @@ Speak to the NPC patrolling the road\\Turn in [QT487 The Road to Darnassus]
 [G31.53,31.61Teldrassil]Accept [QA938 Mist]
 [G38.31,34.36Teldrassil]Turn in [QT937 The Enchanted Glade]
 Accept [QA940 Teldrassil] \\Turn in [QT938 Mist]
+Head north and tame a level 11 Feral Nightsaber[A Hunter]
 Kill yourself and spirit rez at darnassus [OC]
 
 
