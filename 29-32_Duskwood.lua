@@ -38,7 +38,7 @@ Do [G63.0,41.6,120Duskwood][QC173 Worgen in the Woods]
 Turn in [QT173 Worgen in the Woods] pt.1\\Accept [QA221 Worgen in the Woods] pt.2
 Do [G61.8,45.3,120Duskwood][QC221 Worgen in the Woods] pt.2
 
-Head North to Elwynn Forest\\Turn in [QT74 The Legend of Stalvan] pt.7 \\Accept [QA75 The Legend of Stalvan] pt.8
+Head northeast to Elwynn Forest\\Turn in [QT74 The Legend of Stalvan] pt.7 \\Accept [QA75 The Legend of Stalvan] pt.8
 [QC75-]Loot the chest inside the house
 Turn in [QT75 The Legend of Stalvan] pt.8 \\Accept [QA78 The Legend of Stalvan] pt.9
 

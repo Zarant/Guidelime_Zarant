@@ -53,7 +53,7 @@ Accept [G3.1,20.9Winterspring][QA4727 Beached Sea Turtle]
 Turn in [G19.1,20.63Felwood][QT4727 Beached Sea Turtle]
 Turn in [G18.5,19.87Felwood][QT1138 Fruit of the Sea]
 [G19.78,19.07Felwood]Click on the wanted poster outside the inn \\Accept [QA4740 WANTED: Murkdeep!]
-Turn in [G19.98,14.4Felwood][QT4763 The Blackwood Corrupted]
+Turn in [G19.98,14.4Felwood][QT4763 The Blackwood Corrupted] --\\Accept [QA10752 Onward to Ashenvale]
 [V Restock/Resupply][OC]
 Turn in [G21.63,18.15Felwood][QT2139 Tharnariun's Hope]
 [G22.24,18.22Felwood]Turn in [QT986 A Lost Master] pt.1 \\Accept [QA993 A Lost Master] pt.2
@@ -75,7 +75,7 @@ Head to ashenvale[OC]
 [G27.26,35.58Ashenvale]Turn in [QT5321 The Sleeper Has Awakened]
 [G26.19,38.69Ashenvale]Turn in [QT967 The Tower of Althalaxx] pt.3 \\Accept [QA970 The Tower of Althalaxx] pt.4
 [G26.43,38.59Ashenvale][QA1010 Bathran's Hair]
-[G31.41,30.66,145Ashenvale][QC970 Kill cultists]
+[G31.41,30.66,145Ashenvale][QC970-]Kill cultists
 [G31.63,22.33,114Ashenvale][QC1010-]Look out for the herb sacks on the ground\\Use *Track Herbs* to show them on your minimap
 [G26.19,38.69Ashenvale]Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5
 [G26.43,38.59Ashenvale]Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]
@@ -87,7 +87,7 @@ Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand]
 --Accept [QA1134 Pridewings of Stonetalon]
 Accept [G34.89,49.79Ashenvale][QA1070 On Guard in Stonetalon]
 Accept [G35.76,49.1Ashenvale][QA1056 Journey to Stonetalon Peak]
-Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling the Threat] 
+Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling the Threat] --\\Turn in [QT10752 Onward to Ashenvale]
 [G37.36,51.79Ashenvale]Turn in [QT1020 Orendil's Cure] \\Wait for the RP sequence to end \\Accept [QA1033 Elune's Tear]
 
 [G42.5,71.7,50Ashenvale] Head to stonetalon
