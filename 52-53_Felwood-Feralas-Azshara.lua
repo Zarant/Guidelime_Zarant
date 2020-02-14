@@ -15,7 +15,7 @@ Turn in [QT2944] \\Accept [QA2943]
 [T]Train skills [O]
 [V][O]Restock on supplies, long grinding session ahead
 --Sunken Temple class quest
---Accept [G42.44,7.36Darnarssus][QA8151][O][A Hunter]
+Accept [G42.44,7.36Darnarssus][QA8151][O][A Hunter]
 Turn in [QT162] \\Turn in [QT4267] \\Accept [QA4493]
 Turn in [QT2972]
 Accept [QA978]
@@ -128,8 +128,8 @@ Fly to [F Azshara]
 [V][O]Buy extra arrows, long grinding session ahead
 
 --ST class quest
---[G42.37,42.61Azshara]Turn in [QT8151] \\Accept [QA8153] 
---[QC8153-]Kill mosshoof coursers as you quest [O]
+[G42.37,42.61Azshara]Turn in [QT8151] --\\Accept [QA8153] 
+[QC8153-]Kill mosshoof coursers as you quest [O]
 Accept [QA3601 Kim'jael Indeed!]
 [G57.02,29.45,170Azshara][QC3601-][O]Loot the boxes scattered around the camp
 [XP53.65 Grind elves until you are 65% (13 bars) into level 53]

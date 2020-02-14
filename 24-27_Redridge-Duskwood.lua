@@ -110,7 +110,6 @@ Run up the stairs\\Loot the [QC70 chest] on the floor
 
 --Run to SW [OC]
 Turn in [G43.08,80.39Stormwind City][QT1076 Devils in Westfall][O]
---Accept [QA1078 Retrieval for Mauren][A Dwarf,Human,Gnome]
 Accept [G26.44,78.66Stormwind City][QA335 A Noble Brew]
 Turn in [G29.56,61.93Stormwind City][QT70 The Legend of Stalvan] \\Accept [QA72 The Legend of Stalvan] 
 Click on the crate nearby \\Turn in [G29.44,61.52,1Stormwind City][QT72 The Legend of Stalvan] \\Accept [QA74 The Legend of Stalvan]
