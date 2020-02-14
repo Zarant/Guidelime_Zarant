@@ -128,13 +128,13 @@ Fly to [F Azshara]
 [V][O]Buy extra arrows, long grinding session ahead
 
 --ST class quest
-[G42.37,42.61Azshara]Turn in [QT8151] --\\Accept [QA8153] 
-[QC8153-]Kill mosshoof coursers as you quest [O]
+[A Hunter][G42.37,42.61Azshara]Turn in [QT8151] \\Accept [QA8153] 
+[A Hunter][QC8153-]Kill mosshoof coursers as you quest [O]
 Accept [QA3601 Kim'jael Indeed!]
 [G57.02,29.45,170Azshara][QC3601-][O]Loot the boxes scattered around the camp
 [XP53.65 Grind elves until you are 65% (13 bars) into level 53]
 Turn in [QT3601 Kim'jael Indeed!] \\Accept [QA5534 Kim'jael's "Missing" Equipment]
---Turn in [QT8153] \\Accept [QA8231]
+[A Hunter]Turn in [QT8153] --\\Accept [QA8231]
 --[G88.47,29.61,200Azshara][QC8231-]Kill Wavethrashers along the northeastern coast
 --Turn in [QT8231]
 Kill nagas for [QC5534 Kim'jael's "Missing" Equipment][O]
