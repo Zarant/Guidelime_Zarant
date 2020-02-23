@@ -6,8 +6,8 @@ Guidelime.registerGuide([[
 [NX21-23Ashenvale]
 [XP17 If you are starting this segment at level 16 you will have to grind about 2 full levels, make sure to kill every mob on your way to smooth it out][O]
 [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
-[G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
 Finish off [QC1002][O] 
+[G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
 Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears, don't go out of your way to finish it
 [G39.99,78.46,55Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
 [G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears], keep grinding fulborgs while waiting for respawns
