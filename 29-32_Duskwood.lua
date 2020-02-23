@@ -80,7 +80,9 @@ Turn in [QT55]
 Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]
 Accept [QA185 Tiger Mastery] pt.1\\Accept [QA190 Panther Mastery] pt.1
 Look out for Private Thorsen's RP event while you quest \\He patrols down the road every ~30 minutes \\([QA215-][O][QT215 Jungle Secrets][O])
-Do [G41.5,12.0,100Stranglethorn Vale][QC190 Panther Mastery] pt.1 \\Do [G35.4,12.5,110Stranglethorn Vale][QC185 Tiger Mastery] pt.1
+Do [G41.5,12.0,100Stranglethorn Vale][QC190 Panther Mastery][OC] pt.1 
+Do [G35.4,12.5,110Stranglethorn Vale][QC185 Tiger Mastery] pt.1
+Finish off [G41.5,12.0,100Stranglethorn Vale][QC190 Panther Mastery] pt.1
 Turn in [QT185 Tiger Mastery] pt.1\\Accept [QA186 Tiger Mastery] pt.2
 Turn in [QT190 Panther Mastery] pt.1
 [H]Hearth to Darkshire

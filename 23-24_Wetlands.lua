@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N23-24Wetlands]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-[NX24-27Redridge/Duskwood]
+[NX24-25Stormwind/Duskwood]
 Accept [G8.54,55.73Wetlands][QA484 Young Crocolisk Skins]
 Accept [G8.3,58.53Wetlands][QA279 Claws from the Deep]
 Get the [P Wetlands] FP [A NightElf] --<<<<<
