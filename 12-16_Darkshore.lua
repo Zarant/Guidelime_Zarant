@@ -30,22 +30,21 @@ Turn in [G19.98,14.4Felwood][QT4761 Thundris Windweaver] \\Accept [QA4762 The Cl
 [V] Buy extra stacks of arrows, long grinding session ahead
 
 [OC] Start collecting small eggs for leveling cooking later
-[G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal][OC] in the mountains[A NightElf]
-Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal][OC] \\Accept [QA4812 As Water Cascades][OC][A NightElf]
-[G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell[A NightElf]
-Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades][OC] \\Accept [QA4813 The Fragments Within][OC][A NightElf]
-Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A NightElf]
+--[G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal][OC] in the mountains[A NightElf]
+--Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal][OC] \\Accept [QA4812 As Water Cascades][OC][A NightElf]
+--[G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell[A NightElf]
 Turn in [G27.7,10.03Felwood][QT954 Bashal'Aran] pt.1 \\Accept [QA955 Bashal'Aran] pt.2
 [G29.13,12.34,153Felwood][QC955 Kill Imps]
 Turn in [G27.7,10.03Felwood][QT955 Bashal'Aran] pt.2 \\Accept [QA956 Bashal'Aran] pt.3
 [G29.6,12.52,151Felwood][QC956 Kill satyrs]
 Turn in [G27.7,10.03Felwood][QT956 Bashal'Aran] pt.3 \\Accept [QA957 Bashal'Aran] pt.4
-[XP14 Grind to level 14]
-[OC] Start collecting small eggs for leveling cooking later
+[XP13 Grind to level 13]
+[O] Make sure you have at least 9 small eggs to level cooking
 [G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal] in the mountains
 Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal] \\Accept [QA4812 As Water Cascades]
 [G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell
-
+Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within][A NightElf]
+Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A NightElf]
 Accept [G18.1,18.48Felwood][QA963 For Love Eternal]
 [G33.70,42.45,15Darkshore] Run up to the docks then jump in the water at the intersection
 [G13.63,21.44Felwood][QC1001 -]Start working on darkshore threshers[OC]
@@ -61,11 +60,9 @@ Accept [QA953 The Fall of Ameth'Aran]
 [G25.01,37.87,120Felwood][QC963 Kill Anaya Dawnrunner]
 Finish off [QC958 Tools of the Highborne]
 Turn in [G23.29,36.73Felwood][QT953 The Fall of Ameth'Aran]
-[XP14 Grind to level 14]
 [QC2118-]Capture a rabid thistle bear
+[G22.39,29.45,96Felwood] Grind to [XP15 level 15]
 Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within]
-Grind moonkins until you have enough small eggs to level cooking to 50 (about 5 and a half stacks)
-[L22.39,29.45Felwood][L45.8,49.0Darkshore] Grind to [XP15 level 15]
 
 Turn in [G21.63,18.15Felwood][QT2118 Plagued Lands] \\Accept [QA2138 Cleansing of the Infected]
 Turn in [G22.24,18.22Felwood][QT985 How Big a Threat?] \\Accept [QA986 A Lost Master]
