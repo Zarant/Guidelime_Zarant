@@ -29,6 +29,7 @@ Kill crabs along the coast for [QC1138 Fine Crab Chunks][O]
 
 [G19.1,20.63Felwood]Turn in [QT4728 Beached Sea Creature]
 Turn in [QT4722 Beached Sea Turtle]
+Turn in [G20.34,18.12Felwood][QT4740 WANTED: Murkdeep!]
 [G20.04,16.35Felwood][QT730 Trouble In Darkshore?][OC]
 [G20.04,16.35Felwood][QA729 The Absent Minded Prospector]
 [G19.98,14.4Felwood]Turn in [QT4762 The Cliffspring River] \\Accept [QA4763 The Blackwood Corrupted]
@@ -106,7 +107,7 @@ Get the [P Stonetalon Peak] Flight Path
 Hearth to [H Auberdine]
 
 Stable your pet [O][A Hunter]
-Turn in [G20.34,18.12Felwood][QT4740 WANTED: Murkdeep!]
+
 Turn in [G20.04,16.35Felwood][QT731 The Absent Minded Prospector] pt.2 \\Accept [QA741 The Absent Minded Prospector] pt.3
 [G22.24,18.22Felwood]Turn in [QT994 Escape Through Force][OC]
 OR [QT995 Escape Through Stealth][OC]
