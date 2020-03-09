@@ -5,8 +5,9 @@ Guidelime.registerGuide([[
 [D Alliance Hunter Leveling Guide]
 [NX21-23Ashenvale]
 [XP17 If you are starting this segment at level 16 you will have to grind about 2 full levels, make sure to kill every mob on your way to smooth it out][O]
+[G19.78,19.07Felwood]Click on the wanted poster outside the inn \\Accept [QA4740 WANTED: Murkdeep!]
 [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
-Finish off [QC1002][O] 
+Finish off [QC1002][O]
 [G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
 Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears, don't go out of your way to finish it
 [G39.99,78.46,55Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
@@ -21,7 +22,8 @@ Drop the scrying bowl on the ground \\Turn in [QT944 The Master's Glaive] \\Acce
 [QC945 -]Finish the escort quest
 [G27,55.59Felwood]Turn in [QT950 Return to Onu] \\Accept [QA951 Mathystra Relics]
 [G39.99,78.46,40Darkshore] Clear the fulborg camp and look for moonstalkers while you do it
-Kill crabs along the coast for [QC1138 Fine Crab Chunks][O] 
+Kill crabs along the coast for [QC1138 Fine Crab Chunks][O]
+[G36.64,76.53,20Darkshore]Clear the murloc camp, maintain a safe distance while doing it\\Move to the center of the camp to summon [QC4740 Murkdeep] 
 [G18.41,49.43Felwood][QA4728 Beached Sea Creature]
 [G19.64,39.52Felwood][QA4722 Beached Sea Turtle]
 
@@ -52,12 +54,10 @@ Accept [G3.1,20.9Winterspring][QA4727 Beached Sea Turtle]
 
 Turn in [G19.1,20.63Felwood][QT4727 Beached Sea Turtle]
 Turn in [G18.5,19.87Felwood][QT1138 Fruit of the Sea]
-[G19.78,19.07Felwood]Click on the wanted poster outside the inn \\Accept [QA4740 WANTED: Murkdeep!]
 Turn in [G19.98,14.4Felwood][QT4763 The Blackwood Corrupted] --\\Accept [QA10752 Onward to Ashenvale]
 [V Restock/Resupply][OC]
 Turn in [G21.63,18.15Felwood][QT2139 Tharnariun's Hope]
 [G22.24,18.22Felwood]Turn in [QT986 A Lost Master] pt.1 \\Accept [QA993 A Lost Master] pt.2
-[G36.64,76.53,20Darkshore]Clear the murloc camp, maintain a safe distance while doing it\\Move to the center of the camp to summon [QC4740 Murkdeep]
 [G14.62,60.72Felwood]Accept [QA4730 Beached Sea Creature]
 [G13.47,64.01Felwood]Accept [QA4731 Beached Sea Turtle]
 [G13.93,2.01Ashenvale]Accept [QA4732 Beached Sea Turtle]

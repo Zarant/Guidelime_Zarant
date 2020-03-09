@@ -89,6 +89,7 @@ Grind your way back to Thelsamar\\Finish off [QC418]
 Buy *Smoked Bear Meat* cooking recipe from the trade supplier insde the inn[O]
 Buy flint and tinder + simple wood to level cooking on the boat ride to darkshore[O][A Human]
 Turn in [QT418]
+[G33.93,50.95Loch Modan]Get the [P Loch Modan] flight path
 Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
 Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
 [QC267-]Kill Troggs[OC]
