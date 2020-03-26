@@ -43,16 +43,16 @@ Turn in [G27.7,10.03Felwood][QT956 Bashal'Aran] pt.3 \\Accept [QA957 Bashal'Aran
 [G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal] in the mountains
 Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal] \\Accept [QA4812 As Water Cascades]
 [G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell
-Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within][A NightElf]
-Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A NightElf]
 Accept [G18.1,18.48Felwood][QA963 For Love Eternal]
 [G33.70,42.45,15Darkshore] Run up to the docks then jump in the water at the intersection
 [G13.63,21.44Felwood][QC1001 -]Start working on darkshore threshers[OC]
 [G13.63,21.44Felwood][QC4681 Washed Ashore]
 [H]Hearth to Auberdine[OC]
+Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within][A NightElf]
+Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A NightElf]
 [G19.1,20.63Felwood][QT4681 Washed Ashore]
 
-[G22.39,29.45,96Felwood][QC985-]Kill fulborgs
+[L22.39,29.45Felwood][QC985-][O]Kill fulborgs
 Accept [QA953 The Fall of Ameth'Aran]
 [G25.98,40.62Felwood][QC953,2 The Fall of Ameth'Aran]
 [G25.66,39.11Felwood][QC957 Bashal'Aran]
@@ -61,7 +61,7 @@ Accept [QA953 The Fall of Ameth'Aran]
 Finish off [QC958 Tools of the Highborne]
 Turn in [G23.29,36.73Felwood][QT953 The Fall of Ameth'Aran]
 [QC2118-]Capture a rabid thistle bear
-[G22.39,29.45,96Felwood] Grind to [XP15 level 15]
+[G22.39,29.45,96Felwood][XP15.25 Grind to level 15 + 25%]
 Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within]
 
 Turn in [G21.63,18.15Felwood][QT2118 Plagued Lands] \\Accept [QA2138 Cleansing of the Infected]
@@ -72,7 +72,7 @@ Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within]
 Turn in [G18.1,18.48Felwood][QT963 For Love Eternal]
 Accept [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
 Accept [G20.8,15.58Felwood][QA982 Deep Ocean, Vast Sea]
-[G20.8,15.58Felwood] Buy [V]*Mild Spice*x10 and cook 10 herb baked eggs[A NightElf]
+[G20.8,15.58Felwood] Buy [V]*Mild Spice*x10 and cook 9 herb baked eggs[A NightElf]
 Turn in [G19.98,14.4Felwood][QT958 Tools of the Highborne]
 
 [G20.94,1.49,90Felwood]Finish off [QC1001]
@@ -97,23 +97,23 @@ Accept [G44.18,20.6Darkshore][QA4725 Beached Sea Turtle]
 Finish off [QC1138], you can skip this step and finish that later if the area is too crowded
 Grind until your HS cooldown is <6 minutes then death warp to Auberdine [OC]
 
+[G19.98,14.4Felwood]Turn in [QT4762 The Cliffspring River] \\Accept [QA4763 The Blackwood Corrupted]
 Turn in [G20.8,15.58Felwood][QT982 Deep Ocean, Vast Sea]
 [G20.8,15.58Felwood] Buy [V]*Mild Spices* to level cooking on the Darnassus boat [O][A Dwarf,Human,Gnome]
 Buy [G19.98,14.4Felwood]flint and tinder and simple wood for a campfire [A Dwarf,Human,Gnome]
 Turn in [G19.9,18.4Felwood][QT947 Cave Mushrooms] \\Accept [QA948 Onu]
 [G19.78,19.07Felwood]Click on the wanted poster outside the inn \\Accept [QA4740 WANTED: Murkdeep!]
+[G37.78,44.06Darkshore]Fill the Empty Bowl at the moonwell[OC]
 [G19.1,20.63Felwood]Turn in [QT4723 Beached Sea Creature] \\Turn in [QT4725 Beached Sea Turtle]
 Take the boat to darnassus [A Dwarf,Human,Gnome][OC]
 [G58.39,94.01Teldrassil][P Get the Ruth'theran Village FP][A Dwarf,Human,Gnome]
-[G19.1,20.63Felwood][F Fly to darnassus][A NightElf]
+[G19.1,20.63Felwood]Fly to [F Teldrassil][A NightElf]
 [G56.25,92.44Teldrassil][QT6343 Return to Nessa][A NightElf]
-[G39.89,42.11Darnassus][V]Bank your cooking mats[OC]
-[G36.6,13.6,100Darnassus][T Train skills][A Hunter]\\Prioritize immolation trap/wing clip/mend pet\\Make sure to save 92 silver[OC]
-[G28,49.5Teldrassil][T]Train First Aid[OC]
-[G58.7,45.3Darnassus][T]Train Bows/Staves[A Dwarf,Human,Gnome][OC]
-[T]Train skills/First aid[A Rogue,Druid,Warrior,Priest][OC]
+[G36.6,13.6,100Darnassus][T Train skills][A Hunter]\\Prioritize immolation trap/wing clip/mend pet\\Make sure to save 92 silver[O]
+[L28,49.5Teldrassil][T]Train First Aid[OC]
+[G58.7,45.3Darnassus][T]Train Bows/Staves[A Dwarf,Human,Gnome][O]
+[T]Train skills/First aid[A Rogue,Druid,Warrior,Priest][O]
 [G63.3,66.3Darnassus][V]Restock/Resupply\\Buy a level 16/20 bow[A Hunter][OC]
-[G48.0,68.6Darnassus][T][OC]Train Herbalism
 [G23.7,64.51Teldrassil][QA730 Trouble In Darkshore?]
 You might have to use the website unstuck request to port to SW and train skills at some point (8hr cooldown)[OC][A Paladin,Mage,Warlock]
 [H]Hearth back to Auberdine
