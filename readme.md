@@ -20,7 +20,7 @@ This guide was mainly written for personal use and being a veteran player, I omi
 
 ## FAQ
 
-I get a lot of questions from people starting this guide from some arbitrary level, the way this guide is set up, it's broken down into 3 segments:
+I get a lot of questions from people starting this guide from some arbitrary level, the way this guide is set up, it's broken down into 3 independent chunks:
 
 * The first segment is from 1-29 (starting zone to wetlands).
 * The second segment is from 29-43 (Duskwood to late STV), and you can start it anywhere between level 29 and 32, the Duskwood segment relies on some other quests being done beforehand, but you can easily make up for it by grinding mobs.
