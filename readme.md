@@ -8,7 +8,7 @@ This guide might work for other classes, however, at early levels (1-30) the rou
 If you need pointers on how to do the more techincal stuff like soloing elite quests or executing some of the wall jumps, you can watch the last 1-60 run I recorded [here](https://www.youtube.com/watch?v=dbBITS39hsA&list=PLablGtn8YKUmwMYdqE-9xVCDZu0bQZ8eg),  additionally you can check out my Twitch channel ([http://www.twitch.tv/Zarant_](http://www.twitch.tv/Zarant_)) for more Classic WoW speedrunning related stuff.
 
 ## Setup
-- Download and install this addon
+- Download and install this addon, if you are downloading from GitHub make sure to remove the `-master` from the folder name.
 - Download and install [Guidelime](https://www.curseforge.com/wow/addons/Guidelime)
 - Make sure you enable both `Guidelime` and `Guidelime_Zarant` before logging in
 - Once you log in, press ESC to open the options menu, click on Interface Options, switch to the AddOns tab, select Guidelime from the list on the left and then scroll down to select the guide you want to load.
