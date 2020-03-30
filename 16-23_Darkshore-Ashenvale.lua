@@ -78,7 +78,7 @@ Head to ashenvale[OC]
 [G26.19,38.69Ashenvale]Turn in [QT967 The Tower of Althalaxx] pt.3 \\Accept [QA970 The Tower of Althalaxx] pt.4
 [G26.43,38.59Ashenvale][QA1010 Bathran's Hair]
 [G31.41,30.66,145Ashenvale][QC970-]Kill cultists
-[G31.63,22.33,114Ashenvale][QC1010-]Look out for the herb sacks on the ground\\Use *Track Herbs* to show them on your minimap
+[G31.63,22.33,114Ashenvale][QC1010-]Look out for the herb sacks on the ground
 [G26.19,38.69Ashenvale]Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5
 [G26.43,38.59Ashenvale]Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]
 [G22.64,51.91Ashenvale]Turn in [QT945 Therylune's Escape]
@@ -106,7 +106,7 @@ Wait for the RP sequence to end \\Accept [QA1033 Elune's Tear]
 [G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear]\\Wait for the RP sequence to end\\Accept [QA1034 The Ruins of Stardust]
 [G33.3,67.79,101Ashenvale][QC1034 -]Loot the bushes around the lake
 [G31.67,64.24Ashenvale]Head to the base of the mountain\\[G31.21,61.60Ashenvale]Run straight north while climbing the mountain
-[G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
+[G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull\\This quest is not easy, you can skip this step for now and do it later
 [G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
 [G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
 Kill Murlocs until the [QC1023 Glowing Gem] drops \\Save *Murloc Fins* for later
@@ -129,7 +129,7 @@ Turn in  [QT4732 Beached Sea Turtle]
 Turn in  [QT4733 Beached Sea Creature]
 Fly to [F Ashenvale]
 
-[L72.81,6.11Stonetalon Mountains][V][O]Restock/Resupply
+[L72.81,6.11Stonetalon Mountains][V][O]Restock/Resupply, long grinding session ahead
 Stable your pet\\Tame a Ghostpaw Runner and learn *Bite 3*\\Tame an Ashenvale Bear and learn *Claw 3*\\ \\Run back to Astranaar and withdraw your main pet from stables[O][A Hunter]
 Turn in [QT1008 The Zoram Strand] \\Accept [QA1134 Pridewings of Stonetalon]
 Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing] 
@@ -142,6 +142,7 @@ Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
 Accept [G22.28,10.86The Barrens][QA1093 Super Reaper 6000]
 Do [G23.91,6.24,109The Barrens][QC1093 Super Reaper 6000]
 Do [G25.86,5.28,137The Barrens][QC1071 A Gnome's Respite]
+[XP23-10000 Grind until you are 10k xp (about 7 bars) away from level 23]
 Turn in [G22.28,10.86The Barrens][QT1093 Super Reaper 6000]
 [G22.53,13.05The Barrens]Turn in [QT1071 A Gnome's Respite] \\Accept [QA1072 An Old Colleague] \\Accept [QA1075 A Scroll from Mauren]
 Finish off [QC1134 Pridewings of Stonetalon]
@@ -161,7 +162,9 @@ Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
 Grind mobs until your HS is off cooldown \\[H]Hearth to Astranaar
 Turn in [QT1025 An Aggressive Defense]
 Kill [G39.54,36.47Ashenvale][QC1054Dal Bloodclaw] \\Don't go deep into the village, grind mobs until you have an opening, he will eventually walk into the fulborg camp just outside the entrance of the village
-Turn in [QT1054 Culling the Threat]
+[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
+[G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
+Death warp to Astranaar\\Turn in [QT1054 Culling the Threat]
 
 --[G73.13,7.59Stonetalon Mountains]Buy [V Mild Spices] for leveling cooking
 --[G72.81,6.11Stonetalon Mountains]Buy [V Flint and Tinder] \\Buy 2x[V Simple Wood]
