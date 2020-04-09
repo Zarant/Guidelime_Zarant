@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N16-21Darkshore/Ashenvale]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-[NX21-23Stonetalon/Ashenvale]
+[NX21-23Ashenvale/Stonetalon]
 [XP17 If you are starting this segment at level 16 you will have to grind about 2 full levels, make sure to kill every mob on your way to smooth it out][O]
 [G19.78,19.07Felwood]Click on the wanted poster outside the inn \\Accept [QA4740 WANTED: Murkdeep!]
 [G19.98,14.4Felwood]Turn in [QT4762 The Cliffspring River] \\Accept [QA4763 The Blackwood Corrupted]
@@ -52,7 +52,7 @@ Accept [G6.37,16.66Winterspring][QA2098 Gyromast's Retrieval]
 Turn in [G6.37,16.66Winterspring][QT2078 Gyromast's Revenge]
 Accept [G3.1,20.9Winterspring][QA4727 Beached Sea Turtle]
 Finish off [QC1138]
-[H Hearth to Auberdine][OC]
+[H]Hearth to Auberdine[OC]
 
 Turn in [G19.1,20.63Felwood][QT4727 Beached Sea Turtle]
 Turn in [G18.5,19.87Felwood][QT1138 Fruit of the Sea]
@@ -60,7 +60,7 @@ Turn in [G19.98,14.4Felwood][QT4763 The Blackwood Corrupted] --\\Accept [QA10752
 [V Restock/Resupply][OC]
 Turn in [G21.63,18.15Felwood][QT2139 Tharnariun's Hope]
 [G22.24,18.22Felwood]Turn in [QT986 A Lost Master] pt.1 \\Accept [QA993 A Lost Master] pt.2
-[G18.08,64.03Felwood]Start the escort quest\\Turn in [QT729 The Absent Minded Prospector] pt.1 \\ Accept [QA731 The Absent Minded Prospector] pt.2 
+[G18.08,64.03Felwood]Start the escort quest\\Turn in [QT729 The Absent Minded Prospector] pt.1 \\Accept [QA731 The Absent Minded Prospector] pt.2 
 [QC731-]Escort Prospector Remtravel
 [G13.97,4.1Ashenvale]Accept [QA4733 Beached Sea Creature]
 [G13.93,2.01Ashenvale]Accept [QA4732 Beached Sea Turtle]
@@ -75,14 +75,18 @@ Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]
 
 Head to ashenvale[OC]
 [G27.26,35.58Ashenvale]Turn in [QT5321 The Sleeper Has Awakened]
+[G26.43,38.59Ashenvale][QA1010 Bathran's Hair][O]
 [G26.19,38.69Ashenvale]Turn in [QT967 The Tower of Althalaxx] pt.3 \\Accept [QA970 The Tower of Althalaxx] pt.4
+[G31.41,30.66,145Ashenvale][QC970-]Kill cultists[OC]
+[G26.19,38.69Ashenvale]Turn in [QT970 The Tower of Althalaxx] pt.4[OC]
+Grind to level [XP20]
 [G26.43,38.59Ashenvale][QA1010 Bathran's Hair]
-[G31.41,30.66,145Ashenvale][QC970-]Kill cultists
 [G31.63,22.33,114Ashenvale][QC1010-]Look out for the herb sacks on the ground
-[G26.19,38.69Ashenvale]Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5
-[G26.43,38.59Ashenvale]Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]
+[G31.41,30.66,145Ashenvale][QC970-]Kill cultists
+[G26.43,38.59,25Ashenvale]Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]\\
+Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5 --[G26.19,38.69Ashenvale]
 [G22.64,51.91Ashenvale]Turn in [QT945 Therylune's Escape]
-Save *Gooey Spider Leg* and *Lean Wolf Flank* [O]
+Save *Gooey Spider Leg* for later[O]
 [G18,59.8Ashenvale][T] Train *Growl 3* and *Aspect of the Cheetah*[A Hunter]
 [G34.4,48Ashenvale]Get the [P Astranaar] Flight Path 
 Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand] 
@@ -95,7 +99,7 @@ Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling
 ]], "Zarant")
 
 Guidelime.registerGuide([[
-[N21-23Stonetalon/Ashenvale]
+[N21-23Ashenvale/Stonetalon]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [NX23-24Wetlands]
@@ -106,7 +110,7 @@ Wait for the RP sequence to end \\Accept [QA1033 Elune's Tear]
 [G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear]\\Wait for the RP sequence to end\\Accept [QA1034 The Ruins of Stardust]
 [G33.3,67.79,101Ashenvale][QC1034 -]Loot the bushes around the lake
 [G31.67,64.24Ashenvale]Head to the base of the mountain\\[G31.21,61.60Ashenvale]Run straight north while climbing the mountain
-[G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull\\This quest is not easy, you can skip this step for now and do it later
+[G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
 [G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
 [G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
 Kill Murlocs until the [QC1023 Glowing Gem] drops \\Save *Murloc Fins* for later
@@ -120,16 +124,16 @@ Turn in [QT1009]
 [H]Hearth to Auberdine
 
 Stable your pet [O][A Hunter]
+[L72.81,6.11Stonetalon Mountains][V][O]Restock/Resupply, long grinding session ahead
 Turn in [G20.04,16.35Felwood][QT731 The Absent Minded Prospector] pt.2 \\Accept [QA741 The Absent Minded Prospector] pt.3
-[G22.24,18.22Felwood]Turn in [QT994 Escape Through Force][OC]
-OR [QT995 Escape Through Stealth][OC]
-Turn in  [QT4730 Beached Sea Creature]
-Turn in  [QT4731 Beached Sea Turtle]
-Turn in  [QT4732 Beached Sea Turtle]
+[G22.24,18.22Felwood]Turn in [QT995 Escape Through Stealth][OC]
+[G22.24,18.22Felwood]Turn in [QT994 Escape Through Force]
+Turn in  [QT4730 Beached Sea Creature]\\
+Turn in  [QT4731 Beached Sea Turtle]\\
+Turn in  [QT4732 Beached Sea Turtle]\\
 Turn in  [QT4733 Beached Sea Creature]
 Fly to [F Ashenvale]
 
-[L72.81,6.11Stonetalon Mountains][V][O]Restock/Resupply, long grinding session ahead
 Stable your pet\\Tame a Ghostpaw Runner and learn *Bite 3*\\Tame an Ashenvale Bear and learn *Claw 3*\\ \\Run back to Astranaar and withdraw your main pet from stables[O][A Hunter]
 Turn in [QT1008 The Zoram Strand] \\Accept [QA1134 Pridewings of Stonetalon]
 Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing] 
@@ -142,7 +146,7 @@ Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
 Accept [G22.28,10.86The Barrens][QA1093 Super Reaper 6000]
 Do [G23.91,6.24,109The Barrens][QC1093 Super Reaper 6000]
 Do [G25.86,5.28,137The Barrens][QC1071 A Gnome's Respite]
-[XP23-10000 Grind until you are 10k xp (about 7 bars) away from level 23]
+[XP23-11000 Grind until you are 11k xp (about 8 bars) away from level 23]
 Turn in [G22.28,10.86The Barrens][QT1093 Super Reaper 6000]
 [G22.53,13.05The Barrens]Turn in [QT1071 A Gnome's Respite] \\Accept [QA1072 An Old Colleague] \\Accept [QA1075 A Scroll from Mauren]
 Finish off [QC1134 Pridewings of Stonetalon]
@@ -161,7 +165,7 @@ Accept [G49.79,67.21,20Ashenvale][QA1016 Elemental Bracers]
 Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
 Grind mobs until your HS is off cooldown \\[H]Hearth to Astranaar
 Turn in [QT1025 An Aggressive Defense]
-Kill [G39.54,36.47Ashenvale][QC1054Dal Bloodclaw] \\Don't go deep into the village, grind mobs until you have an opening, he will eventually walk into the fulborg camp just outside the entrance of the village
+[G39.54,36.47Ashenvale]Kill [QC1054-]Dal Bloodclaw
 [G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
 [G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
 Death warp to Astranaar\\Turn in [QT1054 Culling the Threat]

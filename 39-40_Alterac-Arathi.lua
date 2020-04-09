@@ -5,7 +5,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Make sure you have water breathing pots for this segment [OC]
-Fly to [F Southshore][OC]
+Fly to Southshore[OC]
 
 Accept [QA659]
 

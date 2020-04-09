@@ -34,3 +34,4 @@
 56-57_BS.lua
 57-59_WPL-EPL.lua
 59-60.lua
+Horde\1-12_Durotar.lua

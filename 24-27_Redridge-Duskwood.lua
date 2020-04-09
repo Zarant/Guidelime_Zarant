@@ -5,12 +5,13 @@ Guidelime.registerGuide([[
 --[NX26-27Duskwood/Redridige]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-
+[V][O]Deposit the following items:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4)
 [G55.21,7.04Stormwind City] Buy a [V]*Bronze Tube* if you haven't[O]
 Head to Stormwind City\\[G42.79,80.15Stormwind City]Turn in [QT1075 A Scroll from Mauren] \\Accept [QA1076 Devils in Westfall]
 [G71.19,89.10,30Stormwind City] Head to Elwynn Forest
 
 Accept [G68.33,39.18Westfall][QA226 Wolves at Our Heels]
+Kill [QC226 Wolves] along the N/NW river bank [O]
 Speak with Madame Eva\\Accept [G75.81,45.29Duskwood][QA66 The Legend of Stalvan] \\Accept [G75.81,45.29Duskwood][QA101 The Totem of Infliction]
 --Speak with Chief Grual \\Accept [G73.88,43.45Duskwood][QA90 Seasoned Wolf Kabobs] \\You need 50 cooking to accept this quest
 Set your hearth to [G73.9,43.4Duskwood][S Duskwood]
@@ -30,8 +31,6 @@ Accept [G97.18,65.28Westfall][QA245 Eight-Legged Menaces]
 Turn in [G76.55,57.05Westfall][QT163 Raven Hill] \\Accept [G76.55,57.05Westfall][QA5 Jitters' Growling Gut]
 [QC245 -]Kill spiders along the western river bank\\Don't go out of your way to do this quest, skip it if necessary[O]
 Turn in [G68.38,39.85Westfall][QT164 Deliveries to Sven] \\Skip the follow up for now
-Accept [G68.33,39.18Westfall][QA226 Wolves at Our Heels]
-Kill [QC226 Wolves] along the N/NW river bank [O]
 Turn in [G84.06,37.84Westfall][QT165 The Hermit] \\Accept [G84.06,37.84Westfall][QA148 Supplies from Darkshire]
 Finish off [QC226]
 [G68.33,39.18Westfall][QT226 Wolves at Our Heels]
@@ -41,12 +40,14 @@ Grind mobs until your Hearthstone cooldown is < 5min \\Make sure you have [V]*Go
 [QC1076 -]Head to westfall and look out for dust devils [OC]
 [G56.55,52.63Westfall] Get the [P Westfall] Flight Path
 [QC1076 -]Look out for dust devils [OC]
-Click on the footlocker on the ground \\Turn in [G41.51,66.72Westfall][QT67 The Legend of Stalvan] \\Accept [G41.51,66.72Westfall][QA68 The Legend of Stalvan]
+Make sure you have at least 1 bag slot\\Click on the footlocker on the ground \\Turn in [G41.51,66.72Westfall][QT67 The Legend of Stalvan] \\Accept [G41.51,66.72Westfall][QA68 The Legend of Stalvan]
 Hearth back to [H Duskwood]
-Turn in [G73.88,43.45Duskwood][QT5 Jitters' Growling Gut] \\Accept [G73.88,43.45Duskwood][QA93 Dusky Crab Cakes] \\Turn in [G73.88,43.45Duskwood][QT93 Dusky Crab Cakes] \\Accept [G73.88,43.45Duskwood][QA240 Return to Jitters]
-Turn in [G73.59,46.89Duskwood][QT56 The Night Watch] \\Accept [G73.59,46.89Duskwood][QA57 The Night Watch]
-Turn in [G72.53,46.85Duskwood][QT68 The Legend of Stalvan] \\Accept [G72.53,46.85Duskwood][QA69 The Legend of Stalvan]
-Turn in [G75.81,45.29Duskwood][QT148 Supplies from Darkshire] \\Accept [G75.81,45.29Duskwood][QA149 Ghost Hair Thread]
+Turn in [G73.88,43.45Duskwood][QT5 Jitters' Growling Gut] \\Accept [QA93 Dusky Crab Cakes]
+
+
+Turn in [G73.59,46.89Duskwood][QT56 The Night Watch] \\Accept [QA57 The Night Watch]
+Turn in [G72.53,46.85Duskwood][QT68 The Legend of Stalvan] \\Accept [QA69 The Legend of Stalvan]
+Turn in [G75.81,45.29Duskwood][QT148 Supplies from Darkshire] \\Accept [QA149 Ghost Hair Thread]
 ]], "Zarant")
 
 Guidelime.registerGuide([[
@@ -82,11 +83,12 @@ Guidelime.registerGuide([[
 Turn in [G81.98,59.08Duskwood][QT149 Ghost Hair Thread] \\Accept [QA154 Return the Comb]
 Turn in [G75.81,45.29Duskwood][QT154 Return the Comb] \\Accept [QA157 Deliver the Thread]
 Turn in [G49.85,77.71Duskwood][QT95 Sven's Revenge] \\Accept [QA230 Sven's Camp]
-[G97.18,65.28Westfall][QT245 Eight-Legged Menaces]
-[G76.55,57.05Westfall][QT240 Return to Jitters]
-[XP25.5 Grind to 25 and a half]
+Turn in [G97.18,65.28Westfall][QT245 Eight-Legged Menaces]
+[QT93-]Kill spiders[O]
 Turn in [G84.06,37.84Westfall][QT157 Deliver the Thread] \\Accept [QA158 Zombie Juice]
 Turn in [G68.38,39.85Westfall][QT230 Sven's Camp] \\Accept [QA262 The Shadowy Figure]
+Finish off [QT93 Dusky Crab Cakes]
+[XP25.75 Grind to 25 + 75%]
 
 --Run to Elwynn Forest [OC]
 Turn in [G85.72,2.68Westfall][QT69 The Legend of Stalvan] \\Accept [QA70 The Legend of Stalvan]
@@ -107,11 +109,12 @@ Turn in [G79.8,48.02Duskwood][QT177 Look To The Stars] \\Accept [QA181 Look To T
 Speak with Madame Eva\\Turn in [G75.81,45.29Duskwood][QT262 The Shadowy Figure] \\Accept [QA265 The Shadowy Search Continues]
 Turn in [G72.53,46.85Duskwood][QT265 The Shadowy Search Continues] \\Accept [QA266 Inquire at the Inn]
 Turn in [G73.77,44.48Duskwood][QT158 Zombie Juice] \\Accept [QA156 Gather Rot Blossoms] \\ Turn in [QT266 Inquire at the Inn] \\Accept [QA453 Finding the Shadowy Figure]
+Turn in [G73.88,43.45Duskwood][QT93 Dusky Crab Cakes] \\Accept [QA240 Return to Jitters]
 --[G73.88,43.45Duskwood]Turn in [QT90 Seasoned Wolf Kabobs]
 
 --3rd pass [OC]
 [G79.63,48.1,151Westfall][QC57-][QC156-]Kill skeletons at the Raven Hill Cemetery
-Turn in [G76.55,57.05Westfall][QT453 Finding the Shadowy Figure] \\Accept [G76.55,57.05Westfall][QA268 Return to Sven]
+Turn in [G76.55,57.05Westfall][QT453 Finding the Shadowy Figure] \\Accept [QA268 Return to Sven] \\Turn in [QT240 Return to Jitters]
 Turn in [G68.38,39.85Westfall][QT268 Return to Sven] \\Accept [G68.38,39.85Westfall][QA323 Proving Your Worth]
 Do [G74.67,41.99,164Westfall][QC323 Proving Your Worth] 
 Turn in [G68.38,39.85,20Westfall][QT323 Proving Your Worth] \\Accept [QA269 Seeking Wisdom]

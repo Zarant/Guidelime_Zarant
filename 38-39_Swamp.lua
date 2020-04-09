@@ -5,7 +5,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
-Fly to [F Stormwind][OC]
+Fly to Stormwind[OC]
 Accept [QA1448 In Search of The Temple]
 Accept [QA1363 Mazen's Behest] pt.1\\Run upstairs and turn in [QT1363 Mazen's Behest] pt.1\\Accept [QA1364 Mazen's Behest] pt.2
 Accept [QA1260 Morgan Stern]
@@ -31,7 +31,7 @@ Finish off [QC1389]
 Click on Galen's Strongbox \\Turn in [QT1393 Galen's Escape]
 Turn in [QT1389 Draenethyst Crystals]
 --[G14.97,37.31,70Swamp of Sorrows]Finish off [QC1364 Mazen's Behest]
-If you haven't done Mazen's Behest yet, skip it and do it some time later [OC]
+If you haven't done Mazen's Behest yet, skip it and do it some time later\\Do NOT abandon the associated quest[OC]
 Turn in [QT1421 The Lost Caravan]
 Do [G67.0,47.0 Swamp of Sorrows][QC1448 In Search of The Temple] by swimming to the middle of the lake
 Grind mobs until your HS is off cooldown \\[H]Hearth to Booty Bay
@@ -39,8 +39,8 @@ Turn in [QT1116] \\Accept [QA1117]
 
 Fly to [F Stormwind]
 
-Withdraw all quest items that you banked in the previous segment[O]
-Bank *Khadgar's Essays on Dimensional Convergence* if you have it[O]
+[V][O]Withdraw ALL quest items that you deposited in your bank previously
+Deposit *Khadgar's Essays on Dimensional Convergence* if you have it[O]
 Accept [QA543 The Perenolde Tiara]
 Turn in [QT1448 In Search of The Temple] \\Accept [QA1449]
 Take the tram to IF [OC]

@@ -3,9 +3,10 @@ Guidelime.registerGuide([[
 [N27-29Wetlands/Hillsbrad]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
---[A Dwarf,Gnome,Human][NX28-30Ashenvale]
 [NX29-32Duskwood]
-Fly to [F Stormwind][OC]
+[V][O]Deposit the follwing items:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom
+[V][O]Withdraw from your bank:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4)
+Fly to Stormwind\\
 Turn in [QT269] \\Accept [QA270]
 Accept [G40.55,30.91Stormwind City][QA2923 Tinkmaster Overspark]
 Take the tram to Ironforge [OC]
@@ -75,8 +76,8 @@ Get the [P Arathi Highlands] FP
 [G20.08,29.74,65Arathi Highlands]Head to Southshore
 Turn in [G52.13,58.73,20Hillsbrad Foothills][QT647 MacKreel's Moonshine]
 Get the [P Southshore] FP
-Do the murloc quests in Southshore until you are at least [XP29.55 50% into level 29] [O]
-Stable your pet and head east \\Tame a spider, learn bite rank 4 [A Hunter][OC]'
+Do the murloc quests in Southshore or farm turtle meat until you are [XP29.55 55% into level 29] [O]
+Stable your pet and head east \\Tame a spider, learn bite rank 4 [A Hunter][OC]
 Kill turtles along the river and save turtle meat for later, don't go out of your way to kill them [OC]
 [H]Hearth to Menethil Harbor[OC]
 Turn in [G10.58,60.59,20Wetlands][QT292 The Eye of Paleth] \\Accept [QA293 Cleansing the Eye]

@@ -21,16 +21,17 @@ Accept [QA276 Tramping Paws]
 Do [G61.91,71.32,168Wetlands][QC276 Tramping Paws]
 [XP24 Grind to level 24]
 [G56.37,40.4Wetlands]Turn in [QT276 Tramping Paws] \\Accept [QA277 Fire Taboo]
-[G54.5,72.3,60Wetlands] Head to Loch Modan \\*OR*\\Use the website unstuck feature and skip the rest of this segment if you already have the Loch Modan FP
+[G54.5,72.3,80Wetlands] Head to Loch Modan \\*OR*\\Use the website unstuck feature and skip the rest of this segment if you already have the Loch Modan FP
 
 Accept [G46.04,13.61Loch Modan][QA250 A Dark Threat Looms]
 [G56.05,13.23Loch Modan]Click on the [QT250 Suspicious Barrel] \\Accept [QA199 A Dark Threat Looms] pt.2
 [G46.04,13.61Loch Modan]Turn in [QT199 A Dark Threat Looms pt.2] \\Skip the follow up
 Throw away your HS and unstuck to Thelsamar[OC]
 
-Accept [G34.26,47.7Loch Modan][QA467 Stonegear's Search][A NightElf]
+Accept [G34.26,47.7Loch Modan][QA467 Stonegear's Search][A NightElf][O]
 [G33.93,50.95Loch Modan] Get the [P Thelsamar] Flight Path[A NightElf,Human]
-[G21.3,68.6,30Loch Modan] Run to Dun Morogh[A NightElf]
+[O]From this point forward you will save about 10-15 minutes using the website unstuck feature to teleport to SW (Skip straight to the SW/Duskwood section)
+[G21.3,68.6,50Loch Modan] Run to Dun Morogh[A NightElf]
 Once you get to Dun Morogh, throw away your HS and unstuck [OC][A NightElf]
 Turn in [G49.62,48.61Dun Morogh][QT467 Stonegear's Search][A NightElf]
 [G50.08,49.42,8Dun Morogh] Buy a [V]*Bronze Tube* if you haven't already[O][A NightElf]
@@ -39,7 +40,7 @@ Fly to [F Ironforge][A Dwarf,Gnome,Human]
 
 
 [G50.82,5.61Ironforge]Turn in [QT968 The Powers Below] if you have it[O]
-[G72.08,51.87Ironforge]Turn in [QT1072 An Old Colleague]
+[G72.08,51.87Ironforge]Turn in [QT1072 An Old Colleague][O] (optional, you can turn it in later)
 [G67.84,42.5Ironforge]Buy a [V]*Bronze Tube* if you haven't already[OC]
 Take the tram to Stormwind
 

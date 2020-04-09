@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [NX40-41Badlands]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-Fly to [F Wetlands][OC]
+Fly to Wetlands[OC]
 [S] Set your HS to Menethil Harbor
 Take the boat to Theramore [OC]
 [T]Do the First Aid quest if applicable [O]

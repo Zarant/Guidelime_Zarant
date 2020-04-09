@@ -49,6 +49,7 @@ Turn in [QT1285 Daelin's Men]
 Turn in [QT1319 The Black Shield] \\Accept [QA1320 The Black Shield]
 Turn in [QT1320 The Black Shield]
 [G51.71,14.43,25Dustwallow Marsh]Grind your way northwest towards Ratchet
+[V][O]Deposit the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head
 Unstuck to Ratchet once you get to The Barrens[OC]
 Get the [P Ratchet] FP
 Turn in [QT1178 Goblin Sponsorship] \\Accept [QA1180 Goblin Sponsorship]

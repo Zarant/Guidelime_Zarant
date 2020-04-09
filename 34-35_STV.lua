@@ -4,8 +4,8 @@ Guidelime.registerGuide([[
 [NX35-37Desolace]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
+[V][O]Deposit the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head
 Take the Boat to Booty Bay [OC]
-
 Turn in [G26.34,73.56,20Stranglethorn Vale][QT1180 Goblin Sponsorship] \\Accept [QA1181 Goblin Sponsorship]
 Enter the inn from the bottom floor \\Accept [G27.11,77.21,20Stranglethorn Vale][QA605 Singing Blue Shards]
 [S] Set your HS to Booty Bay
@@ -52,7 +52,7 @@ Delete the *Library Scrip*[O]
 Turn in [G28.29,77.59,20Stranglethorn Vale][QT575 Supply and Demand] \\Accept [QA577]
 
 Fly to [F Stormwind]
-
+[V][O]Withdraw the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Kravel's Crate
 Turn in [G72.6,15.85,20Stormwind City][QT563 Reassignment]
 Skip this step if you haven't found the quest item\\Turn in [G74.16,7.49Stormwind City][QA337-][QT337 An Old History Book][O] \\Accept [QA538 Southshore][O]
 Take the tram to Ironforge [OC]
