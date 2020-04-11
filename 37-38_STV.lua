@@ -4,7 +4,8 @@ Guidelime.registerGuide([[
 [NX38-39Swamp of Sorrows]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-[V][O]Deposit all your quest items in the bank except for *Small Brass Key* (if you have it)
+[V][O]Deposit all your quest items in the bank
+[V][O]Withdraw *Small Brass Key* from your bank (if you have it)
 Make sure you withdraw water breathing pots from your bank. \\Take the boat to *Booty Bay* [OC]
 [S]Set your HS to Booty Bay
 Turn in [QT1115 The Rumormonger] \\Skip the follow up

@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [NX43-48Tanaris/Feralas]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-
+[V][O]Withdraw the following items from your bank:\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem
 [T]Train skills\\Make sure your pet has Frost Resistance maxed out [O][A Hunter]
 Take the tram to Stormwind [OC]
 Turn in [QT543 The Perenolde Tiara]
@@ -32,7 +32,6 @@ Turn in [QT603 Ansirem's Key] at the middle floor \\Accept [QA610 "Pretty Boy" D
 Accept [QA600 Venture Company Mining] \\Accept [QA621 Zanzil's Secret]
 Turn in [QT1118 Back to Booty Bay]
 [S]Set your HS to Booty Bay
-Bank the *Seaforium Booster* (green rocket quest item)[O]
 Accept [QA617 Akiris by the Bundle]
 Accept [QA606 Scaring Shaky]
 Accept [QA628 Excelsior]
@@ -107,7 +106,7 @@ Turn in [QT604 The Bloodsail Buccaneers]
 Turn in [QT621 Zanzil's Secret] \\Accept [QA1119]
 Turn in [QT617 Akiris by the Bundle] \\Accept [QA623 Akiris by the Bundle]
 Bank your gorilla fangs / Carfully folded note [OC]
-Withdraw the following: Bundle of Akiris Reeds\\Seaforium Booster[OC]
+Withdraw the following items:\\Bundle of Akiris Reeds\\Seaforium Booster[OC]
 Accept [QA2872] 
 Turn in [QT609 Voodoo Dues]
 Turn in [QT576 Keep An Eye Out]

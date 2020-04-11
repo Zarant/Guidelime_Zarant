@@ -5,7 +5,9 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [T]Train skills\\Train pet skills[O]
-Fly to [F Ironforge][OC]
+[V][O]Deposit the following items:\\Seaforium Booster\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem
+[V][O]Withdraw the following items from your bank:\\*Blue Pearls* (x9)\\Buzzard Wings
+Fly to Ironforge[OC]
 Accept [QA707 Ironband Wants You!] \\Turn in [QT554 Stormpike's Deciphering]
 Turn in [QT653 Myzrael's Allies] \\Accept [QA687 Theldurin the Lost]
 Fly to [F Loch Modan]

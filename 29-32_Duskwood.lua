@@ -5,7 +5,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [O]This segment has a long grinding session, you can substitute that for a Gnomeregan run
-[V][O]Withdraw the follwing:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom
+[V][O]Withdraw the follwing:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom\\An Old History Book (if you have it)
 Fly to Ironforge\\
 Turn in [QT637 Sully Balloo's Letter] \\Wait for the RP sequence\\Accept [QA683 Sara Balloo's Plea]
 Turn in [QT683 Sara Balloo's Plea] \\Accept [QA686 A King's Tribute]
@@ -21,7 +21,7 @@ Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
 Accept [QA1274 The Missing Diplomat] pt.1 \\Turn in [QT293 Cleansing the Eye]
 
 Turn in [QT1274 The Missing Diplomat] pt.1 \\Accept [QA1241 The Missing Diplomat] pt.2
-
+--Skip this step if you haven't found the quest item\\Turn in [G74.16,7.49Stormwind City][QA337-][QT337 An Old History Book][O] \\Accept [QA538 Southshore][O]
 Turn in [QT1241 The Missing Diplomat] pt.2 \\Accept [QA1242 The Missing Diplomat] pt.3
 
 Turn in [QT1242 The Missing Diplomat] pt.3  \\Accept [QA1243 The Missing Diplomat] pt.4

@@ -39,7 +39,7 @@ Turn in [QT1116] \\Accept [QA1117]
 
 Fly to [F Stormwind]
 
-[V][O]Withdraw ALL quest items that you deposited in your bank previously
+[V][O]Withdraw ALL quest items that you deposited in your bank previously\\ \\Make sure you withdraw water breathing pots for the next segment
 Deposit *Khadgar's Essays on Dimensional Convergence* if you have it[O]
 Accept [QA543 The Perenolde Tiara]
 Turn in [QT1448 In Search of The Temple] \\Accept [QA1449]
