@@ -20,11 +20,12 @@ Do [QC2641]
 [G48.86,68.50The Hinterlands]Do [QC2989]
 Do [QC2877]
 [QC2880-][G66.24,44.51,70The Hinterlands][L71.20,48.47][L66.24,44.51] Kill Vilebranch trolls for tribal necklaces
-Grind until your HS cooldown is <12 minutes\\Accept [QA485] if you have a distress beacon on your bags, skip this step if you don't
-Turn in [QT485] \\Start the escort quest \\Accept [QA836]
+Grind until your HS cooldown is <6 minutes\\Accept [QA485] if you have a distress beacon in your bags, skip this step if you don't
+Turn in [QT485] \\Skip the escort quest
+--Start the escort quest \\Accept [QA836]
 [QC836-]Escort the robot chicken
 [QC2944-][OC]Head down to the coast, find Gammerita and use the *Super Snapper FX* on her.
-[QC580-]Look for small blue bottles along the coast
+--[QC580-]Look for small blue bottles along the coast
 Finish off [QC2944]
 Turn in [QT626]
 Grind mobs until your HS is off cooldown \\[H]Hearth to Aerie Peak

@@ -1,37 +1,37 @@
 ## Title: Guidelime_Zarant
 ## Author: Zarant
-## Version: 1.1.0
+## Version: 1.2.0
 ## Interface: 11302
 ## Dependencies: Guidelime
 ## Notes: Alliance Hunter Leveling Guide
 
-1-11_DunMorogh.lua
-1-12_Teldrassil.lua
-11-13_LochModan.lua
-12-16_Darkshore.lua
-16-23_Darkshore-Ashenvale.lua
-23-24_Wetlands.lua
-24-27_Redridge-Duskwood.lua
-27-29_Wetlands.lua
-29-32_Duskwood.lua
-32-32_Hillsbrad.lua
-32-34_1kNeedles.lua
-34-35_STV.lua
-35-37_Desolace.lua
-37-38_STV.lua
-38-39_Swamp.lua
-39-40_Alterac-Arathi.lua
-40-40_Dustwallow.lua
-40-41_Badlands.lua
-41-43_STV.lua
-43-48_Feralas.lua
-48-49_Tanaris.lua
-49-51_STV-BL-SG.lua
-51-52_Hinterlands-WPL.lua
-52-53_Felwood-Feralas-Azshara.lua
-53-54_Ungoro.lua
-54-56_Felwood-Winterspring.lua
-56-57_BS.lua
-57-59_WPL-EPL.lua
-59-60.lua
+Alliance\1-11_DunMorogh.lua
+Alliance\1-12_Teldrassil.lua
+Alliance\11-13_LochModan.lua
+Alliance\12-16_Darkshore.lua
+Alliance\16-23_Darkshore-Ashenvale.lua
+Alliance\23-24_Wetlands.lua
+Alliance\24-27_Redridge-Duskwood.lua
+Alliance\27-29_Wetlands.lua
+Alliance\29-32_Duskwood.lua
+Alliance\32-32_Hillsbrad.lua
+Alliance\32-34_1kNeedles.lua
+Alliance\34-35_STV.lua
+Alliance\35-37_Desolace.lua
+Alliance\37-38_STV.lua
+Alliance\38-39_Swamp.lua
+Alliance\39-40_Alterac-Arathi.lua
+Alliance\40-40_Dustwallow.lua
+Alliance\40-41_Badlands.lua
+Alliance\41-43_STV.lua
+Alliance\43-48_Feralas.lua
+Alliance\48-49_Tanaris.lua
+Alliance\49-51_STV-BL-SG.lua
+Alliance\51-52_Hinterlands-WPL.lua
+Alliance\52-53_Felwood-Feralas-Azshara.lua
+Alliance\53-54_Ungoro.lua
+Alliance\54-56_Felwood-Winterspring.lua
+Alliance\56-57_BS.lua
+Alliance\57-59_WPL-EPL.lua
+Alliance\59-60.lua
 Horde\1-12_Durotar.lua

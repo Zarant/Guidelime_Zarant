@@ -179,7 +179,7 @@ Turn in [QT46] \\Turn in [QT52] \\Turn in [QT71] \\Accept [QA39]
 Turn in [QT83]
 Turn in [QT5545]
 [G91.13,72.49,25Elwynn Forest]Head to Redridge Mountains
-Death warp to the graveyard once you switch zones\\Get the [F Redridge] FP[OC]
+Death warp to the graveyard once you switch zones\\Get the [P]Redridge FP[OC]
 [G30.60,59.37Redridge Mountains]Fly to [F Stormwind]
 Turn in [QT1688] \\Accept [QA1689][A Warlock]
 Go down the crypt and turn right at the first fork\\[G25.11,77.45,3Stormwind City][QC1689-]Click on the pendant while standing on the summoning circle [A Warlock]
@@ -196,7 +196,7 @@ Turn in [QT39]
 Turn in [G24.76,18.39Loch Modan][QT307 Filthy Paws]
 Turn in [G34.26,47.7Loch Modan][QT416 Rat Catching]
 [QC418 Finish off Thelsamar Blood Sausages]
-[H]Hearth to Thelsamar[OC]
+--[H]Hearth to Thelsamar[OC]
 Turn in [G34.82,49.28Loch Modan][QT418 Thelsamar Blood Sausages]
 [G33.93,50.95Loch Modan] Turn in [QT6387 Honor Students] \\Accept [QA6391 Ride to Ironforge]
 Do [G31.44,0.42,171Badlands][QC224 In Defense of the King's Lands]
@@ -214,5 +214,5 @@ Turn in [G55.5,47.74Ironforge][QT6388 Gryth Thurden]
 [G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut
 [G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor
 [P Get the Menethil FP]
-[F Take the boat to Darkshore]
+Take the boat to Darkshore
 ]], "Zarant")

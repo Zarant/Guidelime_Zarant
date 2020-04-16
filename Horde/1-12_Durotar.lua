@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [GA Orc,Troll]
 [N1-11Durotar]
 [NX11-13Durotar/Barrens]
-[D Horde Hunter Leveling Guide]
+[D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 
 [G43.3,68.6Durotar]Accept [QA4641 Your Place In The World]
 [G42.1,68.3Durotar]Turn in [QT4641 Your Place In The World]\\
@@ -145,7 +145,7 @@ Enter RFC, do a /who to invite some random person, leave group and teleport to R
 Guidelime.registerGuide([[
 [GA Orc,Troll]
 [N11-13Durotar/Barrens]
-[D Horde Hunter Leveling Guide]
+[D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 
 [G52.2,43.1Durotar]Turn in [QT806 Dark Storms]\\
 Accept [QA828 Margoz]

@@ -111,7 +111,7 @@ Accept [QA2872]
 Turn in [QT609 Voodoo Dues]
 Turn in [QT576 Keep An Eye Out]
 
-Take the Boat to Ratchet\\Train first aid while you wait for the boat[OC]
+Take the Boat to Ratchet\\Train first aid while you wait for the boat
 Fly to [F Theramore]
 [T]Train first aid at the keep[O]
 Turn in [QT623 Akiris by the Bundle]

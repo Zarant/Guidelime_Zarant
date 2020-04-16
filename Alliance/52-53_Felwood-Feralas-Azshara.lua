@@ -15,7 +15,7 @@ Turn in [QT2944] \\Accept [QA2943]
 [T]Train skills [O]
 [V][O]Restock on supplies, long grinding session ahead
 --Sunken Temple class quest
-Accept [G42.44,7.36Darnarssus][QA8151][O][A Hunter]
+[G42.44,7.36Darnassus]Accept  [QA8151][O][A Hunter]
 Turn in [QT162] \\Turn in [QT4267] \\Accept [QA4493]
 Turn in [QT2972]
 Accept [QA978]
@@ -80,12 +80,12 @@ Guidelime.registerGuide([[
 [V][O]Bank the follwing: \\Eridan's Vial\\Cenarion Beacon\\Slime jars
 [V][O]Withdraw the follwing:\\Pupellyverbos Port\\Bloodpetal
 Withdraw your pet from the stables [A Hunter][O]
-Set your HS to [S Ratchet]
-Take the boat to STV[OC]
-Turn in [QT836]
-Turn in [QA3721-][QT3721]
-Turn in [QT580]
-[H]Hearth back to ratchet
+--Set your HS to [S Ratchet]
+--Take the boat to STV[OC]
+--Turn in [QT836]
+--Turn in [QA3721-][QT3721]
+--Turn in [QT580]
+--[H]Hearth back to ratchet
 Fly to [F Feathermoon]
 Accept [QA7733]
 [S]Set your HS to Feathermoon

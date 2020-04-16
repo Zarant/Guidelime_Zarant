@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N48-49Tanaris/Un'Goro]
-[NX49-50STV/Blasted Lands]
+[NX49-50STV]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [V][O]Bank the following:\\Jer'kai's Signet Ring\\Raschal's Report
@@ -77,7 +77,7 @@ Turn in [QT4291] \\Accept [QA4292]
 Finish off [QC4141]
 Grind raptors until you find *A Mangled Journal* \\Accept [QA3884]
 Make sure you have 7 crystals of each color\\(blue, yellow, green, red)
-[H]Hearth back to Gadgetzan \\Alternatively, you can run to tanaris and death warp to Gadgetzan [OC]
+Run to tanaris, throw away your HS and unstuck to Gadgetzan [OC]
 Turn in [QT2605] \\Accept [QA2606]
 Turn in [QT5863]
 Turn in [QT3362]

@@ -1,6 +1,6 @@
 
 Guidelime.registerGuide([[
-[N49-50STV/Blasted Lands]
+[N49-50STV]
 [NX50-51Searing Gorge]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
@@ -13,16 +13,16 @@ Turn in [QT648 Rescue OOX-17/TN!]
 Accept [QA348 Stranglethorn Fever]
 Turn in [QT2874 Deliver to MacKinley]
 Turn in [QT1122 Report Back to Fizzlebub]
-Accept [QA580 Whiskey Slim's Lost Grog]
+--Accept [QA580 Whiskey Slim's Lost Grog]
 [S]Set HS to Booty Bay
 Accept [QA608 The Bloodsail Buccaneers]
-[L23.25,71.85Stranglethorn Vale]Use eagle eye at the goblin statue and look for Mok'rash\\Kill him by running in circles around the goblin statue\\Loot and right click [QA8552 The Monogrammed Sash][O]
+[L23.25,71.85Stranglethorn Vale]Use eagle eye at the goblin statue and look for Mok'rash\\Kill him by running in circles around the goblin statue\\Loot and right click [QA8552 The Monogrammed Sash] \\Skip this step if you can't find him[O]
 Loot the green bottles at the beach \\Accept [QA594 Message in a Bottle][O]
 [QC608,2-]Kill Captain Keelhaul
 [QC608,3-]Kill Fleet Master Firallon
 [QC608,1-]Kill Captain Stillwater
 Turn in [QT594 Message in a Bottle] pt.1 \\Accept [QA630 Message in a Bottle] pt.2
-[QC630-]Kill King Mukla
+[QC630-]Kill King Mukla by running in circles around a big tree
 Turn in [QT630 Message in a Bottle] pt.2
 [QC8551-]Kill Gorlash
 [G35.27,60.42Stranglethorn Vale]Do [QC348 Stranglethorn Fever]
@@ -33,8 +33,15 @@ Accept [QA8553] \\Turn in [QT8553]
 [G28.3,74.5Stranglethorn Vale][V][O]Buy ammo[A Hunter]
 Turn in [QT348 Stranglethorn Fever]
 Turn in [QT608 The Bloodsail Buccaneers]
-
 Fly to [F Blasted Lands]
+]], "Zarant")
+
+Guidelime.registerGuide([[
+[N50-50Blasted Lands]
+[NX50-51Searing Gorge]
+[GA Alliance]
+[D Alliance Hunter Leveling Guide]
+
 Climb the tower and accept [QA2783 Petty Squabbles]
 [G34.29,66.15Swamp of Sorrows]Turn in [QT2783 Petty Squabbles] \\Accept [QA2801 A Tale of Sorrow] 
 [QC2801-]Go through his whole dialogue.

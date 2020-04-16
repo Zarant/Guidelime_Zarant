@@ -10,7 +10,7 @@ Fly to Ironforge\\
 Turn in [QT637 Sully Balloo's Letter] \\Wait for the RP sequence\\Accept [QA683 Sara Balloo's Plea]
 Turn in [QT683 Sara Balloo's Plea] \\Accept [QA686 A King's Tribute]
 Turn in [QT686 A King's Tribute] \\Accept [QA689 A King's Tribute]
-[T]Train skills\\Train pet skills [O]
+[T]Train skills\\Train pet skills\\Make sure you have frost/nature resistance maxed out on your pet[O]
 Accept [QA1179 The Brassbolts Brothers]
 Take the tram to Stormwind [OC]
 Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
