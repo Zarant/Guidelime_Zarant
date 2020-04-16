@@ -63,12 +63,14 @@ As you quest through Un'Goro, loot 7 crystals of each color\\Save Un'Goro Soil, 
 Click on the Wrecked Raft\\Accept [QA3844]
 Click on the small pack underwater\\Turn in [QT3844] \\Accept [QA3845]
 [QC4290-]Loot the threshadon carcass
-Run to Marshal's Refuge\\Accept [QA4141]
+Run to Marshal's Refuge\\Accept [QA4503]
+Accept [QA4141]
 --Accept [QA3882]
 [QC3845-]Open the small pack in your inventory [OC]
 Turn in [QT3845] \\Accept [QA3908]
 Destroy the faded pictograph[O]
 Get the [P Un'Goro Crater] FP
+[QC4503,1][O]Start working on Diemetradons\\This quest is going to be finished later at level 54\\Don't go out of your way to complete this step
 [QC4141-][O]Kill level 48-50 Lashers in northeastern Un'goro
 --[QC3882-][O]Kill Diametradons
 Turn in [QT4290] \\Accept [QA4291]

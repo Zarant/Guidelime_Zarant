@@ -8,7 +8,7 @@ Turn in [QT5158] \\Accept [QA5159]
 Accept [QA4502]
 [QC3444-]Loot the small chest outside the metal hut
 
-[V][O]Withdraw the follwing:\\Torwa's Pouch\\All 4 Power Crystals\\Violet Tragan
+[V][O]Withdraw the follwing:\\Torwa's Pouch\\All 4 Power Crystals\\Violet Tragan\\Webbed Diemetradon Scale
 --[G52.51,27.91Tanaris]Set your HS to [S Gadgetzan]
 --Accept [QA4504]--do that quest later due to quest log constraints
 Turn in [QT2641]

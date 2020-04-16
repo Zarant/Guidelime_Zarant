@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [NX50-51Searing Gorge]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-[V][O]Bank the following:\\Torwa's Pouch\\All 4 Power Crystals\\Un'Goro Soil\\Linken's Training Sword\\Bloodpetal\\Insect Analysis Report[O]
+[V][O]Bank the following:\\Torwa's Pouch\\All 4 Power Crystals\\Webbed Diemetradon Scale\\Un'Goro Soil\\Linken's Training Sword\\Bloodpetal\\Insect Analysis Report[O]
 [V][O]Withdraw the following: \\Carefully Folded Note (if you have it)\\Gorilla Fangs\\Fool's Stout Report
 Take the boat to Booty Bay [OC]
 Accept [QA8551 The Captain's Chest]
