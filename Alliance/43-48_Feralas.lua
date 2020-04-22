@@ -94,7 +94,7 @@ Turn in [QT4135 The Writhing Deep] \\Accept [QA4265 Freed from the Hive]
 Grind mobs until your HS is off cooldown\\[H]Hearth to Feathermoon
 Go upstairs\\Turn in [QT4265 Freed from the Hive] \\Accept [QA4266 A Hero's Welcome]
 Turn in [QT4266 A Hero's Welcome] \\Accept [QA4267 Rise of the Silithid]
-[G26.19,67.51Feralas]Head back to the naga cave and grind to level [XP48.3 48 + 30%] (6 bars)
+[G26.19,67.51Feralas]Head back to the naga cave and grind to level [XP48.35 48 + 35%] (7 bars)
 Death warp to Feathermoon [OC]
 Turn in [QT2982 The High Wilderness] \\Accept [QA3445 The Sunken Temple]
 Turn in [QT2821 The Mark of Quality]

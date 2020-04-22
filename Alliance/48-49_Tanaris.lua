@@ -31,7 +31,7 @@ Accept [QA3161] \\Turn in [QT3445]
 Loot [QC2873] upstairs
 [QC8365-][QC8366-]Kill more pirates
 Grind pirates until your HS cooldown is <25min \\Make sure you have a distress beacon \\Accept [QA351]
-Grind to level [XP48.8 48+80%] (4 bars away from 49)
+Grind to level [XP48.75 48+75%] (5 bars away from 49)
 [G47.31,65.14,80Tanaris][L40.68,72.98]Do [QC3161]
 [G54.63,70.75Tanaris]Enter the eastern bug hole \\[G55.97,71.18Tanaris][QC10-]Loot the machine console looking thing
 Turn in [QT351] \\Start the escort quest [QA648]

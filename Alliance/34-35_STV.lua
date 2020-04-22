@@ -46,8 +46,8 @@ Turn in [G87.67,95.16,20Westfall][QT187 Tiger Mastery] \\Turn in [QT191 Panther 
 [H] Hearth to Booty Bay
 Turn in [G27.11,77.21,20Stranglethorn Vale][QT605 Singing Blue Shards]
 Turn in [G26.94,77.2,20Stranglethorn Vale][QT201 Investigate the Camp] \\Turn in [QT210 Krazek's Cookery]
-Turn in [G26.99,77.12,20Stranglethorn Vale][QT213 Hostile Takeover]
-Turn in [G27.22,76.87,20Stranglethorn Vale][QT1182 Goblin Sponsorship] \\Accept [QA1183 Goblin Sponsorship] \\Turn in [QT578 The Stone of the Tides]
+Turn in [G26.99,77.12,20Stranglethorn Vale][QT213 Hostile Takeover] \\Accept [QA189 Bloodscalp Ears]
+Turn in [G27.22,76.87,20Stranglethorn Vale][QT1182 Goblin Sponsorship] \\Accept [QA1183 Goblin Sponsorship] \\Turn in [QT578 The Stone of the Tides] \\Accept [QA601 Water Elementals]
 Delete the *Library Scrip*[O]
 Turn in [G28.29,77.59,20Stranglethorn Vale][QT575 Supply and Demand] \\Accept [QA577]
 

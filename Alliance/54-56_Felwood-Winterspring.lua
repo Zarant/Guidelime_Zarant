@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
-[N54-56Felwood/Winterspring]
-[NX56-57Burning Steppes]
+[N54-55Felwood/Winterspring]
+[NX55-56Winterspring/Moonglade] 
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
@@ -34,13 +34,12 @@ Fly to [F Tanaris]
 Accept [QA4504 Super Sticky]
 Turn in [QT4496 Bungle in the Jungle]
 Use the Videre Elixir at the Tanaris graveyard[OC]
-Turn in [G53.93,23.33Tanaris][QT3912] \\Accept [QA3913]
+Speak to the ghost just north of the graveyard, you can only see him while dead\\Turn in [G53.93,23.33Tanaris][QT3912] \\Accept [QA3913]
 Click on the Conspicuous Gravestone\\Turn in [QT3913] \\Accept [QA3914]
 Fly to [F Un'Goro]
 Turn in [QT3914 Linken's Sword] \\Accept [QA3941 A Gnome's Assistance]
 Turn in [QT3941 A Gnome's Assistance] \\Accept [QA3942 Linken's Memory]
 Do [QC4504]
-[V][O]Restock on supplies, long grinding session ahead
 Fly to [F Tanaris]
 Turn in [QT4504 Super Sticky]
 [H]Hearth to Ratchet
@@ -58,8 +57,14 @@ Go deeper into the Shadow Hold\\Do [G38.86,46.79Felwood][QC5242 A Final Blow]
 [QC4084,1-]Kill Bears/Wolves as you go through Felwood[O]
 Do [G49.52,25.10,90Felwood][QC5086 Toxic Horrors]
 [QC4084,2-]Kill Irontree Stompers
-[XP56 Grind fulborgs to level 56]
+[G65.4,7.1,50Felwood]Go to Winterspring through the fulborg tunnel
+]], "Zarant")
 
+Guidelime.registerGuide([[
+[N55-56Winterspring/Moonglade]
+[NX56-57Burning Steppes]
+[GA Alliance]
+[D Alliance Hunter Leveling Guide]
 
 Run to Winterspring\\Turn in [QT5086 Toxic Horrors] \\Accept [QA5087 Winterfall Runners]
 [QC5087-][O]Look for winterfall runners as you quest
@@ -69,9 +74,10 @@ Do [QC5245,2 Troubled Spirits of Kel'Theril]
 Do [QC5245,4 Troubled Spirits of Kel'Theril]
 Do [QC5245,3 Troubled Spirits of Kel'Theril]
 Do [QC5245,1 Troubled Spirits of Kel'Theril]
-Bank the 4 relic fragments and jaron's pick [O]
-Bank the following: \\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head\\Winterfall/Deadwood Ritual Totem[O]
-[S]Set your Hearthstone to Everlook
+
+[G61.3,38.9Winterspring][S]Set your Hearthstone to Everlook
+[V]Bank the 4 relic fragments and jaron's pick [O]
+[V]Deposit the following items: \\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head\\Winterfall/Deadwood Ritual Totem[O]
 Accept [QA969]
 Accept [QA3783 Are We There, Yeti?]
 

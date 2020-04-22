@@ -82,6 +82,6 @@ Turn in [QT1186 The Eighteenth Pilot] \\Accept [QA1187 Razzeric's Tweaking]
 Accept [QA1114 Delivery to the Gnomes]
 Turn in [QT1114 Delivery to the Gnomes]
 Accept [QA1115 The Rumormonger]
-[G50.52,18.94,20Tanaris]Run back to Tanaris \\Fly to [F Ratchet]
-
+[G50.52,18.94,40Tanaris]Run back to Tanaris
+You have 2 options going into the next segment:\\Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW
 ]], "Zarant")

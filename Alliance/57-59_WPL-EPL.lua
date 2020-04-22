@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N57-59Western/Eastern Plaguelands]
-[NX59-60Winterspring/Un'Goro/Silithus]
+[NX59-59Winterspring/Un'Goro/Silithus part 1]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
@@ -109,6 +109,7 @@ Turn in [QT5845 Of Lost Honor] \\Accept [QA5846 Of Love and Family]
 Head to Western Plaguelands\\[G63.79,57.19 Western Plaguelands][QC5168,2-]Loot the shield on the ground
 [QC5225-][OC]Kill the cauldron lord
 Turn in [QT5225 Target: Gahrron's Withering] \\Accept [QA5226 Return to Chillwind Point]
+Turn in [QT4985 The Wildlife Suffers Too] \\Accept [QA4986 Glyphed Oaken Branch]
 [G48.39,31.91 Western Plaguelands]Click on the crate at the middle of the lumber mill and place the termite barrel\\Click on the termite barrel, turn in [QT5904 A Plague Upon Thee] \\Accept [QA6389 A Plague Upon Thee]
 Accept [QA6004 Unfinished Business]
 Do [QC6004 Unfinished Business]

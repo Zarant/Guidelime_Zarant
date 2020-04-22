@@ -121,6 +121,7 @@ Guidelime.registerGuide([[
 [NX53-54Un'Goro Crater]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
+--[O]This segment contains a heavy grinding session (about 2 hours long), you can skip it if you are planning to run dungeons before level 60 --Pre phase 4
 [V][O]Withdraw the following:\\Drawing Kit\\Flare Gun
 [V][O]Buy 3 stacks of food/water at the innkeeper
 [S]Set your HS to Ratchet
@@ -132,18 +133,26 @@ Fly to [F Azshara]
 [A Hunter][QC8153-]Kill mosshoof coursers as you quest [O]
 Accept [QA3601 Kim'jael Indeed!]
 [G57.02,29.45,170Azshara][QC3601-][O]Loot the boxes scattered around the camp
-[XP53.65 Grind elves until you are 65% (13 bars) into level 53]
 Turn in [QT3601 Kim'jael Indeed!] \\Accept [QA5534 Kim'jael's "Missing" Equipment]
-[A Hunter]Turn in [QT8153] --\\Accept [QA8231]
---[G88.47,29.61,200Azshara][QC8231-]Kill Wavethrashers along the northeastern coast
---Turn in [QT8231]
 Kill nagas for [QC5534 Kim'jael's "Missing" Equipment][O]
 [G39.57,50.32Azshara][QC3449,2-]Click on the first monolith
 [G36.95,53.18Azshara][QC3449,1-]Click on the second monolith
 [G39.33,55.42Azshara][QC3449,3-]Click on the third monolith
 [G42.34,64.14Azshara][QC3449,4-]Click on the fourth monolith
 Turn in [QT5534 Kim'jael's "Missing" Equipment]
+
+
+--Pre phase 4
+--[XP53.8 Grind elves until you are 20% (4 bars) away from level 54] 
+--[XP54+20000 You need to finish this segment at level 54+20k xp to cover all the grinding needed to level 60] \\Best case scenario you should be around 20-30hrs away from 60 at this point, every 12hrs of rested xp is worth about 15k xp at this level range\\You can skip this grind with enough rested xp
+--
+
+[XP53.4 Grind elves until you are 40% into level 53] --Phase 4
+
 Grind until your HS cooldown is <5 minutes[O]
+[A Hunter]Turn in [QT8153] --\\Accept [QA8231]
+--[G88.47,29.61,200Azshara][QC8231-]Kill Wavethrashers along the northeastern coast
+--Turn in [QT8231]
 [G73.22,87.87,40Azshara]Go behind the giant statue\\[G77.80,91.32Azshara]Jump down to the small island east\\Use the flare gun at the landing pad\\Turn in [QT3449 Arcane Runes] \\Accept [QA3461 Return to Tymor]
 Destroy the flare gun[OC]
 [H]Hearth to Ratchet

@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
-[N59-60Winterspring/Un'Goro/Silithus]
-
+[N59-59Winterspring/Un'Goro/Silithus part 1]
+[NX59-60Winterspring/Un'Goro/Silithus part 2]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Take the tram to SW[OC]
@@ -12,6 +12,7 @@ Take the boat to ratchet [OC]
 Withdraw Tinkee's Letter from your bank[OC]
 
 Fly to [F Winterspring]
+[A Hunter][O]Once you get to level 59, stable your current pet, head to northern winterspring and replace it by a level 59 Owl
 [S]Set your HS to Everlook
 
 Turn in [QT4808] \\Accept [QA4809]
@@ -29,11 +30,11 @@ Head south to Frowstwhisper Gorge\\Do [QC969]
 Turn in [QT977] \\Accept [QA5163]
 [QC5163,1-]Use the Mechanical Yet on Legacki
 Turn in [QT969]
-Withdraw the following: \\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head[O]
+[V]Withdraw the following: \\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head[O]
 Turn in [QT5121] \\Turn in [QT5123] \\Accept [QA5128]
 
 
-Unstuck back to the graveyard and spirit rez
+Head towards the fulborg tunnel\\Unstuck back to the graveyard and spirit rez once the zone text changes to Felwood
 [G40.84,66.78,40Felwood]Run south to the slime pond\\Death warp to southern felwood[OC]
 Turn in [QT5242]
 Turn in [QT5385]
@@ -54,138 +55,110 @@ Turn in [QT3961] \\Accept [QA3962]
 [QC3962,1-]Equip the Silver Totem of Aquementas on your off-hand\\Use it on Blazerunner at the top of the volcano
 [G50.28,49.98 Un'Goro Crater][QC3962,2-]Click on the chest at the back of the cave
 Head south and enter the bug hole\\[L44.13,81.41 Un'Goro Crater]Use the *Gorishi Queen Lure* after clearing the circular room\\[QC4507-]Clear all 3 waves of mobs
-[G88.40,23.81,40 Silithus]Head to Silithus
+[G88.40,23.81,60 Silithus]Head to Silithus
 
 Turn in [QT1124] \\Accept [QA1125]
+
+--Phase 4
+Head to Cenarion Hold[OC]
+Talk to the goblin at the 2nd floor of the inn\\[G51.8,38.6Silithus]Accept [QA8277 Deadly Desert Venom]
+Click on the wanted poster\\[G51.3,38.2Silithus]Accept [QA8283 Wanted - Deathclasp, Terror of the Sands]
+Turn in [QT8275][OC]
+[G51.2,38.2Silithus]Accept [QA8280 Securing the Supply Lines]
+[G49.6,37.3Silithus]Accept [QA8284 The Twilight Mystery]
+[G49.2,34.2Silithus]Accept [QA8304 Dearest Natalia]
+[G48.6,37.8Silithus]Accept [QA8318 Secret Communication]
+
+Kill [QC8280,1-][O]Dredge Striker (x15)
+Collect [QC8277,1-][O]Stonelash Scorpid Stinger (x8)\\
+Collect [QC8277,2-][O]Sand Skitterer Fang (x8)
+--
+
 Do [QT1125][OC]
 [G63.22,55.35 Silithus][QC5527-]Click on the small urn inside the lodge
-Finish off [QT1125]
+Finish off [QC1125]
 Turn in [QT1125] \\Accept [QA1126]
 [G60.22,52.55 Silithus][QC1126-]Click on the object at the top of the tower\\Kill the 2 ambushers that spawn after clicking it
-Turn in [QT1126] \\Accept [QA6844]
-Grind mobs until your HS cooldown is <5 minutes [OC]
+Turn in [QT1126] \\Accept [QA6844] --Hive in the Tower
+
+--Phase 4
+[O]From this point forward, stop questing in silithus and skip straight to the part 2 of this guide once you have enough XP to ding from turn ins\\You need about [XP60-55000 55k xp] total, assuming you haven't skipped any quests--48540 if you don't have reliquary of purity (pre Dire Maul)
+[G23.5,13.7Silithus]Collect [QC8284,1-]Twilight Tablet Fragment (x8)
+Finish off the following quests:\\[QC8277] \\[QC8280]
+
+
+[G49.7,37.3Silithus]Turn in [QT8284 The Twilight Mystery]\\
+Accept [QA8285 The Deserter]
+[G51.1,38.2Silithus]Turn in [QT8280 Securing the Supply Lines]\\
+Accept [QA8281 Stepping Up Security]
+[G51.7,38.5Silithus]Turn in [QT8277 Deadly Desert Venom]\\
+Accept [QA8278 Noggle's Last Hope]
+
+Collect [QC8278,1-][O]Stonelash Flayer Stinger (x3)\\
+Collect [QC8278,2-][O]Stonelash Pincer Stinger (x3)\\
+Collect [QC8278,3-][O]Rock Stalker Fang (x3)
+Kill [QC8281,1-]Dredge Crusher (x20)
+[G41.3,88.5Silithus][QC8304,2-]Speak with Rutgar
+[G40.8,88.8Silithus][QC8304,1-]Speak with Frankal
+
+[G45.0,92.2Silithus]Collect [QC8283,1-]Deathclasp's Pincer
+[G67.2,69.7Silithus]Turn in [QT8285 The Deserter]\\
+Accept [QA8279 The Twilight Lexicon]
+
+Make sure to finish off all quests before heading back to Cenarion Hold\\ \\[G51.1,38.2Silithus]Turn in [QT8281 Stepping Up Security]
+[G51.7,38.5Silithus]Turn in [QT8278 Noggle's Last Hope]\\Accept [QA8282 Noggle's Lost Satchel]
+[G49.2,34.3Silithus]Turn in [QT8304 Dearest Natalia]
+[G50.8,33.6Silithus]Turn in [QT8283 Wanted - Deathclasp, Terror of the Sands]
+
+Collect [QC8318,1-][O]Encrypted Twilight Text (x10)
+Kill [QC8279,3-]Twilight Keeper Havunth\\He patrols the twilight camp next to Cenarion Hold
+Kill [QC8279,1-]Twilight Keeper Mayna\\She patrols the twilight camp directly west of Cenarion Hold
+Kill [QC8279,2-]Twilight Keeper Exeter\\He is at the back of the southwestern twilight camp
+[G44.5,91.4Silithus]Collect [QC8282,1-]Noggle's Satchel
+[G67.2,69.8Silithus]Turn in [QT8279 The Twilight Lexicon]\\
+Accept [QA8287 A Terrible Purpose]\\
+Accept [QA8323 True Believers]
+
+Head to Cenarion Hold\\[G51.7,38.5Silithus]Turn in [QT8282 Noggle's Lost Satchel]
+[G49.2,34.2Silithus]Turn in [QT8287 A Terrible Purpose]
+[G48.7,37.5,50Silithus]Collect [QC8318,1-]Encrypted Twilight Text (x10)
+[G48.6,37.7Silithus]Turn in [QT8318 Secret Communication]
+
+Grind mobs at the twilight camps until you get 10 Encrypted Twilight Texts\\Turn in Turn in [QT8323 True Believers]
+
+--
 
 [G50.59,34.45 Silithus]Fly to [F Un'Goro Crater]
-Turn in [QT3962]
+]], "Zarant")
+
+Guidelime.registerGuide([[
+[N59-60Winterspring/Un'Goro/Silithus part 2]
+[GA Alliance]
+[D Alliance Hunter Leveling Guide]
+Turn in [QT3962] (7300xp) --It's Dangerous to Go Alone
 Fly to [F Tanaris]
-Turn in [QT4507] \\Accept [QA4508]
+Turn in [QT4507] (5450xp) \\Accept [QA4508] --Pawn Captures Queen
 [H]Hearth to Everlook
-Grind until you are [XP60-34640 35k] xp away from 60[O]
-Turn in [QT4809] (5450xp) \\Skip this quest if you have enough xp to ding from all the quest turn-ins from moonglade/darnassus\\(about 35k xp total)
+Turn in [QT5163] (7750xp) --Are We There, Yeti? part 3
+Finish off/Turn in [QT4809][OC] (5450xp) \\Skip this quest if you have enough xp to ding from all the quest turn-ins from moonglade/darnassus\\(about 35k xp total)
+Grind until you are [XP60-34640 35k] xp away from 60[OC]
 Fly to [F Moonglade]
 
-Turn in [QT6844] (3000xp) \\Accept [QA6845]
-Turn in [QT6845] (7550xp)
-Turn in [QT5527] (6600xp)
-Turn in [G44.87,35.62Moonglade][QA1185-][QT1185] (3000xp)
-
+Turn in [QT6844] (3000xp) \\Accept [QA6845] --Umber, Archivist
+Turn in [QT6845] (7550xp) --Uncovering Past Secrets
+Turn in [QT5527] (6600xp) --A Reliquary of Purity
+Turn in [G44.87,35.62Moonglade][QA1185-][QT1185] (3000xp) --Under the Chitin Was...
+[XP60-14490 Fly to Felwood and grind fulborgs until you are 14.5k xp away from level 60]
 Fly to [F Teldrassil]
-Turn in [G41.85,85.64Darnassus][QT4508] (540xp) \\Accept [QA4510]
-Turn in [QT4510] (8150xp)
-Turn in [QT4986] at the middle floor (5800xp)
+Turn in [G41.85,85.64Darnassus][QT4508] (540xp) \\Accept [QA4510] --Calm Before the Storm part 1
+Turn in [QT4510] (8150xp) --Calm Before the Storm part 2
+Turn in [QT4986] at the middle floor (5800xp) --Glyphed Oaken Branch
 ]], "Zarant")
 
 --[[
-retrieval for mauren (duskwood)
-HILLSBRAD TAME BEAST
-1K DIRT MOUND
-smiling jim
+
+7300+5450+7750+    3000+7550+6600+3000+    540+8150+5800
 
 
->>>> SWAMP <<<< IN SEARCH OF THE TEMPLE BEFORE HS -- Skip mazen's behest
-BAdlands, unbank blue pearls
-train petskils 30 40 50
-
-00:10
-76100-32159-1192
-
->>gnomer, silk
-
-dustwallow shortcut 51.71,14.43
-
-krazek cookery corporal kaleb order ADD MANUAL COORDS
-
-late stv - unbank carefully folded note
-
-accept stoley's debt FIRST
-
-tanaris add water survey coordinates
-
-accept rise of the silithid after doing un'goro after accepting secret ingredient
-
-turn in scent of lar'kowi, wrong id
-
-stv50/accept captains chest -> chicken escort -> st fever -> stoley's debt -> whiskey slim -> SET HS to STV
-unbank carefully folded note -> eagle eye
-
-stv50 -> do stuff
-
-turn in captains chest / monogrammed sash accept/turn in the captain's cutlass
-BUY ARROWS AT 28.3,74.5
-turn in st fever 
-buy food/water at the innkeeper
-turn in bloodsail
-WITHDRAW 15 SILK
-
-tale of sorrow, RP shit
-
-remove yuka screwspigot
-
-hinterlands -> buy supplies at the end
-clear the way wrong coords
-
-better late than never is wrong
-
-bank janice's parcel
-
-accept cleansing felwood -> grind fulborgs to 53
-
-3 stacks of water going into felwood
-
-skip level 48 quests in azshara, get the azshara FP instead of death warping to astranaar after finishing felwood
-
-withdraw pet from stable after setting the HS to ratchet
-
-feralas zapped giants wrong id
-
-turn in morrow stone first, then improved quality
-
-turn in apes of ungoro wrong id (Seek redemption?)
-
-25 soil, not 20
-
-hearth to gadget
-turn in super sticky -> bungle in the jungle
-fly to ratchet
-set hs to ratchet
-unbank eridan's vial/flare gun/drawing kit/cenarion beacon
-
-buy food/water after filling eridan's vial
-
-turn in felbound/ accept purified <<< turn in wrong id
-
-escort the tree man
-
-do super sticky after doing meeting at the grave
-
-accept salve via hunting at 54.1,86.7
-
-enraged wildkin -> click on the damaged crate
-
-don't unstuck to moonglade at the end of winterspring-1, skip early moonglade fp
-
-grind to neutral timbermaw when doing the 2nd felwood fulborg quest
-
-unbank slime containers/drawing kit/janice's parcel in darnassus at the end of felwood / bank everlook report, studies in spirit speaking, 
-bank rabine's letter, eridan's supplies
-
-smoldering ruins part1, listen to the RP shit
-
-accept slime follow up
-
-stop by andorhal, not sorrow hill - do it BEFORE writhing haunt cauldrons
-
-frenzied plaguehound opt
-
-demon dogs/carrion grub/blood tinged follow up has wrong ID? separate the steps - rp shit, need {QC] step
+209800-79186-5650+6300+8050
 ]]

@@ -23,7 +23,7 @@ Do [QC2877]
 Grind until your HS cooldown is <6 minutes\\Accept [QA485] if you have a distress beacon in your bags, skip this step if you don't
 Turn in [QT485] \\Skip the escort quest
 --Start the escort quest \\Accept [QA836]
-[QC836-]Escort the robot chicken
+--[QC836-]Escort the robot chicken
 [QC2944-][OC]Head down to the coast, find Gammerita and use the *Super Snapper FX* on her.
 --[QC580-]Look for small blue bottles along the coast
 Finish off [QC2944]
