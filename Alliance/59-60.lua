@@ -82,7 +82,7 @@ Turn in [QT1125] \\Accept [QA1126]
 Turn in [QT1126] \\Accept [QA6844] --Hive in the Tower
 
 --Phase 4
-[O]From this point forward, stop questing in silithus and skip straight to the part 2 of this guide once you have enough XP to ding from turn ins\\You need about [XP60-55000 55k xp] total, assuming you haven't skipped any quests--48540 if you don't have reliquary of purity (pre Dire Maul)
+[O]From this point forward, stop questing in silithus and skip straight to the part 2 of this guide once you have enough XP to ding from turn ins\\You need about 55k xp total, assuming you haven't skipped any quests--48540 if you don't have reliquary of purity (pre Dire Maul)
 [G23.5,13.7Silithus]Collect [QC8284,1-]Twilight Tablet Fragment (x8)
 Finish off the following quests:\\[QC8277] \\[QC8280]
 
