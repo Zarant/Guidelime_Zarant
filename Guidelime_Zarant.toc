@@ -6,6 +6,7 @@
 ## Notes: Alliance Hunter Leveling Guide
 
 Guidelime_Zarant.lua
+EventHandler.lua
 Alliance\1-11_DunMorogh.lua
 Alliance\1-12_Teldrassil.lua
 Alliance\11-13_LochModan.lua
