@@ -50,7 +50,7 @@ Take the tram to Stormwind--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,
 if not Guidelime_Zarant then return end
 
 
-function z:BronzeTube(args)
+function Guidelime_Zarant:BronzeTube(args)
 	reverseLogic = unpack(args)
 	if not reverseLogic == (IsQuestFlaggedCompleted(174) or GetItemCount(4371) > 0) then
 		self:SkipStep()

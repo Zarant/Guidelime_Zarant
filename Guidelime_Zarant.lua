@@ -120,7 +120,6 @@ function addon.loadCurrentGuide(...)
 				local eventList = {}
 				for event in step.event:gmatch('[^,]+') do
 					table.insert(eventList,event)
-					print(event)
 				end
 				local args = {}
 				local eval = nil
@@ -129,7 +128,7 @@ function addon.loadCurrentGuide(...)
 						eval = arg
 					else
 						table.insert(args,arg)
-						print(arg)
+						--print(arg)
 					end
 				end
 				--print(tostring(step.eval)..":"..tostring(step.event))
@@ -201,7 +200,7 @@ function Guidelime_Zarant:LoadNextGuide(n)
 		--print(#n)
 		n = unpack(n)
 	end
-	print(self.guide.next, #self.guide.next)
+	--print(self.guide.next, #self.guide.next)
 	if not self.guide.next or (not n and #self.guide.next > 1) or #self.guide.next == 0 then
 		return
 	elseif not n or n == 0 then
@@ -225,7 +224,6 @@ function Guidelime_Zarant:ZoneSkip(args,event)
 	if mapID == currentMap then
 		self:SkipStep()
 		if guide then
-			print('qwert')
 			self:LoadNextGuide(tonumber(guide))
 		end
 		return true

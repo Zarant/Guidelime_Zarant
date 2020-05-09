@@ -151,7 +151,7 @@ local z = Guidelime_Zarant
 function z:Bank_Duskwood24()
 	local items = {3618,3347,3397}
 	
-	if z.IsItemInBank(items) then
+	if z.IsItemNotInBags(items) then
 		z.SkipStep(self)
 		return
 	end

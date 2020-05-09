@@ -223,9 +223,9 @@ function z.MoveAmmo()
 		if bagtype == 0 then
 			for slot = 1,GetContainerNumSlots(bag) do
 				local id = GetContainerItemID(bag, slot)
-				print(id)
+				--print(id)
 				if id and z.projectileList[projectileType][id] then
-					print('sdadsad')
+
 					C_Timer.After(0.01,function()
 						PickupContainerItem(bag,slot)
 						z.PutItemInQuiver(bagContents)
@@ -433,7 +433,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 	elseif event == "QUEST_COMPLETE" then
 		questId = GetQuestID()
 		local reward = GuidelimeZarantData.questRewardList[class][questId]
-		print(reward)
+		--print(reward)
 		if reward then
 			--C_Timer.After(0.01,function()
 				GetQuestReward(reward)
@@ -454,7 +454,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 			z.MoveAmmo()
 		end)
 	elseif event == "ADDON_LOADED" and arg1 == name then
-		print(event)
+		--print(event)
 		local tick = GuidelimeZarantData.moveTicker
 		if tick then
 			C_Timer.NewTicker(tick, function()
@@ -463,11 +463,9 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		end
 		return z.OnLoad and z.OnLoad()
 	elseif event == "CHAT_MSG_SYSTEM" and arg1 then
-		print(arg1)
 		local level = UnitLevel("player")
 		local spell,rank = string.match(arg1,"You have learned a new %a+%:%s(.*)%s%((Rank%s%d+)%)")
 		if spell then
-			print(spell)
 			if GuidelimeZarantDataChar.trainerData[level] then
 				table.insert(GuidelimeZarantDataChar.trainerData[level],{spell,rank})
 			else
