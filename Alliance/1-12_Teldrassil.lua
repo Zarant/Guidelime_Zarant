@@ -50,7 +50,7 @@ Do [QC488 Zenn's Bidding][O] as you quest
 [G56.07,57.72Teldrassil]Accept [QA997 Denalan's Earth]
 [G55.95,57.27Teldrassil]Accept [QA475 A Troubling Breeze]
 [G55.57,56.94Teldrassil]Run to the top of the building\\Accept [QA2438 The Emerald Dreamcatcher] \\Accept [QA932 Twisted Hatred]
-[G55.9,52.9Teldrassil][V][OC]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
+[G55.9,59.2Teldrassil][V][OC]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [G55.61,59.78Teldrassil]Turn in [QT2159 Dolanaar Delivery]
 [G56.14,61.71Teldrassil]Turn in [QT928 Crown of the Earth] \\Accept [QA929 Crown of the Earth]
 
@@ -69,7 +69,7 @@ Finish off [QC488]
 --Dolanaar
 [G56.67,59.48Teldrassil][T Train skills][A NightElf,Hunter][OC]--TRAINER_CLOSED,TRAINER_SHOW>>Trainer
 Accept [QA489 Seek Redemption!][O]
-[G55.9,52.9Teldrassil][V][O]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
+[G55.9,59.2Teldrassil][V][O]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [T][O]Train first aid--TRAINER_CLOSED,TRAINER_SHOW>>Trainer,6094
 [G55.95,57.27Teldrassil]Turn in [QT476 Gnarlpine Corruption]
 Turn in [QT2438 The Emerald Dreamcatcher] \\Accept [QA2459 Ferocitas the Dream Eater]--OnStepCompletion>>LoadNextGuide
@@ -98,7 +98,7 @@ Die and resurrect at the graveyard [OC]
 
 [G56.14,61.71Teldrassil]Turn in [QT933 Crown of the Earth] \\Accept [QA7383 Crown of the Earth]
 [G55.61,59.78Teldrassil][S]Set your hearthstone to Dolanaar
-[G55.9,52.9Teldrassil][V][OC]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
+[G55.9,59.2Teldrassil][V][OC]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [G55.57,56.94Teldrassil]Turn in [QT932 Twisted Hatred] \\Turn in [QT2459 Ferocitas the Dream Eater]
 
 [G52.8,57.2Teldrassil][QA487 The Road to Darnassus] \\The quest giver patrols the road

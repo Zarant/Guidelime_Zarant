@@ -432,7 +432,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		end)
 	elseif event == "QUEST_COMPLETE" then
 		questId = GetQuestID()
-		local reward = GuidelimeData.questRewardList[class][questId]
+		local reward = GuidelimeData.questRewardList[class] and GuidelimeData.questRewardList[class][questId]
 		--print(reward)
 		if reward then
 			--C_Timer.After(0.01,function()
