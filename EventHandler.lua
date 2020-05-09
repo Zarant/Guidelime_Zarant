@@ -6,7 +6,7 @@ local z = Guidelime_Zarant
 local name = ...
 local _, class = UnitClass("player")
 
-local questRewardList = GuidelimeZarantData.questRewardList[class]
+local questRewardList = GuidelimeData.questRewardList[class]
 
 
 z.EventHandler = CreateFrame("Frame")
@@ -29,7 +29,7 @@ function z.BuySpells(id,level)
 		return
 	end
 	
-	for trainingLevel,spellList in pairs(GuidelimeZarantData.trainerData[class]) do
+	for trainingLevel,spellList in pairs(GuidelimeData.trainerData[class]) do
 		if trainingLevel <= level then
 			for _,spell in ipairs(spellList) do
 				if spell[1] == name and (rank == spell[2] or not rank or rank == "") then
@@ -56,8 +56,8 @@ end
 local questId
 
 local function GetQuestRewardData(n)
-	if n and n > 0 and questId and not GuidelimeZarantDataChar.questRewardList[questId] then
-		GuidelimeZarantDataChar.questRewardList[questId] = n
+	if n and n > 0 and questId and not GuidelimeDataChar.questRewardList[questId] then
+		GuidelimeDataChar.questRewardList[questId] = n
 	end
 end
 hooksecurefunc("GetQuestReward", GetQuestRewardData)
@@ -364,7 +364,7 @@ end
 
 local merchantTimer = 0
 local function Merchant()
-	if not GuidelimeZarantData.Merchant then
+	if not GuidelimeData.Merchant then
 		return
 	end
 	
@@ -432,7 +432,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		end)
 	elseif event == "QUEST_COMPLETE" then
 		questId = GetQuestID()
-		local reward = GuidelimeZarantData.questRewardList[class][questId]
+		local reward = GuidelimeData.questRewardList[class][questId]
 		--print(reward)
 		if reward then
 			--C_Timer.After(0.01,function()
@@ -454,22 +454,21 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 			z.MoveAmmo()
 		end)
 	elseif event == "ADDON_LOADED" and arg1 == name then
-		--print(event)
-		local tick = GuidelimeZarantData.moveTicker
+		z.OnLoad()
+		local tick = GuidelimeData.moveTicker
 		if tick then
 			C_Timer.NewTicker(tick, function()
 				moveTicker = true
 			end)
 		end
-		return z.OnLoad and z.OnLoad()
 	elseif event == "CHAT_MSG_SYSTEM" and arg1 then
 		local level = UnitLevel("player")
 		local spell,rank = string.match(arg1,"You have learned a new %a+%:%s(.*)%s%((Rank%s%d+)%)")
 		if spell then
-			if GuidelimeZarantDataChar.trainerData[level] then
-				table.insert(GuidelimeZarantDataChar.trainerData[level],{spell,rank})
+			if GuidelimeDataChar.trainerData[level] then
+				table.insert(GuidelimeDataChar.trainerData[level],{spell,rank})
 			else
-				GuidelimeZarantDataChar.trainerData[level] = {{spell,rank}}
+				GuidelimeDataChar.trainerData[level] = {{spell,rank}}
 			end
 		end
 	end
