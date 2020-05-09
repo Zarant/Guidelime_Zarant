@@ -13,7 +13,7 @@ If you need pointers on how to do the more techincal stuff like soloing elite qu
 - Make sure you enable both `Guidelime` and `Guidelime_Zarant` before logging in
 - Once you log in, press ESC to open the options menu, click on Interface Options, switch to the AddOns tab, select Guidelime from the list on the left and then scroll down to select the guide you want to load.
 
-Due to some limitations with Guidelime, some steps have to be completed manually, if you wish to enable step auto completion, you need to edit the Guidelime.toc after installing Guidelime and add the following line at the end:
+Due to some limitations with Guidelime, some steps have to be completed manually, if you wish to enable step auto completion, you need to edit the Guidelime.toc file after installing Guidelime and add the following line at the end:
 
 `..\Guidelime_Zarant\Guidelime_Zarant.lua`
 
