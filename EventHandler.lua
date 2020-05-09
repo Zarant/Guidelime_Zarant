@@ -6,7 +6,7 @@ local z = Guidelime_Zarant
 local name = ...
 local _, class = UnitClass("player")
 
-local questRewardList = GuidelimeData.questRewardList[class]
+local questRewardList
 
 
 z.EventHandler = CreateFrame("Frame")
