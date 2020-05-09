@@ -2,8 +2,10 @@ if not Guidelime_Zarant then return end
 local z = Guidelime_Zarant
 local _, class = UnitClass("player")
 
-
+GuidelimeDataChar = GuidelimeDataChar or {}
+GuidelimeData = GuidelimeData or {}
 function z.OnLoad()
+	
 	GuidelimeDataChar.trainerData = GuidelimeDataChar.trainerData or {}
 	GuidelimeData.trainerData = GuidelimeData.trainerData or {}
 	GuidelimeData.trainerData[class] = GuidelimeData.trainerData[class] or {}
@@ -21,9 +23,9 @@ GuidelimeData.moveTicker = nil
 GuidelimeData.Merchant = false
 
 function z.UpdateTrainerData()
-	if #GuidelimeDataChar.trainerData > 0 then
+	--if #GuidelimeDataChar.trainerData > 0 then
 		GuidelimeData.trainerData[class] = GuidelimeDataChar.trainerData
-	end
+	--end
 end
 
 function z.UpdateQuestRewardList()
@@ -84,3 +86,4 @@ z.projectileList = {
 		[13377] = 99,
 	},
 }
+
