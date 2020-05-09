@@ -5,7 +5,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
-Collect 6 Corrupted Soul Shards as you quest[O]
+[O]Collect 6 [V]Corrupted Soul Shards --
 Turn in [QT5159 Cleansed Water Returns to Felwood] \\Accept [QA5165 Dousing the Flames of Protection]
 Turn in [QT4441 Felbound Ancients] \\Accept [QA4442 Purified!] \\Turn in [QT4442 Purified!]
 Run to Jaedenar\\[QC5165,1-]Douse the first flame
@@ -15,12 +15,12 @@ Keep grinding mobs until you get the *Blood Red Key*\\Accept [QA5202 A Strange R
 [QC5165,2-]Douse the fourth flame
 Start the escort quest\\Turn in [QT5202 A Strange Red Key] \\Accept [QA5203 Rescue From Jaedenar]
 [QC5203-]Escort Arko'narin
-[G49.55,29.71Felwood]Stop by the northern GY, right click on the flute of the ancients and start the escort quest ([QA4261 Ancient Spirit])
+[G49.55,29.71Felwood]Stop by the northern GY, right click on the flute of the ancients and start the escort quest\\([QA4261 Ancient Spirit])
 [QC4261-]Escort Arei
 Accept [QA8461 Deadwood of the North]
 Do [QC8461 Deadwood of the North]
 Grind to level [XP55]
-Keep grinding fulborgs until you get a *Deadwood Ritual Totem*\\Turn in [QT8461 Deadwood of the North] \\Accept [QA8465 Speak to Salfa]
+Turn in [QT8461 Deadwood of the North] \\Accept [QA8465 Speak to Salfa]
 Run to Winterspring\\Turn in [QT8465 Speak to Salfa] \\Accept [QA8464 Winterfall Activity]
 Turn in [QT3909 The Videre Elixir] \\Accept [QA3912 Meet at the Grave] \\Turn in [QT980 The New Springs] \\Accept [QA4842 Strange Sources] \\Accept [QA5082 Threat of the Winterfall]
 Do [QC5082 Threat of the Winterfall]
@@ -28,7 +28,7 @@ Keep grinding fulborgs until you get an *Empty Firewater Flask*\\Accept [QA5083 
 Turn in [QT5082 Threat of the Winterfall] \\Turn in [QT5083 Winterfall Firewater] \\Accept [QA5084 Falling to Corruption]
 Run back to Felwood\\Turn in [QT5084 Falling to Corruption] \\Accept [QA5085 Mystery Goo]
 Run back to Winterspring\\Turn in [QT5085 Mystery Goo] \\Accept [QA5086 Toxic Horrors]
-Death warp to Everlook[OC]
+[H]Hearth to Ratchet
 
 Fly to [F Tanaris]
 Accept [QA4504 Super Sticky]
@@ -42,7 +42,6 @@ Turn in [QT3941 A Gnome's Assistance] \\Accept [QA3942 Linken's Memory]
 Do [QC4504]
 Fly to [F Tanaris]
 Turn in [QT4504 Super Sticky]
-[H]Hearth to Ratchet
 Fly to [F Azshara]
 
 
@@ -57,14 +56,7 @@ Go deeper into the Shadow Hold\\Do [G38.86,46.79Felwood][QC5242 A Final Blow]
 [QC4084,1-]Kill Bears/Wolves as you go through Felwood[O]
 Do [G49.52,25.10,90Felwood][QC5086 Toxic Horrors]
 [QC4084,2-]Kill Irontree Stompers
-[G65.4,7.1,50Felwood]Go to Winterspring through the fulborg tunnel
-]], "Zarant")
-
-Guidelime.registerGuide([[
-[N55-56Winterspring/Moonglade]
-[NX56-57Burning Steppes]
-[GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[G65.4,7.1,80Felwood]Go to Winterspring through the fulborg tunnel
 
 Run to Winterspring\\Turn in [QT5086 Toxic Horrors] \\Accept [QA5087 Winterfall Runners]
 [QC5087-][O]Look for winterfall runners as you quest
@@ -74,10 +66,18 @@ Do [QC5245,2 Troubled Spirits of Kel'Theril]
 Do [QC5245,4 Troubled Spirits of Kel'Theril]
 Do [QC5245,3 Troubled Spirits of Kel'Theril]
 Do [QC5245,1 Troubled Spirits of Kel'Theril]
+[G61.3,38.9,150Winterspring]Head to Everlook--OnStepCompletion>>LoadNextGuide
+]], "Zarant")
+
+Guidelime.registerGuide([[
+[N55-56Winterspring/Moonglade]
+[NX56-57Burning Steppes]
+[GA Alliance]
+[D Alliance Hunter Leveling Guide]
 
 [G61.3,38.9Winterspring][S]Set your Hearthstone to Everlook
-[V]Bank the 4 relic fragments and jaron's pick [O]
-[V]Deposit the following items: \\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head\\Winterfall/Deadwood Ritual Totem[O]
+Accept [QA6030 Duke Nicholas Zverenhoff] \\Accept [QA6028 The Everlook Report] \\Accept [QA5601 Sister Pamela]
+[V][O]Deposit the following items:\\Everlook report\\Studies in spirit speaking\\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head\\Jaron's Pick\\All 4 Relics --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Winterspring54
 Accept [QA969]
 Accept [QA3783 Are We There, Yeti?]
 
@@ -95,7 +95,6 @@ Finish off [QC4864 Enraged Wildkin]
 [G59.52,75.23Winterspring][QC4842-]Run south to Darkwhisper Gorge
 [H]Hearth to Everlook [OC]
 Turn in [QT3783 Are We There, Yeti?]
-Accept [QA6030 Duke Nicholas Zverenhoff] \\Accept [QA6028 The Everlook Report] \\Accept [QA5601 Sister Pamela]
 Turn in [QT4864 Enraged Wildkin]
 [QC5087-]Use eagle eye to find the Winterfall Runners
 Turn in [QT4842 Strange Sources] \\Turn in [QT5087 Winterfall Runners] \\Accept [QA5121 High Chief Winterfall]
@@ -109,9 +108,42 @@ Fly to [F Teldrassil]
 
 Turn in [QT4901 Guardians of the Altar] \\Accept [QA4902 Wildkin of Elune]
 [G39.39,42.43,15Darnassus]Stop by the bank
-[V]Bank the following: \\Everlook report\\Studies in spirit speaking[O]
-[V][O]Withdraw the following: Drawing Kit\\Slime jars
+
+[V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
 [T][O]Train skills
 Turn in [QT4902 Wildkin of Elune]
-Fly to [F Darkshore]
+Fly to [F Darkshore]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
+
+
+
+if not Guidelime_Zarant then return end
+
+local z = Guidelime_Zarant
+
+
+
+function z:BankD_Winterspring54()  --Everlook report\\Studies in spirit speaking\\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head\\Jaron's Pick\\All 4 Relics --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Winterspring54
+	--local items = {"Everlook Report","Studies in Spirit Speaking","Rabine's Letter","Cenarion Beacon","Silvery Claws","Irontree Heart","Remains of Trey Lightforge","Shadow Lord Fel'dan's Head","Jaron's Pick","First Relic Fragment","Second Relic Fragment","Third Relic Fragment","Fourth Relic Fragment"}
+	
+	local items = {15788,15790,17355,11511,11172,11173,13562,13207,12891,12896,12897,12898,12899}
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end
+
+function z:BankW_Winterspring54()  --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
+	--local items = {"Drawing Kit","Filled Cursed Ooze Jar","Filled Tainted Ooze Jar","Janice's Parcel"}
+	local items = {10445,11947,11949,12724}
+	
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end

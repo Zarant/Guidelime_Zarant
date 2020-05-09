@@ -1,45 +1,11 @@
-
-Guidelime.registerGuide([[
-[N51-51Hinterlands]
-[NX51-52WPL]
-[GA Alliance]
-[D Alliance Hunter Leveling Guide]
-Fly to [F The Hinterlands][OC]
-Accept [QA2988]
-Accept [QA2880] \\Accept [QA2877]
-Run to the second floor of the big building\\[S]Set your HS to Aerie Peak
-[QC3661-][O]Loot wildkin feathers on the ground
-[QC2988,1-]Click on the first cage
-[QC2988,2-]Click on the second cage
-[QC2988,3-]Click on the third cage
-Turn in [QT2988] \\Accept [QA2989]
---Turn in [QT1452]
-
-Do [QC2641]
-[QC2880-][O]Kill Vilebranch trolls
-[G48.86,68.50The Hinterlands]Do [QC2989]
-Do [QC2877]
-[QC2880-][G66.24,44.51,70The Hinterlands][L71.20,48.47][L66.24,44.51] Kill Vilebranch trolls for tribal necklaces
-Grind until your HS cooldown is <6 minutes\\Accept [QA485] if you have a distress beacon in your bags, skip this step if you don't
-Turn in [QT485] \\Skip the escort quest
---Start the escort quest \\Accept [QA836]
---[QC836-]Escort the robot chicken
-[QC2944-][OC]Head down to the coast, find Gammerita and use the *Super Snapper FX* on her.
---[QC580-]Look for small blue bottles along the coast
-Finish off [QC2944]
-Turn in [QT626]
-Grind mobs until your HS is off cooldown \\[H]Hearth to Aerie Peak
-Turn in [QT2880] \\Turn in [QT2877]
-Turn in [QT2989]
-
-Fly to [F Western Plaguelands]
-]], "Zarant")
+--Hinterlands part moved to level 48-49
 
 Guidelime.registerGuide([[
 [N51-52WPL]
 [NX52-52Felwood]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
+
 Turn in [QT5066][OC]
 Turn in [QT5090][OC]
 Turn in [QT5091][OC]
@@ -52,7 +18,12 @@ Turn in [QT5215] \\Accept [QA5216]
 Click on the cauldron\\Turn in [QT5216] \\Accept [QA5217]
 Talk to Janice Felstone inside the farm house\\Accept [QA5021]
 Click on the parcel inside the barn\\Turn in [QT5021] \\Accept [QA5022]
-Death warp to chillwind point [OC]
+Grind until you are [XP52-22520 22520 XP away from 52][OC] \\If you are not yet close, do one more cauldron quest to get you where you need to be
 Turn in [QT5217]
-Fly to [F Wetlands]
+Accept [QA5219][OC]
+[G46.2,52.0Western Plaguelands]Kill the cauldron and lord \\Turn in [QT5219][OC] \\Accept [QA5220][OC]
+Turn in [QT5220][OC]
+[XP52-19870 Grind until you are 19870 XP away from level 52]
+[H]Hearth to Ironforge[OC]
+Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")

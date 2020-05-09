@@ -35,7 +35,7 @@ Turn in [G20.34,18.12Felwood][QT4740 WANTED: Murkdeep!]
 Turn in [G21.63,18.15Felwood][QT2138 Cleansing of the Infected] \\Accept [QA2139 Tharnariun's Hope]
 [G20.04,16.35Felwood][QT730 Trouble In Darkshore?][OC]
 [G20.04,16.35Felwood][QA729 The Absent Minded Prospector]
-[V Buy extra arrows/supplies][O]
+[G37.7,40.7Darkshore][V Restock/Resupply]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [G50.74,34.68Darkshore]Head to the fulborg camp north, loot the Grain Stores[OC]
 [G52.46,36.90Darkshore]Cimb the ramp and kill the [QC2139 Den Mother]
 Loot the Nut/Fruit Stores and use the bowl to summon [QC4763 Xabraxxis]
@@ -57,7 +57,7 @@ Finish off [QC1138]
 Turn in [G19.1,20.63Felwood][QT4727 Beached Sea Turtle]
 Turn in [G18.5,19.87Felwood][QT1138 Fruit of the Sea]
 Turn in [G19.98,14.4Felwood][QT4763 The Blackwood Corrupted] --\\Accept [QA10752 Onward to Ashenvale]
-[V Restock/Resupply][OC]
+[A Hunter][V]Buy extra arrows/supplies--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 Turn in [G21.63,18.15Felwood][QT2139 Tharnariun's Hope]
 [G22.24,18.22Felwood]Turn in [QT986 A Lost Master] pt.1 \\Accept [QA993 A Lost Master] pt.2
 [G18.08,64.03Felwood]Start the escort quest\\Turn in [QT729 The Absent Minded Prospector] pt.1 \\Accept [QA731 The Absent Minded Prospector] pt.2 
@@ -85,17 +85,7 @@ Grind to level [XP20]
 [G31.41,30.66,145Ashenvale][QC970-]Kill cultists
 [G26.43,38.59,25Ashenvale]Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]\\
 Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5 --[G26.19,38.69Ashenvale]
-[G22.64,51.91Ashenvale]Turn in [QT945 Therylune's Escape]
-Save *Gooey Spider Leg* for later[O]
-[G18,59.8Ashenvale][T] Train *Growl 3* and *Aspect of the Cheetah*[A Hunter]
-[G34.4,48Ashenvale]Get the [P Astranaar] Flight Path 
-Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand] 
-Accept [G34.89,49.79Ashenvale][QA1070 On Guard in Stonetalon]
-Accept [G35.76,49.1Ashenvale][QA1056 Journey to Stonetalon Peak]
-Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling the Threat] --\\Turn in [QT10752 Onward to Ashenvale]
-[G37.36,51.79Ashenvale]Turn in [QT1020 Orendil's Cure]
-
-
+[G22.64,51.91Ashenvale]Turn in [QT945 Therylune's Escape]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 Guidelime.registerGuide([[
@@ -103,7 +93,14 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [NX23-24Wetlands]
-
+Save *Gooey Spider Leg* for later[O]
+[G18,59.8Ashenvale][T] Train *Growl 3* and *Aspect of the Cheetah*[A Hunter]--TRAINER_SHOW,TRAINER_CLOSED>>Trainer
+[G34.4,48Ashenvale]Get the [P Astranaar] Flight Path 
+Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand] 
+Accept [G34.89,49.79Ashenvale][QA1070 On Guard in Stonetalon]
+Accept [G35.76,49.1Ashenvale][QA1056 Journey to Stonetalon Peak]
+Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling the Threat] --\\Turn in [QT10752 Onward to Ashenvale]
+[G37.36,51.79Ashenvale]Turn in [QT1020 Orendil's Cure]
 Wait for the RP sequence to end \\Accept [QA1033 Elune's Tear]
 
 [G46.37,46.38,50Ashenvale][QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater
@@ -124,8 +121,8 @@ Turn in [QT1009]
 [H]Hearth to Auberdine
 
 Stable your pet [O][A Hunter]
-[L72.81,6.11Stonetalon Mountains][V][O]Restock/Resupply, long grinding session ahead
 Turn in [G20.04,16.35Felwood][QT731 The Absent Minded Prospector] pt.2 \\Accept [QA741 The Absent Minded Prospector] pt.3
+[G37.7,40.7Darkshore][V][O]Restock/Resupply--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [G22.24,18.22Felwood]Turn in [QT995 Escape Through Stealth][OC]
 [G22.24,18.22Felwood]Turn in [QT994 Escape Through Force]
 Turn in  [QT4730 Beached Sea Creature]\\
@@ -160,7 +157,7 @@ Set your Hearthstone to [S Astranaar]
 
 Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
 Accept [G49.79,67.21,20Ashenvale][QA1016 Elemental Bracers]
-[G50.14,67.94Ashenvale][T] Train skills [A Hunter][OC]
+[G50.14,67.94Ashenvale][T] Train skills [A Hunter][OC]--TRAINER_CLOSED,TRAINER_SHOW>>Trainer
 [QC1016 -]Loot 5 *Intact Elemental Bracers* \\Right click the *Divining Scroll*
 Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
 Grind mobs until your HS is off cooldown \\[H]Hearth to Astranaar
@@ -173,12 +170,12 @@ Death warp to Astranaar\\Turn in [QT1054 Culling the Threat]
 --[G73.13,7.59Stonetalon Mountains]Buy [V Mild Spices] for leveling cooking
 --[G72.81,6.11Stonetalon Mountains]Buy [V Flint and Tinder] \\Buy 2x[V Simple Wood]
 Fly to [F Teldrassil]
---[G39.89,42.11Darnassus][V]Withdraw your cooking mats from the bank [O]
-[T] Train skills [O]
-[T] Train first aid [O]
+[T][O] Train skills--TRAINER_SHOW,TRAINER_CLOSED>>Trainer
+[T] Train first aid [OC]
 [G23.7,64.51Teldrassil]Turn in [QT741 The Absent Minded Prospector] pt.3 \\Accept [QA942 The Absent Minded Prospector] pt.4
-[H]Hearth to Auberdine [OC]
+--[H]Hearth to Auberdine [OC]
+Fly to [F Darkshore]
 [OC]Level first aid/cooking while waiting for the Menethil boat
-[G33.70,42.45Darkshore]Take the boat to Menethil Harbor
+[G33.70,42.45Darkshore]Take the boat to Menethil Harbor--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 

@@ -4,8 +4,8 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [NX29-32Duskwood]
-[V][O]Deposit the follwing items:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom
-[V][O]Withdraw from your bank:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4)
+[V][O]Deposit the follwing items:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Wetlands27
+[V][O]Withdraw from your bank:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Wetlands27
 Fly to Stormwind\\
 Turn in [QT269] \\Accept [QA270]
 Accept [G40.55,30.91Stormwind City][QA2923 Tinkmaster Overspark]
@@ -94,5 +94,34 @@ Turn in [G9.86,57.48Wetlands][QT474 Defeat Nek'rosh]
 
 Turn in [G10.58,60.59,20Wetlands][QT324 The Lost Ingots] \\Accept [QA322 Blessed Arm]
 
-Fly to [F Ironforge]
+Fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
+
+if not Guidelime_Zarant then return end
+
+local z = Guidelime_Zarant
+
+
+function z:BankD_Wetlands27() --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Wetlands27 A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom
+	--local items = {"A Torn Journal Page","Bottle of Zombie Juice","Skeleton Finger","Vial of Spider Venom"}
+	local items = {916,1451,2378,1130}
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end
+
+function z:BankW_Wetlands27() --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Wetlands27 Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4)
+	--local items = {"Gobbler's Head","Bundle of Crocolisk Skins","Young Crocolisk Skin"}
+	local items =  {3618,3347,3397}
+	if  z.IsItemInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+
+end

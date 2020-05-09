@@ -48,5 +48,5 @@ Fly to [F Arathi Highlands][OC]
 Turn in [G45.83,47.55,20Arathi Highlands][QT681 Northfold Manor]
 Use eagle eye to find a level 32/33 spider \\Tame it and learn Bite rank 5 [O][A Hunter]
 Turn in [QT658]
-Fly to [F Wetlands]
+Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")

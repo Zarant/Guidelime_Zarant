@@ -5,12 +5,13 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [T]Train skills\\Train pet skills[O]
-[V][O]Deposit the following items:\\Seaforium Booster\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem
-[V][O]Withdraw the following items from your bank:\\*Blue Pearls* (x9)\\Buzzard Wings
+[V][O]Deposit the following items:\\Seaforium Booster\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Badlands40
+[V][O]Withdraw the following items from your bank:\\Blue Pearls (x9)\\Buzzard Wings\\Fizzle Brassbolts' Letter --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Badlands40
 Fly to Ironforge[OC]
 Accept [QA707 Ironband Wants You!] \\Turn in [QT554 Stormpike's Deciphering]
 Turn in [QT653 Myzrael's Allies] \\Accept [QA687 Theldurin the Lost]
 Fly to [F Loch Modan]
+[S]Set your HS to Loch Modan
 Accept [QA2500 Badlands Reagent Run]
 Turn in [QT707 Ironband Wants You!] \\Accept [QA738 Find Agmond]
 [QC2500,1-][O][QC2500,2-][O]Kill wolves/vultures as you quest through Badlands \\Make sure to prioritize vultures
@@ -43,10 +44,38 @@ Turn in [QT712 Study of the Elements: Rock]
 Turn in [QT703 Barbecued Buzzard Wings]
 Turn in [QT733 Scrounging]
 Turn in [QT732 Tremors of the Earth]
-Run to Searing Gorge \\Throw away your HS and unstuck\\Get the [P Searing Gorge] FP
-Fly to [F Loch Modan]
+Run to Searing Gorge \\Once you get to Searing Gorge, suicide and spirit rez at Thorium Point\\Get the [P Searing Gorge] FP
+[H]Hearth back to Loch Modan
 Turn in [QT2500 Badlands Reagent Run]
 Turn in [QT739 Murdaloc]
 Unstuck back to Thelsamar [OC]
-Fly to [F Ironforge]
+Fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
+
+if not Guidelime_Zarant then return end
+
+local z = Guidelime_Zarant
+
+
+function z:BankD_Badlands40() --Seaforium Booster\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Badlands40
+	--local items = {"Seaforium Booster","Perenolde Tiara","Tomes of Alterac","Kravel's Scheme","Sample Elven Gem"} 
+	local items = {5862,3684,3660,5826,4502}
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end
+
+function z:BankW_Badlands40()
+	--local items = {"Blue Pearl","Buzzard Wing","Fizzle Brassbolts' Letter"}
+	local items = {4611,3404,5827}
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end

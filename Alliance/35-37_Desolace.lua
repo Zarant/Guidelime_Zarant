@@ -76,12 +76,21 @@ Head to [G41.42,65.51,80Desolace][G41.13,91.72,20Desolace]Feralas
 [G43.33,42.77Feralas]Run to the edge of the dock and unstuck \\Spirit rez at [G31.83,48.12,20Feralas]Feathermoon
 Fly to [F Tanaris]
 Run to Thousand Needles \\Turn in [QT1112 Parts for Kravel]
-Accept [QA1106 Martek the Exiled]
+Accept [QA1106 Martek the Exiled] \\Accept [QA1107 Encrusted Tail Fins]
 Turn in [QT1183 Goblin Sponsorship] \\Accept [QA1186 The Eighteenth Pilot]
 Turn in [QT1186 The Eighteenth Pilot] \\Accept [QA1187 Razzeric's Tweaking]
 Accept [QA1114 Delivery to the Gnomes]
 Turn in [QT1114 Delivery to the Gnomes]
 Accept [QA1115 The Rumormonger]
-[G50.52,18.94,40Tanaris]Run back to Tanaris
-You have 2 options going into the next segment:\\Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW
+You have 2 options going into the next segment:\\[G50.52,18.94,40Tanaris][G51.0,29.3]Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>Desolace_End
+
 ]], "Zarant")
+
+
+
+if not Guidelime_Zarant then return end
+local z = Guidelime_Zarant
+
+function z:Desolace_End()
+	return self:ZoneSkip({"1434","1"}) or self:ZoneSkip({"1453","1"})
+end

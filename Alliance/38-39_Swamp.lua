@@ -39,13 +39,45 @@ Turn in [QT1116] \\Accept [QA1117]
 
 Fly to [F Stormwind]
 
-[V][O]Withdraw ALL quest items that you deposited in your bank previously\\ \\Make sure you withdraw water breathing pots for the next segment
-Deposit *Khadgar's Essays on Dimensional Convergence* if you have it[O]
+[V][O]Withdraw the following items:\\Water Breathing Potions\\Leftwitch's Package\\Decrypted Letter\\Letter of Commendation\\Karnitol's Satchel\\Bag of Water Elemental Bracers\\Encrusted Tail Fins\\Mirefin Head --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Swamp38
+[V][O]Deposit the following items in your bank:\\Blue Pearls\\Khadgar's Essays on Dimensional Convergence (if you have it) --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Swamp38
 Accept [QA543 The Perenolde Tiara]
 Turn in [QT1448 In Search of The Temple] \\Accept [QA1449]
 Take the tram to IF [OC]
 Turn in [QT1457 The Karnitol Shipwreck] \\Turn in [QT1467 Reagents for Reclaimers Inc.]
 Make sure you have water breathing pots for the next segment [OC]
-Fly to [F Southshore]
+Fly to [F Southshore]--OnStepCompletion>>LoadNextGuide
 
 ]], "Zarant")
+
+if not Guidelime_Zarant then return end
+
+local z = Guidelime_Zarant
+
+
+function z:BankD_Swamp38() --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Swamp38
+	--local items = {"Khadgar's Essays on Dimensional Convergence","Blue Pearl"} 
+	local items = {6065,4611}
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end
+
+--"Leftwitch's Package","Decrypted Letter","Letter of Commendation","Karnitol's Satchel","Fizzle Brassbolts' Letter","Bag of Water Elemental Bracers","Encrusted Tail Fin","Elixir of Water Breathing","Mirefin Head"
+function z:BankW_Swamp38() --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Swamp38
+--	local items = {"Leftwitch's Package","Decrypted Letter","Letter of Commendation","Karnitol's Satchel","Bag of Water Elemental Bracers","Encrusted Tail Fin","Mirefin Head"}
+
+	
+	local items = {6253,3518,5539,6245,3960,5796,5847}
+	
+	if  z.IsItemNotInBank(items) and (z.IsItemInBags(5996) or z.IsItemInBags(18294)) then
+		z.SkipStep(self)
+		return
+	end
+	table.insert(items,5996)
+	z.WithdrawItems(items)
+end

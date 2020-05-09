@@ -11,7 +11,7 @@ Accept [QA6182]
 Turn in [QT6182] \\Accept [QA6183] \\Turn in [QT6183] \\Accept [QA6184]
 
 Before starting this segment make sure you have 2 stacks of Noggenfogger Elixir or some other form of slow fall [OC]
-Fly to [F Southshore][OC]
+Fly to Southshore[OC]
 [S]Set your HS to Southshore
 Fly to [F Western Plaguelands]
 Accept [QA5219 Target: Dalson's Tears]
@@ -131,5 +131,5 @@ Turn in [QA5237-][QT5237 Mission Accomplished!]
 Turn in [QT6389 A Plague Upon Thee]
 Turn in [QT5941 Return to Chromie]
 Turn in [QT5846 Of Love and Family]
-Use the website unstuck tool to teleport to SW\\*OR*\\Throw away your HS and unstuck back to Chillwind Camp, then fly to [F Ironforge]
+Use the website unstuck tool to teleport to SW\\*OR*\\Throw away your HS and unstuck back to Chillwind Camp, then fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")

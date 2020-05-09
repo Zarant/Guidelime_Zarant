@@ -5,7 +5,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 [O]This segment has a long grinding session, you can substitute that for a Gnomeregan run
-[V][O]Withdraw the follwing:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom\\An Old History Book (if you have it)
+[V][O]Withdraw the follwing:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom\\An Old History Book (if you have it) --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_Duskwood29
 Fly to Ironforge\\
 Turn in [QT637 Sully Balloo's Letter] \\Wait for the RP sequence\\Accept [QA683 Sara Balloo's Plea]
 Turn in [QT683 Sara Balloo's Plea] \\Accept [QA686 A King's Tribute]
@@ -14,7 +14,7 @@ Turn in [QT686 A King's Tribute] \\Accept [QA689 A King's Tribute]
 Accept [QA1179 The Brassbolts Brothers]
 Take the tram to Stormwind [OC]
 Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
-[V][O]Deposit the following items:\\Musquash Root\\Crate of Crash Helmets\\Turtle Meat
+[V][O]Deposit the following items:\\Musquash Root\\Crate of Crash Helmets\\Turtle Meat --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Duskwood29
 [T] Train first aid at the cathedral [O]
 
 [T][O]If you get level 30 turning in the next few quests in SW, remember to buy class/pet skills
@@ -95,7 +95,7 @@ Turn in [QT229 The Daughter Who Lived] \\Accept [QA231 A Daughter's Love]
 Turn in [G75.75,47.56,20Duskwood][QT222 Worgen in the Woods] \\Accept [QA223 Worgen in the Woods]
 Turn in [G75.32,49.02,20Duskwood][QT223 Worgen in the Woods]
 Fly to [F Stormwind]
-[V][O]Withdraw the following items:\\Crate of Crash Helmets\\Turtle Meat\\Musquash Root\\An Old History Book
+[V][O]Withdraw the following items:\\Crate of Crash Helmets\\Turtle Meat\\Musquash Root\\An Old History Book --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Duskwood29
 Turn in [QT1245 The Missing Diplomat] pt.6\\Accept [QA1246 The Missing Diplomat] pt.7
 Turn in [QT1246 The Missing Diplomat] pt.7 \\Accept [QA1447 The Missing Diplomat] pt.8
 [QC1447 -] Beat Dashel Stonefist
@@ -107,7 +107,7 @@ Accept [QA1301 James Hyal] pt.1
 Turn in [QT335 A Noble Brew] pt.1 \\Accept [QA336 A Noble Brew] pt.2
 Turn in [QT336 A Noble Brew] pt.2
 Turn in [QT337] \\Accept [QA538] --An Old History Book
-[T][O]Train skills\\[T]Train pet Skills
+[T][O][A Hunter]You don't need to train skills if you already purchased your level 30 spells
 Take the Tram to Ironforge [OC]
 Fly to [F Menethil]
 Turn in [QT1301 James Hyal] pt.1 \\Accept [QA1302 James Hyal] pt.2
@@ -117,6 +117,49 @@ Turn in [QT1249 The Missing Diplomat] pt.11
 Accept [QA1250 The Missing Diplomat] pt.12
 Turn in [QT1250 The Missing Diplomat] pt.12\\Accept [QA1264 The Missing Diplomat] pt.13
 
-Fly to [F Southshore]
+Fly to [F Southshore]--OnStepCompletion>>LoadNextGuide
 
 ]], "Zarant")
+
+
+if not Guidelime_Zarant then return end
+
+local z = Guidelime_Zarant
+
+
+function z:BankD_Duskwood29() --Musquash Root\\Crate of Crash Helmets\\Turtle Meat --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Duskwood29
+	--local items = {"Musquash Root","Crate of Crash Helmets","Turtle Meat"}
+	local items = {2784,5849,3712}
+	
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end
+
+function z:BankW1_Duskwood29() --A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom\\An Old History Book (if you have it) --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_Duskwood29
+	--local items = {"A Torn Journal Page","Bottle of Zombie Juice","Skeleton Finger","Vial of Spider Venom","An Old History Book"}
+	local items = {916,1451,2378,1130,2794}
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+
+end
+
+function z:BankW2_Duskwood29() --Crate of Crash Helmets\\Turtle Meat\\Musquash Root\\An Old History Book --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Duskwood29
+	--local items = {"Crate of Crash Helmets","Turtle Meat","Musquash Root","An Old History Book"}
+	local items = {2784,5849,3712,2794}
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+
+end

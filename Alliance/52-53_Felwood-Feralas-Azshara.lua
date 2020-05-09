@@ -6,12 +6,13 @@ Guidelime.registerGuide([[
 [D Alliance Hunter Leveling Guide]
 
 Take the boat to Darkshore [OC]
+[S]Set your HS to Auberdine
 Fly to [F Teldrassil]
 Turn in [QT3661]
 Accept [QA978][OC]
 Turn in [QT2944] \\Accept [QA2943]
-[V][O]Bank the follwing: \\Janice's Parcel\\Violet Tragan\\Pupellyverbos Port\\Flare gun\\Drawing kit
-[V][O]Withdraw the following:\\Jer'kai's Signet Ring\\Raschal's Report\\Insect Analysis Report\\Linken's Training Sword\\Package of Empty Ooze Containers
+[V][O]Deposit the follwing items: \\Janice's Parcel\\Flare gun\\Drawing kit --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Felwood52
+[V][O]Withdraw the following items:\\Jer'kai's Signet Ring\\Raschal's Report\\Insect Analysis Report\\Linken's Training Sword\\Package of Empty Ooze Containers\\Bloodpetal --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Felwood52
 [T]Train skills [O]
 [V][O]Restock on supplies, long grinding session ahead
 --Sunken Temple class quest
@@ -60,15 +61,16 @@ Tame an *Ironbeak Hunter* or *Angerclaw Mauler* and learn claw 7 [OC][A Hunter]
 
 [G40.84,66.78,40Felwood] Run south to the slime pond\\Death warp to southern felwood[OC]
 Turn in [QT4101]
-[G16.27,99.89,20Winterspring]Make sure you have a Cenarion Beacon[O]
+[G16.27,99.89,20Winterspring]Make sure you have a Cenarion Beacon[O] --BAG_UPDATE>>Beacon_Felwood52
 Turn in [QT5157] \\Accept [QA5158]
 Turn in [QT939] \\Accept [QA4441] \\Turn in [QT4906]
 Turn in [QT5156]
 
 --35%
 Run southeast to Azshara[OC]
-[G11.90,77.57Azshara]Fly to [F Ratchet]
-
+[G11.90,77.57Azshara]Get the [P Azshara] flight path
+[H]Hearth to Darkshore
+Fly to [F Feathermoon]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 Guidelime.registerGuide([[
@@ -77,16 +79,12 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
-[V][O]Bank the follwing: \\Eridan's Vial\\Cenarion Beacon\\Slime jars
-[V][O]Withdraw the follwing:\\Pupellyverbos Port\\Bloodpetal
+
+--[V][O]Withdraw the follwing items:\\Bloodpetal --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Feralas52
+
 Withdraw your pet from the stables [A Hunter][O]
---Set your HS to [S Ratchet]
---Take the boat to STV[OC]
---Turn in [QT836]
---Turn in [QA3721-][QT3721]
---Turn in [QT580]
---[H]Hearth back to ratchet
-Fly to [F Feathermoon]
+
+--Fly to [F Feathermoon]
 Accept [QA7733]
 [S]Set your HS to Feathermoon
 Turn in [QT2943] \\Accept [QA2879]
@@ -113,7 +111,7 @@ Turn in [QT2845]
 [H]Once you're inside the instance, hearth back to Feathermoon
 Turn in [QT2942]
 Turn in [QT7733] \\Turn in [QT7735]
-Fly to [F Ratchet]
+Fly to [F Ratchet]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 Guidelime.registerGuide([[
@@ -121,12 +119,14 @@ Guidelime.registerGuide([[
 [NX53-54Un'Goro Crater]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
---[O]This segment contains a heavy grinding session (about 2 hours long), you can skip it if you are planning to run dungeons before level 60 --Pre phase 4
-[V][O]Withdraw the following:\\Drawing Kit\\Flare Gun
-[V][O]Buy 3 stacks of food/water at the innkeeper
+--[O]This segment contains a heavy grinding session (about 2 hours long), you can skip it if you are planning to run dungeons before level 60 --v2
+[V][O]Deposit the follwing items:\\Eridan's Vial\\Cenarion Beacon\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas52
+[V][O]Withdraw the following:\\Drawing Kit\\Flare Gun --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Azshara53
+Make sure you have at least 1 stack of noggenfogger for this next segment
+--[V][O]Buy 3 stacks of food/water at the innkeeper
 [S]Set your HS to Ratchet
 Fly to [F Azshara]
-[V][O]Buy extra arrows, long grinding session ahead
+--[V][O]Buy extra arrows, long grinding session ahead
 
 --ST class quest
 [A Hunter][G42.37,42.61Azshara]Turn in [QT8151] \\Accept [QA8153] 
@@ -142,23 +142,104 @@ Kill nagas for [QC5534 Kim'jael's "Missing" Equipment][O]
 Turn in [QT5534 Kim'jael's "Missing" Equipment]
 
 
---Pre phase 4
---[XP53.8 Grind elves until you are 20% (4 bars) away from level 54] 
---[XP54+20000 You need to finish this segment at level 54+20k xp to cover all the grinding needed to level 60] \\Best case scenario you should be around 20-30hrs away from 60 at this point, every 12hrs of rested xp is worth about 15k xp at this level range\\You can skip this grind with enough rested xp
---
-
 [XP53.4 Grind elves until you are 40% into level 53] --Phase 4
 
 Grind until your HS cooldown is <5 minutes[O]
 [A Hunter]Turn in [QT8153] --\\Accept [QA8231]
 --[G88.47,29.61,200Azshara][QC8231-]Kill Wavethrashers along the northeastern coast
 --Turn in [QT8231]
-[G73.22,87.87,40Azshara]Go behind the giant statue\\[G77.80,91.32Azshara]Jump down to the small island east\\Use the flare gun at the landing pad\\Turn in [QT3449 Arcane Runes] \\Accept [QA3461 Return to Tymor]
+[G73.22,87.87,40Azshara]Go behind the giant statue\\[G77.80,91.32Azshara]Use noggenfoger to jump down to the small island east\\Use the flare gun at the landing pad\\Turn in [QT3449 Arcane Runes] \\Accept [QA3461 Return to Tymor]
 Destroy the flare gun[OC]
 [H]Hearth to Ratchet
 Turn in [QT5158] \\Accept [QA5159]
-[V][O]Bank the following:\\Drawing kit\\Purified Moonwell Water\\Eridan's vial
+[V][O]Deposit the following items:\\Drawing kit\\Purified Moonwell Water --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Azshara53
 Accept [QA4502]
 [QC3444-]Loot the small chest outside the metal hut
-Fly to [F Tanaris]
+Fly to [F Tanaris]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
+
+if not Guidelime_Zarant then return end
+
+local z = Guidelime_Zarant
+
+
+--asdiojaosibjd--<
+
+function z:BankD_Felwood52()  --Janice's Parcel\\Violet Tragan\\Pupellyverbos Port\\Flare gun\\Drawing kit --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Felwood52
+	--local items = {"Janice's Parcel","Flare gun","Drawing kit"}
+	local items = {12724,10444,10445}
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end
+
+function z:BankW_Felwood52()  --Jer'kai's Signet Ring\\Raschal's Report\\Insect Analysis Report\\Linken's Training Sword\\Package of Empty Ooze Containers --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Felwood52
+	
+	--local items = {"Jer'kai's Signet Ring","Raschal's Report","Insect Analysis Report","Linken's Training Sword","Package of Empty Ooze Containers","Bloodpetal"} 
+	local items = {9368,11466,8594,11133,11912,11316}
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end
+
+function Beacon_Felwood52()--Cenarion Beacon[O] --BAG_UPDATE>>Beacon_Felwood52
+	if z.IsItemInBags(11511) then
+		z.SkipStep(self)
+	end
+end
+
+function z:BankW_Azshara53()  --Drawing Kit\\Flare Gun --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Azshara53
+	
+	--local items = {"Drawing Kit","Flare Gun"} 
+	local items = {10445,10444} 
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end
+
+function z:BankD_Feralas52() --Eridan's Vial\\Cenarion Beacon\\Slime jars --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas52
+	--local items = {"Eridan's Vial","Cenarion Beacon","Filled Cursed Ooze Jar","Filled Tainted Ooze Jar"}
+	local items = {11682,11511,11947,11949}
+	
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end
+
+function z:BankW_Feralas52()
+--	local items = {"Bloodpetal"}
+	local items = {11316}
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end
+
+function z:BankD_Azshara52() --Drawing kit\\Purified Moonwell Water --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Azshara53
+	--local items = {"Drawing Kit","Purified Moonwell Water"}
+	local items = {10445,12906}
+	
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end

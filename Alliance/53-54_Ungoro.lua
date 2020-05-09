@@ -8,18 +8,19 @@ Turn in [QT5158] \\Accept [QA5159]
 Accept [QA4502]
 [QC3444-]Loot the small chest outside the metal hut
 
-[V][O]Withdraw the follwing:\\Torwa's Pouch\\All 4 Power Crystals\\Violet Tragan\\Webbed Diemetradon Scale
+[V][O]Withdraw the follwing items:\\Torwa's Pouch\\Power Crystals\\Violet Tragan\\Webbed Diemetradon Scale --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Ungoro53
 --[G52.51,27.91Tanaris]Set your HS to [S Gadgetzan]
---Accept [QA4504]--do that quest later due to quest log constraints
+--Accept [QA4504]--Super sticky tar, do that quest later due to quest log constraints
 Turn in [QT2641]
 Turn in [QT4493] \\Accept [QA4496]
 Accept [QA2661]
 Turn in [QT2661] \\Accept [QA2662] \\Turn in [QT2662]
-Make sure you carry 1 stack of noggenfogger with you at all times, buy 2 extra stacks and bank it [OC]
+
 Turn in [QT3444] --stonecricle
 Fly to [F Un'Goro]
 Accept [QA3881] \\Accept [QA3883] \\Accept [QA3882]
-Turn in [QA4284-][QT4284] \\Accept [QA4285] \\Accept [QA4288] \\Accept [QA4287]
+Turn in [QA4284-][QT4284]
+Accept [QA4285] \\Accept [QA4288] \\Accept [QA4287]
 Click on the Wanted Poster\\Accept [QA4501]
 Accept [QA4492]
 Accept [QA4503]
@@ -58,7 +59,7 @@ Turn in [QT4301]
 Make sure you have 20 Un'Goro soil before leaving Un'Goro[O]
 [H]Hearth to Ratchet
 Turn in [QT4502] --volcanic activity
-[V]Withdraw the following: \\Eridan's vial\\Purified Moonwell Water\\Cenarion beacon\\Moontouched Feathers
+[V][O]Withdraw the following: \\Eridan's vial\\Purified Moonwell Water\\Cenarion beacon\\Moontouched Feathers --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Ungoro53
 
 --Darn
 Fly to [F Teldrassil]
@@ -79,5 +80,36 @@ Run down to the middle floor, speak with Mathrengyl Bearwalker[OC]
 Turn in [QT6761][OC]
 Accept [QA6762]  --rabine saturna
 Turn in [QT3781] at the middle floor
-Fly to [F Felwood]
+Fly to [F Felwood]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
+
+
+if not Guidelime_Zarant then return end
+
+local z = Guidelime_Zarant
+
+
+function z:BankW1_Ungoro53()  --Torwa's Pouch\\All 4 Power Crystals\\Violet Tragan\\Webbed Diemetradon Scale --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Ungoro53
+	--local items = {"Torwa's Pouch","Webbed Diemetradon Scale","Un'Goro Soil","Violet Tragan","Red Power Crystal","Green Power Crystal","Blue Power Crystal","Yellow Power Crystal"}
+	local items = {11568,11569,11570,11830,11018}
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end
+-- Torwa's pouch and its contents: 11568,11569,11570
+
+--Eridan's vial\\Purified Moonwell Water\\Cenarion beacon\\Moontouched Feathers --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Ungoro53
+
+function z:BankW2_Ungoro53() 
+--	local items = {"Eridan's vial","Purified Moonwell Water","Cenarion beacon","Moontouched Feather"}
+	local items = {11682,12906,11511,"Moontouched Feather" }
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end

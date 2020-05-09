@@ -34,6 +34,6 @@ Turn in [QT1187 Razzeric's Tweaking] \\Accept [QA1188 Safety First]
 
 
 [H] Hearth to Menethil
-Fly to [F Ironforge]
+Fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 
 ]], "Zarant")

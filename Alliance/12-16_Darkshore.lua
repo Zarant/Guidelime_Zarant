@@ -25,9 +25,9 @@ Turn in [G19.13,21.39Felwood][QT983 Buzzbox 827] \\Accept [QA1001 Buzzbox 411]
 Turn in [G19.1,20.63Felwood][QT3524 Washed Ashore pt.1] \\Accept [QA4681 Washed Ashore pt.2]
 [G19.9,18.4Felwood]Accept [QA947 Cave Mushrooms]
 [G20.34,18.12Felwood]Accept [QA4811 The Red Crystal]
+[G19.98,14.4Felwood][V][O]Buy 6 slot bags\\Make sure you have about 9 stacks of ammo, long grinding session ahead--MERCHANT_SHOW,MERCHANT_CLOSED,BAG_UPDATE>>Darkshore_vendor_1
 Turn in [G22.24,18.22Felwood][QT984 How Big a Threat?] pt.1 \\Accept [QA985 How Big a Threat?] pt.2 \\Accept [QA4761 Thundris Windweaver]
 Turn in [G19.98,14.4Felwood][QT4761 Thundris Windweaver] \\Accept [QA4762 The Cliffspring River] \\Accept [QA958 Tools of the Highborne] \\Accept [QA954 Bashal'Aran]
-[V] Buy extra stacks of arrows, long grinding session ahead
 
 [OC] Start collecting small eggs for leveling cooking later
 --[G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal][OC] in the mountains[A NightElf]
@@ -68,11 +68,11 @@ Turn in [G21.63,18.15Felwood][QT2118 Plagued Lands] \\Accept [QA2138 Cleansing o
 Turn in [G22.24,18.22Felwood][QT985 How Big a Threat?] \\Accept [QA986 A Lost Master]
 [G21.86,18.3Felwood]Run upstairs \\Accept [QA965 The Tower of Althalaxx] pt.1
 Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within]
-[V][O]Buy Level 15 food
+--[V][O]Buy Level 15 food
 Turn in [G18.1,18.48Felwood][QT963 For Love Eternal]
 Accept [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
 Accept [G20.8,15.58Felwood][QA982 Deep Ocean, Vast Sea]
-[G20.8,15.58Felwood] Buy [V]*Mild Spice*x10 and cook 9 herb baked eggs[A NightElf]
+[A NightElf][G20.8,15.58Felwood]Buy [V]*Mild Spice*x10 and cook 9 herb baked eggs\\[G37.7,40.7Darkshore]Accept [QA2178]
 Turn in [G19.98,14.4Felwood][QT958 Tools of the Highborne]
 
 [G20.94,1.49,90Felwood]Finish off [QC1001]
@@ -109,12 +109,54 @@ Take the boat to darnassus [A Dwarf,Human,Gnome][OC]
 [G58.39,94.01Teldrassil][P Get the Ruth'theran Village FP][A Dwarf,Human,Gnome]
 [G19.1,20.63Felwood]Fly to [F Teldrassil][A NightElf]
 [G56.25,92.44Teldrassil][QT6343 Return to Nessa][A NightElf]
-[G36.6,13.6,100Darnassus][T Train skills][A Hunter]\\Prioritize immolation trap/wing clip/mend pet\\Make sure to save 92 silver[O]
+[A Hunter][O][G36.6,13.6,100Darnassus][T]Train skills\\Prioritize immolation trap/wing clip/mend pet\\Try to save 92 silver--TRAINER_SHOW,TRAINER_CLOSED>>Trainer
 [L28,49.5Teldrassil][T]Train First Aid[OC]
-[G58.7,45.3Darnassus][T]Train Bows/Staves[A Dwarf,Human,Gnome][O]
+[A Dwarf,Human,Gnome[G58.7,45.3Darnassus][T]Train Bows/Staves][O]--TRAINER_SHOW,TRAINER_CLOSED>>Trainer,11866
 [T]Train skills/First aid[A Rogue,Druid,Warrior,Priest][O]
-[G63.3,66.3Darnassus][V]Restock/Resupply\\Buy a level 16/20 bow[A Hunter][OC]
-[G23.7,64.51Teldrassil][QA730 Trouble In Darkshore?]
+[A Hunter][OC][G63.3,66.3Darnassus][V]Restock/Resupply\\Prioritize buying a level 20 bow\\Buy a level 16 bow if you have money to spare--MERCHANT_SHOW,MERCHANT_CLOSED,BAG_UPDATE>>Darkshore_vendor_2
+Accept [G23.7,64.51Teldrassil][QA730 Trouble In Darkshore?]
 You might have to use the website unstuck request to port to SW and train skills at some point (8hr cooldown)[OC][A Paladin,Mage,Warlock]
 [H]Hearth back to Auberdine
 ]], "Zarant")
+
+local z = Guidelime_Zarant
+
+function z:Darkshore_vendor_1(args,event)
+
+	local _, class = UnitClass("player");
+	local bags = true
+	for bag = BACKPACK_CONTAINER+1, NUM_BAG_FRAMES do
+		local numSlots = GetContainerNumSlots()
+		if numSlots == 0 then
+			bags = false
+		end
+	end
+	if event == "MERCHANT_SHOW" then
+		self.merchant = true
+	end
+	if bags and self.merchant and not(GetItemCount(2515)+GetItemCount(2512) < 1800 and class == "HUNTER") then
+		self:SkipStep()
+	end
+	
+end
+
+function z:Darkshore_vendor_2(args,event)
+	local id = 3027
+	local heavyRecurve = (GetInventoryItemID("player",18) == id or GetItemCount(id) > 0)
+	id = 3026
+	local reinforced = (GetInventoryItemID("player",18) == id or GetItemCount(id) > 0)
+	if reinforced and recurve then
+		self:SkipStep()
+		return
+	end
+	if event == "MERCHANT_SHOW" then
+		self.merchant = true
+	elseif	event == "MERCHANT_CLOSED" then
+		self.merchant = false
+		C_Timer.After(5,function()
+			if not self.merchant and heavyRecurve then
+				self:SkipStep()
+			end
+		end)
+	end
+end

@@ -49,12 +49,31 @@ Turn in [QT1285 Daelin's Men]
 Turn in [QT1319 The Black Shield] \\Accept [QA1320 The Black Shield]
 Turn in [QT1320 The Black Shield]
 [G51.71,14.43,25Dustwallow Marsh]Grind your way northwest towards Ratchet
-[V][O]Deposit the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head
+[V][O]Deposit the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head --BANKFRAME_OPENED,BAG_UPDATE>>Bank_1kN33
 Unstuck to Ratchet once you get to The Barrens[OC]
 Get the [P Ratchet] FP
 Turn in [QT1178 Goblin Sponsorship] \\Accept [QA1180 Goblin Sponsorship]
 Turn in [QT1111 Wharfmaster Dizzywig] \\Accept [QA1112 Parts for Kravel]
 
-Take the Boat to Booty Bay
+Take the Boat to Booty Bay--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,1413,1
 
 ]], "Zarant")
+
+
+if not Guidelime_Zarant then return end
+
+local z = Guidelime_Zarant
+
+
+function z:Bank_1kN33() --Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head --BANKFRAME_OPENED,BAG_UPDATE>>Bank_1kN33
+	--local items = {"Farren's Report","Cleverly Encrypted Letter","Alterac Granite","Mirefin Head"}
+	local items = {3721,3521,4521,5847}
+	
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end

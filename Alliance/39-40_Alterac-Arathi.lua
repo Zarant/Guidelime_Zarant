@@ -33,7 +33,7 @@ Turn in [QT1449 To The Hinterlands] \\Accept [QA1450 Gryphon Master Talonaxe]
 Get [P The Hinterlands] FP
 Turn in [QT1450 Gryphon Master Talonaxe] \\Accept [QA1451 Rhapsody Shindigger]
 Turn in [QT1451 Rhapsody Shindigger] 
---Accept [QA1452 Rhapsody's Kalimdor Kocktail]
+Accept [QA1452 Rhapsody's Kalimdor Kocktail]
 [H]Hearth to Southshore[OC]
 
 Turn in [QT500 Crushridge Bounty]
@@ -89,5 +89,6 @@ Turn in [QT668 Sunken Treasure] \\Accept [QA669 Sunken Treasure]
 Throw away your HS and unstuck [OC]
 Turn in [QT684 Wanted!  Marez Cowl]
 Turn in [QT693 Wand over Fist]
-Fly to [F Wetlands]
+Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
+
 ]], "Zarant")
