@@ -111,7 +111,7 @@ Take the boat to darnassus [A Dwarf,Human,Gnome][OC]
 [G56.25,92.44Teldrassil][QT6343 Return to Nessa][A NightElf]
 [A Hunter][O][G36.6,13.6,100Darnassus][T]Train skills\\Prioritize immolation trap/wing clip/mend pet\\Try to save 92 silver--TRAINER_SHOW,TRAINER_CLOSED>>Trainer
 [L28,49.5Teldrassil][T]Train First Aid[OC]
-[A Dwarf,Human,Gnome[G58.7,45.3Darnassus][T]Train Bows/Staves][O]--TRAINER_SHOW,TRAINER_CLOSED>>Trainer,11866
+[A Dwarf,Human,Gnome][G58.7,45.3Darnassus][T]Train Bows/Staves[O]--TRAINER_SHOW,TRAINER_CLOSED>>Trainer,11866
 [T]Train skills/First aid[A Rogue,Druid,Warrior,Priest][O]
 [A Hunter][OC][G63.3,66.3Darnassus][V]Restock/Resupply\\Prioritize buying a level 20 bow\\Buy a level 16 bow if you have money to spare--MERCHANT_SHOW,MERCHANT_CLOSED,BAG_UPDATE>>Darkshore_vendor_2
 Accept [G23.7,64.51Teldrassil][QA730 Trouble In Darkshore?]
