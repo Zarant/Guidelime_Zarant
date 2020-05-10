@@ -3,11 +3,7 @@ if not Guidelime_Zarant then
 end
 
 local z = Guidelime_Zarant
-local name = ...
 local _, class = UnitClass("player")
-
-local questRewardList
-
 
 z.EventHandler = CreateFrame("Frame")
 local EventHandler = z.EventHandler
@@ -17,7 +13,7 @@ EventHandler:RegisterEvent("QUEST_COMPLETE")
 EventHandler:RegisterEvent("BAG_UPDATE")
 EventHandler:RegisterEvent("PLAYER_REGEN_ENABLED")
 EventHandler:RegisterEvent("MERCHANT_SHOW")
-EventHandler:RegisterEvent("ADDON_LOADED")
+EventHandler:RegisterEvent("PLAYER_ENTERING_WORLD")
 EventHandler:RegisterEvent("CHAT_MSG_SYSTEM")
 --EventHandler:RegisterAllEvents()
 
@@ -28,7 +24,10 @@ function z.BuySpells(id,level)
 	if category ~= "available" then
 		return
 	end
-	
+	if not GuidelimeData.trainerData then
+		GuidelimeData.trainerData = {}
+		return
+	end
 	for trainingLevel,spellList in pairs(GuidelimeData.trainerData[class]) do
 		if trainingLevel <= level then
 			for _,spell in ipairs(spellList) do
@@ -53,9 +52,8 @@ local function OnTrainer()
 end
 
 
-local questId
-
 local function GetQuestRewardData(n)
+	GuidelimeDataChar.questRewardList = GuidelimeDataChar.questRewardList or {}
 	if n and n > 0 and questId and not GuidelimeDataChar.questRewardList[questId] then
 		GuidelimeDataChar.questRewardList[questId] = n
 	end
@@ -453,7 +451,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		C_Timer.After(2,function()
 			z.MoveAmmo()
 		end)
-	elseif event == "ADDON_LOADED" and arg1 == name then
+	elseif event == "PLAYER_ENTERING_WORLD" then
 		z.OnLoad()
 		local tick = GuidelimeData.moveTicker
 		if tick then
@@ -465,6 +463,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		local level = UnitLevel("player")
 		local spell,rank = string.match(arg1,"You have learned a new %a+%:%s(.*)%s%((Rank%s%d+)%)")
 		if spell then
+			GuidelimeDataChar = GuidelimeDataChar or {}
 			if GuidelimeDataChar.trainerData[level] then
 				table.insert(GuidelimeDataChar.trainerData[level],{spell,rank})
 			else
