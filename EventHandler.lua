@@ -13,6 +13,7 @@ EventHandler:RegisterEvent("QUEST_COMPLETE")
 EventHandler:RegisterEvent("BAG_UPDATE")
 EventHandler:RegisterEvent("PLAYER_REGEN_ENABLED")
 EventHandler:RegisterEvent("MERCHANT_SHOW")
+EventHandler:RegisterEvent("MERCHANT_CLOSED")
 EventHandler:RegisterEvent("PLAYER_ENTERING_WORLD")
 EventHandler:RegisterEvent("CHAT_MSG_SYSTEM")
 --EventHandler:RegisterAllEvents()
@@ -215,15 +216,15 @@ function z.MoveAmmo()
 		organizeQuiver = true
 		return
 	end
+	local movingItems = false
 	local bagContents = {}
 	for bag = BACKPACK_CONTAINER, NUM_BAG_FRAMES do
 		local slots, bagtype = GetContainerNumFreeSlots(bag)
 		if bagtype == 0 then
 			for slot = 1,GetContainerNumSlots(bag) do
 				local id = GetContainerItemID(bag, slot)
-				--print(id)
 				if id and z.projectileList[projectileType][id] then
-
+					movingItems = true
 					C_Timer.After(0.01,function()
 						PickupContainerItem(bag,slot)
 						z.PutItemInQuiver(bagContents)
@@ -232,7 +233,11 @@ function z.MoveAmmo()
 			end
 		end
 	end
-	organizeQuiver = true
+	if movingItems then
+		organizeQuiver = true
+	else
+		z.SortQuiver()
+	end
 end
 
 
