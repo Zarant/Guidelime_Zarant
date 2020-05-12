@@ -86,9 +86,10 @@ end
 
 function addon.loadCurrentGuide(...)
 
-	local r = loadCurrentGuideOLD(...)
+	
 
 	local guide = addon.guides[GuidelimeDataChar.currentGuide]
+	local r = loadCurrentGuideOLD(...)
 	if guide == nil then
 		return r
 	end
@@ -108,8 +109,7 @@ function addon.loadCurrentGuide(...)
 				table.insert(filteredElements, element)
 			end
 		end
-		step.elements = filteredElements
-		if #step.elements == 0 then loadLine = false end
+		if #filteredElements == 0 then loadLine = false end
 		if loadLine then 
 			stepNumber = stepNumber+1
 			if step.eval and step.event then

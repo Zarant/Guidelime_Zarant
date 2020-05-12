@@ -10,7 +10,7 @@ Guidelime.registerGuide([[
 [A Dwarf,Human,Gnome][G19.1,20.63Felwood][P Get the Auberdine flight path]
 [G19.1,20.63Felwood]Accept [QA3524 Washed Ashore]
 [G19.27,19.14Felwood]Turn in [QT6342 Flight to Auberdine][A NightElf] \\Accept [QA6343 Return to Nessa][A NightElf]
-[S SET HEARTHSTONE TO *AUBERDINE*]
+[S]SET HEARTHSTONE TO *AUBERDINE*
 [G19.51,18.97Felwood]Accept [QA983 Buzzbox 827]
 [G21.63,18.15Felwood]Accept [QA2118 Plagued Lands] \\Accept [QA984 How Big a Threat?]
 
@@ -53,7 +53,7 @@ Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A NightElf]
 [G19.1,20.63Felwood][QT4681 Washed Ashore]
 
 [L22.39,29.45Felwood][QC985-][O]Kill fulborgs
-Accept [QA953 The Fall of Ameth'Aran]
+[G40.3,59.7Darkshore]Accept [QA953 The Fall of Ameth'Aran]
 [G25.98,40.62Felwood][QC953,2 The Fall of Ameth'Aran]
 [G25.66,39.11Felwood][QC957 Bashal'Aran]
 [G26.71,35.53Felwood][QC953,1 The Fall of Ameth'Aran]

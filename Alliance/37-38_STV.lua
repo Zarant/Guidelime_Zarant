@@ -34,7 +34,7 @@ Finish off [QC189 Bloodscalp Ears]
 [XP38-24000 Grind until you are 24k xp off level 38]
 Do [QC601 Water Elementals]
 [QC207,2 -] Loot the second tablet underwater
-[O]Look for clams around the coral reef\\Loot 9 *Blue Pearls* --BAG_UPDATE>>Pearls_STV38
+[O]Collect 9 *Blue Pearls* from the clams around the coral reef--BAG_UPDATE>>Pearls_STV38
 Kill Murlocs for [QC1107-]Encrusted Tail Fins
 Kill yourself, spirit rez [OC]
 Turn in [QT207 Kurzen's Mystery] \\Accept [QA205 Troll Witchery]
@@ -93,7 +93,7 @@ function z:Pearls_STV38() --BAG_UPDATE>>Pearls_STV38
 	local element = step.elements[self.element]
 	local itemCount = GetItemCount(4611)
 	element.textInactive = ""
-	element.text = string.format("(%d/9)",itemCount)
+	element.text = string.format("\n\nBlue Pearl: %d/9",itemCount)
 
 	if  itemCount >= 9 then
 		element.text = ""

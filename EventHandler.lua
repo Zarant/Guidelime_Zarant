@@ -27,6 +27,7 @@ function z.BuySpells(id,level)
 	end
 	if not GuidelimeData.trainerData then
 		GuidelimeData.trainerData = {}
+		GuidelimeData.trainerData[class] = {}
 		return
 	end
 	for trainingLevel,spellList in pairs(GuidelimeData.trainerData[class]) do
@@ -91,17 +92,23 @@ local function UpdateQuiverInfo()
 
 end
 
-function z.ProjectileCount(id)
+function z.ProjectileCount(level)
 	local total = 0
-	local pLevel = UnitLevel("player")
-	if not id and projectileType > 0 then
-		for i,lvl in pairs(projectileList[projectileType]) do
-			if lvl <= pLevel then
-				total = total + GetItemCount(i)
+	if projectileType > 0 then
+		if level then
+			for i,lvl in pairs(projectileList[projectileType]) do
+				if lvl == level then
+					total = total + GetItemCount(i)
+				end
+			end
+		else
+			local pLevel = UnitLevel("player")
+			for i,lvl in pairs(projectileList[projectileType]) do
+				if lvl <= pLevel then
+					total = total + GetItemCount(i)
+				end
 			end
 		end
-	elseif id then
-		total = GetItemCount(id)
 	end
 	return total
 end
@@ -153,7 +160,7 @@ function z.BuyAmmo(stacks,fillQuiver,projectileLevel)
 		fillQuiver = true
 	end
 	
-	local current = z.ProjectileCount()
+	local current = z.ProjectileCount(projectileLevel)
 	local goal
 	if fillQuiver then
 		goal = capacity+stacks*200
@@ -242,6 +249,7 @@ end
 
 
 
+
 function z.BuyItem(id,total)
 	for i=1,GetMerchantNumItems() do
 		local link = GetMerchantItemLink(i)
@@ -271,6 +279,7 @@ end
 
 local function GetFoodLevel(id,index)
 	local level = UnitLevel("player")
+	local foodLevel
 	if level >= 5 and level <= 16 then
 		foodLevel = 5
 	elseif level >= 15 and level < 25 then
@@ -284,7 +293,7 @@ local function GetFoodLevel(id,index)
 	end
 	
 	if not id and not index then
-		return foodLevel
+		return foodLevel,foodLevel-10
 	end
 	
 	for _,spellId in ipairs(foodList[index][foodLevel]) do
@@ -338,7 +347,10 @@ function z.BuyFoodAndDrink(food,drink)
 			if index > 0 and total[index] > 0 and GetFoodLevel(spellId,index) then
 				if quantity and quantity > 1 then
 					for n=1,math.ceil(total[index]/quantity) do
-						BuyMerchantItem(i, quantity)
+						if total[index] > 0 then
+							BuyMerchantItem(i, quantity)
+							total[index] = total[index] - quantity
+						end
 					end
 				elseif quantity == 1 then
 					local stack = select(8,GetItemInfo(id))
@@ -384,19 +396,28 @@ local function Merchant()
 	if level < 16 then
 		if id == 3589 then
 			stacks = 2
+		elseif IsQuestFlaggedCompleted(983) then
+			local bags = true
+			for bag = BACKPACK_CONTAINER+1, NUM_BAG_FRAMES do
+				local slots = GetContainerNumSlots(bag)
+				if slots == 0 then
+					bags = false
+				end
+			end
+			stacks = bags and 8
 		else
 			stacks = 3
 		end
-		z.BuyAmmo(stacks)
 		if level >= 11 and id ~= 4169 then --jaenea
 			z.BuyMudSlappers(10)
 			z.BuyFoodAndDrink(0,10)
 		end
+		return stacks and z.BuyAmmo(stacks)
 	elseif level >= 16 and level < 19 then
 		if id ~= 4173 then --Landria
-			z.BuyAmmo(-1)
+			z.BuyAmmo(0,true)
 		end
-		z.BuyFoodAndDrink(20,20)
+		z.BuyFoodAndDrink(15,15)
 	elseif level >= 19 and level <= 24 then
 		if IsQuestFlaggedCompleted(1016) then
 			z.BuyAmmo(6)
@@ -411,9 +432,9 @@ local function Merchant()
 		z.BuyFoodAndDrink(20,20)
 		z.BuyAmmo(3,true)
 	elseif level == 39 then
-		stacks = z.BuyAmmo(math.ceil(14*(1-percent)))
+		z.BuyAmmo(math.ceil(17*(1-percent)))
 		if IsQuestFlaggedCompleted(500) then
-			z.BuyAmmo(math.ceil((15-stacks)*percent,40))
+			z.BuyAmmo(math.ceil(17*percent),false,40)
 		end
 		z.BuyFoodAndDrink(20,20)
 	elseif level >= 49 and level < 60 then

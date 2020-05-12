@@ -13,8 +13,8 @@ Finish off [QC1002][O]
 [G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
 Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears, don't go out of your way to finish it
 [G39.99,78.46,55Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
-[G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears], keep grinding fulborgs while waiting for respawns
-Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]
+[G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears], keep grinding fulborgs while waiting for respawns--OnStepActivation>>Buzzbox1002
+Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]--OnStepActivation>>Buzzbox1002
 [G27,55.59Felwood]Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]
 [G27,55.59Felwood][QT952 Grove of the Ancients][A NightElf][OC]
 [G22.36,3.98Ashenvale][QC944 Enter The Master's Glaive] and clear mobs around the altar in the center
@@ -40,7 +40,7 @@ Turn in [G21.63,18.15Felwood][QT2138 Cleansing of the Infected] \\Accept [QA2139
 [G52.46,36.90Darkshore]Cimb the ramp and kill the [QC2139 Den Mother]
 Loot the Nut/Fruit Stores and use the bowl to summon [QC4763 Xabraxxis]
 [G50.74,74.68Darkshore]Grind to [XP18.5 18 + 50%] \\Make sure your HS cooldown is <10 min\\Skip this step if the area is too crowded
-Turn in [G1.42,26.89Winterspring][QT1002 Buzzbox 323] \\Accept [G1.42,26.89Winterspring][QA1003 Buzzbox 525]
+Turn in [G1.42,26.89Winterspring][QT1002 Buzzbox 323] \\Accept [G1.42,26.89Winterspring][QA1003 Buzzbox 525]--OnStepCompletion>>Buzzbox1002,1
 Do [G7.52,23.26,158Winterspring][QC951 Mathystra Relics]
 Accept [G6.37,16.66Winterspring][QA2098 Gyromast's Retrieval]
 [QC2098,3 -]Kill crabs along the coast [O]
@@ -158,7 +158,7 @@ Set your Hearthstone to [S Astranaar]
 Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
 Accept [G49.79,67.21,20Ashenvale][QA1016 Elemental Bracers]
 [G50.14,67.94Ashenvale][T] Train skills [A Hunter][OC]--TRAINER_CLOSED,TRAINER_SHOW>>Trainer
-[QC1016 -]Loot 5 *Intact Elemental Bracers* \\Right click the *Divining Scroll*
+[QC1016 -]Loot 5 *Intact Elemental Bracers* \\Right click the *Divining Scroll*--OnStepActivation,BAG_UPDATE>>Bracers_Ashenvale
 Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
 Grind mobs until your HS is off cooldown \\[H]Hearth to Astranaar
 Turn in [QT1025 An Aggressive Defense]
@@ -179,3 +179,36 @@ Fly to [F Darkshore]
 [G33.70,42.45Darkshore]Take the boat to Menethil Harbor--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
+
+if not Guidelime_Zarant then return end
+local z = Guidelime_Zarant
+
+function z:Buzzbox1002(args)
+	self.timer = self.timer or 0
+	if args and args[1] then
+		self.timer = GetTime()
+	elseif GetTime() - self.timer < 1 then
+		z:SkipStep()
+	end
+end
+
+function z:Bracers_Ashenvale() --OnStepActivation,BAG_UPDATE>>Bracers_Ashenvale
+	local step = self.guide.steps[self.stepLine]
+	if not self.element then
+		table.insert(step.elements,{})
+		self.element = #step.elements
+	end
+
+	local element = step.elements[self.element]
+	local itemCount = GetItemCount(12220)
+	element.textInactive = ""
+	
+	if itemCount >= 5 then
+		element.text = "\n\nUse the Divining Scroll"
+	else
+		element.text = string.format("\n\nIntact Elemental Bracer: %d/5",itemCount)
+	end
+
+	self:UpdateStep()
+
+end
