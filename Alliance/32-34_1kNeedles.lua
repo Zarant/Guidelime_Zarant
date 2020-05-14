@@ -12,7 +12,7 @@ Accept [QA1135 Highperch Venom]
 Set your HS to [S Theramore]
 Speak with Clerk Lendry\\Turn in [QT1302 James Hyal]
 Turn in [QT1264 The Missing Diplomat] \\Accept [QA1265 The Missing Diplomat] \\Turn in [QT1282]
-Make sure you have 3x[V]*Soothing Spices*[O]
+[L66.4,51.5 Dustwallow Marsh]Make sure you have 3x[V]*Soothing Spices*[O]--OnStepActivation,BAG_UPDATE,MERCHANT_SHOW>>SoothingSpices
 [G59.72,41.17Dustwallow Marsh][QC1265 -] Head to Sentry Point
 Turn in [QT1265 The Missing Diplomat] \\Accept [QA1266 The Missing Diplomat]
 Accept [QA1218 Soothing Spices] \\Turn in [QT1218 Soothing Spices]

@@ -22,7 +22,7 @@ Accept [G48.13,59.1,20Hillsbrad Foothills][QA505 Syndicate Assassins]
 Turn in [G51.46,58.38,20Hillsbrad Foothills][QT561 Farren's Proof] \\Accept [QA562 Stormwind Ho!]
 [G57.31,67.82,139Hillsbrad Foothills][QC562 -] Kill Nagas
 Turn in [G51.46,58.38,20Hillsbrad Foothills][QT562 Stormwind Ho!] \\Accept [QA563 Reassignment]
-[G48.96,55.06Hillsbrad Foothills]Buy 4x[V]*Soothing Spices*
+[G48.96,55.06Hillsbrad Foothills]Buy 4x[V]*Soothing Spices*--OnStepActivation,BAG_UPDATE,MERCHANT_SHOW>>SoothingSpices
 [G40.15,92.44,140Alterac Mountains][QC689 -] Loot granite chunks inside the Yeti cave
 [G30.92,84.58,100Alterac Mountains]Do [QC564 Costly Menace]
 Click on the scroll on top of the table \\Accept [G58.31,67.92,20Alterac Mountains][QA510 Foreboding Plans] \\Accept [QA511 Encrypted Letter]
@@ -50,3 +50,38 @@ Use eagle eye to find a level 32/33 spider \\Tame it and learn Bite rank 5 [O][A
 Turn in [QT658]
 Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
+
+if not Guidelime_Zarant then return end
+local z = Guidelime_Zarant
+
+function z:SoothingSpices(args,event)
+	local total = 4
+	local id = 3713
+	if IsQuestFlaggedCompleted(555) then
+		total = total - 1
+	end
+	if IsQuestFlaggedCompleted(1218) then
+		total = total - 3
+	end
+	
+	local step = self.guide.steps[self.stepLine]
+	if not self.element then
+		table.insert(step.elements,{})
+		self.element = #step.elements
+	end
+
+	local element = step.elements[self.element]
+	local itemCount = GetItemCount(id)
+	element.textInactive = ""
+	
+	if itemCount < total then
+		element.text = string.format("\n\nSoothing Spices: %d/%d",itemCount,total)
+	else
+		return self:SkipStep()
+	end
+	if event == "MERCHANT_SHOW" and GuidelimeData.Merchant and total > 0 then
+		z.BuyItem(id,total)
+	end
+	self:UpdateStep()
+
+end

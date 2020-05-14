@@ -131,7 +131,9 @@ Turn in  [QT4732 Beached Sea Turtle]\\
 Turn in  [QT4733 Beached Sea Creature]
 Fly to [F Ashenvale]
 
-Stable your pet\\Tame a Ghostpaw Runner and learn *Bite 3*\\Tame an Ashenvale Bear and learn *Claw 3*\\ \\Run back to Astranaar and withdraw your main pet from stables[O][A Hunter]
+Stable your pet\\Tame an Ashenvale Bear and learn *Claw 3*[O][A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,3809
+[OC][A Hunter]Tame a Ghostpaw Runner and learn *Bite 3*--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,3823
+[O][A Hunter]Run back to Astranaar and withdraw your main pet from stables--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,1442
 Turn in [QT1008 The Zoram Strand] \\Accept [QA1134 Pridewings of Stonetalon]
 Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing] 
 Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]

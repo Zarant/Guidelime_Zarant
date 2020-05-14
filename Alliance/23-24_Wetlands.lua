@@ -21,7 +21,7 @@ Accept [QA276 Tramping Paws]
 Do [G61.91,71.32,168Wetlands][QC276 Tramping Paws]
 [XP24 Grind to level 24]
 [G56.37,40.4Wetlands]Turn in [QT276 Tramping Paws] \\Accept [QA277 Fire Taboo]
-[G54.5,72.3,80Wetlands] Head to Loch Modan \\*OR*\\Use the website unstuck feature and skip the rest of this segment if you already have the Loch Modan FP--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,1453,1
+[G54.5,72.3,80Wetlands] Head to Loch Modan \\*OR*\\Use the website unstuck feature and skip the rest of this segment if you already have the Loch Modan FP--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Stormwind City,1
 
 
 Accept [G46.04,13.61Loch Modan][QA250 A Dark Threat Looms]

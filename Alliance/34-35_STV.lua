@@ -19,9 +19,9 @@ Turn in [QT231 A Daughter's Love]
 
 
 
-Run to STV \\Turn in [G91.98,82.02,20Westfall][QT198 Supplies to Private Thorsen]
+Turn in [QT198 Supplies to Private Thorsen][O]
 Turn in [QA215-][O][QT215 Jungle Secrets][O] if you have it, otherwise keep an eye for Private Thorsen's RP sequence\\He patrols down the road every 30 minutes
-Accept [G92.05,81.87,20Westfall][QA203 The Second Rebellion] \\Accept [G92.05,81.87,20Westfall][QA204 Bad Medicine]
+Run to STV \\Accept [G92.05,81.87,20Westfall][QA203 The Second Rebellion] \\Accept [G92.05,81.87,20Westfall][QA204 Bad Medicine]
 [L48.53,8.68Stranglethorn Vale][L24.50,17.37Stranglethorn Vale][QC605 -]Kill basilisks [O]
 [QC575 -]Kill river crocolisks [O]
 

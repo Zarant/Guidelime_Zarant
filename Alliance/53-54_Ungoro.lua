@@ -68,7 +68,7 @@ Run upstairs\\Accept [QA5250]
 [L63.8,22.8Darnassus]Do the Darnassus cloth turn ins:\\[QA7792-][O][QT7792-][O]Wool \\[QA7798-][O][QT7798-][O]Silk \\[QA7799-][O][QT7799-][O]Mageweave \\[QA7800-][O][QT7800-][O]Runecloth
 Accept [QA1015][O] from the courier that roams darnassus
 [G39.19,85.12Darnassus][QC4441-]Use Eridan's Vial at the fountain inside the temple
-[V][O]Buy food/water
+[V][O]Buy food/water--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 Accept [G67.38,15.68Darnassus][QA3763]
 --Accept [G42.44,7.36Darnarssus][QA8151][O][A Hunter] \\(Sunken Temple class quest)
 Turn in [QT3763] \\Accept [QA3764] 

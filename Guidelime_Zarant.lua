@@ -114,7 +114,6 @@ function addon.loadCurrentGuide(...)
 			stepNumber = stepNumber+1
 			if step.eval and step.event then
 				frameCounter = frameCounter + 1
-				step.eval = step.eval:gsub("%s*","")
 				step.event = step.event:gsub("%s*","")
 				if step.event == "" then step.event = "OnStepActivation" end
 				local eventList = {}
@@ -125,7 +124,7 @@ function addon.loadCurrentGuide(...)
 				local eval = nil
 				for arg in step.eval:gmatch('[^,]+') do
 					if not eval then
-						eval = arg
+						eval = arg:gsub("%s*","")
 					else
 						table.insert(args,arg)
 						--print(arg)
@@ -170,12 +169,28 @@ function addon.updateSteps(...)
 	return r
 end
 
+local updateArrow = addon.updateArrow
+function addon.updateArrow()
+	if C_QuestLog.IsOnQuest(3912) then --Meet at the grave
+		local MapID=MapUtil.GetDisplayableMapForPlayer();
+		if MapID == 1446 then
+			local player_pos = C_Map.GetPlayerMapPosition(MapID,"player");
+			if player_pos then
+				local x,y = player_pos:GetXY();
+				if (x-0.538)^2 + (y-0.29)^2 < 0.0037 then --checks if the player is near the tanaris GY
+					addon.alive = true
+				end
+			end
+		end
+	end
+	updateArrow()
+end
 
 function Guidelime_Zarant:SkipStep(value)
 	if not self.step.active then
 		return
 	end
-	if value == nil then value = true end
+	if value ~= false then value = true end
 	self.step.skip = value
 	GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.stepNumber] = self.step.skip
 	addon.updateSteps({self.stepNumber})
@@ -220,7 +235,12 @@ function Guidelime_Zarant:ZoneSkip(args,event)
 		mapID,guide = unpack(args)
 	end
 	local currentMap = C_Map.GetBestMapForUnit("player")
-	mapID = tonumber(mapID)
+	if self.map[mapID] then
+		mapID = self.map[mapID]
+	else
+		mapID = tonumber(mapID)
+	end
+	--print(mapID,currentMap)
 	if mapID == currentMap then
 		self:SkipStep()
 		if guide then

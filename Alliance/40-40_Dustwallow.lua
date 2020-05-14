@@ -27,7 +27,7 @@ Stable your pet [A Hunter]
 Turn in [G70.84,79.14,30The Barrens][QT1287 The Deserters]
 
 Fly to [F Tanaris]
-Tame a level 40/41 scorpid near Gadgetzan and learn *Claw 6*[O][A Hunter]
+Tame a level 40/41 scorpid near Gadgetzan and learn *Claw 6*[O][A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,5422
 Run to Shimmering Flats\\Turn in [QT1117 Rumors for Kravel]
 Wait for the RP sequence to finish \\Accept [QA1118 Back to Booty Bay]
 Turn in [QT1187 Razzeric's Tweaking] \\Accept [QA1188 Safety First]

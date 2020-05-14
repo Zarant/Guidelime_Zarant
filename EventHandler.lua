@@ -63,8 +63,6 @@ end
 hooksecurefunc("GetQuestReward", GetQuestRewardData)
 
 
-
-local foodList = z.foodList
 local projectileList = z.projectileList
 
 local projectileType = 0
@@ -278,6 +276,7 @@ end
 
 
 local function GetFoodLevel(id,index)
+	local foodList = z.foodList
 	local level = UnitLevel("player")
 	local foodLevel
 	if level >= 5 and level <= 16 then
@@ -286,13 +285,13 @@ local function GetFoodLevel(id,index)
 		foodLevel = 15
 	elseif level >= 25 and level < 35 then
 		foodLevel = 25
-	elseif level >= 35 and level < 35 then
+	elseif level >= 35 and level < 45 then
 		foodLevel = 35
-	elseif level >= 45 and level < 45 then
+	elseif level >= 45 then
 		foodLevel = 45
 	end
 	
-	if not id and not index then
+	if not id or not index then
 		return foodLevel,foodLevel-10
 	end
 	

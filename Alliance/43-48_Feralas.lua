@@ -19,7 +19,7 @@ Stable your pet [A Hunter][O]
 Accept [QA3022 Handle With Care]
 Turn in [QT2864 Tran'rek]
 Turn in [QT1188 Safety First] \\Accept [QA1189]
-Tame a *Scorpid Hunter* just outside gadgetzan \\[T]Learn *Claw rank 6* \\Ditch that pet and tame a *Starving Blisterpaw* \\[T]Keep using *Dash 2* as you travel to the next step[OC][A Hunter]
+Tame a *Starving Blisterpaw* \\[T]Keep using *Dash 2* as you travel to the next step[OC][A Hunter]
 
 Run to Shimmering Flats\\Turn in [QT1137 News for Fizzle]
 Turn in [QT1119]
@@ -54,8 +54,9 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 There is A LOT of grinding required in this segment, you can substitute some of that for ZF/Maraudon or even Uldaman runs [O]
-[O][A Hunter]Stable your pet, tame a wolf south of Feathermoon Stronghold and learn Bite 6
-[V]Restock on supplies, long grinding session ahead [O]
+[L31.6,43.2Feralas][O][A Hunter]Stable your pet[OC]
+[O][A Hunter]Tame a wolf south of Feathermoon Stronghold and learn Bite 6--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,5286
+[V]Restock on supplies, long grinding session ahead [O]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 Accept [QA2821 The Mark of Quality]
 [S]Set your Hearthstone to Feralas
 Accept [QA4124 The Missing Courier] \\Accept [QA2866 The Ruins of Solarsal]
@@ -76,7 +77,7 @@ Turn in [QT4129 The Knife Revealed] \\Accept [QA4130 Psychometric Reading]
 Turn in [QT4130 Psychometric Reading] \\Accept [QA4131 The Woodpaw Gnolls]
 Turn in [QT2870 Against Lord Shalzaru] \\Accept [QA2871 Delivering the Relic]
 Turn in [QT2871 Delivering the Relic]
-[V]Buy 4 stacks of water/3 stacks of food and 10 extra stacks of ammo [OC]
+[V]Buy 4 stacks of water/3 stacks of food and 10 extra stacks of ammo [OC]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [G26.19,67.51Feralas]Head back to the naga cave and grind to [XP46 level 46]
 Keep grinding mobs until HS cooldown is <10min\\Death warp back to Feathermoon once you have 100 gold to buy skills and a mount\\Fly to [F Teldrassil]
 Accept [QA3661 Favored of Elune?]
@@ -98,7 +99,7 @@ Do [G7.47,99.05,145The Barrens][QC2821 The Mark of Quality]
 Do the chicken escort\\Turn in [G8.77,97.09,20The Barrens][QA2766-][QT2766 Find OOX-22/FE!] \\Accept [QA2767 Rescue OOX-22/FE!]
 [QC2767-]Escort the robot chicken
 Start working on [QC2982 The High Wilderness][OC]
-[G56.64,75.89Feralas]Loot an [V]Hyppogryph Egg
+[G56.64,75.89Feralas]Loot an [V]Hippogryph Egg--OnStepActivation,BAG_UPDATE>>HippogryphEgg
 Finish off [QC2982 The High Wilderness]
 Finish off [QC3520]
 Do [QA2969 Freedom for All Creatures] \\Clear some mobs around the wooden cage before accepting the escort
@@ -117,7 +118,7 @@ Turn in [QT4266 A Hero's Welcome] \\Accept [QA4267 Rise of the Silithid]
 Death warp to Feathermoon [OC]
 Turn in [QT2982 The High Wilderness] \\Accept [QA3445 The Sunken Temple]
 Turn in [QT2821 The Mark of Quality]
-[V]Restock/resupply\\Make sure to buy some extra stacks of ammo for the next segment
+[V]Restock/resupply\\Make sure to buy some extra stacks of ammo for the next segment--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 Fly to [F Thalanaar]
 Turn in [QA4281-][QT4281]
 
@@ -129,6 +130,11 @@ if not Guidelime_Zarant then return end
 
 local z = Guidelime_Zarant
 
+function z:HippogryphEgg()
+	if GetItemCount(8564) > 0 or IsQuestFlaggedCompleted(2741) then
+		self:SkipStep()
+	end
+end
 
 function z:BankD_Feralas43()  --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas43
 --	local items = {"Fool's Stout Report"}

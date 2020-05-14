@@ -5,7 +5,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Go to Ironforge\\Accept [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace]
-Take the boat to Darkshore [OC]
+Take the boat to Darkshore--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,1439
 
 
 
@@ -26,7 +26,8 @@ Turn in [QT1437 Vahlarriel's Search] \\Accept [QA1465 Vahlarriel's Search]
 Accept [QA5741 Sceptre of Light]
 Click on the small chest on the ground \\Turn in [QT1454 The Karnitol Shipwreck] \\Accept [QA1455 The Karnitol Shipwreck]
 Click on the small book on the ground next to the chest \\Accept [QA6161 Claim Rackmore's Treasure!]
-[H] Hearth back to Nijel's Point [OC]
+[G33.1,29.8,130Desolace][QC6161,1 -]Murder some crab people
+Grind until your HS is off cooldown\\[H]Hearth back to Nijel's Point [OC]
 Turn in [QT1455 The Karnitol Shipwreck] \\Accept [QA1456 The Karnitol Shipwreck]
 Turn in [QT1465 Vahlarriel's Search] \\Accept [QA1438 Vahlarriel's Search]
 [QC5741 -]Climb the tower, kill a Burning Blade Seer 
@@ -37,7 +38,6 @@ Accept the escort quest [QA1440 Return to Vahlarriel]
 [QC1440 -] Escort Dalinda Malem
 Accept [QA5501 Bone Collector]
 Turn in [QT5741 Sceptre of Light] \\Accept [QA6027 Book of the Ancients]
-[G33.1,29.8,130Desolace][QC6161,1 -] Murder some crab people
 [QC6161,2 -] Kill nagas [O]
 [QC1456 -] Kill Sea Witches/Tidehunters [O]
 [G28.26,6.57Desolace][QC6027 -] Click on the naga statue
@@ -70,7 +70,7 @@ Turn in [QT1466 Reagents for Reclaimers Inc.] \\Accept [QA1467 Reagents for Recl
 *Stable your pet* [OC][A Hunter]
 Unstuck and spirit rez at the kodo graveyard [OC]
 Turn in [QT6134]
-Look for a *Scorpashi Lasher* \\Learn claw rank 5 [O][A Hunter]
+[O][A Hunter]Tame a *Scorpashi Lasher* \\Learn claw rank 5--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,4697
 Head to [G41.42,65.51,80Desolace][G41.13,91.72,20Desolace]Feralas
 [G54.81,47.99,20Feralas]Once you get to feralas, unstuck and rez at the Dire Maul GY
 [G43.33,42.77Feralas]Run to the edge of the dock and unstuck \\Spirit rez at [G31.83,48.12,20Feralas]Feathermoon

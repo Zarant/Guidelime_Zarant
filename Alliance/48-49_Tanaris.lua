@@ -87,7 +87,7 @@ Accept [QA351]\\Skip this step and grind an extra 5% xp if you don't find it
 Turn in [QT351] \\Start the escort quest [QA648]
 [QC648-]Escort the robot chicken
 Turn in [QT2875] \\Turn in [QT8366] \\Turn in [QT2873] \\Accept [QA2874]
-[V]Buy arrows [O]
+[V]Buy arrows [O]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 Turn in [QT8365]
 Turn in [QT3520]
 [H]Hearth back to Gadgetzan
