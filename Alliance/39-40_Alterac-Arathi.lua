@@ -65,7 +65,9 @@ Turn in [QT661 Hints of a New Plague?]
 [QC651,1 -]Loot the Burning Key
 Head to Stromgarde Keep\\Do [QC684 Wanted!  Marez Cowl] \\Use eagle eye to find her first, she has 2 different spawn locations\\Getting there can be tricky, you can skip this quest if necessary
 Turn in [QT651 Stones of Binding] \\Accept [QA652 Breaking the Keystone]
-[QC652 -]Use your eagle eye macro to find Fozruk\\Make sure to kill Sleeby and the rest of the kobolds first, you can kill one add at a time and reset the fight\\Kill Fozruk by kiting him around Refuge Point
+[QC652 -][O]Use your eagle eye macro to find Fozruk\\Make sure to kill Sleeby and the rest of the kobolds first, you can kill one add at a time and reset the fight\\Kill Fozruk by kiting him around Refuge Point
+Turn in [QT693 Wand over Fist]
+Turn in [QT684 Wanted!  Marez Cowl]
 Turn in [QT652 Breaking the Keystone] \\Accept [QA653 Myzrael's Allies]
 [G21.5,72.6,20Arathi Highlands]Head to Faldir's Cove, follow the path between the mountains and Stromgarde's southeastern wall
 Accept [QA663 Land Ho!]
@@ -86,9 +88,7 @@ Finish off [QC666 Sunken Treasure]
 Turn in [QT662 Deep Sea Salvage]
 Turn in [QT664 Drowned Sorrows] \\Turn in [QT666 Sunken Treasure] \\Accept [QA668 Sunken Treasure]
 Turn in [QT668 Sunken Treasure] \\Accept [QA669 Sunken Treasure]
-Throw away your HS and unstuck [OC]
-Turn in [QT684 Wanted!  Marez Cowl]
-Turn in [QT693 Wand over Fist]
-Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
+
+[G10.7,60.9,190Wetlands]Swim your way south and head to Menethil Harbor--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Wetlands,1
 
 ]], "Zarant")

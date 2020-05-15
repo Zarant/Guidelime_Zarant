@@ -12,12 +12,9 @@ Enter the inn from the bottom floor \\Accept [G27.11,77.21,20Stranglethorn Vale]
 Speak to Kebok\\Accept [G26.99,77.12,20Stranglethorn Vale][QA213 Hostile Takeover] \\ \\Speak to Krazek\\Accept [G26.94,77.2,20Stranglethorn Vale][QA198 Supplies to Private Thorsen] \\Accept [QA201 Investigate the Camp] \\Accept [QA616 The Haunted Isle]
 Talk to Baron Revilgaz\\Turn in [G27.22,76.87,20Stranglethorn Vale][QT616 The Haunted Isle] \\Accept [QA578 The Stone of the Tides] \\Turn in [QT1181 Goblin Sponsorship] \\Accept [QA1182 Goblin Sponsorship]
 Accept [G28.29,77.59,20Stranglethorn Vale][QA575 Supply and Demand]
-
+Throw away the *Library Scrip*[O]
 [G27.53,77.78Stranglethorn Vale]Fly to [F Westfall][OC]
 Turn in [QT231 A Daughter's Love]
-
-
-
 
 Turn in [QT198 Supplies to Private Thorsen][O]
 Turn in [QA215-][O][QT215 Jungle Secrets][O] if you have it, otherwise keep an eye for Private Thorsen's RP sequence\\He patrols down the road every 30 minutes
@@ -42,13 +39,13 @@ Do [G26.87,16.32,163Stranglethorn Vale][QC194 Raptor Mastery]
 [G25.55,17.89,50Stranglethorn Vale][QC605 -]Finish off basilisks
 [G20.7,22.7,60Stranglethorn Vale][QC578 -]Once all objectives are complete, head to the island west
 Kill yourself, spirit rez [OC]
-Turn in [G87.67,95.16,20Westfall][QT187 Tiger Mastery] \\Turn in [QT191 Panther Mastery] \\Turn in [QT194 Raptor Mastery] \\Accept [QA192 Panther Mastery]
+[G87.67,95.16,20Westfall]Turn in [QT187 Tiger Mastery] \\Accept [QA188 Tiger Mastery] \\Turn in [QT191 Panther Mastery] \\Accept [QA192 Panther Mastery] \\Turn in [QT194 Raptor Mastery] \\Accept [QA195 Raptor Mastery]
 [H] Hearth to Booty Bay
 Turn in [G27.11,77.21,20Stranglethorn Vale][QT605 Singing Blue Shards]
 Turn in [G26.94,77.2,20Stranglethorn Vale][QT201 Investigate the Camp] \\Turn in [QT210 Krazek's Cookery]
 Turn in [G26.99,77.12,20Stranglethorn Vale][QT213 Hostile Takeover] \\Accept [QA189 Bloodscalp Ears]
 Turn in [G27.22,76.87,20Stranglethorn Vale][QT1182 Goblin Sponsorship] \\Accept [QA1183 Goblin Sponsorship] \\Turn in [QT578 The Stone of the Tides] \\Accept [QA601 Water Elementals]
-Delete the *Library Scrip*[O]
+
 Turn in [G28.29,77.59,20Stranglethorn Vale][QT575 Supply and Demand] \\Accept [QA577]
 
 Fly to [F Stormwind]

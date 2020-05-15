@@ -126,7 +126,8 @@ function addon.loadCurrentGuide(...)
 					if not eval then
 						eval = arg:gsub("%s*","")
 					else
-						table.insert(args,arg)
+						local c = string.match(arg,"^%s*(.*%S+)%s*$")
+						if c then table.insert(args,c) end
 						--print(arg)
 					end
 				end
@@ -172,13 +173,15 @@ end
 local updateArrow = addon.updateArrow
 function addon.updateArrow()
 	if C_QuestLog.IsOnQuest(3912) then --Meet at the grave
-		local MapID=MapUtil.GetDisplayableMapForPlayer();
-		if MapID == 1446 then
-			local player_pos = C_Map.GetPlayerMapPosition(MapID,"player");
+		local mapID = MapUtil.GetDisplayableMapForPlayer();
+		if mapID == 1446 then
+			local player_pos = C_Map.GetPlayerMapPosition(mapID,"player");
 			if player_pos then
 				local x,y = player_pos:GetXY();
 				if (x-0.538)^2 + (y-0.29)^2 < 0.0037 then --checks if the player is near the tanaris GY
 					addon.alive = true
+				else
+					addon.alive = HBD:GetPlayerZone() == nil or C_DeathInfo.GetCorpseMapPosition(HBD:GetPlayerZone()) == nil
 				end
 			end
 		end

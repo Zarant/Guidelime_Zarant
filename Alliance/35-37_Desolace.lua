@@ -17,7 +17,7 @@ Accept [QA1437 Vahlarriel's Search]
 Turn in [QT6141 Brother Anton][OC]
 Accept [QA261 Down the Scarlet Path]
 Turn in [QT1453 Reclaimers' Business in Desolace] \\Accept [QA1454 The Karnitol Shipwreck] \\Accept [QA1458 Reagents for Reclaimers Inc.] 
-Accept [QA1387 Centaur Bounty] \\Accept [QA1385 Brutal Politics]
+Accept [QA1387 Centaur Bounty]
 --Accept [QA1385]
 [QC1458 -]Kill Satyrs
 Turn in [QT1458 Reagents for Reclaimers Inc.] \\Accept [QA1459 Reagents for Reclaimers Inc.]
@@ -49,12 +49,12 @@ Do [QC5501 Bone Collector][O]
 Accept [QA5561 Kodo Roundup]
 Do [QT5561 Kodo Roundup][O] \\Grind mobs on your way back and forth\\Be on the lookout for the kodos that patrol next to the quest giver
 [QC1459,2-]Make sure you have 3 Aged Kodo Hides before leaving the graveyard
-[G34.88,85.38,160Desolace][QC1387 -] Kill centaurs
-[QC1385-]Kill centaurs until you get *friendly* rep. with Magram centaur 
+[G34.88,85.38,160Desolace][QC1387 -][O] Kill centaurs
+[G34.88,85.38,160Desolace]Keep killing centaurs until you get *friendly* rep. with Magram centaur--CHAT_MSG_SYSTEM>>CentaurRep
 [G28.70,82.10,70Desolace][QC1459,1-]Head west and finish grinding level 38/39 scorpids 
 Keep grinding mobs until your HS is off cooldown\\ Hearth back to [H Nijel's Point]
 Turn in [QT1456 The Karnitol Shipwreck] \\Accept [QA1457 The Karnitol Shipwreck] \\Turn in [QT1459 Reagents for Reclaimers Inc.] \\Accept [QA1466 Reagents for Reclaimers Inc.]
-Turn in [QT1387 Centaur Bounty]
+Turn in [QT1387 Centaur Bounty] \\Accept [QA1385 Brutal Politics]
 Turn in [QT1440 Return to Vahlarriel]
 Turn in [QT5501 Bone Collector]
 Turn in [QT1385 Brutal Politics] \\Accept [QA1386 Assault on the Kolkar]
@@ -90,6 +90,13 @@ You have 2 options going into the next segment:\\[G50.52,18.94,40Tanaris][G51.0,
 
 if not Guidelime_Zarant then return end
 local z = Guidelime_Zarant
+
+function z:CentaurRep(args,event,msg)
+	local faction = string.match(msg,".*Friendly.*(%a+) Clan Centaur.")
+	if faction then
+		self:SkipStep()
+	end
+end
 
 function z:Desolace_End()
 	return self:ZoneSkip({"1434","1"}) or self:ZoneSkip({"1453","1"})

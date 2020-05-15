@@ -14,26 +14,23 @@ Fly to [F Duskwood]
 
 [G38.0,3.0Stranglethorn Vale]Accept [QA200 Bookie Herod][O]
 Run to STV\\Accept [QA574 Special Forces] \\Accept [QA207 Kurzen's Mystery]
-Accept [QA192 Panther Mastery] --should have it from the previous segment
+Accept [QA192 Panther Mastery] \\Accept [QA195 Raptor Mastery] \\Accept [QA188 Tiger Mastery]--should have it from the previous segment
 Click on the pile of books upstairs \\Turn in [QT200 Bookie Herod] \\Accept [QA328 The Hidden Key]
 Turn in [QT328 The Hidden Key] \\Accept [QA329 The Spy Revealed!]
 Finish off [QC574 Special Forces]
 Do [G48.64,22.95,120Stranglethorn Vale][QC192 Panther Mastery]
 [QC577 -]Look for crocs along the river bank[O]
-Turn in [QT192 Panther Mastery] \\Accept [QA193 Panther Mastery]
-Accept [QA188 Tiger Mastery] \\Accept [QA195 Raptor Mastery]
-Do [QC188 Tiger Mastery][OC]
-Do [QC195 Raptor Mastery]
-Finish off [QC188 Tiger Mastery]
-Do [QC189 Bloodscalp Ears][O] as you go around
-Turn in [QT188 Tiger Mastery] \\Turn in [QT195 Raptor Mastery] \\Accept [QA196 Raptor Mastery]
-[QC207,1 -] Loot the first tablet
-[QC207,4 -] Loot the fourth tablet
-[QC207,3 -] Loot the third tablet
+[G38.1,20.5,90Stranglethorn Vale]Do [QC195 Raptor Mastery]
+Finish off [QC577]
+Do [QC188 Tiger Mastery]
+Collect [QC189 Bloodscalp Ears][O] as you go around
+[QC207,1 -]Loot the first tablet
+[QC207,4 -]Loot the fourth tablet
+[QC207,3 -]Loot the third tablet
 Finish off [QC189 Bloodscalp Ears]
-[XP38-24000 Grind until you are 24k xp off level 38]
+[XP38-30000 Grind until you are 30k xp off level 38]
 Do [QC601 Water Elementals]
-[QC207,2 -] Loot the second tablet underwater
+[QC207,2-]Loot the second tablet underwater
 [O]Collect 9 *Blue Pearls* from the clams around the coral reef--BAG_UPDATE>>Pearls_STV38
 Kill Murlocs for [QC1107-]Encrusted Tail Fins
 Kill yourself, spirit rez [OC]
@@ -42,6 +39,7 @@ Turn in [QT329 The Spy Revealed!] \\Accept [QA330 Patrol Schedules]
 Turn in [QT574 Special Forces] \\Accept [QA202 Colonel Kurzen]
 Turn in [QT330 Patrol Schedules] \\Accept [QA331 Report to Doren]
 Turn in [QT331 Report to Doren]
+Turn in [QT188 Tiger Mastery] \\Turn in [QT195 Raptor Mastery] \\Accept [QA196 Raptor Mastery] \\Turn in [QT192 Panther Mastery] \\Accept [QA193 Panther Mastery]
 [H] Hearth to Booty Bay
 Turn in [QT1115 The Rumormonger] \\Accept [QA1116 Dream Dust in the Swamp] \\Turn in [QT189 Bloodscalp Ears]
 Turn in [QT601 Water Elementals] \\Accept [QA602 Magical Analysis]

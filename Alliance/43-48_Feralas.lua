@@ -6,7 +6,7 @@ Guidelime.registerGuide([[
 [D Alliance Hunter Leveling Guide]
 
 
-[T]Train first aid at the Theramore keep[O]
+[L67.76,48.97Dustwallow Marsh][QA6624-][O][QT6624-][O]Do the First Aid quest if applicable\\(Requires 225 First Aid)
 Turn in [QT623 Akiris by the Bundle]
 Turn in [QT1258 ... and Bugs]
 [S]Set your HS to theramore
