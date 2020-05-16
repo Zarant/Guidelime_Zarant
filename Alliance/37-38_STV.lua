@@ -40,9 +40,11 @@ Turn in [QT574 Special Forces] \\Accept [QA202 Colonel Kurzen]
 Turn in [QT330 Patrol Schedules] \\Accept [QA331 Report to Doren]
 Turn in [QT331 Report to Doren]
 Turn in [QT188 Tiger Mastery] \\Turn in [QT195 Raptor Mastery] \\Accept [QA196 Raptor Mastery] \\Turn in [QT192 Panther Mastery] \\Accept [QA193 Panther Mastery]
-[H] Hearth to Booty Bay
+[H]Use your HS back to Booty Bay or Darkshire
+[O]Fly to [F Booty Bay]--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Stranglethorn Vale
 Turn in [QT1115 The Rumormonger] \\Accept [QA1116 Dream Dust in the Swamp] \\Turn in [QT189 Bloodscalp Ears]
 Turn in [QT601 Water Elementals] \\Accept [QA602 Magical Analysis]
+Set your HS to [S Booty Bay] if you haven't--OnStepActivation>>BindLocation,Booty Bay
 Turn in [QT577 Some Assembly Required]
 --Accept [QA628 Excelsior]
 [XP38 Make sure you are level 38 before starting the next segment]

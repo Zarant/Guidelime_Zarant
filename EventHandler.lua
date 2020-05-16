@@ -428,12 +428,12 @@ local function Merchant()
 		z.BuyAmmo(3,true)
 		z.BuyFoodAndDrink(20,20)
 	elseif level > 39 and level < 49 then
-		z.BuyFoodAndDrink(20,20)
-		z.BuyAmmo(3,true)
+		z.BuyFoodAndDrink(30,30)
+		z.BuyAmmo(4,true)
 	elseif level == 39 then
-		z.BuyAmmo(math.ceil(17*(1-percent)))
+		z.BuyAmmo(math.ceil(14*(1-percent)))
 		if IsQuestFlaggedCompleted(500) then
-			z.BuyAmmo(math.ceil(17*percent),false,40)
+			z.BuyAmmo(math.ceil(14*percent),false,40)
 		end
 		z.BuyFoodAndDrink(20,20)
 	elseif level >= 49 and level < 60 then
@@ -479,7 +479,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 	elseif event == "PLAYER_ENTERING_WORLD" then
 		z.OnLoad()
 		local tick = GuidelimeData.moveTicker
-		if tick then
+		if tick and class == "HUNTER" then
 			C_Timer.NewTicker(tick, function()
 				moveTicker = true
 			end)

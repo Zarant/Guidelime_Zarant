@@ -375,3 +375,10 @@ function Guidelime_Zarant:TameBeast(args,event,target,guid,spellId)
 	end
 end
 
+function Guidelime_Zarant:BindLocation(args)
+	local location = GetBindLocation()
+	if args[1] and location == args[1] then
+		self:SkipStep()
+		return true
+	end
+end

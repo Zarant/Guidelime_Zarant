@@ -23,7 +23,8 @@ function z.PutItemInBank(bagContents)
 					end
 				end
 			end
-		end	
+		end
+		ClearCursor()
 	end
 
 end
@@ -44,6 +45,7 @@ function z.PutItemInBags(bagContents)
 				end
 			end
 		end
+		ClearCursor()
 	end
 end
 
@@ -63,6 +65,7 @@ function z.PutItemInQuiver(bagContents)
 				end
 			end
 		end
+		ClearCursor()
 	end
 end
 

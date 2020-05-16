@@ -15,7 +15,7 @@ If you need pointers on how to do the more techincal stuff like soloing elite qu
 
 Due to some limitations with Guidelime, some steps have to be completed manually, if you wish to enable step auto completion, you need to edit the Guidelime.toc file after installing Guidelime and add the following line at the end:
 
-`..\Guidelime_Zarant\Guidelime_Zarant.lua`
+`..\Guidelime_Zarant\Loader.xml`
 
 ## Feedback
 If you have questions, suggestions or any form of constructive criticism you can either open a ticket [here](https://github.com/Zarant/Guidelime_Zarant/issues) or message me on discord (Zarant#1164).
