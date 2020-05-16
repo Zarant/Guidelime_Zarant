@@ -6,6 +6,7 @@ end
 
 Guidelime_Zarant = {}
 Guidelime_Zarant.__index = Guidelime_Zarant
+Guidelime_Zarant.Modules = {}
 
 local z = Guidelime_Zarant
 local parseLineOLD = addon.parseLine

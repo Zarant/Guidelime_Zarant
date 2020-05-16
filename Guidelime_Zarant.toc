@@ -5,7 +5,9 @@
 ## Dependencies: Guidelime
 ## Notes: Alliance Hunter Leveling Guide
 
-
+Data.lua
+InventoryManager.lua
+EventHandler.lua
 
 
 Alliance\1-11_DunMorogh.lua

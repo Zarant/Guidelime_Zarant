@@ -1,6 +1,6 @@
-if not Guidelime_Zarant then return end
+if not Guidelime_Zarant or Guidelime_Zarant.Modules.InventoryManager then return end
 local z = Guidelime_Zarant
-
+Guidelime_Zarant.Modules.InventoryManager = true
 
 function z.PutItemInBank(bagContents)
 	local _,isBankOpened = GetContainerNumFreeSlots(BANK_CONTAINER);
