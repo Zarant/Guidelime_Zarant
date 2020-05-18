@@ -35,14 +35,15 @@ Turn in [QT1194 Rizzle's Schematics]
 Throw away the Sample of Indurium Ore[OC]
 [G50.50,18.52,40Tanaris]Run back to Tanaris
 
-[V][O]Deposit the *Fool's Stout Report* in your bank --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas43
+
 Withdraw your pet from the stable [OC][A Hunter]
-[QC1452,1-]Kill vultures as you quest through tanaris[O] --ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,1444
+[QC1452,1-][O]Kill vultures as you quest through tanaris
 Do [QC1690 Wastewander Justice]
 Do [QC1707 Water Pouch Bounty]
 Accept [QA8365 Pirate Hats Ahoy!]
 Accept [QA3520 Screecher Spirits]
 Accept [QA8366 Southsea Shakedown] \\Turn in [QT2872 Stoley's Debt] \\Accept [QA2873 Stoley's Shipment]
+[V][O]Deposit the following items in your bank:\\Fool's Stout Report\\Roc Gizzard--BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas43
 Turn in [QT1690 Wastewander Justice] \\Turn in [QT1707 Water Pouch Bounty]
 Fly to [F Feathermoon]--OnStepCompletion>>LoadNextGuide
 
@@ -56,7 +57,7 @@ Guidelime.registerGuide([[
 There is A LOT of grinding required in this segment, you can substitute some of that for ZF/Maraudon or even Uldaman runs [O]
 [L31.6,43.2Feralas][O][A Hunter]Stable your pet[OC]
 [O][A Hunter]Tame a wolf south of Feathermoon Stronghold and learn Bite 6--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,5286
-[V]Restock on supplies, long grinding session ahead [O]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
+[V]Restock on supplies, very long grinding session ahead\\Buy 5 stacks of food/water\\Make sure you have 25 stacks of ammo[O]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 Accept [QA2821 The Mark of Quality]
 [S]Set your Hearthstone to Feralas
 Accept [QA4124 The Missing Courier] \\Accept [QA2866 The Ruins of Solarsal]
@@ -67,7 +68,7 @@ Turn in [QT2867] \\Accept [QA3130 Against the Hatecrest] \\Turn in [QT3130 Again
 Do [QC2869 Against the Hatecrest]
 Turn in [QT2869 Against the Hatecrest] \\Accept [QA2870 Against Lord Shalzaru]
 Enter the naga cave and do [QC2870 Against Lord Shalzaru]
-Grind mobs until your HS cooldown is < 5min [OC]
+[XP46 Grind to level 46]
 [G38.72,75.07,20Feralas]Exit the naga cave and head towards the ocean
 [G41.24,74.54,20Feralas]Swim across
 Click on the Wrecked Row Boat \\Turn in [QT4125 The Missing Courier] \\Accept [QA4127 Boat Wreckage]
@@ -77,20 +78,6 @@ Turn in [QT4129 The Knife Revealed] \\Accept [QA4130 Psychometric Reading]
 Turn in [QT4130 Psychometric Reading] \\Accept [QA4131 The Woodpaw Gnolls]
 Turn in [QT2870 Against Lord Shalzaru] \\Accept [QA2871 Delivering the Relic]
 Turn in [QT2871 Delivering the Relic]
-[V]Buy 4 stacks of water/3 stacks of food and 10 extra stacks of ammo [OC]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
-[G26.19,67.51Feralas]Head back to the naga cave and grind to [XP46 level 46]
-Keep grinding mobs until HS cooldown is <10min\\Death warp back to Feathermoon once you have 100 gold to buy skills and a mount\\Fly to [F Teldrassil]
-Accept [QA3661 Favored of Elune?]
-Turn in [QT3022 Handle With Care]
-Turn in [QT2939 In Search of Knowledge]
-Click on the green book on the ground\\Accept [QA2940 Feralas: A History]
-Turn in [QT2940 Feralas: A History] \\Accept [QA2941 The Borrower]
-[T]Train skills in Darnassus [A NightElf][OC]
-Fly to [F Darkshore][A Human,Dwarf,Gnome]
-Take the boat to Menethil [OC][A Human,Dwarf,Gnome]
-Fly to [F Ironforge][A Human,Dwarf,Gnome]
-Buy a mount[OC]
-[H]Hearth back to Feralas
 
 Swim to the mainland [OC]
 [QC3520-][O]Kill wind serpents, use the quest item on their corpse
@@ -114,8 +101,27 @@ Turn in [QT4135 The Writhing Deep] \\Accept [QA4265 Freed from the Hive]
 Grind mobs until your HS is off cooldown\\[H]Hearth to Feathermoon
 Go upstairs\\Turn in [QT4265 Freed from the Hive] \\Accept [QA4266 A Hero's Welcome]
 Turn in [QT4266 A Hero's Welcome] \\Accept [QA4267 Rise of the Silithid]
-[G26.19,67.51Feralas]Head back to the naga cave and grind to level [XP48.5 48 + 50%] (10 bars)
-Death warp to Feathermoon [OC]
+
+[V]Buy 5 stacks of food/water and 25 stacks of ammo[OC]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
+[G26.19,67.51Feralas]Head back to the naga cave and keep grinding mobs until HS cooldown is <10min\\Death warp back to Feathermoon once you have 100 gold to buy skills and a mount\\Fly to [F Teldrassil]
+Accept [QA3661 Favored of Elune?]
+Turn in [QT3022 Handle With Care]
+Turn in [QT2939 In Search of Knowledge]
+Click on the green book on the ground\\Accept [QA2940 Feralas: A History]
+Turn in [QT2940 Feralas: A History] \\Accept [QA2941 The Borrower]
+Head to the temple of the mooon\\Turn in [QT4267]
+Turn in [QT2972]
+[T]Train skills in Darnassus [A NightElf][OC]
+Fly to [F Darkshore][A Human,Dwarf,Gnome]
+Take the boat to Menethil [OC][A Human,Dwarf,Gnome]
+Fly to [F Ironforge][A Human,Dwarf,Gnome]
+Buy a mount[OC]
+[H]Hearth back to Feralas
+
+
+
+[G26.19,67.51Feralas]Head back to the naga cave and grind to level [XP48.55 48 + 55%] (11 bars)
+[H]Hearth back to feathermoon
 Turn in [QT2982 The High Wilderness] \\Accept [QA3445 The Sunken Temple]
 Turn in [QT2821 The Mark of Quality]
 [V]Restock/resupply\\Make sure to buy some extra stacks of ammo for the next segment--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
@@ -137,8 +143,8 @@ function z:HippogryphEgg()
 end
 
 function z:BankD_Feralas43()  --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas43
---	local items = {"Fool's Stout Report"}
-	local items = {5807}
+--	local items = {"Fool's Stout Report","Roc Gizzard"}
+	local items = {5807,6257}
 	if z.IsItemNotInBags(items) then
 		z.SkipStep(self)
 		return
@@ -148,14 +154,4 @@ function z:BankD_Feralas43()  --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas43
 
 end
 
-function z:BankD_Tanaris48()  --Jer'kai's Signet Ring\\Raschal's Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris48
-	--local items = {"Jer'kai's Signet Ring","Raschal's Report"}
-	local items = {9368,11466}
-	if z.IsItemNotInBags(items) then
-		z.SkipStep(self)
-		return
-	end
 
-	z.DepositItems(items)
-
-end

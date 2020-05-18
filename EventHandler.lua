@@ -257,6 +257,7 @@ function z.BuyItem(id,total)
 			local name, texture, price, quantity = GetMerchantItemInfo(i)
 			
 			if itemID == id or name == id then
+				print("Buying "..name.." x"..total)
 				if quantity and quantity > 1 then
 					for n=1,math.ceil(total/quantity) do
 						BuyMerchantItem(i, quantity)
@@ -345,6 +346,7 @@ function z.BuyFoodAndDrink(food,drink)
 			end
 			--print(spellName,spellId)
 			if index > 0 and total[index] > 0 and GetFoodLevel(spellId,index) then
+				print("Buying "..name.." x"..total[index])
 				if quantity and quantity > 1 then
 					for n=1,math.ceil(total[index]/quantity) do
 						if total[index] > 0 then
@@ -383,14 +385,14 @@ local function Merchant()
 		return
 	end
 	
-	if GetTime() - merchantTimer < 1 then
+	if GetTime() - merchantTimer < 0.5 then
 		return
 	else
 		merchantTimer = GetTime()
 	end
 	
 	local level = UnitLevel("player")
-	local percent = (level/UnitXPMax("player"))
+	local percent = (UnitXP("player")/UnitXPMax("player"))
 	local stacks
 	local id = z.NpcId()
 	if level < 16 then
@@ -432,9 +434,9 @@ local function Merchant()
 		z.BuyFoodAndDrink(30,30)
 		z.BuyAmmo(4,true)
 	elseif level == 39 then
-		z.BuyAmmo(math.ceil(14*(1-percent)))
+		z.BuyAmmo(math.ceil(16*(1-percent)))
 		if IsQuestFlaggedCompleted(500) then
-			z.BuyAmmo(math.ceil(14*percent),false,40)
+			z.BuyAmmo(math.ceil(16*percent),false,40)
 		end
 		z.BuyFoodAndDrink(20,20)
 	elseif level >= 49 and level < 60 then

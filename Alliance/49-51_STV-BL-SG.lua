@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [NX50-51Searing Gorge]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-[V][O]Withdraw the following items:\\Carefully Folded Note (if you have it)\\Gorilla Fangs\\Fool's Stout Report --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV49
+
 Take the boat to Booty Bay [OC]
 Accept [QA8551 The Captain's Chest]
 Turn in [QT2767 Rescue OOX-22/FE!] 
@@ -103,7 +103,7 @@ Turn in [QA2585-][QT2585] once you have:\\3 Scorpok Pincer\\2 Vulture Gizzard\\1
 Turn in [QA2583-][QT2583 A Boar's Vitality] \\Turn in [QA2581-][QT2581 Snickerfang Jowls] \\Turn in [QA2601-][QT2601 The Basilisk's Bite] \\Turn in [QA2603-][QT2603 Vulture's Vigor]
 
 [H]Hearth back to Stormwind
-
+[V][O]Withdraw the following items from your bank:\\Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather--BANKFRAME_OPENED,BAG_UPDATE>>BankW_BL51
 Take the tram to Ironforge[OC]
 Accept [QA5090 A Call to Arms: The Plaguelands!]\\Skip this quest if you can't find the courier[O]
 Turn in [QT3182 Proof of Deed] \\Accept [QA3201 At Last!] 
@@ -128,11 +128,9 @@ if not Guidelime_Zarant then return end
 
 local z = Guidelime_Zarant
 
-
-function z:BankW_STV49()  --Carefully Folded Note\\Gorilla Fangs\\Fool's Stout Report --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV49
-	
---	local items = {"Carefully Folded Note","Gorilla Fang","Fool's Stout Report"} 
-	local items = {2799,4098,5807}
+function z:BankW_BL51()  --Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV49
+	--local items = {"Super Snapper FX","Snapshot of Gammerita","Wildkin Feather"}
+	local items = {9328,9330,10819}
 	if  z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return

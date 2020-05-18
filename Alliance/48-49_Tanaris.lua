@@ -4,38 +4,35 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
-[V][O]Deposit the following items:\\Jer'kai's Signet Ring\\Raschal's Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris48
-Accept [QA2605] --the thirsty goblin
-Accept [QA1691]
+[V][O]Withdraw *Roc Gizzard* from your bank if you have it--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Tanaris48
+Accept [QA2605]--the thirsty goblin
 
-Accept [QA5863] --dunemaul compound
-Turn in [QT2941] \\Accept [QA2944] --the borrower/super snapper fx
+Turn in [QT2941] \\Accept [QA2944]--the borrower/super snapper fx
 [G52.3,27.0,1Tanaris]Click on the Egg-O-Matic and turn in your Hippogryph Egg \\([QA2741-][QT2741])\\It's a small metal console sitting next to the teleporter looking thing
-[G51.84,27.02Tanaris] Click on the wanted poster \\Accept [QA2781] \\Accept [QA2875]
-Accept [QA3362] --thistleshrub valley
-Accept [QA992] --water survey
+
+Accept [QA3362]--thistleshrub valley
+Accept [QA992]--water survey
 [QC1452,1-]Kill vultures as you go[O]
 
 Do [G39.0,29.4,40Tanaris][QC992]
 Turn in [QT992] \\Accept [QA82]
 Do [QC82]
 [G44.6,39.6,120Tanaris]Finish off [QC1452,1]
-[QC2605-][OC]Kill Dew Collectors 
+[QC2605-][OC]Kill Dew Collectors
 Do [QC3362]
 Finish off [QC2605]
 Throw away your HS and unstuck to Gadgetzan[OC]
 Turn in [QT2605] \\Accept [QA2606]
 [S]Set your Hearthstone to Gadgetzan
 Turn in [QT2606] \\Accept [QA2641] --sprinkles ingredient
-Turn in [QT82]
-Accept [QA10] --Scrimshank redemption optional?
+Turn in [QT82] \\Accept [QA10]--Scrimshank redemption optional?
 
 Fly to [F Theramore]
-Take the boat to Menethil
+Take the boat to Wetlands--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Wetlands
 
 Fly to [F The Hinterlands][OC]
 Accept [QA2988]
-Accept [QA2880] \\Accept [QA2877]
+Accept [QA2880]
 --Run to the second floor of the big building\\[S]Set your HS to Aerie Peak
 [QC3661-][O]Loot wildkin feathers on the ground
 Turn in [QT1452] \\Accept [QA1469]
@@ -43,11 +40,10 @@ Turn in [QT1452] \\Accept [QA1469]
 Finish off [QC2880][O]
 [QC2988,2-]Click on the second cage
 [QC2988,1-]Click on the first cage
-Turn in [QT2880]
+Turn in [QT2880] \\Accept [QA2877]
 Turn in [QT2988] \\Accept [QA2989]
 
 Do [QC2641]
-[QC2880-][O]Kill Vilebranch trolls
 [G48.86,68.50The Hinterlands]Do [QC2989]
 Do [QC2877]
 Grind until your HS cooldown is <6 minutes\\Accept [QA485] if you have a distress beacon in your bags, skip this step if you don't
@@ -68,8 +64,14 @@ Guidelime.registerGuide([[
 [NX50-50STV]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-Accept [QA10] --Scrimshank redemption
-Turn in [QT2641] \\Accept [QA2661] --sprinkle's ingredient
+[V][O]Deposit the following items:\\Wildkin Feather\\Raschal's Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris48
+Accept [QA10]--Scrimshank redemption
+Turn in [QT2641] \\Accept [QA2661]--sprinkle's ingredient
+Turn in [QT3362]
+[G51.84,27.02Tanaris] Click on the wanted poster \\Accept [QA2781] \\Accept [QA2875]
+Accept [QA5863]--dunemaul compound
+Accept [QA1691]--more wastewander justice
+
 Turn in [QT2661] \\Accept [QA2662] \\Turn in [QT2662]
 Make sure you carry 1 stack of noggenfogger with you at all times, buy 2 extra stacks and bank it [OC]
 Accept [QA3161] \\Turn in [QT3445]
@@ -136,10 +138,10 @@ Finish off [QC4141]
 Grind raptors until you find *A Mangled Journal* \\Accept [QA3884]
 Make sure you have 7 crystals of each color --BAG_UPDATE,OnStepActivation>>Crystals_Tanaris49
 [H]Hearth back to tanaris\\Alternatively you can run to tanaris, throw away your HS and unstuck to Gadgetzan [OC]
+[V][O]Withdraw the following items:\\Carefully Folded Note (if you have it)\\Gorilla Fangs\\Fool's Stout Report\\Pupellyverbos Port\\Atal'ai Tablet Fragment--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Tanaris49
 [V][O]Deposit the following items in your bank:\\Torwa's Pouch\\Webbed Diemetradon Scale\\Un'Goro Soil\\Linken's Training Sword\\Bloodpetal\\Insect Analysis Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris49
 Turn in [QT2605] \\Accept [QA2606]
 Turn in [QT5863]
-Turn in [QT3362]
 Turn in [QT2606] \\Accept [QA2641]
 Accept [QA162]
 Fly to [F Un'Goro Crater]
@@ -154,6 +156,28 @@ if not Guidelime_Zarant then return end
 
 local z = Guidelime_Zarant
 
+function z:BankW_Tanaris48()
+	
+	local items = {6257,6258,6259}
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end
+
+function z:BankD_Tanaris48()  --Jer'kai's Signet Ring\\Raschal's Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris48
+	--local items = {"Super Snapper FX","Snapshot of Gammerita","Wildkin Feather","Pupellyverbos Port","Atal'ai Tablet Fragment"}
+	local items = {9328,9330,10819,3900,6287}
+	if z.IsItemNotInBags(items) then
+		z.SkipStep(self)
+		return
+	end
+
+	z.DepositItems(items)
+
+end
 
 function z:BankD_Tanaris49()  --Torwa's Pouch\\All 4 Power Crystals\\Webbed Diemetradon Scale\\Un'Goro Soil\\Linken's Training Sword\\Bloodpetal\\Insect Analysis Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris49
 	--local items = {"Torwa's Pouch","Webbed Diemetradon Scale","Un'Goro Soil","Linken's Training Sword","Bloodpetal","Insect Analysis Report"}
@@ -167,6 +191,18 @@ function z:BankD_Tanaris49()  --Torwa's Pouch\\All 4 Power Crystals\\Webbed Diem
 
 end
 -- Torwa's pouch and its contents: 11568,11569,11570
+
+function z:BankW_Tanaris49()  --Carefully Folded Note\\Gorilla Fangs\\Fool's Stout Report --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV49
+	
+--	local items = {"Carefully Folded Note","Gorilla Fang","Fool's Stout Report"} 
+	local items = {2799,4098,5807,3900,6287}
+	if  z.IsItemNotInBank(items) then
+		z.SkipStep(self)
+		return
+	end
+	
+	z.WithdrawItems(items)
+end
 
 function z:Crystals_Tanaris49() --BAG_UPDATE>>Crystals_Tanaris49
 	
@@ -214,3 +250,4 @@ function z:Crystals_Tanaris49() --BAG_UPDATE>>Crystals_Tanaris49
 	self:UpdateStep()
 
 end
+

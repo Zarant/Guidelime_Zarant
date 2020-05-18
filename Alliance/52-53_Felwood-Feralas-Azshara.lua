@@ -17,7 +17,8 @@ Turn in [QT2944] \\Accept [QA2943]
 [V][O]Restock on supplies, long grinding session ahead
 --Sunken Temple class quest
 [G42.44,7.36Darnassus]Accept  [QA8151][O][A Hunter]
-Turn in [QT162] \\Turn in [QT4267] \\Accept [QA4493]
+Turn in [QT162]\\Accept [QA4493]
+Turn in [QT4267]
 Turn in [QT2972]
 Accept [QA978]
 

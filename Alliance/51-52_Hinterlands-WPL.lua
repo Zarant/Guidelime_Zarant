@@ -18,12 +18,12 @@ Turn in [QT5215] \\Accept [QA5216]
 Click on the cauldron\\Turn in [QT5216] \\Accept [QA5217]
 Talk to Janice Felstone inside the farm house\\Accept [QA5021]
 Click on the parcel inside the barn\\Turn in [QT5021] \\Accept [QA5022]
-Grind until you are [XP52-22520 22520 XP away from 52][OC] \\If you are not yet close, do one more cauldron quest to get you where you need to be
-Turn in [QT5217]
+Grind until you are [XP52-16950 16950 XP away from 52][OC] \\If you are not yet close, do one more cauldron quest to get you where you need to be
+Turn in [QT5217] \\You can death skip to chillwind camp if you are at or close to level 52
 Accept [QA5219][OC]
 [G46.2,52.0Western Plaguelands]Kill the cauldron and lord \\Turn in [QT5219][OC] \\Accept [QA5220][OC]
 Turn in [QT5220][OC]
-[XP52-19870 Grind until you are 19870 XP away from level 52]
+[XP52-19870 Grind until you are 14300 XP away from level 52]
 [H]Hearth to Ironforge[OC]
 Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
