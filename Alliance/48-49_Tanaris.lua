@@ -116,12 +116,13 @@ Finish off [QC5863]
 --Finish off [QC2605]
 
 Run to Un'goro Crater\\Accept [QA4289] \\Accept [QA4290]
-As you quest through Un'Goro, loot 7 crystals of each color\\Save Un'Goro Soil, you will need 25 later[O]
+Save Un'Goro Soil, you will need 25 later[OC]
+[O]As you quest through Un'Goro, loot 7 crystals of each color--BAG_UPDATE>>Crystals_Tanaris49
 Click on the Wrecked Raft\\Accept [QA3844]
 Click on the small pack underwater\\Turn in [QT3844] \\Accept [QA3845]
 [QC4290-]Loot the threshadon carcass
 [OC]Run to Marshal's Refuge
-Accept [QA4503] --Diemetradons
+Accept [QA4503]--Diemetradons
 Accept [QA4141]
 --Accept [QA3882]
 [QC3845-]Open the small pack in your inventory [OC]
@@ -139,7 +140,7 @@ Grind raptors until you find *A Mangled Journal* \\Accept [QA3884]
 Make sure you have 7 crystals of each color --BAG_UPDATE,OnStepActivation>>Crystals_Tanaris49
 [H]Hearth back to tanaris\\Alternatively you can run to tanaris, throw away your HS and unstuck to Gadgetzan [OC]
 [V][O]Withdraw the following items:\\Carefully Folded Note (if you have it)\\Gorilla Fangs\\Fool's Stout Report\\Pupellyverbos Port\\Atal'ai Tablet Fragment--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Tanaris49
-[V][O]Deposit the following items in your bank:\\Torwa's Pouch\\Webbed Diemetradon Scale\\Un'Goro Soil\\Linken's Training Sword\\Bloodpetal\\Insect Analysis Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris49
+[V][O]Deposit the following items in your bank:\\Torwa's Pouch\\Webbed Diemetradon Scale\\Un'Goro Soil\\Linken's Training Sword\\Insect Analysis Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris49
 Turn in [QT2605] \\Accept [QA2606]
 Turn in [QT5863]
 Turn in [QT2606] \\Accept [QA2641]
@@ -148,7 +149,8 @@ Fly to [F Un'Goro Crater]
 --Turn in [QT3882]
 Turn in [QT4141] \\Accept [QA4142]
 Turn in [QA4284-][QT4284]
-Use the website unstuck self service to Stormwind, set your HS to SW and fly to [F Booty Bay]\\*OR*\\Fly to [F Ratchet] and take the boat to STV--OnStepCompletion>>LoadNextGuide
+[G52.8,65.4Stormwind City][S][OC]Use the website unstuck self service to teleport to Stormwind and set your HS to SW
+Fly to [F Booty Bay]\\*OR*\\Fly to [F Ratchet] and take the boat to STV--OnStepCompletion>>LoadNextGuide
 
 ]], "Zarant")
 
@@ -180,8 +182,8 @@ function z:BankD_Tanaris48()  --Jer'kai's Signet Ring\\Raschal's Report --BANKFR
 end
 
 function z:BankD_Tanaris49()  --Torwa's Pouch\\All 4 Power Crystals\\Webbed Diemetradon Scale\\Un'Goro Soil\\Linken's Training Sword\\Bloodpetal\\Insect Analysis Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris49
-	--local items = {"Torwa's Pouch","Webbed Diemetradon Scale","Un'Goro Soil","Linken's Training Sword","Bloodpetal","Insect Analysis Report"}
-	local items = {11568,11569,11570,11830,11018,11133,11316,8594}
+	--local items = {"Torwa's Pouch","Webbed Diemetradon Scale","Un'Goro Soil","Linken's Training Sword","Insect Analysis Report"}
+	local items = {11568,11569,11570,11830,11018,11133,8594}
 	if z.IsItemNotInBags(items) then
 		z.SkipStep(self)
 		return

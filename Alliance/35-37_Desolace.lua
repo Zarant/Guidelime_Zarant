@@ -50,7 +50,7 @@ Accept [QA5561 Kodo Roundup]
 Do [QT5561 Kodo Roundup][O] \\Grind mobs on your way back and forth\\Be on the lookout for the kodos that patrol next to the quest giver
 [QC1459,2-]Make sure you have 3 Aged Kodo Hides before leaving the graveyard
 [G34.88,85.38,160Desolace][QC1387 -][O] Kill centaurs
-[G34.88,85.38,160Desolace]Keep killing centaurs until you get *friendly* rep. with Magram centaur--CHAT_MSG_SYSTEM>>CentaurRep
+[G34.88,85.38,160Desolace]Keep killing centaurs until you get *friendly* rep. with Magram centaur--UPDATE_FACTION>>Reputation,93,Friendly
 [G28.70,82.10,70Desolace][QC1459,1-]Head west and finish grinding level 38/39 scorpids 
 Keep grinding mobs until your HS is off cooldown\\ Hearth back to [H Nijel's Point]
 Turn in [QT1456 The Karnitol Shipwreck] \\Accept [QA1457 The Karnitol Shipwreck] \\Turn in [QT1459 Reagents for Reclaimers Inc.] \\Accept [QA1466 Reagents for Reclaimers Inc.]
@@ -82,22 +82,8 @@ Turn in [QT1186 The Eighteenth Pilot] \\Accept [QA1187 Razzeric's Tweaking]
 Accept [QA1114 Delivery to the Gnomes]
 Turn in [QT1114 Delivery to the Gnomes]
 Accept [QA1115 The Rumormonger]
-You have 2 options going into the next segment:\\[G50.52,18.94,40Tanaris][G51.0,29.3]Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>Desolace_End
+You have 2 options going into the next segment:\\[G50.52,18.94,40Tanaris][G51.0,29.3]Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Stormwind City,1
 
 ]], "Zarant")
 
 
-
-if not Guidelime_Zarant then return end
-local z = Guidelime_Zarant
-
-function z:CentaurRep(args,event,msg)
-	local faction = string.match(msg,".*Friendly.*(%a+) Clan Centaur.")
-	if faction then
-		self:SkipStep()
-	end
-end
-
-function z:Desolace_End()
-	return self:ZoneSkip({"1434","1"}) or self:ZoneSkip({"1453","1"})
-end

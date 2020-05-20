@@ -5,16 +5,27 @@ Guidelime.registerGuide([[
 [D Alliance Hunter Leveling Guide]
 
 Take the boat to Booty Bay [OC]
-Accept [QA8551 The Captain's Chest]
+Accept [QA8551 The Captain's Chest]--OnStepActivation>>BindLocation,Stormwind City
+Turn in [QT2767 Rescue OOX-22/FE!]--OnStepActivation>>BindLocation,Stormwind City
+Turn in [QT648 Rescue OOX-17/TN!]--OnStepActivation>>BindLocation,Stormwind City
+Turn in [QT836]--OnStepActivation>>BindLocation,Stormwind City
+Turn in [QA3721-][QT3721]--OnStepActivation>>BindLocation,Stormwind City
+Accept [QA348 Stranglethorn Fever]--OnStepActivation>>BindLocation,Stormwind City
+Turn in [QT2874 Deliver to MacKinley]--OnStepActivation>>BindLocation,Stormwind City
+Turn in [QT1122 Report Back to Fizzlebub]--OnStepActivation>>BindLocation,Stormwind City
+[S]Set HS to Booty Bay--OnStepActivation>>BindLocation,Stormwind City
+
+Accept [QA608 The Bloodsail Buccaneers]
+
+Turn in [QT1122 Report Back to Fizzlebub]
+Turn in [QT2874 Deliver to MacKinley]
+Accept [QA348 Stranglethorn Fever]
 Turn in [QT2767 Rescue OOX-22/FE!] 
 Turn in [QT648 Rescue OOX-17/TN!]
 Turn in [QT836]--HL
 Turn in [QA3721-][QT3721]--OOX of your own
-Accept [QA348 Stranglethorn Fever]
-Turn in [QT2874 Deliver to MacKinley]
-Turn in [QT1122 Report Back to Fizzlebub]
---[S]Set HS to Booty Bay
-Accept [QA608 The Bloodsail Buccaneers]
+Accept [QA8551 The Captain's Chest]
+
 [L23.25,71.85Stranglethorn Vale]Use eagle eye at the goblin statue and look for Mok'rash\\Kill him by running in circles around the goblin statue\\Loot and right click [QA8552 The Monogrammed Sash] \\Skip this step if you can't find him[O]
 Loot the green bottles at the beach \\Accept [QA594 Message in a Bottle][O]
 [QC608,2-]Kill Captain Keelhaul
@@ -25,18 +36,18 @@ Turn in [QT594 Message in a Bottle] pt.1 \\Accept [QA630 Message in a Bottle] pt
 Turn in [QT630 Message in a Bottle] pt.2
 [QC8551-]Kill Gorlash
 [G35.27,60.42Stranglethorn Vale]Do [QC348 Stranglethorn Fever]
---[H]Hearth back to booty bay if your HS is off cooldown[OC]
-Run to Booty Bay \\Turn in [QT8551]
+
+Go back to Booty Bay \\Turn in [QT8551]
 Turn in [QT8552 The Monogrammed Sash] 
 Accept [QA615][O] \\Turn in [QT615][O]
 Accept [QA8553] \\Turn in [QT8553]
 Turn in [QT348 Stranglethorn Fever]
 Turn in [QT608 The Bloodsail Buccaneers]
-[O]Make sure you have 15 *Silk Cloth* in your bags before starting the next segment --BAG_UPDATE>>Inventory15Silk
+[O]Make sure you have 15 *Silk Cloth* in your bags before starting the next segment --BAG_UPDATE>>Collect,4306,15
 [T][O]Train skills\\Train Pet skills\\ \\Retrain your pet, learn fire resistance rank 4 and shadow resistance rank 3[A Hunter]
+[H]Use your HS back to SW if you used the website unstuck in the previous segment
 Fly to [F Stormwind][OC]
-[G52.8,65.6Stormwind City][S][OC]Set your HS to Stormwind
-[H]Use your HS back to SW if you used the website unstuck in the previous segment[OC]
+[G52.8,65.6Stormwind City][S][OC]Set your HS to Stormwind--OnStepActivation>>BindLocation,Stormwind City
 Turn in [QT1469]
 Take the tram to Ironforge[OC]
 Fly to [F Searing Gorge]--OnStepCompletion>>LoadNextGuide
@@ -47,12 +58,12 @@ Guidelime.registerGuide([[
 [NX51-51Blasted Lands]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-Make sure you have 15 *Silk Cloth* on your bags before starting this segment[O] --BAG_UPDATE>>Inventory15Silk
+Make sure you have 15 *Silk Cloth* on your bags before starting this segment[O]--BAG_UPDATE>>Collect,4306,15
 
 Talk to Hansel Heavyhands\\Accept [QA7723 Curse These Fat Fingers] \\Accept [QA7724 Fiery Menace!]
 Click on the wanted board\\Accept [QA7728 STOLEN: Smithing Tuyere and Lookout's Spyglass] \\Accept [QA7729 JOB OPPORTUNITY: Culling the Competition]
 Accept [QA3441 Divine Retribution] 
-[QC3441-]Talk to Kalaran Windblade\\Go through his whole dialogue
+[QC3441-]Talk to Kalaran Windblade\\Go through his whole dialogue--GOSSIP_SHOW>>SkipGossip,8479
 Turn in [QT3441 Divine Retribution] \\Accept [QA3442 The Flawless Flame]
 [QC3442-][O]Make sure you prioritize Fire Elementals/Golems
 [G34.08,53.99Searing Gorge][QC7728,2-]Kill Dark Iron Lookouts around the tower\\They respawn roughly every 7 minutes[O]
@@ -94,7 +105,7 @@ Head to Blasted Lands[OC]
 [A Hunter][OC][V]Make sure you buy ammo before starting this segment
 Climb the tower and accept [QA2783 Petty Squabbles]
 [G34.29,66.15Swamp of Sorrows]Turn in [QT2783 Petty Squabbles] \\Accept [QA2801 A Tale of Sorrow] 
-[QC2801-]Go through his whole dialogue.
+[QC2801-]Go through his whole dialogue.--GOSSIP_SHOW>>SkipGossip
 Turn in [QT2801 A Tale of Sorrow]
 Turn in [L51.98,35.65Blasted Lands][QA3501-][O][QT3501 Everything Counts In Large Amounts][O] if you find an *Imperfect Draenethyst Fragment*
 [OC]Collect the following items:\\    14 Vulture Gizzard\\    11 Basilisk Brain\\    6 Scorpok Pincer\\    6 Blasted Boar Lung\\    5 Snickerfang Jowl --BAG_UPDATE,OnStepActivation>>BlastedLandsQuests
@@ -112,6 +123,7 @@ Accept [QA3448 Passing the Burden]
 Accept [QA4512 A Little Slime Goes a Long Way]
 Turn in [QT3448 Passing the Burden] \\Accept [QA3449 Arcane Runes] \\Accept [QA3450 An Easy Pickup]
 [G18.1,51.6Ironforge][S]Set your HS to Ironforge
+Accept [G70.9,83.6Ironforge][QA8151][A Hunter]
 Turn in [QT3450 An Easy Pickup] \\Accept [QA3451 Signal for Pickup] \\Turn in [QT3451 Signal for Pickup]
 
 Fly to [F Loch Modan][OC]
@@ -139,28 +151,6 @@ function z:BankW_BL51()  --Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feat
 	z.WithdrawItems(items)
 end
 
-function z:Inventory15Silk() --BANKFRAME_OPENED,BAG_UPDATE>>Inventory15Silk
-	
-	local step = self.guide.steps[self.stepLine]
-	if not self.element then
-		table.insert(step.elements,{})
-		self.element = #step.elements
-	end
-
-	local element = step.elements[self.element]
-	local itemCount = GetItemCount(4306)
-	element.textInactive = ""
-	element.text = string.format("(%d/15)",itemCount)
-
-	if  itemCount >= 15 then
-		element.text = ""
-		z.SkipStep(self)
-		return
-	end
-
-	self:UpdateStep()
-
-end
 
 function z:BlastedLandsQuests() --BAG_UPDATE>>BlastedLandsQuests
 --14 Vulture Gizzard\\11 Basilisk Brain\\6 Scorpok Pincer\\6 Blasted Boar Lung\\5 Snickerfang Jowl
@@ -208,8 +198,8 @@ function z:BlastedLandsQuests() --BAG_UPDATE>>BlastedLandsQuests
 	local id = {
 		8396,
 		8394,
-		8393,
 		8392,
+		8393,
 		8391,
 	}
 

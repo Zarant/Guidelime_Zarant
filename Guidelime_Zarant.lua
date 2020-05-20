@@ -191,9 +191,6 @@ function addon.updateArrow()
 end
 
 function Guidelime_Zarant:SkipStep(value)
-	if not self.step.active then
-		return
-	end
 	if value ~= false then value = true end
 	self.step.skip = value
 	GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.stepNumber] = self.step.skip
@@ -378,8 +375,132 @@ end
 
 function Guidelime_Zarant:BindLocation(args)
 	local location = GetBindLocation()
-	if args[1] and location == args[1] then
+	local r
+	if args[2] then
+		r = false
+	else
+		r = true
+	end
+	
+	if args[1] and (location == args[1]) == r then
 		self:SkipStep()
 		return true
 	end
 end
+
+function Guidelime_Zarant:SkipGossip(args,event)
+	
+	if event == "GOSSIP_SHOW" then
+		if #args == 0 then
+			if GetNumGossipAvailableQuests() == 0 and GetNumGossipActiveQuests() == 0 then
+				SelectGossipOption(1)
+			end
+			return
+		end
+		local id = tonumber(args[1])
+		local npcId = z.NpcId()		
+		if #args == 1 then
+			if id < 10 or npcId == id then
+				id = 1
+			else
+				return
+			end
+			if GetNumGossipAvailableQuests() == 0 and GetNumGossipActiveQuests() == 0 then
+				SelectGossipOption(id)
+			end
+		elseif id == npcId then
+			if not self.npcId then
+				self.index = 2
+				self.npcId = id
+			else
+				self.index = ((self.index -1) % (#args-1))+2
+			end
+			local option = tonumber(args[self.index])
+			if option then
+				SelectGossipOption(option)
+			end
+		end
+	else
+		self.npcId = nil
+	end
+end
+
+function Guidelime_Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,id,qty,id,qty...
+
+	if not self.id then
+		self.id = {}
+		self.quantity = {}
+		for i,v in ipairs(args) do
+			local value = tonumber(v)
+			if value and i % 2 == 1 then
+				table.insert(self.id,value)
+			elseif i % 2 == 0 then
+				if not value then value = 1 end
+				table.insert(self.quantity,value)
+			end
+		end
+	end
+	
+	local step = self.step
+	if not self.element then
+		table.insert(step.elements,{})
+		self.element = #step.elements
+	end
+
+	local element = step.elements[self.element]
+	element.textInactive = ""
+	element.text = ""
+	
+	local skip = true
+	for i,itemID in ipairs(self.id) do
+		local count = GetItemCount(itemID)
+		local name = GetItemInfo(itemID)
+		local icon
+		if count < self.quantity[i] then
+			skip = false
+			icon = "|T" .. addon.icons.item .. ":12|t"
+		else
+			count = self.quantity[i]
+			icon = "|T" .. addon.icons.COMPLETED .. ":12|t"
+		end
+		if name then
+			element.text = string.format("%s\n   %s%s: %d/%d",element.text,icon,name,count,self.quantity[i])
+		end
+	end
+	
+	if skip then
+		element.text = ""
+		self:SkipStep()
+		return
+	end
+
+	self:UpdateStep()
+end
+
+function Guidelime_Zarant:Reputation(args) --UPDATE_FACTION>>Reputation,id,standing
+	local factionID = tonumber(args[1])
+	local goal = self.standingID[args[2]] or tonumber(args[2])
+	
+	
+	if not goal then return end
+	local name, description, standingID, barMin, barMax, barValue = GetFactionInfoByID(factionID)
+	local standing = getglobal("FACTION_STANDING_LABEL"..standingID)
+
+	local step = self.step
+	if not self.element then
+		table.insert(step.elements,{})
+		self.element = #step.elements
+	end
+
+	local element = step.elements[self.element]
+	element.textInactive = ""
+	element.text = ""
+	
+	if standingID >= goal then
+		self:SkipStep()
+	else
+		element.text = string.format("\n   |T%s:12|t%d/%d (%s)",addon.icons.object,barValue,barMax,standing)
+	end
+
+end
+

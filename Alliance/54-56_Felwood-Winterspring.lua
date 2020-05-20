@@ -102,7 +102,7 @@ Turn in [QT8464 Winterfall Activity]
 
 Head to Moonglade[OC]
 Turn in [QT6762 Rabine Saturna] \\Accept [QA1124 Wasteland]
-Finish the dialogue with Rabine\\Accept [QA5527 A Reliquary of Purity] \\Skip this step if the Dire Maul dialogue is not available --available on phase 2
+Finish the dialogue with Rabine\\Accept [QA5527 A Reliquary of Purity] \\Skip this step if the Dire Maul dialogue is not available--GOSSIP_SHOW>>SkipGossip,11801
 [G48.13,67.34Moonglade]Get the [P Moonglade] FP
 Fly to [F Teldrassil]
 

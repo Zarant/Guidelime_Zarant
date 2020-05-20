@@ -93,13 +93,13 @@ Swim to the mainland[OC]
 Accept [QA7003] \\Accept [QA7721]
 Do [QC7003] \\Do [QC7721]
 Turn in [QT7003] \\Turn in [QT7721]
+Grind Yetis until you get a pristine hide\\Accept [QA7735][O]--OnStepCompletion>>StepSkip
 Do [QC7733]
-Grind Yetis until you get a pristine hide\\Accept [QA7735]
-Buy some bait from Gregan[O]
+Buy some bait from Gregan--OnStepActivation,BAG_UPDATE>>Collect,11141,1
 Turn in [QT4142]
 --[QA3909] --videre
 Accept [QA2844]
-[G44.64,10.59Feralas][V]Give some bait to the gnoll guarding the Evoroot
+[G44.64,10.59Feralas][V]Give some bait to the gnoll guarding the Evoroot--OnStepActivation,BAG_UPDATE>>Collect,11142,1
 [L38.53,15.78Feralas][L37.76,12.22Feralas][L40.52,12.69Feralas][L39.91,9.47Feralas][QC2879-]Loot all 4 flames \\Right click on Troyas' Staff at the [G38.88,13.13Feralas]monolith
 Click on the monolith\\Turn in [QT2879] \\Accept [QA2942]
 Grind harpies until your HS cooldown is <8 minutes
@@ -111,7 +111,8 @@ Turn in [QT2845]
 [OC]Death warp to Dire Maul, enter DM east (this is a pre requisite for another quest later) --reliquary of purity
 [H]Once you're inside the instance, hearth back to Feathermoon
 Turn in [QT2942]
-Turn in [QT7733] \\Turn in [QT7735]
+Turn in [QT7735][O]
+Turn in [QT7733]
 Fly to [F Ratchet]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 

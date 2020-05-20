@@ -31,7 +31,7 @@ Finish off [QC189 Bloodscalp Ears]
 [XP38-30000 Grind until you are 30k xp off level 38]
 Do [QC601 Water Elementals]
 [QC207,2-]Loot the second tablet underwater
-[O]Collect 9 *Blue Pearls* from the clams around the coral reef--BAG_UPDATE>>Pearls_STV38
+[O]Collect 9 *Blue Pearls* from the clams around the coral reef--OnStepActivation,BAG_UPDATE>>Collect,4611,9
 Kill Murlocs for [QC1107-]Encrusted Tail Fins
 Kill yourself, spirit rez [OC]
 Turn in [QT207 Kurzen's Mystery] \\Accept [QA205 Troll Witchery]
@@ -81,26 +81,4 @@ function z:BankW_STV37() --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV37
 	end
 	
 	z.WithdrawItems({2719,5996})
-end
-
-function z:Pearls_STV38() --BAG_UPDATE>>Pearls_STV38
-	local step = self.guide.steps[self.stepLine]
-	if not self.element then
-		table.insert(step.elements,{})
-		self.element = #step.elements
-	end
-
-	local element = step.elements[self.element]
-	local itemCount = GetItemCount(4611)
-	element.textInactive = ""
-	element.text = string.format("\n\nBlue Pearl: %d/9",itemCount)
-
-	if  itemCount >= 9 then
-		element.text = ""
-		z.SkipStep(self)
-		return
-	end
-
-	self:UpdateStep()
-
 end
