@@ -51,8 +51,8 @@ Turn in [QT658]
 Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
-local z = Guidelime_Zarant
+if not Guidelime.Zarant then return end
+local z = Guidelime.Zarant
 
 function z:SoothingSpices(args,event)
 	local total = 4

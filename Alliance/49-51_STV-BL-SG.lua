@@ -115,7 +115,9 @@ Turn in [QA2583-][QT2583 A Boar's Vitality] \\Turn in [QA2581-][QT2581 Snickerfa
 
 [H]Hearth back to Stormwind
 [V][O]Withdraw the following items from your bank:\\Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather--BANKFRAME_OPENED,BAG_UPDATE>>BankW_BL51
-Take the tram to Ironforge[OC]
+[G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][O][QT7791-][O]Wool \\[QA7793-][O][QT7793-][O]Silk \\[QA7794-][O][QT7794-][O]Mageweave
+Take the tram to Ironforge\\[G43.22,31.57Ironforge]Do the Gnomeregan Exiles cloth turn ins:\\[QA7802-][O][QT7802-][O]Wool \\[QA7803-][O][QT7803-][O]Silk \\[QA7809-][O][QT7809-][O]Mageweave
+[G43.22,31.57Ironforge]Do the Ironforge cloth turn ins:\\[QA7807-][O][QT7807-][O]Wool \\[QA7808-][O][QT7808-][O]Silk \\[QA7804-][O][QT7804-][O]Mageweave
 Accept [QA5090 A Call to Arms: The Plaguelands!]\\Skip this quest if you can't find the courier[O]
 Turn in [QT3182 Proof of Deed] \\Accept [QA3201 At Last!] 
 Turn in [QT3368 Suntara Stones]
@@ -136,9 +138,9 @@ Fly to [F Western Plaguelands]--OnStepCompletion>>LoadNextGuide
 
 
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 function z:BankW_BL51()  --Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV49
 	--local items = {"Super Snapper FX","Snapshot of Gammerita","Wildkin Feather"}

@@ -60,9 +60,9 @@ Take the Boat to Booty Bay--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,
 ]], "Zarant")
 
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 function z:Bank_1kN33() --Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head --BANKFRAME_OPENED,BAG_UPDATE>>Bank_1kN33

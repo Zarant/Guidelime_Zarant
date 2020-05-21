@@ -50,9 +50,9 @@ Fly to [F Southshore]--OnStepCompletion>>LoadNextGuide
 
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 function z:BankD_Swamp38() --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Swamp38

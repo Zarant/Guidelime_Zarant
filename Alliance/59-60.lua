@@ -181,9 +181,9 @@ Turn in [QT4986] at the middle floor (5800xp) --Glyphed Oaken Branch
 
 
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 local IsOnQuest = C_QuestLog.IsOnQuest
 --local IsQuestFlaggedCompleted = C_QuestLog.IsQuestFlaggedCompleted

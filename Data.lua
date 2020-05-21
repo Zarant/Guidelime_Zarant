@@ -1,7 +1,7 @@
-if not Guidelime_Zarant or Guidelime_Zarant.Modules.Data then return end
-local z = Guidelime_Zarant
+if not Guidelime.Zarant or Guidelime.Zarant.Modules.Data then return end
+local z = Guidelime.Zarant
 local _, class = UnitClass("player")
-Guidelime_Zarant.Modules.Data = true
+Guidelime.Zarant.Modules.Data = true
 
 GuidelimeDataChar = GuidelimeDataChar or {}
 GuidelimeData = GuidelimeData or {}

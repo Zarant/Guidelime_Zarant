@@ -1,13 +1,15 @@
 
 Guidelime.registerGuide([[
 [N54-55Felwood/Winterspring]
-[NX55-56Winterspring/Moonglade] 
+[NX55-56Winterspring/Moonglade]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
-[O]Collect 6 [V]Corrupted Soul Shards --
+[O]Collect 6 Corrupted Soul Shards--OnStepActivation,BAG_UPDATE>>Collect,11515,6
+Go inside the small hut and turn in [QT4441 Felbound Ancients] first
 Turn in [QT5159 Cleansed Water Returns to Felwood] \\Accept [QA5165 Dousing the Flames of Protection]
-Turn in [QT4441 Felbound Ancients] \\Accept [QA4442 Purified!] \\Turn in [QT4442 Purified!]
+Accept [QA4442 Purified!] \\Turn in [QT4442 Purified!]
+Turn in [G54.2,86.8Felwood][QA5882-][QT5882]
 Run to Jaedenar\\[QC5165,1-]Douse the first flame
 Keep grinding mobs until you get the *Blood Red Key*\\Accept [QA5202 A Strange Red Key][O]
 [QC5165,4-]Douse the second flame
@@ -19,7 +21,7 @@ Start the escort quest\\Turn in [QT5202 A Strange Red Key] \\Accept [QA5203 Resc
 [QC4261-]Escort Arei
 Accept [QA8461 Deadwood of the North]
 Do [QC8461 Deadwood of the North]
-Grind to level [XP55]
+--Grind to level [XP55]
 Turn in [QT8461 Deadwood of the North] \\Accept [QA8465 Speak to Salfa]
 Run to Winterspring\\Turn in [QT8465 Speak to Salfa] \\Accept [QA8464 Winterfall Activity]
 Turn in [QT3909 The Videre Elixir] \\Accept [QA3912 Meet at the Grave] \\Turn in [QT980 The New Springs] \\Accept [QA4842 Strange Sources] \\Accept [QA5082 Threat of the Winterfall]
@@ -117,9 +119,9 @@ Fly to [F Darkshore]--OnStepCompletion>>LoadNextGuide
 
 
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 

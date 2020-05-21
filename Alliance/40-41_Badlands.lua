@@ -52,9 +52,9 @@ Unstuck back to Thelsamar [OC]
 Fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 function z:BankD_Badlands40() --Seaforium Booster\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Badlands40

@@ -119,7 +119,7 @@ You might have to use the website unstuck request to port to SW and train skills
 [H]Hearth back to Auberdine
 ]], "Zarant")
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 function z:Darkshore_vendor_1(args,event)
 

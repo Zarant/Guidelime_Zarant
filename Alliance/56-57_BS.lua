@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N56-57Burning Steppes]
-[NX57-59Western/Eastern Plaguelands]
+[NX57-58Western/Eastern Plaguelands part 1]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 Take the boat to Wetlands[OC]
@@ -60,9 +60,9 @@ Fly to [F Southshore]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 

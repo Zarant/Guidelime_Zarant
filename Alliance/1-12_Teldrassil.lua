@@ -314,8 +314,8 @@ Turn in [QT938 Mist]
 
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
-local z = Guidelime_Zarant
+if not Guidelime.Zarant then return end
+local z = Guidelime.Zarant
 
 --MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>vendor1_teldrassil
 

@@ -8,7 +8,7 @@ Turn in [QT5158] \\Accept [QA5159]
 Accept [QA4502]
 [QC3444-]Loot the small chest outside the metal hut
 
-[V][O]Withdraw the follwing items:\\Torwa's Pouch\\Power Crystals\\Violet Tragan\\Webbed Diemetradon Scale --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Ungoro53
+[V][O]Withdraw the follwing items:\\Torwa's Pouch\\Webbed Diemetradon Scale\\Webbed Pterrordax Scale\\Dinosaur Bone --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_Ungoro53
 --[G52.51,27.91Tanaris]Set your HS to [S Gadgetzan]
 --Accept [QA4504]--Super sticky tar, do that quest later due to quest log constraints
 Turn in [QT2641]
@@ -66,13 +66,13 @@ Fly to [F Teldrassil]
 Turn in [QT978] \\Accept [QA979]
 Run upstairs\\Accept [QA5250]
 [L63.8,22.8Darnassus]Do the Darnassus cloth turn ins:\\[QA7792-][O][QT7792-][O]Wool \\[QA7798-][O][QT7798-][O]Silk \\[QA7799-][O][QT7799-][O]Mageweave \\[QA7800-][O][QT7800-][O]Runecloth
-Accept [QA1015][O] from the courier that roams darnassus
+Accept [QA1047][O] from the courier that roams darnassus
 [G39.19,85.12Darnassus][QC4441-]Use Eridan's Vial at the fountain inside the temple
 [V][O]Buy food/water--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 Accept [G67.38,15.68Darnassus][QA3763]
 --Accept [G42.44,7.36Darnarssus][QA8151][O][A Hunter] \\(Sunken Temple class quest)
 Turn in [QT3763] \\Accept [QA3764] 
-Turn in [QT1015][OC]
+Turn in [QT1047][OC]
 Accept [QA6761]
 Jump down and turn in [QT3764]
 Run upstairs and speak with the Arch Druid\\Accept [QA3781]
@@ -84,14 +84,14 @@ Fly to [F Felwood]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 function z:BankW1_Ungoro53()  --Torwa's Pouch\\All 4 Power Crystals\\Violet Tragan\\Webbed Diemetradon Scale --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Ungoro53
 	--local items = {"Torwa's Pouch","Webbed Diemetradon Scale","Un'Goro Soil","Violet Tragan","Red Power Crystal","Green Power Crystal","Blue Power Crystal","Yellow Power Crystal"}
-	local items = {11568,11569,11570,11830,11018}
+	local items = {11568,11569,11570,11830,11018,11114,11831}
 	if  z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return

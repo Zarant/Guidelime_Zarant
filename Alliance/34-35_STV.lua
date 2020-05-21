@@ -62,9 +62,9 @@ Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 function z:Bank_STV34() --Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Water Breathing Potions --BANKFRAME_OPENED,BAG_UPDATE>>Bank_STV34

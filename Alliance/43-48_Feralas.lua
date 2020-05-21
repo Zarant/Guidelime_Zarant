@@ -132,9 +132,9 @@ Fly to [F Tanaris]--OnStepCompletion>>LoadNextGuide
 ]],"Zarant")
 
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 function z:HippogryphEgg()
 	if GetItemCount(8564) > 0 or IsQuestFlaggedCompleted(2741) then

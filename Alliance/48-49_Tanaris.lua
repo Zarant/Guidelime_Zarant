@@ -124,14 +124,13 @@ Click on the small pack underwater\\Turn in [QT3844] \\Accept [QA3845]
 [OC]Run to Marshal's Refuge
 Accept [QA4503]--Diemetradons
 Accept [QA4141]
---Accept [QA3882]
+Accept [QA3882]
 [QC3845-]Open the small pack in your inventory [OC]
 Turn in [QT3845] \\Accept [QA3908]
 Destroy the faded pictograph[O]
 Get the [P Un'Goro Crater] FP
-[QC4503,1][O]Start working on Diemetradons\\This quest is going to be finished later,don't go out of your way to complete this step
+[QC4503-][O][QC3882-][O]Kill dinos as you quest - This step is going to be finished later,don't go out of your way to complete this--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Tanaris
 [QC4141-][O]Kill level 48-50 Lashers in northeastern Un'goro
---[QC3882-][O]Kill Diametradons
 Turn in [QT4290] \\Accept [QA4291]
 Do [G67.3,73.1Un'Goro Crater][G66.6,66.7Un'Goro Crater][QC4291] by stepping on a raptor nest
 Turn in [QT4291] \\Accept [QA4292]
@@ -140,12 +139,13 @@ Grind raptors until you find *A Mangled Journal* \\Accept [QA3884]
 Make sure you have 7 crystals of each color --BAG_UPDATE,OnStepActivation>>Crystals_Tanaris49
 [H]Hearth back to tanaris\\Alternatively you can run to tanaris, throw away your HS and unstuck to Gadgetzan [OC]
 [V][O]Withdraw the following items:\\Carefully Folded Note (if you have it)\\Gorilla Fangs\\Fool's Stout Report\\Pupellyverbos Port\\Atal'ai Tablet Fragment--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Tanaris49
-[V][O]Deposit the following items in your bank:\\Torwa's Pouch\\Webbed Diemetradon Scale\\Un'Goro Soil\\Linken's Training Sword\\Insect Analysis Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris49
+[V][O]Deposit the following items in your bank:\\Torwa's Pouch\\Webbed Diemetradon Scale\\Webbed Pterrordax Scale\\Dinosaur Bone\\Un'Goro Soil\\Linken's Training Sword\\Insect Analysis Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris49
 Turn in [QT2605] \\Accept [QA2606]
 Turn in [QT5863]
 Turn in [QT2606] \\Accept [QA2641]
 Accept [QA162]
 Fly to [F Un'Goro Crater]
+Turn in [QT3884]
 --Turn in [QT3882]
 Turn in [QT4141] \\Accept [QA4142]
 Turn in [QA4284-][QT4284]
@@ -154,9 +154,9 @@ Fly to [F Booty Bay]\\*OR*\\Fly to [F Ratchet] and take the boat to STV--OnStepC
 
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 function z:BankW_Tanaris48()
 	
@@ -183,7 +183,7 @@ end
 
 function z:BankD_Tanaris49()  --Torwa's Pouch\\All 4 Power Crystals\\Webbed Diemetradon Scale\\Un'Goro Soil\\Linken's Training Sword\\Bloodpetal\\Insect Analysis Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris49
 	--local items = {"Torwa's Pouch","Webbed Diemetradon Scale","Un'Goro Soil","Linken's Training Sword","Insect Analysis Report"}
-	local items = {11568,11569,11570,11830,11018,11133,8594}
+	local items = {11568,11569,11570,11830,11018,11133,8594,11114,11831}
 	if z.IsItemNotInBags(items) then
 		z.SkipStep(self)
 		return

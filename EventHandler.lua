@@ -1,9 +1,9 @@
-if not Guidelime_Zarant or Guidelime_Zarant.Modules.EventHandler then
+if not Guidelime.Zarant or Guidelime.Zarant.Modules.EventHandler then
 	return 
 end
-Guidelime_Zarant.Modules.EventHandler = true
+Guidelime.Zarant.Modules.EventHandler = true
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 local _, class = UnitClass("player")
 
 z.EventHandler = CreateFrame("Frame")

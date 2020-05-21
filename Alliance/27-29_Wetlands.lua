@@ -97,9 +97,9 @@ Turn in [G10.58,60.59,20Wetlands][QT324 The Lost Ingots] \\Accept [QA322 Blessed
 Fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 function z:BankD_Wetlands27() --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Wetlands27 A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom

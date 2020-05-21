@@ -182,8 +182,8 @@ Fly to [F Darkshore]
 ]], "Zarant")
 
 
-if not Guidelime_Zarant then return end
-local z = Guidelime_Zarant
+if not Guidelime.Zarant then return end
+local z = Guidelime.Zarant
 
 function z:Buzzbox1002(args)
 	self.timer = self.timer or 0

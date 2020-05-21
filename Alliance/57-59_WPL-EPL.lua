@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
-[N57-59Western/Eastern Plaguelands]
-[NX59-59Winterspring/Un'Goro/Silithus part 1]
+[N57-58Western/Eastern Plaguelands part 1]
+[NX58-59Western/Eastern Plaguelands part 2]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
@@ -83,6 +83,15 @@ Click on the scroll on the ground\\Accept [QA6024 Hameya's Plea]
 Turn in [QT5781 Of Forgotten Memories] \\Accept [QA5845 Of Lost Honor]
 [H]Use your Hearthstone
 Fly to [F Western Plaguelands]
+]],"Zarant")
+
+
+Guidelime.registerGuide([[
+[N58-59Western/Eastern Plaguelands part 2]
+[NX59-59Winterspring/Un'Goro/Silithus part 1]
+[GA Alliance]
+[D Alliance Hunter Leveling Guide]
+
 Turn in [QT5223 Return to Chillwind Camp] \\Accept [QA5225 Target: Gahrron's Withering]
 Turn in [QT5903 A Plague Upon Thee] \\Accept [QA5904 A Plague Upon Thee]
 Turn in [QT6185 The Eastern Plagues] \\Accept [QA6186 The Blightcaller Cometh]

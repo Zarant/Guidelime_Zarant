@@ -1,19 +1,20 @@
 local name,addon = ...
 
-if Guidelime_Zarant then
+if Guidelime.Zarant then
 	return 
 end
 
-Guidelime_Zarant = {}
-Guidelime_Zarant.__index = Guidelime_Zarant
-Guidelime_Zarant.Modules = {}
+Guidelime.Zarant = {}
+Guidelime.Zarant.__index = Guidelime.Zarant
+Guidelime.Zarant.Modules = {}
+Guidelime.Zarant.eventList = {}
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 local parseLineOLD = addon.parseLine
 local loadCurrentGuideOLD = addon.loadCurrentGuide
 local updateStepsOLD = addon.updateSteps
 
-function Guidelime_Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,frameCounter)
+function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,frameCounter)
 	
 	if frameCounter > #self.eventFrame+1 or type(self[eval]) ~= "function" then
 		return
@@ -50,6 +51,8 @@ function Guidelime_Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,f
 			frame.OnStepActivation = self[eval]
 		elseif event == "OnStepCompletion" then
 			frame.OnStepCompletion = self[eval]
+		elseif event == "OnStepUpdate" then
+			frame.OnStepUpdate = self[eval]
 		else
 			if not pcall(frame.RegisterEvent,frame,event) then
 				print("Error loading guide: Ignoring invalid event name at line"..stepLine..": "..event)
@@ -62,7 +65,7 @@ function Guidelime_Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,f
 	end
 end
 
-function Guidelime_Zarant:WipeData()
+function Guidelime.Zarant:WipeData()
 	if not self.eventFrame then
 		self.eventFrame = {}
 	end
@@ -72,6 +75,7 @@ function Guidelime_Zarant:WipeData()
 		frame:UnregisterAllEvents()
 		frame.OnStepActivation = nil
 		frame.OnStepCompletion = nil
+		frame.OnStepUpdate = nil
 		frame.args = nil
 		frame.data = nil
 	end
@@ -94,7 +98,7 @@ function addon.loadCurrentGuide(...)
 	if guide == nil then
 		return r
 	end
-	Guidelime_Zarant:WipeData()
+	Guidelime.Zarant:WipeData()
 	
 	local frameCounter = 0
 	
@@ -115,12 +119,6 @@ function addon.loadCurrentGuide(...)
 			stepNumber = stepNumber+1
 			if step.eval and step.event then
 				frameCounter = frameCounter + 1
-				step.event = step.event:gsub("%s*","")
-				if step.event == "" then step.event = "OnStepActivation" end
-				local eventList = {}
-				for event in step.event:gmatch('[^,]+') do
-					table.insert(eventList,event)
-				end
 				local args = {}
 				local eval = nil
 				for arg in step.eval:gmatch('[^,]+') do
@@ -132,8 +130,17 @@ function addon.loadCurrentGuide(...)
 						--print(arg)
 					end
 				end
+				step.event = step.event:gsub("%s*","")
+				if step.event == "" then 
+					step.event = Guidelime.Zarant.eventList[eval] or "OnStepActivation"
+					--print(step.eval,step.event)
+				end
+				local eventList = {}
+				for event in step.event:gmatch('[^,]+') do
+					table.insert(eventList,event)
+				end
 				--print(tostring(step.eval)..":"..tostring(step.event))
-				Guidelime_Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,frameCounter)
+				Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,frameCounter)
 			end
 		end
 	end
@@ -143,7 +150,7 @@ end
 
 function addon.updateSteps(...)
 
-	local eventFrame = Guidelime_Zarant.eventFrame
+	local eventFrame = Guidelime.Zarant.eventFrame
 	if not eventFrame then
 		return updateStepsOLD(...)
 	end
@@ -152,6 +159,9 @@ function addon.updateSteps(...)
 	for i,v in ipairs(eventFrame) do
 		if v.data and v.data.step then
 			isStepActive[i] = v.data.step.active
+			if v.OnStepUpdate then
+				v.OnStepUpdate(v.data,v.args,"OnStepUpdate")
+			end
 		end
 	end
 
@@ -190,18 +200,18 @@ function addon.updateArrow()
 	updateArrow()
 end
 
-function Guidelime_Zarant:SkipStep(value)
+function Guidelime.Zarant:SkipStep(value)
 	if value ~= false then value = true end
 	self.step.skip = value
 	GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.stepNumber] = self.step.skip
 	addon.updateSteps({self.stepNumber})
 end
 
-function Guidelime_Zarant:UpdateStep()
+function Guidelime.Zarant:UpdateStep()
 	addon.updateSteps({self.stepNumber})
 end
 
-function Guidelime_Zarant.IsQuestComplete(id)
+function Guidelime.Zarant.IsQuestComplete(id)
 	for i = 1,GetNumQuestLogEntries() do
 		local questLogTitleText, level, questTag, isHeader, isCollapsed, isComplete, frequency, questID = GetQuestLogTitle(i);
 		if isComplete and questID == id then
@@ -210,7 +220,7 @@ function Guidelime_Zarant.IsQuestComplete(id)
 	end
 end
 
-function Guidelime_Zarant:LoadNextGuide(n)
+function Guidelime.Zarant:LoadNextGuide(n)
 	--print('a')
 	if type(n) == "table" then
 		--print(#n)
@@ -229,7 +239,8 @@ end
 --https://wow.gamepedia.com/UiMapID/Classic
 --OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,mapID
 --WorldMapFrame.mapID to find the mapID
-function Guidelime_Zarant:ZoneSkip(args,event)
+z.eventList.ZoneSkip = "OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK"
+function Guidelime.Zarant:ZoneSkip(args,event)
 	local mapID = args
 	local guide
 	if type(args) == 'table' then
@@ -252,7 +263,7 @@ function Guidelime_Zarant:ZoneSkip(args,event)
 end
 
 
-function Guidelime_Zarant.RemoveQuestRequirement(id,arg)
+function Guidelime.Zarant.RemoveQuestRequirement(id,arg)
 	if not addon.questsDB[id] then
 		return false
 	elseif not arg or arg == "prequests" then
@@ -267,14 +278,14 @@ function Guidelime_Zarant.RemoveQuestRequirement(id,arg)
 	end
 end
 
-Guidelime_Zarant.RemoveQuestRequirement(353,"prequests")
-Guidelime_Zarant.RemoveQuestRequirement(614,"faction")
-Guidelime_Zarant.RemoveQuestRequirement(615,"faction")
-Guidelime_Zarant.RemoveQuestRequirement(5237,"faction")
-Guidelime_Zarant.RemoveQuestRequirement(5238,"faction")
-Guidelime_Zarant.RemoveQuestRequirement(8553,"faction")
-Guidelime_Zarant.RemoveQuestRequirement(5092,"prequests")
-Guidelime_Zarant.RemoveQuestRequirement(8551,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(353,"prequests")
+Guidelime.Zarant.RemoveQuestRequirement(614,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(615,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(5237,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(5238,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(8553,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(5092,"prequests")
+Guidelime.Zarant.RemoveQuestRequirement(8551,"faction")
 
 
 --[[
@@ -286,7 +297,7 @@ Unit Type Names: "Creature", "Pet", "GameObject", and "Vehicle"
 For vignettes: Vignette-0-[server ID]-[instance ID]-[zone UID]-0-[spawn UID] (Example: "Vignette-0-970-1116-7-0-0017CAE465" for rare mob Sulfurious)
 ]]
 
-function Guidelime_Zarant.NpcId(unit)
+function Guidelime.Zarant.NpcId(unit)
 	if not unit then
 		unit = "target"
 	end
@@ -294,8 +305,8 @@ function Guidelime_Zarant.NpcId(unit)
 	return tonumber(npcId)
 end
 
-
-function Guidelime_Zarant:Vendor(args,event)
+z.eventList.Trainer = "PLAYER_MONEY,MERCHANT_SHOW,MERCHANT_CLOSED"
+function Guidelime.Zarant:Vendor(args,event)
 	local id = args
 	if type(args) == "table" then
 		id = unpack(args)
@@ -304,7 +315,7 @@ function Guidelime_Zarant:Vendor(args,event)
 	if event == "MERCHANT_SHOW" then
 		self.merchant = true
 		self.activity = false
-		if	Guidelime_Zarant.NpcId() == id then
+		if	Guidelime.Zarant.NpcId() == id then
 			self.merchant = id
 		end
 	elseif event == "PLAYER_MONEY" and self.merchant then
@@ -324,22 +335,26 @@ function Guidelime_Zarant:Vendor(args,event)
 	end
 end
 
-function Guidelime_Zarant:Trainer(args,event)
+z.eventList.Trainer = "TRAINER_SHOW,TRAINER_CLOSED"
+function Guidelime.Zarant:Trainer(args,event)
 	local id = args
 	if type(args) == "table" then
 		id = unpack(args)
 	end
 	
 	if event == "TRAINER_SHOW" then
-		if	Guidelime_Zarant.NpcId() == id then
+		if	Guidelime.Zarant.NpcId() == id then
 			self.trainer = id
 		end
 	elseif event == "TRAINER_CLOSED" and (self.trainer == id or not id) then
 		self:SkipStep()
 	end
 end
+
+
 --CHAT_MSG_SYSTEM>>SpellLearned
-function Guidelime_Zarant:SpellLearned(args,event,msg)
+z.eventList.SpellLearned = "CHAT_MSG_SYSTEM"
+function Guidelime.Zarant:SpellLearned(args,event,msg)
 	local spell = args
 	local rank
 	if type(args) == "table" then
@@ -362,10 +377,12 @@ function Guidelime_Zarant:SpellLearned(args,event,msg)
 	
 end
 
-function Guidelime_Zarant:TameBeast(args,event,target,guid,spellId)
+z.eventList.TameBeast = "UNIT_SPELLCAST_SUCCEEDED"
+function Guidelime.Zarant:TameBeast(args,event,target,guid,spellId)
 	if spellId == 1515 then
-		for i,id in ipairs(args) do
-			if id == Guidelime_Zarant.NpcId() then
+		for i,v in ipairs(args) do
+			local id = tonumber(v)
+			if id == self.NpcId(target) or id == self.NpcId() then
 				self:SkipStep()
 				return
 			end
@@ -373,7 +390,8 @@ function Guidelime_Zarant:TameBeast(args,event,target,guid,spellId)
 	end
 end
 
-function Guidelime_Zarant:BindLocation(args)
+z.eventList.BindLocation = "OnStepActivation,CHAT_MSG_SYSTEM"
+function Guidelime.Zarant:BindLocation(args)
 	local location = GetBindLocation()
 	local r
 	if args[2] then
@@ -388,7 +406,8 @@ function Guidelime_Zarant:BindLocation(args)
 	end
 end
 
-function Guidelime_Zarant:SkipGossip(args,event)
+z.eventList.SkipGossip = "GOSSIP_SHOW"
+function Guidelime.Zarant:SkipGossip(args,event)
 	
 	if event == "GOSSIP_SHOW" then
 		if #args == 0 then
@@ -425,7 +444,8 @@ function Guidelime_Zarant:SkipGossip(args,event)
 	end
 end
 
-function Guidelime_Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,id,qty,id,qty...
+z.eventList.Collect = "OnStepActivation,BAG_UPDATE"
+function Guidelime.Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,id,qty,id,qty...
 
 	if not self.id then
 		self.id = {}
@@ -477,7 +497,8 @@ function Guidelime_Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,i
 	self:UpdateStep()
 end
 
-function Guidelime_Zarant:Reputation(args) --UPDATE_FACTION>>Reputation,id,standing
+z.eventList.Reputation = "OnStepActivation,UPDATE_FACTION"
+function Guidelime.Zarant:Reputation(args) --UPDATE_FACTION>>Reputation,id,standing
 	local factionID = tonumber(args[1])
 	local goal = self.standingID[args[2]] or tonumber(args[2])
 	

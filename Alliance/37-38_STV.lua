@@ -52,9 +52,9 @@ Fly to [F Stormwind]--OnStepCompletion>>LoadNextGuide
 
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 function z:BankD_STV37() --Leftwitch's Package\\Karnitol's Satchel\\Decrypted Letter\\Letter of Commendation\\Fizzle Brassbolts' Letter\\Buzzard Wing --BANKFRAME_OPENED,BAG_UPDATE>>BankD_STV37

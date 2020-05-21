@@ -134,18 +134,20 @@ Turn in [G84.48,46.83Redridge Mountains][QT94 A Watchful Eye] at the lion statue
 [G71.40,55.07Redridge Mountains] Pet pull [QC19 Tharil'zun], kite him towards burning steppes [O]
 Do [G28.89,13.2,129Redridge Mountains][QC128 Blackrock Bounty]
 [XP27 Grind to level 27]
+Accept [G28.4,12.6Redridge Mountains][QA219][O] \\Skip this escort quest if you haven't done the bronze tube quest in Duskwood--OnStepActivation,BAG_UPDATE>>BronzeTube,1
 [OC]If you haven't found a bronze tube, run to burning steppes, die on purpose, buy a bronze tube at flame's crest and hearth back to Redridge--OnStepActivation,BAG_UPDATE>>BronzeTube
-Death skip back to lakeshire\\Turn in [G29.71,44.26Redridge Mountains][QT91 Solomon's Law]
-Turn in [G29.98,44.45Redridge Mountains][QT180 Wanted: Lieutenant Fangore]
 Turn in [G33.5,48.96Redridge Mountains][QT19 Tharil'zun]
+Turn in [QT219]
+Turn in [G29.71,44.26Redridge Mountains][QT91 Solomon's Law]
+Turn in [G29.98,44.45Redridge Mountains][QT180 Wanted: Lieutenant Fangore]
 Turn in [G31.53,57.85Redridge Mountains][QT128 Blackrock Bounty]
 Fly to [F Stormwind]--OnStepCompletion>>LoadNextGuide
 
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 function z:Bank_Duskwood24()

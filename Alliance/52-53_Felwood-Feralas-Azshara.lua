@@ -56,13 +56,13 @@ Run to Winterspring\\Turn in [QT3908] \\Accept [QA3909]
 Throw away your HS and death warp to Everlook[OC]
 [G60.38,37.92Winterspring]Stable your pet [A Hunter][OC]
 Fly to [F Felwood]
-Tame a *Felpaw Ravager*, learn bite 7 [A Hunter]
+Tame a *Felpaw Ravager*, learn bite 7 [A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,8961
 Death warp to the graveyard[OC]
-Tame an *Ironbeak Hunter* or *Angerclaw Mauler* and learn claw 7 [OC][A Hunter]
+Tame an *Ironbeak Hunter* or *Angerclaw Mauler* and learn claw 7 [OC][A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,7099,8958
 
 [G40.84,66.78,40Felwood] Run south to the slime pond\\Death warp to southern felwood[OC]
 Turn in [QT4101]
-[G16.27,99.89,20Winterspring]Make sure you have a Cenarion Beacon[O] --BAG_UPDATE>>Beacon_Felwood52
+[G16.27,99.89,20Winterspring]Make sure you have a Cenarion Beacon[O] --BAG_UPDATE>>Collect,11511,1
 Turn in [QT5157] \\Accept [QA5158]
 Turn in [QT939] \\Accept [QA4441] \\Turn in [QT4906]
 Turn in [QT5156]
@@ -76,7 +76,7 @@ Fly to [F Feathermoon]--OnStepCompletion>>LoadNextGuide
 
 Guidelime.registerGuide([[
 [N52-53Feralas]
-[NX53-54Azshara]
+[NX53-53Azshara]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 
@@ -117,7 +117,7 @@ Fly to [F Ratchet]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 Guidelime.registerGuide([[
-[N53-54Azshara]
+[N53-53Azshara]
 [NX53-54Un'Goro Crater]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
@@ -160,9 +160,9 @@ Accept [QA4502]
 Fly to [F Tanaris]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
-if not Guidelime_Zarant then return end
+if not Guidelime.Zarant then return end
 
-local z = Guidelime_Zarant
+local z = Guidelime.Zarant
 
 
 --asdiojaosibjd--<
@@ -189,12 +189,6 @@ function z:BankW_Felwood52()  --Jer'kai's Signet Ring\\Raschal's Report\\Insect 
 	end
 	
 	z.WithdrawItems(items)
-end
-
-function Beacon_Felwood52()--Cenarion Beacon[O] --BAG_UPDATE>>Beacon_Felwood52
-	if z.IsItemInBags(11511) then
-		z.SkipStep(self)
-	end
 end
 
 function z:BankW_Azshara53()  --Drawing Kit\\Flare Gun --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Azshara53
@@ -233,7 +227,7 @@ function z:BankW_Feralas52()
 	z.WithdrawItems(items)
 end
 
-function z:BankD_Azshara52() --Drawing kit\\Purified Moonwell Water --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Azshara53
+function z:BankD_Azshara53() --Drawing kit\\Purified Moonwell Water --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Azshara53
 	--local items = {"Drawing Kit","Purified Moonwell Water"}
 	local items = {10445,12906}
 	
