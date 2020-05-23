@@ -11,7 +11,7 @@ Turn in [QT4512]
 Turn in [QT3461]
 [G18.54,51.66Ironforge][S]Set your HS to Ironforge
 Accept [QA3702] pt.1
-[QC3702-]Listen to her story
+[QC3702-]Listen to her story-->>SkipGossip,8879
 Turn in [QT3702] pt.1\\Accept [QA3701] pt.2
 Fly to [F Bunring Steppes]
 Accept [QA3823] \\Accept [QA4283]
@@ -25,7 +25,7 @@ Finish off [QC4182]
 Turn in [QT3823] \\Accept [QA3824]
 Turn in [QT4182] \\Accept [QA4183]
 [QC3701-][O]Right click on the small stone obelisks on the ground
-[G54.06,40.71Burning Steppes][QC4296-]Transcribe the tablet
+[G54.06,40.71Burning Steppes][QC4296-]Transcribe the tablet-->>SkipGossip
 [QC4283-][OC]Kill orcs
 Do [G38.89,54.73 Burning Steppes][QC3824]
 Finish off [QC4283]
@@ -44,7 +44,7 @@ Turn in [QT4186] \\Accept [QA4223]
 Fly to [F Burning Steppes]
 Turn in [QT4223] \\Accept [QA4224]
 Turn in [QT4726] \\Accept [QA4808] \\Turn in [QT4296]
-[QC4224-]Talk to Ragged John
+[QC4224-]Talk to Ragged John-->>SkipGossip,9563
 [G81.04,46.71 Burning Steppes][QC3825-]Click on the dirt mound on top of the mountain
 Turn in [QT3825]
 Turn in [QT4224]

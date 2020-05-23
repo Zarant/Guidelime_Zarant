@@ -97,6 +97,7 @@ Finish off [QC4864 Enraged Wildkin]
 [G59.52,75.23Winterspring][QC4842-]Run south to Darkwhisper Gorge
 [H]Hearth to Everlook [OC]
 Turn in [QT3783 Are We There, Yeti?]
+Turn in [QT969]
 Turn in [QT4864 Enraged Wildkin]
 [QC5087-]Use eagle eye to find the Winterfall Runners
 Turn in [QT4842 Strange Sources] \\Turn in [QT5087 Winterfall Runners] \\Accept [QA5121 High Chief Winterfall]

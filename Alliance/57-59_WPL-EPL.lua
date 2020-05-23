@@ -75,7 +75,7 @@ Turn in [QT6164 Augustus' Receipt Book]
 [G21.79,40.34 Eastern Plaguelands]Use noggenfogger to slow fall to the other side
 Turn in [QT5542 Demon Dogs] \\Turn in [QT5543 Blood Tinged Skies] \\Turn in [QT5544 Carrion Grubbage] 
 Accept [QA5742 Redemption] 
-[QC5742-]Sit down and listen to his story
+[QC5742-]Sit down and listen to his story-->>SkipGossip,5742
 Turn in [QT5742 Redemption] \\Accept [QA5781 Of Forgotten Memories]
 Enter the crypt and slay [QC6021 Zaeldarr the Outcast]
 Click on the scroll on the ground\\Accept [QA6024 Hameya's Plea]

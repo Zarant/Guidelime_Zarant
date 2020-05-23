@@ -120,7 +120,7 @@ Buy a mount[OC]
 
 
 
-[G26.19,67.51Feralas]Head back to the naga cave and grind to level [XP48.55 48 + 50%] (10 bars)
+[G26.19,67.51Feralas]Head back to the naga cave and grind to level [XP48.5 48 + 50%] (10 bars)
 [H]Hearth back to feathermoon
 Turn in [QT2982 The High Wilderness] \\Accept [QA3445 The Sunken Temple]
 Turn in [QT2821 The Mark of Quality]

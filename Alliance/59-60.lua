@@ -30,7 +30,7 @@ Head south to Frowstwhisper Gorge\\Do [QC969]
 Turn in [QT977] \\Accept [QA5163]
 [QC5163,1-]Use the Mechanical Yet on Legacki
 Turn in [QT969]
-[V][O]Withdraw the following: \\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head
+[V][O]Withdraw the following: \\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring59
 Turn in [QT5121] \\Turn in [QT5123] \\Accept [QA5128]
 
 
@@ -74,12 +74,11 @@ Collect [QC8277,1-][O]Stonelash Scorpid Stinger (x8)\\
 Collect [QC8277,2-][O]Sand Skitterer Fang (x8)
 --
 
-Do [QT1125][OC]
 [G63.22,55.35 Silithus][QC5527-]Click on the small urn inside the lodge
 Finish off [QC1125]
 Turn in [QT1125] \\Accept [QA1126]
-[G60.22,52.55 Silithus][QC1126-]Click on the object at the top of the tower\\Kill the 2 ambushers that spawn after clicking it
-Turn in [QT1126] \\Accept [QA6844] --Hive in the Tower
+[G60.22,52.55 Silithus][QC1126-]Clear the 3 bugs that spawn at the base of the tower\\Click on the object at the top of the tower\\Kill the 2 ambushers that spawn after clicking it
+Turn in [QT1126] \\Accept [QA6844]--Hive in the Tower
 
 --Phase 4
 [O]From this point forward, stop questing in silithus and skip straight to the part 2 of this guide once you have enough XP to ding from turn ins\\You need about 55k xp total, assuming you haven't skipped any quests--PLAYER_XP_UPDATE,QUEST_LOG_UPDATE,OnStepActivation,OnStepCompletion>>XpTo60,Stop questing in Silithus and skip straight to the part 2 of this guide once you have enough XP
@@ -188,7 +187,31 @@ local z = Guidelime.Zarant
 local IsOnQuest = C_QuestLog.IsOnQuest
 --local IsQuestFlaggedCompleted = C_QuestLog.IsQuestFlaggedCompleted
 
+local function FormatNumber(number,precision)
+	if not precision then
+		precision = 0
+	end
+	local integer = math.floor(number)
+	local decimal = math.floor((number-integer)*10^precision+0.5)
+	if decimal > 0 then
+		decimal = '.'..tostring(decimal)
+	else
+		decimal = ""
+	end
+	integer = tostring(integer)
+	local i = #integer % 3
+	if i == 0 then
+		i = 3
+	end
 
+	local suffix = string.sub(integer,i+1)
+	integer = string.sub(integer,1,i)
+
+	for n in string.gmatch(suffix,"%d%d%d") do
+		integer = integer..","..n
+	end
+	return integer..decimal
+end
 
 function z:XpTo60(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 	if UnitLevel("player") ~= 59 or event == "OnStepCompletion" then
@@ -241,15 +264,15 @@ function z:XpTo60(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 
 	local missingXP = UnitXPMax("player") - UnitXP("player") - self.questXP
 	if missingXP <= 0 then
-		z:SkipStep()
+		self:SkipStep()
 		return
 	end
 	
 	local text = args[1] or ""
 	local element = self.step.elements[#self.step.elements]
 	
-	
-	element.text = string.format("%s\nYou have %.2fk XP worth of quest turn ins\n    XP needed to level 60: %d",text,self.questXP/1000.0,missingXP)
+	local questXP = FormatNumber(self.questXP)
+	element.text = string.format("%s\nYou have %s XP worth of quest turn ins outside Silithus\n    XP needed: %s + %s",text,questXP,FormatNumber(missingXP),questXP)
 
 
 	self:UpdateStep()
