@@ -4,14 +4,26 @@ Guidelime.registerGuide([[
 [NX44-48Feralas]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-
+Head to Ratchet[OC]
+[A Warlock]Turn in [QT4962]--shard of a felhound
+[A Warlock]Set your Hearthstone to [S Ratchet]
+Fly to [F Theramore]
 
 [L67.76,48.97Dustwallow Marsh][QA6624-][O][QT6624-][O]Do the First Aid quest if applicable\\(Requires 225 First Aid)
 Turn in [QT623 Akiris by the Bundle]
 Turn in [QT1258 ... and Bugs]
-[S]Set your HS to theramore
-[G55.62,50.11Dustwallow Marsh]Swim to the hill west \\Turn in [G31.10,66.14Dustwallow Marsh][QT625] \\Accept [QA626]
-[H]Hearth back to theramore [OC]
+[A Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior][S]Set your HS to theramore
+[A Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior][G55.62,50.11Dustwallow Marsh]Swim to the hill west \\Turn in [G31.10,66.14Dustwallow Marsh][QT625] \\Accept [QA626]
+
+[A Warlock][G55.62,50.11Dustwallow Marsh]Swim to the hill west \\[G46.0,57.0Dustwallow Marsh]Turn in [QT1799]
+[A Warlock]Accept [QA4961]
+[A Warlock]Do [QC4961
+[A Warlock]Turn in [QT4961] \\Accept [QA4976]
+
+
+[H]Hearth back[OC]
+[A Warlock]Turn in [QT4976]
+[A Warlock]Accept [QA4964]\\Wait for the RP sequence to end\\Turn in [QT4964]
 Fly to [F Tanaris]
 
 Accept [QA1690 Wastewander Justice] \\Accept [QA1707 Water Pouch Bounty]
@@ -55,6 +67,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
 There is A LOT of grinding required in this segment, you can substitute some of that for ZF/Maraudon or even Uldaman runs [O]
+[A Human,Dwarf,Gnome][O]Once you get to 100g, use the battle.net website unstuck service to teleport to SW, buy a mount and then hearth back
 [L31.6,43.2Feralas][O][A Hunter]Stable your pet[OC]
 [O][A Hunter]Tame a wolf south of Feathermoon Stronghold and learn Bite 6--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,5286
 [V]Restock on supplies, very long grinding session ahead\\Buy 5 stacks of food/water\\Make sure you have 25 stacks of ammo[O]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
@@ -68,6 +81,7 @@ Turn in [QT2867] \\Accept [QA3130 Against the Hatecrest] \\Turn in [QT3130 Again
 Do [QC2869 Against the Hatecrest]
 Turn in [QT2869 Against the Hatecrest] \\Accept [QA2870 Against Lord Shalzaru]
 Enter the naga cave and do [QC2870 Against Lord Shalzaru]
+Grind mobs until you find a Distress Beacon\\Accept [QA2766]
 [XP46 Grind to level 46]
 [G38.72,75.07,20Feralas]Exit the naga cave and head towards the ocean
 [G41.24,74.54,20Feralas]Swim across
@@ -112,15 +126,15 @@ Turn in [QT2940 Feralas: A History] \\Accept [QA2941 The Borrower]
 Head to the temple of the mooon\\Turn in [QT4267]
 Turn in [QT2972]
 [T]Train skills in Darnassus [A NightElf][OC]
-Fly to [F Darkshore][A Human,Dwarf,Gnome]
-Take the boat to Menethil [OC][A Human,Dwarf,Gnome]
-Fly to [F Ironforge][A Human,Dwarf,Gnome]
+
+
 Buy a mount[OC]
 [H]Hearth back to Feralas
 
 
 
-[G26.19,67.51Feralas]Head back to the naga cave and grind to level [XP48.5 48 + 50%] (10 bars)
+[A Hunter][G26.19,67.51Feralas]Head back to the naga cave and grind to [XP48.35 level 48 + 35%] (7 bars)
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][G26.19,67.51Feralas][XP48 Head back to the naga cave and grind to level 48]
 [H]Hearth back to feathermoon
 Turn in [QT2982 The High Wilderness] \\Accept [QA3445 The Sunken Temple]
 Turn in [QT2821 The Mark of Quality]

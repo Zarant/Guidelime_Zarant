@@ -77,8 +77,8 @@ Turn in [QT2438 The Emerald Dreamcatcher] \\Accept [QA2459 Ferocitas the Dream E
 
 Guidelime.registerGuide([[
 [N6-12Teldrassil part 2]
-[NX11-14Dun Morogh/Loch Modan]
-[NX11-16Darkshore]
+[NX11-15Dun Morogh/Loch Modan]
+[NX11-16Darkshore part 1]
 [GA NightElf]
 [D Alliance Hunter Leveling Guide]
 
@@ -159,14 +159,14 @@ Unstuck back to the graveyard[OC]
 [OC][G60.29,66.72Darnassus][V]Buy water/food --MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor,4169
 [G57.55,46.73Darnassus][T]Train staves --TRAINER_CLOSED,TRAINER_SHOW>>Trainer
 
-You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Skip this step and start the Darkshore part of the guide (slightly more grindier)\\ \\Loch Modan segment has slightly worse XP/hr but you save time later by getting early FPs.
+You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Skip this step and start the Darkshore part of the guide (less quests, you have to grind more)\\ \\Loch Modan segment has slightly worse XP/hr but you save time later by getting early FPs.
 ]], "Zarant")
 
 
 Guidelime.registerGuide([[
 [N1-11Teldrassil HC]
-[NX11-14Dun Morogh/Loch Modan]
-[NX11-16Darkshore]
+[NX11-15Dun Morogh/Loch Modan]
+[NX11-16Darkshore part 1]
 [GA NightElf]
 [D This route is slightly slower since it doesn't use any form of death skipping]
 

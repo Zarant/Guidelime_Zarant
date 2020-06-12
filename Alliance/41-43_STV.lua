@@ -12,16 +12,16 @@ Turn in [QT542 Return to Milton]
 Accept [QA1363 Mazen's Behest] pt.1\\Run upstairs and turn in [QT1363 Mazen's Behest] pt.1\\Accept [QA1364 Mazen's Behest] pt.2
 Accept [QA1477 Vital Supplies] at the mage tower
 --Enter the portal and accept [QA2861 Tabetha's Task] at the mage trainer
---Accept [QA212 A Meal Served Cold]
---[G53.57,64.79Stormwind City][S]Set your HS to Stormwind
---Fly to [F Westfall]
---Run to STV\\Accept [QA193 Panther Mastery] \\Accept [QA196 Raptor Mastery]
---[QC212-]Kill Cold Eye Basilisks
-
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Accept [QA212 A Meal Served Cold]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][G53.57,64.79Stormwind City][S]Set your HS to Stormwind
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Fly to [F Westfall]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Run to STV\\Accept [QA193 Panther Mastery] \\Accept [QA196 Raptor Mastery]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC212-]Kill Cold Eye Basilisks
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][OC]Do the raptor mastery quest and turn it in if you have time to spare\\Stop questing if the timer is <5 mins
 
 --Accept [QA205 Troll Witchery] \\Accept [QA202 Colonel Kurzen]
---[H]Hearth to Stormwind
---Turn in [QT212 A Meal Served Cold]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][H]Hearth to Stormwind
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT212 A Meal Served Cold]
 
 
 Fly to [F Booty Bay]
@@ -47,6 +47,7 @@ Accept [QA576 Keep An Eye Out]
 
 Do [G33.58,66.24,150Stranglethorn Vale][QC606 Scaring Shaky] \\Save Gorilla Fangs for later
 Do [QC196] --Raptor mastery 3
+[QC197-][OC]Kill Tethis if you have the associated quest, skip this step otherwise
 Do [G41.65,43.69,185Stranglethorn Vale][QC600 Venture Company Mining]
 [G45.7,32.62,135Stranglethorn Vale][QC205 -]Kill doctors/mystics \\[G45.3,42.41,152Stranglethorn Vale][QC209 -]Gather Skullsplitter Tusks
 [G49.6,24.02,30Stranglethorn Vale][QC193 -] Look for Bhag'thera with eagle eye \\You can found it either north or west of the ogre mound
@@ -112,8 +113,8 @@ Accept [QA2872]
 Turn in [QT609 Voodoo Dues]
 Turn in [QT576 Keep An Eye Out]
 
-Take the Boat to Ratchet\\Train first aid while you wait for the boat[OC]
-Fly to [F Theramore]--OnStepCompletion>>LoadNextGuide
+Take the Boat to Ratchet-->>ZoneSkip,The Barrens,1
+
 
 ]], "Zarant")
 

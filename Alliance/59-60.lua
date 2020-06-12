@@ -25,7 +25,9 @@ Accept [QA977]
 Do [QC5121]
 Loot the Crudely-written Log from the High Chief\\Accept [QA5123]
 Do [QC977]
-Head south to Frowstwhisper Gorge\\Do [QC969]
+Start the escort quest\\Accept [QA4901]
+[QC4901-]Escort Ranshalla and click on the torches once she enters one of the caves
+Head south to Frowstwhisper Gorge\\Do [QC969] \\The elite giants are immune to frost, not every class can solo this quest
 [H]Hearth to Everlook - Do not skip this step
 Turn in [QT977] \\Accept [QA5163]
 [QC5163,1-]Use the Mechanical Yet on Legacki
@@ -152,9 +154,12 @@ Turn in [G44.87,35.62Moonglade][QA1185-][QT1185] (3000xp) --Under the Chitin Was
 [O]Fly to Felwood ang grind fulborgs if you don't have enough XP to ding 60 from quest turn ins in Darnassus--PLAYER_XP_UPDATE,QUEST_LOG_UPDATE,OnStepActivation,OnStepCompletion>>XpTo60,Grind Fulborgs in northern felwood until you have enough XP
 [XP60-14490 Assuming you didn't skip any quests you need to grind until you are 14.5k experience away from level 60]
 Fly to [F Teldrassil]
+Turn in [QT4901] (4800xp)
+Accept [QA4902]
 Turn in [G41.85,85.64Darnassus][QT4508] (540xp) \\Accept [QA4510] --Calm Before the Storm part 1
 Turn in [QT4510] (8150xp) --Calm Before the Storm part 2
 Turn in [QT4986] at the middle floor (5800xp) --Glyphed Oaken Branch
+Turn in [QT4902] at the top floor (6000xp)
 ]], "Zarant")
 
 

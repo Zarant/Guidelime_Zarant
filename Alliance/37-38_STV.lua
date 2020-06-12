@@ -1,19 +1,25 @@
 
 Guidelime.registerGuide([[
-[N37-38STV(2)]
+[N36-38STV(2)]
 [NX38-39Swamp of Sorrows]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
-[V][O]Deposit the following items:\\Leftwitch's Package\\Karnitol's Satchel\\Decrypted Letter\\Letter of Commendation\\Fizzle Brassbolts' Letter\\Buzzard Wing --BANKFRAME_OPENED,BAG_UPDATE>>BankD_STV37
+[T][O]If you used the unstuck feature to SW, remember to train your level 36 spells
+[V][O]Deposit the following items:\\Karnitol's Satchel\\Decrypted Letter\\Letter of Commendation\\Fizzle Brassbolts' Letter\\Buzzard Wing --BANKFRAME_OPENED,BAG_UPDATE>>BankD_STV37
 [V][O]Withdraw *Small Brass Key* from your bank (if you have it)\\Make sure you have water breathing pots for this segment --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV37
 [S]Set your HS to Booty Bay[OC]
 Turn in [QT1115 The Rumormonger][OC]
 Accept [QA189 Bloodscalp Ears] \\Accept [QA601 Water Elementals] \\Accept [QA577 Some Assembly Required] --should have it form the previous segment
-[S][O]Make sure to set your HS to Booty Bay\\*OR*\\Set your HS to Darkshire if you used the unstuck self service to teleport to SW
-Fly to [F Duskwood]
+[S][O]Make sure to set your HS to Booty Bay\\*OR*\\Set your HS to Duskwood or Westfall if you used the unstuck self service to teleport to SW
+Fly to [F Westfall][OC]
+Turn in [QT325] \\Accept [QA55]
+Do [QC228]\\He patrols around the northern side of the graveyard[O]
+Do [QC55]\\Use the off-hand weapon provided to remove his shield
+Turn in [QT55]
+[A Hunter]Fly to [F Duskwood]-->>ZoneSkip,Duskwood
 
-[G38.0,3.0Stranglethorn Vale]Accept [QA200 Bookie Herod][O]
 Run to STV\\Accept [QA574 Special Forces] \\Accept [QA207 Kurzen's Mystery]
+Accept [QA200 Bookie Herod][O]
 Accept [QA192 Panther Mastery] \\Accept [QA195 Raptor Mastery] \\Accept [QA188 Tiger Mastery]--should have it from the previous segment
 Click on the pile of books upstairs \\Turn in [QT200 Bookie Herod] \\Accept [QA328 The Hidden Key]
 Turn in [QT328 The Hidden Key] \\Accept [QA329 The Spy Revealed!]
@@ -32,7 +38,8 @@ Finish off [QC189 Bloodscalp Ears]
 Do [QC601 Water Elementals]
 [QC207,2-]Loot the second tablet underwater
 [O]Collect 9 *Blue Pearls* from the clams around the coral reef--OnStepActivation,BAG_UPDATE>>Collect,4611,9
-Kill Murlocs for [QC1107-]Encrusted Tail Fins
+[A Hunter]Kill Murlocs for [QC1107-]Encrusted Tail Fins
+[XP38-18640 Grind until you are 18,600 xp away from level 38]
 Kill yourself, spirit rez [OC]
 Turn in [QT207 Kurzen's Mystery] \\Accept [QA205 Troll Witchery]
 Turn in [QT329 The Spy Revealed!] \\Accept [QA330 Patrol Schedules]
@@ -40,7 +47,7 @@ Turn in [QT574 Special Forces] \\Accept [QA202 Colonel Kurzen]
 Turn in [QT330 Patrol Schedules] \\Accept [QA331 Report to Doren]
 Turn in [QT331 Report to Doren]
 Turn in [QT188 Tiger Mastery] \\Turn in [QT195 Raptor Mastery] \\Accept [QA196 Raptor Mastery] \\Turn in [QT192 Panther Mastery] \\Accept [QA193 Panther Mastery]
-[H]Use your HS back to Booty Bay or Darkshire
+[H]Use your Hearthstone
 [O]Fly to [F Booty Bay]--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Stranglethorn Vale
 Turn in [QT1115 The Rumormonger] \\Accept [QA1116 Dream Dust in the Swamp] \\Turn in [QT189 Bloodscalp Ears]
 Turn in [QT601 Water Elementals] \\Accept [QA602 Magical Analysis]

@@ -27,7 +27,7 @@ Run to Thousand Needles \\Click on the book next to the dead dwarf \\Accept [G30
 [G89.50,45.85Feralas] Get the [P Thalanaar] FP
 
 Turn in [QT1100 Lonebrow's Journal] 
-
+Turn in [QT1059]
 Do [QC1135 Highperch Venom]
 Talk to Kravel Koalbeard\\Accept [QA1110 Rocket Car Parts] \\Skip the other 2 quests from this quest giver
 Talk with the gnome brothers\\Accept [QA1104 Salt Flat Venom] \\Turn in [QT1179 The Brassbolts Brothers] \\Accept [QA1105 Hardened Shells]
@@ -48,12 +48,17 @@ Turn in [QT1259 Lieutenant Paval Reethe] \\Accept [QA1285 Daelin's Men]
 Turn in [QT1285 Daelin's Men]
 Turn in [QT1319 The Black Shield] \\Accept [QA1320 The Black Shield]
 Turn in [QT1320 The Black Shield]
-[G51.71,14.43,25Dustwallow Marsh]Grind your way northwest towards Ratchet
+[A Warlock]Fly to [F Ratchet]
+[A Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior][G51.71,14.43,25Dustwallow Marsh]Grind your way northwest towards Ratchet
 [V][O]Deposit the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head --BANKFRAME_OPENED,BAG_UPDATE>>Bank_1kN33
-Unstuck to Ratchet once you get to The Barrens[OC]
-Get the [P Ratchet] FP
+[A Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior]Unstuck to Ratchet once you get to The Barrens[OC]
+[A Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior]Get the [P Ratchet] FP
 Turn in [QT1178 Goblin Sponsorship] \\Accept [QA1180 Goblin Sponsorship]
+[A Warlock]Turn in [QT4736][OC]
+[A Warlock]Turn in [QT4738]
+[A Warlock]Turn in [QT1798] \\Accept [QA1758]
 Turn in [QT1111 Wharfmaster Dizzywig] \\Accept [QA1112 Parts for Kravel]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT1039] \\Accept [QA1040]
 
 Take the Boat to Booty Bay--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,1413,1
 

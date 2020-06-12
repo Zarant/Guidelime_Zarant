@@ -20,7 +20,7 @@ Turn in [QT2944] \\Accept [QA2943]
 Turn in [QT162]\\Accept [QA4493]
 Turn in [QT4267]
 Turn in [QT2972]
-Accept [QA978]
+Accept [QA978] \\If you are not yet level 52, skip this step
 
 Fly to [F Ashenvale]
 Run to Felwood [OC]
@@ -52,7 +52,7 @@ Do [G56.1,17.0,70Felwood][QC4101]
 [G62.50,24.24Felwood]Get the [P Felwood] FP
 Turn in [QT8462]
 Run to Winterspring\\Turn in [QT3908] \\Accept [QA3909]
-[QC978-]Look for Moontouched feathers on the ground
+[QC978-]Look for Moontouched feathers on the ground\\Skip this step if you don't have this quest
 Throw away your HS and death warp to Everlook[OC]
 [G60.38,37.92Winterspring]Stable your pet [A Hunter][OC]
 Fly to [F Felwood]
@@ -67,9 +67,6 @@ Turn in [QT5157] \\Accept [QA5158]
 Turn in [QT939] \\Accept [QA4441] \\Turn in [QT4906]
 Turn in [QT5156]
 
---35%
-Run southeast to Azshara[OC]
-[G11.90,77.57Azshara]Get the [P Azshara] flight path
 [H]Hearth to Darkshore
 Fly to [F Feathermoon]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")

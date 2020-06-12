@@ -6,6 +6,8 @@ Guidelime.registerGuide([[
 [D Alliance Hunter Leveling Guide]
 Take the boat to Wetlands[OC]
 Fly to [F Ironforge]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
+
 Turn in [QT4512]
 --Accept [QA4513]--slime pt.2, unused
 Turn in [QT3461]

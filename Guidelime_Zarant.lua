@@ -8,6 +8,7 @@ Guidelime.Zarant = {}
 Guidelime.Zarant.__index = Guidelime.Zarant
 Guidelime.Zarant.Modules = {}
 Guidelime.Zarant.eventList = {}
+Guidelime.Zarant.addonTable = addon
 
 local z = Guidelime.Zarant
 local parseLineOLD = addon.parseLine
@@ -220,12 +221,16 @@ function Guidelime.Zarant.IsQuestComplete(id)
 	end
 end
 
+
+
+z.eventList.LoadNextGuide = "OnStepCompletion"
 function Guidelime.Zarant:LoadNextGuide(n)
 	--print('a')
 	if type(n) == "table" then
 		--print(#n)
 		n = unpack(n)
 	end
+	n = tonumber(n)
 	--print(self.guide.next, #self.guide.next)
 	if not self.guide.next or (not n and #self.guide.next > 1) or #self.guide.next == 0 then
 		return

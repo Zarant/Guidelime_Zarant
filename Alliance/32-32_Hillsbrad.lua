@@ -4,6 +4,18 @@ Guidelime.registerGuide([[
 [NX33-34Thousand Needles]
 [GA Alliance]
 [D Alliance Hunter Leveling Guide]
+Head to Menethil Harbor\\Turn in [QT1301 James Hyal] pt.1 \\Accept [QA1302 James Hyal] pt.2
+Turn in [QT1248 The Missing Diplomat] pt.10\\Accept [QA1249 The Missing Diplomat] pt.11
+[QC1249 -] Go outside and defeat Tapoke Jahn
+Turn in [QT1249 The Missing Diplomat] pt.11
+Accept [QA1250 The Missing Diplomat] pt.12
+Turn in [QT1250 The Missing Diplomat] pt.12\\Accept [QA1264 The Missing Diplomat] pt.13
+Turn in [QT270] \\Accept [QA321]--Doomed fleet/lightforge iron
+Turn in [G12.1,64.19,20Wetlands][QT321 Lightforge Iron] \\Accept [QA324 The Lost Ingots]
+[G9.54,69.7,180Wetlands][QC324 -] Kill murlocs
+Turn in [G10.58,60.59,20Wetlands][QT324 The Lost Ingots] \\Accept [QA322 Blessed Arm]
+Fly to [F Southshore]
+
 As you quest through Hillsbrad pay attention to the syndicate assassin event in southshore \\If you manage to kill an assassin, turn in the [QA522-][O][QT522 Assassin's Contract][O] and skip the follow up
 Fly to Southshore[OC]
 Accept [G52.41,55.96,20Hillsbrad Foothills][QA564 Costly Menace]
@@ -40,14 +52,16 @@ Fly to [F Arathi Highlands]
 Accept [G45.83,47.55,20Arathi Highlands][QA681 Northfold Manor]
 Turn in [G46.65,47.01,20Arathi Highlands][QT690 Malin's Request]
 Turn in [G60.18,53.84,20Arathi Highlands][QT659 Hints of a New Plague?] \\Accept [QA658 Hints of a New Plague?]
-[QC658 -][O] Use eagle eye to find the Forsaken Courier\\If the courier is not in Arathi, look for it in Hillsbrad after finishing Northfold Manor
+[A Hunter][QC658 -][O] Use eagle eye to find the Forsaken Courier\\If the courier is not in Arathi, look for it in Hillsbrad after finishing Northfold Manor
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC658-][O]Kill the Forsaken courier if you happen to bump into it. She patrols the road between Tarren Mill and Go'Shek Farm
 Do [QC681 Northfold Manor]
-Hearth back to [H Southshore][OC]
+[A Hunter]Hearth back to [H Southshore][OC]
 *Stable your pet* [A Hunter]
-Fly to [F Arathi Highlands][OC]
+[A Hunter]Fly to [F Arathi Highlands][OC]
 Turn in [G45.83,47.55,20Arathi Highlands][QT681 Northfold Manor]
 Use eagle eye to find a level 32/33 spider \\Tame it and learn Bite rank 5 [O][A Hunter]
-Turn in [QT658]
+Turn in [QT658] \\Don't go out of your way to find the courier, you can skip this step and finish it later
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][H]Hearth to Southshore if you are far away from the Flight Path[OC]
 Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 

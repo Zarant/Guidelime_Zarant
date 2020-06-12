@@ -78,17 +78,30 @@ Find the steel ramp that leads to the 2nd floor\\Pull mobs away with your pet\\[
 Finish off [QC7729 JOB OPPORTUNITY: Culling the Competition] \\[QC3443-]Loot 8 Thorium Plated Daggers
 Keep grinding dwarves until you get the Grimesilt Outhouse Key \\Accept [QA4451 The Key to Freedom]
 [QC7727-]Kill Incendosaurs
+
+Turn in [QT3443 Forging the Shaft] \\Accept [QA3452]
+Do [QC3452][OC]
+Turn in [QT3452]\\Skip this step if you are having trouble soloing the elite mobs
+Accept [QA3453] \\Turn in [QT3453] \\Stay next to the NPC while the RP event is going \\ \\Accept [QA3454]
+Click on the Torch of Retribution\\Turn in [QT3454] 
+Accept [QA3462] \\Turn in [QT3462] \\Accept [QA3463]
+[QC3463,4-]Set the first tower ablaze by equipping the Torch of Retribution and clicking on the brazier at the top of the tower
+[QC3463,1-]Set the western tower on fire
+[QC3463,2-]Set the third tower on fire
+
 Turn in [QT4451 The Key to Freedom] \\Accept [QA4449 Caught!] 
+[G50.1,54.7Searing Gorge][QC3463,3-][O]Set the fourth tower on fire
+[G72.20,73.64,20Searing Gorge][O]Kill Margol the Rager\\Loot *Margol's Horn* and right click it\\Accept [QA3181 The Horn of the Beast]
 Do [QT4449 Caught!]
 Turn in [QT4449 Caught!]
-[G72.20,73.64,20Searing Gorge]Kill Margol the Rager\\Loot *Margol's Horn* and right click it\\Accept [QA3181 The Horn of the Beast]
 Start the escort quest \\Accept [QA3367 Suntara Stones]
 [QC3367-]Escort Dorius
 Click on the singed letter on the ground\\Turn in [QT3367 Suntara Stones] pt.1\\Accept [QA3368 Suntara Stones] pt.2
+[L38.9,39.0Searing Gorge]Turn in [QT3463][O] \\Accept [QA3481][O]\\ \\Open the Hoard of the Black Dragonflight and keep the Black Dragonflight Molt
 [V][O][A Hunter]Buy a few extra stacks of ammo for the next segment
 
-Turn in [QT3443 Forging the Shaft]
 Turn in [QT7727 Incendosaurs? Whateverosaur is More Like It] \\Turn in [QT7729 JOB OPPORTUNITY: Culling the Competition] \\Turn in [QT7722 What the Flux?]
+
 Fly to [F Loch Modan]
 Turn in [QT3181 The Horn of the Beast] \\Accept [QA3182 Proof of Deed]
 [H][OC]Hearth to Stormwind \\Skip this step if your HS is not set to Stormwind
@@ -112,7 +125,12 @@ Turn in [L51.98,35.65Blasted Lands][QA3501-][O][QT3501 Everything Counts In Larg
 Turn in [QA2585-][QT2585] once you have:\\3 Scorpok Pincer\\2 Vulture Gizzard\\1 Blasted Boar Lung
 [OC]Collect the following items:\\    12 Vulture Gizzard\\    11 Basilisk Brain\\    3 Scorpok Pincer\\    5 Blasted Boar Lung\\    5 Snickerfang Jowl --BAG_UPDATE,OnStepActivation>>BlastedLandsQuests
 Turn in [QA2583-][QT2583 A Boar's Vitality] \\Turn in [QA2581-][QT2581 Snickerfang Jowls] \\Turn in [QA2601-][QT2601 The Basilisk's Bite] \\Turn in [QA2603-][QT2603 Vulture's Vigor]
-
+Fly to [F Redridige]
+Head to Burning Steppes\\Accept [QA3823]
+Get the [P Burning Steppes] FP
+[L94.4,31.8Burning Steppes]Turn in [QA4022-][O][QT4022][O] if you have a *Black Dragonflight Molt* in your bags, skip this step if you don't--OnStepActivation,BAG_UPDATE>>DragonflightMolt
+Do [QC3823]
+Turn in [QT3823]
 [H]Hearth back to Stormwind
 [V][O]Withdraw the following items from your bank:\\Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather--BANKFRAME_OPENED,BAG_UPDATE>>BankW_BL51
 [G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][O][QT7791-][O]Wool \\[QA7793-][O][QT7793-][O]Silk \\[QA7794-][O][QT7794-][O]Mageweave
@@ -141,6 +159,12 @@ Fly to [F Western Plaguelands]--OnStepCompletion>>LoadNextGuide
 if not Guidelime.Zarant then return end
 
 local z = Guidelime.Zarant
+
+function z:DragonflightMolt()
+	if GetItemCount(10575) == 0 then
+		self:SkipStep()
+	end
+end
 
 function z:BankW_BL51()  --Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV49
 	--local items = {"Super Snapper FX","Snapshot of Gammerita","Wildkin Feather"}

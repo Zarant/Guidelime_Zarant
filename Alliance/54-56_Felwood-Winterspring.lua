@@ -30,6 +30,10 @@ Keep grinding fulborgs until you get an *Empty Firewater Flask*\\Accept [QA5083 
 Turn in [QT5082 Threat of the Winterfall] \\Turn in [QT5083 Winterfall Firewater] \\Accept [QA5084 Falling to Corruption]
 Run back to Felwood\\Turn in [QT5084 Falling to Corruption] \\Accept [QA5085 Mystery Goo]
 Run back to Winterspring\\Turn in [QT5085 Mystery Goo] \\Accept [QA5086 Toxic Horrors]
+[QC978-]Look for blue feathers on the ground
+[A Hunter]Death skip to everlook[OC]
+[A Hunter]Fly to [F Teldrassil][OC]
+[A Hunter]Turn in [QT978] \\Accept [QA979]
 [H]Hearth to Ratchet
 
 Fly to [F Tanaris]
@@ -61,6 +65,7 @@ Do [G49.52,25.10,90Felwood][QC5086 Toxic Horrors]
 [G65.4,7.1,80Felwood]Go to Winterspring through the fulborg tunnel
 
 Run to Winterspring\\Turn in [QT5086 Toxic Horrors] \\Accept [QA5087 Winterfall Runners]
+
 [QC5087-][O]Look for winterfall runners as you quest
 Turn in [QT5250 Starfall] \\Accept [QA5244 The Ruins of Kel'Theril]
 Accept [QA4861 Enraged Wildkin] \\Turn in [QT5244 The Ruins of Kel'Theril] \\Accept [QA5245 Troubled Spirits of Kel'Theril]
@@ -80,24 +85,25 @@ Guidelime.registerGuide([[
 [G61.3,38.9Winterspring][S]Set your Hearthstone to Everlook
 Accept [QA6030 Duke Nicholas Zverenhoff] \\Accept [QA6028 The Everlook Report] \\Accept [QA5601 Sister Pamela]
 [V][O]Deposit the following items:\\Everlook report\\Studies in spirit speaking\\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head\\Jaron's Pick\\All 4 Relics --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Winterspring54
-Accept [QA969]
-Accept [QA3783 Are We There, Yeti?]
+[A Hunter]Accept [QA969]
+--Accept [QA3783 Are We There, Yeti?]
 
 
-Finish off [G67.08,35.48,60Winterspring][QC8464 Winterfall Activity]
-Do [QC3783 Are We There, Yeti?]
+Finish off [G67.08,35.48,60Winterspring][QC8464 Winterfall Activity] \\Abandon this quest if the village is too crowded
+--Do [QC3783 Are We There, Yeti?]
 Click on the damaged crate\\Turn in [QT4861 Enraged Wildkin] \\Accept [QA4863 Enraged Wildkin]
 Turn in [QT4863 Enraged Wildkin] \\Accept [QA4864 Enraged Wildkin]
 [QC4864,1-]Click on the small crate next to Jaron's Wagon
 [G65.49,60.50Winterspring][QC4864,2-][OC]Kill Owlbeasts\\Clear the thicket before starting the escort quest
-Start the escort quest\\Turn in [QT979 Find Ranshalla] \\Accept [QA4901 Guardians of the Altar]
+[A Hunter]Start the escort quest\\Turn in [QT979 Find Ranshalla] \\Accept [QA4901 Guardians of the Altar]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT979] \\Skip this step if you don't have the quest
 [QC4901-]Escort Ranshalla\\Click on the torches once she gets inside one of the caves\\Right click the stone altar at the end
 Finish off [QC4864 Enraged Wildkin]
-[QC969-][O]Loot the blue crystals around the outer perimeter of the canyon\\Use your pet to bait the giants away from the crystals
+[A Hunter][QC969-][O]Loot the blue crystals around the outer perimeter of the canyon\\Use your pet to bait the giants away from the crystals
 [G59.52,75.23Winterspring][QC4842-]Run south to Darkwhisper Gorge
 [H]Hearth to Everlook [OC]
-Turn in [QT3783 Are We There, Yeti?]
-Turn in [QT969]
+--Turn in [QT3783 Are We There, Yeti?]
+[A Hunter]Turn in [QT969]
 Turn in [QT4864 Enraged Wildkin]
 [QC5087-]Use eagle eye to find the Winterfall Runners
 Turn in [QT4842 Strange Sources] \\Turn in [QT5087 Winterfall Runners] \\Accept [QA5121 High Chief Winterfall]
@@ -107,14 +113,15 @@ Head to Moonglade[OC]
 Turn in [QT6762 Rabine Saturna] \\Accept [QA1124 Wasteland]
 Finish the dialogue with Rabine\\Accept [QA5527 A Reliquary of Purity] \\Skip this step if the Dire Maul dialogue is not available--GOSSIP_SHOW>>SkipGossip,11801
 [G48.13,67.34Moonglade]Get the [P Moonglade] FP
-Fly to [F Teldrassil]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Fly to [F Teldrassil][OC]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT978] \\Accept [QA979]
 
-Turn in [QT4901 Guardians of the Altar] \\Accept [QA4902 Wildkin of Elune]
-[G39.39,42.43,15Darnassus]Stop by the bank
+[A Hunter]Turn in [QT4901 Guardians of the Altar] \\Accept [QA4902 Wildkin of Elune]
+[A Hunter][G39.39,42.43,15Darnassus]Stop by the bank
 
-[V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
-[T][O]Train skills
-Turn in [QT4902 Wildkin of Elune]
+[A Hunter][V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
+[A Hunter][T][O]Train skills
+[A Hunter]Turn in [QT4902 Wildkin of Elune]
 Fly to [F Darkshore]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
