@@ -17,9 +17,9 @@ Turn in [QT1258 ... and Bugs]
 
 [A Warlock][G55.62,50.11Dustwallow Marsh]Swim to the hill west \\[G46.0,57.0Dustwallow Marsh]Turn in [QT1799]
 [A Warlock]Accept [QA4961]
-[A Warlock]Do [QC4961
+[A Warlock]Do [QC4961]
 [A Warlock]Turn in [QT4961] \\Accept [QA4976]
-
+[A Warlock]Turn in [G31.10,66.14Dustwallow Marsh][QT625] \\Accept [QA626]
 
 [H]Hearth back[OC]
 [A Warlock]Turn in [QT4976]
