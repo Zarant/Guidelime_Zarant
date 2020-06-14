@@ -222,7 +222,9 @@ Turn in [QT34]
 [G31.0,47.3Redridge Mountains]Turn in [QT124 A Baying of Gnolls]
 [G32.1,48.7Redridge Mountains]Turn in [QT89 The Everstill Bridge]
 Do [QC122]
-Turn in [QT122]-->>LoadNextGuide
+[A Dwarf,Gnome,Human]Turn in [QT122]-->>LoadNextGuide
+[A NightElf]Turn in [QT122]
+[A NightElf]Fly to SW, take the tram to Ironforge and get the [P Ironforge] flight path\\Skip this step if you already have the Ironforge flight path-->>LoadNextGuide
 ]],"Zarant")
 
 

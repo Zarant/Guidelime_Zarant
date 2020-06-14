@@ -159,7 +159,8 @@ Unstuck back to the graveyard[OC]
 [OC][G60.29,66.72Darnassus][V]Buy water/food --MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor,4169
 [G57.55,46.73Darnassus][T]Train staves --TRAINER_CLOSED,TRAINER_SHOW>>Trainer
 
-You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Skip this step and start the Darkshore part of the guide (less quests, you have to grind more)\\ \\Loch Modan segment has slightly worse XP/hr but you save time later by getting early FPs.
+[A Hunter]You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Skip this step and start the Darkshore part of the guide (less quests, you have to grind more)\\ \\Loch Modan segment has worse XP/hr but you save time later by getting early FPs.
+[A Druid,Rogue,Warrior,Priest]You have the following options:\\Set your HS to [G67.2,15.6Darnassus][S]Darnassus, use the website unstuck request to port you to Stormwind and continue with the Loch Modan segment\\*OR*\\Skip this step and start the Darkshore part of the guide (less quests, you have to grind more)\\ \\Loch Modan segment is highly recommended since you save a lot of time later by getting early FPs.
 ]], "Zarant")
 
 
