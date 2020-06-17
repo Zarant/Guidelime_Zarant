@@ -2,7 +2,7 @@ Guidelime.registerGuide([[
 [N48-49Tanaris/Hinterlands]
 [NX49-50Tanaris/Un'goro]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 [V][O]Withdraw *Roc Gizzard* from your bank if you have it--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Tanaris48
 Accept [QA2605]--the thirsty goblin
@@ -63,7 +63,7 @@ Guidelime.registerGuide([[
 [N49-50Tanaris/Un'goro]
 [NX50-50STV]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [V][O]Deposit the following items:\\Wildkin Feather\\Raschal's Report --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Tanaris48
 Accept [QA10]--Scrimshank redemption
 Turn in [QT2641] \\Accept [QA2661]--sprinkle's ingredient

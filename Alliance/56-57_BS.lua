@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N56-57Burning Steppes]
 [NX57-58Western/Eastern Plaguelands part 1]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Take the boat to Wetlands[OC]
 Fly to [F Ironforge]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54

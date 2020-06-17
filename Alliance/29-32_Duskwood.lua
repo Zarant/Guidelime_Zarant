@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N29-32Duskwood]
 [NX32-33Hillsbrad/Arathi]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [O]This segment has a long grinding session, you can substitute that for a Gnomeregan run
 [V][O]Withdraw the follwing:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom\\An Old History Book (if you have it) --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_Duskwood29
 Fly to Ironforge\\

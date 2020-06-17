@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N52-52Felwood]
 [NX52-53Feralas]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 Take the boat to Darkshore [OC]
 [S]Set your HS to Auberdine
@@ -75,7 +75,7 @@ Guidelime.registerGuide([[
 [N52-53Feralas]
 [NX53-53Azshara]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 
 --[V][O]Withdraw the follwing items:\\Bloodpetal --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Feralas52
@@ -117,7 +117,7 @@ Guidelime.registerGuide([[
 [N53-53Azshara]
 [NX53-54Un'Goro Crater]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 --[O]This segment contains a heavy grinding session (about 2 hours long), you can skip it if you are planning to run dungeons before level 60 --v2
 [V][O]Deposit the follwing items:\\Eridan's Vial\\Cenarion Beacon\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas52
 [V][O]Withdraw the following:\\Drawing Kit\\Flare Gun --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Azshara53

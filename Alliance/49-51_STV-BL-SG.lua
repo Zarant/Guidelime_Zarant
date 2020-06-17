@@ -2,7 +2,7 @@ Guidelime.registerGuide([[
 [N50-50STV]
 [NX50-51Searing Gorge]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 Take the boat to Booty Bay [OC]
 Accept [QA8551 The Captain's Chest]--OnStepActivation>>BindLocation,Stormwind City
@@ -57,7 +57,7 @@ Guidelime.registerGuide([[
 [N50-51Searing Gorge]
 [NX51-51Blasted Lands]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Make sure you have 15 *Silk Cloth* on your bags before starting this segment[O]--BAG_UPDATE>>Collect,4306,15
 
 Talk to Hansel Heavyhands\\Accept [QA7723 Curse These Fat Fingers] \\Accept [QA7724 Fiery Menace!]
@@ -113,7 +113,7 @@ Guidelime.registerGuide([[
 [N51-51Blasted Lands]
 [NX51-52WPL]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Head to Blasted Lands[OC]
 [A Hunter][OC][V]Make sure you buy ammo before starting this segment
 Climb the tower and accept [QA2783 Petty Squabbles]

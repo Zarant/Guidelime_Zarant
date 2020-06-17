@@ -139,7 +139,8 @@ Turn in [QT268 Return to Sven] \\Accept [QA323 Proving Your Worth]
 [O]Grind mobs until your HS is off cooldown, Hearth to [H Darkshire]--OnStepActivation,BAG_UPDATE>>BronzeTube,1
 If you haven't found a bronze tube, save your HS cooldown and fly from Westfall to [F Duskwood][OC]--OnStepActivation,BAG_UPDATE>>BronzeTube
 Turn in [G73.77,44.48Duskwood][QT156 Gather Rot Blossoms] \\Accept [QA159 Juice Delivery]
-Turn in [G73.59,46.89Duskwood][QT57 The Night Watch] \\Accept [QA58 The Night Watch]
+Turn in [G73.59,46.89Duskwood][QT57 The Night Watch] 
+[A Hunter]Accept [QA58 The Night Watch]
 
 Fly to [F Redridge][OC]
 Kill [QC91-]Gnolls, loot their pendants[O]

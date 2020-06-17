@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [N51-52WPL]
 [NX52-52Felwood]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 Turn in [QT5066][OC]
 Turn in [QT5090][OC]

@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N36-38STV(2)]
 [NX38-39Swamp of Sorrows]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [T][O]If you used the unstuck feature to SW, remember to train your level 36 spells
 [V][O]Deposit the following items:\\Karnitol's Satchel\\Decrypted Letter\\Letter of Commendation\\Fizzle Brassbolts' Letter\\Buzzard Wing --BANKFRAME_OPENED,BAG_UPDATE>>BankD_STV37
 [V][O]Withdraw *Small Brass Key* from your bank (if you have it)\\Make sure you have water breathing pots for this segment --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV37

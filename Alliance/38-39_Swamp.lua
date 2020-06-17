@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N38-39Swamp of Sorrows]
 [NX39-40Alterac/Arathi]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 Fly to Stormwind[OC]
 Accept [QA1448 In Search of The Temple]

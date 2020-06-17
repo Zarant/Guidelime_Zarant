@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N33-34Thousand Needles]
 [NX34-35STV(1)]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Take the boat to Theramore [OC]
 Get the [P Theramore] FP
 Withdraw your main pet from the stables [O][A Hunter]

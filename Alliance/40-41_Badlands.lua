@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N40-41Badlands]
 [NX41-43STV/Swamp of Sorrows]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [A Warlock]If you used the unstuck service to teleport to SW, turn in the following quests:\\[QT543] \\[QT542] \\ \\If you had to fly to IF, abandon Raptor/Panther Mastery and skip this step
 [T]Train skills\\Train pet skills[O]
 [V][O]Deposit the following items:\\Seaforium Booster\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Badlands40

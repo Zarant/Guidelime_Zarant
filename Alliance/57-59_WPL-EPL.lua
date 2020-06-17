@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N57-58Western/Eastern Plaguelands part 1]
 [NX58-59Western/Eastern Plaguelands part 2]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 Head to Stormwind\\Turn in [QT5022] \\Accept [QA5048]
 [G52.48,41.95Stormwind City]Find Ol'Emma, she can roam around SW from time to time\\Turn in [QT5048] \\Accept [QA5050]
@@ -90,7 +90,7 @@ Guidelime.registerGuide([[
 [N58-59Western/Eastern Plaguelands part 2]
 [NX59-59Winterspring/Un'Goro/Silithus part 1]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 Turn in [QT5223 Return to Chillwind Camp] \\Accept [QA5225 Target: Gahrron's Withering]
 Turn in [QT5903 A Plague Upon Thee] \\Accept [QA5904 A Plague Upon Thee]

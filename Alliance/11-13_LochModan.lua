@@ -2,7 +2,7 @@
 Guidelime.registerGuide([[
 [N11-13Loch Modan]
 [NX11-16Darkshore part 1]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [GA Dwarf,Hunter]
 Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
 Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
@@ -50,64 +50,11 @@ Turn in [G58.08,16.52Stormwind City][QT1338 Stormpike's Order]
 [F Take the boat to Darkshore]
 ]], "Zarant")
 
-Guidelime.registerGuide([[
-[N11-14Dun Morogh/Loch Modan]
-[NX11-16Darkshore]
-[D Alliance Leveling Guide]
-[GA Human]
-Accept [QA353 Stormpike's Delivery]
-Cross the Deeprun Tram, train First Aid as you wait[OC]
-Head to Deeprun Tram\\Accept [QA6661 Deeprun Rat Roundup]
-Do [QC6661]
-Turn in [QT6661]
-Get the [P Ironforge] FP
-Save *Chunk of Boar Meat* and *Stringy Wolf Meat* for leveling cooking later[O]
-Leave Ironforge through the main gate\\Accept [G63.08,49.84Dun Morogh][QA314 Protecting the Herd]
-[G62.62,46.04Dun Morogh] Kill [QC314Vagash] by kiting him to the guard parked at the road intersection\\Make sure to get him below 50% before reaching the guard
-Turn in [G63.08,49.84Dun Morogh][QT314 Protecting the Herd]
-Accept [G68.67,55.96Dun Morogh][QA433 The Public Servant]
-Accept [G69.08,56.32Dun Morogh][QA432 Those Blasted Troggs!]
-Kill [QC433 Bonesnappers] and [QC432 Skullthumpers] at the quarry below
-Turn in [G68.67,55.96Dun Morogh][QT433 The Public Servant]
-Turn in [G69.08,56.32Dun Morogh][QT432 Those Blasted Troggs!]
-Accept [G12.17,36.76Loch Modan][QA419 The Lost Pilot]
-Click on the dead dwarf\\Turn in [G4.63,31.38Loch Modan][QT419 The Lost Pilot] \\Accept [QA417 A Pilot's Revenge] \\*DO NOT KILL MANGECLAW BEFORE COMPLETING THIS STEP*
-[G2.2,34.21Loch Modan][QC417 Kill Mangeclaw]
-Turn in [G12.17,36.76Loch Modan][QT417 A Pilot's Revenge]
-Head to Loch Modan[OC]
-Accept [G24.76,18.39Loch Modan][QA307 Filthy Paws] 
-Turn in [QT353 Stormpike's Delivery]
-Kill Bears/Boars/Spiders\\([QA418-][O][QT418][O])
-Accept [G34.26,47.7Loch Modan][QA416 Rat Catching] from the guard patrolling Thelsamar
-Accept [G34.82,49.28Loch Modan][QA418 Thelsamar Blood Sausages]
-[G35.48,24.36,129Loch Modan][QC416-]Kill kobolds[OC]
-[G35.48,24.36,129Loch Modan][QC307-]Loot the crates inside the mine
-Finish off [QC416]
-Grind your way back to Thelsamar\\Finish off [QC418]
---Buy *Smoked Bear Meat* cooking recipe from the trade supplier insde the inn[O]
-Buy flint and tinder + simple wood to level cooking on the boat ride to darkshore[O]
-Turn in [QT418]
-[G33.93,50.95Loch Modan]Get the [P Loch Modan] flight path
-Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
-Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
-[QC267-]Kill Troggs[OC]
-Do [G31.44,0.42,171Badlands][QC224 In Defense of the King's Lands]
-Finish off [QC267 The Trogg Threat]
-Turn in [G22.07,73.12Loch Modan][QT224 In Defense of the King's Lands]
-Turn in [G23.23,73.67Loch Modan][QT267 The Trogg Threat]
-[G33.93,50.95Loch Modan] Throw away your HS and unstuck\\Fly to [F Ironforge]
-[T][O]Train skills
-[G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut
-[G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor
-[P Get the Menethil FP]
-Take the boat to Darkshore
-]], "Zarant")
-
 
 Guidelime.registerGuide([[
 [N11-15Dun Morogh/Loch Modan]
 [NX11-16Darkshore part 1]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [GA NightElf]
 [G66.2,62.4Stormwind City]Get the [P Stormwind City] FP
 [G42.1,65.9Elwynn Forest]Head to Goldshire\\Accept [QA62 The Fargodeep Mine]
@@ -210,7 +157,7 @@ Take the boat to Darkshore[A Human]
 Guidelime.registerGuide([[
 [N11-13 Elwynn/Loch Modan]
 [NX13-14Loch Modan]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [GA Dwarf,Gnome,Warlock,Warrior,Paladin,Priest,Rogue]
 Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
 Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
@@ -338,7 +285,7 @@ Guidelime.registerGuide([[
 [N13-14Loch Modan]
 [NX11-16Darkshore part 1]
 [D Alternative route for Dwarves/Gnomes/Humans]
-[GA Alliance,Warlock,Warrior,Paladin,Priest,Rogue,Mage]
+[GA Dwarf,Gnome,Warlock,Warrior,Paladin,Priest,Rogue,Mage]
 
 [H]Hearth to Loch Modan
 

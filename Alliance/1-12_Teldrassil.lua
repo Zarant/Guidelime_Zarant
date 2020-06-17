@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N1-6Teldrassil part 1]
 [NX6-12Teldrassil part 2]
 [GA NightElf]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 -- Shadowglen
 Accept [QA456 The Balance of Nature]
@@ -80,7 +80,7 @@ Guidelime.registerGuide([[
 [NX11-15Dun Morogh/Loch Modan]
 [NX11-16Darkshore part 1]
 [GA NightElf]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 --2nd run
 [G54.66,52.28Teldrassil] Go to the cave entrance \\Kill [QC932 Lord Melenas], he has a random respawn location

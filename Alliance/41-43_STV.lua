@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N41-43STV/Swamp of Sorrows]
 [NX43-44Tanaris]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [V][O]Withdraw the following items from your bank:\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_STV41
 [T]Train skills\\Make sure your pet has Frost Resistance maxed out [O][A Hunter]
 Take the tram to Stormwind [OC]

@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N53-54Un'Goro Crater]
 [NX54-55Felwood/Winterspring]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Turn in [QT5158] \\Accept [QA5159] 
 Accept [QA4502]
 [QC3444-]Loot the small chest outside the metal hut

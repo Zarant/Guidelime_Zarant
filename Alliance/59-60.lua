@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N59-59Winterspring/Un'Goro/Silithus part 1]
 [NX59-60Winterspring/Un'Goro/Silithus part 2]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Take the tram to SW[OC]
 Turn in [QT6186]
 [G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][O][QT7791-][O]Wool \\[QA7793-][O][QT7793-][O]Silk \\[QA7794-][O][QT7794-][O]Mageweave \\[QA7795-][O][QT7795-][O]Runecloth
@@ -136,7 +136,7 @@ Grind mobs at the twilight camps until you get 10 Encrypted Twilight Texts\\Turn
 Guidelime.registerGuide([[
 [N59-60Winterspring/Un'Goro/Silithus part 2]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Fly to Un'Goro Crater[OC]
 Turn in [QT3962] (7300xp) --It's Dangerous to Go Alone
 Fly to [F Tanaris][OC]

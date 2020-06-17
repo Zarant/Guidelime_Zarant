@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [NX35-36Desolace]
 [NX35-37Desolace]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [V][O]Deposit the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head --BANKFRAME_OPENED,BAG_UPDATE>>Bank_1kN33
 Take the Boat to Booty Bay [OC]
 Turn in [G26.34,73.56,20Stranglethorn Vale][QT1180 Goblin Sponsorship] \\Accept [QA1181 Goblin Sponsorship]

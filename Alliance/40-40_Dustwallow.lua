@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N40-40Dustwallow Marsh]
 [NX40-41Badlands]
 [GA Alliance,Hunter]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Head to Menethil Harbor[OC]
 [A Hunter][G10.7,60.9Wetlands][S] Set your HS to Wetlands
 Take the boat to Theramore [OC]
@@ -95,7 +95,9 @@ Turn in [QT6134]
 Turn in [QT1374]
 Head south to Feralas[OC]
 [G54.81,47.99,20Feralas]Once you get to feralas, die and rez at the Dire Maul GY
-Run east towards the coast, find a sea giant and pull him while swimming east towards the Feathermoon graveyard\\Die and spirit rez at [G31.83,48.12,20Feralas]Feathermoon
+Run west towards the coast[OC]
+[L41.9,39.5]Find a water elemental/sea giant and pull it while swimming southwest towards the Feathermoon graveyard[OC]
+Die and spirit rez at [G31.83,48.12,20Feralas]Feathermoon
 
 Fly to [F Tanaris]
 Run to Shimmering Flats[OC]

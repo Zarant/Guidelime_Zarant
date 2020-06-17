@@ -2,7 +2,7 @@
 Guidelime.registerGuide([[
 [N27-29Wetlands/Hillsbrad]
 [GA Alliance,Hunter]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [NX29-32Duskwood]
 [V][O]Deposit the follwing items:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Wetlands27
 [V][O]Withdraw from your bank:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Wetlands27

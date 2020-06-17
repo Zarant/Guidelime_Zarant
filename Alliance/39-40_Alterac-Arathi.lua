@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [NX40-40Dustwallow Marsh]
 [NX39-40Dustwallow/Desolace]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Make sure you have water breathing pots for this segment [OC]
 Fly to Southshore[OC]
 

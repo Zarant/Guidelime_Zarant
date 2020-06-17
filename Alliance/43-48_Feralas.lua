@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N43-44Tanaris]
 [NX44-48Feralas]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Head to Ratchet[OC]
 [A Warlock]Turn in [QT4962]--shard of a felhound
 [A Warlock]Set your Hearthstone to [S Ratchet]
@@ -65,7 +65,7 @@ Guidelime.registerGuide([[
 [N44-48Feralas]
 [NX48-49Tanaris/Hinterlands]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 There is A LOT of grinding required in this segment, you can substitute some of that for ZF/Maraudon or even Uldaman runs [O]
 [A Human,Dwarf,Gnome][O]Once you get to 100g, use the battle.net website unstuck service to teleport to SW, buy a mount and then hearth back
 [L31.6,43.2Feralas][O][A Hunter]Stable your pet[OC]

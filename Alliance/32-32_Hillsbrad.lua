@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N32-33Hillsbrad/Arathi]
 [NX33-34Thousand Needles]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Head to Menethil Harbor\\Turn in [QT1301 James Hyal] pt.1 \\Accept [QA1302 James Hyal] pt.2
 Turn in [QT1248 The Missing Diplomat] pt.10\\Accept [QA1249 The Missing Diplomat] pt.11
 [QC1249 -] Go outside and defeat Tapoke Jahn

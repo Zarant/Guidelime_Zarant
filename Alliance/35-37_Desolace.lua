@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N35-36Desolace]
 [NX36-38STV(2)]
 [GA Alliance,Hunter]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Go to Ironforge\\Accept [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace]
 Take the boat to Darkshore or Dustwallow[OC]
 
@@ -87,7 +87,7 @@ Guidelime.registerGuide([[
 [N35-37Desolace]
 [NX36-38STV(2)]
 [GA Alliance,Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Go to Ironforge\\Accept [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace]
 Take the boat to Darkshore-->>ZoneSkip,Darkshore
 Fly to [F Teldrassil]

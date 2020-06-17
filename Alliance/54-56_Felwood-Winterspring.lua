@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N54-55Felwood/Winterspring]
 [NX55-56Winterspring/Moonglade]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 [O]Collect 6 Corrupted Soul Shards--OnStepActivation,BAG_UPDATE>>Collect,11515,6
 Go inside the small hut and turn in [QT4441 Felbound Ancients] first
@@ -80,7 +80,7 @@ Guidelime.registerGuide([[
 [N55-56Winterspring/Moonglade]
 [NX56-57Burning Steppes]
 [GA Alliance]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 
 [G61.3,38.9Winterspring][S]Set your Hearthstone to Everlook
 Accept [QA6030 Duke Nicholas Zverenhoff] \\Accept [QA6028 The Everlook Report] \\Accept [QA5601 Sister Pamela]

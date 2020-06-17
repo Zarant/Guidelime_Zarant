@@ -1,10 +1,10 @@
 
 Guidelime.registerGuide([[
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [GA Dwarf,Gnome,Hunter,Mage,Paladin,Priest,Rogue,Warrior]
 [N1-6Coldridge Valley]
 [NX6-11Dun Morogh]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Accept [QA179 Dwarven Outfitters]
 [G29.07,74.48,163Dun Morogh][QC179-]Kill wolves
 Accept [QA3108 Etched Rune][O][A Hunter]
@@ -39,11 +39,11 @@ Accept [QA2160 Supplies to Tannok]-->>LoadNextGuide
 ]],"Zarant")
 
 Guidelime.registerGuide([[
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [GA Gnome,Warlock]
 [N1-6Coldridge Valley (Warlock)]
 [NX6-11Dun Morogh]
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 Accept [QA179 Dwarven Outfitters]
 Head to Anvilmar once you have 10c\\Train immolate\\Accept [QA1599][O]
 [G29.07,74.48,163Dun Morogh][QC179-]Kill wolves
@@ -85,7 +85,7 @@ Accept [QA2160 Supplies to Tannok]-->>LoadNextGuide
 
 
 Guidelime.registerGuide([[
-[D Alliance Hunter Leveling Guide]
+[D Alliance Leveling Guide]
 [GA Dwarf,Gnome]
 [N6-11Dun Morogh]
 [NX11-13Loch Modan]
@@ -166,4 +166,5 @@ Turn in [QT417 A Pilot's Revenge]
 [G80.7,52.8Dun Morogh] Run back to the other Dun Morogh exit then run down to Loch Modan [OC]
 Turn in [QT413 Shimmer Stout]
 Accept [QA414 Stout to Kadrell]
-]], "Zarant")
+
+]],"Zarant")
