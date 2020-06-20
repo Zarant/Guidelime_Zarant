@@ -2,7 +2,7 @@
 Guidelime.registerGuide([[
 [N11-16Darkshore part 1]
 [NX16-19Darkshore part 2]
-[GA Alliance,Druid,Hunter,Warrior,Priest,Rogue]
+[GA Alliance]
 [D Alliance Leveling Guide]
 [A Dwarf,Hunter][O]As soon as you have 39 silver to spare, send it to a bank alt in stormwind, buy a level 16 gun and mail it back to your main
 [G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil][A NightElf]

@@ -1,6 +1,6 @@
 ## Title: Guidelime_Zarant
 ## Author: Zarant
-## Version: 4.1.0
+## Version: 4.1.1
 ## Interface: 11304
 ## Dependencies: Guidelime
 ## Notes: Alliance Hunter Leveling Guide

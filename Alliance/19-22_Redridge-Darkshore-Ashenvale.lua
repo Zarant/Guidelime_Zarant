@@ -5,12 +5,12 @@ Guidelime.registerGuide([[
 [D Alternative route for non Hunter classes]
 [GA Alliance,Warlock,Warrior,Paladin,Priest,Rogue,Mage,Druid]
 
-[T]Train skills[OC]
-Fly to [F Redridge][A Warlock]
-Get the [P Stormwind City] flight path[A NightElf]
+[T]Train skills[O]-->>Trainer
+Get the [P Stormwind City] flight path if you haven't[OC]
 Leave SW\\Climb the tower of Azora\\Accept [QA94][OC]
 Head to the Redridge/Elwynn border\\Accept [QA244 Encroaching Gnolls]
 Turn in [QT244 Encroaching Gnolls]
+Fly to [F Redridge][OC] (if applicable)
 Accept [QA246 Assessing the Threat]
 [G33.5,48.9Redridge Mountains]Accept [QA20 Blackrock Menace]
 [G32.2,48.6Redridge Mountains]Accept [QA125 The Lost Tools]
@@ -21,9 +21,9 @@ Accept [QA246 Assessing the Threat]
 [G22.7,44.0Redridge Mountains]Accept [QA92 Redridge Goulash]
 Accept [QA34 An Unwelcome Guest]
 [OC]Kill [QC34-]Bellygrub by kiting him towards the Lakeshire guards
-Turn in [QT34]
+Turn in [QT34] \\If you can't solo Bellygrub, skip this step, you'll have another opportunity to finish it later
 [G29.3,53.6Redridge Mountains]Accept [QA3741 Hilary's Necklace]
-[G41.5,54.7Redridge Mountains]Collect [QC3741,1-]Hilary's Necklace
+[G41.5,54.7Redridge Mountains]Collect [QC3741,1-]Hilary's Necklace\\Look for a dirt mound underwater, this quest item has a random spawn location.
 Do [QC125]
 Turn in [QT125 The Lost Tools]
 --Accept [QA89 The Everstill Bridge]

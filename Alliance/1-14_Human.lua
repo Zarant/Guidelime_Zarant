@@ -118,11 +118,11 @@ Accept [QA239 Westbrook Garrison Needs Help!]
 [G41.7,65.6Elwynn Forest]Accept [QA1097 Elmore's Task]
 [G43.1,89.6Elwynn Forest]Turn in [QT114 The Escape]
 [G34.6,84.4Elwynn Forest]Turn in [QT88 Princess Must Die!]
+Click on the wanted board\\Accept [QA176 Wanted:  "Hogger"][O]
 Turn in [QT239 Westbrook Garrison Needs Help!]\\
-Accept [QA11 Riverpaw Gnoll Bounty]\\
-Accept [QA176 Wanted:  "Hogger"]
+Accept [QA11 Riverpaw Gnoll Bounty]
 Collect [QC11-][O]Painted Gnoll Armband (x8)
-Do [QC176]
+Do [QC176] \\Skip this quest if you can't solo Hogger or find a group to do it
 
 Turn in [QT11 Riverpaw Gnoll Bounty]
 Turn in [QT184 Furlbrow's Deed][O] \\Skip this step if you don't have this quest
@@ -134,7 +134,7 @@ Turn in [QT109 Report to Gryan Stoutmantle]
 [G56.6,52.7Westfall]Turn in [QT6181 A Swift Message]\\
 Accept [QA6281 Continue to Stormwind]
 Fly to [F Stormwind]
-
+[A Warlock][G57.1,57.7Stormwind City][T][O]Train staves-->>Trainer
 [G56.2,64.7Stormwind City]Turn in [QT61 Shipment to Stormwind]
 [A Warlock]Turn in [QT1685 Gakin's Summons]\\Accept [QA1688 Surena Caledon]
 [A Warlock]Use life tap and kill yourself at the bonfire\\Spirit rez at goldshire[OC]
@@ -146,13 +146,15 @@ Head to Goldshire\\Turn in [QT176 Wanted:  "Hogger"]
 [A Warlock]Turn in [QT1688] \\Accept [QA1689]
 [A Warlock]Go down the crypt and turn right at the first fork\\[G25.11,77.45,3Stormwind City][QC1689-]Click on the pendant while standing on the summoning circle 
 [A Warlock]Turn in [QT1689]
-Turn in [QT6281 Continue to Stormwind]-->>LoadNextGuide
+Turn in [QT6281 Continue to Stormwind]
+Turn in [QT1097][OC]
+Accept [QA353]-->>LoadNextGuide
 ]], "Zarant")
 
 
 Guidelime.registerGuide([[
 [N11-14Dun Morogh/Loch Modan]
-[NX11-16Darkshore]
+[NX11-16Darkshore part 1]
 [D Alliance Leveling Guide]
 [GA Human]
 Accept [QA353 Stormpike's Delivery]
@@ -178,26 +180,31 @@ Head to Loch Modan[OC]
 Accept [G24.76,18.39Loch Modan][QA307 Filthy Paws] 
 Turn in [QT353 Stormpike's Delivery]
 Kill Bears/Boars/Spiders\\([QA418-][O][QT418][O])
-Accept [G34.26,47.7Loch Modan][QA416 Rat Catching] from the guard patrolling Thelsamar
+[G34.26,47.7Loch Modan]Talk to the guard patrolling Thelsamar \\Accept [QA416 Rat Catching] \\Accept [QA1339]
 Accept [G34.82,49.28Loch Modan][QA418 Thelsamar Blood Sausages]
 [G35.48,24.36,129Loch Modan][QC416-]Kill kobolds[OC]
 [G35.48,24.36,129Loch Modan][QC307-]Loot the crates inside the mine
-Finish off [QC416]
-Grind your way back to Thelsamar\\Finish off [QC418]
+Turn in [QT307] \\Turn in [QT1339]
+[G24.8,29.0,40Loch Modan]Finish off [QC416]
+[G22.07,73.12Loch Modan]Grind your way north\\Finish off [QC418]
 --Buy *Smoked Bear Meat* cooking recipe from the trade supplier insde the inn[O]
-Buy flint and tinder + simple wood to level cooking on the boat ride to darkshore[O]
-Turn in [QT418]
-[G33.93,50.95Loch Modan]Get the [P Loch Modan] flight path
+
 Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
 Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
 [QC267-]Kill Troggs[OC]
 Do [G31.44,0.42,171Badlands][QC224 In Defense of the King's Lands]
 Finish off [QC267 The Trogg Threat]
+[XP14-3550 Grind until you are 3550xp away from level 14]
 Turn in [G22.07,73.12Loch Modan][QT224 In Defense of the King's Lands]
 Turn in [G23.23,73.67Loch Modan][QT267 The Trogg Threat]
-[XP14-1800 Grind until you are 1800xp away from level 14]
-[G33.93,50.95Loch Modan] Throw away your HS and unstuck\\Fly to [F Ironforge]
-[T][O]Train skills
+[H]Hearth to Thelsamar
+Turn in [QT418]
+[V]Buy flint and tinder + simple wood to level cooking on the boat ride to darkshore-->>Collect,4471,1,4470,1
+Turn in [QT416]
+[XP14 Grind to level 14]
+[G33.93,50.95Loch Modan] Fly to [F Ironforge]
+[T][O]Train skills-->>Trainer
+[A Mage,Priest,Warlock][G22.5,16.5Ironforge][V]Save 34 silver and buy a level 15 wand\\Alternatively, you can skip this step and buy a Greater Magic Wand from the AH-->>Collect,5208,1
 [G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut
 [G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor
 [P Get the Menethil FP]

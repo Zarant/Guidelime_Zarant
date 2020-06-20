@@ -158,7 +158,7 @@ Guidelime.registerGuide([[
 [N11-13 Elwynn/Loch Modan]
 [NX13-14Loch Modan]
 [D Alliance Leveling Guide]
-[GA Dwarf,Gnome,Warlock,Warrior,Paladin,Priest,Rogue]
+[GA Dwarf,Gnome,Warlock,Warrior,Paladin,Priest,Rogue,Mage]
 Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
 Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
 [G33.93,50.95Loch Modan]Throw away your HS and unstuck, then get the [P Loch Modan] flight path
@@ -309,7 +309,7 @@ Turn in [G23.23,73.67Loch Modan][QT267 The Trogg Threat]
 [T][O]Train skills
 Turn in [G51.52,26.31Ironforge][QT6391 Ride to Ironforge] \\Accept [QA6388 Gryth Thurden]
 Turn in [G55.5,47.74Ironforge][QT6388 Gryth Thurden]
-[G19.61,51.77Ironforge][S] Set your HS to Ironforge
+[A Mage,Priest,Warlock][G22.5,16.5Ironforge][V]Save 34 silver and buy a level 15 wand\\Alternatively, you can skip this step and buy a Greater Magic Wand from the AH-->>Collect,5208,1
 [G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut
 [G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor
 [P Get the Menethil FP]
