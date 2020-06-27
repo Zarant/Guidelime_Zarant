@@ -490,6 +490,11 @@ function Guidelime.Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,i
 		end
 		if name then
 			element.text = string.format("%s\n   %s%s: %d/%d",element.text,icon,name,count,self.quantity[i])
+		elseif not self.timer or GetTime()-self.timer > 2.0 then
+			self.timer = GetTime()
+			C_Timer.After(2.0,function()
+				self:Collect(args)
+			end)
 		end
 	end
 	
@@ -501,6 +506,27 @@ function Guidelime.Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,i
 
 	self:UpdateStep()
 end
+
+z.eventList.Destroy = "OnStepActivation,BAG_UPDATE"
+function Guidelime.Zarant:Destroy(args) --OnStepActivation,BAG_UPDATE>>Destroy,id_1,id_2,id_3...
+	
+	local skip = true
+	for i,itemID in ipairs(args) do
+		local count = GetItemCount(tonumber(itemID))
+		if count > 0 then
+			skip = false
+		end
+	end
+	
+	if skip then
+		self:SkipStep()
+		return
+	end
+
+	self:UpdateStep()
+end
+
+
 
 z.eventList.Reputation = "OnStepActivation,UPDATE_FACTION"
 function Guidelime.Zarant:Reputation(args) --UPDATE_FACTION>>Reputation,id,standing

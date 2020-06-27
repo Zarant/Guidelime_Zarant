@@ -2,6 +2,7 @@
 Guidelime.registerGuide([[
 [N41-43STV/Swamp of Sorrows]
 [NX43-44Tanaris]
+[NX43-44Tanaris/Dustwallow]
 [GA Alliance]
 [D Alliance Leveling Guide]
 [V][O]Withdraw the following items from your bank:\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_STV41
@@ -113,7 +114,7 @@ Accept [QA2872]
 Turn in [QT609 Voodoo Dues]
 Turn in [QT576 Keep An Eye Out]
 
-Take the Boat to Ratchet-->>ZoneSkip,The Barrens,1
+Take the Boat to Ratchet
 
 
 ]], "Zarant")

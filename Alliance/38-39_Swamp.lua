@@ -7,7 +7,7 @@ Guidelime.registerGuide([[
 
 Fly to Stormwind[OC]
 Accept [QA1448 In Search of The Temple]
-Accept [QA1363 Mazen's Behest] pt.1\\Run upstairs and turn in [QT1363 Mazen's Behest] pt.1\\Accept [QA1364 Mazen's Behest] pt.2
+[A Hunter]Accept [QA1363 Mazen's Behest] pt.1\\Run upstairs and turn in [QT1363 Mazen's Behest] pt.1\\Accept [QA1364 Mazen's Behest] pt.2
 Accept [QA1260 Morgan Stern]
 Make sure you bank 15 Silk Cloth for later [OC]
 Fly to [F Duskwood]

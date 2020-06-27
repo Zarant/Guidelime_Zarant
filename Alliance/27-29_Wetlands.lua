@@ -5,7 +5,7 @@ Guidelime.registerGuide([[
 [D Alliance Leveling Guide]
 [NX29-32Duskwood]
 [V][O]Deposit the follwing items:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Wetlands27
-[V][O]Withdraw from your bank:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Wetlands27
+[A Hunter][V][O]Withdraw from your bank:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Wetlands27
 Fly to Stormwind\\
 Turn in [QT269] \\Accept [QA270]
 Accept [G40.55,30.91Stormwind City][QA2923 Tinkmaster Overspark]
@@ -109,11 +109,10 @@ Guidelime.registerGuide([[
 [V][O]Deposit the follwing items:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Wetlands27
 [V][O]Withdraw from your bank:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Wetlands27
 --Fly to Stormwind\\Turn in [QT269] \\Accept [QA270]
-Accept [G40.55,30.91Stormwind City][QA2923 Tinkmaster Overspark]
-Take the tram to Ironforge [OC]
+Turn in [G74.2,7.5Stormwind City][QT337][O] \\Skip this step if you don't have the quest
+Take the tram to Ironforge-->>ZoneSkip,Ironforge
 Turn in [QT1072]
-[G69.54,50.32Ironforge]Turn in [QT2923 Tinkmaster Overspark]
-Fly to [F Wetlands][OC]
+[G55.5,47.8Ironforge]Fly to [F Wetlands][OC]
 --Turn in [QT270] \\Skip the follow up
 [S] Set your Hearthstone to Wetlands
 Go upstairs and accept [G10.84,60.43,20Wetlands][QA943 The Absent Minded Prospector]
@@ -142,7 +141,7 @@ Turn in [G56.37,40.4,20Wetlands][QT277 Fire Taboo] \\Accept [G56.37,40.4,20Wetla
 Hearth to [H Menethil Harbor][OC]
 Turn in [G10.89,59.66,20Wetlands][QT289 The Cursed Crew] 
 --Accept [G10.89,59.66,20Wetlands][QA290 Lifting the Curse]
-Turn in [G8.3,58.53,20Wetlands][QT286 Return the Statuette] --<<
+Turn in [G8.3,58.53,20Wetlands][QT286 Return the Statuette]
 Turn in [G11.79,57.99,20Wetlands][QT470 Digging Through the Ooze]
 Turn in [G9.86,57.48,20Wetlands][QT464 War Banners] \\Accept [QA465 Nek'rosh's Gambit]
 Turn in [G11.5,52.13,20Wetlands][QT306 In Search of The Excavation Team]
@@ -152,7 +151,7 @@ Turn in [G38.17,50.88,20Wetlands][QT294 Ormer's Revenge] \\Accept [QA295 Ormer's
 [G34.71,49.95,138Wetlands][QC295 -]Kill Raptors
 [QC943 -][O]Kill raptors
 Turn in [G38.17,50.88,20Wetlands][QT295 Ormer's Revenge] \\Accept [QA296]
-Turn in [QT299 Uncovering the Past][O] --<<
+Turn in [QT299 Uncovering the Past][O]
 [G33.25,51.5,20Wetlands][QC296 -] Kill Sarltooth
 Finish off [QC299 Uncovering the Past]
 Turn in [QT296 Ormer's Revenge] \\Turn in [QT299 Uncovering the Past]

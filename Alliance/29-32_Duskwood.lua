@@ -13,12 +13,13 @@ Turn in [QT686 A King's Tribute] \\Accept [QA689 A King's Tribute]
 [T]Train skills\\Train pet skills\\Make sure you have frost/nature resistance maxed out on your pet[O]
 Accept [QA1179 The Brassbolts Brothers]
 Take the tram to Stormwind [OC]
-Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
+[A Hunter]Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
 [V][O]Deposit the following items:\\Musquash Root\\Crate of Crash Helmets\\Turtle Meat --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Duskwood29
 [T] Train first aid at the cathedral [O]
 
 [T][O]If you get level 30 turning in the next few quests in SW, remember to buy class/pet skills
-Accept [QA1274 The Missing Diplomat] pt.1 \\Turn in [QT293 Cleansing the Eye]
+Turn in [G39.6,27.2Stormwind City][QT293 Cleansing the Eye][O]
+Accept [QA1274 The Missing Diplomat] pt.1 
 
 Turn in [QT1274 The Missing Diplomat] pt.1 \\Accept [QA1241 The Missing Diplomat] pt.2
 --Skip this step if you haven't found the quest item\\Turn in [G74.16,7.49Stormwind City][QA337-][QT337 An Old History Book][O] \\Accept [QA538 Southshore][O]
@@ -26,7 +27,7 @@ Turn in [QT1241 The Missing Diplomat] pt.2 \\Accept [QA1242 The Missing Diplomat
 
 Turn in [QT1242 The Missing Diplomat] pt.3  \\Accept [QA1243 The Missing Diplomat] pt.4
 
-Fly to [F Duskwood][OC]
+Fly to [F Duskwood]
 Accept [G79.8,48.02Duskwood][QA174 Look To The Stars] \\Turn in [QT174 Look To The Stars] \\Skip this step if you haven't found a bronze tube
 Accept [G79.8,48.02Duskwood][QA175 Look To The Stars] pt.2
 [G81.46,59.02,30Duskwood] Head south towards the chapel \\Turn in [G81.98,59.08Duskwood][QT175 Look To The Stars] pt.2 \\Accept [QA177 Look To The Stars] pt.3
@@ -116,7 +117,7 @@ Turn in [QT336 A Noble Brew] pt.2
 Turn in [QT337] \\Accept [QA538] --An Old History Book
 [T][O][A Hunter]You don't need to train skills if you already purchased your level 30 spells
 Take the Tram to Ironforge [OC]
-Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
+[G55.5,47.7Ironforge]Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 
 
 ]], "Zarant")

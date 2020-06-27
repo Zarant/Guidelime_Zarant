@@ -4,13 +4,14 @@ Guidelime.registerGuide([[
 [NX33-34Thousand Needles]
 [GA Alliance]
 [D Alliance Leveling Guide]
-Head to Menethil Harbor\\Turn in [QT1301 James Hyal] pt.1 \\Accept [QA1302 James Hyal] pt.2
+Head to Menethil Harbor[OC]
+[G10.8,60.4Wetlands]Turn in [QT1301 James Hyal][O] pt.1 \\Accept [QA1302 James Hyal][O] pt.2
+[G10.6,60.4Wetlands]Turn in [QT270][O] \\Accept [QA321][O]--Doomed fleet/lightforge iron
 Turn in [QT1248 The Missing Diplomat] pt.10\\Accept [QA1249 The Missing Diplomat] pt.11
 [QC1249 -] Go outside and defeat Tapoke Jahn
 Turn in [QT1249 The Missing Diplomat] pt.11
 Accept [QA1250 The Missing Diplomat] pt.12
 Turn in [QT1250 The Missing Diplomat] pt.12\\Accept [QA1264 The Missing Diplomat] pt.13
-Turn in [QT270] \\Accept [QA321]--Doomed fleet/lightforge iron
 Turn in [G12.1,64.19,20Wetlands][QT321 Lightforge Iron] \\Accept [QA324 The Lost Ingots]
 [G9.54,69.7,180Wetlands][QC324 -] Kill murlocs
 Turn in [G10.58,60.59,20Wetlands][QT324 The Lost Ingots] \\Accept [QA322 Blessed Arm]

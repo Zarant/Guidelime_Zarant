@@ -4,15 +4,18 @@ Guidelime.registerGuide([[
 [NX25-26Redridge]
 [GA Alliance]
 [D Alliance Leveling Guide]
-[V][O]Deposit the following items:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --OnStepActivation,BANKFRAME_OPENED,BAG_UPDATE>>Bank_Duskwood24
+[A Hunter][V][O]Deposit the following items:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --OnStepActivation,BANKFRAME_OPENED,BAG_UPDATE>>Bank_Duskwood24
 [O][G55.21,7.04Stormwind City] Buy a [V]*Bronze Tube* if you haven't--OnStepActivation,BAG_UPDATE>>BronzeTube
+[A Warlock]Turn in [QT1738] \\Accept [QA1739]
+[A Warlock][QC1739-][O]Run downstairs summon a succubus and kill her while running back to the quest giver
+[A Warlock][QT1739]
 Head to Stormwind City\\[G42.79,80.15Stormwind City]Turn in [QT1075 A Scroll from Mauren] \\Accept [QA1076 Devils in Westfall]
 [G71.19,89.10,35Stormwind City] Head to Elwynn Forest
 
 Accept [G68.33,39.18Westfall][QA226 Wolves at Our Heels]
-Kill [QC226 Wolves] along the N/NW river bank [O]
+[QC226-]Kill wolves along the N/NW river bank[O]
 Speak with Madame Eva\\Accept [G75.81,45.29Duskwood][QA66 The Legend of Stalvan] \\Accept [G75.81,45.29Duskwood][QA101 The Totem of Infliction]
---Speak with Chief Grual \\Accept [G73.88,43.45Duskwood][QA90 Seasoned Wolf Kabobs] \\You need 50 cooking to accept this quest
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Speak with Chief Grual \\Accept [G73.88,43.45Duskwood][QA90 Seasoned Wolf Kabobs][O] \\You need 50 cooking to accept this quest, skip this step if you don't have 50 cooking
 Set your hearth to [G73.9,43.4Duskwood][S Duskwood]
 Head towards the Town Hall\\Accept [G73.59,46.89Duskwood][QA56 The Night Watch]
 Turn in [G72.53,46.85Duskwood][QT66 The Legend of Stalvan] pt.1 \\Accept [G72.53,46.85Duskwood][QA67 The Legend of Stalvan] pt.2
@@ -25,15 +28,13 @@ Accept [G79.8,48.02Duskwood][QA175 Look To The Stars]
 [G81.46,59.02,30Duskwood] Head south towards the chapel \\Turn in [G81.98,59.08Duskwood][QT175 Look To The Stars] \\Accept [QA177 Look To The Stars]
 [QC177 -]Kill the Insane Ghoul inside the chapel
 Do [G79.4,70.77,166Duskwood][QC56 The Night Watch]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC90,1-][O]Start saving Lean Wolf Flanks
 Accept [G97.18,65.28Westfall][QA245 Eight-Legged Menaces]
---Start saving [QC90 Lean Wolf Flank] and [QC93 Gooey Spider Leg] [O]
 Turn in [G76.55,57.05Westfall][QT163 Raven Hill] \\Accept [G76.55,57.05Westfall][QA5 Jitters' Growling Gut]
 [QC245 -]Kill spiders along the western river bank\\Don't go out of your way to do this quest, skip it if necessary[O]
-Turn in [G68.38,39.85Westfall][QT164 Deliveries to Sven] \\Skip the follow up for now
+Turn in [QT164 Deliveries to Sven] \\Accept [QA95] 
+Turn in [QT226]
 Turn in [G84.06,37.84Westfall][QT165 The Hermit] \\Accept [G84.06,37.84Westfall][QA148 Supplies from Darkshire]
-Finish off [QC226]
-[G68.33,39.18Westfall][QT226 Wolves at Our Heels]
-Accept [QA95 Sven's Revenge]
 --Finish off [QC245]
 Grind mobs until your Hearthstone cooldown is < 5min \\Make sure you have [V]*Gooey Spider Leg*x6
 [QC1076 -]Head to westfall and look out for dust devils [OC]
@@ -92,14 +93,14 @@ Turn in [G27.72,47.38Redridge Mountains][QT127 Selling Fish] \\Turn in [G27.72,4
 Guidelime.registerGuide([[
 [N26-27Duskwood part 2]
 [NX27-29Wetlands/Hillsbrad]
-[NX27-28Wetlands]
+[NX27-28Wetlands part 1]
 [GA Alliance]
 [D Alliance Leveling Guide]
 
 Head to the small farmhouse southeast of Darkshire\\Turn in [QT149 Ghost Hair Thread] \\Accept [QA154 Return the Comb]
 Turn in [G75.81,45.29Duskwood][QT154 Return the Comb] \\Accept [QA157 Deliver the Thread]
 Turn in [G49.85,77.71Duskwood][QT95 Sven's Revenge] \\Accept [QA230 Sven's Camp]
-Turn in [G97.18,65.28Westfall][QT245 Eight-Legged Menaces]
+Turn in [G97.18,65.28Westfall][QT245 Eight-Legged Menaces][O]
 [QT93-]Kill spiders[O]
 Turn in [G84.06,37.84Westfall][QT157 Deliver the Thread] \\Accept [QA158 Zombie Juice]
 Turn in [G68.38,39.85Westfall][QT230 Sven's Camp] \\Accept [QA262 The Shadowy Figure]
@@ -112,13 +113,13 @@ Run up the stairs\\Loot the [QC70 chest] on the floor
 [G49.60,40.42Elwynn Forest]Turn in [QT347 Rethban Ore] \\Accept [QA346 Return to Kristoff]
 
 --Run to SW [OC]
-Turn in [G45.69,38.42Stormwind City][QT346 Return to Kristoff][OC]
-[XP26 Run to Stormwind City][OC]
 Turn in [G43.08,80.39Stormwind City][QT1076 Devils in Westfall][O]
 Accept [QA1078][A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]
 Accept [G26.44,78.66Stormwind City][QA335 A Noble Brew]
 Turn in [G29.56,61.93Stormwind City][QT70 The Legend of Stalvan] \\Accept [QA72 The Legend of Stalvan] 
 [G29.44,61.52,1Stormwind City]Click on the crate nearby \\Turn in [QT72 The Legend of Stalvan] \\Accept [QA74 The Legend of Stalvan]
+Turn in [G45.69,38.42Stormwind City][QT346 Return to Kristoff][O]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][G64.2,60.6Stormwind City][QC90,2-][O]Buy *Stormwind Seasoning Herbs* if you have the quest, skip this step otherwise
 
 [G66.29,62.14Stormwind City] Fly to [F Duskwood]
 
@@ -128,7 +129,7 @@ Speak with Madame Eva\\Turn in [G75.81,45.29Duskwood][QT262 The Shadowy Figure] 
 Turn in [G72.53,46.85Duskwood][QT265 The Shadowy Search Continues] \\Accept [QA266 Inquire at the Inn]
 Turn in [G73.77,44.48Duskwood][QT158 Zombie Juice] \\Accept [QA156 Gather Rot Blossoms] \\ Turn in [QT266 Inquire at the Inn] \\Accept [QA453 Finding the Shadowy Figure]
 Turn in [G73.88,43.45Duskwood][QT93 Dusky Crab Cakes] \\Accept [QA240 Return to Jitters]
---[G73.88,43.45Duskwood]Turn in [QT90 Seasoned Wolf Kabobs]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][G73.88,43.45Duskwood]Turn in [QT90 Seasoned Wolf Kabobs][O]
 
 --3rd pass [OC]
 [G79.63,48.1,151Westfall][QC57-][QC156-]Kill skeletons at the Raven Hill Cemetery
@@ -141,28 +142,31 @@ If you haven't found a bronze tube, save your HS cooldown and fly from Westfall 
 Turn in [G73.77,44.48Duskwood][QT156 Gather Rot Blossoms] \\Accept [QA159 Juice Delivery]
 Turn in [G73.59,46.89Duskwood][QT57 The Night Watch] 
 [A Hunter]Accept [QA58 The Night Watch]
-
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]If you managed to find *An Old History Book* right click it\\Accept [QA337][O] \\Skip this step if you don't have it
 Fly to [F Redridge][OC]
 Kill [QC91-]Gnolls, loot their pendants[O]
 [S][O]Set your HS to redridge if you haven't found a bronze tube\\Skip this step if you purchased it already--OnStepActivation,BAG_UPDATE>>BronzeTube
 Accept [QA128 Blackrock Bounty]
 Accept [QA19 Tharil'zun][A Hunter,Warlock]
 
+[G31.0,47.3Redridge Mountains]Accept [QA126][O]
 Go inside the town hall \\Accept [QA91 Solomon's Law]
 Click on the wanted poster\\Accept [QA180 Wanted: Lieutenant Fangore]
 Accept [G21.85,46.32Redridge Mountains][QA34 An Unwelcome Guest]
 Do [QC34]
 Turn in [G21.85,46.32Redridge Mountains][QT34 An Unwelcome Guest]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Do [QC126]
 Do [G80.17,37.05Redridge Mountains][QC180 Wanted: Lieutenant Fangore]
-Turn in [QT94 A Watchful Eye] at the lion statue
+Turn in [G84.5,46.8Redridge Mountains][QT94 A Watchful Eye][O] at the lion statue
 Finish off [QC91]
 [G71.40,55.07Redridge Mountains] Pet pull [QC19 Tharil'zun], kite him towards burning steppes [A Hunter,Warlock]
 Do [QC128 Blackrock Bounty]
 [O]If you haven't found a bronze tube, run to burning steppes, die on purpose, buy a bronze tube at flame's crest and hearth back to Redridge--OnStepActivation,BAG_UPDATE>>BronzeTube
 Death skip to Lakeshire[OC]
-Turn in [QT19 Tharil'zun][A Hunter,Warlock]
-Turn in [QT91 Solomon's Law]
-Turn in [QT180 Wanted: Lieutenant Fangore]
+Turn in [QT19 Tharil'zun][A Hunter]
+Turn in [QT91 Solomon's Law] \\Turn in [QT180 Wanted: Lieutenant Fangore]
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT126]
+Turn in [QT19 Tharil'zun][A Warlock]
 Turn in [QT128 Blackrock Bounty]
 
 Fly to [F Stormwind]

@@ -14,7 +14,7 @@ Enter the inn from the bottom floor \\Accept [G27.11,77.21,20Stranglethorn Vale]
 Speak to Kebok\\Accept [G26.99,77.12,20Stranglethorn Vale][QA213 Hostile Takeover] \\ \\Speak to Krazek\\Accept [G26.94,77.2,20Stranglethorn Vale][QA198 Supplies to Private Thorsen] \\Accept [QA201 Investigate the Camp] \\Accept [QA616 The Haunted Isle]
 Talk to Baron Revilgaz\\Turn in [G27.22,76.87,20Stranglethorn Vale][QT616 The Haunted Isle] \\Accept [QA578 The Stone of the Tides] \\Turn in [QT1181 Goblin Sponsorship] \\Accept [QA1182 Goblin Sponsorship]
 Accept [G28.29,77.59,20Stranglethorn Vale][QA575 Supply and Demand]
-Throw away the *Library Scrip*[O]
+Throw away the *Library Scrip*[O]-->>Destroy,3898
 [A Hunter][G27.53,77.78Stranglethorn Vale]Fly to [F Westfall][OC]
 [A Hunter]Turn in [QT231 A Daughter's Love]
 
@@ -28,27 +28,27 @@ Throw away the *Library Scrip*[O]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT223]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT1043] \\Accept [QA1044]
 
-Head to STV\\Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]
-Accept [QA185 Tiger Mastery] pt.1\\Accept [QA190 Panther Mastery] pt.1
-[QC185-][O]Kill tigers and panthers
-
 Turn in [QT198 Supplies to Private Thorsen][O]
 Turn in [QA215-][O][QT215 Jungle Secrets][O] if you have it, otherwise keep an eye for Private Thorsen's RP sequence\\He patrols down the road every 30 minutes
 Run to the STV/Duskwood border\\Accept [G92.05,81.87,20Westfall][QA203 The Second Rebellion] \\Accept [G92.05,81.87,20Westfall][QA204 Bad Medicine]
 [L48.53,8.68Stranglethorn Vale][L24.50,17.37Stranglethorn Vale][QC605 -]Kill basilisks [O]
 [QC575 -]Kill river crocolisks [O]
 
-Finish off [QC190]
+Head to STV\\Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]
+Accept [QA185 Tiger Mastery] pt.1\\Accept [QA190 Panther Mastery] pt.1
+Turn in [QT5762][OC]
+Do [QC185][O]
 Turn in [QT185 Tiger Mastery] pt.1\\Accept [QA186 Tiger Mastery] pt.2
-Turn in [QT190 Panther Mastery] pt.1
-
 
 [G44.93,10.25,179Stranglethorn Vale][QC203 -][QC204 -] Do the Kurzen compound quests
 [G46.75,15.81,100Stranglethorn Vale][QC186 -] Kill tigers, look for basilisks northeast
 [G45.52,18.38Stranglethorn Vale][QC1182 -]Get the key from a named mob on top of the oil rig \\Open the chest inside the house next to the lumber mill
 [G45.48,20.24,121Stranglethorn Vale][QC213 -] Kill geologists
+Finish off [QC190]
+
 Accept [G37.7,3.3,20Stranglethorn Vale][QA210 Krazek's Cookery]
 Turn in [G92.05,81.87,20Westfall][QT203 The Second Rebellion] \\Turn in [G92.05,81.87,20Westfall][QT204 Bad Medicine]
+Turn in [QT190 Panther Mastery][OC] pt.1
 Turn in [G87.67,95.16,20Westfall][QT186 Tiger Mastery] \\Accept [QA187 Tiger Mastery] \\Turn in [QT5762 Hemet Nesingwary] \\Accept [QA194 Raptor Mastery] \\Accept [QA191 Panther Mastery]
 Do [G76.35,95.88,171Westfall][QC191 Panther Mastery] \\Do [G31.92,18.21,170Stranglethorn Vale][QC187 Tiger Mastery]
 Do [G26.87,16.32,163Stranglethorn Vale][QC194 Raptor Mastery]

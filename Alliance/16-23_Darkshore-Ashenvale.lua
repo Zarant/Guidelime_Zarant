@@ -86,6 +86,7 @@ Stable your pet\\Tame an Ashenvale Bear and learn *Claw 3*[O][A Hunter]--UNIT_SP
 [O][A Hunter]Run back to Astranaar and withdraw your main pet from stables--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,1442
 Turn in [QT1008 The Zoram Strand] \\Accept [QA1134 Pridewings of Stonetalon]
 Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing] 
+Throw away *Teronis' Journal*[O]-->>Destroy,5505
 Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
 
 [G42.5,71.7,50Ashenvale] Head to stonetalon

@@ -172,6 +172,7 @@ Accept [G6.37,16.66Winterspring][QA2098 Gyromast's Retrieval]
 [G6.37,16.66Winterspring]Turn in [QT2098 Gyromast's Retrieval] \\Accept [QA2078 Gyromast's Revenge]
 [G5.59,21.09Winterspring][QC2078-]Speak with *The Threshwackonator 4100*\\Escort it back to Gyromast and kill it
 Turn in [G6.37,16.66Winterspring][QT2078 Gyromast's Revenge]
+[O]Throw away *Gyromast's Key*-->>Destroy,7442
 Accept [G3.1,20.9Winterspring][QA4727 Beached Sea Turtle]
 Finish off [QC1138]
 [H]Hearth to Auberdine[OC]

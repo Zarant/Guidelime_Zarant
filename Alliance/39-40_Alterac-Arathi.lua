@@ -96,6 +96,7 @@ Turn in [QT661 Hints of a New Plague?]
 
 [A Warlock][XP40 Grind to level 40]
 [A Warlock]Fly to [F Ironforge][OC]
+[A Warlock]Turn in [QT653][O] \\Skip the follow up
 [A Warlock]Speak with the Warlock trainers in IF\\Accept [QA4487] \\Accept [QA4965]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Fly to [F Wetlands]-->>LoadNextGuide,2
 [A Hunter]Fly to [F Wetlands]-->>LoadNextGuide,1

@@ -57,17 +57,17 @@ Accept [QA345 Ink Supplies]
 [G41.8,65.6Elwynn Forest]Turn in [QT118 The Price of Shoes]\\
 Accept [QA119 Return to Verner]
 [G66.3,62.3Stormwind City]Run back to SW\\Fly to [F Redridge]
-
 [G33.4,48.9Redridge Mountains]Turn in [QT20 Blackrock Menace]
 [G32.0,48.8Redridge Mountains]Turn in [QT345 Ink Supplies]\\
 Accept [QA347 Rethban Ore]\\
 Accept [QA89 The Everstill Bridge]
-Turn in [QT127]
+
 [G31.0,47.2Redridge Mountains]Turn in [QT119 Return to Verner]\\
 Accept [QA122 Underbelly Scales]\\
 Accept [QA124 A Baying of Gnolls]
 Turn in [QT121]
-[G27.8,47.3Redridge Mountains]Accept [QA150 Murloc Poachers]\\
+Turn in [QT127]\\
+Accept [QA150 Murloc Poachers]\\
 Turn in [QT150 Murloc Poachers]
 Turn in [QT92 Redridge Goulash]
 [G21.9,46.2Redridge Mountains]Turn in [QT130 Visit the Herbalist]\\
@@ -94,8 +94,8 @@ Guidelime.registerGuide([[
 [NX21-23Stonetalon/Ashenvale]
 [D Alternative route for Dwarves/Gnomes/Humans]
 [GA Alliance,Warlock,Warrior,Paladin,Priest,Rogue,Mage,Druid]
-[H][OC]Hearth back to Auberdine
 Kill [QC1003 -][O]Grizzled Thistle Bears
+[H][OC]Hearth back to Auberdine
 
 [G18.08,64.03Felwood]Start the escort quest\\Turn in [QT729 The Absent Minded Prospector] pt.1 \\Accept [QA731 The Absent Minded Prospector] pt.2 
 [QC731-]Escort Prospector Remtravel
@@ -192,8 +192,9 @@ Turn in [QT1009]
 [G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
 Kill Murlocs until the [QC1023 Glowing Gem] drops \\Save *Murloc Fins* for later
 [H]Hearth back to Astranaar\\ \\If your HS is still on colldown, die at the east side of the lake and spirit rez[OC]
-Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
+Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust][O]
 Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing]
+Throw away *Teronis' Journal*[O]-->>Destroy,5505
 Turn in [QT1008 The Zoram Strand]
 Fly to [F Auberdine]--OnStepCompletion>>LoadNextGuide
 ]],"Zarant")

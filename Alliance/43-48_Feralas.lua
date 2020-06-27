@@ -2,29 +2,20 @@
 Guidelime.registerGuide([[
 [N43-44Tanaris]
 [NX44-48Feralas]
-[GA Alliance]
+[GA Alliance,Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior]
 [D Alliance Leveling Guide]
 Head to Ratchet[OC]
-[A Warlock]Turn in [QT4962]--shard of a felhound
-[A Warlock]Set your Hearthstone to [S Ratchet]
 Fly to [F Theramore]
 
 [L67.76,48.97Dustwallow Marsh][QA6624-][O][QT6624-][O]Do the First Aid quest if applicable\\(Requires 225 First Aid)
 Turn in [QT623 Akiris by the Bundle]
 Turn in [QT1258 ... and Bugs]
-[A Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior][S]Set your HS to theramore
-[A Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior][G55.62,50.11Dustwallow Marsh]Swim to the hill west \\Turn in [G31.10,66.14Dustwallow Marsh][QT625] \\Accept [QA626]
-
-[A Warlock][G55.62,50.11Dustwallow Marsh]Swim to the hill west \\[G46.0,57.0Dustwallow Marsh]Turn in [QT1799]
-[A Warlock]Accept [QA4961]
-[A Warlock]Do [QC4961]
-[A Warlock]Turn in [QT4961] \\Accept [QA4976]
-[A Warlock]Turn in [G31.10,66.14Dustwallow Marsh][QT625] \\Accept [QA626]
+[S]Set your HS to theramore
+[G55.62,50.11Dustwallow Marsh]Swim to the hill west \\Turn in [G31.10,66.14Dustwallow Marsh][QT625] \\Accept [QA626]
 
 [H]Hearth back[OC]
-[A Warlock]Turn in [QT4976]
-[A Warlock]Accept [QA4964]\\Wait for the RP sequence to end\\Turn in [QT4964]
-Fly to [F Tanaris]
+
+Fly to [F Tanaris][OC]
 
 Accept [QA1690 Wastewander Justice] \\Accept [QA1707 Water Pouch Bounty]
 Stable your pet [A Hunter][O]
@@ -60,6 +51,67 @@ Turn in [QT1690 Wastewander Justice] \\Turn in [QT1707 Water Pouch Bounty]
 Fly to [F Feathermoon]--OnStepCompletion>>LoadNextGuide
 
 ]],"Zarant")
+
+Guidelime.registerGuide([[
+[N43-44Tanaris/Dustwallow]
+[NX44-48Feralas]
+[GA Alliance,Warlock]
+[D Alliance Leveling Guide]
+Head to Ratchet[OC]
+
+
+Fly to [F Theramore]
+
+[L67.76,48.97Dustwallow Marsh][QA6624-][O][QT6624-][O]Do the First Aid quest if applicable\\(Requires 225 First Aid)
+Turn in [QT623 Akiris by the Bundle]
+Turn in [QT1258 ... and Bugs]
+[S]Set your HS to Theramore
+Fly to [F Tanaris]
+Accept [QA1690 Wastewander Justice] \\Accept [QA1707 Water Pouch Bounty]
+Accept [QA3022 Handle With Care]
+Turn in [QT2864 Tran'rek]
+Turn in [QT1188 Safety First] \\Accept [QA1189]
+
+[QC1452,1-][O]Kill vultures as you quest through tanaris
+Do [QC1690 Wastewander Justice]
+Do [QC1707 Water Pouch Bounty]
+Accept [QA8365 Pirate Hats Ahoy!]
+Accept [QA3520 Screecher Spirits]
+Accept [QA8366 Southsea Shakedown] \\Turn in [QT2872 Stoley's Debt] \\Accept [QA2873 Stoley's Shipment]
+Turn in [QT1690 Wastewander Justice] \\Turn in [QT1707 Water Pouch Bounty]
+
+Run to Shimmering Flats\\Turn in [QT1137 News for Fizzle]
+Turn in [QT1119]
+Accept [QA1120]
+Turn in [QT1120]
+Accept [QA1122]
+
+Turn in [QT1189]
+Accept [QA1190 Keeping Pace]
+[G54.00,7.63Tanaris]Talk with Zamek to create a diversion\\[G52.36,7.88Tanaris]Click on the unguarded plans inside the metal hut \\Turn in [QT1190 Keeping Pace] \\Accept [QA1194 Rizzle's Schematics]
+
+Turn in [QT1194 Rizzle's Schematics]
+Throw away the Sample of Indurium Ore[OC]
+[H]Hearth back to Theramore
+
+
+[G55.62,50.11Dustwallow Marsh]Swim to the hill west \\[G46.0,57.0Dustwallow Marsh]Turn in [QT1799]
+Accept [QA4961]
+Do [QC4961]
+Turn in [QT4961] \\Accept [QA4976]
+Turn in [G31.10,66.14Dustwallow Marsh][QT625] \\Accept [QA626]
+
+Die and spirit rez at Theramore[OC]
+Fly to [F Ratchet]
+Turn in [QT4962] \\Turn in [QT4976]
+Accept [QA4964]\\Wait for the RP sequence to end\\Turn in [QT4964]
+
+
+Fly to [F Feathermoon]--OnStepCompletion>>LoadNextGuide
+
+]],"Zarant")
+
+
 
 Guidelime.registerGuide([[
 [N44-48Feralas]
