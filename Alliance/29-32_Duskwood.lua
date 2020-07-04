@@ -144,7 +144,7 @@ end
 function z:BankW1_Duskwood29() --A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom\\An Old History Book (if you have it) --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_Duskwood29
 	--local items = {"A Torn Journal Page","Bottle of Zombie Juice","Skeleton Finger","Vial of Spider Venom","An Old History Book"}
 	local items = {916,1451,2378,1130,2794}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
@@ -156,7 +156,7 @@ end
 function z:BankW2_Duskwood29() --Crate of Crash Helmets\\Turtle Meat\\Musquash Root\\An Old History Book --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Duskwood29
 	--local items = {"Crate of Crash Helmets","Turtle Meat","Musquash Root","An Old History Book"}
 	local items = {2784,5849,3712,2794}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end

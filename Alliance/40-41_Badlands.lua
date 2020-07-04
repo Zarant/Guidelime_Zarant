@@ -80,7 +80,7 @@ end
 function z:BankW_Badlands40()
 	--local items = {"Blue Pearl","Buzzard Wing","Fizzle Brassbolts' Letter"}
 	local items = {4611,3404,5827}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end

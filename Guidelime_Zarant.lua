@@ -17,11 +17,15 @@ local updateStepsOLD = addon.updateSteps
 
 function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,frameCounter)
 	
-	if frameCounter > #self.eventFrame+1 or type(self[eval]) ~= "function" then
+	if frameCounter > #self.eventFrame+1  then
 		return
 	end
 	if #self.eventFrame < frameCounter then
 		table.insert(self.eventFrame,CreateFrame("Frame"))
+	end
+	
+	if type(self[eval]) ~= "function" then
+		return 
 	end
 	
 	local frame = self.eventFrame[frameCounter]
@@ -33,7 +37,7 @@ function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,f
 	frame.args = args
 	setmetatable(frame.data, self)
 	
-
+	
 
 	local function EventHandler(s,...) --Executes the function if step is active or if it's specified on a 0 element step (e.g. guide name)
 		if s.data.step.active or #s.data.step.elements == 0 then 
@@ -42,7 +46,7 @@ function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,f
 	end
 	local OnUpdate
 	for _,event in pairs(eventList) do
-
+		--print(eval,event)
 		if event == "OnUpdate" then
 			OnUpdate = true
 			frame:SetScript("OnUpdate",EventHandler)
@@ -451,7 +455,6 @@ end
 
 z.eventList.Collect = "OnStepActivation,BAG_UPDATE"
 function Guidelime.Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,id,qty,id,qty...
-
 	if not self.id then
 		self.id = {}
 		self.quantity = {}

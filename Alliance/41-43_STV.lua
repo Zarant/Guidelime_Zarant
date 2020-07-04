@@ -140,7 +140,7 @@ function z:BankW1_STV41()  --Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\
 	
 	--local items = {"Perenolde Tiara","Tomes of Alterac","Kravel's Scheme","Sample Elven Gem"} 
 	local items = {3684,3660,5826,4502}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
@@ -152,7 +152,7 @@ function z:BankW2_STV41()
 	
 --	local items = {"Khadgar's Essays on Dimensional Convergence"} 
 	local items = {6065}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
@@ -164,7 +164,7 @@ function z:BankW3_STV41()
 	
 --	local items = {"Seaforium Booster"} 
 	local items = {5862}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end

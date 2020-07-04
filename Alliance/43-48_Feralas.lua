@@ -152,7 +152,7 @@ Do [G7.47,99.05,145The Barrens][QC2821 The Mark of Quality]
 Do the chicken escort\\Turn in [G8.77,97.09,20The Barrens][QA2766-][QT2766 Find OOX-22/FE!] \\Accept [QA2767 Rescue OOX-22/FE!]
 [QC2767-]Escort the robot chicken
 Start working on [QC2982 The High Wilderness][OC]
-[G56.64,75.89Feralas]Loot an [V]Hippogryph Egg--OnStepActivation,BAG_UPDATE>>HippogryphEgg
+[G56.64,75.89Feralas]Head south and look for Hippogryph nests by the mountains\\[V]Loot an Hyppogryph Egg--OnStepActivation,BAG_UPDATE>>HippogryphEgg,8564,1
 Finish off [QC2982 The High Wilderness]
 Finish off [QC3520]
 Do [QA2969 Freedom for All Creatures] \\Clear some mobs around the wooden cage before accepting the escort
@@ -202,9 +202,11 @@ if not Guidelime.Zarant then return end
 
 local z = Guidelime.Zarant
 
-function z:HippogryphEgg()
-	if GetItemCount(8564) > 0 or IsQuestFlaggedCompleted(2741) then
+function z:HippogryphEgg(args)
+	if IsQuestFlaggedCompleted(2741) then
 		self:SkipStep()
+	else
+		self:Collect(args)
 	end
 end
 

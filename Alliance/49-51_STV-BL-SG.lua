@@ -13,11 +13,13 @@ Turn in [QA3721-][QT3721]--OnStepActivation>>BindLocation,Stormwind City
 Accept [QA348 Stranglethorn Fever]--OnStepActivation>>BindLocation,Stormwind City
 Turn in [QT2874 Deliver to MacKinley]--OnStepActivation>>BindLocation,Stormwind City
 Turn in [QT1122 Report Back to Fizzlebub]--OnStepActivation>>BindLocation,Stormwind City
-[S]Set HS to Booty Bay--OnStepActivation>>BindLocation,Stormwind City
+Turn in [QT580]--OnStepActivation>>BindLocation,Stormwind City
+[S]Set HS to Booty Bay\\Skip this step if your HS is set to Stormwind--OnStepActivation>>BindLocation,Stormwind City
 
 Accept [QA608 The Bloodsail Buccaneers]
 
 Turn in [QT1122 Report Back to Fizzlebub]
+Turn in [QT580]
 Turn in [QT2874 Deliver to MacKinley]
 Accept [QA348 Stranglethorn Fever]
 Turn in [QT2767 Rescue OOX-22/FE!] 
@@ -63,7 +65,7 @@ Make sure you have 15 *Silk Cloth* on your bags before starting this segment[O]-
 Talk to Hansel Heavyhands\\Accept [QA7723 Curse These Fat Fingers] \\Accept [QA7724 Fiery Menace!]
 Click on the wanted board\\Accept [QA7728 STOLEN: Smithing Tuyere and Lookout's Spyglass] \\Accept [QA7729 JOB OPPORTUNITY: Culling the Competition]
 Accept [QA3441 Divine Retribution] 
-[QC3441-]Talk to Kalaran Windblade\\Go through his whole dialogue--GOSSIP_SHOW>>SkipGossip,8479
+[QC3441-]Talk to Kalaran Windblade\\Go through his whole dialogue--GOSSIP_SHOW>>SkipGossip
 Turn in [QT3441 Divine Retribution] \\Accept [QA3442 The Flawless Flame]
 [QC3442-][O]Make sure you prioritize Fire Elementals/Golems
 [G34.08,53.99Searing Gorge][QC7728,2-]Kill Dark Iron Lookouts around the tower\\They respawn roughly every 7 minutes[O]
@@ -141,8 +143,9 @@ Turn in [QT3182 Proof of Deed] \\Accept [QA3201 At Last!]
 Turn in [QT3368 Suntara Stones]
 Accept [QA3448 Passing the Burden]
 Accept [QA4512 A Little Slime Goes a Long Way]
+[A Warlock][G51.1,6.6Ironforge]Accept [QA8419]
 Turn in [QT3448 Passing the Burden] \\Accept [QA3449 Arcane Runes] \\Accept [QA3450 An Easy Pickup]
-[G18.1,51.6Ironforge][S]Set your HS to Ironforge
+--[G18.1,51.6Ironforge][S]Set your HS to Ironforge
 Accept [G70.9,83.6Ironforge][QA8151][A Hunter]
 Turn in [QT3450 An Easy Pickup] \\Accept [QA3451 Signal for Pickup] \\Turn in [QT3451 Signal for Pickup]
 
@@ -169,7 +172,7 @@ end
 function z:BankW_BL51()  --Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV49
 	--local items = {"Super Snapper FX","Snapshot of Gammerita","Wildkin Feather"}
 	local items = {9328,9330,10819}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end

@@ -27,10 +27,10 @@ Accept [QA4503]
 [QC4503-][O][QC3882-][O]Kill dinos as you quest through Un'Goro
 --Do [QC4504]
 [G56.81,9.20,50Un'Goro Crater]Start working on [QC4501,1][OC]
-[QC4285-]Click on the Northern Pylon
+[QC4285-]Click on the Northern Pylon-->>SkipGossip
 Do [QC4289]
 [G68.47,36.53][QC3881,1-]Loot the Crate of Foodstuffs
-[G77.21,49.85][QC4287-]Right click on the eastern pylon
+[G77.21,49.85][QC4287-]Right click on the eastern pylon-->>SkipGossip
 [G79.95,49.86][QC4292-]Open Torwa's Pouch, set up the threshadon meat and the pheromone mixture and kill Lar'kowi
 Turn in [QT4292] \\Turn in [QT4289] \\Accept [QA4301]
 [G56.46,90.38][QC4501,1-]Kill Pterrodaxes
@@ -38,7 +38,7 @@ Turn in [QT4292] \\Turn in [QT4289] \\Accept [QA4301]
 Keep killing bugs until you get a [QC4496,1 Gorishi Scent Gland]
 [QC4501,2-][O]Kill any Frenzied Pterrodax you see
 [G38.44,66.01][QC3881,2-]Loot the Research Equipment
-[G23.84,59.08][QC4288-]Click on the Western Pylon
+[G23.84,59.08][QC4288-]Click on the Western Pylon-->>SkipGossip
 Accept [QA974]
 [QC4502-][OC]Kill fire elementals
 [G52.95,42.81,50]Climb the volcano\\[G49.75,45.72][QC974-]Climb to the top of the volcano and use the quest item on the flaming protuberance
@@ -93,7 +93,7 @@ local z = Guidelime.Zarant
 function z:BankW1_Ungoro53()  --Torwa's Pouch\\All 4 Power Crystals\\Violet Tragan\\Webbed Diemetradon Scale --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Ungoro53
 	--local items = {"Torwa's Pouch","Webbed Diemetradon Scale","Un'Goro Soil","Violet Tragan","Red Power Crystal","Green Power Crystal","Blue Power Crystal","Yellow Power Crystal"}
 	local items = {11568,11569,11570,11830,11018,11114,11831}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
@@ -107,7 +107,7 @@ end
 function z:BankW2_Ungoro53() 
 --	local items = {"Eridan's vial","Purified Moonwell Water","Cenarion beacon","Moontouched Feather"}
 	local items = {11682,12906,11511,"Moontouched Feather" }
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end

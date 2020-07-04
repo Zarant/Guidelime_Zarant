@@ -127,7 +127,7 @@ Accept [QA4141]
 Accept [QA3882]
 [QC3845-]Open the small pack in your inventory [OC]
 Turn in [QT3845] \\Accept [QA3908]
-Destroy the faded pictograph[O]
+Destroy the faded photograph[O]-->>Destroy,11108
 Get the [P Un'Goro Crater] FP
 [QC4503-][O][QC3882-][O]Kill dinos as you quest - This step is going to be finished later,don't go out of your way to complete this--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Tanaris
 [QC4141-][O]Kill level 48-50 Lashers in northeastern Un'goro
@@ -161,7 +161,7 @@ local z = Guidelime.Zarant
 function z:BankW_Tanaris48()
 	
 	local items = {6257,6258,6259}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
@@ -198,7 +198,7 @@ function z:BankW_Tanaris49()  --Carefully Folded Note\\Gorilla Fangs\\Fool's Sto
 	
 --	local items = {"Carefully Folded Note","Gorilla Fang","Fool's Stout Report"} 
 	local items = {2799,4098,5807,3900,6287}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end

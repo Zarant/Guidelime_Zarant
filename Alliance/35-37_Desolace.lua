@@ -5,15 +5,18 @@ Guidelime.registerGuide([[
 [GA Alliance,Hunter]
 [D Alliance Leveling Guide]
 Go to Ironforge\\Accept [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace]
-Take the boat to Darkshore or Dustwallow[OC]
+Take the boat to Darkshore
 
-Fly to [F Desolace]
+
+Fly to [F Stonetalon]
+[G54.76,0.47,60Desolace] Head to Desolace
+Accept [QA1437 Vahlarriel's Search]
+[G64.66,10.53Desolace]Get the [P Desolace] FP
 
 [G66.28,6.55Desolace]Set your HS to [S Nijel's Point]
 
 Turn in [QT1453 Reclaimers' Business in Desolace] \\Accept [QA1454 The Karnitol Shipwreck] \\Accept [QA1458 Reagents for Reclaimers Inc.] 
 Accept [QA1387 Centaur Bounty] \\Accept [QA1382]
-Accept [QA1437 Vahlarriel's Search]
 
 [QC1458 -]Kill Satyrs
 Turn in [QT1458 Reagents for Reclaimers Inc.] \\Accept [QA1459 Reagents for Reclaimers Inc.]

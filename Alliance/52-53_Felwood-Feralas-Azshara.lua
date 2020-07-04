@@ -28,7 +28,10 @@ Accept [QA4101]
 Accept [QA6131]
 Run to the Emerald Sanctuary\\Accept [QA5155] \\Accept [QA5156] \\Accept [QA4421]
 [G40.77,66.86Felwood][QC4512,1-]Kill slimes, use the Ooze jar on their corpses
+[A Warlock][QC8419-][O]Kill satyrs
 Do [G32.27,67.05,30Felwood][QC4421]
+[A Warlock]Turn in [QT8419] \\Accept [QA8421]
+[A Warlock][QC8421,2-]Kill Tainted Oozes
 [L40.48,59.07Felwood][L39.92,54.97Felwood][QC4512,2-][OC]Kill slimes, use the Ooze jar on their corpses
 Do [QC5155]
 Finish off [G40.48,59.07,20Felwood][QC4512,2]
@@ -47,22 +50,23 @@ Grind fulborgs until you get unfriendly with Timbermaw Hold\\ \\Keep grinding fu
 Do [QC5156]
 [G39.07,22.31Felwood]Kill Xavaric\\Accept [QA939]
 Do [QC4906] \\Do [QC939]
+[A Warlock][QC8421,1-]Kill Irontree mobs
 Do [G56.1,17.0,70Felwood][QC4101]
 [V]Vendor stuff, you gonna spirit rez 3 times on the next segment[OC]
 [G62.50,24.24Felwood]Get the [P Felwood] FP
 Turn in [QT8462]
 Run to Winterspring\\Turn in [QT3908] \\Accept [QA3909]
 [QC978-]Look for Moontouched feathers on the ground\\Skip this step if you don't have this quest
-Throw away your HS and death warp to Everlook[OC]
+Die and spirit rez at Everlook[OC]
 [G60.38,37.92Winterspring]Stable your pet [A Hunter][OC]
 Fly to [F Felwood]
 Tame a *Felpaw Ravager*, learn bite 7 [A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,8961
 Death warp to the graveyard[OC]
 Tame an *Ironbeak Hunter* or *Angerclaw Mauler* and learn claw 7 [OC][A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,7099,8958
-
+[A Warlock]Turn in [QT8421]
 [G40.84,66.78,40Felwood] Run south to the slime pond\\Death warp to southern felwood[OC]
 Turn in [QT4101]
-[G16.27,99.89,20Winterspring]Make sure you have a Cenarion Beacon[O] --BAG_UPDATE>>Collect,11511,1
+[V][O][G16.27,99.89,20Winterspring]Make sure you have a Cenarion Beacon--BAG_UPDATE>>Collect,11511,1
 Turn in [QT5157] \\Accept [QA5158]
 Turn in [QT939] \\Accept [QA4441] \\Turn in [QT4906]
 Turn in [QT5156]
@@ -90,13 +94,13 @@ Swim to the mainland[OC]
 Accept [QA7003] \\Accept [QA7721]
 Do [QC7003] \\Do [QC7721]
 Turn in [QT7003] \\Turn in [QT7721]
-Grind Yetis until you get a pristine hide\\Accept [QA7735][O]--OnStepCompletion>>StepSkip
+Grind Yetis until you get a pristine hide\\Accept [QA7735][O]--OnStepCompletion>>SkipStep
 Do [QC7733]
-Buy some bait from Gregan--OnStepActivation,BAG_UPDATE>>Collect,11141,1
+Buy some bait from Gregan-->>Collect,11141,1
 Turn in [QT4142]
 --[QA3909] --videre
 Accept [QA2844]
-[G44.64,10.59Feralas][V]Give some bait to the gnoll guarding the Evoroot--OnStepActivation,BAG_UPDATE>>Collect,11142,1
+[G44.64,10.59Feralas][V]Give some bait to the gnoll guarding the Evoroot-->>Collect,11242,1
 [L38.53,15.78Feralas][L37.76,12.22Feralas][L40.52,12.69Feralas][L39.91,9.47Feralas][QC2879-]Loot all 4 flames \\Right click on Troyas' Staff at the [G38.88,13.13Feralas]monolith
 Click on the monolith\\Turn in [QT2879] \\Accept [QA2942]
 Grind harpies until your HS cooldown is <8 minutes
@@ -121,7 +125,7 @@ Guidelime.registerGuide([[
 --[O]This segment contains a heavy grinding session (about 2 hours long), you can skip it if you are planning to run dungeons before level 60 --v2
 [V][O]Deposit the follwing items:\\Eridan's Vial\\Cenarion Beacon\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas52
 [V][O]Withdraw the following:\\Drawing Kit\\Flare Gun --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Azshara53
-Make sure you have at least 1 stack of noggenfogger for this next segment
+Make sure you have at least 1 stack of noggenfogger for this next segment-->>Collect,8529,20
 --[V][O]Buy 3 stacks of food/water at the innkeeper
 [S]Set your HS to Ratchet
 Fly to [F Azshara]
@@ -148,7 +152,7 @@ Grind until your HS cooldown is <5 minutes[O]
 --[G88.47,29.61,200Azshara][QC8231-]Kill Wavethrashers along the northeastern coast
 --Turn in [QT8231]
 [G73.22,87.87,40Azshara]Go behind the giant statue\\[G77.80,91.32Azshara]Use noggenfoger to jump down to the small island east\\Use the flare gun at the landing pad\\Turn in [QT3449 Arcane Runes] \\Accept [QA3461 Return to Tymor]
-Destroy the flare gun[OC]
+[O]Destroy the flare gun-->>Destroy,10444
 [H]Hearth to Ratchet
 Turn in [QT5158] \\Accept [QA5159]
 [V][O]Deposit the following items:\\Drawing kit\\Purified Moonwell Water --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Azshara53
@@ -180,7 +184,7 @@ function z:BankW_Felwood52()  --Jer'kai's Signet Ring\\Raschal's Report\\Insect 
 	
 	--local items = {"Jer'kai's Signet Ring","Raschal's Report","Insect Analysis Report","Linken's Training Sword","Package of Empty Ooze Containers","Bloodpetal"} 
 	local items = {9368,11466,8594,11133,11912,11316}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
@@ -192,7 +196,7 @@ function z:BankW_Azshara53()  --Drawing Kit\\Flare Gun --BANKFRAME_OPENED,BAG_UP
 	
 	--local items = {"Drawing Kit","Flare Gun"} 
 	local items = {10445,10444} 
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
@@ -216,7 +220,7 @@ end
 function z:BankW_Feralas52()
 --	local items = {"Bloodpetal"}
 	local items = {11316}
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end

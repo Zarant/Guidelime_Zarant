@@ -100,12 +100,13 @@ Do [G25.86,5.28,137The Barrens][QC1071 A Gnome's Respite]
 Turn in [G22.28,10.86The Barrens][QT1093 Super Reaper 6000]
 [G22.53,13.05The Barrens]Turn in [QT1071 A Gnome's Respite] \\Accept [QA1072 An Old Colleague] \\Accept [QA1075 A Scroll from Mauren]
 Finish off [QC1134 Pridewings of Stonetalon]
-Turn in [G4.61,52.55Ashenvale][QT1056 Journey to Stonetalon Peak] \\Accept [QA1057]
-Get the [P Stonetalon Peak] Flight Path
-Do [QC1057]
-[G54.76,0.47,30Desolace] Head to Desolace \\[G64.66,10.53Desolace]Get the [P Desolace] FP
-Fly to [F Stonetalon]
-Turn in [QT1057] \\Accept [QA1059]
+Turn in [G4.61,52.55Ashenvale][QT1056 Journey to Stonetalon Peak] 
+--Accept [QA1057]
+--Get the [P Stonetalon Peak] Flight Path
+--Do [QC1057]
+--[G54.76,0.47,30Desolace] Head to Desolace \\[G64.66,10.53Desolace]Get the [P Desolace] FP
+--Fly to [F Stonetalon]
+--Turn in [QT1057] \\Accept [QA1059]
 Fly to [F Ashenvale]
 
 Accept [QA4581]

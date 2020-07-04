@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N54-55Felwood/Winterspring]
-[NX55-56Winterspring/Moonglade]
+[NX55-56Winterspring]
 [GA Alliance]
 [D Alliance Leveling Guide]
 
@@ -52,6 +52,7 @@ Fly to [F Azshara]
 
 
 Run to Ashenvale\\Turn in [QT4261 Ancient Spirit]
+[O]Throw away the Flute of the Ancients-->>Destroy,11445
 Run to Felwood\\[G54.15,86.84Felwood]Turn in [QA5882-][QT5882 Salve via Hunting]
 Turn in [QT5165 Dousing the Flames of Protection] \\Accept [QA5242 A Final Blow]
 Turn in [QT5203 Rescue From Jaedenar] \\Accept [QA5204 Retribution of the Light]
@@ -77,7 +78,7 @@ Do [QC5245,1 Troubled Spirits of Kel'Theril]
 ]], "Zarant")
 
 Guidelime.registerGuide([[
-[N55-56Winterspring/Moonglade]
+[N55-56Winterspring]
 [NX56-57Burning Steppes]
 [GA Alliance]
 [D Alliance Leveling Guide]
@@ -94,10 +95,10 @@ Finish off [G67.08,35.48,60Winterspring][QC8464 Winterfall Activity] \\Abandon t
 Click on the damaged crate\\Turn in [QT4861 Enraged Wildkin] \\Accept [QA4863 Enraged Wildkin]
 Turn in [QT4863 Enraged Wildkin] \\Accept [QA4864 Enraged Wildkin]
 [QC4864,1-]Click on the small crate next to Jaron's Wagon
-[G65.49,60.50Winterspring][QC4864,2-][OC]Kill Owlbeasts\\Clear the thicket before starting the escort quest
+[A Hunter][G65.49,60.50Winterspring][QC4864,2-][OC]Kill Owlbeasts\\Clear the thicket before starting the escort quest
 [A Hunter]Start the escort quest\\Turn in [QT979 Find Ranshalla] \\Accept [QA4901 Guardians of the Altar]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT979] \\Skip this step if you don't have the quest
-[QC4901-]Escort Ranshalla\\Click on the torches once she gets inside one of the caves\\Right click the stone altar at the end
+[A Hunter][QC4901-]Escort Ranshalla\\Click on the torches once she gets inside one of the caves\\Right click the stone altar at the end
 Finish off [QC4864 Enraged Wildkin]
 [A Hunter][QC969-][O]Loot the blue crystals around the outer perimeter of the canyon\\Use your pet to bait the giants away from the crystals
 [G59.52,75.23Winterspring][QC4842-]Run south to Darkwhisper Gorge
@@ -105,21 +106,19 @@ Finish off [QC4864 Enraged Wildkin]
 --Turn in [QT3783 Are We There, Yeti?]
 [A Hunter]Turn in [QT969]
 Turn in [QT4864 Enraged Wildkin]
-[QC5087-]Use eagle eye to find the Winterfall Runners
+[A Hunter]Use eagle eye to find the Winterfall Runners[OC]
+Finish off [QC5087]
 Turn in [QT4842 Strange Sources] \\Turn in [QT5087 Winterfall Runners] \\Accept [QA5121 High Chief Winterfall]
 Turn in [QT8464 Winterfall Activity]
 
-Head to Moonglade[OC]
-Turn in [QT6762 Rabine Saturna] \\Accept [QA1124 Wasteland]
-Finish the dialogue with Rabine\\Accept [QA5527 A Reliquary of Purity] \\Skip this step if the Dire Maul dialogue is not available--GOSSIP_SHOW>>SkipGossip,11801
-[G48.13,67.34Moonglade]Get the [P Moonglade] FP
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Fly to [F Teldrassil][OC]
+
+Unstuck back to the graveyard[OC]
+Fly to [F Teldrassil][OC]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT978] \\Accept [QA979]
 
 [A Hunter]Turn in [QT4901 Guardians of the Altar] \\Accept [QA4902 Wildkin of Elune]
-[A Hunter][G39.39,42.43,15Darnassus]Stop by the bank
 
-[A Hunter][V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
+[A Hunter][V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel\\Black Dragonflight Molt--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
 [A Hunter][T][O]Train skills
 [A Hunter]Turn in [QT4902 Wildkin of Elune]
 Fly to [F Darkshore]--OnStepCompletion>>LoadNextGuide
@@ -148,9 +147,9 @@ end
 
 function z:BankW_Winterspring54()  --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
 	--local items = {"Drawing Kit","Filled Cursed Ooze Jar","Filled Tainted Ooze Jar","Janice's Parcel"}
-	local items = {10445,11947,11949,12724}
+	local items = {10445,11947,11949,12724,10575}
 	
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end

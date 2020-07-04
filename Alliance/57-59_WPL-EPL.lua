@@ -23,11 +23,11 @@ Turn in [QT6028 The Everlook Report]
 Accept [QA4984 The Wildlife Suffers Too]
 [QC4984-][O]Kill wolves as you quest\\Make sure to kill Carrion Lurkers if you can't find any wolves since they share spawn points
 [G47.80,50.67,1 Western Plaguelands]Click on Mrs. Dalson's Diary\\Turn in [QA5058-][QT5058 Mrs. Dalson's Diary]
-Look for the *Wandering Skeleton* as you quest around Dalson's Tears\\Loot the *Dalson Outhouse Key*[O]
+[O]Look for the *Wandering Skeleton* as you quest around Dalson's Tears\\Loot the *Dalson Outhouse Key*-->>Collect,12738,1
 [QC5219-][OC]Kill the cauldron lord
 Turn in [QT5219 Target: Dalson's Tears] \\Accept [QA5220 Return to Chillwind Camp]
 [G48.15,49.69,1 Western Plaguelands]Click on the Outhouse to summon *Farmer Dalson*\\Turn in [QA5059-][OC][QT5059 Locked Away][OC]
-Kill *Farmer Dalson* and loot *Dalson Cabinet Key*[OC]
+[OC]Kill *Farmer Dalson* and loot *Dalson Cabinet Key*-->>Collect,12739,1
 [G47.37,49.66,1 Western Plaguelands]Click on the cabinet upstairs\\Turn in [QA5060-][QT5060 Locked Away]
 Turn in [QT5050 Good Luck Charm] \\Accept [QA5051 Two Halves Become One]
 [QC5051-]Look for the Jabbering Ghoul around the farm\\Right click the Other-Half-Charm to create a Good Luck Charm
@@ -37,6 +37,7 @@ Finish off [QC4984 The Wildlife Suffers Too]
 [G42.35,66.17 Western Plaguelands][QC5097,2-]Mark the second tower
 [G40.07,71.62 Western Plaguelands][QC5097,1-]Mark the first tower
 Turn in [QT5097 All Along the Watchtowers] \\Accept [QA5533 Scholomance]
+[O]Throw away the Beacon Torch-->>Destroy,12815
 Turn in [QT5533 Scholomance] \\Accept [QA5537 Skeletal Fragments]
 Turn in [QT5220 Return to Chillwind Camp] \\Accept [QA5222 Target: Writhing Haunt]
 [QC5537-][O]Stop by Andorhal and kill skeletons for fragments
@@ -75,7 +76,7 @@ Turn in [QT6164 Augustus' Receipt Book]
 [G21.79,40.34 Eastern Plaguelands]Use noggenfogger to slow fall to the other side
 Turn in [QT5542 Demon Dogs] \\Turn in [QT5543 Blood Tinged Skies] \\Turn in [QT5544 Carrion Grubbage] 
 Accept [QA5742 Redemption] 
-[QC5742-]Sit down and listen to his story-->>SkipGossip,5742
+[QC5742-]Sit down and listen to his story-->>SkipGossip
 Turn in [QT5742 Redemption] \\Accept [QA5781 Of Forgotten Memories]
 Enter the crypt and slay [QC6021 Zaeldarr the Outcast]
 Click on the scroll on the ground\\Accept [QA6024 Hameya's Plea]
@@ -137,8 +138,15 @@ Turn in [QT5211 Defenders of Darrowshire] \\Turn in [QT5206 Marauders of Darrows
 Fly to [F Western Plaguelands]
 Turn in [QT5226 Return to Chillwind Point]
 Turn in [QA5237-][QT5237 Mission Accomplished!]
+Make sure to turn in all your scourgestones before continuing to the next step--OnStepActivation,BAG_UPDATE>>ScourgeStones
 Turn in [QT6389 A Plague Upon Thee]
 Turn in [QT5941 Return to Chromie]
 Turn in [QT5846 Of Love and Family]
 Use the website unstuck tool to teleport to SW\\*OR*\\Throw away your HS and unstuck back to Chillwind Camp, then fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
+
+function Guidelime.Zarant:ScourgeStones()
+	if GetItemCount(12841) < 10 and GetItemCount(12840) < 20 then
+		self:SkipStep()
+	end
+end

@@ -35,9 +35,13 @@ Turn in [QT969]
 [V][O]Withdraw the following: \\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring59
 Turn in [QT5121] \\Turn in [QT5123] \\Accept [QA5128]
 
-
-Head towards the fulborg tunnel\\Unstuck back to the graveyard and spirit rez once the zone text changes to Felwood
-[G40.84,66.78,40Felwood]Run south to the slime pond\\Death warp to southern felwood[OC]
+Head to Moonglade[OC]
+Turn in [QT6762 Rabine Saturna] \\Accept [QA1124 Wasteland]
+Finish the dialogue with Rabine\\Accept [QA5527 A Reliquary of Purity] \\Skip this step if the Dire Maul dialogue is not available--GOSSIP_SHOW>>SkipGossip
+Unstuck to the Moonglade graveyard and spirit rez[OC]
+[G48.13,67.34Moonglade]Get the [P Moonglade] FP
+Head back to the fulborg tunnel\\Once the zone text changes to Felwood, unstuck back to the graveyard and spirit rez[OC]
+[G40.84,66.78,40Felwood]Run south to the slime pond\\[G56.4,86.8,40]Death warp to southern Felwood
 Turn in [QT5242]
 Turn in [QT5385]
 Turn in [QT5128]
@@ -262,7 +266,12 @@ function z:XpTo60(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 		if IsOnQuest(4986) then--Glyphed Oaken Branch
 			questXP = questXP + 5800
 		end
-
+		
+		if z.IsQuestComplete(4901) then --Guardians of the altar
+			questXP = questXP + 4800 + 6000
+		end
+		
+		
 		self.questXP = questXP
 	end
 	
@@ -289,7 +298,7 @@ end
 function z:BankW_Letter59()  --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring59
 	local items = {12899} --Tinkee's Letter
 	
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
@@ -302,7 +311,7 @@ function z:BankW_Winterspring59()  --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Wintersp
 	--local items = {"Rabine's Letter","Silvery Claws","Irontree Heart","Remains of Trey Lightforge","Shadow Lord Fel'dan's Head"}
 	local items = {17355,11172,11173,13562,13207}
 	
-	if  z.IsItemNotInBank(items) then
+	if z.IsItemNotInBank(items) then
 		z.SkipStep(self)
 		return
 	end
