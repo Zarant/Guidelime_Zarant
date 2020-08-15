@@ -20,7 +20,7 @@ Turn in [G58.69,44.26Teldrassil][QT457 The Balance of Nature] pt .2
 Turn in [G57.82,45.21Teldrassil][QT458 The Woodland Protector] pt.1 \\Accept [QA459 The Woodland Protector] pt.2
 Turn in [G60.89,41.96Teldrassil][QT3519 A Friend in Need] \\Accept [QA3521 Iverron's Antidote]
 [XP4 Grind to level 4][O]
-[G59.32,41.1Teldrassil][V]Vendor stuff\\Buy 2 stacks of arrows--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor,3589
+[G59.32,41.1Teldrassil][V]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor,3589
 Accept [G57.8,41.65Teldrassil][QA916 Webwood Venom]
 Climb the big tree\\Turn in [G58.65,40.44Teldrassil][QT3117 Etched Sigil][A Hunter]
 [T] Train serpent sting[OC][A Hunter]
@@ -122,7 +122,7 @@ Turn in [QT930 The Glowing Fruit] \\Click on the plant vase\\Turn in [QA2399-][Q
 Unstuck back to Dolanaar[OC]
 
 [G56.67,59.48Teldrassil]Accept [QA6063 Taming the Beast] pt.1[A NightElf,Hunter][O]
-[A Hunter][V][O]Buy level 10 arrows and a new bow if you have money to spare--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
+[A Hunter][V][O]Buy level 10 arrows--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [G53.88,61.26Teldrassil][QC6063 Tame a Webwood Lurker][A NightElf,Hunter]
 [G56.67,59.48Teldrassil]Turn in [QT6063 Taming the Beast] pt.1[A NightElf,Hunter] \\Accept [QA6101 Taming the Beast] pt.2[A NightElf,Hunter]
 
@@ -186,7 +186,7 @@ Turn in [G58.69,44.26Teldrassil][QT457 The Balance of Nature] pt .2
 Turn in [G57.82,45.21Teldrassil][QT458 The Woodland Protector] pt.1 \\Accept [QA459 The Woodland Protector] pt.2
 Turn in [G60.89,41.96Teldrassil][QT3519 A Friend in Need] \\Accept [QA3521 Iverron's Antidote]
 [XP4 Grind to level 4][O]
-[G59.32,41.1Teldrassil][V]Vendor stuff\\Buy 2 stacks of arrows--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>vendor1_teldrassil
+[G59.32,41.1Teldrassil][V]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>vendor1_teldrassil
 Accept [G57.8,41.65Teldrassil][QA916 Webwood Venom]
 Climb the big tree\\Turn in [G58.65,40.44Teldrassil][QT3117 Etched Sigil][A Hunter]
 [T] Train serpent sting[OC][A Hunter]
@@ -273,7 +273,7 @@ Turn in [QT2438 The Emerald Dreamcatcher] \\Accept [QA2459 Ferocitas the Dream E
 [XP10 Grind to level 10][A Hunter]
 
 [G56.67,59.48Teldrassil]Accept [QA6063 Taming the Beast] pt.1[A NightElf,Hunter]
-[V][O]Buy level 10 arrows and a new bow[A Hunter]
+[A Hunter][V][O]Buy level 10 arrows
 [G53.88,61.26Teldrassil][QC6063 Tame a Webwood Lurker][A NightElf,Hunter]
 [G56.67,59.48Teldrassil]Turn in [QT6063 Taming the Beast] pt.1[A NightElf,Hunter] \\Accept [QA6101 Taming the Beast] pt.2[A NightElf,Hunter]
 

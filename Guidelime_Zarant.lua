@@ -7,7 +7,6 @@ end
 Guidelime.Zarant = {}
 Guidelime.Zarant.__index = Guidelime.Zarant
 Guidelime.Zarant.Modules = {}
-Guidelime.Zarant.eventList = {}
 Guidelime.Zarant.addonTable = addon
 
 local z = Guidelime.Zarant
@@ -137,7 +136,7 @@ function addon.loadCurrentGuide(...)
 				end
 				step.event = step.event:gsub("%s*","")
 				if step.event == "" then 
-					step.event = Guidelime.Zarant.eventList[eval] or "OnStepActivation"
+					step.event = Guidelime.Zarant[eval]() or "OnStepActivation"
 					--print(step.eval,step.event)
 				end
 				local eventList = {}
@@ -202,7 +201,7 @@ function addon.updateArrow()
 			end
 		end
 	end
-	updateArrow()
+	return updateArrow()
 end
 
 function Guidelime.Zarant:SkipStep(value)
@@ -227,8 +226,11 @@ end
 
 
 
-z.eventList.LoadNextGuide = "OnStepCompletion"
-function Guidelime.Zarant:LoadNextGuide(n)
+
+function Guidelime.Zarant.LoadNextGuide(self,n)
+	if not self then 
+		return "OnStepCompletion"
+	end
 	--print('a')
 	if type(n) == "table" then
 		--print(#n)
@@ -248,8 +250,10 @@ end
 --https://wow.gamepedia.com/UiMapID/Classic
 --OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,mapID
 --WorldMapFrame.mapID to find the mapID
-z.eventList.ZoneSkip = "OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK"
-function Guidelime.Zarant:ZoneSkip(args,event)
+function Guidelime.Zarant.ZoneSkip(self,args,event)
+	if not self then 
+		return "OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK"
+	end
 	local mapID = args
 	local guide
 	if type(args) == 'table' then
@@ -314,8 +318,10 @@ function Guidelime.Zarant.NpcId(unit)
 	return tonumber(npcId)
 end
 
-z.eventList.Trainer = "PLAYER_MONEY,MERCHANT_SHOW,MERCHANT_CLOSED"
-function Guidelime.Zarant:Vendor(args,event)
+function Guidelime.Zarant.Vendor(self,args,event)
+	if not self then 
+		return "PLAYER_MONEY,MERCHANT_SHOW,MERCHANT_CLOSED"
+	end
 	local id = args
 	if type(args) == "table" then
 		id = unpack(args)
@@ -344,8 +350,10 @@ function Guidelime.Zarant:Vendor(args,event)
 	end
 end
 
-z.eventList.Trainer = "TRAINER_SHOW,TRAINER_CLOSED"
-function Guidelime.Zarant:Trainer(args,event)
+function Guidelime.Zarant.Trainer(self,args,event)
+	if not self then 
+		return "TRAINER_SHOW,TRAINER_CLOSED"
+	end
 	local id = args
 	if type(args) == "table" then
 		id = unpack(args)
@@ -361,9 +369,10 @@ function Guidelime.Zarant:Trainer(args,event)
 end
 
 
---CHAT_MSG_SYSTEM>>SpellLearned
-z.eventList.SpellLearned = "CHAT_MSG_SYSTEM"
-function Guidelime.Zarant:SpellLearned(args,event,msg)
+function Guidelime.Zarant.SpellLearned(self,args,event,msg)
+	if not self then 
+		return "CHAT_MSG_SYSTEM"
+	end
 	local spell = args
 	local rank
 	if type(args) == "table" then
@@ -386,8 +395,10 @@ function Guidelime.Zarant:SpellLearned(args,event,msg)
 	
 end
 
-z.eventList.TameBeast = "UNIT_SPELLCAST_SUCCEEDED"
-function Guidelime.Zarant:TameBeast(args,event,target,guid,spellId)
+function Guidelime.Zarant.TameBeast(self,args,event,target,guid,spellId)
+	if not self then 
+		return "UNIT_SPELLCAST_SUCCEEDED"
+	end
 	if spellId == 1515 then
 		for i,v in ipairs(args) do
 			local id = tonumber(v)
@@ -399,8 +410,10 @@ function Guidelime.Zarant:TameBeast(args,event,target,guid,spellId)
 	end
 end
 
-z.eventList.BindLocation = "OnStepActivation,CHAT_MSG_SYSTEM"
-function Guidelime.Zarant:BindLocation(args)
+function Guidelime.Zarant.BindLocation(self,args)
+	if not self then 
+		return "OnStepActivation,CHAT_MSG_SYSTEM"
+	end
 	local location = GetBindLocation()
 	local r
 	if args[2] then
@@ -415,9 +428,10 @@ function Guidelime.Zarant:BindLocation(args)
 	end
 end
 
-z.eventList.SkipGossip = "GOSSIP_SHOW"
-function Guidelime.Zarant:SkipGossip(args,event)
-	
+function Guidelime.Zarant.SkipGossip(self,args,event)
+	if not self then 
+		return "GOSSIP_SHOW"
+	end
 	if event == "GOSSIP_SHOW" then
 		if #args == 0 then
 			if GetNumGossipAvailableQuests() == 0 and GetNumGossipActiveQuests() == 0 then
@@ -453,8 +467,10 @@ function Guidelime.Zarant:SkipGossip(args,event)
 	end
 end
 
-z.eventList.Collect = "OnStepActivation,BAG_UPDATE"
-function Guidelime.Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,id,qty,id,qty...
+function Guidelime.Zarant.Collect(self,args) --OnStepActivation,BAG_UPDATE>>Collect,id,qty,id,qty...
+	if not self then 
+		return "OnStepActivation,BAG_UPDATE"
+	end
 	if not self.id then
 		self.id = {}
 		self.quantity = {}
@@ -510,9 +526,10 @@ function Guidelime.Zarant:Collect(args) --OnStepActivation,BAG_UPDATE>>Collect,i
 	self:UpdateStep()
 end
 
-z.eventList.Destroy = "OnStepActivation,BAG_UPDATE"
-function Guidelime.Zarant:Destroy(args) --OnStepActivation,BAG_UPDATE>>Destroy,id_1,id_2,id_3...
-	
+function Guidelime.Zarant.Destroy(self,args) --OnStepActivation,BAG_UPDATE>>Destroy,id_1,id_2,id_3...
+	if not self then 
+		return "OnStepActivation,BAG_UPDATE"
+	end
 	local skip = true
 	for i,itemID in ipairs(args) do
 		local count = GetItemCount(tonumber(itemID))
@@ -529,10 +546,10 @@ function Guidelime.Zarant:Destroy(args) --OnStepActivation,BAG_UPDATE>>Destroy,i
 	self:UpdateStep()
 end
 
-
-
-z.eventList.Reputation = "OnStepActivation,UPDATE_FACTION"
-function Guidelime.Zarant:Reputation(args) --UPDATE_FACTION>>Reputation,id,standing
+function Guidelime.Zarant.Reputation(self,args) --UPDATE_FACTION>>Reputation,id,standing
+	if not self then 
+		return "OnStepActivation,UPDATE_FACTION"
+	end
 	local factionID = tonumber(args[1])
 	local goal = self.standingID[args[2]] or tonumber(args[2])
 	
@@ -559,3 +576,90 @@ function Guidelime.Zarant:Reputation(args) --UPDATE_FACTION>>Reputation,id,stand
 
 end
 
+function Guidelime.Zarant.Unitscan(self,args,event)
+	if not self then 
+		return "OnStepActivation,OnStepCompletion"
+	end
+	if unitscan_targets then
+		local msg = ""
+		for _,v in ipairs(args) do
+			local unit = strupper(v)
+			if event == "OnStepActivation" then
+				unitscan_targets[unit] = true
+				msg = '+ ' .. unit
+			elseif event == "OnStepCompletion" then
+				unitscan_targets[unit] = false
+				msg = '- ' .. unit
+			end
+		end
+		if DEFAULT_CHAT_FRAME then
+			DEFAULT_CHAT_FRAME:AddMessage(LIGHTYELLOW_FONT_COLOR_CODE .. '<unitscan> ' .. msg)
+		end
+	end 
+
+end
+
+function Guidelime.Zarant.Train(self,args,event,msg)
+	if not self then 
+		return "CHAT_MSG_SYSTEM,OnStepActivation,OnStepCompletion"
+	end
+	if type(args) ~= "table" then return end
+	local spell,rank
+	if event == "CHAT_MSG_SYSTEM" then
+		local text = string.match(msg,"You have learned a new %a+%:%s(.+)")
+		if text then
+			spell, rank = string.match(text,"%s*(%w.*%w)%s*%((.+)%)")
+			if not spell then 
+				spell = text
+				rank = 0
+			end
+			if self.skillList[spell] and (self.skillList[spell] == rank or self.skillList[spell] == 0) then
+				self.spellsTrained = self.spellsTrained + 1
+			end
+		end
+		if self.spellsTrained == #args then
+			self:SkipStep()
+		end
+	elseif event == "OnStepActivation" then
+		self.skillList = {}
+		self.spellsTrained = 0
+		for _,v in pairs(args) do
+			spell, rank = string.match(v,"%s*(%w.*%w)%s*%((.+)%)")
+			--print(spell,rank)
+			if not spell then 
+				spell = v
+				rank = 0
+			end
+			Guidelime.Zarant.skillList[spell] = rank
+			self.skillList[spell] = rank
+		end
+	elseif event == "OnStepCompletion" then
+		self.skillList = nil
+		for _,v in pairs(args) do
+			spell, rank = string.match(v,"%s*(%w.*%w)%s*%((.+)%)")
+			if not spell then 
+				spell = v
+				rank = 0 
+			end
+			Guidelime.Zarant.skillList[spell] = nil
+		end
+	end
+end
+
+Guidelime.Zarant.questRewards = {}
+function Guidelime.Zarant.GetQuestReward(self,args,event)
+	if not self then
+		return "OnStepActivation,OnStepCompletion"
+	end
+	if not args[1] then
+		return
+	end
+	local id = tonumber(args[1]) or args[1]
+
+	if event == "OnStepCompletion" then
+		Guidelime.Zarant.questRewards[id] = nil
+	else
+		Guidelime.Zarant.questRewards[id] = true
+	end
+
+end

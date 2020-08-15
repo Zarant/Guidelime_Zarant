@@ -122,7 +122,7 @@ Click on the wanted board\\Accept [QA176 Wanted:  "Hogger"][O]
 Turn in [QT239 Westbrook Garrison Needs Help!]\\
 Accept [QA11 Riverpaw Gnoll Bounty]
 Collect [QC11-][O]Painted Gnoll Armband (x8)
-Do [QC176] \\Skip this quest if you can't solo Hogger or find a group to do it
+Do [QC176] \\Skip this quest if you can't solo Hogger or find a group to do it-->>Unitscan,Hogger
 
 Turn in [QT11 Riverpaw Gnoll Bounty]
 Turn in [QT184 Furlbrow's Deed][O] \\Skip this step if you don't have this quest

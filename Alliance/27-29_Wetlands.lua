@@ -51,7 +51,7 @@ Turn in [G38.17,50.88,20Wetlands][QT294 Ormer's Revenge] \\Accept [QA295 Ormer's
 [QC943 -][O]Kill raptors
 Turn in [G38.17,50.88,20Wetlands][QT295 Ormer's Revenge] \\Accept [QA296]
 Turn in [QT299 Uncovering the Past][O] --<<
-[G33.25,51.5,20Wetlands][QC296 -] Kill Sarltooth
+[G33.25,51.5,20Wetlands][QC296 -] Kill Sarltooth-->>Unitscan,SARLTOOTH
 Finish off [QC299 Uncovering the Past]
 Turn in [QT296 Ormer's Revenge] \\Turn in [QT299 Uncovering the Past]
 
@@ -152,7 +152,7 @@ Turn in [G38.17,50.88,20Wetlands][QT294 Ormer's Revenge] \\Accept [QA295 Ormer's
 [QC943 -][O]Kill raptors
 Turn in [G38.17,50.88,20Wetlands][QT295 Ormer's Revenge] \\Accept [QA296]
 Turn in [QT299 Uncovering the Past][O]
-[G33.25,51.5,20Wetlands][QC296 -] Kill Sarltooth
+[G33.25,51.5,20Wetlands][QC296 -] Kill Sarltooth-->>Unitscan,SARLTOOTH
 Finish off [QC299 Uncovering the Past]
 Turn in [QT296 Ormer's Revenge] \\Turn in [QT299 Uncovering the Past]
 Finish off [QC943]
@@ -178,7 +178,7 @@ Fly to [F Ashenvale]
 
 Accept [QA4581 Kayneth Stillwind]
 Accept [QA1024 Raene's Cleansing] \\Accept [QA1025 An Aggressive Defense] \\Accept [QA1054 Culling the Threat]
-[G34.74,44.67Ashenvale] Take the mountain shortcut \\[G37.74,34.73Ashenvale][QC1054 -]Look for the named fulborg that patrols the camp
+[G34.74,44.67Ashenvale] Take the mountain shortcut \\[G37.74,34.73Ashenvale][QC1054 -]Look for the named fulborg that patrols the camp-->>Unitscan,DAL BLOODCLAW
 Accept [QA1022 The Howling Vale]
 Accept [QA1021 Vile Satyr! Dryads in Danger!]
 Accept [QA1140]

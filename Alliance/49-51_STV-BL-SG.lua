@@ -138,7 +138,7 @@ Turn in [QT3823]
 [G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][O][QT7791-][O]Wool \\[QA7793-][O][QT7793-][O]Silk \\[QA7794-][O][QT7794-][O]Mageweave
 Take the tram to Ironforge\\[G43.22,31.57Ironforge]Do the Gnomeregan Exiles cloth turn ins:\\[QA7802-][O][QT7802-][O]Wool \\[QA7803-][O][QT7803-][O]Silk \\[QA7809-][O][QT7809-][O]Mageweave
 [G43.22,31.57Ironforge]Do the Ironforge cloth turn ins:\\[QA7807-][O][QT7807-][O]Wool \\[QA7808-][O][QT7808-][O]Silk \\[QA7804-][O][QT7804-][O]Mageweave
-Accept [QA5090 A Call to Arms: The Plaguelands!]\\Skip this quest if you can't find the courier[O]
+Accept [QA5090 A Call to Arms: The Plaguelands!]\\Skip this quest if you can't find the courier[O]-->>Unitscan,COURIER HAMMERFALL
 Turn in [QT3182 Proof of Deed] \\Accept [QA3201 At Last!] 
 Turn in [QT3368 Suntara Stones]
 Accept [QA3448 Passing the Burden]

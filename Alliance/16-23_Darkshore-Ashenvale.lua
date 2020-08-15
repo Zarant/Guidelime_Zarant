@@ -125,7 +125,7 @@ Turn in [QT4581]
 [G11.90,77.57Azshara]Get the [P Azshara] flight path
 [H]Hearth to Astranaar
 Turn in [QT1025 An Aggressive Defense]
-[G39.54,36.47Ashenvale]Kill [QC1054-]Dal Bloodclaw
+[G39.54,36.47Ashenvale]Kill [QC1054-]Dal Bloodclaw-->>Unitscan,DAL BLOODCLAW
 [G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
 [G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
 Death warp to Astranaar\\Turn in [QT1054 Culling the Threat]

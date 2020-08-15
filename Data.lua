@@ -2,7 +2,7 @@ if not Guidelime.Zarant or Guidelime.Zarant.Modules.Data then return end
 local z = Guidelime.Zarant
 local _, class = UnitClass("player")
 Guidelime.Zarant.Modules.Data = true
-
+z.skillList = z.skillList or {}
 GuidelimeDataChar = GuidelimeDataChar or {}
 GuidelimeData = GuidelimeData or {}
 function z.OnLoad()

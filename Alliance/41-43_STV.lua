@@ -51,7 +51,7 @@ Do [QC196] --Raptor mastery 3
 [QC197-][OC]Kill Tethis if you have the associated quest, skip this step otherwise
 Do [G41.65,43.69,185Stranglethorn Vale][QC600 Venture Company Mining]
 [G45.7,32.62,135Stranglethorn Vale][QC205 -]Kill doctors/mystics \\[G45.3,42.41,152Stranglethorn Vale][QC209 -]Gather Skullsplitter Tusks
-[G49.6,24.02,30Stranglethorn Vale][QC193 -] Look for Bhag'thera with eagle eye \\You can found it either north or west of the ogre mound
+[G49.6,24.02,30Stranglethorn Vale][QC193 -] Look for Bhag'thera with eagle eye \\You can found it either north or west of the ogre mound-->>Unitscan,BHAG'THERA
 Do [G49.3,4.98,128Stranglethorn Vale][QC202 Colonel Kurzen]
 Turn in [QT205 Troll Witchery]
 Turn in [QT202 Colonel Kurzen]

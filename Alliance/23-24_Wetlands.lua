@@ -13,7 +13,7 @@ Accept [G10.89,59.66Wetlands][QA288 The Third Fleet] \\Accept [QA463 The Greenwa
 Turn in [G10.89,59.66Wetlands][QT288 The Third Fleet]
 [G10.75,56.75Wetlands]Look for a [V]*Bronze Tube* at the npc inside the keep[O]--OnStepActivation,BAG_UPDATE>>BronzeTube
 Kill [QC484 Young Wetlands Crocolisks][O]
-Do [G18.06,39.83Wetlands][QC279 Claws from the Deep]
+Do [G18.06,39.83Wetlands][QC279 Claws from the Deep]-->>Unitscan,GOBBLER
 [G26.4,25.76Wetlands]Look for a [V]*Bronze Tube* at the gnome npc--OnStepActivation,BAG_UPDATE>>BronzeTube
 Accept [G49.91,39.36Wetlands][QA469 Daily Delivery]
 [G56.37,40.4Wetlands]Turn in [QT463 The Greenwarden][OC]
@@ -65,7 +65,7 @@ Accept [G10.89,59.66Wetlands][QA288 The Third Fleet] \\Accept [QA463 The Greenwa
 Turn in [G10.89,59.66Wetlands][QT288 The Third Fleet]
 [G10.75,56.75Wetlands]Look for a [V]*Bronze Tube* at the npc inside the keep[O]--OnStepActivation,BAG_UPDATE>>BronzeTube
 Kill [QC484 Young Wetlands Crocolisks][O]
-Do [G18.06,39.83Wetlands][QC279 Claws from the Deep]
+Do [G18.06,39.83Wetlands][QC279 Claws from the Deep]-->>Unitscan,GOBBLER
 [G26.4,25.76Wetlands]Look for a [V]*Bronze Tube* at the gnome npc--OnStepActivation,BAG_UPDATE>>BronzeTube
 Accept [G49.91,39.36Wetlands][QA469 Daily Delivery]
 [G56.37,40.4Wetlands]Turn in [QT463 The Greenwarden][OC]

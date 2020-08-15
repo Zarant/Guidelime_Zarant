@@ -67,7 +67,7 @@ Do [G49.52,25.10,90Felwood][QC5086 Toxic Horrors]
 
 Run to Winterspring\\Turn in [QT5086 Toxic Horrors] \\Accept [QA5087 Winterfall Runners]
 
-[QC5087-][O]Look for winterfall runners as you quest
+[QC5087-][O]Look for winterfall runners as you quest-->>Unitscan,WINTERFALL RUNNER
 Turn in [QT5250 Starfall] \\Accept [QA5244 The Ruins of Kel'Theril]
 Accept [QA4861 Enraged Wildkin] \\Turn in [QT5244 The Ruins of Kel'Theril] \\Accept [QA5245 Troubled Spirits of Kel'Theril]
 Do [QC5245,2 Troubled Spirits of Kel'Theril]
@@ -107,7 +107,7 @@ Finish off [QC4864 Enraged Wildkin]
 [A Hunter]Turn in [QT969]
 Turn in [QT4864 Enraged Wildkin]
 [A Hunter]Use eagle eye to find the Winterfall Runners[OC]
-Finish off [QC5087]
+Finish off [QC5087]-->>Unitscan,WINTERFALL RUNNER
 Turn in [QT4842 Strange Sources] \\Turn in [QT5087 Winterfall Runners] \\Accept [QA5121 High Chief Winterfall]
 Turn in [QT8464 Winterfall Activity]
 

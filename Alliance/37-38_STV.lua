@@ -13,7 +13,7 @@ Accept [QA189 Bloodscalp Ears] \\Accept [QA601 Water Elementals] \\Accept [QA577
 [S][O]Make sure to set your HS to Booty Bay\\*OR*\\Set your HS to Duskwood or Westfall if you used the unstuck self service to teleport to SW
 Fly to [F Westfall][OC]
 Turn in [QT325] \\Accept [QA55]
-Do [QC228]\\He patrols around the northern side of the graveyard[O]
+Do [QC228]\\He patrols around the northern side of the graveyard[O]-->>Unitscan,MOR'LADIM
 Do [QC55]\\Use the off-hand weapon provided to remove his shield
 Turn in [QT55]
 [A Hunter]Fly to [F Duskwood]-->>ZoneSkip,Duskwood

@@ -30,7 +30,7 @@ Accept/Turn in [QA705-][O][QT705 Pearl Diving][O] \\Skip this step if you don't 
 Accept [QA703 Barbecued Buzzard Wings]
 Do [QT703][O]
 Accept [QA732 Tremors of the Earth]
-[QC732-]Look for Boss Tho'grun as you quest [O]
+[QC732-][O]Look for Boss Tho'grun as you quest-->>Unitscan,BOSS THO'GRUN
 Turn in [QT738 Find Agmond] \\Accept [QA739 Murdaloc]
 [QC1108-][O]Kill Troggs
 Do [QC739 Murdaloc]

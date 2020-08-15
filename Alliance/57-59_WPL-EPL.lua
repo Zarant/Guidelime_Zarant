@@ -23,14 +23,14 @@ Turn in [QT6028 The Everlook Report]
 Accept [QA4984 The Wildlife Suffers Too]
 [QC4984-][O]Kill wolves as you quest\\Make sure to kill Carrion Lurkers if you can't find any wolves since they share spawn points
 [G47.80,50.67,1 Western Plaguelands]Click on Mrs. Dalson's Diary\\Turn in [QA5058-][QT5058 Mrs. Dalson's Diary]
-[O]Look for the *Wandering Skeleton* as you quest around Dalson's Tears\\Loot the *Dalson Outhouse Key*-->>Collect,12738,1
+[O]Look for the *Wandering Skeleton* as you quest around Dalson's Tears\\Loot the *Dalson Outhouse Key*-->>WanderingSkeleton
 [QC5219-][OC]Kill the cauldron lord
 Turn in [QT5219 Target: Dalson's Tears] \\Accept [QA5220 Return to Chillwind Camp]
 [G48.15,49.69,1 Western Plaguelands]Click on the Outhouse to summon *Farmer Dalson*\\Turn in [QA5059-][OC][QT5059 Locked Away][OC]
 [OC]Kill *Farmer Dalson* and loot *Dalson Cabinet Key*-->>Collect,12739,1
 [G47.37,49.66,1 Western Plaguelands]Click on the cabinet upstairs\\Turn in [QA5060-][QT5060 Locked Away]
 Turn in [QT5050 Good Luck Charm] \\Accept [QA5051 Two Halves Become One]
-[QC5051-]Look for the Jabbering Ghoul around the farm\\Right click the Other-Half-Charm to create a Good Luck Charm
+[QC5051-]Look for the Jabbering Ghoul around the farm\\Right click the Other-Half-Charm to create a Good Luck Charm-->>Unitscan,JABBERING GHOUL
 Turn in [QT5051 Two Halves Become One]
 Finish off [QC4984 The Wildlife Suffers Too]
 [G44.21,63.21 Western Plaguelands][QC5097,3-]Mark the third tower
@@ -124,7 +124,7 @@ Turn in [QT4985 The Wildlife Suffers Too] \\Accept [QA4986 Glyphed Oaken Branch]
 Accept [QA6004 Unfinished Business]
 Do [QC6004 Unfinished Business]
 Turn in [QT6004 Unfinished Business] \\Accept [QA6023 Unfinished Business]
-[G54.94,23.40 Western Plaguelands][QC6023,2-]Kill Cavalier Durgen, he spawns at the top of the tower and patrols all the way down\\Do your best to avoid the level 63 elite mob on top of the tower, keep grinding mobs until you have an opening.
+[G54.94,23.40 Western Plaguelands][QC6023,2-]Kill Cavalier Durgen, he spawns at the top of the tower and patrols all the way down\\Do your best to avoid the level 63 elite mob on top of the tower, keep grinding mobs until you have an opening.-->>Unitscan,SCARLET HIGH CLERIST
 [G57.81,36.12 Western Plaguelands][QC6023,1-]Kill Huntsman Radley
 Turn in [QT6023 Unfinished Business] \\Accept [QA6025 Unfinished Business]
 [G45.78,18.57 Western Plaguelands][QC6025-]Head to Hearthglen\\Climb to the top of the tower
@@ -133,7 +133,7 @@ Turn in [QT6025 Unfinished Business]
 Grind mobs around the Lumber mill until your HS is off cooldown\\[H]Use your Hearthstone
 Fly to [F Eastern Plaguelands][OC]
 Turn in [QT5168 Heroes of Darrowshire] \\Turn in [QT5181 Villains of Darrowshire] \\Accept [QA5206 Marauders of Darrowshire]
-[G83.28,42.02,130 Eastern Plaguelands][QC5206-]Kill Scourge Champions, loot Fetid Skulls and use the Mystic Crystal\\Scourge Champions share spawns with several different mobs, make sure to keep grinding mobs if you can't find any
+[G83.28,42.02,130 Eastern Plaguelands][QC5206-]Kill Scourge Champions, loot Fetid Skulls and use the Mystic Crystal\\Scourge Champions share spawns with several different mobs, make sure to keep grinding mobs if you can't find any-->>Unitscan,SCOURGE CHAMPION
 Turn in [QT5211 Defenders of Darrowshire] \\Turn in [QT5206 Marauders of Darrowshire] \\Accept [QA5941 Return to Chromie]
 Fly to [F Western Plaguelands]
 Turn in [QT5226 Return to Chillwind Point]
@@ -149,4 +149,9 @@ function Guidelime.Zarant:ScourgeStones()
 	if GetItemCount(12841) < 10 and GetItemCount(12840) < 20 then
 		self:SkipStep()
 	end
+end
+
+function Guidelime.Zarant:WanderingSkeleton()
+	self:Collect({"12738","1"})
+	self:Unitscan({"WANDERING SKELETON"})
 end

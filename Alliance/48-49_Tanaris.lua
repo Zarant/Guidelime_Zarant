@@ -50,9 +50,8 @@ Grind until your HS cooldown is <6 minutes\\Accept [QA485] if you have a distres
 Turn in [QT485]
 Start the escort quest \\Accept [QA836]
 [QC836-]Escort the robot chicken
-[QC2944-][OC]Head down to the coast, find Gammerita and use the *Super Snapper FX* on her.
+[QC2944-][O]Head down to the coast, find Gammerita and use the *Super Snapper FX* on her.-->>Unitscan,GAMMERITA
 [QC580-]Look for small blue bottles along the coast
-Finish off [QC2944]
 Turn in [QT626]
 Grind mobs until your HS is off cooldown \\[H]Hearth to back Tanaris--OnStepCompletion>>LoadNextGuide
 

@@ -22,8 +22,13 @@ Turn in [QT4267]
 Turn in [QT2972]
 Accept [QA978] \\If you are not yet level 52, skip this step
 
-Fly to [F Ashenvale]
-Run to Felwood [OC]
+--Fly to [F Ashenvale]
+Fly to [F Azshara][OC]
+Accept [QA5535] \\Accept [QA5536]
+Do [QC5535][O]
+Do [QC5536] \\Make sure to prioritize satyrs
+Turn in [QT5535] \\Turn in [QT5536]
+Head to Felwood [OC]
 Accept [QA4101]
 Accept [QA6131]
 Run to the Emerald Sanctuary\\Accept [QA5155] \\Accept [QA5156] \\Accept [QA4421]

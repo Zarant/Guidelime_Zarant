@@ -1,9 +1,10 @@
 ## Title: Guidelime_Zarant
 ## Author: Zarant
-## Version: 4.2.0
-## Interface: 11304
+## Version: 4.2.1
+## Interface: 11305
 ## Dependencies: Guidelime
-## Notes: Alliance Hunter Leveling Guide
+## OptionalDeps: unitscan
+## Notes: Alliance Leveling Guide
 
 Data.lua
 InventoryManager.lua

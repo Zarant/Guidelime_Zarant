@@ -31,14 +31,14 @@ Turn in [G22.24,18.22Felwood][QT984 How Big a Threat?] pt.1 \\Accept [QA985 How 
 [A Dwarf,Gnome,Human]Accept [G20.8,15.58Felwood][QA982 Deep Ocean, Vast Sea]
 Turn in [G19.98,14.4Felwood][QT4761 Thundris Windweaver] \\Accept [QA4762 The Cliffspring River] \\Accept [QA958 Tools of the Highborne] \\Accept [QA954 Bashal'Aran]
 
-[OC] Start collecting small eggs for leveling cooking later
+[OC] Start collecting small eggs for leveling cooking later\\You will need 10 points in cooking to accept a quest later
 Turn in [G27.7,10.03Felwood][QT954 Bashal'Aran] pt.1 \\Accept [QA955 Bashal'Aran] pt.2
 [G29.13,12.34,153Felwood][QC955 Kill Imps]
 Turn in [G27.7,10.03Felwood][QT955 Bashal'Aran] pt.2 \\Accept [QA956 Bashal'Aran] pt.3
 [G29.6,12.52,151Felwood][QC956 Kill satyrs]
 Turn in [G27.7,10.03Felwood][QT956 Bashal'Aran] pt.3 \\Accept [QA957 Bashal'Aran] pt.4
 [XP13 Grind to level 13]
-[O] Make sure you have at least 9 small eggs to level cooking
+[O] Make sure you have at least 9 small eggs to level cooking\\Skip this step if you already have 10 points in cooking.
 [G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal] in the mountains
 Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal] \\Accept [QA4812 As Water Cascades]
 [G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell
@@ -53,10 +53,10 @@ Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A Hunter]
 
 [L22.39,29.45Felwood][QC985-][O]Kill fulborgs
 [G40.3,59.7Darkshore]Accept [QA953 The Fall of Ameth'Aran]
+[QC963 -][O]Kill Anaya Dawnrunner-->>Unitscan,ANAYA DAWNRUNNER
 [G25.98,40.62Felwood][QC953,2 The Fall of Ameth'Aran]
 [G25.66,39.11Felwood][QC957 Bashal'Aran]
 [G26.71,35.53Felwood][QC953,1 The Fall of Ameth'Aran]
-[G25.01,37.87,120Felwood][QC963 Kill Anaya Dawnrunner]
 Finish off [QC958 Tools of the Highborne]
 Turn in [G23.29,36.73Felwood][QT953 The Fall of Ameth'Aran]
 [QC2118-]Capture a rabid thistle bear
@@ -195,7 +195,7 @@ function z:Darkshore_vendor_1(args,event)
 	local _, class = UnitClass("player");
 	local bags = true
 	for bag = BACKPACK_CONTAINER+1, NUM_BAG_FRAMES do
-		local numSlots = GetContainerNumSlots()
+		local numSlots = GetContainerNumSlots(bag)
 		if numSlots == 0 then
 			bags = false
 		end

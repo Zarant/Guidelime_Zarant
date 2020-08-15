@@ -53,8 +53,8 @@ Fly to [F Arathi Highlands]
 Accept [G45.83,47.55,20Arathi Highlands][QA681 Northfold Manor]
 Turn in [G46.65,47.01,20Arathi Highlands][QT690 Malin's Request]
 Turn in [G60.18,53.84,20Arathi Highlands][QT659 Hints of a New Plague?] \\Accept [QA658 Hints of a New Plague?]
-[A Hunter][QC658 -][O] Use eagle eye to find the Forsaken Courier\\If the courier is not in Arathi, look for it in Hillsbrad after finishing Northfold Manor
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC658-][O]Kill the Forsaken courier if you happen to bump into it. She patrols the road between Tarren Mill and Go'Shek Farm
+[A Hunter][QC658 -][O] Use eagle eye to find the Forsaken Courier\\If the courier is not in Arathi, look for it in Hillsbrad after finishing Northfold Manor-->>Unitscan,FORSAKEN COURIER
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC658-][O]Kill the Forsaken courier if you happen to bump into it. She patrols the road between Tarren Mill and Go'Shek Farm-->>Unitscan,FORSAKEN COURIER
 Do [QC681 Northfold Manor]
 [A Hunter]Hearth back to [H Southshore][OC]
 *Stable your pet* [A Hunter]

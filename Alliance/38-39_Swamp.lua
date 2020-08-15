@@ -19,7 +19,7 @@ Turn in [QT229]
 Accept [QA1396 Encroaching Wildlife]
 [QC1364-]Kill all swamp creatures you see, don't go out of the way to complete it[O]
 Do [QC1396 Encroaching Wildlife] as you go along [O]
-Kill Noboru, click the quest item \\Accept [G47.1,38.83,20Swamp of Sorrows][QA1392 Noboru the Cudgel]
+Kill Noboru, click the quest item \\Accept [G47.1,38.83,20Swamp of Sorrows][QA1392 Noboru the Cudgel]-->>Unitscan,NOBORU THE CUDGEL
 Accept [QA1389 Draenethyst Crystals] \\Turn in [QT1392 Noboru the Cudgel]
 [G14.97,37.31,70Swamp of Sorrows]Kill some swamp elementals
 Finish off [QC1116]

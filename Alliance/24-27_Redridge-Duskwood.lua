@@ -37,9 +37,9 @@ Turn in [QT226]
 Turn in [G84.06,37.84Westfall][QT165 The Hermit] \\Accept [G84.06,37.84Westfall][QA148 Supplies from Darkshire]
 --Finish off [QC245]
 Grind mobs until your Hearthstone cooldown is < 5min \\Make sure you have [V]*Gooey Spider Leg*x6
-[QC1076 -]Head to westfall and look out for dust devils [OC]
+[G56.55,52.63Westfall][QC1076 -]Head to westfall and look out for dust devils [OC]-->>Unitscan,DUST DEVIL
 [G56.55,52.63Westfall] Get the [P Westfall] Flight Path
-[QC1076 -]Look out for dust devils [OC]
+[QC1076 -]Look out for dust devils[OC]-->>Unitscan,DUST DEVIL
 Make sure you have at least 1 bag slot\\Click on the footlocker on the ground \\Turn in [G41.51,66.72Westfall][QT67 The Legend of Stalvan] \\Accept [G41.51,66.72Westfall][QA68 The Legend of Stalvan]
 Hearth back to [H Duskwood]
 Turn in [G73.88,43.45Duskwood][QT5 Jitters' Growling Gut] \\Accept [QA93 Dusky Crab Cakes]
@@ -78,7 +78,7 @@ Turn in [G27.72,47.38Redridge Mountains][QT127 Selling Fish] \\Turn in [G27.72,4
 [A Hunter]Accept [G33.5,48.96Redridge Mountains][QA19 Tharil'zun]
 [A Hunter]Kill [QC91Gnolls], loot the pendants[O]
 [A Hunter]Do [G80.17,37.05Redridge Mountains][QC180 Wanted: Lieutenant Fangore]
-[A Hunter][G71.40,55.07Redridge Mountains] Pet pull [QC19 Tharil'zun], kite him towards burning steppes [O]
+[A Hunter][G71.40,55.07Redridge Mountains] Pet pull [QC19 Tharil'zun][O], kite him towards burning steppes-->>Unitscan,THARIL'ZUN
 [A Hunter]Do [G28.89,13.2,129Redridge Mountains][QC128 Blackrock Bounty]
 [A Hunter]Accept [G28.4,12.6Redridge Mountains][QA219][O]
 [A Hunter]Turn in [G33.5,48.96Redridge Mountains][QT19 Tharil'zun]
@@ -159,7 +159,7 @@ Turn in [G21.85,46.32Redridge Mountains][QT34 An Unwelcome Guest]
 Do [G80.17,37.05Redridge Mountains][QC180 Wanted: Lieutenant Fangore]
 Turn in [G84.5,46.8Redridge Mountains][QT94 A Watchful Eye][O] at the lion statue
 Finish off [QC91]
-[G71.40,55.07Redridge Mountains] Pet pull [QC19 Tharil'zun], kite him towards burning steppes [A Hunter,Warlock]
+[A Hunter,Warlock][G71.40,55.07Redridge Mountains]Pet pull [QC19 Tharil'zun], kite him towards burning steppes-->>Unitscan,THARIL'ZUN
 Do [QC128 Blackrock Bounty]
 [O]If you haven't found a bronze tube, run to burning steppes, die on purpose, buy a bronze tube at flame's crest and hearth back to Redridge--OnStepActivation,BAG_UPDATE>>BronzeTube
 Death skip to Lakeshire[OC]

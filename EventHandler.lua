@@ -26,16 +26,26 @@ function z.BuySpells(id,level)
 	if category ~= "available" then
 		return
 	end
+	if Guidelime.Zarant.skillList then
+		for spellName,spellRank in pairs(Guidelime.Zarant.skillList) do
+			print(rank)
+			if name == spellName and (rank == spellRank or not rank or rank == "" or spellRank == 0) then
+				BuyTrainerService(id)
+				return
+			end
+		end
+	end
 	if not GuidelimeData.trainerData then
 		GuidelimeData.trainerData = {}
 		GuidelimeData.trainerData[class] = {}
-		return
-	end
-	for trainingLevel,spellList in pairs(GuidelimeData.trainerData[class]) do
-		if trainingLevel <= level then
-			for _,spell in ipairs(spellList) do
-				if spell[1] == name and (rank == spell[2] or not rank or rank == "") then
-					BuyTrainerService(id)
+	else
+		for trainingLevel,spellList in pairs(GuidelimeData.trainerData[class]) do
+			if trainingLevel <= level then
+				for _,spell in ipairs(spellList) do
+					if spell[1] == name and (rank == spell[2] or not rank or rank == "") then
+						BuyTrainerService(id)
+						return
+					end
 				end
 			end
 		end
@@ -396,7 +406,7 @@ local function Merchant()
 	local stacks
 	local id = z.NpcId()
 	if level < 16 then
-		if id == 3589 then
+		if id == 3589 or level < 6 then
 			stacks = 2
 		elseif IsQuestFlaggedCompleted(983) then
 			local bags = true
@@ -460,10 +470,20 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		questId = GetQuestID()
 		local reward = GuidelimeData.questRewardList[class] and GuidelimeData.questRewardList[class][questId]
 		--print(reward)
+		
+		--/run name,_,_,_,_,id = GetQuestLogChoiceInfo(2) print(id)
 		if reward then
 			--C_Timer.After(0.01,function()
 				GetQuestReward(reward)
 			--end)
+			return
+		end
+		for n = 1,GetNumQuestLogChoices() do
+			local name,_,_,_,_,id = GetQuestLogChoiceInfo(n)
+			if Guidelime.Zarant.questRewards[name] or Guidelime.Zarant.questRewards[id] then
+				GetQuestReward(n)
+				return
+			end
 		end
 	elseif (event == "PLAYER_REGEN_ENABLED" or event == "BAG_UPDATE") and not(InCombatLockdown() or UnitIsDead("player")) then	
 		if moveTick then

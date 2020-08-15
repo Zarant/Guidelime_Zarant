@@ -84,7 +84,7 @@ Turn in [QT181 Look To The Stars]
 [A Hunter][G28.8,31.0Duskwood][QC253-]Click on the grave to summon Eliza\\Kill Eliza and loot her heart\\ \\To avoid dealing with her skeleton adds use the wagon to jump on top of Abercrombie's shed --<<
 [A Hunter][QC55 -]Equip *Morbent's Bane* in your off-hand \\Kill Morbent Fel\\Pull with Eyes of the Beast, don't touch any mobs, let Morbent Fel and all his adds proxy aggro your pet so you can split pull him away
 [A Hunter]Turn in [QT55]
-[A Hunter][QC228 -]Kill Mor'Ladim, kite him to STV\\(Level 35 elite roaming the cemetery)[O]
+[A Hunter][QC228 -]Kill Mor'Ladim, kite him to STV\\(Level 35 elite roaming the cemetery)[O]-->>Unitscan,MOR'LADIM
 [A Hunter]Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]
 [A Hunter]Accept [QA185 Tiger Mastery] pt.1\\Accept [QA190 Panther Mastery] pt.1
 [A Hunter]Look out for Private Thorsen's RP event while you quest \\He patrols down the road every ~30 minutes \\([QA215-][O][QT215 Jungle Secrets][O])

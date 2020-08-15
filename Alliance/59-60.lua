@@ -117,8 +117,8 @@ Make sure to finish off all quests before heading back to Cenarion Hold\\ \\[G51
 [G50.8,33.6Silithus]Turn in [QT8283 Wanted - Deathclasp, Terror of the Sands]
 
 Kill twilight cultists as you quest\\Collect [QC8318,1-][O]Encrypted Twilight Text (x10)
-Kill [QC8279,3-]Twilight Keeper Havunth\\He patrols the twilight camp next to Cenarion Hold
-Kill [QC8279,1-]Twilight Keeper Mayna\\She patrols the twilight camp directly west of Cenarion Hold
+Kill [QC8279,3-]Twilight Keeper Havunth\\He patrols the twilight camp next to Cenarion Hold-->>Unitscan,TWILIGHT KEEPER HAVUNTH
+Kill [QC8279,1-]Twilight Keeper Mayna\\She patrols the twilight camp directly west of Cenarion Hold-->>Unitscan,TWILIGHT KEEPER MAYNA
 Kill [QC8279,2-]Twilight Keeper Exeter\\He is at the back of the southwestern twilight camp
 [G44.5,91.4Silithus]Collect [QC8282,1-]Noggle's Satchel
 [G67.2,69.8Silithus]Turn in [QT8279 The Twilight Lexicon]\\
