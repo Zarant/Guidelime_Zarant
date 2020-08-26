@@ -18,6 +18,7 @@ Due to some limitations with Guidelime, some steps have to be completed manually
 `..\Guidelime_Zarant\Loader.xml`
 
 This is totally optional, consider doing that only if you are too lazy to manually skip some of the steps.
+Also important to notice that since Guidelime is no longer being mantained by its original creator, doing this extra step will also fix issues related to some wrong quest pre-requisites. (Captain's chest in STV and some quests in the WPL cauldron chain)
 
 ## Feedback
 If you have questions, suggestions or any form of constructive criticism you can either open a ticket [here](https://github.com/Zarant/Guidelime_Zarant/issues) or message me on [Discord](https://discord.gg/aBzxhDh).

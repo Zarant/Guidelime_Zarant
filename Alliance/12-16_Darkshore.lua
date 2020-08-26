@@ -134,8 +134,7 @@ Finish off [QC1002][O]
 [G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
 Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears, don't go out of your way to finish it
 [G39.99,78.46,55Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
-[G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears], keep grinding fulborgs while waiting for respawns--OnStepActivation>>Buzzbox1002
-Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]--OnStepActivation>>Buzzbox1002
+[G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears][OC], keep grinding fulborgs while waiting for respawns--OnStepActivation>>Buzzbox1002
 [G27,55.59Felwood]Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]
 [G27,55.59Felwood][QT952 Grove of the Ancients][A NightElf][OC]
 [G22.36,3.98Ashenvale][QC944 Enter The Master's Glaive] and clear mobs around the altar in the center
@@ -143,6 +142,7 @@ Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]--OnStepActivation>>Buzzbox1002
 Drop the scrying bowl on the ground \\Turn in [QT944 The Master's Glaive] \\Accept [QA949 The Twilight Camp]
 [G22.24,2.52Ashenvale]Click on the book on top of the pedestal \\Turn in [QT949 The Twilight Camp] \\Accept[QA950 Return to Onu]
 [QC945 -]Finish the escort quest
+Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525][OC]--OnStepActivation>>Buzzbox1002
 [G27,55.59Felwood]Turn in [QT950 Return to Onu] \\Accept [QA951 Mathystra Relics]
 [G39.99,78.46,40Darkshore] Clear the fulborg camp and look for moonstalkers while you do it
 Kill crabs along the coast for [QC1138 Fine Crab Chunks], skip this step if the area is too crowded[O]

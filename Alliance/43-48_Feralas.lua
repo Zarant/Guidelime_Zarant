@@ -185,8 +185,7 @@ Buy a mount[OC]
 
 
 
-[A Hunter][G26.19,67.51Feralas]Head back to the naga cave and grind to [XP48.35 level 48 + 35%] (7 bars)
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][G26.19,67.51Feralas][XP48 Head back to the naga cave and grind to level 48]
+[G26.19,67.51Feralas]Head back to the naga cave and grind to [XP48 level 48]
 [H]Hearth back to feathermoon
 Turn in [QT2982 The High Wilderness] \\Accept [QA3445 The Sunken Temple]
 Turn in [QT2821 The Mark of Quality]

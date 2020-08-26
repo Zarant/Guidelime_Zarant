@@ -69,9 +69,9 @@ Finish off [QC488]
 --Dolanaar
 [G56.67,59.48Teldrassil][T Train skills][A NightElf,Hunter][OC]--TRAINER_CLOSED,TRAINER_SHOW>>Trainer
 Accept [QA489 Seek Redemption!][O]
-[G55.9,59.2Teldrassil][V][O]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
-[T][O]Train first aid--TRAINER_CLOSED,TRAINER_SHOW>>Trainer,6094
+[G55.9,59.2Teldrassil][V][OC]Vendor stuff--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [G55.95,57.27Teldrassil]Turn in [QT476 Gnarlpine Corruption]
+[T][OC]Train first aid--TRAINER_CLOSED,TRAINER_SHOW>>Trainer,6094
 Turn in [QT2438 The Emerald Dreamcatcher] \\Accept [QA2459 Ferocitas the Dream Eater]--OnStepCompletion>>LoadNextGuide
 ]],"Zarant")
 

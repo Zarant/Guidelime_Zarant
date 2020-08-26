@@ -52,7 +52,7 @@ Guidelime.registerGuide([[
 [N23-23Wetlands]
 [NX24-25Duskwood part 1]
 [D Alternative route for non Hunter classes]
-[GA Alliance,Warlock,Warrior,Paladin,Priest,Rogue,Mage]
+[GA Alliance,Warlock,Warrior,Paladin,Priest,Rogue,Mage,Druid]
 Take the boat to wetlands[OC]
 
 Accept [G8.54,55.73Wetlands][QA484 Young Crocolisk Skins]
