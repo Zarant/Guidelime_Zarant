@@ -108,7 +108,7 @@ Accept [QA2844]
 [G44.64,10.59Feralas][V]Give some bait to the gnoll guarding the Evoroot-->>Collect,11242,1
 [L38.53,15.78Feralas][L37.76,12.22Feralas][L40.52,12.69Feralas][L39.91,9.47Feralas][QC2879-]Loot all 4 flames \\Right click on Troyas' Staff at the [G38.88,13.13Feralas]monolith
 Click on the monolith\\Turn in [QT2879] \\Accept [QA2942]
-Grind harpies until your HS cooldown is <8 minutes
+Grind harpies until your HS cooldown is <8 minutes-->>HS,8
 Turn in [QT2844] \\Accept [QA2845]
 [QC2845,1-]Loot the chest next to the quest giver
 [G42.38,22.00Feralas][QC2845-]Escort Shay
@@ -152,7 +152,7 @@ Turn in [QT5534 Kim'jael's "Missing" Equipment]
 
 [XP53.4 Grind elves until you are 40% into level 53] --Phase 4
 
-Grind until your HS cooldown is <5 minutes[O]
+[O]Grind until your HS cooldown is <5 minutes-->>HS,5
 [A Hunter]Turn in [QT8153] --\\Accept [QA8231]
 --[G88.47,29.61,200Azshara][QC8231-]Kill Wavethrashers along the northeastern coast
 --Turn in [QT8231]

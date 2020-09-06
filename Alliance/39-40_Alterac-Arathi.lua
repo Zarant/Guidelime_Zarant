@@ -27,7 +27,7 @@ Click on the wooden chest on the ground \\Accept [QA551 The Ensorcelled Parchmen
 Finish off [QC512 Noble Deaths]
 [G48.31,41.55,100Alterac Mountains][QC500 -] Kill ogres
 Keep killing ogres for [QC540 Preserving Knowledge] (if you have the quest)
-[A Hunter]Grind mobs until your HS cooldown is < 6min
+[A Hunter]Grind mobs until your HS cooldown is < 6min-->>HS,6
 
 [G59.52,62.68,60Alterac Mountains][G71.43,21.04,30Hillsbrad Foothills][G84.23,31.99,40Hillsbrad Foothills]Head to The Hinterlands
 Turn in [QT1449 To The Hinterlands] \\Accept [QA1450 Gryphon Master Talonaxe]

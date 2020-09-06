@@ -36,7 +36,7 @@ Turn in [QT164 Deliveries to Sven] \\Accept [QA95]
 Turn in [QT226]
 Turn in [G84.06,37.84Westfall][QT165 The Hermit] \\Accept [G84.06,37.84Westfall][QA148 Supplies from Darkshire]
 --Finish off [QC245]
-Grind mobs until your Hearthstone cooldown is < 5min \\Make sure you have [V]*Gooey Spider Leg*x6
+Grind mobs until your Hearthstone cooldown is < 5min \\Make sure you have [V]*Gooey Spider Leg*x6-->>HS,5
 [G56.55,52.63Westfall][QC1076 -]Head to westfall and look out for dust devils [OC]-->>Unitscan,DUST DEVIL
 [G56.55,52.63Westfall] Get the [P Westfall] Flight Path
 [QC1076 -]Look out for dust devils[OC]-->>Unitscan,DUST DEVIL

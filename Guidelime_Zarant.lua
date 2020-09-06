@@ -3,11 +3,20 @@ local name,addon = ...
 if Guidelime.Zarant then
 	return 
 end
+if addon.parseLine then
+	Guidelime.Zarant = {}
+	Guidelime.Zarant.addonTable = addon
+elseif Guidelime.addon then
+	Guidelime.Zarant = {}
+	addon = Guidelime.addon
+else
+	return
+end
 
-Guidelime.Zarant = {}
+
 Guidelime.Zarant.__index = Guidelime.Zarant
 Guidelime.Zarant.Modules = {}
-Guidelime.Zarant.addonTable = addon
+
 
 local z = Guidelime.Zarant
 local parseLineOLD = addon.parseLine
@@ -81,6 +90,9 @@ function Guidelime.Zarant:WipeData()
 		frame.OnStepCompletion = nil
 		frame.OnStepUpdate = nil
 		frame.args = nil
+		if frame.data then
+			frame.data.timer = nil
+		end
 		frame.data = nil
 	end
 end
@@ -291,7 +303,8 @@ function Guidelime.Zarant.RemoveQuestRequirement(id,arg)
 	end
 end
 
-Guidelime.Zarant.RemoveQuestRequirement(353,"prequests")
+
+Guidelime.Zarant.RemoveQuestRequirement(353,"prequests") --Stormpike's Delivery
 Guidelime.Zarant.RemoveQuestRequirement(614,"faction")
 Guidelime.Zarant.RemoveQuestRequirement(615,"faction")
 Guidelime.Zarant.RemoveQuestRequirement(5237,"faction")
@@ -300,6 +313,18 @@ Guidelime.Zarant.RemoveQuestRequirement(8553,"faction")
 Guidelime.Zarant.RemoveQuestRequirement(5092,"prequests")
 Guidelime.Zarant.RemoveQuestRequirement(8551,"faction")
 
+Guidelime.Zarant.RemoveQuestRequirement(6383,"prequests") --Ashenvale Hunt
+Guidelime.Zarant.RemoveQuestRequirement(7792,"prequests")--A Donation of Wool(Darnassus)
+
+
+--Fixes issues with the quest DB treating breadcrumb quests as mandatory pre-quests:
+Guidelime.Zarant.RemoveQuestRequirement(1204,"prequests") --Mudrock soup and bugs
+Guidelime.Zarant.RemoveQuestRequirement(5149,"prequests") --Pamela's Doll
+Guidelime.Zarant.RemoveQuestRequirement(2518,"prequests") --Tears of the Moon
+Guidelime.Zarant.RemoveQuestRequirement(1395,"prequests") --Supplies for Nethergarde
+Guidelime.Zarant.RemoveQuestRequirement(5082,"prequests") --Threat of the Winterfall
+Guidelime.Zarant.RemoveQuestRequirement(5096,"prequests") --Scarlet Diversions
+Guidelime.Zarant.RemoveQuestRequirement(484,"prequests") --Young Crocolisk Skins
 
 --[[
 >> https://wow.gamepedia.com/Patch_6.0.2/API_changes
@@ -581,19 +606,19 @@ function Guidelime.Zarant.Unitscan(self,args,event)
 		return "OnStepActivation,OnStepCompletion"
 	end
 	if unitscan_targets then
-		local msg = ""
 		for _,v in ipairs(args) do
+			local msg = ""
 			local unit = strupper(v)
 			if event == "OnStepActivation" then
 				unitscan_targets[unit] = true
 				msg = '+ ' .. unit
 			elseif event == "OnStepCompletion" then
-				unitscan_targets[unit] = false
+				unitscan_targets[unit] = nil
 				msg = '- ' .. unit
 			end
-		end
-		if DEFAULT_CHAT_FRAME then
-			DEFAULT_CHAT_FRAME:AddMessage(LIGHTYELLOW_FONT_COLOR_CODE .. '<unitscan> ' .. msg)
+			if DEFAULT_CHAT_FRAME and msg ~= "" then
+				DEFAULT_CHAT_FRAME:AddMessage(LIGHTYELLOW_FONT_COLOR_CODE .. '<unitscan> ' .. msg)
+			end
 		end
 	end 
 
@@ -660,6 +685,77 @@ function Guidelime.Zarant.GetQuestReward(self,args,event)
 		Guidelime.Zarant.questRewards[id] = nil
 	else
 		Guidelime.Zarant.questRewards[id] = true
+	end
+
+end
+
+function Guidelime.Zarant.BankDeposit(self,args,event)
+	if not self then
+		return "OnLoad,BANKFRAME_OPENED,BAG_UPDATE"
+	end
+	
+	if event == "OnLoad" then
+		self:SkipStep(false)
+		self.items = {}
+		for _,item in ipairs(args) do
+			local id = tonumber(item) or item
+			if item then
+				table.insert(self.items,id)
+			end
+		end
+	else
+		if Guidelime.Zarant.IsItemNotInBags(self.items) then
+			self:SkipStep()
+			return
+		end
+		Guidelime.Zarant.DepositItems(self.items)		
+	end
+end
+
+function Guidelime.Zarant.BankWithdraw(self,args,event)
+	if not self then
+		return "OnLoad,BANKFRAME_OPENED,BAG_UPDATE"
+	end
+	
+	if event == "OnLoad" then
+		self:SkipStep(false)
+		self.items = {}
+		for _,item in ipairs(args) do
+			local id = tonumber(item) or item
+			if item then
+				table.insert(self.items,id)
+			end
+		end
+	else
+		if  Guidelime.Zarant.IsItemInBags(self.items) then
+			self:SkipStep()
+			return
+		end
+		Guidelime.Zarant.WithdrawItems(self.items)	
+	end
+end
+
+
+function Guidelime.Zarant.HS(self,args,event)
+	if not self then
+		return "OnStepActivation,OnStepCompletion"
+	end
+
+	local goal = tonumber(args[1])
+	if event == "OnStepCompletion" then
+		self.timer = nil
+	elseif goal then
+		goal = goal * 60
+		local start,duration = GetSpellCooldown(8690)
+		local cooldown = duration+start-GetTime()
+		if cooldown > goal then
+			self.timer = true
+			C_Timer.After(cooldown-goal,function()
+				if self.timer then
+					self:SkipStep()
+				end
+			end)
+		end
 	end
 
 end

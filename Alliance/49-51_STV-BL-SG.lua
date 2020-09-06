@@ -130,7 +130,6 @@ Turn in [QA2583-][QT2583 A Boar's Vitality] \\Turn in [QA2581-][QT2581 Snickerfa
 Fly to [F Redridige]
 Head to Burning Steppes\\Accept [QA3823]
 Get the [P Burning Steppes] FP
-[L94.4,31.8Burning Steppes]Turn in [QA4022-][O][QT4022][O] if you have a *Black Dragonflight Molt* in your bags, skip this step if you don't--OnStepActivation,BAG_UPDATE>>DragonflightMolt
 Do [QC3823]
 Turn in [QT3823]
 [H]Hearth back to Stormwind

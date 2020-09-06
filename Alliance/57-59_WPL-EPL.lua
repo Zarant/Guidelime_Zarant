@@ -151,7 +151,10 @@ function Guidelime.Zarant:ScourgeStones()
 	end
 end
 
-function Guidelime.Zarant:WanderingSkeleton()
-	self:Collect({"12738","1"})
-	self:Unitscan({"WANDERING SKELETON"})
+function Guidelime.Zarant.WanderingSkeleton(self,args,event)
+	if not self then
+		return "OnStepActivation,OnStepCompletion,BAG_UPDATE"
+	end
+	self:Collect({"12738","1"},event)
+	self:Unitscan({"WANDERING SKELETON"},event)
 end

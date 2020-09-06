@@ -1,15 +1,15 @@
 ## Title: Guidelime_Zarant
 ## Author: Zarant
-## Version: 4.2.2
+## Version: 5.0.0
 ## Interface: 11305
 ## Dependencies: Guidelime
 ## OptionalDeps: unitscan
 ## Notes: Alliance Leveling Guide
 
+Guidelime_Zarant.lua
 Data.lua
 InventoryManager.lua
 EventHandler.lua
-
 
 Alliance\1-11_DunMorogh.lua
 Alliance\1-12_Teldrassil.lua
@@ -43,4 +43,5 @@ Alliance\56-57_BS.lua
 Alliance\57-59_WPL-EPL.lua
 Alliance\59-60.lua
 Horde\1-12_Durotar.lua
-
+Horde\12-20.lua
+Horde\21-30.lua
