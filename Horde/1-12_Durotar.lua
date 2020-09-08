@@ -163,7 +163,7 @@ Turn in [QT6365] \\Accept [QA6384 Ride to Orgrimmar]
 Guidelime.registerGuide([[
 [GA Orc,Troll]
 [N11-12Durotar part 2]
-[NX12-15The Barrens]
+[NX12-17The Barrens]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 --[S][O]Set your HS to Orgrimmar
 Turn in [QT6384] \\Accept [QA6385]
@@ -189,18 +189,18 @@ Make sure you are 1820 XP away from level 12 before heading to Orgrimmar\\[L46.4
 
 Head to Orgrimmar\\[G31.9,37.8Orgrimmar]Turn in [QT5726 Hidden Enemies]\\
 Accept [QA5727 Hidden Enemies]
-[G47.1,53.4Orgrimmar]Turn in [QT813 Finding the Antidote]
+[G47.1,53.4Orgrimmar]Turn in [QT813 Finding the Antidote][OC]\\ \\[G49.6,50.6Orgrimmar]Talk to Neeru Fireblade
 [G49.6,50.6Orgrimmar]Turn in [QT829 Neeru Fireblade]\\
-Accept [QA809 Ak'Zeloth]
+Accept [QA809 Ak'Zeloth]-->>SkipGossip
 [G49.6,50.5Orgrimmar][QC5727,1-]Speak to Neeru Fireblade-->>SkipGossip
 [G31.9,37.8Orgrimmar]Turn in [QT5727 Hidden Enemies]
 Train skills then unstuck back to the gates of Orgrimmar[OC]
-[G41.5,18.6Durotar]Turn in [QT812 Need for a Cure]
+[G41.5,18.6Durotar]Turn in [QA812-][QT812 Need for a Cure]
 [G32.6,42.7Durotar]Grind your way south along the river bank\\Collect [QC816,1-]Kron's Amulet\\Skip this quest if you haven't found the amulet
 
 [G32.8,43.9Durotar]Turn in [QT809 Ak'Zeloth]\\
 Accept [QA924 The Demon Seed]
-Click on the *Flawed Power Stones* sitting on top of a circular table-->>Collect,4986
+Click on the *Flawed Power Stones* sitting on top of a circular table-->>Collect,4986,1
 Turn in [QT816 Lost But Not Forgotten]
 [H]Hearth to Crossroads-->>LoadNextGuide
 ]],"Zarant")

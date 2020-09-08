@@ -313,6 +313,9 @@ Guidelime.Zarant.RemoveQuestRequirement(8553,"faction")
 Guidelime.Zarant.RemoveQuestRequirement(5092,"prequests")
 Guidelime.Zarant.RemoveQuestRequirement(8551,"faction")
 
+
+
+Guidelime.Zarant.RemoveQuestRequirement(1365,"prequests") --Khan Dez'hepah
 Guidelime.Zarant.RemoveQuestRequirement(6383,"prequests") --Ashenvale Hunt
 Guidelime.Zarant.RemoveQuestRequirement(7792,"prequests")--A Donation of Wool(Darnassus)
 

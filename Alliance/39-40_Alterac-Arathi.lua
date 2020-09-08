@@ -67,7 +67,7 @@ Do [QC693 Wand over Fist]
 Turn in [QT651 Stones of Binding] 
 Accept [QA652 Breaking the Keystone]
 [A Hunter][QC652 -][O]Use your eagle eye macro to find Fozruk\\Make sure to kill Sleeby and the rest of the kobolds first, you can kill one add at a time and reset the fight\\Kill Fozruk by kiting him around Refuge Point-->>Unitscan,Fozruk
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC652-]Find and kill Fozruk but don't go out of your way to finish this step, he patrols the whole zone\\This is a difficult elite to solo, consider skipping this step
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC652-]Find and kill Fozruk but don't go out of your way to finish this step, he patrols the whole zone\\This is a difficult elite to solo, consider skipping this step-->>Unitscan,Fozruk
 Turn in [QT693 Wand over Fist]
 [A Hunter,Druid,Rogue]Turn in [QT684 Wanted!  Marez Cowl]
 Turn in [QT652 Breaking the Keystone] \\Accept [QA653 Myzrael's Allies] \\Skip this step if you haven't found Fozruk

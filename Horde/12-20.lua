@@ -86,7 +86,7 @@ Accept [QA902 Samophlange]
 
 
 [G56.5,7.5The Barrens]Accept [QA858 Ignition]
-[G56.4,8.5The Barrens]Kill [QC858,1-]Supervisor Lugwizzle
+[G56.4,8.5The Barrens]Kill [QC858,1-]Supervisor Lugwizzle-->>Unitscan,Supervisor Lugwizzle,Foreman Grills
 Turn in [QT858 Ignition]
 Start the escort quest\\Accept [QA863 The Escape]
 [QC863-]Escort the shredder out of the Sludge Fen

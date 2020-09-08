@@ -199,7 +199,7 @@ Fly to [F Thunder Bluff]-->>LoadNextGuide
 Guidelime.registerGuide([[
 [GA Horde]
 [N28-30Thousand Needles]
-
+[NX30-32Hillsbrad/Arathi]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 [G54.9,51.6Thunder Bluff]Turn in [QT1195 The Sacred Flame]\\
 Accept [QA1196 The Sacred Flame]
@@ -271,22 +271,33 @@ Accept [QA1151 Test of Strength]
 [G38.0,26.8Thousand Needles]Collect [QC5147,1-]Arnak's Hoof
 [G27.0,52.2Thousand Needles]Grind harpies until your HS cooldown is <8 min-->>HS,8
 Finish off [QC1151 Test of Strength]
+[G53.9,41.5Thousand Needles]Turn in [QT1151 Test of Strength]
+Talk to Kravel Koalbeard\\Accept [QA1110 Rocket Car Parts]\\Accept [QA1111 Wharfmaster Dizzywig]
+Talk with the gnome brothers\\Accept [QA1104 Salt Flat Venom] \\Accept [QA1105 Hardened Shells]
+Accept [QA1176 Load Lightening]
+Accept [QA1175 A Bump in the Road]
+[G51.6,25.4Tanaris]Fly to [F Freewind Post]
+[G45.7,50.8Thousand Needles]Turn in [QT5064 Grimtotem Spying]\\
+Turn in [QT5147 Wanted - Arnak Grimtotem]
+[G46.0,51.5Thousand Needles]Turn in [QT4904 Free at Last]
 Turn in [QT5151 Hypercapacitor Gizmo]
 [G21.5,32.2Thousand Needles]Turn in [QT5088 Arikara]
 [G21.3,32.1Thousand Needles]Turn in [QT4881 Assassination Plot]\\
 Accept [QA4966 Protect Kanati Greycloud]
 [G21.2,31.8Thousand Needles][QC4966,1-]Protect Kanati Greycloud
 Turn in [QT4966 Protect Kanati Greycloud]
-Run northwest to Feralas\\Once the general channel changes to Feralas, pull a high level mob, die and rez at Camp Mojache\\ \\[G75.4,44.4Feralas]Fly to [F Thousand Needles]
-[G45.7,50.8Thousand Needles]Turn in [QT5064 Grimtotem Spying]\\
-Turn in [QT5147 Wanted - Arnak Grimtotem]
-[G46.0,51.5Thousand Needles]Turn in [QT4904 Free at Last]
-[G53.9,41.5Thousand Needles]Turn in [QT1151 Test of Strength]
+Run northwest to Feralas\\Once the general channel changes to Feralas, pull a high level mob, die and rez at Camp Mojache\\ \\[G75.4,44.4Feralas][P]Get the Camp Mojache FP
 [H]Hearth back to Camp Taurajo
 Fly to [F Crossroads]
 [G51.1,29.6The Barrens]Accept [QA1145 The Swarm Grows]
+Fly to [F Ratchet]
+[G63.3,38.4The Barrens]Turn in [QT1111 Wharfmaster Dizzywig]\\
+Accept [QA1112 Parts for Kravel]
 Fly to [F Orgrimmar]
 [T][O]Train your level 30 spells-->>Trainer
 [G75.0,34.1Orgrimmar]Turn in [QT1145 The Swarm Grows]\\
 Accept [QA1146 The Swarm Grows]
+[G44.7,52.0Orgrimmar]Accept [QA1431 Alliance Relations]
+[G22.5,52.6Orgrimmar]Turn in [QT1431 Alliance Relations]\\
+Accept [QA1431 Alliance Relations]-->>LoadNextGuide
 ]],"Zarant")

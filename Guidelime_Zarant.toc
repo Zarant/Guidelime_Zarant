@@ -45,3 +45,4 @@ Alliance\59-60.lua
 Horde\1-12_Durotar.lua
 Horde\12-20.lua
 Horde\21-30.lua
+Horde\30-40.lua
