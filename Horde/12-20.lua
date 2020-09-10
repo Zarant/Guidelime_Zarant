@@ -43,7 +43,6 @@ Accept [QA821 Chen's Empty Keg]
 
 Do [QC887][O]
 [G64.2,47.2The Barrens]Collect [QC895,1-]Baron Longshore's Head
-[G62.4,37.6The Barrens]Accept [QA1069 Deepmoss Spider Eggs]
 [G62.7,36.2The Barrens]Turn in [QT887 Southsea Freebooters]\\
 Accept [QA890 The Missing Shipment]\\
 Turn in [QT895 WANTED: Baron Longshore]
@@ -173,8 +172,6 @@ Accept [QA882 Ishamuhale]
 [G45.1,57.7The Barrens]Accept [QA893 Weapons of Choice]
 Do [QC821][O] as you quest
 Kill the named Kodo\\Accept [QA883 Lakota'mani][O]
-[G55.6,43.6The Barrens]Collect [QC880,1-]Altered Snapjaw Shell (x8)
-
 Collect [QC899,1-]Bristleback Quilboar Tusk (x60)\\
 [G52.7,53.9The Barrens]Do [QC878]\\Save Blood Shards for later
 Make sure you have at least 21 Blood Shards-->>Collect,5075,21
@@ -236,6 +233,7 @@ Turn in [QA6383-][QT6383]
 Fly to [F Crossroads]
 [G51.6,30.9The Barrens]Turn in [QT876 Serena Bloodfeather] \\Accept [QA1060 Letter to Jin'Zil]
 [G51.1,29.6The Barrens]Accept [QA868 Egg Hunt]
+
 [G35.3,27.8The Barrens]Turn in [QT1062 Goblin Invaders]
 [G35.2,27.8The Barrens]Turn in [QT6523 Protect Kaya]\\
 Accept [QA6401 Kaya's Alive]\\

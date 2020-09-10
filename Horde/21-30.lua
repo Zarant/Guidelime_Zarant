@@ -28,24 +28,24 @@ Accept [QA527 Battle of Hillsbrad]
 [G62.6,20.7Hillsbrad Foothills]Accept [QA549 WANTED: Syndicate Personnel]
 [G63.2,20.7Hillsbrad Foothills]Accept [QA498 The Rescue]
 Do [QC496][O]
-[G79.0,41.1Hillsbrad Foothills][O]Kill Jailor Eston and loot a Dull Iron Key-->>Collect,3467,1
 [G78.9,41.4Hillsbrad Foothills]Kill [QC1066,1-][O]Shadow Mages
 Kill Jailor Marlgen and loot the Burnished Gold Key\\[G79.9,39.8Hillsbrad Foothills][QC498,2-]Rescue Tog'thar
-[G75.3,41.6Hillsbrad Foothills][QC498,1-]Rescue Drull
+[OC]Kill Jailor Eston and loot a [V]Dull Iron Key-->>Collect,3467,1
+[G75.3,41.6Hillsbrad Foothills][QC498,1-]Rescue Drull-->>Unitscan,Jailor Eston
 [G66.1,47.3Hillsbrad Foothills]Finish off [QC549]
 
 [G62.3,20.5Hillsbrad Foothills]Turn in [QT549 WANTED: Syndicate Personnel]
 [G63.1,20.6Hillsbrad Foothills]Turn in [QT498 The Rescue]
 [G61.4,19.1Hillsbrad Foothills]Turn in [QT1066 Blood of Innocents]
 Collect [QC501,1-][O]Mountain Lion Blood (x10)
-[G36.7,39.4Hillsbrad Foothills]Kill [QC527,4-]Farmer Getz
-Kill [QC567,2-][O]Citizen Wilkes-->>Unitscan,Citizen Wilkes
-[G33.1,34.9Hillsbrad Foothills]Kill [QC527,3-]Farmer Ray
-[G34.5,44.1Hillsbrad Foothills]Kill [QC567,4-]Farmer Kalaba
+[G36.7,39.4Hillsbrad Foothills]Kill [QC527,4-]Farmer Getz-->>Unitscan,Farmer Getz
+[G33.1,34.9Hillsbrad Foothills]Kill [QC527,3-]Farmer Ray-->>Unitscan,Farmer Ray
 Finish off [QC527]
 [G62.3,20.4Hillsbrad Foothills]Turn in [QT527 Battle of Hillsbrad]\\
 Accept [QA528 Battle of Hillsbrad]
 [G62.1,19.7Hillsbrad Foothills]Accept [QA546 Souvenirs of Death]
+[G34.5,44.1Hillsbrad Foothills]Kill [QC567,4-][O]Farmer Kalaba
+Kill [QC567,2-][O]Citizen Wilkes-->>Unitscan,Citizen Wilkes
 [G35.0,45.7,60Hillsbrad Foothills]Kill [QC528,1-]Hillsbrad Peasant (x15)
 Finish off [QC501]
 [G61.5,19.1Hillsbrad Foothills]Accept [QA1067 Return to Thunder Bluff]\\
@@ -53,6 +53,7 @@ Turn in [QT501 Elixir of Pain]\\
 Accept [QA502 Elixir of Pain]
 [G62.3,20.4Hillsbrad Foothills]Turn in [QT528 Battle of Hillsbrad]\\
 Accept [QA529 Battle of Hillsbrad]
+Turn in [QT502]
 [G32.2,45.5,20Hillsbrad Foothills]Do [QC529]
 [G61.5,19.2Hillsbrad Foothills]Turn in [QT496 Elixir of Suffering]\\
 Accept [QA499 Elixir of Suffering]\\
@@ -66,7 +67,7 @@ Guidelime.registerGuide([[
 [N23-26Southern Barrens/Stonetalon]
 [NX26-28Ashenvale]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[V][O]Deposit Hillsbrad Human Skulls in your bank-->>BankDeposit,3962
+[V][O]Deposit Hillsbrad Human Skulls in your bank-->>BankDeposit,3692
 [V][O]Withdraw *Digging Claw* from the bank-->>BankWithdraw,5059
 [G22.9,21.0Thunder Bluff]Turn in [QT1067 Return to Thunder Bluff]\\
 Accept [QA1086 The Flying Machine Airport]
@@ -75,7 +76,7 @@ Fly to [F Camp Taurajo]
 [G44.5,59.2The Barrens]Accept [QA879 Betrayal from Within][O]
 Spend 4 blood shards with thorns buff for the upcoming segment\\[G45.6,59.0The Barrens][S]Set your HS to Camp Taurajo
 [G45.1,57.7The Barrens]Accept [QA893 Weapons of Choice]
-Do [QC822-][O]
+Do [QC822][O]
 Use eagle eye to look for the [QA897-][O]Silithid Harvester (rare), it can spawn anywhere in the field of giants\\Skip this step if you have to-->>Unitscan,Silithid Harvester
 Do [QC868]
 Accept [QA843 Gann's Reclamation][O]
@@ -97,7 +98,7 @@ Turn in [QT849]
 [G62.3,38.3The Barrens]Turn in [QT822 Chen's Empty Keg]
 [G65.8,43.9The Barrens]Turn in [QT874 Mahren Skyseer]\\
 Accept [QA873 Isha Awak]
-Do [QC873]
+Do [QC873]-->>Unitscan,Isha Awak
 Turn in [QT873]
 
 [H]Hearth back to Camp Taurajo

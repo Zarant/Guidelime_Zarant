@@ -629,25 +629,16 @@ end
 
 function Guidelime.Zarant.Train(self,args,event,msg)
 	if not self then 
-		return "CHAT_MSG_SYSTEM,OnStepActivation,OnStepCompletion"
+		return "TRAINER_CLOSED,OnStepActivation,OnStepCompletion"
 	end
 	if type(args) ~= "table" then return end
 	local spell,rank
-	if event == "CHAT_MSG_SYSTEM" then
-		local text = string.match(msg,"You have learned a new %a+%:%s(.+)")
-		if text then
-			spell, rank = string.match(text,"%s*(%w.*%w)%s*%((.+)%)")
-			if not spell then 
-				spell = text
-				rank = 0
+	if event == "TRAINER_CLOSED" then
+		C_Timer.After(5,function()
+			if not ClassTrainerFrame:IsShown() then
+				self:SkipStep()
 			end
-			if self.skillList[spell] and (self.skillList[spell] == rank or self.skillList[spell] == 0) then
-				self.spellsTrained = self.spellsTrained + 1
-			end
-		end
-		if self.spellsTrained == #args then
-			self:SkipStep()
-		end
+		end)
 	elseif event == "OnStepActivation" then
 		self.skillList = {}
 		self.spellsTrained = 0

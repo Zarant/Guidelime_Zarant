@@ -9,6 +9,7 @@ local _, class = UnitClass("player")
 z.EventHandler = CreateFrame("Frame")
 local EventHandler = z.EventHandler
 EventHandler:RegisterEvent("TRAINER_SHOW")
+EventHandler:RegisterEvent("TRAINER_CLOSED")
 EventHandler:RegisterEvent("TRAINER_UPDATE")
 EventHandler:RegisterEvent("QUEST_COMPLETE")
 EventHandler:RegisterEvent("BAG_UPDATE")
@@ -16,10 +17,9 @@ EventHandler:RegisterEvent("PLAYER_REGEN_ENABLED")
 EventHandler:RegisterEvent("MERCHANT_SHOW")
 EventHandler:RegisterEvent("MERCHANT_CLOSED")
 EventHandler:RegisterEvent("PLAYER_ENTERING_WORLD")
-EventHandler:RegisterEvent("CHAT_MSG_SYSTEM")
+--EventHandler:RegisterEvent("CHAT_MSG_SYSTEM")
 --EventHandler:RegisterAllEvents()
 
-local trainerUpdate = GetTime()
 
 function z.BuySpells(id,level)
 	local name, rank, category, expanded = GetTrainerServiceInfo(id);
@@ -28,13 +28,15 @@ function z.BuySpells(id,level)
 	end
 	if Guidelime.Zarant.skillList then
 		for spellName,spellRank in pairs(Guidelime.Zarant.skillList) do
-			print(rank)
+			--print(rank)
 			if name == spellName and (rank == spellRank or not rank or rank == "" or spellRank == 0) then
 				BuyTrainerService(id)
+				--print('Buying:'..name..'-'..tostring(rank)..'--'..tostring(GetTime()))
 				return
 			end
 		end
 	end
+	--[[
 	if not GuidelimeData.trainerData then
 		GuidelimeData.trainerData = {}
 		GuidelimeData.trainerData[class] = {}
@@ -50,6 +52,7 @@ function z.BuySpells(id,level)
 			end
 		end
 	end
+	]]
 end
 
 local function OnTrainer()
@@ -58,7 +61,6 @@ local function OnTrainer()
 	if not n or n == 0 then
 		return
 	end
-	trainerUpdate = GetTime()
 	for id = 1,n do
 		z.BuySpells(id,level)
 	end
@@ -456,16 +458,28 @@ local function Merchant()
 end
 
 
+local timer = 0
+local trainerUpdate
+function TrainerFrameUpdate(self,t)
+	timer = timer + t
+	if timer >= 0.2 then
+		OnTrainer()
+		timer = 0
+		if GetTime() - trainerUpdate > 60 then
+			EventHandler:SetScript("OnUpdate",nil)
+		end
+	end
+end
+
+
+
 EventHandler:SetScript("OnEvent",function(self,event,arg1)
 
 	if event == "TRAINER_SHOW" then
-		OnTrainer()
-	elseif event == "TRAINER_UPDATE" then
-		C_Timer.After(0.1,function()
-			if GetTime() - trainerUpdate >= 0.09 then
-				OnTrainer()
-			end
-		end)
+		trainerUpdate = GetTime()
+		EventHandler:SetScript("OnUpdate",TrainerFrameUpdate)
+	elseif event == "TRAINER_CLOSED" then
+		EventHandler:SetScript("OnUpdate",nil)
 	elseif event == "QUEST_COMPLETE" then
 		questId = GetQuestID()
 		local reward = GuidelimeData.questRewardList[class] and GuidelimeData.questRewardList[class][questId]
@@ -503,10 +517,11 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		z.OnLoad()
 		local tick = GuidelimeData.moveTicker
 		if tick and class == "HUNTER" then
-			C_Timer.NewTicker(tick, function()
+			z.moveAmmo = C_Timer.NewTicker(tick, function()
 				moveTicker = true
 			end)
 		end
+	--[[
 	elseif event == "CHAT_MSG_SYSTEM" and arg1 then
 		local level = UnitLevel("player")
 		local spell,rank = string.match(arg1,"You have learned a new %a+%:%s(.*)%s%((Rank%s%d+)%)")
@@ -518,6 +533,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 				GuidelimeDataChar.trainerData[level] = {{spell,rank}}
 			end
 		end
+		]]
 	end
 
 end)

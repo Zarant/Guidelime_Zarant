@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [N30-32Hillsbrad/Arathi]
 [NX32-34Shimmering Flats]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[V][O]Withdraw *Hillsbrad Human Skull* from your bank-->BankWithdraw,3962
+[V][O]Withdraw *Hillsbrad Human Skull* from your bank-->BankWithdraw,3692
 [V][O]Deposit the following items in your bank:\\Belgrom's Sealed Note\\Kodo Skin Scroll\\Kravel's Parts-->>BankDeposit,5850,5838,5800
 Take the Zeppelin to Undercity[OC]
 [A Hunter][O]Train Crossbows-->>Train,Crossbows
