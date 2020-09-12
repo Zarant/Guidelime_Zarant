@@ -5,6 +5,7 @@ Guidelime.registerGuide([[
 [N21-23Hillsbrad]
 [NX23-26Southern Barrens/Stonetalon]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
+[V][O]Deposit the following items in your bank:\\  Besseleth's Fang in your bank-->>BankDeposit,16192
 --Take the Zeppelin to UC\\[G63.3,48.6Undercity][P][OC]Get the Undercity FP
 --[G46.4,43.9,25Undercity][G14.7,31.7,50Undercity]Exit UC from the sewers backdoor\\[G66.8,5.0,40Silverpine Forest]Run to Silverpine Forest\\[G43.0,42.0Silverpine Forest]Head to Sepulcher[OC]-->>ZoneSkip,Silverpine Forest
 Take the Zeppelin to Undercity[OC]
@@ -59,7 +60,7 @@ Turn in [QT502]
 Accept [QA499 Elixir of Suffering]\\
 Turn in [QT499 Elixir of Suffering]
 [G62.1,20.4Hillsbrad Foothills]Turn in [QT529 Battle of Hillsbrad]
-[H]Hearth to Thunder Bluff-->>LoadNextGuide
+[H]Hearth to Crossroads-->>LoadNextGuide
 ]],"Zarant")
 
 Guidelime.registerGuide([[
@@ -67,11 +68,8 @@ Guidelime.registerGuide([[
 [N23-26Southern Barrens/Stonetalon]
 [NX26-28Ashenvale]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[V][O]Deposit Hillsbrad Human Skulls in your bank-->>BankDeposit,3692
-[V][O]Withdraw *Digging Claw* from the bank-->>BankWithdraw,5059
-[G22.9,21.0Thunder Bluff]Turn in [QT1067 Return to Thunder Bluff]\\
-Accept [QA1086 The Flying Machine Airport]
-[G54.7,51.3Thunder Bluff]Accept [QA1195 The Sacred Flame]
+[G51.6,30.9The Barrens]Turn in [QT876 Serena Bloodfeather] \\Accept [QA1060 Letter to Jin'Zil]
+[G51.1,29.6The Barrens]Accept [QA868 Egg Hunt]
 Fly to [F Camp Taurajo]
 [G44.5,59.2The Barrens]Accept [QA879 Betrayal from Within][O]
 Spend 4 blood shards with thorns buff for the upcoming segment\\[G45.6,59.0The Barrens][S]Set your HS to Camp Taurajo
@@ -103,21 +101,25 @@ Turn in [QT873]
 
 [H]Hearth back to Camp Taurajo
 Turn in [QT897 The Harvester][O] (optional)
-[G45.1,57.7The Barrens]Turn in [QT893 Weapons of Choice]
+[G45.1,57.7The Barrens]Turn in [QT893 Weapons of Choice]\\Accept [QA1153 A New Ore Sample]
 [G44.6,59.2The Barrens]Turn in [QT879 Betrayal from Within]\\
 Accept [QA906 Betrayal from Within]
 
-Fly to [F Crossroads]
-[G51.5,30.9The Barrens]Turn in [QT906 Betrayal from Within]
-[G52.0,29.9The Barrens][S]Set your HS to Crossroads
-[G51.1,29.6The Barrens]Turn in [QT868 Egg Hunt]
+Fly to [F Thunder Bluff]
+[A Hunter][V][O]Stock up and buy a LOT of level 25 arrows
+[V][O]Deposit Hillsbrad Human Skulls in your bank-->>BankDeposit,3692
+[V][O]Withdraw the following items from your bank:\\  Besseleth's Fang-->>BankWithdraw,16192
+[G22.9,21.0Thunder Bluff]Turn in [QT1067 Return to Thunder Bluff]\\
+Accept [QA1086 The Flying Machine Airport]
+[G54.7,51.3Thunder Bluff]Accept [QA1195 The Sacred Flame]
 
 Fly to [F Stonetalon Mountains]
 [G45.9,60.4Stonetalon Mountains]Accept [QA1087 Cenarius' Legacy]
-[G47.4,58.4Stonetalon Mountains]Accept [QA6301 Cycle of Rebirth]
-[G47.2,61.1Stonetalon Mountains]Accept [QA5881 Calling in the Reserves]\\
-Accept [QA6282 Harpies Threaten]
 [G47.3,64.3Stonetalon Mountains]Accept [QA6393 Elemental War]
+[G47.4,58.4Stonetalon Mountains]Accept [QA6301 Cycle of Rebirth]
+[G47.3,61.1Stonetalon Mountains]Accept [QA5881 Calling in the Reserves]\\
+Accept [QA6282 Harpies Threaten]\\
+Turn in [QT6284 Arachnophobia]
 [QC6301-][O]Loot Gaea Seeds as you pass through the lake
 Do [QC1058][OC]
 Do [QC1087]
@@ -142,9 +144,13 @@ Turn in [QT6381 New Life]
 [G59.0,62.6Stonetalon Mountains]Accept [QA1096 Gerenzo Wrenchwhistle]
 [G66.4,45.4Stonetalon Mountains][QC1086,1-]Place the Toxic Fogger
 Do [QC1096,1]
-[G74.5,97.9Stonetalon Mountains]Turn in [QT1058 Jin'Zil's Forest Magic]
+[G74.5,97.9Stonetalon Mountains]Turn in [QT1060 Letter to Jin'Zil]
+Turn in [QT1058 Jin'Zil's Forest Magic]
 [G35.3,27.9The Barrens]Turn in [QT1068 Shredding Machines]
-[H]Hearth to Crossroads
+[H]Hearth to Camp T.
+Fly to [F Crossroads]
+[G51.5,30.9The Barrens]Turn in [QT906 Betrayal from Within]
+[G51.1,29.6The Barrens]Turn in [QT868 Egg Hunt]
 Fly to [F Splintertree Post]-->>LoadNextGuide
 ]],"Zarant")
 
@@ -159,31 +165,34 @@ Guidelime.registerGuide([[
 [G73.6,60.1Ashenvale]Accept [QA25 Stonetalon Standstill]
 [G74.0,60.7Ashenvale][S]Set your HS to Ashenvale
 [G71.2,68.1Ashenvale]Accept [QA6503 Ashenvale Outrunners]
-Kill Sharptalon\\Accept [QA2 Sharptalon's Claw]
+Kill Sharptalon\\Accept [QA2 Sharptalon's Claw]-->>Unitscan,Sharptalon
 Kill [QC6503-]Ashenvale Outrunner (x9)
-[G71.1,68.2Ashenvale]Turn in [QT6503 Ashenvale Outrunners]
 
-[G68.7,53.0,140Ashenvale]Collect [QC6441,1-]Satyr Horns (x16)
-[G62.1,51.1Ashenvale]Collect [QC1088,1-]Ordanus' Head
-Kill dryads until you get an Etched Phial-->>Collect,5867,1
-Kill Shadumbra\\Accept [QA24 Shadumbra's Head]
-[G60.1,72.9Ashenvale][QC1195,1-]Use the Etched Phial at the Moonwell
-
-[G48.8,69.7,50Ashenvale]Head west towards the lake\\Kill Tideress\\Accept [QA1918]
+[G48.8,69.7,50Ashenvale]Head west towards the lake\\Kill Tideress\\Accept [QA1918]-->>Unitscan,Tideress
 [G48.8,69.7Ashenvale][QC25,1-]Get close to the gazebo at the middle of the lake
 Finish off [QC25]
-[G41.8,68.3Ashenvale]Kill Ursangous\\Accept [QA23 Ursangous's Paw]
+[G41.8,68.3Ashenvale]Kill Ursangous\\Accept [QA23 Ursangous's Paw]-->>Unitscan,Ursangous
 
 [G40.1,33.0,150Ashenvale]Enter the cave at the end of the fulborg village\\Do [QC6462]
 [G41.5,34.5Ashenvale]Start the escort quest\\Accept [QA6482 Freedom to Ruul]
 [QC6482-]Escort Ruul
 Finish off [QC216]
-Grind mobs untill your HS is off cooldown\\[H]Hearth back to Splintertree Post
-[G74.1,60.8Ashenvale]Turn in [QT6482 Freedom to Ruul]
+Kill Shadumbra\\Accept [QA24 Shadumbra's Head]-->>Unitscan,Shadumbra
+
+[G62.1,51.1Ashenvale]Collect [QC1088,1-]Ordanus' Head
+Kill dryads until you get an Etched Phial-->>Collect,5867,1
+
+
+[G68.7,53.0,140Ashenvale]Collect [QC6441,1-]Satyr Horns (x16)
+[G60.1,72.9Ashenvale][QC1195,1-]Use the Etched Phial at the Moonwell
+
+[G71.1,68.2Ashenvale]Turn in [QT6503 Ashenvale Outrunners]
+
 [G73.7,61.4Ashenvale]Turn in [QT2 Sharptalon's Claw]\\
 Turn in [QT23 Ursangous's Paw]\\
 Turn in [QT24 Shadumbra's Head]\\
 Turn in [QA247-][QT247]
+[G74.1,60.8Ashenvale]Turn in [QT6482 Freedom to Ruul]
 [G73.7,60.0Ashenvale]Turn in [QT25 Stonetalon Standstill]\\
 Turn in [QT1918 The Befouled Element]\\
 Accept [QA824 Je'neu of the Earthen Ring]
@@ -192,6 +201,7 @@ Fly to [F Zoram'gar Outpost]
 Turn in [QT216 Between a Rock and a Thistlefur]\\
 Turn in [QT6462 Troll Charm]\\
 Turn in [QT824 Je'neu of the Earthen Ring]
+[H]Hearth back to Camp Taurajo
 Fly to [F Thunder Bluff]-->>LoadNextGuide
 ]],"Zarant")
 
@@ -207,7 +217,7 @@ Accept [QA1196 The Sacred Flame]
 [G22.8,20.8Thunder Bluff]Turn in [QT1086 The Flying Machine Airport]
 [V][O]Deposit *Ordanus' Head* in your bank-->>BankDeposit,5686
 [G45.8,64.6Thunder Bluff][S]Set your HS to Thunder Bluff
-Accept [QA1131]
+Accept [QA1131 Steelsnap]
 Fly to [F Camp Taurajo]
 [G45.1,57.7The Barrens]Accept [QA1153 A New Ore Sample]
 [G48.9,86.3The Barrens]Accept [QA857 The Tear of the Moons]
@@ -216,6 +226,7 @@ Turn in [QT857]
 [G44.0,92.0The Barrens]Turn in [QT5881 Calling in the Reserves]
 [G44.2,92.2The Barrens]Accept [QA4542 Message to Freewind Post]
 Keep looking for the [QA4881-][O]Galak Messenger as you quest-->>Unitscan,Galak Messenger
+[QC1153-][O]Kill all Kobolds you encounter-->>Unitscan,Gravelsnout Digger,Gravelsnout Surveyor,Gibblesnik
 [G45.1,49.1Thousand Needles][P][O]Get the Freewind Post FP
 [G44.9,48.9Thousand Needles]Accept [QA4767 Wind Rider]
 [G44.7,50.3Thousand Needles]Accept [QA4821 Alien Egg]
@@ -229,7 +240,6 @@ Finish off [QC4841]
 [G53.9,41.6Thousand Needles]Accept [QA1149 Test of Faith]
 [QC1149-]Jump off the small wooden platform
 Turn in [QT1149] \\Accept [QA1150 Test of Endurance]
-[QC1153-][O]Kill all Kobolds you encounter-->>Unitscan,Gravelsnout Digger,Gravelsnout Surveyor,Gibblesnik
 [G56.3,50.4Thousand Needles]Run a lap around the area between Freewind Post and shimmering flats killing all kobolds you see\\[QC4821,1-]Look for the Alien Egg at the wind serpent nests
 [G46.1,51.6Thousand Needles]Turn in [QT1197 The Sacred Flame]
 [G45.7,50.8Thousand Needles]Turn in [QT4841 Pacify the Centaur]\\
@@ -237,6 +247,7 @@ Accept [QA5064 Grimtotem Spying]
 [G44.7,50.3Thousand Needles]Turn in [QT4821 Alien Egg]\\
 Accept [QA4865 Serpent Wild]
 [G25.9,54.8Thousand Needles][QC1150,1-]Head to the harpy cave, destroy all the boxes to summon Grenka Bloodscreech
+[XP29.6 Grind to level 29+60%]
 [QC1131-][O]Kill Steelsnap-->>Unitscan,Steelsnap
 Do [QC4767][O]
 [G17.9,40.6Thousand Needles]Start the escort quest\\Accept [QA4770 Homeward Bound]
@@ -248,6 +259,7 @@ Finish off [QC4767]
 Accept [QA5062 Sacred Fire]
 [G21.5,32.5Thousand Needles]Turn in [QT4770 Homeward Bound]
 [G22.9,24.4Thousand Needles][QC5151,1-]Click on the panther cage and kill the elite inside
+Turn in [QT5151 Hypercapacitor Gizmo]
 Finish off [QC1153]
 [G18.6,22.5,75Thousand Needles]Grind centaurs and wait for the Galak Messenger to show up\\Accept [QA4881 Assassination Plot]\\He runs between the 2 centaur camps\\ \\[QC1131-]Kill Steelsnap-->>Unitscan,Galak Messenger,Steelsnap
 Do [QC5062]
@@ -281,7 +293,7 @@ Accept [QA1175 A Bump in the Road]
 [G45.7,50.8Thousand Needles]Turn in [QT5064 Grimtotem Spying]\\
 Turn in [QT5147 Wanted - Arnak Grimtotem]
 [G46.0,51.5Thousand Needles]Turn in [QT4904 Free at Last]
-Turn in [QT5151 Hypercapacitor Gizmo]
+
 [G21.5,32.2Thousand Needles]Turn in [QT5088 Arikara]
 [G21.3,32.1Thousand Needles]Turn in [QT4881 Assassination Plot]\\
 Accept [QA4966 Protect Kanati Greycloud]
@@ -300,5 +312,5 @@ Fly to [F Orgrimmar]
 Accept [QA1146 The Swarm Grows]
 [G44.7,52.0Orgrimmar]Accept [QA1431 Alliance Relations]
 [G22.5,52.6Orgrimmar]Turn in [QT1431 Alliance Relations]\\
-Accept [QA1431 Alliance Relations]-->>LoadNextGuide
+Accept [QA1432 Alliance Relations]-->>LoadNextGuide
 ]],"Zarant")

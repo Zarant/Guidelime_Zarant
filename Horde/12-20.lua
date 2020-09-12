@@ -132,6 +132,7 @@ Accept [QA3261 Jorn Skyseer]
 [G52.2,31.9The Barrens]Turn in [QT877 The Stagnant Oasis]\\
 Accept [QA880 Altered Beings]
 [G52.0,31.5The Barrens]Turn in [QT4921 Lost in Battle]
+[A Hunter][V]Buy a 10 slot quiver and make sure to carry extra arrows for the next segment
 [G45.4,28.4The Barrens]Turn in [QT855 Centaur Bracers]\\
 Turn in [QT850 Kolkar Leaders]
 [G39.4,15.9,100The Barrens]Collect [QC875,1-]Harpy Lieutenant Ring (x6)-->>LoadNextGuide
@@ -165,7 +166,22 @@ Kill [QC1062,1-][O]Venture Co. Logger (x15)
 [G62.5,53.9,20Stonetalon Mountains]Collect [QC1093,1-]Super Reaper 6000 Blueprints
 Turn in [QT1093 Super Reaper 6000]\\
 Accept [QA1094 Further Instructions]
-[H]Finish off all Stonetalon quests and hearth back to Camp T.
+--.
+[G47.2,64.5Stonetalon Mountains]Accept [QA6421]
+[A Hunter][O]Stable your pet, tame a Deepmoss Creeper and learn Bite 3
+[G45.1,59.8Stonetalon Mountains][P]Get the Stonetalon FP
+Do [QC6421]
+[G71.2,94.9Stonetalon Mountains]Turn in [QT6461 Blood Feeders]
+[G74.5,97.9Stonetalon Mountains]Accept [QA1058 Jin'Zil's Forest Magic] 
+[G35.3,27.8The Barrens]Turn in [QT1062 Goblin Invaders]
+[G35.2,27.8The Barrens]Turn in [QT6523 Protect Kaya]\\
+Accept [QA6401 Kaya's Alive]\\
+Turn in [QT6629 Kill Grundig Darkcloud]
+[G35.3,27.8The Barrens]Accept [QA1063 The Elder Crone]\\
+Accept [QA1068 Shredding Machines]
+
+
+[H]Hearth back to Camp T.
 
 [G44.9,59.1The Barrens]Turn in [QT3261 Jorn Skyseer]\\
 Accept [QA882 Ishamuhale]
@@ -187,7 +203,7 @@ Turn in [QT865 Raptor Horns]
 [G62.3,38.4The Barrens]Turn in [QT821 Chen's Empty Keg]\\
 Accept [QA822 Chen's Empty Keg]
 Fly to [F Crossroads]
-
+[G52.0,29.9The Barrens][S]Set your HS to Crossroads
 [G52.2,31.9The Barrens]Turn in [QT880 Altered Beings]\\
 Accept [QA3301 Mura Runetotem] \\Accept [QA1489]
 [G52.0,31.6The Barrens]Turn in [QT899 Consumed by Hatred]
@@ -195,11 +211,11 @@ Accept [QA3301 Mura Runetotem] \\Accept [QA1489]
 [G51.6,30.9The Barrens]Turn in [QT875 Harpy Lieutenants]\\
 Accept [QA876 Serena Bloodfeather]
 [G51.5,30.2The Barrens]Accept [QA853 Apothecary Zamah]
+
 Fly to [F Camp Taurajo]
 [G44.6,59.2The Barrens]Turn in [QT878 Tribes at War]\\
 Accept [QA5052 Blood Shards of Agamaggan]\\
 Turn in [QT5052 Blood Shards of Agamaggan]
-
 [G44.9,59.1The Barrens]Turn in [QT882 Ishamuhale]\\
 Accept [QA907 Enraged Thunder Lizards]
 Turn in [QT883 Lakota'mani]
@@ -216,12 +232,43 @@ Accept [QA1130 Melor Sends Word]\\
 Accept [QA6382 The Ashenvale Hunt]
 [G40.8,37.6,120Mulgore][OC]Head to Thunder Bluff-->>ZoneSkip,Thunder Bluff
 [G45.8,64.6Thunder Bluff][S]Set your HS to Thunder Bluff
-[G42.3,33.2Mulgore]Turn in [QT1130 Melor Sends Word]\\
-Accept [QA1131 Steelsnap]
---[G54.9,51.4Thunder Bluff]Accept [QA1195 The Sacred Flame]
+[G42.3,33.2Mulgore]Turn in [QT1130 Melor Sends Word] \\Accept [QA1131 Steelsnap]
+[G54.9,51.4Thunder Bluff]Accept [QA1195 The Sacred Flame]
+[G70.0,30.9Thunder Bluff]Turn in [QT1063 The Elder Crone]
+Turn in [QT1489] \\Accept [QA1490] \\Turn in [QT1490]
+Accept [QA1064 Forsaken Aid]
 Accept [QA264 Until Death Do Us Part][O]
 [G23.0,21.0Thunder Bluff]Turn in [QT853 Apothecary Zamah]
-Fly to [F Crossroads]
+[G23.0,21.0Thunder Bluff]Turn in [QT1064 Forsaken Aid]\\
+Accept [QA1065 Journey to Tarren Mill]
+--Fly to [F Crossroads]
+
+--. Stonetalon
+Fly to [F Stonetalon Mountains]
+--Turn in [QT1060 Letter to Jin'Zil]
+--[G47.3,61.1Stonetalon Mountains]Turn in [QT6284 Arachnophobia]
+
+[G47.2,64.5Stonetalon Mountains]Accept [QA6393 Elemental War]\\Accept [QA6562 Trouble in the Deeps]\\Turn in [QT6421]
+Accept [QA6301 Cycle of Rebirth] \\Turn in [QT6401 Kaya's Alive]
+
+Accept [QA6284 Arachnophobia]
+[G52.0,73.8Stonetalon Mountains]Collect [QC6284,1-]Besseleth's Fang
+
+[G59.0,62.6Stonetalon Mountains]Turn in [QT1095 Further Instructions]
+Do [QC1068]-->>Unitscan,XT:4,XT:9
+[G78.2,42.7,30Stonetalon Mountains][G41.9,69.7,15Ashenvale]Head to Ashenvale-->>ZoneSkip,Ashenvale
+[G26.2,45.9,50Ashenvale][G19.9,30.4,50Ashenvale][G12.2,33.8Ashenvale][P][OC]Get the Zoram'gar FP
+
+[G12.0,34.6Ashenvale]Accept [QA216 Between a Rock and a Thistlefur]
+Start the escort quest\\Accept [QA6641 Vorsha the Lasher][O]
+[G11.7,34.8Ashenvale]Accept [QA6462 Troll Charm] \\Accept [QA6442 Naga at the Zoram Strand]
+[G11.6,34.3Ashenvale]Turn in [QT6562 Trouble in the Deeps]
+[QC6641-]Do the escort quest
+Do [QC6442]
+[G12.2,34.3Ashenvale]Turn in [QT6641 Vorsha the Lasher][O]
+[G11.7,34.8Ashenvale]Turn in [QT6442 Naga at the Zoram Strand]
+[H]Hearth to Crossroads
+
 Do [QC876]
 [G49.0,11.2The Barrens]Turn in [QT3921 Wenikee Boltbucket]
 [G48.1,5.4The Barrens]Turn in [QT6541 Report to Kadrak]
@@ -230,46 +277,6 @@ Do [QC876]
 [G73.0,62.5Ashenvale]Turn in [QT6544 Torek's Assault]
 Turn in [QT6382][OC]
 Turn in [QA6383-][QT6383]
-Fly to [F Crossroads]
-[G51.6,30.9The Barrens]Turn in [QT876 Serena Bloodfeather] \\Accept [QA1060 Letter to Jin'Zil]
-[G51.1,29.6The Barrens]Accept [QA868 Egg Hunt]
 
-[G35.3,27.8The Barrens]Turn in [QT1062 Goblin Invaders]
-[G35.2,27.8The Barrens]Turn in [QT6523 Protect Kaya]\\
-Accept [QA6401 Kaya's Alive]\\
-Turn in [QT6629 Kill Grundig Darkcloud]
-[G35.3,27.8The Barrens]Accept [QA1063 The Elder Crone]\\
-Accept [QA1068 Shredding Machines]
-
-[G74.5,97.9Stonetalon Mountains]Accept [QA1058 Jin'Zil's Forest Magic] \\Turn in [QT1060 Letter to Jin'Zil]
-[G71.2,94.9Stonetalon Mountains]Turn in [QT6461 Blood Feeders]
-
-Accept [QA6284 Arachnophobia]
-[G52.0,73.8Stonetalon Mountains]Collect [QC6284,1-]Besseleth's Fang
-[G47.2,64.5Stonetalon Mountains]Accept [QA6562 Trouble in the Deeps] \\Accept [QA6393 Elemental War]
-[G47.3,61.1Stonetalon Mountains]Turn in [QT6284 Arachnophobia]
-[G45.1,59.8Stonetalon Mountains][P]Get the Stonetalon FP
-Accept [QA6301 Cycle of Rebirth] \\Turn in [QT6401 Kaya's Alive]
-[G59.0,62.6Stonetalon Mountains]Turn in [QT1095 Further Instructions]
-Do [QC1068]-->>Unitscan,XT:4,XT:9
-[G78.2,42.7,30Stonetalon Mountains][G41.9,69.7,15Ashenvale]Head to Ashenvale-->>ZoneSkip,Ashenvale
-[G26.2,45.9,50Ashenvale][G19.9,30.4,50Ashenvale][G12.2,33.8Ashenvale][P][OC]Get the Zoram'gar FP
-
-[G12.0,34.6Ashenvale]Accept [QA216 Between a Rock and a Thistlefur]
-[G11.7,34.8Ashenvale]Accept [QA6462 Troll Charm]
-[G11.7,34.8Ashenvale]Accept [QA6442 Naga at the Zoram Strand]
-[G11.6,34.3Ashenvale]Turn in [QT6562 Trouble in the Deeps]
-[G12.0,34.6Ashenvale]Accept [QA6641 Vorsha the Lasher]
-[QC6641-]Do the escort quest
-Do [QC6442]
-[G12.2,34.3Ashenvale]Turn in [QT6641 Vorsha the Lasher][O]
-[G11.7,34.8Ashenvale]Turn in [QT6442 Naga at the Zoram Strand]
-[H]Hearth to Thunder Bluff
-[V][O]Deposit *Digging Claw* in your bank-->>BankDeposit,5059
-[G70.0,30.9Thunder Bluff]Turn in [QT1063 The Elder Crone]
-Turn in [QT1489] \\Accept [QA1490] \\Turn in [QT1490]
-Accept [QA1064 Forsaken Aid]
-[G23.1,21.1Thunder Bluff]Turn in [QT1064 Forsaken Aid]\\
-Accept [QA1065 Journey to Tarren Mill]
 Fly to [F Orgrimmar]-->>LoadNextGuide
 ]],"Zarant")

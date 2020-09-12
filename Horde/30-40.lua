@@ -4,14 +4,14 @@ Guidelime.registerGuide([[
 [NX32-34Shimmering Flats]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 [V][O]Withdraw *Hillsbrad Human Skull* from your bank-->BankWithdraw,3692
-[V][O]Deposit the following items in your bank:\\Belgrom's Sealed Note\\Kodo Skin Scroll\\Kravel's Parts-->>BankDeposit,5850,5838,5800
+[V][O]Deposit the following items in your bank:\\  Belgrom's Sealed Note\\  Kodo Skin Scroll\\  Kravel's Parts\\  Fragments of Rok'Alim-->>BankDeposit,5850,5838,5800,5844
 Take the Zeppelin to Undercity[OC]
 [A Hunter][O]Train Crossbows-->>Train,Crossbows
 [A Hunter][O][G58.1,32.7Undercity]Buy a level 30 quiver and a level 29 crossbow from the weapon vendor in the middle-->>Collect,7371,1,15809,1
 [G64.2,49.6Undercity]Accept [QA1164 To Steal From Thieves]
 Fly to [F Tarren Mill]
-[G61.6,20.8Hillsbrad Foothills]Accept [QA544 Prison Break In]
-[G61.6,20.8Hillsbrad Foothills]Accept [QA556 Stone Tokens]
+[G61.6,20.8Hillsbrad Foothills]Accept [QA544 Prison Break In]\\
+Accept [QA556 Stone Tokens]
 [G62.3,20.4Hillsbrad Foothills]Accept [QA532 Battle of Hillsbrad]
 [G63.9,19.6Hillsbrad Foothills]Accept [QA552 Helcular's Revenge]
 [G44.8,30.2,50Hillsbrad Foothills]Collect [QC552,1-]Helcular's Rod
@@ -23,10 +23,9 @@ Fly to [F Tarren Mill]
 [G26.4,23.7Hillsbrad Foothills]Collect [QC544,1-][O]Bloodstone Wedge
 [G24.4,21.2Hillsbrad Foothills]Collect [QC544,4-][O]Bloodstone Oval
 [G26.9,22.2,80Hillsbrad Foothills]Collect [QC556,1-][O]Worn Stone Token (x10)
-[L32.1,83.1Alterac Mountains]Make sure to loot a *Fresh Mountain Lion Carcass* on your way back to Tarren Mill[OC]
 [G61.6,20.8Hillsbrad Foothills]Turn in [QT544 Prison Break In]\\
-Accept [QA545 Dalaran Patrols]
-[G61.6,20.8Hillsbrad Foothills]Turn in [QT556 Stone Tokens]\\
+Accept [QA545 Dalaran Patrols]\\
+Turn in [QT556 Stone Tokens]\\
 Accept [QA557 Bracers of Binding]
 [G62.3,20.4Hillsbrad Foothills]Turn in [QT532 Battle of Hillsbrad]\\
 Accept [QA539 Battle of Hillsbrad]
@@ -36,7 +35,7 @@ Accept [QA553 Helcular's Revenge]
 [G44.0,28.1Hillsbrad Foothills][QC553,1-]Flame of Azel charged
 [G44.0,26.7Hillsbrad Foothills][QC553,2-]Flame of Veraz charged
 Enter the mine from the bottom entrance[OC]
-[G31.1,58.6Hillsbrad Foothills]Kill [QC567,3-][O]Miner Hackett
+[G31.1,58.6Hillsbrad Foothills]Kill [QC567,3-][O]Miner Hackett-->>Unitscan,Miner Hackett
 [G31.2,56.1Hillsbrad Foothills]Kill [QC539,1-]Foreman Bonds
 [G31.2,56.1,70Hillsbrad Foothills]Kill [QC539,2-]Hillsbrad Miner (x10)
 [G31.2,56.1,70Hillsbrad Foothills]Finish off [QC546]
@@ -49,18 +48,16 @@ Do [QC545]
 [G57.2,69.3Alterac Mountains]Talk to Henchman Valik and hand in a Southshore Stout\\Collect [QC533,1-]Syndicate Missive
 
 [G60.7,81.3Alterac Mountains]Turn in [QT546 Souvenirs of Death]
-[G61.6,20.8Hillsbrad Foothills]Turn in [QT545 Dalaran Patrols]
-[G61.6,20.8Hillsbrad Foothills]Turn in [QT557 Bracers of Binding]
+[G61.6,20.8Hillsbrad Foothills]Turn in [QT545 Dalaran Patrols]\\
+Turn in [QT557 Bracers of Binding]
 [G60.6,81.2Alterac Mountains]Accept [QA676 The Hammer May Fall]
 [G61.2,82.2Alterac Mountains]Turn in [QT567 Dangerous!]\\
-Turn in [QT539 Battle of Hillsbrad]\\
-Accept [QA541 Battle of Hillsbrad]--Needs testing
-[G61.5,82.1Alterac Mountains]Accept [QA547 Humbert's Sword]
+Turn in [QT539 Battle of Hillsbrad]
 [G62.0,82.5Alterac Mountains]Turn in [QT533 Infiltration]
 [G61.5,19.1Hillsbrad Foothills]Accept [QA509 Elixir of Agony]
+Turn in [QT553]
 [G64.2,61.6,80Hillsbrad Foothills]Collect [QC509,1-]Mudsnout Blossoms (x6)
-[G71.2,80.3Hillsbrad Foothills]Collect [QC547,1-]Humbert's Sword
-[G71.2,80.3Hillsbrad Foothills]Do [QC541]-->>Unitscan,Captain Ironhill
+Head to Arathi Highlands\\
 [G33.9,44.6,90Arathi Highlands]Do [QC676]
 [G54.2,38.2Arathi Highlands]Collect [QC1164,2-]Marcel's Head
 [G56.4,36.1Arathi Highlands]Collect [QC1164,1-]Kenata's Head
@@ -86,7 +83,7 @@ Accept [QA513 Elixir of Agony]
 Accept [QA550 Battle of Hillsbrad]
 [G62.7,20.2Hillsbrad Foothills]Turn in [QT547 Humbert's Sword]
 Fly to [F Undercity]
-[V][O]Withdraw the following items from your bank:\\Belgrom's Sealed Note\\Kravel's Parts-->>BankWithdraw,5850,5800
+[V][O]Withdraw the following items from your bank:\\Belgrom's Sealed Note\\Kravel's Parts\\Fragments of Rok'Alim-->>BankWithdraw,5850,5800,5844
 [V][O]Deposit *Frostmaw's Mane* in your bank-->>BankDeposit,5811
 [G64.1,49.3Undercity]Turn in [QT1164 To Steal From Thieves]
 [G48.7,69.2Undercity]Turn in [QT513 Elixir of Agony]
@@ -102,6 +99,7 @@ Guidelime.registerGuide([[
 [NX34-35Desolace]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 [G45.7,50.7Thousand Needles]Accept [QA5361 Family Tree]
+Turn in [QT1151 Test of Strength]
 [G67.6,63.9Thousand Needles]Turn in [QT1146 The Swarm Grows]\\
 Accept [QA1147 The Swarm Grows]
 
@@ -135,14 +133,14 @@ Accept [QA1180 Goblin Sponsorship]
 Accept [QA1112 Parts for Kravel]
 Take the boat to STV[OC]
 [G26.3,73.5Stranglethorn Vale]Turn in [QT1180 Goblin Sponsorship]\\
-Accept [QA1180 Goblin Sponsorship]
+Accept [QA1181 Goblin Sponsorship]
 [G27.1,77.3Stranglethorn Vale]Accept [QA605 Singing Blue Shards]
 Accept [QA201 Investigate the Camp]\\
 Turn in [QT1115 The Rumormonger]\\
 Accept [QA1116 Dream Dust in the Swamp]\\
 Accept [QA189 Bloodscalp Ears]\\
 Accept [QA213 Hostile Takeover]
-[G27.2,76.9Stranglethorn Vale]Turn in [QT1180 Goblin Sponsorship]\\
+[G27.2,76.9Stranglethorn Vale]Turn in [QT1181 Goblin Sponsorship]\\
 Accept [QA1182 Goblin Sponsorship]
 [G26.9,77.1Stranglethorn Vale][P]Get the Booty Bay FP
 [G28.3,77.6Stranglethorn Vale]Accept [QA575 Supply and Demand]
@@ -169,15 +167,17 @@ Head to Desolace\\
 [G56.2,59.6Desolace]Accept [QA1365 Khan Dez'hepah]\\
 Accept [QA1368 Gelkis Alliance]
 [G55.4,55.7Desolace]Turn in [QT5361 Family Tree]
-[G52.6,54.4Desolace]Turn in [QT1431 Alliance Relations]\\
+[G52.6,54.4Desolace]Turn in [QT1432 Alliance Relations]\\
 Accept [QA1433 Alliance Relations]\\
 Accept [QA1434 Befouled by Satyr]
+
 [G52.2,53.5Desolace]Turn in [QT1433 Alliance Relations]\\
 Accept [QA1435 The Burning of Spirits]\\
 Turn in [QT1480 The Corrupter]\\
 Accept [QA1481 The Corrupter]
-[G73.4,41.6Desolace]Collect [QC1365,1-]Khan Dez'hepah's Head
-Collect [QC1481,1-][O]Shadowstalker Scalp
+[G73.4,41.6Desolace][QC1365,1-]Kill Khan Dez'hepah, he has 3 different spawn loacations-->>Unitscan,Khan Dez'hepah
+[QC1481,1-][O]Kill Shadowstalkers
+[QC1434,1][O]Prioritize Hatefury Rogues-->>Unitscan,Hatefury Rogue
 [G76.7,19.4,200Desolace]Do [QC1434]
 
 [G62.3,39.0Desolace]Accept [QA5501 Bone Collector]
@@ -214,6 +214,11 @@ Accept [QA6027 Book of the Ancients]
 [G28.2,6.6Desolace][QC6027,1-]Click on the statue and kill the level 38 naga
 [G30.0,8.8Desolace]Turn in [QT6161 Claim Rackmore's Treasure!]
 Finish off [QC6143]
+
+
+Turn in [QT1435 The Burning of Spirits] \\Turn in [QT1482]
+Accept [QA1436 Alliance Relations]
+Accept [QA1484 The Corrupter]
 [G69.9,75.1,200Desolace]Collect [QC1370,1-]Crudely Dried Meat (x6)
 [H]Hearth back to Shadowprey Village
 [A Hunter][O]Stable your pet, tame a Scorpashi Lasher, learn Claw 5
@@ -292,8 +297,7 @@ Accept [QA193 Panther Mastery]
 [G32.2,28.9Stranglethorn Vale]Turn in [QT569 The Defense of Grom'gol]
 [G32.1,29.2Stranglethorn Vale]Turn in [QT570 Mok'thardin's Enchantment]
 Fly to [F Booty Bay]
-[G27.2,76.9Stranglethorn Vale]Turn in [QT1182 Goblin Sponsorship]\\
-Accept [QA1183 Goblin Sponsorship]
+[G27.2,76.9Stranglethorn Vale]Turn in [QT1182 Goblin Sponsorship]
 [G27.0,77.1Stranglethorn Vale]Turn in [QT189 Bloodscalp Ears]\\
 Accept [QA209 Skullsplitter Tusks]\\
 Turn in [QT213 Hostile Takeover]
@@ -443,7 +447,7 @@ Head to Badlands-->>ZoneSkip,Badlands,1
 Guidelime.registerGuide([[
 [GA Horde]
 [N39-40Badlands]
-
+[NX40-41STV/Swamp of Sorrows]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 [G4.0,44.8Badlands][P]Get the Badlands FP
 [G2.6,46.2Badlands]Accept [QA2258 Badlands Reagent Run]
@@ -476,10 +480,3 @@ Accept [QA1420 Report to Helgrum]
 Turn in [QT2258 Badlands Reagent Run]
 [H]Hearth to Grom'gol Base camp-->>LoadNextGuide
 ]],"Zarant")
-
-
---[[
-[G28.1,29.6DeadwindPass]Accept [QA1372 Nothing But The Truth]
-[G27.8,29.2DeadwindPass]Turn in [QT1372 Nothing But The Truth]\\
-Accept [QA1383 Nothing But The Truth]
-]]
