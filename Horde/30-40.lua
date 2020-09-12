@@ -200,6 +200,7 @@ Accept [QA1370 Stealing Supplies]
 [G22.7,72.1Desolace]Accept [QA6142 Clam Bait]
 --[G21.6,74.1Desolace][P][OC]Get the Desolace FP
 [G23.3,72.9Desolace]Accept [QA6143 Other Fish to Fry]
+[G47.8,61.8Desolace]Accept [QA6134 Ghost-o-plasm Round Up]
 [G62.3,39.0Desolace]Turn in [QT5501 Bone Collector]
 [QC1435-][O]Kill Burning Blade mobs using the Burning Gem
 [G55.2,30.1Desolace]Collect [QC5741,1-]Sceptre of Light
@@ -228,9 +229,9 @@ Turn in [QT1370 Stealing Supplies] \\Accept [QA1373 Ongeku]
 [G22.7,72.1Desolace]Turn in [QT6142 Clam Bait]
 Fly to [F Thunder Bluff]
 [V][O]Withdraw *Kravel's Crate* from your bank-->>BankWithdraw,14542
-[G61.4,80.7Thunder Bluff]Accept [QA1205 Deadmire]
+[V][O]Deposit *Crate of Ghost Magnets* in your bank-->>BankDeposit,15848
 Fly to [F Orgrimmar]
-[G22.4,52.8Orgrimmar]Turn in [QT1433 Alliance Relations]
+[G22.4,52.8Orgrimmar]Turn in [QT1436 Alliance Relations]
 [G75.2,34.3Orgrimmar]Turn in [QT1184 Parts of the Swarm]
 Take the Zeppelin to STV-->>ZoneSkip,Durotar,1
 ]],"Zarant")
@@ -246,10 +247,13 @@ Guidelime.registerGuide([[
 [G32.2,28.9Stranglethorn Vale]Accept [QA568 The Defense of Grom'gol]
 [G32.2,27.8Stranglethorn Vale]Accept [QA596 Bloody Bone Necklaces]\\
 Accept [QA629 The Vile Reef]
-[G32.2,27.8Stranglethorn Vale]Accept [QA581 Hunt for Yenniku]\\
-Accept [QA638 Trollbane]
+[G32.2,27.8Stranglethorn Vale]Accept [QA581 Hunt for Yenniku]
 [QC581-][O]Kill Bloodscalp Trolls
 [QC575-][O]Kill crocolisks along the river bank
+Turn in [QT5762] \\Turn in [QT5763]
+Accept [QA583]
+
+Turn in [QT583]\\Accept [QA194]\\Accept [QA185]\\Accept [QA190]
 Kill [QC185,1-][O]Young Stranglethorn Tiger (x10)
 Do [QC190]
 Turn in [QT185] \\Turn in [QT190] \\ \\Accept [QA186] \\Accept [QA191]
@@ -280,6 +284,8 @@ Accept [QA577 Some Assembly Required]
 [G20.2,12.3,80Stranglethorn Vale]Collect [QC582,1-]Shrunken Head (x20)
 Finish off [QC596] and [QC189]
 
+Turn in [QT596] \\Turn in [QT582] \\Accept [QA638]
+
 Collect [QC577,1-][O]Snapjaw Crocolisk Skin (x5)
 [G36.9,30.7,80Stranglethorn Vale]Do [QC569]
 [G49.0,22.3,100Stranglethorn Vale]Do [QC570 Mok'thardin's Enchantment]
@@ -287,6 +293,7 @@ Finish off [QC192 Panther Mastery]
 [G42.6,18.4Stranglethorn Vale][OC]Get Cozzle's Key by killing the named goblin on top of the oil rig-->>Collect,5851,1
 [G43.4,20.4Stranglethorn Vale]Collect [QC1182,1-]Fuel Regulator Blueprints
 [G44.1,19.6,120Stranglethorn Vale]Collect [QC213,1-]Tumbled Crystal (x8)
+Die on purpose and spirit rez[OC]
 [G35.7,10.8Stranglethorn Vale]Turn in [QT195 Raptor Mastery]\\
 Accept [QA196 Raptor Mastery]
 [G35.6,10.7Stranglethorn Vale]Turn in [QT187 Tiger Mastery]\\
@@ -320,8 +327,8 @@ Fly to [F Dustwallow Marsh]
 [G53.8,69.9The Barrens]Accept [QA1201 Theramore Spies]
 [G33.3,41.1Dustwallow Marsh]Kill [QC1201,1-][O]Theramore Infiltrator (x9)
 [G35.1,38.2Dustwallow Marsh]Accept [QA1177 Hungry!]
-[G29.70,47.64,1Dustwallow Marsh]Accept [QA1268 Suspicious Hoofprints]
-[G29.83,48.24,1Dustwallow Marsh]Accept [QA1269 Lieutenant Paval Reethe]
+[G29.70,47.64,1Dustwallow Marsh]Accept [QA1268 Suspicious Hoofprints][O]
+[G29.83,48.24,1Dustwallow Marsh]Accept [QA1269 Lieutenant Paval Reethe][O]
 [G29.64,48.61,1Dustwallow Marsh]Accept [QA1251 The Black Shield]
 Turn in [QT1268 Suspicious Hoofprints]\\
 Turn in [QT1269 Lieutenant Paval Reethe]
