@@ -284,7 +284,7 @@ Accept [QA577 Some Assembly Required]
 [G20.2,12.3,80Stranglethorn Vale]Collect [QC582,1-]Shrunken Head (x20)
 Finish off [QC596] and [QC189]
 
-Turn in [QT596] \\Turn in [QT582] \\Accept [QA638]
+Turn in [QT629] \\Turn in [QT596] \\Turn in [QT582] \\Accept [QA638]
 
 Collect [QC577,1-][O]Snapjaw Crocolisk Skin (x5)
 [G36.9,30.7,80Stranglethorn Vale]Do [QC569]
@@ -325,19 +325,22 @@ Guidelime.registerGuide([[
 [V][O]Deposit the *Fuel Regulator Blueprints* in your bank-->>BankDeposit,5852
 Fly to [F Dustwallow Marsh]
 [G53.8,69.9The Barrens]Accept [QA1201 Theramore Spies]
-[G33.3,41.1Dustwallow Marsh]Kill [QC1201,1-][O]Theramore Infiltrator (x9)
+Kill [QC1201,1-][O]Theramore Infiltrator (x9)
 [G35.1,38.2Dustwallow Marsh]Accept [QA1177 Hungry!]
 [G29.70,47.64,1Dustwallow Marsh]Accept [QA1268 Suspicious Hoofprints][O]
 [G29.83,48.24,1Dustwallow Marsh]Accept [QA1269 Lieutenant Paval Reethe][O]
 [G29.64,48.61,1Dustwallow Marsh]Accept [QA1251 The Black Shield]
 Turn in [QT1268 Suspicious Hoofprints]\\
 Turn in [QT1269 Lieutenant Paval Reethe]
+Turn in [QT1251] \\Accept [QA1321]
 [G36.5,30.8Dustwallow Marsh]Turn in [QT1321 The Black Shield]\\
 Accept [QA1322 The Black Shield]
 [G41.0,36.7Dustwallow Marsh]Start the escort quest\\Accept [QA1273 Questioning Reethe]
-[G42.5,38.0Dustwallow Marsh][QC1273,1-]Question Reethe with Ogron
+[G42.5,38.0Dustwallow Marsh][QC1273,1-]Question Reethe with Ogron\\ \\Make sure to stay next to Ogron as he reaches the tent otherwise the quest will not complete after killing the 4 adds
 [G46.9,17.5Dustwallow Marsh]Start the escort quest\\Accept [QA1270 Stinky's Escape]
 [QC1270-]Escort Stinky
+Click on the dirt mound\\Accept [QA1238]
+Turn in [QA1218-][QT1218] \\Accept [QA1206]
 [G57.1,21.9,90Dustwallow Marsh]Collect [QC1177,1-]Mirefin Head (x8)
 [G34.3,22.6,100Dustwallow Marsh]Collect [QC1206,1-]Unpopped Darkmist Eye (x20)
 Finish off [QC1322]
@@ -361,7 +364,7 @@ Accept [QA1240 The Troll Witchdoctor]
 [H]Hearth to Grom'gol Base Camp
 [G32.2,27.8Stranglethorn Vale]Turn in [QT1240 The Troll Witchdoctor]
 --Click on the cauldron\\Accept [QA1261 Marg Speaks]
-Take the Zeppelin to Undercity-->>ZoneSkip,Tirisfal Glades
+Take the Zeppelin to Undercity-->>ZoneSkip,Tirisfal Glades,1
 ]],"Zarant")
 
 
@@ -406,7 +409,7 @@ Accept [QA651 Stones of Binding]
 [G66.7,29.8Arathi Highlands]Collect [QC651,2-]Cresting Key
 [G52.0,50.8Arathi Highlands]Collect [QC651,3-]Thundering Key
 [G25.5,30.1Arathi Highlands]Collect [QC651,1-]Burning Key
-[G29.7,63.0Arathi Highlands]Kill [QC673,1-]Marez Cowl
+[G29.7,63.0Arathi Highlands]Kill [QC673,1-]Marez Cowl-->>Unitscan,Marez Cowl
 [G36.2,57.3Arathi Highlands]Turn in [QT651 Stones of Binding]\\
 Accept [QA652 Breaking the Keystone]
 [QC652-][O]Find and kill Fozruk but don't go out of your way to finish this step, he patrols the whole zone\\This is a difficult elite to solo, consider skipping this step-->>Unitscan,Fozruk
