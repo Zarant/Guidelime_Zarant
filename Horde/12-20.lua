@@ -252,7 +252,7 @@ Fly to [F Stonetalon Mountains]
 Accept [QA6301 Cycle of Rebirth] \\Turn in [QT6401 Kaya's Alive]
 
 Accept [QA6284 Arachnophobia]
-[G52.0,73.8Stonetalon Mountains]Collect [QC6284,1-]Besseleth's Fang
+[G52.0,73.8Stonetalon Mountains]Collect [QC6284,1-]Besseleth's Fang-->>Unitscan,Besseleth
 
 [G59.0,62.6Stonetalon Mountains]Turn in [QT1095 Further Instructions]
 Do [QC1068]-->>Unitscan,XT:4,XT:9

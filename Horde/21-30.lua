@@ -83,7 +83,7 @@ Kill [QA885-][O]Washte Pawne-->>Unitscan,Washte Pawne
 [G43.8,83.0The Barrens]Collect [QC879,2-]Nak's Skull
 [G40.2,80.6The Barrens]Collect [QC879,3-]Lok's Skull
 Finish off [QC893]
-Do [QC843] \\Loot the journal from the named mob at the back of the camp
+Do [QC843] \\Loot the journal from the named mob-->>Unitscan,Prospector Khazgorm
 Turn in [QT843 Gann's Reclamation]\\
 Accept [QA846 Revenge of Gann]
 [G48.7,84.5The Barrens]Do [QC846]

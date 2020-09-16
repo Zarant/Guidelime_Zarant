@@ -41,11 +41,14 @@ Throw away the Sample of Indurium Ore[OC]
 
 Withdraw your pet from the stable [OC][A Hunter]
 [QC1452,1-][O]Kill vultures as you quest through tanaris
-Do [QC1690 Wastewander Justice]
-Do [QC1707 Water Pouch Bounty]
+Do [QC1690 Wastewander Justice][O]
+Do [QC1707 Water Pouch Bounty][O]
 Accept [QA8365 Pirate Hats Ahoy!]
 Accept [QA3520 Screecher Spirits]
 Accept [QA8366 Southsea Shakedown] \\Turn in [QT2872 Stoley's Debt] \\Accept [QA2873 Stoley's Shipment]
+[A Hunter]Accept [QA3161]
+[A Hunter][G47.31,65.14,80Tanaris][L40.68,72.98]Do [QC3161]
+[A Hunter]Turn in [QT3161]
 [V][O]Deposit the following items in your bank:\\Fool's Stout Report\\Roc Gizzard--BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas43
 Turn in [QT1690 Wastewander Justice] \\Turn in [QT1707 Water Pouch Bounty]
 Fly to [F Feathermoon]--OnStepCompletion>>LoadNextGuide

@@ -134,8 +134,6 @@ Kill [QC837,3-]Razormane Dustrunner (x4)
 [G51.9,43.5Durotar]Turn in [QT6062 Taming the Beast] \\Accept [QA6083 Taming the Beast][A Hunter]
 [G52.0,43.5Durotar]Turn in [QT837 Encroachment]
 [G58.8,28.1Durotar][QC6083,1-]Tame a Surf Crawler[A Hunter]
-[G56.4,20.0Durotar]Turn in [QT828 Margoz]\\
-Accept [QA827 Skull Rock]
 Death warp to Razor Hill\\[G51.9,43.5Durotar]Turn in [QT6083 Taming the Beast]\\Accept [QA6082 Taming the Beast][A Hunter]
 [G54.9,37.3Durotar][QC6082,1-]Tame an Armored Scorpid[A Hunter]
 Turn in [QT6082 Taming the Beast]\\Accept [QA6081 Training the Beast][A Hunter]
@@ -176,6 +174,8 @@ Accept [QA6386 Return to the Crossroads.]
 Death skip to Durotar[OC]
 
 Collect [QC813,1-]Venomtail Poison Sac (x4)[O]
+[G56.4,20.0Durotar]Turn in [QT828 Margoz]\\
+Accept [QA827 Skull Rock]
 [G55.0,9.8Durotar]Collect [QC5726,1-]Lieutenant's Insignia\\
 Collect [QC827,1-]Searing Collar (x6)
 Finish of [QC813]

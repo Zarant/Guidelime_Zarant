@@ -20,6 +20,8 @@ Accept [QA585 Speaking with Nezzliok]
 Collect [QC209,1-][O]Skullsplitter Tusk (x18)
 Collect [QC598,1-][O]Split Bone Necklace (x25)
 [G47.6,39.6Stranglethorn Vale]Collect [QC585,3-]Zul'Mamwe Trophy
+[G42.2,36.1Stranglethorn Vale]Collect [QC585,2-]Ziata'jai Trophy
+[G46.1,32.3Stranglethorn Vale]Collect [QC585,1-]Balia'mah Trophy
 [G49.6,24.02,30Stranglethorn Vale][QC193 -]Look for Bhag'thera with eagle eye \\You can found it either north or west of the ogre mound-->>Unitscan,BHAG'THERA
 [H]Hearth to Grom'Gol
 [G32.2,27.8Stranglethorn Vale]Turn in [QT598 Split Bone Necklace]\\
@@ -40,7 +42,7 @@ Accept [QA1383 Nothing But The Truth]
 [G46.1,54.7Swamp of Sorrows][P]Get the Flight Path
 [G47.8,55.2Swamp of Sorrows]Turn in [QT1420 Report to Helgrum]
 [G48.0,55.0Swamp of Sorrows]Accept [QA1424 Pool of Tears]
-[G44.9,46.1Swamp of Sorrows][QC698,1-]Kill level 38+ crocolisks
+[QC698,1-][O]Kill level 38+ crocolisks
 Kill Noboru, click the quest item \\Accept [QA1392 Noboru the Cudgel][O]-->>Unitscan,NOBORU THE CUDGEL
 [G26.0,31.4Swamp of Sorrows]Accept [QA1389 Draenethyst Crystals]
 
@@ -66,7 +68,7 @@ Finish off [QC1116]
 Fly to [F Booty Bay]
 [G27.0,77.2Stranglethorn Vale]Turn in [QT1116 Dream Dust in the Swamp]
 [G27.0,77.1Stranglethorn Vale]Turn in [QT209 Skullsplitter Tusks]
-[G27.1,77.0Stranglethorn Vale]Turn in [QT668 Sunken Treasure]
+[G27.1,77.0Stranglethorn Vale]Turn in [QT669 Sunken Treasure]
 [G27.2,76.9Stranglethorn Vale]Accept [QA1183 Goblin Sponsorship]
 [G27.0,77.2Stranglethorn Vale]Accept [QA1117 Rumors for Kravel]\\Accept [QA2864 Tran'rek]
 [G27.1,77.3Stranglethorn Vale]Turn in [QT600 Venture Company Mining]
@@ -90,7 +92,7 @@ Fly to [F Thunder Bluff]
 [G61.4,80.7Thunder Bluff]Accept [QA1205 Deadmire]
 Fly to [F Desolace]
 [G25.8,68.2Desolace]Accept [QA5581 Portals of the Legion]
-[QC1383,3-][O]Kill one of the sea giants that roam desolace-->>Unitscan,Deepstrider Searcher,Deepstrider Giant
+[QC1383,3-][O]Kill one of the sea giants that roam desolace\\Abandon this quest if you can't find any giants by the time you finish desolace-->>Unitscan,Deepstrider Searcher,Deepstrider Giant
 [G36.3,79.2Desolace]Turn in [QT1373 Ongeku]\\
 Accept [QA1374 Khan Jehn]
 [G47.8,61.8Desolace]Accept [QA6134 Ghost-o-plasm Round Up]
@@ -103,10 +105,11 @@ Kill [QC1488,1-][O]Lord Azrethoc-->>Unitscan,Lord Azrethoc
 [G66.3,80.1Desolace]Collect [QC1374,1-]Khan Jehn's Head
 [G64.0,91.7Desolace]Collect [QC6134,1-]Ghost-o-plasm (x8)
 Finish off [QC5581]
-[G36.3,79.3Desolace]Turn in [QT1374 Khan Jehn]\\
-Accept [QA1380 Khan Hratha]
-[OC]Kill Centaurs at the Valley of Spears until the Horn Mouthpiece drops-->>Collect,6074,1
-[G29.7,53.5Desolace][QC1380,1-]Use the mouthpiece to summon Khan Hratha\\You'll have to fight 2 waves of mobs before getting to him, he comes with 3 extra adds
+[G36.3,79.3Desolace]Turn in [QT1374 Khan Jehn]
+--Accept [QA1380 Khan Hratha]
+Turn in [QT5581 Portals of the Legion]
+--[OC]Kill Centaurs at the Valley of Spears until the Horn Mouthpiece drops-->>Collect,6074,1
+--[G29.7,53.5Desolace][QC1380,1-]Use the mouthpiece to summon Khan Hratha\\You'll have to fight 2 waves of mobs before getting to him, he comes with 3 extra adds
 [G33.9,53.6Desolace]Start the escort quest\\Accept [QA6132 Get Me Out of Here!]
 [QC6132-]Finish the escort quest
 [G47.8,61.8Desolace]Turn in [QT6132 Get Me Out of Here!]
@@ -165,8 +168,8 @@ Finish off [QC1168] and [QC1169]
 [G37.3,31.4Dustwallow Marsh]Turn in [QT1168 Army of the Black Dragon]
 [G37.1,33.0Dustwallow Marsh]Accept [QA1170 The Brood of Onyxia]
 [G36.3,31.4Dustwallow Marsh]Turn in [QT1170 The Brood of Onyxia]\\
-Accept [QA1170 The Brood of Onyxia]
-[G37.1,33.0Dustwallow Marsh]Turn in [QT1170 The Brood of Onyxia]\\
+Accept [QA1171 The Brood of Onyxia]
+[G37.1,33.0Dustwallow Marsh]Turn in [QT1171 The Brood of Onyxia]\\
 Accept [QA1172 The Brood of Onyxia]
 [G35.3,30.6Dustwallow Marsh]Turn in [QT1261 Marg Speaks]\\
 Accept [QA1262 Report to Zor]
@@ -181,6 +184,9 @@ Click on the Power Source in your bags\\Accept [QA654 Tanaris Field Sampling]
 Do [QC654][O]
 [QC2781,1-][O]Kill Caliph Scorpidsting-->>Unitscan,Caliph Scorpidsting
 Do [QC1691]
+[A Hunter]Accept [QA3161]
+[A Hunter][G47.31,65.14,80Tanaris][L40.68,72.98]Do [QC3161]
+[A Hunter]Turn in [QT3161]
 [G52.4,28.5Tanaris]Turn in [QT654 Tanaris Field Sampling]\\
 Accept [QA864 Return to Apothecary Zinge]\\
 Turn in [QT1691 More Wastewander Justice]\\
