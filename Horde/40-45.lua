@@ -207,12 +207,13 @@ Accept [QA2975 The Ogres of Feralas][O]
 [G74.5,42.9Feralas]Accept [QA2822 The Mark of Quality]
 Collect [QC2862,1-][O]Woodpaw Gnoll Mane (x10)
 Collect [QC2987,1-][O]Gordunni Cobalt (x12)
+Accept [QA2978 The Gordunni Scroll][O]\\It's a small parchment that can spawn anywhere in the camp
 [G76.1,33.2Feralas]Do [QC2975]
 [G72.7,38.3,60Feralas]Finish off [QC2862]
 
 Turn in [QT2862 War on the Woodpaw]\\
 Accept [QA2863 Alpha Strike]
-Turn in [QT2975 The Ogres of Feralas][O]\\Accept [QA2980 The Ogres of Feralas][O]
+Turn in [QT2975 The Ogres of Feralas][O]\\Accept [QA2980 The Ogres of Feralas][O] \\Turn in [QT2978 The Gordunni Scrol][O] \\Accept [QA2979 Dark Ceremony]
 [G75.7,44.3Feralas]Turn in [QT2987 Gordunni Cobalt]
 [G74.8,45.2Feralas][S]Set your HS to Feralas
 [G68.8,48.0Feralas]Collect [QC2973,1-]Iridescent Sprite Darter Wing (x10)
@@ -234,25 +235,28 @@ Accept [QA7731 Stinglasher]
 [G76.9,61.6Feralas][QC7731,1-]Kill Stinglasher-->>Unitscan,Stinglasher
 Collect [QC7730,1-]Zukk'ash Carapace (x20)
 [QC3520,1-][O]Collect 3 Screecher Spirits
+[QC2979-][O]Kill Gordunni Mage-Lords
 Start working on [QC2980][OC]
 [G56.64,75.89Feralas]Head south and look for Hippogryph nests by the mountains\\[V]Loot an Hyppogryph Egg--OnStepActivation,BAG_UPDATE>>HippogryphEgg,8564,1
 Finish off [QC2980]
+[L53.35,55.70Feralas]Turn in [QA2766-][QT2766][O]\\Skip this step if you can't find the Distress Beacon
 [G54.4,55.8Feralas]Collect [QC2822,1-]Thick Yeti Hide (x10)
+Start the chicken escort\\Accept [QA2767]
 [H][OC]Hearth back to Camp Mojache
-Turn in [QT2980 The Ogres of Feralas][O]
+Turn in [QT2980 The Ogres of Feralas][O]\\Turn in [QT2979 Dark Ceremony] \\Accept [QA3002 The Gordunni Orb]
 [G74.4,43.4Feralas]Accept [QA3121 A Strange Request]
 [G74.4,42.9Feralas]Turn in [QT2822 The Mark of Quality]
 [G74.9,42.5Feralas]Turn in [QT7730 Zukk'ash Infestation]\\
 Turn in [QT7731 Stinglasher]\\
 Accept [QA7732 Zukk'ash Report]
 Fly to [F Orgrimmar]--or unstuck
+[G39.2,86.3Orgrimmar]Turn in [QT3002 The Gordunni Orb]
 [G39.0,38.1Orgrimmar]Turn in [QT1262 Report to Zor] \\Turn in [QA7541-][QT7541]
 [G56.5,46.6Orgrimmar]Turn in [QT7732 Zukk'ash Report]
 [G75.2,34.2Orgrimmar]Turn in [QT2976 A Grim Discovery]
 [G49.6,50.4Orgrimmar]Turn in [QT3121 A Strange Request]\\
 Accept [QA3122 Return to Witch Doctor Uzer'i]
-[V][O]Deposit *Neeru's Herb Pouch* in your bank-->>BankDeposit,9628
-Make sure to withdraw all your Green Hills of Stranglethorn pages from your bank[OC]
+[V][O]Deposit the following items in your bank:\\  Neeru's Herb Pouch  \\Hippogryph Egg\\  Yeh'kinya's Bramble-->>BankDeposit,9628,8564,10699
 Take the zeppelin to STV-->>ZoneSkip,Stranglethorn Vale,1
 ]],"Zarant")
 
@@ -280,6 +284,13 @@ Turn in [QT1118 Back to Booty Bay]
 [G27.7,76.8Stranglethorn Vale]Accept [QA348 Stranglethorn Fever]
 [G28.1,76.2Stranglethorn Vale]Accept [QA595 The Bloodsail Buccaneers]
 [G26.7,73.6Stranglethorn Vale]Accept [QA8551 The Captain's Chest]
+Turn in [QT595] \\Accept [QA597]
+Turn in [QT597] \\Accept [QA599]
+Accept [QA587]
+Turn in [QT599] \\Accept [QA604]
+Turn in [QT2767]
+Accept [QA576]
+
 [G28.0,82.4Stranglethorn Vale]Do [QC604]
 [G32.8,65.8Stranglethorn Vale]Collect [QC606,1-]Mistvale Giblets (x5)
 [G32.8,65.8Stranglethorn Vale]Collect [QC571,1-]Aged Gorilla Sinew
@@ -313,9 +324,11 @@ Kill [QC573,1-]Naga Explorer (x10)
 [G26.7,73.6Stranglethorn Vale]Turn in [QT8551 The Captain's Chest]
 [G28.6,75.9Stranglethorn Vale]Turn in [QT576 Keep An Eye Out]
 [G27.8,77.1Stranglethorn Vale]Turn in [QT609 Voodoo Dues]
-[G26.7,76.4Stranglethorn Vale]Turn in [QT617 Akiris by the Bundle]
-
 [V][O]Withdraw the following items from your bank:\\  Deepstrider Tumor\\  Mire Lord Fungus\\  Neeru's Herb Pouch\\ Seaforium Booster-->>BankWithdraw,6082,6081,9628,5862
+[G26.7,76.4Stranglethorn Vale]Turn in [QT617 Akiris by the Bundle]
+Turn in [QT621]
+Accept [QA1119]
+
 Withdraw all Green Hills pages from your bank
 [G27.0,77.3Stranglethorn Vale]Turn in [QT587 Up to Snuff]
 [G27.1,77.0Stranglethorn Vale]Turn in [QT608 The Bloodsail Buccaneers]
@@ -339,13 +352,13 @@ Accept [QA2621 The Disgraced One]
 [G47.9,55.0Swamp of Sorrows]Accept [QA1429 The Atal'ai Exile]\\
 Turn in [QT2621 The Disgraced One]\\
 Accept [QA2622 The Missing Orders]
-[G44.7,57.1Swamp of Sorrows]Accept [QA1430 Fresh Meat]\\
-Turn in [QT2622 The Missing Orders]\\
+--[G44.7,57.1Swamp of Sorrows]Accept [QA1430 Fresh Meat]\\
+[G44.7,57.1Swamp of Sorrows]Turn in [QT2622 The Missing Orders]\\
 Accept [QA2623 The Swamp Talker]
 Accept [QA699]
 Collect [QC699,1-][O]Sawtooth Snapper Claw (x6)
-[G71.0,10.6Swamp of Sorrows]Collect [QC1383,1-]Shadow Panther Heart (x5)
-[G77.0,4.0Swamp of Sorrows]Collect [QC1430,1-]Monstrous Crawler Leg (x10)
+Collect [QC1383,1-][O]Shadow Panther Heart (x5)
+--[G77.0,4.0Swamp of Sorrows]Collect [QC1430,1-]Monstrous Crawler Leg (x10)
 [G81.4,80.8Swamp of Sorrows]Turn in [QT699 Lack of Surplus]\\
 Accept [QA1422 Threat From the Sea]
 [G83.7,80.5Swamp of Sorrows]Turn in [QT1422 Threat From the Sea]\\
@@ -358,7 +371,8 @@ Accept [QA1428 Continued Threat]
 [G62.9,87.4Swamp of Sorrows]Collect [QC2623,1-]Warchief's Orders-->>Unitscan,Swamp Talker
 Finish off [QC1428]
 [G83.7,80.4Swamp of Sorrows]Turn in [QT1428 Continued Threat]
-[G44.7,57.1Swamp of Sorrows]Turn in [QT1430 Fresh Meat]
+Die on purpose and spirit rez[OC]
+--[G44.7,57.1Swamp of Sorrows]Turn in [QT1430 Fresh Meat]
 [G34.3,66.0Swamp of Sorrows]Turn in [QT2623 The Swamp Talker]\\
 Accept [QA2801 A Tale of Sorrow]
 [QC2801,1-]Go through the whole dialogue-->>SkipGossip
@@ -384,5 +398,6 @@ Accept [QA1188 Safety First]
 [G52.7,7.8Tanaris]Accept [QA1120 Get the Gnomes Drunk]
 [G52.6,7.6Tanaris]Turn in [QT1120 Get the Gnomes Drunk]
 [G52.7,7.8Tanaris]Accept [QA1122 Report Back to Fizzlebub]
+[V][O]Withdraw the following items from your bank:\\  Hippogryph Egg\\  Yeh'kinya's Bramble-->>BankWithdraw,8564,10699
 
 ]],"Zarant")

@@ -1,6 +1,6 @@
 ## Title: Guidelime_Zarant
 ## Author: Zarant
-## Version: 5.0.5
+## Version: 5.0.6
 ## Interface: 11305
 ## Dependencies: Guidelime
 ## OptionalDeps: unitscan
