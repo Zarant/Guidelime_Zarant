@@ -327,6 +327,7 @@ Kill [QC573,1-]Naga Explorer (x10)
 [V][O]Withdraw the following items from your bank:\\  Deepstrider Tumor\\  Mire Lord Fungus\\  Neeru's Herb Pouch\\ Seaforium Booster-->>BankWithdraw,6082,6081,9628,5862
 [G26.7,76.4Stranglethorn Vale]Turn in [QT617 Akiris by the Bundle]
 Turn in [QT621]
+Accept [QA580]
 Accept [QA1119]
 
 Withdraw all Green Hills pages from your bank
@@ -338,66 +339,4 @@ Fly to [F Grom'gol]
 [G35.7,10.8Stranglethorn Vale]Turn in [QT208 Big Game Hunter]
 Turn in all journal pages[OC]
 Fly to [F Stonard]-->>LoadNextGuide
-]],"Zarant")
-
-Guidelime.registerGuide([[
-[GA Horde]
-[N45-46Swamp of Sorrows]
-[NX46-48Tanaris]
-[D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[G34.3,66.0Swamp of Sorrows]Accept [QA2784 Fall From Grace]
-[QC2784-]Go through the whole dialogue-->>SkipGossip
-Turn in [QT2784 Fall From Grace]\\
-Accept [QA2621 The Disgraced One]
-[G47.9,55.0Swamp of Sorrows]Accept [QA1429 The Atal'ai Exile]\\
-Turn in [QT2621 The Disgraced One]\\
-Accept [QA2622 The Missing Orders]
---[G44.7,57.1Swamp of Sorrows]Accept [QA1430 Fresh Meat]\\
-[G44.7,57.1Swamp of Sorrows]Turn in [QT2622 The Missing Orders]\\
-Accept [QA2623 The Swamp Talker]
-Accept [QA699]
-Collect [QC699,1-][O]Sawtooth Snapper Claw (x6)
-Collect [QC1383,1-][O]Shadow Panther Heart (x5)
---[G77.0,4.0Swamp of Sorrows]Collect [QC1430,1-]Monstrous Crawler Leg (x10)
-[G81.4,80.8Swamp of Sorrows]Turn in [QT699 Lack of Surplus]\\
-Accept [QA1422 Threat From the Sea]
-[G83.7,80.5Swamp of Sorrows]Turn in [QT1422 Threat From the Sea]\\
-Accept [QA1426 Threat From the Sea]
-Do [QC1426]
-[G83.7,80.5Swamp of Sorrows]Turn in [QT1426 Threat From the Sea]\\
-Accept [QA1427 Threat From the Sea]
-[G81.4,80.8Swamp of Sorrows]Turn in [QT1427]
-Accept [QA1428 Continued Threat]
-[G62.9,87.4Swamp of Sorrows]Collect [QC2623,1-]Warchief's Orders-->>Unitscan,Swamp Talker
-Finish off [QC1428]
-[G83.7,80.4Swamp of Sorrows]Turn in [QT1428 Continued Threat]
-Die on purpose and spirit rez[OC]
---[G44.7,57.1Swamp of Sorrows]Turn in [QT1430 Fresh Meat]
-[G34.3,66.0Swamp of Sorrows]Turn in [QT2623 The Swamp Talker]\\
-Accept [QA2801 A Tale of Sorrow]
-[QC2801,1-]Go through the whole dialogue-->>SkipGossip
-Turn in [QT2801 A Tale of Sorrow]
-[G22.9,48.3Swamp of Sorrows]Turn in [QT624 Cortello's Riddle]\\
-Accept [QA624 Cortello's Riddle]
-[G27.8,29.1Deadwind Pass]Turn in [QT1383 Nothing But The Truth]\\
-Accept [QA1388 Nothing But The Truth]\\
-Turn in [QT1388 Nothing But The Truth]
-[H]Hearth to Camp Mojache
-[G74.5,43.4Feralas]Turn in [QT3122 Return to Witch Doctor Uzer'i]
-Fly to [F Tanaris]-->>LoadNextGuide
-]],"Zarant")
-
-Guidelime.registerGuide([[
-[GA Horde]
-[N46-48Tanaris]
-
-[D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[G52.7,7.8Tanaris]Turn in [QT1119 Zanzil's Mixture and a Fool's Stout]
-[G54.3,7.1Tanaris]Turn in [QT1187 Razzeric's Tweaking]\\
-Accept [QA1188 Safety First]
-[G52.7,7.8Tanaris]Accept [QA1120 Get the Gnomes Drunk]
-[G52.6,7.6Tanaris]Turn in [QT1120 Get the Gnomes Drunk]
-[G52.7,7.8Tanaris]Accept [QA1122 Report Back to Fizzlebub]
-[V][O]Withdraw the following items from your bank:\\  Hippogryph Egg\\  Yeh'kinya's Bramble-->>BankWithdraw,8564,10699
-
 ]],"Zarant")

@@ -75,7 +75,7 @@ Turn in [QT2661] \\Accept [QA2662] \\Turn in [QT2662]
 Make sure you carry 1 stack of noggenfogger with you at all times, buy 2 extra stacks and bank it [OC]
 Accept [QA3161] \\Turn in [QT3445]
 [QC2781-]Kill Caliph Scorpid Sting, he patrols around \\Do [QC1691]
-[G68.85,41.55Tanaris]Head to Lost Rigger Cove
+[G68.85,41.55Tanaris][G73.2,47.1,140Tanaris]Head to Lost Rigger Cove
 [QC2875-]Kill Andre Firebeard by the campfire[O]
 [QC8365-][OC][QC8366-][OC]Kill pirates
 Loot [QC2873] upstairs
