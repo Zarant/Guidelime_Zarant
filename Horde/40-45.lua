@@ -238,6 +238,7 @@ Collect [QC7730,1-]Zukk'ash Carapace (x20)
 [QC2979-][O]Kill Gordunni Mage-Lords
 Start working on [QC2980][OC]
 [G56.64,75.89Feralas]Head south and look for Hippogryph nests by the mountains\\[V]Loot an Hyppogryph Egg--OnStepActivation,BAG_UPDATE>>HippogryphEgg,8564,1
+[O]Kill Frayfeather Hippogryphs\\Collect Long Elegant Feather (x10)-->>Collect,4589,10
 Finish off [QC2980]
 [L53.35,55.70Feralas]Turn in [QA2766-][QT2766][O]\\Skip this step if you can't find the Distress Beacon
 [G54.4,55.8Feralas]Collect [QC2822,1-]Thick Yeti Hide (x10)
@@ -256,7 +257,7 @@ Fly to [F Orgrimmar]--or unstuck
 [G75.2,34.2Orgrimmar]Turn in [QT2976 A Grim Discovery]
 [G49.6,50.4Orgrimmar]Turn in [QT3121 A Strange Request]\\
 Accept [QA3122 Return to Witch Doctor Uzer'i]
-[V][O]Deposit the following items in your bank:\\  Neeru's Herb Pouch  \\Hippogryph Egg\\  Yeh'kinya's Bramble-->>BankDeposit,9628,8564,10699
+[V][O]Deposit the following items in your bank:\\  Neeru's Herb Pouch  \\Hippogryph Egg\\  Yeh'kinya's Bramble\\  Long Elegant Feather-->>BankDeposit,9628,8564,10699,4589
 Take the zeppelin to STV-->>ZoneSkip,Stranglethorn Vale,1
 ]],"Zarant")
 

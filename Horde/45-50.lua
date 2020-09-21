@@ -131,7 +131,7 @@ Fly to [F Dustwallow Marsh][OC]
 [G31.1,66.1Dustwallow Marsh]Accept [QA626 Cortello's Riddle]
 Die and spirit rez[OC]
 Fly to [F Thunder Bluff]
-[V][O]Withdraw the following items from your bank:\\  Deadmire's Tooth\\  Sealed Field Testing Kit\\  Bundle of Atal'ai Artifacts\\  Wildkin Muisek Vessel-->>BankWithdraw,5945,8527,6193,9618
+[V][O]Withdraw the following items from your bank:\\  Deadmire's Tooth\\  Sealed Field Testing Kit\\  Bundle of Atal'ai Artifacts\\  Wildkin Muisek Vessel\\  Long Elegant Feather-->>BankWithdraw,5945,8527,6193,9618,4589
 [L43.1,43.0Thunder Bluff]Do the Thunder Bluff cloth hand ins:\\
 [QA7820-][O][QT7820-][O]Wool\\
 [QA7821-][O][QT7821-][O]Silk\\
@@ -148,11 +148,166 @@ Take the Zeppelin to Undercity-->>ZoneSkip,Tirisfal Glades,1
 Guidelime.registerGuide([[
 [GA Horde]
 [N48-49The Hinterlands]
-
+[NX49-49Un'Goro]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 [G73.2,32.8Undercity]Accept [QA2995 Lines of Communication]
 [G48.5,71.9Undercity]Accept [QA3568 Seeping Corruption]
 [G50.0,68.2Undercity]Turn in [QT864 Return to Apothecary Zinge]
 [V][O]Deposit *Box of Empty Vials* in your bank-->>BankDeposit,10695
 Fly to [F Tarren Mill]
+[OC]Kill birds in hinterlands-->>Unitscan,Razorbeak Skylord,Trained Razorbeak,Razorbeak Gryphon
+[V][O]Collect Long Elegant Feather (x10)-->>Collect,4589,10
+Collect [QC3123,1-][O]Wildkin Muisek (x10)
+
+[G23.5,58.8The Hinterlands]Accept [QA2933 Venom Bottles]
+[G26.7,48.6The Hinterlands]Turn in [QT650 Ripple Recovery]\\
+Accept [QA77 A Sticky Situation]
+[G72.5,66.2,50The Hinterlands]Head to Revantusk Village\\
+[G77.1,80.0The Hinterlands]Accept [QA7839 Vilebranch Hooligans]
+[G78.2,81.3The Hinterlands]Accept [QA7840 Lard Lost His Lunch]
+[G80.4,81.5The Hinterlands]Accept [QA7815 Snapjaws, Mon!]\\
+Accept [QA7816 Gammerita, Mon!]
+[G81.7,81.8The Hinterlands][P]Get The Hinterlands FP
+Collect [QC580,1-][O]Pupellyverbos Port (x12)
+Kill [QC7816,1-][O]Gammerita-->>Unitscan,Gammerita
+[G76.2,73.4The Hinterlands]Kill [QC7815,1-]Saltwater Snapjaw (x15)
+[G80.8,46.8The Hinterlands]Turn in [QT626 Cortello's Riddle]
+[G84.4,41.3The Hinterlands]Collect [QC7840,1-]Lard's Lunch
+
+
+[G78.8,78.4The Hinterlands]Accept [QA7844 Cannibalistic Cousins]
+[G79.4,79.1The Hinterlands]Accept [QA7841 Message to the Wildhammer]
+[G79.1,79.5The Hinterlands]Accept [QA7828 Stalking the Stalkers]\\
+Accept [QA7829 Hunt the Savages]\\
+Accept [QA7830 Avenging the Fallen]
+[G78.2,81.3The Hinterlands]Turn in [QT7840 Lard Lost His Lunch]
+[G80.3,81.4The Hinterlands]Turn in [QT7815 Snapjaws, Mon!]
+Turn in [QT7816 Gammerita, Mon!]
+Fly to [F Tarren Mill][OC]
+[G61.5,19.2Hillsbrad Foothills]Turn in [QT2933 Venom Bottles]\\
+Accept [QA2934 Undamaged Venom Sac]
+[G29.6,48.7The Hinterlands][QC2995,2-]Burn the Highvale Notes
+[G28.6,46.1The Hinterlands][QC2995,3-]Burn the Highvale Report
+[G32.0,46.9The Hinterlands][QC2995,1-]Burn the Highvale Records
+Start the escort quest\\Accept [QA2742][O]\\ \\[QC2742-][O]Escort Rin'ji
+Finish off [QC7841]
+[G34.1,68.9,140The Hinterlands][QC2934,1-][O]Kill spiders in Shadra'Alor
+[G33.7,75.1The Hinterlands]Turn in [QT1429 The Atal'ai Exile]
+[G40.0,59.9The Hinterlands]Collect [QC2641,1-]Violet Tragan
+Kill [QC7829,1-][O]Savage Owlbeast (x20)
+Collect [QC7830,1-][O]Skylord Plume-->>Unitscan,Razorbeak Skylord
+[L45.2,66.4The Hinterlands]Do [QC7844][O]
+Kill [QC7828,2-]Silvermane Howler (x15)
+Collect [QC7839,1-][O]Slagtree's Lost Tools\\It has 5 different possible spawn locations
+[G57.5,39.5The Hinterlands]Collect [QC77,1-]Hinterlands Honey Ripple (x10)
+[G70.9,62.4The Hinterlands]Kill [QC7828,1-]Silvermane Stalker (x15)
+[G86.3,59.0The Hinterlands]Turn in [QT2742 Rin'ji is Trapped!]\\
+Accept [QA2782 Rin'ji's Secret]
+
+[G77.2,80.2The Hinterlands]Turn in [QT7839 Vilebranch Hooligans]
+[G78.8,78.4The Hinterlands]Turn in [QT7844 Cannibalistic Cousins]
+[G79.3,79.1The Hinterlands]Turn in [QT7841 Message to the Wildhammer]\\
+Accept [QA7842 Another Message to the Wildhammer]
+Turn in [QT7842 Another Message to the Wildhammer]\\
+Accept [QA7843 The Final Message to the Wildhammer]
+[G79.1,79.5The Hinterlands]Turn in [QT7828 Stalking the Stalkers]\\
+Turn in [QT7829 Hunt the Savages]\\
+Turn in [QT7830 Avenging the Fallen]
+
+[G14.4,48.1The Hinterlands][QC7843,1-]Message to the Wildhammer Delivered
+[G26.7,48.6The Hinterlands]Turn in [QT77 A Sticky Situation]\\
+Accept [QA81 Ripple Delivery]
+[G49.3,37.7The Hinterlands]Turn in [QA485-][QT485 Find OOX-09/HL!]\\Skip this step if you haven't found the Distress Beacon
+Start the chicken escort\\Accept [QA836 Rescue OOX-09/HL!]
+[QC836-]Escort the robot chicken
+[G79.4,79.1The Hinterlands]Turn in [QT7843 The Final Message to the Wildhammer]
+Fly to [F Tarren Mill][OC]
+[G61.5,19.1Hillsbrad Foothills]Turn in [QT2934 Undamaged Venom Sac]
+Fly to [F Undercity]
+[L71.7,29.2Undercity]Do the Undercity cloth turn ins:\\[QA7813-][O][QT7813-][O]Wool \\[QA7814-][O][QT7814-][O]Silk \\[QA7817-][O][QT7817-][O]Mageweave
+[G73.5,32.7Undercity]Turn in [QT2995 Lines of Communication]\\
+Turn in [QT2782 Rin'ji's Secret]\\Turn in [QA8273-][QT8273]
+
+[H]Hearth to Tanaris
+[V][O]Deposit Dran's Ripple Delivery in your bank-->>BankDeposit,8685
+[G51.1,26.9Tanaris]Turn in [QT2641 Sprinkle's Secret Ingredient]\\
+Accept [QA2661 Delivery for Marin]
+[G51.8,28.6Tanaris]Turn in [QT2661 Delivery for Marin]\\
+Accept [QA2662 Noggenfogger Elixir]\\
+Turn in [QT2662 Noggenfogger Elixir]-->>LoadNextGuide
+]],"Zarant")
+
+Guidelime.registerGuide([[
+[GA Horde]
+[N49-49Un'Goro]
+[NX49-50Feralas]
+[D Horde Hunter Leveling Guide - WORK IN PROGRESS]
+Run to Un'goro Crater\\Accept [QA4289] \\Accept [QA4290]
+Save Un'Goro Soil, you will need 25 later[OC]
+[O]As you quest through Un'Goro, loot 7 crystals of each color--BAG_UPDATE>>Crystals_Tanaris49
+[G27.5,42.8Tanaris]Accept [QA4289 The Apes of Un'Goro]\\
+Accept [QA4290 The Fare of Lar'korwi]\\
+[G63.1,68.6Un'Goro Crater]Accept [QA3844 It's a Secret to Everybody]
+[G63.1,69.0Un'Goro Crater]Turn in [QT3844 It's a Secret to Everybody]\\
+Accept [QA3845 It's a Secret to Everybody]
+[G68.8,56.8Un'Goro Crater]Collect [QC4290,1-]Piece of Threshadon Carcass
+[G71.6,76.0Un'Goro Crater]Turn in [QT4290 The Fare of Lar'korwi]\\
+Accept [QA4291 The Scent of Lar'korwi]
+Do [G67.3,73.1Un'Goro Crater][G66.6,66.7Un'Goro Crater][QC4291] by stepping on a raptor nest
+Turn in [QT4291 The Scent of Lar'korwi]\\
+Accept [QA4292 The Bait for Lar'korwi]
+Grind raptors until you find *A Mangled Journal* \\Accept [QA3884]
+[QC3845-]Open the small pack in your inventory [OC]
+[G44.7,8.1Un'Goro Crater]Turn in [QT3845 It's a Secret to Everybody]\\
+Accept [QA3908 It's a Secret to Everybody]
+[G44.0,7.3Un'Goro Crater]Turn in [QT3884 Williden's Journal]
+[G41.9,2.7Un'Goro Crater]Turn in [QA4284-][QT4284 Crystals of Power]
+Fly to [F Feralas]-->>LoadNextGuide
+]],"Zarant")
+
+Guidelime.registerGuide([[
+[GA Horde]
+[N49-50Feralas]
+
+[D Horde Hunter Leveling Guide - WORK IN PROGRESS]
+[G76.2,43.8Feralas]Accept [QA3062 Dark Heart]\\
+Accept [QA3063 Vengeance on the Northspring]\\
+Accept [QA4120 The Strength of Corruption]
+[G74.5,42.9Feralas]Accept [QA7733 Improved Quality]
+[G74.5,43.4Feralas]Turn in [QT3123 Testing the Vessel]\\
+Accept [QA3124 Hippogryph Muisek]\\
+[G74.5,43.4Feralas]Accept [QA3128 Natural Materials]
+[G74.8,45.1Feralas][S]Set your HS to Camp Mojache
+[G55.9,63.8Feralas]Collect [QC3124,1-]Hippogryph Muisek (x10)
+Collect [QC3128,3-]Resilient Sinew (x20)
+[G74.5,43.4Feralas]Turn in [QT3124 Hippogryph Muisek]\\
+Accept [QA3125 Faerie Dragon Muisek]
+
+Collect [QC3128,2-][O]Encrusted Minerals (x6)
+[G68.8,48.1Feralas]Collect [QC3125,1-]Faerie Dragon Muisek (x8)
+Turn in [QT3125 Faerie Dragon Muisek]\\
+Accept [QA3126 Treant Muisek]
+Collect [QC3126,1-]Treant Muisek (x3)-->>Unitscan,Wandering Forest Walker
+Collect [QC3128,1-]Splintered Log (x2)-->>Unitscan,Wandering Forest Walker
+[G55.9,63.8Feralas]Finish off [QC3128]
+[G44.8,43.4Feralas]Accept [QA7003 Zapped Giants]\\
+Accept [QA7721 Fuel for the Zapping]
+Do [QC7003] \\Do [QC7721]
+[G44.8,43.4Feralas]Turn in [QT7003 Zapped Giants]\\
+Turn in [QT7721 Fuel for the Zapping]
+[G52.6,31.8Feralas]Collect [QC7733,1-]Rage Scar Yeti Hide (x10)
+[G40.3,23.4Feralas]Collect [QC3127,1-]Mountain Giant Muisek (x7)\\Remember to use the Ultra-Shrinker on them
+Kill Harpies until you get the Horn of Hatetalon[OC]-->>Collect,9530,1
+[G40.5,8.6Feralas]Collect [QC3062,1-]Edana's Dark Heart
+Finish off [QC3063]
+
+[H][OC]Hearth back to Camp Mojache
+[G74.4,43.4Feralas]Turn in [QT3127 Mountain Giant Muisek]\\
+Turn in [QT3128 Natural Materials]\\
+Accept [QA3129 Weapons of Spirit]
+[G74.5,42.9Feralas]Turn in [QA7738-][OC][QT7738 Perfect Yeti Hide][OC]
+[G74.5,42.9Feralas]Turn in [QT7733 Improved Quality]
+[G74.4,43.4Feralas]Turn in [QT3129 Weapons of Spirit]
+[G76.2,43.8Feralas]Turn in [QT3063 Vengeance on the Northspring]
+Turn in [QT3062 Dark Heart]
 ]],"Zarant")
