@@ -6,25 +6,79 @@ Guidelime.registerGuide([[
 [GA Dwarf,Hunter]
 Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
 Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
-[G33.93,50.95Loch Modan]Throw away your HS and unstuck, then get the [P Loch Modan] flight path
-[T Stable your pet, tame a spider and learn Bite 2][A Hunter][O]
+Throw away your HS and unstuck[OC]
+
+Talk to the guard patrolling the road\\Accept [QA416 Rat Catching][O]\\Accept [QA1339 Mountaineer Stormpike's Task][O]
 [G34.82,49.28Loch Modan][QA418 Thelsamar Blood Sausages]
-Accept [G34.26,47.7Loch Modan][QA416 Rat Catching]
-Accept [G34.26,47.7Loch Modan][QA1339 Mountaineer Stormpike's Task]
+[S]Set your HS to Loch Modan
 Accept [G37.01,47.8Loch Modan][QA6387 Honor Students]
-[QC418-]Kill beasts on your way north[O]
+[G33.93,50.95Loch Modan] Turn in [QT6387 Honor Students] \\Accept [QA6391 Ride to Ironforge]
+Fly to [F Ironforge][OC]
+[G51.52,26.31Ironforge][QT6391 Ride to Ironforge][QA6388 Gryth Thurden]
+Turn in [QT291 The Reports]
+[A Hunter]Turn in [QT6086 Training the Beast]
+Head to Deeprun Tram\\Accept [G74.4,51.1Ironforge][QA6661 Deeprun Rat Roundup]
+Do [QC6661]
+Turn in [QT6661]
+[G55.5,47.74Ironforge][QT6388 Gryth Thurden] \\Accept [QA6392]
+Fly to [F Wetlands]
+Take the boat to Darkshore[OC]
+
+[A Dwarf,Human,Gnome][G19.1,20.63Felwood][P Get the Auberdine flight path]
+[G19.1,20.63Felwood]Accept [QA3524 Washed Ashore]
+[G19.51,18.97Felwood]Accept [QA983 Buzzbox 827]
+[G21.63,18.15Felwood]Accept [QA2118 Plagued Lands] \\Accept [QA984 How Big a Threat?]
+[A Hunter][O]Tame a Thistle Bear, they can stun you, send your pet on them and when they use their stun on your pet, abandon your current pet and start taming it-->>TameBeast,2163
+[QC983 Kill crabs along the coast][O]
+[G18.81,26.69Felwood][QC3524 Loot the sea creature remains]
+Save *Strider Meat* x5 for later \\([QA2178-][O][QT2178][O])
+[G22.39,29.45,96Felwood][QC984 Head towards the fulborg camp]
+[QC2118-]Capture a rabid thistle bear[O]
+[XP12-1500 Grind mobs until you are 1500xp off level 12]
+
+Turn in [G19.13,21.39Felwood][QT983 Buzzbox 827] \\Accept [QA1001 Buzzbox 411]
+Turn in [G19.1,20.63Felwood][QT3524 Washed Ashore pt.1] \\Accept [QA4681 Washed Ashore pt.2]
+[G19.9,18.4Felwood]Accept [QA947 Cave Mushrooms]
+[G20.34,18.12Felwood]Accept [QA4811 The Red Crystal]
+[G19.98,14.4Felwood][V][O]Buy 6 slot bags-->>Vendor
+Turn in [G22.24,18.22Felwood][QT984 How Big a Threat?] pt.1 \\Accept [QA985 How Big a Threat?] pt.2 \\Accept [QA4761 Thundris Windweaver]
+[A Dwarf,Gnome,Human]Accept [G20.8,15.58Felwood][QA982 Deep Ocean, Vast Sea]
+Turn in [G19.98,14.4Felwood][QT4761 Thundris Windweaver] \\Accept [QA4762 The Cliffspring River] \\Accept [QA958 Tools of the Highborne] \\Accept [QA954 Bashal'Aran]
+
+[OC]Start collecting small eggs for leveling cooking later\\You will need 10 points in cooking to accept a quest later
+Turn in [G27.7,10.03Felwood][QT954 Bashal'Aran] pt.1 \\Accept [QA955 Bashal'Aran] pt.2
+[G29.13,12.34,153Felwood][QC955-]Kill Imps
+Turn in [G27.7,10.03Felwood][QT955 Bashal'Aran] pt.2 \\Accept [QA956 Bashal'Aran] pt.3
+[G29.6,12.52,151Felwood][QC956-]Kill satyrs
+Turn in [G27.7,10.03Felwood][QT956 Bashal'Aran] pt.3 \\Accept [QA957 Bashal'Aran] pt.4
+[XP13 Grind to level 13]
+[O] Make sure you have at least 9 small eggs to level cooking\\Skip this step if you already have 10 points in cooking.
+[G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal] in the mountains
+Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal] \\Accept [QA4812 As Water Cascades]
+[G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell
+Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within]
+Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within]
+Accept [G18.1,18.48Felwood][QA963 For Love Eternal]
+[G33.70,42.45,15Darkshore] Run up to the docks then jump in the water at the intersection\\
+[G13.63,21.44Felwood][QC1001 -]Start working on darkshore threshers[OC]
+[G13.63,21.44Felwood][QC4681 Washed Ashore]
+[G19.1,20.63Felwood][QT4681 Washed Ashore]
+[S]Set your HS to Darkshore\\Go back to Loch Modan afterwards
+
+Head back to Loch Modan[OC]
+[QC418-][O]Kill spiders/bears/boars
 Turn in [G24.76,18.39Loch Modan][QT1339 Mountaineer Stormpike's Task]
 Accept [G24.76,18.39Loch Modan][QA307 Filthy Paws]
 Accept [G24.76,18.39Loch Modan][QA1338 Stormpike's Order]
 
-[QC418-][O]Kill beasts as you quest
+
 [G35.48,24.36,129Loch Modan][QC307-]Loot the crates inside the mine
 [QC416-]Kill kobolds
 Turn in [G24.76,18.39Loch Modan][QT307 Filthy Paws]
 Turn in [G34.26,47.7Loch Modan][QT416 Rat Catching]
 [QC418 Finish off Thelsamar Blood Sausages]
 Turn in [G34.82,49.28Loch Modan][QT418 Thelsamar Blood Sausages]
-[G33.93,50.95Loch Modan] Turn in [QT6387 Honor Students] \\Accept [QA6391 Ride to Ironforge]
+
 Do [G31.44,0.42,171Badlands][QC224 In Defense of the King's Lands]
 Finish off [QC267 The Trogg Threat]
 Turn in [G22.07,73.12Loch Modan][QT224 In Defense of the King's Lands]
@@ -32,22 +86,26 @@ Turn in [G22.07,73.12Loch Modan][QT224 In Defense of the King's Lands]
 Turn in [G23.23,73.67Loch Modan][QT267 The Trogg Threat]
 --[G35.45,12.3,112Badlands][QC237 In Defense of the King's Lands]
 --[G22.66,0.2Badlands][QT237 In Defense of the King's Lands]
-[G33.93,50.95Loch Modan] Throw away your HS and unstuck\\Fly to [F Ironforge]
-[T][O]Train skills
-[G51.52,26.31Ironforge][QT6391 Ride to Ironforge][QA6388 Gryth Thurden]
-[G55.5,47.74Ironforge][QT6388 Gryth Thurden]
-[G19.61,51.77Ironforge][S Set your HS to Ironforge]
-Head to Deeprun Tram\\Accept [G74.4,51.1Ironforge][QA6661 Deeprun Rat Roundup]
-Do [QC6661]
-Turn in [QT6661] \\Accept [QA6662 Me brother, Nipsy]
+
+Accept [QA298]--Excavation Progress Report
+Accept [QA257]--Hunter's boast
+Do [QC257]
+Turn in [QT257]
+Accept [QA258]
+Do [QC258]
+Turn in [QT258]
+Pull mobs and die on purpose, rez at Thelsamar[OC]
+Turn in [QT298] \\Accept [QA301]
+Fly to [F Ironforge][OC]
+Turn in [QT301]
+[V][O]Buy the level 21 gun if you have the money for it-->>Collect,3024,1
+Head to Deeprun Tram\\ 
+Accept [QA6662 Me brother, Nipsy]
 Ride to the other side of the tram and turn in [QT6662 Me Brother, Nipsy]
 Turn in [G58.08,16.52Stormwind City][QT1338 Stormpike's Order]
-[G57.23,57.29][T Train Staves][A Hunter]
-[H Hearth to Ironforge][A Hunter]
-[G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut
-[G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor
-[P Get the Menethil FP]
-[F Take the boat to Darkshore]
+[G57.23,57.29][T Train Staves]-->>Trainer
+[H]Hearth to Darkshore\\If your hearthstone is still on cooldown, head to stockades, invite some random person and leave group-->>ZoneSkip,Darkshore,1
+
 ]], "Zarant")
 
 

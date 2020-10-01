@@ -409,7 +409,7 @@ function Guidelime.Zarant.SpellLearned(self,args,event,msg)
 	
 	local s,r
     if msg and event == "CHAT_MSG_SYSTEM" then
-		s,r = string.match(msg,"You have learned a new %a+%:%s(.*)%s%(Rank%s(%d+)%)")
+		s,r = string.match(msg,"You have learned.+new %a+%:%s(.*)%s%(Rank%s(%d+)%)")
 		if not s then
 			s,r = string.match(msg,"Your pet has learned a new %a+%:%s(.*)%s%(Rank%s(%d+)%)")
 		end
@@ -425,12 +425,19 @@ end
 
 function Guidelime.Zarant.TameBeast(self,args,event,target,guid,spellId)
 	if not self then 
-		return "UNIT_SPELLCAST_SUCCEEDED"
+		return "UNIT_SPELLCAST_SUCCEEDED,UNIT_SPELLCAST_START,UNIT_SPELLCAST_FAILED"
 	end
 	if spellId == 1515 then
+		if event == "UNIT_SPELLCAST_FAILED" then
+			self.petId = nil
+			return
+		end
 		for i,v in ipairs(args) do
 			local id = tonumber(v)
-			if id == self.NpcId(target) or id == self.NpcId() then
+			if event == "UNIT_SPELLCAST_START" and (id == self.NpcId(target) or id == self.NpcId()) then
+				self.petId = id
+			elseif id and event == "UNIT_SPELLCAST_SUCCEEDED" and (id == self.NpcId(target) or id == self.NpcId() or id == self.petId) then
+				self.petId = nil
 				self:SkipStep()
 				return
 			end

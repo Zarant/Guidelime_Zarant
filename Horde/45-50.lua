@@ -192,7 +192,7 @@ Accept [QA2934 Undamaged Venom Sac]
 Start the escort quest\\Accept [QA2742][O]\\ \\[QC2742-][O]Escort Rin'ji
 Finish off [QC7841]
 [G34.1,68.9,140The Hinterlands][QC2934,1-][O]Kill spiders in Shadra'Alor
-[G33.7,75.1The Hinterlands]Turn in [QT1429 The Atal'ai Exile]
+[G33.7,75.1The Hinterlands]Turn in [QT1429 The Atal'ai Exile] \\Accept [QA1444 Return to Fel'Zerul]
 [G40.0,59.9The Hinterlands]Collect [QC2641,1-]Violet Tragan
 Kill [QC7829,1-][O]Savage Owlbeast (x20)
 Collect [QC7830,1-][O]Skylord Plume-->>Unitscan,Razorbeak Skylord

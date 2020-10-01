@@ -43,7 +43,7 @@ Turn in [G27.7,10.03Felwood][QT956 Bashal'Aran] pt.3 \\Accept [QA957 Bashal'Aran
 Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal] \\Accept [QA4812 As Water Cascades]
 [G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell
 Accept [G18.1,18.48Felwood][QA963 For Love Eternal]
-[G33.70,42.45,15Darkshore] Run up to the docks then jump in the water at the intersection
+[G33.70,42.45,15Darkshore] Run up to the docks then jump in the water at the intersection\\
 [G13.63,21.44Felwood][QC1001 -]Start working on darkshore threshers[OC]
 [G13.63,21.44Felwood][QC4681 Washed Ashore]
 [H]Hearth to Auberdine[OC]

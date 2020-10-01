@@ -203,7 +203,7 @@ Turn in [QT865 Raptor Horns]
 [G62.3,38.4The Barrens]Turn in [QT821 Chen's Empty Keg]\\
 Accept [QA822 Chen's Empty Keg]
 Fly to [F Crossroads]
-[G52.0,29.9The Barrens][S]Set your HS to Crossroads
+--[G52.0,29.9The Barrens][S]Set your HS to Crossroads
 [G52.2,31.9The Barrens]Turn in [QT880 Altered Beings]\\
 Accept [QA3301 Mura Runetotem] \\Accept [QA1489]
 [G52.0,31.6The Barrens]Turn in [QT899 Consumed by Hatred]
