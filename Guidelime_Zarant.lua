@@ -396,6 +396,23 @@ function Guidelime.Zarant.Trainer(self,args,event)
 	end
 end
 
+function Guidelime.Zarant.Stable(self,args,event)
+	if not self then 
+		return "PET_STABLE_SHOW,PET_STABLE_CLOSED"
+	end
+	local id = args
+	if type(args) == "table" then
+		id = unpack(args)
+	end
+	
+	if event == "PET_STABLE_SHOW" then
+		if	Guidelime.Zarant.NpcId() == id then
+			self.trainer = id
+		end
+	elseif event == "PET_STABLE_CLOSED" and (self.trainer == id or not id) then
+		self:SkipStep()
+	end
+end
 
 function Guidelime.Zarant.SpellLearned(self,args,event,msg)
 	if not self then 

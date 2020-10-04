@@ -20,7 +20,7 @@ Turn in [QT234 Coldridge Valley Mail Delivery] \\Accept [QA182 The Troll Cave]
 Finish off [QC170]
 [XP4 Grind to level 4][OC]
 Accept [QA3364 Scalding Mornbrew Delivery]
-[H]Hearth back to the starting zone
+[H]Hearth back to the starting zone[OC]
 Turn in [QT170 A New Threat]
 [T][OC]Train skills
 Turn in [QT3108 Etched Rune][A Hunter]
@@ -113,15 +113,19 @@ Accept [QA315 The Perfect Stout]
 Accept [QA319 A Favor for Evershine]
 Accept [QA310 Bitter Rivals]
 Do [QC319][O]
-
+Finish off [QC384,1][O]
 Death skip to Kharanos[OC]
-Accept [QA287 Frostmane Hold]
-[QC384,2 Buy Rhapsody Malt] at the Kharanos innkeeper[O]
-[V Buy Thunder Ale x1 at the innkeeper, then go downstairs][OC]
-[QT310 Give the Thunder Ale to Jarven, click on the barrel]
-Accept [QA311 Return to Marleth]
+[A Hunter][OC][XP8 Make sure you are level 8 by the time you reach Kharanos]\\You should have 1390xp worth of quest turn ins
+[A Mage,Paladin,Priest,Rogue,Warrior,Warlock]Accept [QA287 Frostmane Hold]
+[A Hunter]Turn in [QT313 The Grizzled Den]
+[A Hunter][XP8-765 Grind until you are 765xp away from level 8]
 [A Hunter][V][O]Make sure you have 5 stacks of ammo-->>Collect,2516,1000
+[QC384,2 Buy Rhapsody Malt] at the Kharanos innkeeper[O]
+[V Buy Thunder Ale at the innkeeper, then go downstairs][OC]
+[QT310 -]Give the Thunder Ale to Jarven, click on the barrel
+Accept [QA311 Return to Marleth]
 [A Hunter]Turn in [QT384 Beer Basted Boar Ribs]
+[A Hunter]Accept [QA287 Frostmane Hold]
 [A Hunter]Accept [QA314 Protecting the Herd]\\This quest is hard, skip this step if you haven't trained concussive shot
 [A Hunter][G62.62,46.04Dun Morogh][QC314 Kill Vagash] by kiting him to the guard parked at the road intersection\\Make sure to get him below 50% before reaching the guard
 [A Hunter]Turn in [QT314 Protecting the Herd]
@@ -132,7 +136,7 @@ Accept [QA311 Return to Marleth]
 [A Hunter][OC]Throw away your HS and unstuck back to Kharanos
 
 [S]Set hearthstone to Kharanos
-Turn in [QT384 Beer Basted Boar Ribs]
+[A Mage,Paladin,Priest,Rogue,Warrior,Warlock]Turn in [QT384 Beer Basted Boar Ribs]
 Accept [QA412 Operation Recombobulation]
 [G42.5,45.1Dun Morogh][G41.0,43.8Dun Morogh][QC315 Kill trolls/Loot the baskets]
 Turn in [QT315 The Perfect Stout] \\Accept [QA413 Shimmer Stout]
@@ -140,7 +144,7 @@ Turn in [QT311 Return to Marleth]
 Turn in [QT319 A Favor for Evershine] \\Accept [QA320 Return to Bellowfiz]
 [G22.45,52,157Dun Morogh][QC287 Kill Trolls/Explore the cave]
 [G25.44,43.27,131Dun Morogh][QC412 Kill Leper Gnomes]
-[A Hunter][XP10-2950 Grind until you're 2950 xp off lvl 10]
+[A Hunter][XP10-2325 Grind until you're 2325 xp off lvl 10]
 [G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut
 [G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor
 [P Get the Menethil FP]
@@ -149,8 +153,8 @@ Turn in [QT319 A Favor for Evershine] \\Accept [QA320 Return to Bellowfiz]
 [G46.72,53.82Dun Morogh]Turn in [QT287 Frostmane Hold] \\Accept [QA291 The Reports]
 
 Turn in [QT412 Operation Recombobulation]
-Turn in [QT313 The Grizzled Den]
 Turn in [QT320 Return to Bellowfiz]
+Turn in [QT313 The Grizzled Den]
 Accept [QA6064 Taming the Beast pt.1][A Dwarf,Hunter]
 [QC6064 Tame a Large Crag Boar][A Dwarf,Hunter]
 Turn in [QT6064 Taming the Beast pt.1][A Dwarf,Hunter] \\Accept [QA6084 Taming the Beast pt.2][A Dwarf,Hunter]

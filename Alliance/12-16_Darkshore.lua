@@ -4,7 +4,7 @@ Guidelime.registerGuide([[
 [NX16-19Darkshore part 2]
 [GA Alliance]
 [D Alliance Leveling Guide]
-[A Dwarf,Hunter][O]As soon as you have 39 silver to spare, send it to a bank alt in stormwind, buy a level 16 gun and mail it back to your main
+
 [G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil][A NightElf]
 [G58.39,94.01Teldrassil]Turn in [QT6341 The Bounty of Teldrassil] \\Accept [QA6342 Flight to Auberdine][A NightElf]
 [F Fly to Darkshore][OC][A NightElf]
@@ -14,10 +14,10 @@ Guidelime.registerGuide([[
 [S]SET HEARTHSTONE TO *AUBERDINE*
 [G19.51,18.97Felwood]Accept [QA983 Buzzbox 827]
 [G21.63,18.15Felwood]Accept [QA2118 Plagued Lands] \\Accept [QA984 How Big a Threat?]
-
+[A Dwarf,Hunter][O]Tame a Thistle Bear, they can stun you, send your pet on them and when they use their stun on your pet, abandon your current pet and start taming it-->>TameBeast,2163
 [QC983 Kill crabs along the coast][O]
 [G18.81,26.69Felwood][QC3524 Loot the sea creature remains]
-Save *Strider Meat* x5 for later \\([QA2178-][O][QT2178][O])
+[O]Save Strider Meat x5 for later-->>Collect,5469,5
 [G22.39,29.45,96Felwood][QC984 Head towards the fulborg camp]
 [QC2118-]Capture a rabid thistle bear[O]
 [XP12-1500 Grind mobs until you are 1500xp off level 12]
@@ -42,14 +42,14 @@ Turn in [G27.7,10.03Felwood][QT956 Bashal'Aran] pt.3 \\Accept [QA957 Bashal'Aran
 [G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal] in the mountains
 Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal] \\Accept [QA4812 As Water Cascades]
 [G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell
+[A Hunter,Druid]Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within]
+[A Hunter,Druid][H][OC]Hearth to Auberdine
+[A Hunter,Druid]Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within]
 Accept [G18.1,18.48Felwood][QA963 For Love Eternal]
 [G33.70,42.45,15Darkshore] Run up to the docks then jump in the water at the intersection\\
 [G13.63,21.44Felwood][QC1001 -]Start working on darkshore threshers[OC]
-[G13.63,21.44Felwood][QC4681 Washed Ashore]
-[H]Hearth to Auberdine[OC]
-Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within][A Hunter]
-Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A Hunter]
-[G19.1,20.63Felwood][QT4681 Washed Ashore]
+[G13.63,21.44Felwood][QC4681 -]Click on the sea turtle remains
+[A Mage,Paladin,Priest,Rogue,Warlock,Warrior][H]Hearth to Auberdine[OC]
 
 [L22.39,29.45Felwood][QC985-][O]Kill fulborgs
 [G40.3,59.7Darkshore]Accept [QA953 The Fall of Ameth'Aran]
@@ -59,24 +59,23 @@ Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within][A Hunter]
 [G26.71,35.53Felwood][QC953,1 The Fall of Ameth'Aran]
 Finish off [QC958 Tools of the Highborne]
 Turn in [G23.29,36.73Felwood][QT953 The Fall of Ameth'Aran]
-[QC2118-]Capture a rabid thistle bear
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][XP15 Grind to level 15]
 [A Hunter][G22.39,29.45,96Felwood][XP15.25 Grind to level 15 + 25%]
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][G22.39,29.45,96Felwood][XP15.15 Grind to level 15 + 15% (3 bars)]
-
+[A Mage,Paladin,Priest,Rogue,Warlock,Warrior]Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within]
 
 Turn in [G21.63,18.15Felwood][QT2118 Plagued Lands] \\Accept [QA2138 Cleansing of the Infected]
 Turn in [G22.24,18.22Felwood][QT985 How Big a Threat?] \\Accept [QA986 A Lost Master]
 [G21.86,18.3Felwood]Run upstairs \\Accept [QA965 The Tower of Althalaxx] pt.1
-
+[A Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT4813]
 --[V][O]Buy Level 15 food
 Turn in [G18.1,18.48Felwood][QT963 For Love Eternal]
 Accept [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
+Turn in [G19.1,20.63Felwood][QT4681 Washed Ashore]
 Accept [G20.8,15.58Felwood][QA982 Deep Ocean, Vast Sea]
-[A NightElf][G20.8,15.58Felwood]Buy [V]*Mild Spice*x10 and cook 9 herb baked eggs\\[G37.7,40.7Darkshore]Accept [QA2178]
+[G20.8,15.58Felwood]Buy [V]*Mild Spice* and cook herb baked eggs if you don't have 10 points in cooking\\[G37.7,40.7Darkshore]Accept [QA2178]
 [A NightElf]Turn in [G19.98,14.4Felwood][QT958 Tools of the Highborne]
 
 Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within]
-Turn in [G27.7,10.03Felwood][QT957 Bashal'Aran]
 [G20.94,1.49,90Felwood]Finish off [QC1001]
 [G20.94,1.49Felwood][QC982,1-]Enter the 1st ship by the hole on the hull
 [G39.63,27.45Darkshore][QC982,2-]Enter the 2nd ship by the hole on the hull
@@ -108,8 +107,6 @@ Turn in [G19.9,18.4Felwood][QT947 Cave Mushrooms] \\Accept [QA948 Onu]
 [G19.78,19.07Felwood]Click on the wanted poster outside the inn \\Accept [QA4740 WANTED: Murkdeep!]
 [L37.78,44.06Darkshore]Fill the Empty Bowl at the moonwell-->>Collect,12347,1
 [G19.1,20.63Felwood]Turn in [QT4723 Beached Sea Creature] \\Turn in [QT4725 Beached Sea Turtle]-->>LoadNextGuide
-
-
 ]], "Zarant")
 
 Guidelime.registerGuide([[
@@ -118,7 +115,7 @@ Guidelime.registerGuide([[
 [D Alliance Leveling Guide]
 [NX19-21Darkshore/Ashenvale]
 [NX19-20Redridge Mountains]
-[A Dwarf,Hunter][O]As soon as you have 72 silver to spare, send it to a bank alt in stormwind, buy a level 21 gun and mail it back to your main
+[A Dwarf,Hunter][O]As soon as you have 72 silver to spare, send it to a bank alt in stormwind, buy a level 21 gun and mail it back to your main-->>Collect,3024,1
 [A NightElf][G19.1,20.63Felwood]Fly to [F Teldrassil]
 [A NightElf][G56.25,92.44Teldrassil][QT6343 Return to Nessa]
 [A NightElf,Hunter][O][G36.6,13.6,100Darnassus][T]Train skills\\Prioritize immolation trap/wing clip/mend pet\\Try to save 92 silver--TRAINER_SHOW,TRAINER_CLOSED>>Trainer
@@ -157,6 +154,7 @@ Turn in [G21.63,18.15Felwood][QT2138 Cleansing of the Infected] \\Accept [QA2139
 [G20.04,16.35Felwood][QT730 Trouble In Darkshore?][OC]
 [G20.04,16.35Felwood][QA729 The Absent Minded Prospector]
 [G37.7,40.7Darkshore][V Restock/Resupply]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
+Turn in [G27.7,10.03Felwood][QT957 Bashal'Aran]
 [G50.74,34.68Darkshore]Head to the fulborg camp north, loot the Grain Stores[OC]-->>Collect,12342,1
 [G52.46,36.90Darkshore]Cimb the ramp and kill the [QC2139 Den Mother]
 Loot the Nut/Fruit Stores and use the bowl to summon [QC4763 Xabraxxis]
