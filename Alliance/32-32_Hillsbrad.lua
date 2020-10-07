@@ -57,7 +57,7 @@ Turn in [G60.18,53.84,20Arathi Highlands][QT659 Hints of a New Plague?] \\Accept
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC658-][O]Kill the Forsaken courier if you happen to bump into it. She patrols the road between Tarren Mill and Go'Shek Farm-->>Unitscan,FORSAKEN COURIER
 Do [QC681 Northfold Manor]
 [A Hunter]Hearth back to [H Southshore][OC]
-*Stable your pet* [A Hunter]
+*Stable your pet* [A Hunter]-->>Stable
 [A Hunter]Fly to [F Arathi Highlands][OC]
 Turn in [G45.83,47.55,20Arathi Highlands][QT681 Northfold Manor]
 Use eagle eye to find a level 32/33 spider \\Tame it and learn Bite rank 5 [O][A Hunter]

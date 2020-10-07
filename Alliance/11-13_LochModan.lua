@@ -179,7 +179,6 @@ Guidelime.registerGuide([[
 Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
 Accept [G23.23,73.67Loch Modan][QA267 The Trogg Threat]
 [G33.93,50.95Loch Modan]Throw away your HS and unstuck, then get the [P Loch Modan] flight path
-[T Stable your pet, tame a spider and learn Bite 2][A Hunter][O]
 [G34.82,49.28Loch Modan][QA418 Thelsamar Blood Sausages]
 Accept [G34.26,47.7Loch Modan][QA416 Rat Catching]
 Accept [G34.26,47.7Loch Modan][QA1339 Mountaineer Stormpike's Task]

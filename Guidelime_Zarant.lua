@@ -22,6 +22,23 @@ local z = Guidelime.Zarant
 local parseLineOLD = addon.parseLine
 local loadCurrentGuideOLD = addon.loadCurrentGuide
 local updateStepsOLD = addon.updateSteps
+local QUEST_GREETING_OLD = addon.frame.QUEST_GREETING
+local npcList = {467,349,1379,7766,1978,7784,2713,2768,2610,2917,7806,3439,3465,3568,3584,4484,3692,4508,4880,4983,5391,5644,5955,7780,7807,7774,7850,8284,8380,8516,9020,9520,9623,9598,9023,9999,10427,10300,10646,10638,11016,11218,11711,11625,11626,1842,12277,12580,12818,11856,12858,12717,13716}
+
+
+function addon.frame.QUEST_GREETING(...)
+local autoComplete = GuidelimeData.autoCompleteQuest
+	
+	local id = Guidelime.Zarant.NpcId()
+	for _,v in ipairs(npcList) do
+		if id == v then
+			GuidelimeData.autoCompleteQuest = false
+		end
+	end
+	QUEST_GREETING_OLD(...)
+	GuidelimeData.autoCompleteQuest = autoComplete
+end
+
 
 function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,frameCounter)
 	
@@ -48,7 +65,7 @@ function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,f
 	
 
 	local function EventHandler(s,...) --Executes the function if step is active or if it's specified on a 0 element step (e.g. guide name)
-		if s.data.step.active or #s.data.step.elements == 0 then 
+		if s.data.step.active or #s.data.step.elements == 0 or s.data.persistent then 
 			self[eval](s.data,args,...)
 		end
 	end
@@ -91,6 +108,7 @@ function Guidelime.Zarant:WipeData()
 		frame.OnStepUpdate = nil
 		frame.args = nil
 		if frame.data then
+			frame.data.persistent = nil
 			frame.data.timer = nil
 		end
 		frame.data = nil
@@ -777,3 +795,48 @@ function Guidelime.Zarant.HS(self,args,event)
 	end
 
 end
+
+function Guidelime.Zarant.BranchOut(self,args,event)
+	if not self then
+		return "OnStepUpdate,OnStepActivation,OnStepCompletion"
+	end
+	local previous = self.stepLine-1
+	if previous <= 0 then
+		return
+	end
+	local lastStep = self.guide.steps[previous]
+	self.step.optional = true
+	self.step.branch = true
+	if lastStep.root then
+		self.step.root = lastStep.root
+	elseif args[1] then
+		self.step.root = self.stepLine
+	else
+		self.step.root = previous
+	end
+	
+	local active
+	for i = self.step.root,previous do
+		if self.guide.steps[i].active then
+			active = true
+		end
+	end
+	local skip = GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.stepNumber]
+	if self.step.active and active then
+		if not self.step.skip then
+			self.step.skip = true
+			addon.updateSteps({self.stepNumber})
+		end
+	end
+	if event == "OnStepCompletion" then
+		local nextGuide = self.guide.steps[self.stepLine+1]
+		if nextGuide.branch then
+			nextGuide.skip = false or skip
+			addon.updateSteps({self.stepNumber+1})
+		end
+	elseif event == "OnStepActivation" then
+		addon.updateSteps({self.stepNumber+1})
+	end
+	
+end
+

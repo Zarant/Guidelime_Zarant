@@ -63,7 +63,7 @@ Turn in [QT1440 Return to Vahlarriel]
 
 
 
-*Stable your pet* [OC][A Hunter]
+*Stable your pet* [OC][A Hunter]-->>Stable
 Unstuck and spirit rez at the kodo graveyard [OC]
 
 [O][A Hunter]Tame a *Scorpashi Lasher* \\Learn claw rank 5--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,4697

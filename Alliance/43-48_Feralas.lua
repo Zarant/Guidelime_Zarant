@@ -18,7 +18,7 @@ Turn in [QT1258 ... and Bugs]
 Fly to [F Tanaris][OC]
 
 Accept [QA1690 Wastewander Justice] \\Accept [QA1707 Water Pouch Bounty]
-Stable your pet [A Hunter][O]
+Stable your pet [A Hunter][O]-->>Stable
 Accept [QA3022 Handle With Care]
 Turn in [QT2864 Tran'rek]
 Turn in [QT1188 Safety First] \\Accept [QA1189]
@@ -39,7 +39,7 @@ Throw away the Sample of Indurium Ore[OC]
 [G50.50,18.52,40Tanaris]Run back to Tanaris
 
 
-Withdraw your pet from the stable [OC][A Hunter]
+Withdraw your pet from the stable [OC][A Hunter]-->>Stable
 [QC1452,1-][O]Kill vultures as you quest through tanaris
 Do [QC1690 Wastewander Justice][O]
 Do [QC1707 Water Pouch Bounty][O]

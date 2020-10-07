@@ -5,7 +5,8 @@ Guidelime.registerGuide([[
 [D Night Elf/Dwarf Hunter Route]
 [NX21-23Ashenvale/Stonetalon]
 
-[G18.08,64.03Felwood]Start the escort quest\\Turn in [QT729 The Absent Minded Prospector] pt.1 \\Accept [QA731 The Absent Minded Prospector] pt.2 
+[G18.08,64.03Felwood]Turn in [QT729 The Absent Minded Prospector] pt.1 
+Start the escort quest\\Accept [QA731 The Absent Minded Prospector] pt.2 
 [QC731-]Escort Prospector Remtravel
 [G13.97,4.1Ashenvale]Accept [QA4733 Beached Sea Creature]
 [G13.93,2.01Ashenvale]Accept [QA4732 Beached Sea Turtle]
@@ -38,7 +39,8 @@ Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand]
 Accept [G34.89,49.79Ashenvale][QA1070 On Guard in Stonetalon]
 Accept [G35.76,49.1Ashenvale][QA1056 Journey to Stonetalon Peak]
 Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing] \\Accept [QA1054 Culling the Threat] --\\Turn in [QT10752 Onward to Ashenvale]
-[S]Set your HS to Astranaar
+[A Dwarf,Paladin,Priest,Rogue,Warrior][S]Set your HS to Astranaar
+[A NightElf,Gnome,Human][S]Set your HS to Astranaar
 [G37.36,51.79Ashenvale]Turn in [QT1020 Orendil's Cure]
 Wait for the RP sequence to end \\Accept [QA1033 Elune's Tear]
 
@@ -57,12 +59,14 @@ Finish off [QC1008 The Zoram Strand]
 Turn in [QT1009]
 [G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
 Kill Murlocs until the [QC1023 Glowing Gem] drops \\Save *Murloc Fins* for later
-Stable your pet [O][A Hunter]
-Die on the eastern side of the lake and spirit rez[OC]
-Fly to [F Darkshore]
+Stable your pet [O][A Hunter]-->>Stable
+[A Dwarf,Hunter][H]Hearth back to Auberdine
+[A Dwarf,Paladin,Priest,Rogue,Warrior]Die on the eastern side of the lake and spirit rez\\ \\Fly to [F Darkshore]
+[A NightElf,Gnome,Human]Die on the eastern side of the lake and spirit rez\\ \\Fly to [F Darkshore]
+
 
 Turn in [G20.04,16.35Felwood][QT731 The Absent Minded Prospector] pt.2 \\Accept [QA741 The Absent Minded Prospector] pt.3
-[G37.7,40.7Darkshore][V][O]Restock/Resupply--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
+[L37.7,40.7Darkshore][V][O]Restock/Resupply--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [G22.24,18.22Felwood]Turn in [QT995 Escape Through Stealth][OC]
 [G22.24,18.22Felwood]Turn in [QT994 Escape Through Force]
 Turn in  [QT4730 Beached Sea Creature]\\
@@ -70,9 +74,12 @@ Turn in  [QT4731 Beached Sea Turtle]\\
 Turn in  [QT4732 Beached Sea Turtle]\\
 Turn in  [QT4733 Beached Sea Creature]
 
-Fly to [F Teldrassil]
+[A NightElf]Fly to [F Teldrassil][OC]
+[A Gnome,Human,Dwarf]Take the boat to Darnassus\\[G58.40,94.02Teldrassil][P]Get the Teldrassil FP[OC]
 [G23.7,64.51Teldrassil]Turn in [QT741 The Absent Minded Prospector] pt.3 \\Accept [QA942 The Absent Minded Prospector] pt.4
-[H]Hearth back to Astranaar--OnStepCompletion>>LoadNextGuide
+[A Dwarf,Paladin,Priest,Rogue,Warrior][H]Hearth back to Astranaar-->>LoadNextGuide
+[A NightElf,Gnome,Human][H]Hearth back to Astranaar-->>LoadNextGuide
+[A Dwarf,Hunter]Fly to [F Ashenvale]-->>LoadNextGuide
 ]], "Zarant")
 
 Guidelime.registerGuide([[
@@ -81,9 +88,9 @@ Guidelime.registerGuide([[
 [D Night Elf/Dwarf Hunter Route]
 [NX23-24Wetlands]
 
-Stable your pet\\Tame an Ashenvale Bear and learn *Claw 3*[O][A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,3809
-[OC][A Hunter]Tame a Ghostpaw Runner and learn *Bite 3*--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,3823
-[O][A Hunter]Run back to Astranaar and withdraw your main pet from stables--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,1442
+Stable your pet\\Tame an Ashenvale Bear and learn *Claw 3*[O][A Hunter]-->>TameBeast,3809
+[OC][A Hunter]Tame a Ghostpaw Runner and learn *Bite 3*-->>TameBeast,3823
+[O][A Hunter]Run back to Astranaar and withdraw your main pet from stables-->>Stable
 Turn in [QT1008 The Zoram Strand] \\Accept [QA1134 Pridewings of Stonetalon]
 Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing] 
 Throw away *Teronis' Journal*[O]-->>Destroy,5505
@@ -109,19 +116,20 @@ Turn in [G4.61,52.55Ashenvale][QT1056 Journey to Stonetalon Peak]
 --Turn in [QT1057] \\Accept [QA1059]
 Fly to [F Ashenvale]
 
-Accept [QA4581]
+--Accept [QA4581]\\Skip this quest if you're not yet level 24
 Turn in [QT1134 Pridewings of Stonetalon]
 Accept [QA1025 An Aggressive Defense]
 [A Hunter]Accept [QA1035]--Fallen Sky Lake
 
 Accept [G49.79,67.21,20Ashenvale][QA1016 Elemental Bracers]
 [G50.14,67.94Ashenvale][T] Train skills [A Hunter][OC]--TRAINER_CLOSED,TRAINER_SHOW>>Trainer
-[QC1016 -]Loot 5 *Intact Elemental Bracers* \\Right click the *Divining Scroll*--OnStepActivation,BAG_UPDATE>>Bracers_Ashenvale
+[OC]Loot 5 *Intact Elemental Bracers*-->>Collect,12220,5
+[QC1016 -]Right click the *Divining Scroll*
 Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
 Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
 Run east to Azshara[OC]
 [A Hunter]Do [QT1035]
-Turn in [QT4581]
+--Turn in [QT4581]
 [G11.90,77.57Azshara]Get the [P Azshara] flight path
 [H]Hearth to Astranaar
 Turn in [QT1025 An Aggressive Defense]
@@ -133,37 +141,3 @@ Death warp to Astranaar\\Turn in [QT1054 Culling the Threat]
 [OC]Level first aid/cooking while waiting for the Menethil boat
 [G33.70,42.45Darkshore]Take the boat to Menethil Harbor--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
-
-
-if not Guidelime.Zarant then return end
-local z = Guidelime.Zarant
-
-function z:Buzzbox1002(args)
-	self.timer = self.timer or 0
-	if args and args[1] then
-		self.timer = GetTime()
-	elseif GetTime() - self.timer < 1 then
-		z:SkipStep()
-	end
-end
-
-function z:Bracers_Ashenvale() --OnStepActivation,BAG_UPDATE>>Bracers_Ashenvale
-	local step = self.guide.steps[self.stepLine]
-	if not self.element then
-		table.insert(step.elements,{})
-		self.element = #step.elements
-	end
-
-	local element = step.elements[self.element]
-	local itemCount = GetItemCount(12220)
-	element.textInactive = ""
-	
-	if itemCount >= 5 then
-		element.text = "\n\nUse the Divining Scroll"
-	else
-		element.text = string.format("\n\nIntact Elemental Bracer: %d/5",itemCount)
-	end
-
-	self:UpdateStep()
-
-end

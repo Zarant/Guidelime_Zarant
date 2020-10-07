@@ -6,7 +6,7 @@ Guidelime.registerGuide([[
 [D Alliance Leveling Guide]
 Take the boat to Theramore [OC]
 Get the [P Theramore] FP
-Withdraw your main pet from the stables [O][A Hunter]
+Withdraw your main pet from the stables [O][A Hunter]-->>Stable
 Accept [QA1282]
 Accept [QA1135 Highperch Venom]
 Set your HS to [S Theramore]

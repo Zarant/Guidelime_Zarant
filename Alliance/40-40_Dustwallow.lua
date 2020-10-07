@@ -24,7 +24,7 @@ Turn in [G64.22,67.57,20The Barrens][QT1206 Jarl Needs Eyes]
 Do [QC1187]
 Grind until your HS cooldown is <10min\\After that, die on purpose and spirit rez[OC]
 Turn in [G69.87,77.51,20The Barrens][QT1204 Mudrock Soup and Bugs] \\Accept [QA1258 ... and Bugs] \\Turn in [QT1222 Stinky's Escape]
-Stable your pet [A Hunter]
+Stable your pet [A Hunter]-->>Stable
 Turn in [G70.84,79.14,30The Barrens][QT1287 The Deserters]
 
 Fly to [F Tanaris]
@@ -72,7 +72,6 @@ Turn in [G64.22,67.57,20The Barrens][QT1206 Jarl Needs Eyes]
 [G54.2,82.09,20The Barrens]Beat Balos Jacken \\Turn in [QT1286 The Deserters] \\Accept [QA1287 The Deserters]
 Do [QC1187]
 Turn in [G69.87,77.51,20The Barrens][QT1204 Mudrock Soup and Bugs] \\Accept [QA1258 ... and Bugs] \\Turn in [QT1222 Stinky's Escape]
-Stable your pet [A Hunter]
 Turn in [G70.84,79.14,30The Barrens][QT1287 The Deserters]
 
 Fly to [F Desolace]

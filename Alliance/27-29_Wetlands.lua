@@ -191,7 +191,7 @@ Turn in [QT1024 Raene's Cleansing] \\Accept [QA1026 Raene's Cleansing]
 [G77.99,42.41,20Ashenvale][QC1031 -] Kill Geltharis
 Turn in [QT4581 Kayneth Stillwind] \\Accept [QA1011 Forsaken Diseases]
 [G11.90,77.57Azshara] Fly to [F Ashenvale]
-Take your main pet out of the stable [A Hunter]
+Take your main pet out of the stable [A Hunter]-->>Stable
 Turn in [QT1022 The Howling Vale] \\Accept [QA1037 Velinde Starsong]
 Turn in [QT1031 The Branch of Cenarius] \\Accept [QA1032 Satyr Slaying!]
 [G41.84,49.48,20Ashenvale][G46.88,49.59,15Ashenvale][G53.51,46.23Ashenvale] Turn in [QT1026 Raene's Cleansing] \\Accept [QA1027 Raene's Cleansing]
