@@ -35,6 +35,7 @@ Accept [QA6394 Thazz'ril's Pick]
 
 Collect [QC6394,1-]Thazz'ril's Pick
 Kill [QC794,1-]Yarrog Baneshadow
+[XP6-1050Grind until you are 1050xp away from level 6][O]
 [G43.3,51.6Durotar]Go to the back of the cave and die[OC]
 [G53.5,44.7Durotar]Resurrect at Razor Hill
 [G51.9,43.5Durotar]Accept [QA784 Vanquish the Betrayers]
@@ -204,4 +205,3 @@ Click on the *Flawed Power Stones* sitting on top of a circular table-->>Collect
 Turn in [QT816 Lost But Not Forgotten]
 [H]Hearth to Crossroads-->>LoadNextGuide
 ]],"Zarant")
-

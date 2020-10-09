@@ -128,7 +128,7 @@ Accept [G49.79,67.21,20Ashenvale][QA1016 Elemental Bracers]
 Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
 Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
 Run east to Azshara[OC]
-[A Hunter]Do [QT1035]
+[A Hunter]Do [QC1035]
 --Turn in [QT4581]
 [G11.90,77.57Azshara]Get the [P Azshara] flight path
 [H]Hearth to Astranaar
