@@ -1,9 +1,9 @@
 
 Guidelime.registerGuide([[
-[N11-16Darkshore part 1]
-[NX16-19Darkshore part 2]
-[GA Alliance]
-[D Alliance Leveling Guide]
+[N11-19Darkshore part 1]
+[NX11-19Darkshore part 2]
+[GA NightElf,Dwarf,Druid,Hunter,Priest,Rogue,Warrior]
+[D Night Elf Darkshore route]
 
 [G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil][A NightElf]
 [G58.39,94.01Teldrassil]Turn in [QT6341 The Bounty of Teldrassil] \\Accept [QA6342 Flight to Auberdine][A NightElf]
@@ -111,7 +111,7 @@ Turn in [G19.9,18.4Felwood][QT947 Cave Mushrooms] \\Accept [QA948 Onu]
 ]], "Zarant")
 
 Guidelime.registerGuide([[
-[N16-19Darkshore part 2]
+[N11-19Darkshore part 2]
 [GA Alliance]
 [D Alliance Leveling Guide]
 [NX19-21Darkshore/Ashenvale]
@@ -202,8 +202,146 @@ Turn in [G19.98,14.4Felwood][QT4763 The Blackwood Corrupted] --\\Accept [QA10752
 Turn in [G21.63,18.15Felwood][QT2139 Tharnariun's Hope]
 [A Hunter]Turn in [QT986 A Lost Master] pt.1 \\Accept [QA993 A Lost Master] pt.2-->>LoadNextGuide,1
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT986 A Lost Master] pt.1 \\Accept [QA993 A Lost Master] pt.2
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Take the boat to Menethil, fly to IF and take the tram to Stormwind\\*OR*\\Use the website unstuck self service to teleport back to SW-->>ZoneSkip,Stormwind City,2
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Take the boat to Menethil, fly to IF and take the tram to Stormwind\\*OR*\\Use the website unstuck self service to teleport back to SW\\Head to Redridge Mountains-->>ZoneSkip,Stormwind City,2
 ]], "Zarant")
+
+--
+
+Guidelime.registerGuide([[
+[N15-19Darkshore]
+[NX19-20Redridge Mountains]
+[NX14-15Westfall]-->>ZoneSkip,Westfall,2
+[GA Alliance,Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]
+[D Gnome/Dwarf/Human Darkshore route]
+[A Human]Fly to Ironforge[OC]
+[A Human][G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut\\\\[G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor[OC]
+[A Human][G9.6,59.6Wetlands][P Get the Menethil FP][OC]
+[G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil][A NightElf]
+[G58.39,94.01Teldrassil]Turn in [QT6341 The Bounty of Teldrassil] \\Accept [QA6342 Flight to Auberdine][A NightElf]
+[F Fly to Darkshore][OC][A NightElf]
+Head to Auberdine\\Accept [G19.1,20.63Felwood][QA3524 Washed Ashore]
+[A Dwarf,Human,Gnome][G19.1,20.63Felwood][P Get the Auberdine flight path]
+[G19.27,19.14Felwood]Turn in [QT6342 Flight to Auberdine][A NightElf] \\Accept [QA6343 Return to Nessa][A NightElf]
+[S]SET HEARTHSTONE TO *AUBERDINE*
+[G19.51,18.97Felwood]Accept [QA983 Buzzbox 827]
+[G21.63,18.15Felwood]Accept [QA2118 Plagued Lands] \\Accept [QA984 How Big a Threat?]
+[QC983 Kill crabs along the coast][O]
+[G18.81,26.69Felwood][QC3524 Loot the sea creature remains]
+[O]Save Strider Meat x5 for later-->>Collect,5469,5
+[QC2118-]Capture a rabid thistle bear
+[G22.39,29.45,96Felwood][QC984 Head towards the fulborg camp]
+
+Turn in [G19.13,21.39Felwood][QT983 Buzzbox 827] \\Accept [QA1001 Buzzbox 411]
+Turn in [G19.1,20.63Felwood][QT3524 Washed Ashore pt.1] \\Accept [QA4681 Washed Ashore pt.2]
+
+Accept [G18.1,18.48Felwood][QA963 For Love Eternal]
+[QC1001 -][O]Start working on darkshore threshers
+[G33.70,42.45,20Darkshore]Run up to the docks then jump in the water at the intersection\\
+[G13.63,21.44Felwood][QC4681 -]Click on the sea turtle remains
+Turn in [G19.1,20.63Felwood][QT4681 Washed Ashore]
+
+[G19.9,18.4Felwood]Accept [QA947 Cave Mushrooms]
+[G20.34,18.12Felwood]Accept [QA4811 The Red Crystal]
+Turn in [G21.63,18.15Felwood][QT2118 Plagued Lands] \\Accept [QA2138 Cleansing of the Infected]
+Turn in [G22.24,18.22Felwood][QT984 How Big a Threat?] pt.1 \\Accept [QA985 How Big a Threat?] pt.2 \\Accept [QA4761 Thundris Windweaver]
+[A Dwarf,Gnome,Human]Accept [G20.8,15.58Felwood][QA982 Deep Ocean, Vast Sea]
+Turn in [G19.98,14.4Felwood][QT4761 Thundris Windweaver] \\Accept [QA4762 The Cliffspring River] \\Accept [QA958 Tools of the Highborne] \\Accept [QA954 Bashal'Aran]
+
+Run north along the coast killing Threshers[OC]
+Accept [G25.15,4.61Felwood][QA4723 Beached Sea Creature]
+[G20.94,1.49Felwood][QC982,1-]Enter the 1st ship by the hole on the hull
+[G39.63,27.45Darkshore][QC982,2-]Enter the 2nd ship by the hole on the hull
+Turn in [G25.19,1.29Felwood][QT1001 Buzzbox 411] \\Accept [QA1002 Buzzbox 323]
+[QC1002-][O]Kill any type of Moonstalker
+[QC2138-][O]Kill Rabid thistle bears
+
+[G50.81,25.50Darkshore]Use the [QC4762 Empty Sampling Tube] at the base of the waterfall
+Turn in [G27.7,10.03Felwood][QT954 Bashal'Aran] pt.1 \\Accept [QA955 Bashal'Aran] pt.2
+[G29.13,12.34,153Felwood][QC955 Kill Imps]
+Turn in [G27.7,10.03Felwood][QT955 Bashal'Aran] pt.2 \\Accept [QA956 Bashal'Aran] pt.3
+[G29.6,12.52,151Felwood][QC956 Kill satyrs]
+Turn in [G27.7,10.03Felwood][QT956 Bashal'Aran] pt.3 \\Accept [QA957 Bashal'Aran] pt.4
+
+[O]Start collecting small eggs for leveling cooking later\\You will need 10 points in cooking to accept a quest later
+[G31.29,24.14Felwood]Run up to [QC4811 The Red Crystal] in the mountains
+
+[G40.3,59.7Darkshore]Accept [QA953 The Fall of Ameth'Aran]
+[QC963 -][O]Kill Anaya Dawnrunner-->>Unitscan,ANAYA DAWNRUNNER
+[G25.98,40.62Felwood][QC953,2 The Fall of Ameth'Aran]
+[G25.66,39.11Felwood][QC957 Bashal'Aran]
+[G26.71,35.53Felwood][QC953,1 The Fall of Ameth'Aran]
+Finish off [QC958 Tools of the Highborne]
+Turn in [G23.29,36.73Felwood][QT953 The Fall of Ameth'Aran]
+[G18.41,49.43Felwood][QA4728 Beached Sea Creature]
+[G19.64,39.52Felwood][QA4722 Beached Sea Turtle]
+Finish off [QC2138]
+[G22.39,29.45Felwood][QC985-]Kill fulborgs
+
+Accept [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
+[G19.1,20.63Felwood]Turn in [QT4723 Beached Sea Creature]\\Turn in [QT4728 Beached Sea Creature]\\Turn in [QT4722 Beached Sea Turtle]
+Turn in [G18.1,18.48Felwood][QT963 For Love Eternal]
+
+Accept [G20.04,16.35Felwood][QA729 The Absent Minded Prospector]
+[G20.8,15.58Felwood]Buy *Mild Spice* and cook herb baked eggs if you don't have 10 points in cooking\\[G37.7,40.7Darkshore]Accept [QA2178][O]
+Turn in [G20.8,15.58Felwood][QT982 Deep Ocean, Vast Sea]
+Turn in [G19.98,14.4Felwood][QT958 Tools of the Highborne]\\Turn in [QT4762 The Cliffspring River] \\Accept [QA4763 The Blackwood Corrupted]
+
+Turn in [G20.34,18.12Felwood][QT4811 The Red Crystal] \\Accept [QA4812 As Water Cascades]
+[G37.78,44.06Darkshore][O]Fill the Empty Bowl at the moonwell-->>Collect,12347,1
+[G37.78,44.06Darkshore][QC4812-] Fill the *Empty Water Tube* at the moonwell
+
+Turn in [G21.63,18.15Felwood][QT2138 Cleansing of the Infected] \\Accept [QA2139 Tharnariun's Hope]
+Turn in [G22.24,18.22Felwood][QT985 How Big a Threat?] \\Accept [QA986 A Lost Master]
+[G21.86,18.3Felwood]Run upstairs \\Accept [QA965 The Tower of Althalaxx] pt.1
+
+Click on the red crystal\\Turn in [G31.29,24.14Felwood][QT4812 As Water Cascades] \\Accept [QA4813 The Fragments Within]
+Turn in [G27.7,10.03Felwood][QT957 Bashal'Aran]
+[G50.74,34.68Darkshore]Head to the fulborg camp north, loot the Grain Stores[OC]-->>Collect,12342,1
+[G52.46,36.90Darkshore]Cimb the ramp and kill the [QC2139 Den Mother]
+Loot the Nut/Fruit Stores and use the bowl to summon [QC4763 Xabraxxis]
+
+[G5.49,36.64,144Winterspring]Head to the cave above the waterfall
+[QC947,1-]Loot the blue mushrooms on the ground[OC]
+[QC947,2-]Once you enter the cave, turn right and look for a yellow mushroom on the ground
+Finish off [QC947]
+Turn in [G1.42,26.89Winterspring][QT1002 Buzzbox 323] \\Accept [QA1003 Buzzbox 525]
+
+Turn in [G4.82,27.18Winterspring][QT965 The Tower of Althalaxx] pt.1 \\Accept [QA966 The Tower of Althalaxx] pt.2
+[G6.06,28.81,154Winterspring][QC966 Kill cultists]
+Turn in [G4.82,27.18Winterspring][QT966 The Tower of Althalaxx] pt.2 \\Accept [QA967 The Tower of Althalaxx] pt.3
+Do [G7.52,23.26,158Winterspring][QC951 Mathystra Relics]
+Accept [G6.37,16.66Winterspring][QA2098 Gyromast's Retrieval]
+[QC2098,3 -]Kill crabs along the coast [O]
+[G61.4,9.4,150Darkshore]Kill [QC2098,1 Foreststriders][O]
+[G55.59,12.9,20Darkshore]Kill [QC2098,2Murlocs][O]
+[G61.4,9.4,100Darkshore][QC986-]Grind Moonstalker Sire/Matriarch for pelts
+[G6.37,16.66Winterspring]Turn in [QT2098 Gyromast's Retrieval] \\Accept [QA2078 Gyromast's Revenge]
+[G5.59,21.09Winterspring][QC2078-]Speak with *The Threshwackonator 4100*\\Escort it back to Gyromast and kill it
+Turn in [G6.37,16.66Winterspring][QT2078 Gyromast's Revenge]
+[O]Throw away *Gyromast's Key*-->>Destroy,7442
+Accept [G3.1,20.9Winterspring][QA4727 Beached Sea Turtle]
+
+[G44.18,20.6Darkshore]Kill Reef Crawlers/Encrusted Tide Crawlers for [QC1138 Fine Crab Chunks][OC] 
+Accept [G44.18,20.6Darkshore][QA4725 Beached Sea Turtle]
+Finish off [QC1138]
+[A NightElf]Grind until your HS cooldown is <6 minutes then death warp to Auberdine [OC]
+[H][OC]Hearth back to Auberdine
+[G19.1,20.63Felwood]Turn in [QT4725 Beached Sea Turtle]\\Turn in [QT4727 Beached Sea Turtle]
+Turn in [G18.5,19.87Felwood][QT1138 Fruit of the Sea]
+[G19.78,19.07Felwood]Click on the wanted poster outside the inn \\Accept [QA4740 WANTED: Murkdeep!]
+Turn in [G20.34,18.12Felwood][QT4813 The Fragments Within]
+Turn in [G19.9,18.4Felwood][QT947 Cave Mushrooms] \\Accept [QA948 Onu]
+Turn in [G21.63,18.15Felwood][QT2139 Tharnariun's Hope]
+Turn in [QT986 A Lost Master] pt.1 \\Accept [QA993 A Lost Master] pt.2
+Turn in [G19.98,14.4Felwood][QT4763 The Blackwood Corrupted]
+
+Take the boat to Menethil, fly to IF and take the tram to Stormwind\\*OR*\\Use the website unstuck self service to teleport back to SW-->>LoadNextGuide,1
+]], "Zarant")
+
+
+
+
+
 
 
 local z = Guidelime.Zarant

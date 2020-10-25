@@ -43,34 +43,38 @@ Guidelime.registerGuide([[
 [D Alliance Leveling Guide]
 Accept [QA179 Dwarven Outfitters]
 Head to Anvilmar once you have 10c\\Train immolate\\Accept [QA1599][O]
-[G29.07,74.48,163Dun Morogh][QC179-]Kill wolves
-
-Turn in [QT179 Dwarven Outfitters]\\Accept [QA3115] \\Accept [QA233 Coldridge Valley Mail Delivery] \\Accept [QA170 A New Threat]
+[QC179-][O]Grind wolves on your way to the imp quest
+Accept [QA182]\\Make sure to train immolate first
 Head to the troll cave\\Do [QC1599]
-[XP3-400 Grind until you are 400xp away from level 3]
-Death skip back to Anvilmar\\Turn in [QT3115] \\Turn in [QT1599]
-Accept [QA3361]
-[QC170-][O]Kill Troggs
+Die on purpose and go back to the starting area[OC]
+Turn in [QT179 Dwarven Outfitters]
+Accept [QA3115] \\Accept [QA233 Coldridge Valley Mail Delivery] \\Accept [QA170 A New Threat]
+Turn in [QT3115] \\Turn in [QT1599]
 
-Turn in [QT233 Coldridge Valley Mail Delivery] \\Accept [QA234 Coldridge Valley Mail Delivery] \\Accept [QA183 The Boar Hunter]
+
+[QC170-][O]Kill Troggs
+Accept [QA183 The Boar Hunter]
+Turn in [QT233 Coldridge Valley Mail Delivery] \\Accept [QA234 Coldridge Valley Mail Delivery]
 [QC183-]Kill boars[O]
 Turn in [QT183 The Boar Hunter]
 
-Turn in [QT234 Coldridge Valley Mail Delivery] \\Accept [QA182 The Troll Cave]
+Turn in [QT234 Coldridge Valley Mail Delivery] 
+Accept [QA182 The Troll Cave]
 [QC182 -]Kill trolls[O]
-[QC3391,1-]Loot the box at the middle of the troll camp
-[QC3391,2-]Loot the chest at the middle of the troll camp
-[QC3391,3-]Loot the toolbox
+Once you get to level 4 accept [QA3364 Scalding Mornbrew Delivery]
+Finish off [QC170]
+Hearth back to Anvilmar\\Turn in [QT170 A New Threat]
+Turn in [QT3364 Scalding Mornbrew Delivery] \\Accept [QA3365 Bring Back the Mug]
 Finish off [QC182]
 
 Turn in [QT182 The Troll Cave] \\Accept [QA218 The Stolen Journal]
-Accept [QA3364 Scalding Mornbrew Delivery]
-Death skip back to anvilmar\\Turn in [QT3364 Scalding Mornbrew Delivery] \\Accept [QA3365 Bring Back the Mug]
 
 
-Turn in [QT170 A New Threat]
 
-[G30.48,80.15Dun Morogh][QC218 Kill Grik'nir the Cold] \\Death warp back to Anvilmar after you loot the journal
+
+
+
+[G30.48,80.15Dun Morogh][QC218 Kill Grik'nir the Cold]
 
 Turn in [QT3365 Bring Back the Mug]
 Turn in [QT218 The Stolen Journal] \\Accept [QA282 Senir's Observations pt.1]

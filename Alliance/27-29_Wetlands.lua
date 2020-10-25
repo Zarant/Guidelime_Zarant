@@ -197,7 +197,8 @@ Turn in [QT1031 The Branch of Cenarius] \\Accept [QA1032 Satyr Slaying!]
 [G41.84,49.48,20Ashenvale][G46.88,49.59,15Ashenvale][G53.51,46.23Ashenvale] Turn in [QT1026 Raene's Cleansing] \\Accept [QA1027 Raene's Cleansing]
 Accept [QA1016 Elemental Bracers]
 [G50.14,67.94Ashenvale][T] Train skills [A Hunter][OC]
-[QC1016 -]Loot 5 *Intact Elemental Bracers* \\Right click the *Divining Scroll*
+[OC]Loot 5 *Intact Elemental Bracers*-->>Collect,12220,5
+[QC1016 -]Right click the *Divining Scroll*
 Turn in [QT1016 Elemental Bracers]
 Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
 [G61.15,71.95,25Ashenvale][G66.64,82.22Ashenvale][QC1035 -] Kill a Shadethicket Oracle

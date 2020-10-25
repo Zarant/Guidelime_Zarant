@@ -94,22 +94,36 @@ Guidelime.registerGuide([[
 [NX21-23Stonetalon/Ashenvale]
 [D Alternative route for Dwarves/Gnomes/Humans]
 [GA Alliance,Warlock,Warrior,Paladin,Priest,Rogue,Mage,Druid]
+[H][O]Hearth back to Auberdine-->>ZoneSkip,Darkshore
+
+
+Accept [QA729 The Absent Minded Prospector]
+Accept [QA948]
+Accept [QA4740]
+Accept [QA993]
 Kill [QC1003 -][O]Grizzled Thistle Bears
-[H][OC]Hearth back to Auberdine
+[G27,55.59Felwood][QT952 Grove of the Ancients][A NightElf][OC]
+[G27,55.59Felwood]Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]
+[G22.36,3.98Ashenvale][QC944 Enter The Master's Glaive] and clear mobs around the altar in the center
+[L22.36,3.98Ashenvale]Start the escort quest\\Accept [QA945 Therylune's Escape][O]
+Drop the scrying bowl on the ground \\Turn in [QT944 The Master's Glaive] \\Accept [QA949 The Twilight Camp]
+[G22.24,2.52Ashenvale]Click on the book on top of the pedestal \\Turn in [QT949 The Twilight Camp] \\Accept[QA950 Return to Onu]
 
-[G18.08,64.03Felwood]Start the escort quest\\Turn in [QT729 The Absent Minded Prospector] pt.1 \\Accept [QA731 The Absent Minded Prospector] pt.2 
+[G18.08,64.03Felwood]Turn in [QT729 The Absent Minded Prospector] pt.1 
+Start the escort quest\\Accept [QA731 The Absent Minded Prospector] pt.2 
 [QC731-]Escort Prospector Remtravel
-
-Accept [QA4733 Beached Sea Creature]
-Accept [QA4732 Beached Sea Turtle]
-Accept [QA4731 Beached Sea Turtle]
-Accept [QA4730 Beached Sea Creature]
-Turn in [QT1003 Buzzbox 525]
+[G13.97,4.1Ashenvale]Accept [QA4733 Beached Sea Creature]
+[G13.93,2.01Ashenvale]Accept [QA4732 Beached Sea Turtle]
+[G13.47,64.01Felwood]Accept [QA4731 Beached Sea Turtle]
+[G14.62,60.72Felwood]Accept [QA4730 Beached Sea Creature]
+[G36.64,76.53,20Darkshore]Clear the murloc camp, maintain a safe distance while doing it\\Move to the center of the camp to summon [QC4740 Murkdeep]
+Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]
 Turn in [QT993 A Lost Master] \\Accept [QA995]
 [QC995 -]Wait until the RP sequence is over
-Turn in [QT950 Return to Onu]
-Turn in [QT951]
-Accept [QA5321 The Sleeper Has Awakened] 
+[QC994 Escort Volcor]
+[G27,55.59Felwood]Turn in [QT951 Mathystra Relics][O]\\Abandon this quest if you haven't completed this quest earlier
+[G27,55.59Felwood]Turn in [QT950 Return to Onu]
+[G27.96,55.76Felwood]Accept [QA5321 The Sleeper Has Awakened] 
 [QC5321,1-]Loot the chest next to the quest giver
 
 Head to ashenvale[OC]
@@ -164,12 +178,14 @@ Turn in  [QT4730 Beached Sea Creature]\\
 Turn in  [QT4731 Beached Sea Turtle]\\
 Turn in  [QT4732 Beached Sea Turtle]\\
 Turn in  [QT4733 Beached Sea Creature]
+Turn in [QT4740]
 Turn in [QT995 Escape Through Stealth]
 Turn in [QT3765]
 Turn in [QT731 The Absent Minded Prospector] pt.2 \\Accept [QA741 The Absent Minded Prospector] pt.3
-Take the boat to Darnassus[OC]
+[A NightElf]Fly to [F Darnarssus][OC]
+[A Dwarf,Gnome,Human]Take the boat to Darnassus[OC]
 Turn in [QT741 The Absent Minded Prospector] pt.3 \\Accept [QA942 The Absent Minded Prospector] pt.4
-[G58.39,94.01Teldrassil]Get the [P Ruth'theran Village] FP[OC]
+[A Dwarf,Gnome,Human][G58.39,94.01Teldrassil]Get the [P Ruth'theran Village] FP[OC]
 Fly to [F Ashenvale]
 
 Set your HS to [S Astranaar]

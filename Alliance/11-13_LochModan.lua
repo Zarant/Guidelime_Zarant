@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N11-13Loch Modan]
-[NX11-16Darkshore part 1]
+[NX11-19Darkshore part 1]
 [D Alliance Leveling Guide]
 [GA Dwarf,Hunter]
 Accept [G22.07,73.12Loch Modan][QA224 In Defense of the King's Lands]
@@ -70,7 +70,7 @@ Take the boat to Darkshore-->>ZoneSkip,Darkshore,1
 
 Guidelime.registerGuide([[
 [N11-15Dun Morogh/Loch Modan]
-[NX11-16Darkshore part 1]
+[NX11-19Darkshore part 1]
 [D Alliance Leveling Guide]
 [GA NightElf]
 [G66.2,62.4Stormwind City]Get the [P Stormwind City] FP
@@ -189,7 +189,7 @@ Accept [G24.76,18.39Loch Modan][QA307 Filthy Paws]
 Accept [G24.76,18.39Loch Modan][QA1338 Stormpike's Order]
 [XP12 Keep questing in loch modan until you get to level 12][O][A Paladin]
 
-Unstuck back to Thelsamar [OC]
+Throw away your HS and unstuck back to Thelsamar [OC]
 [S]Set your HS to Thelsamar
 [G33.93,50.95Loch Modan] Turn in [QT6387 Honor Students] \\Accept [QA6391 Ride to Ironforge]
 Fly to [F Ironforge]
@@ -266,24 +266,27 @@ Go down the crypt and turn right at the first fork\\[G25.11,77.45,3Stormwind Cit
 Life tap on your way back to the warlock trainer\\Turn in [QT1689][A Warlock]
 Kill yourself at the bonfire, spirit rez at goldshire[OC][A Warlock]
 Turn in [QT39]
-Turn in [QT88]-->>LoadNextGuide
-]],"Zarant")
+Turn in [QT88]
 
---[[
 Accept [QA64 The Forgotten Heirloom]
 Accept [QA36 Westfall Stew]\\
 Accept [QA151 Poor Old Blanchy]
-[G59.9,19.2Westfall]Collect [QC151,1-][O]Handful of Oats (x8)
+
 [G56.1,31.3Westfall]Accept [QA9 The Killing Fields]
 [G56.4,30.5Westfall]Turn in [QT36 Westfall Stew]\\
 Accept [QA38 Westfall Stew]\\
 Accept [QA22 Goretusk Liver Pie]
-[G56.4,47.6Westfall]Turn in [QT109 Report to Gryan Stoutmantle]\\
+[G56.4,47.6Westfall]Turn in [QT109 Report to Gryan Stoutmantle]
 Accept [QA12 The People's Militia]
 [G56.4,47.6Westfall]Accept [QA102 Patrolling Westfall]
 [G54.0,53.0Westfall]Accept [QA153 Red Leather Bandanas]
 Get the [P Westfall] FP
-Kill [QC12-][O][QC153-][O]Kill Defias mobs as you quest
+[H]Hearth to Loch Modan-->>LoadNextGuide
+]],"Zarant")
+
+--[[
+Collect [QC151,1-][O]Handful of Oats (x8)
+[QC12-][O][QC153-][O]Kill Defias mobs as you quest
 [G49.3,19.2Westfall]Collect [QC64,1-]Furlbrow's Pocket Watch
 [G56.4,13.5Westfall]Collect [QC102,1-]Gnoll Paw (x8)
 [G56.4,9.4Westfall]Collect [QC38,2-]Murloc Eye (x3)
@@ -294,17 +297,17 @@ Turn in [QT64 The Forgotten Heirloom]
 [G56.4,30.5Westfall]Turn in [QT38 Westfall Stew] \\Turn in [QT22 Goretusk Liver Pie]
 
 [G56.3,47.5Westfall]Turn in [QT12 The People's Militia]
+Accept [QA135]
 [G56.4,47.6Westfall]Turn in [QT102 Patrolling Westfall]
 [G54.0,52.9Westfall]Turn in [QT153 Red Leather Bandanas]
 ]]
 
 Guidelime.registerGuide([[
 [N13-14Loch Modan]
-[NX11-16Darkshore part 1]
-[D Alternative route for Dwarves/Gnomes/Humans]
+[NX14-15Westfall]
+[NX15-19Darkshore]-->>ZoneSkip,Wetlands,2
+[D Dwarf/Gnome route]
 [GA Dwarf,Gnome,Warlock,Warrior,Paladin,Priest,Rogue,Mage]
-
-[H]Hearth to Loch Modan
 
 Turn in [QT6392]
 [QC418-][O]Kill beasts as you quest
@@ -327,11 +330,72 @@ Turn in [G23.23,73.67Loch Modan][QT267 The Trogg Threat]
 Turn in [G51.52,26.31Ironforge][QT6391 Ride to Ironforge] \\Accept [QA6388 Gryth Thurden]
 Turn in [G55.5,47.74Ironforge][QT6388 Gryth Thurden]
 [A Mage,Priest,Warlock][G22.5,16.5Ironforge][V]Save 34 silver and buy a level 15 wand\\Alternatively, you can skip this step and buy a Greater Magic Wand from the AH-->>Collect,5208,1
-[G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut
-[G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor
-[P Get the Menethil FP]
-Take the boat to Darkshore-->>ZoneSkip,Darkshore,1
+Take the tram to SW and then fly to Westfall-->>ZoneSkip,Stormwind City,1
 
+]],"Zarant")
+
+--[[
+Collect [QC151,1-][O]Handful of Oats (x8)
+[QC12-][O][QC153-][O]Kill Defias mobs as you quest
+[G49.3,19.2Westfall]Collect [QC64,1-]Furlbrow's Pocket Watch
+[G56.4,13.5Westfall]Collect [QC102,1-]Gnoll Paw (x8)
+[G56.4,9.4Westfall]Collect [QC38,2-]Murloc Eye (x3)
+Turn in [QT151 Poor Old Blanchy]\\
+Turn in [QT64 The Forgotten Heirloom]
+[G51.3,22.5Westfall]Kill [QC9,1-]Harvest Watcher (x20)
+[G56.0,31.3Westfall]Turn in [QT9 The Killing Fields]
+[G56.4,30.5Westfall]Turn in [QT38 Westfall Stew] \\Turn in [QT22 Goretusk Liver Pie]
+
+[G56.3,47.5Westfall]Turn in [QT12 The People's Militia]
+Accept [QA135]
+[G56.4,47.6Westfall]Turn in [QT102 Patrolling Westfall]
+[G54.0,52.9Westfall]Turn in [QT153 Red Leather Bandanas]
+]]
+
+Guidelime.registerGuide([[
+[N14-15Westfall]
+[NX15-19Darkshore]
+[D Dwarf/Gnome/Human route]--ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,OnLoad>>ZoneSkip,Darkshore,1
+[GA Alliance,Druid,Warlock,Warrior,Paladin,Priest,Rogue,Mage]
+--[O]Fly to Westfall-->>ZoneSkip,Westfall
+Accept [QA64 The Forgotten Heirloom]
+Accept [QA36 Westfall Stew]\\
+Accept [QA151 Poor Old Blanchy]
+
+[G56.1,31.3Westfall]Accept [QA9 The Killing Fields]
+[G56.4,30.5Westfall]Turn in [QT36 Westfall Stew]\\
+Accept [QA38 Westfall Stew]\\
+Accept [QA22 Goretusk Liver Pie]
+
+[A Human][G56.8,47.2Westfall]Turn in [QT6285][O]
+[G56.4,47.6Westfall]Turn in [QT109 Report to Gryan Stoutmantle]
+Accept [QA12 The People's Militia]
+[G56.4,47.6Westfall]Accept [QA102 Patrolling Westfall]
+[G54.0,53.0Westfall]Accept [QA153 Red Leather Bandanas]
+
+Collect [QC151,1-][O]Handful of Oats (x8)
+[QC12-][O][QC153-][O]Kill Defias mobs as you quest
+[G49.3,19.2Westfall]Collect [QC64,1-]Furlbrow's Pocket Watch
+[G56.4,13.5Westfall]Collect [QC102,1-]Gnoll Paw (x8)
+[G56.4,9.4Westfall]Collect [QC38,2-]Murloc Eye (x3)
+Turn in [QT151 Poor Old Blanchy]\\
+Turn in [QT64 The Forgotten Heirloom]
+[G51.3,22.5Westfall]Kill [QC9,1-]Harvest Watcher (x20)
+[G56.0,31.3Westfall]Turn in [QT9 The Killing Fields]
+[G56.4,30.5Westfall]Turn in [QT38 Westfall Stew] \\Turn in [QT22 Goretusk Liver Pie]
+
+[G56.3,47.5Westfall]Turn in [QT12 The People's Militia]
+Accept [QA135]
+[G56.4,47.6Westfall]Turn in [QT102 Patrolling Westfall]
+[G54.0,52.9Westfall]Turn in [QT153 Red Leather Bandanas]
+[A Dwarf,Gnome][H][OC]Hearth back to Loch modan
+[A Dwarf,Gnome]Fly to [F Wetlands]
+
+[A Human]Fly to [F Ironforge]
+[A Human][G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut
+[A Human][G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor
+[A Human][G9.6,59.6Wetlands][P Get the Menethil FP]
+Take the boat to Darkshore-->>LoadNextGuide
 ]],"Zarant")
 
 

@@ -78,7 +78,7 @@ Turn in [QT2438 The Emerald Dreamcatcher] \\Accept [QA2459 Ferocitas the Dream E
 Guidelime.registerGuide([[
 [N6-12Teldrassil part 2]
 [NX11-15Dun Morogh/Loch Modan]
-[NX11-16Darkshore part 1]
+[NX11-19Darkshore part 1]
 [GA NightElf]
 [D Alliance Leveling Guide]
 
@@ -167,7 +167,7 @@ Unstuck back to the graveyard[OC]
 Guidelime.registerGuide([[
 [N1-11Teldrassil HC]
 [NX11-15Dun Morogh/Loch Modan]
-[NX11-16Darkshore part 1]
+[NX11-19Darkshore part 1]
 [GA NightElf]
 [D This route is slightly slower since it doesn't use any form of death skipping]
 

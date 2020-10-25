@@ -83,6 +83,8 @@ function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,f
 			frame.OnStepCompletion = self[eval]
 		elseif event == "OnStepUpdate" then
 			frame.OnStepUpdate = self[eval]
+		elseif event == "Persistent" then
+			frame.data.persistent = true 
 		else
 			if not pcall(frame.RegisterEvent,frame,event) then
 				print("Error loading guide: Ignoring invalid event name at line"..stepLine..": "..event)
@@ -138,19 +140,7 @@ function addon.loadCurrentGuide(...)
 	
 	local stepNumber = 0
 	for stepLine, step in ipairs(guide.steps) do
-		local filteredElements = {}
-		local loadLine = addon.applies(step)
-		for _, element in ipairs(step.elements) do
-			if not element.generated and
-				((element.text ~= nil and element.text ~= "") or 
-				(element.t ~= "TEXT" and element.t ~= "NAME" and element.t ~= "NEXT" and element.t ~= "DETAILS" and element.t ~= "GUIDE_APPLIES" and element.t ~= "APPLIES" and element.t ~= "DOWNLOAD" and element.t ~= "AUTO_ADD_COORDINATES_GOTO" and element.t ~= "AUTO_ADD_COORDINATES_LOC"))
-			then
-				table.insert(filteredElements, element)
-			end
-		end
-		if #filteredElements == 0 then loadLine = false end
-		if loadLine then 
-			stepNumber = stepNumber+1
+		if addon.applies(step) then 
 			if step.eval and step.event then
 				frameCounter = frameCounter + 1
 				local args = {}
@@ -174,7 +164,7 @@ function addon.loadCurrentGuide(...)
 					table.insert(eventList,event)
 				end
 				--print(tostring(step.eval)..":"..tostring(step.event))
-				Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,frameCounter)
+				Guidelime.Zarant:RegisterStep(eventList,eval,args,step.index,stepLine,frameCounter)
 			end
 		end
 	end
@@ -235,10 +225,12 @@ function addon.updateArrow()
 end
 
 function Guidelime.Zarant:SkipStep(value)
+	if not self.step.index then return end
 	if value ~= false then value = true end
 	self.step.skip = value
-	GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.stepNumber] = self.step.skip
-	addon.updateSteps({self.stepNumber})
+	print(self.stepNumber,self.step.index)
+	GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.step.index] = self.step.skip
+	addon.updateSteps({self.step.index})
 end
 
 function Guidelime.Zarant:UpdateStep()
@@ -273,7 +265,7 @@ function Guidelime.Zarant.LoadNextGuide(self,n)
 	elseif not n or n == 0 then
 		n = 1
 	end
-
+	--print(self.guide.group.." "..self.guide.next[n])
 	addon.loadGuide(self.guide.group.." "..self.guide.next[n])
 end
 
