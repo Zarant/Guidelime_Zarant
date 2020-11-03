@@ -57,7 +57,7 @@ Take the boat to wetlands[OC]
 
 Accept [G8.54,55.73Wetlands][QA484 Young Crocolisk Skins]
 Accept [G8.3,58.53Wetlands][QA279 Claws from the Deep]
-Get the [P Wetlands] FP [A NightElf]
+[A NightElf]Get the [P Wetlands] FP
 Accept [G10.89,59.66Wetlands][QA288 The Third Fleet] \\Accept [QA463 The Greenwarden]
 [S]Set your HS to Wetlands
 [G10.7,60.95Wetlands][QC288 Buy a flagon of mead from the innkeeper]

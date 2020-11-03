@@ -15,18 +15,8 @@ Speak to Kebok\\Accept [G26.99,77.12,20Stranglethorn Vale][QA213 Hostile Takeove
 Talk to Baron Revilgaz\\Turn in [G27.22,76.87,20Stranglethorn Vale][QT616 The Haunted Isle] \\Accept [QA578 The Stone of the Tides] \\Turn in [QT1181 Goblin Sponsorship] \\Accept [QA1182 Goblin Sponsorship]
 Accept [G28.29,77.59,20Stranglethorn Vale][QA575 Supply and Demand]
 Throw away the *Library Scrip*[O]-->>Destroy,3898
-[A Hunter][G27.53,77.78Stranglethorn Vale]Fly to [F Westfall][OC]
-[A Hunter]Turn in [QT231 A Daughter's Love]
-
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Fly to [F Duskwood][OC]
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT1041] \\Accept [QA1042]--scythe of elune chain
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT1042] \\Accept [QA1043]
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Accept [QA222]--worge in the woods
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Do [QC222][O]
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC1043-]Loot the dirt mound inside the mine
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT222] \\Accept [QA223]
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT223]
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT1043] \\Accept [QA1044]
+[G27.53,77.78Stranglethorn Vale]Fly to [F Westfall][OC]
+Turn in [QT231 A Daughter's Love]
 
 Turn in [QT198 Supplies to Private Thorsen][O]
 Turn in [QA215-][O][QT215 Jungle Secrets][O] if you have it, otherwise keep an eye for Private Thorsen's RP sequence\\He patrols down the road every 30 minutes

@@ -138,13 +138,13 @@ Grind to level [XP20]
 [G31.41,30.66,145Ashenvale][QC970-]Kill cultists
 [G26.43,38.59,25Ashenvale]Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]\\
 Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5 --[G26.19,38.69Ashenvale]
-[G22.64,51.91Ashenvale]Turn in [QT945 Therylune's Escape]
+
 
 [G34.4,48Ashenvale]Get the [P Astranaar] Flight Path 
 Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand] 
 Accept [G34.89,49.79Ashenvale][QA1070 On Guard in Stonetalon]
 Accept [G35.76,49.1Ashenvale][QA1056 Journey to Stonetalon Peak]
-Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing]
+Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing]\\Accept [QA1054]
 [G37.36,51.79Ashenvale]Turn in [QT1020 Orendil's Cure]-->>LoadNextGuide
 
 ]],"Zarant")
@@ -155,6 +155,50 @@ Guidelime.registerGuide([[
 [D Alternative route for Dwarves/Gnomes/Humans]
 [GA Alliance,Warlock,Warrior,Paladin,Priest,Rogue,Mage,Druid]
 
+Accept [QA1033 Elune's Tear]
+
+[G46.37,46.38,50Ashenvale][QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater
+[G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear]\\Wait for the RP sequence to end\\Accept [QA1034 The Ruins of Stardust]
+[G33.3,67.79,101Ashenvale][QC1034 -]Loot the bushes around the lake
+[G31.67,64.24Ashenvale]Head to the base of the mountain\\[G31.21,61.60Ashenvale]Run straight north while climbing the mountain
+[G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
+[G22.64,51.91Ashenvale]Turn in [QT945 Therylune's Escape]
+[G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
+Accept [G14.79,31.29Ashenvale][QA1007 The Ancient Statuette]
+[QC1008-]Kill nagas[O]
+[G14.2,20.64Ashenvale]Loot [QC1007 The Ancient Statuette]
+[G14.79,31.29Ashenvale]Turn in [QT1007 The Ancient Statuette] \\Wait for the RP sequence\\Accept [QA1009 Ruuzel]
+[G7.4,13.4Ashenvale]Kill [QC1009 Ruuzel] \\Lady Vespia (rare) can also drop the ring
+Finish off [QC1008 The Zoram Strand]
+Turn in [QT1009]
+[G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
+Kill Murlocs until the [QC1023 Glowing Gem] drops
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Die at the east side of the lake and spirit rez
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid][S]Set your HS to Astranaar
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing]\\Accept [QA1025]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Throw away *Teronis' Journal*[O]-->>Destroy,5505
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT1008 The Zoram Strand]\\Accept [QA1134]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Fly to [F Darkshore][OC]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in  [QT4730 Beached Sea Creature]\\
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in  [QT4731 Beached Sea Turtle]\\
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in  [QT4732 Beached Sea Turtle]\\
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in  [QT4733 Beached Sea Creature]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT4740]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT995 Escape Through Stealth]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT3765]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT731 The Absent Minded Prospector] pt.2 \\Accept [QA741 The Absent Minded Prospector] pt.3
+[A NightElf]Fly to [F Teldrassil][OC]
+[A Dwarf,Gnome,Human,Warrior,Paladin,Priest,Rogue,Mage,Druid]Take the boat to Darnassus[OC]
+[A Dwarf,Gnome,Human,Warrior,Paladin,Priest,Rogue,Mage,Druid][G58.39,94.01Teldrassil]Get the [P Ruth'theran Village] FP[OC]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT741 The Absent Minded Prospector] pt.3 \\Accept [QA942 The Absent Minded Prospector] pt.4
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid][H]Hearth back to Astranaar
+
+[A Warlock]Head back to Astranaar\\Turn in [QT1008 The Zoram Strand]\\Accept [QA1134]
+[A Warlock]Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing]\\Accept [QA1025]
+[A Warlock]Throw away *Teronis' Journal*[O]-->>Destroy,5505
+[A Warlock]Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
+
 [G42.5,71.7,50Ashenvale]Head to stonetalon
 Turn in [QT1070 On Guard in Stonetalon] \\Accept [QA1085 On Guard in Stonetalon]
 Turn in [QT1085 On Guard in Stonetalon] \\Accept [QA1071 A Gnome's Respite]
@@ -164,6 +208,7 @@ Do [QC1071 A Gnome's Respite]
 Turn in [G22.28,10.86The Barrens][QT1093 Super Reaper 6000]
 [A Warlock]Accept [QA1094]
 Turn in [QT1071 A Gnome's Respite] \\Accept [QA1072 An Old Colleague] \\Accept [QA1075 A Scroll from Mauren]
+Do [QC1134]
 Turn in [QT1056 Journey to Stonetalon Peak]
 Get the [P Stonetalon Peak] Flight Path
 [A Warlock][OC]Sell your junk items and make sure you have at least 4 soul shards before killing yourself
@@ -173,44 +218,44 @@ Get the [P Stonetalon Peak] Flight Path
 [A Warlock][G56.6,51.6,30The Barrens]Run northeast and once the zone text changes to *Raptor Grounds* death skip back to Ratchet\\Do your best to avoid the quilboar mobs
 [A Warlock]Once the zone text changes to *Raptor Grounds* or *Northwatch Hold* death skip back to Ratchet\\Turn in [QT1094]
 [A Warlock][G63.0,37.2The Barrens]Get the [P Ratchet] FP
-[H]Hearth back to Darkshore
-Turn in  [QT4730 Beached Sea Creature]\\
-Turn in  [QT4731 Beached Sea Turtle]\\
-Turn in  [QT4732 Beached Sea Turtle]\\
-Turn in  [QT4733 Beached Sea Creature]
-Turn in [QT4740]
-Turn in [QT995 Escape Through Stealth]
-Turn in [QT3765]
-Turn in [QT731 The Absent Minded Prospector] pt.2 \\Accept [QA741 The Absent Minded Prospector] pt.3
-[A NightElf]Fly to [F Darnarssus][OC]
-[A Dwarf,Gnome,Human]Take the boat to Darnassus[OC]
-Turn in [QT741 The Absent Minded Prospector] pt.3 \\Accept [QA942 The Absent Minded Prospector] pt.4
-[A Dwarf,Gnome,Human][G58.39,94.01Teldrassil]Get the [P Ruth'theran Village] FP[OC]
+[A Warlock][H]Hearth back to Darkshore[OC]
+[A Warlock]Turn in  [QT4730 Beached Sea Creature]\\
+[A Warlock]Turn in  [QT4731 Beached Sea Turtle]\\
+[A Warlock]Turn in  [QT4732 Beached Sea Turtle]\\
+[A Warlock]Turn in  [QT4733 Beached Sea Creature]
+[A Warlock]Turn in [QT4740]
+[A Warlock]Turn in [QT995 Escape Through Stealth]
+[A Warlock]Turn in [QT3765]
+[A Warlock]Turn in [QT731 The Absent Minded Prospector] pt.2 \\Accept [QA741 The Absent Minded Prospector] pt.3
+[A Warlock]Take the boat to Darnassus[OC]
+[A Warlock]Turn in [QT741 The Absent Minded Prospector] pt.3 \\Accept [QA942 The Absent Minded Prospector] pt.4
+[A Warlock][G58.39,94.01Teldrassil]Get the [P Ruth'theran Village] FP[OC]
 Fly to [F Ashenvale]
 
-Set your HS to [S Astranaar]
-Accept [QA1033 Elune's Tear]
+Turn in [QT1134 Pridewings of Stonetalon]
+Accept [QA1025 An Aggressive Defense]
+Accept [QA1035]--Fallen Sky Lake
 
-[G46.37,46.38,50Ashenvale][QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater
-[G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear]\\Wait for the RP sequence to end\\Accept [QA1034 The Ruins of Stardust]
-[G33.3,67.79,101Ashenvale][QC1034 -]Loot the bushes around the lake
-[G31.67,64.24Ashenvale]Head to the base of the mountain\\[G31.21,61.60Ashenvale]Run straight north while climbing the mountain
-[G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
-[G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5 \\Accept [QA1140] pt.6
+Accept [G49.79,67.21,20Ashenvale][QA1016 Elemental Bracers]
+[OC]Loot 5 *Intact Elemental Bracers*-->>Collect,12220,5
+[QC1016 -]Right click the *Divining Scroll*
+Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
+Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
+Run east to Azshara[OC]
+Do [QC1035]\\This quest requires you to kill a level 30 mob, skip it if necessary
+--Turn in [QT4581]
+[G11.90,77.57Azshara]Get the [P Azshara] flight path[OC]
+Fly to [F Astranaar]
+[G39.54,36.47Ashenvale]Kill [QC1054-]Dal Bloodclaw-->>Unitscan,DAL BLOODCLAW
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Die and resurrect at Astranaar[OC]
 [A Warlock][G31.5,31.5Ashenvale]Do [QC1738]
-Accept [G14.79,31.29Ashenvale][QA1007 The Ancient Statuette]
-[QC1008-]Kill nagas[O]
-[G14.2,20.64Ashenvale]Loot [QC1007 The Ancient Statuette]
-[G14.79,31.29Ashenvale]Turn in [QT1007 The Ancient Statuette] \\Wait for the RP sequence\\Accept [QA1009 Ruuzel]
-[G7.4,13.4Ashenvale]Kill [QC1009 Ruuzel] \\Lady Vespia (rare) can also drop the ring
-Finish off [QC1008 The Zoram Strand]
-Turn in [QT1009]
-[G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
-Kill Murlocs until the [QC1023 Glowing Gem] drops \\Save *Murloc Fins* for later
-[H]Hearth back to Astranaar\\ \\If your HS is still on colldown, die at the east side of the lake and spirit rez[OC]
-Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust][O]
-Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing]
-Throw away *Teronis' Journal*[O]-->>Destroy,5505
-Turn in [QT1008 The Zoram Strand]
-Fly to [F Auberdine]--OnStepCompletion>>LoadNextGuide
+[A Warlock]Run east and die back to Astranaar[O]-->>ZoneSkip,Darkshore
+Turn in [QT1035]
+Turn in [QT1025 An Aggressive Defense]
+Turn in [QT1054 Culling the Threat]
+Fly to [F Auberdine]
+[OC]Level first aid/cooking while waiting for the Menethil boat
+[G33.70,42.45Darkshore]Take the boat to Menethil Harbor--OnStepCompletion>>LoadNextGuide
+
+
 ]],"Zarant")

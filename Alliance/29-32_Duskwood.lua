@@ -13,7 +13,7 @@ Turn in [QT686 A King's Tribute] \\Accept [QA689 A King's Tribute]
 [T]Train skills\\Train pet skills\\Make sure you have frost/nature resistance maxed out on your pet[O]
 Accept [QA1179 The Brassbolts Brothers]
 Take the tram to Stormwind [OC]
-[A Hunter]Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
+Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
 [V][O]Deposit the following items:\\Musquash Root\\Crate of Crash Helmets\\Turtle Meat --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Duskwood29
 [T] Train first aid at the cathedral [O]
 
@@ -58,7 +58,7 @@ Accept [QA225 The Weathered Grave]
 Accept [QA323]
 Do [QC323]
 Turn in [QT323] \\Accept [QA269]
-[A Hunter]Turn in [QT325 Armed and Ready] \\Accept [QA55]
+Turn in [QT325 Armed and Ready] \\Accept [QA55]
 Hearth back to [H Darkshire]
 [V][O]Make sure you have 2 stacks of food/water\\Buy extra stacks of ammo, long grinding session ahead
 Turn in [QT78 The Legend of Stalvan] pt.9 \\Accept [QA79 The Legend of Stalvan] pt.10
@@ -68,37 +68,37 @@ Turn in [QT225 The Weathered Grave] \\Accept [QA227 Morgan Ladimore]
 Turn in [QT160 Note to the Mayor] \\Accept [QA251 Translate Abercrombie's Note]
 Turn in [QT251 Translate Abercrombie's Note] \\Accept [QA401 Wait for Sirra to Finish] \\Turn in [QT401 Wait for Sirra to Finish] \\Accept [QA252 Translation to Ello]
 Talk to the mayor again\\Turn in [QT252 Translation to Ello] 
-[A Hunter]Accept [QA253 Bride of the Embalmer]
+Accept [QA253 Bride of the Embalmer]
 Turn in [QT97 The Legend of Stalvan] pt.12 \\Accept [QA98 The Legend of Stalvan] pt.13 \\Turn in [QT227 Morgan Ladimore] \\Accept [QA228 Mor'Ladim]
 Turn in [QT1244 The Missing Diplomat] pt.5\\Accept [QA1245 The Missing Diplomat] pt.6
 [G77.3,36.2Duskwood][QC98-][O] Kill Stalvan inside the farmhouse
 [QC335,1 -] Loot the small flower at the farm
 Turn in [QT98 The Legend of Stalvan] \\Turn in [QT101 The Totem of Infliction]
 Turn in [QT221 Worgen in the Woods] pt.2
-[A Hunter]Accept [QA222 Worgen in the Woods] pt.3
+Accept [QA222 Worgen in the Woods] pt.3
 Turn in [QT181 Look To The Stars]
-[A Hunter][QC222 -]Kill Vile Fangs/Tanted Ones[OC]
-[A Hunter]Do [G59.8,80.3,40Duskwood][QC222]
-[A Hunter]Grind mobs until you find *An Old History Book*\\Accept [QA337][O]
-[A Hunter][L72.8,73.0Duskwood][L62.9,81.4Duskwood][L63.7,71.5Duskwood]Grind until you are anywhere between level 31.5 and level 32 \\Keep grinding until your HS cooldown is <25 minutes
-[A Hunter][G28.8,31.0Duskwood][QC253-]Click on the grave to summon Eliza\\Kill Eliza and loot her heart\\ \\To avoid dealing with her skeleton adds use the wagon to jump on top of Abercrombie's shed --<<
-[A Hunter][QC55 -]Equip *Morbent's Bane* in your off-hand \\Kill Morbent Fel\\Pull with Eyes of the Beast, don't touch any mobs, let Morbent Fel and all his adds proxy aggro your pet so you can split pull him away
-[A Hunter]Turn in [QT55]
-[A Hunter][QC228 -]Kill Mor'Ladim, kite him to STV\\(Level 35 elite roaming the cemetery)[O]-->>Unitscan,MOR'LADIM
-[A Hunter]Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]
-[A Hunter]Accept [QA185 Tiger Mastery] pt.1\\Accept [QA190 Panther Mastery] pt.1
-[A Hunter]Look out for Private Thorsen's RP event while you quest \\He patrols down the road every ~30 minutes \\([QA215-][O][QT215 Jungle Secrets][O])
-[A Hunter]Do [G41.5,12.0,100Stranglethorn Vale][QC190 Panther Mastery][OC] pt.1 
-[A Hunter]Do [G35.4,12.5,110Stranglethorn Vale][QC185 Tiger Mastery] pt.1
-[A Hunter]Finish off [G41.5,12.0,100Stranglethorn Vale][QC190 Panther Mastery] pt.1
-[A Hunter]Turn in [QT185 Tiger Mastery] pt.1\\Accept [QA186 Tiger Mastery] pt.2
-[A Hunter]Turn in [QT190 Panther Mastery] pt.1
-[A Hunter][H]Hearth to Darkshire
-[A Hunter]Turn in [QT228 Mor'Ladim] \\Accept [QA229 The Daughter Who Lived]
-[A Hunter]Turn in [QT253 Bride of the Embalmer]
-[A Hunter]Turn in [QT229 The Daughter Who Lived] \\Accept [QA231 A Daughter's Love] 
-[A Hunter]Turn in [G75.75,47.56,20Duskwood][QT222 Worgen in the Woods] \\Accept [QA223 Worgen in the Woods]
-[A Hunter]Turn in [G75.32,49.02,20Duskwood][QT223 Worgen in the Woods]
+[QC222 -]Kill Vile Fangs/Tanted Ones[OC]
+Do [G59.8,80.3,40Duskwood][QC222]
+Grind mobs until you find *An Old History Book*\\Accept [QA337][O]
+[L72.8,73.0Duskwood][L62.9,81.4Duskwood][L63.7,71.5Duskwood]Grind until you are anywhere between level 31.5 and level 32 \\Keep grinding until your HS cooldown is <25 minutes
+[G28.8,31.0Duskwood][QC253-]Click on the grave to summon Eliza\\Kill Eliza and loot her heart\\ \\To avoid dealing with her skeleton adds use the wagon to jump on top of Abercrombie's shed --<<
+[QC55 -]Equip *Morbent's Bane* in your off-hand \\Kill Morbent Fel\\Pull with Eyes of the Beast, don't touch any mobs, let Morbent Fel and all his adds proxy aggro your pet so you can split pull him away
+Turn in [QT55]
+[QC228 -]Kill Mor'Ladim, kite him to STV\\(Level 35 elite roaming the cemetery)[O]-->>Unitscan,MOR'LADIM
+Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]
+Accept [QA185 Tiger Mastery] pt.1\\Accept [QA190 Panther Mastery] pt.1
+Look out for Private Thorsen's RP event while you quest \\He patrols down the road every ~30 minutes \\([QA215-][O][QT215 Jungle Secrets][O])
+Do [G41.5,12.0,100Stranglethorn Vale][QC190 Panther Mastery][OC] pt.1 
+Do [G35.4,12.5,110Stranglethorn Vale][QC185 Tiger Mastery] pt.1
+Finish off [G41.5,12.0,100Stranglethorn Vale][QC190 Panther Mastery] pt.1
+Turn in [QT185 Tiger Mastery] pt.1\\Accept [QA186 Tiger Mastery] pt.2
+Turn in [QT190 Panther Mastery] pt.1
+[H]Hearth to Darkshire
+Turn in [QT228 Mor'Ladim] \\Accept [QA229 The Daughter Who Lived]
+Turn in [QT253 Bride of the Embalmer]
+Turn in [QT229 The Daughter Who Lived] \\Accept [QA231 A Daughter's Love] 
+Turn in [G75.75,47.56,20Duskwood][QT222 Worgen in the Woods] \\Accept [QA223 Worgen in the Woods]
+Turn in [G75.32,49.02,20Duskwood][QT223 Worgen in the Woods]
 Fly to [F Stormwind]
 [V][O]Withdraw the following items:\\Crate of Crash Helmets\\Turtle Meat\\Musquash Root\\An Old History Book --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Duskwood29
 Turn in [QT1245 The Missing Diplomat] pt.6\\Accept [QA1246 The Missing Diplomat] pt.7
@@ -115,7 +115,7 @@ Turn in [QT335 A Noble Brew] pt.1 \\Accept [QA336 A Noble Brew] pt.2
 Turn in [QT269] \\Accept [QA270]--Morbent fel chain
 Turn in [QT336 A Noble Brew] pt.2
 Turn in [QT337] \\Accept [QA538] --An Old History Book
-[T][O][A Hunter]You don't need to train skills if you already purchased your level 30 spells
+[A Hunter][T][O]You don't need to train skills if you already purchased your level 30 spells
 Take the Tram to Ironforge [OC]
 [G55.5,47.7Ironforge]Fly to [F Wetlands]--OnStepCompletion>>LoadNextGuide
 

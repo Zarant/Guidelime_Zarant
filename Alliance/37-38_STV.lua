@@ -16,7 +16,7 @@ Turn in [QT325] \\Accept [QA55]
 Do [QC228]\\He patrols around the northern side of the graveyard[O]-->>Unitscan,MOR'LADIM
 Do [QC55]\\Use the off-hand weapon provided to remove his shield
 Turn in [QT55]
-[A Hunter]Fly to [F Duskwood]-->>ZoneSkip,Duskwood
+Fly to [F Duskwood][O]-->>ZoneSkip,Duskwood
 
 Run to STV\\Accept [QA574 Special Forces] \\Accept [QA207 Kurzen's Mystery]
 Accept [QA200 Bookie Herod][O]

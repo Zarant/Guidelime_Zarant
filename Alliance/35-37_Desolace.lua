@@ -80,7 +80,7 @@ Turn in [QT1186 The Eighteenth Pilot] \\Accept [QA1187 Razzeric's Tweaking]
 Accept [QA1114 Delivery to the Gnomes]
 Turn in [QT1114 Delivery to the Gnomes]
 Accept [QA1115 The Rumormonger]
-You have 2 options going into the next segment:\\[G50.52,18.94,40Tanaris][G51.0,29.3]Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Stormwind City,1
+You have 2 options going into the next segment:\\[G50.52,18.94,40Tanaris][G51.0,29.3]Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW-->>ZoneSkip,Stormwind City,1
 
 ]], "Zarant")
 
@@ -93,16 +93,16 @@ Guidelime.registerGuide([[
 [D Alliance Leveling Guide]
 Go to Ironforge\\Accept [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace]
 Take the boat to Darkshore-->>ZoneSkip,Darkshore
-Fly to [F Teldrassil]
-Turn in [QT1044]
-Fly to [F Desolace]
+
+Fly to [F Stonetalon]
+[G54.76,0.47,60Desolace] Head to Desolace
+Accept [QA1437 Vahlarriel's Search]
+[G64.66,10.53Desolace]Get the [P Desolace] FP
 
 [G66.28,6.55Desolace]Set your HS to [S Nijel's Point]
 
-
 Turn in [QT1453 Reclaimers' Business in Desolace] \\Accept [QA1454 The Karnitol Shipwreck] \\Accept [QA1458 Reagents for Reclaimers Inc.] 
 Accept [QA1387 Centaur Bounty] \\Accept [QA1382]
-Accept [QA1437 Vahlarriel's Search]
 
 [QC1458 -]Kill Satyrs
 Turn in [QT1458 Reagents for Reclaimers Inc.] \\Accept [QA1459 Reagents for Reclaimers Inc.]
@@ -168,5 +168,5 @@ Turn in [QT1186 The Eighteenth Pilot] \\Accept [QA1187 Razzeric's Tweaking]
 Accept [QA1114 Delivery to the Gnomes]
 Turn in [QT1114 Delivery to the Gnomes]
 Accept [QA1115 The Rumormonger]
-You have 2 options going into the next segment:\\[G50.52,18.94,40Tanaris][G51.0,29.3]Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Stormwind City,1
+You have 2 options going into the next segment:\\[G50.52,18.94,40Tanaris][G51.0,29.3]Fly to [F Ratchet] and take the boat to Booty Bay\\*OR*\\You can use the unstuck self service through the battle.net website and teleport to SW-->>ZoneSkip,Stormwind City,1
 ]], "Zarant")

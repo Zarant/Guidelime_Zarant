@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N24-25Duskwood part 1]
-[NX25-26Redridge]
+[NX25-27Duskwood/Redridge]
 [GA Alliance]
 [D Alliance Leveling Guide]
 [A Hunter][V][O]Deposit the following items:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --OnStepActivation,BANKFRAME_OPENED,BAG_UPDATE>>Bank_Duskwood24
@@ -48,52 +48,26 @@ Turn in [G73.88,43.45Duskwood][QT5 Jitters' Growling Gut] \\Accept [QA93 Dusky C
 Turn in [G73.59,46.89Duskwood][QT56 The Night Watch] \\Accept [QA57 The Night Watch]
 Turn in [G72.53,46.85Duskwood][QT68 The Legend of Stalvan] \\Accept [QA69 The Legend of Stalvan]
 Turn in [G75.81,45.29Duskwood][QT148 Supplies from Darkshire] \\Accept [QA149 Ghost Hair Thread]--OnStepCompletion>>LoadNextGuide
-]], "Zarant")
 
-Guidelime.registerGuide([[
-[N25-26Redridge]
-[NX26-27Duskwood part 2]
-[GA Alliance]
-[D Alliance Leveling Guide]
 [G81.83,19.77,60Duskwood]Head to Redridge\\[G30.6,59.4Redridge Mountains]Get the [P Redridge Mountains] FP[A Hunter][OC]
 Accept [QA128 Blackrock Bounty][A Hunter]
 Fly to [F Redridge][A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][OC]
 Head to Lakeshire\\Accept [G33.5,48.96Redridge Mountains][QA20 Blackrock Menace]
-Go inside the town hall \\Accept [QA91 Solomon's Law][OC]
+Go inside the town hall \\Accept [QA91 Solomon's Law]
 [G27.34,47.29Redridge Mountains]Accept [QA127 Selling Fish] \\Accept [QA150 Murloc Poachers]
-Accept [QA91 Solomon's Law][A Hunter]
 Click on the wanted poster \\Accept [QA180 Wanted: Lieutenant Fangore][OC]
 [L56.8,50.86Redridge Mountains][QC150 -][O][QC127 -][O]Kill murlocs
 [G61.76,43.51Redridge Mountains][QC20 -]Prioritize killing orcs\\Once you clear the camp, kill murlocs southwest while you wait for respawns
 Turn in [G33.5,48.96Redridge Mountains][QT20 Blackrock Menace]
 Turn in [G27.72,47.38Redridge Mountains][QT127 Selling Fish] \\Turn in [G27.72,47.38Redridge Mountains][QT150 Murloc Poachers]
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][V]Restock/Resupply--OnStepActivation,OnStepCompletion>>LoadNextGuide
-
-[A Hunter]Accept [G21.85,46.32Redridge Mountains][QA34 An Unwelcome Guest]
-[A Hunter]Do [QC34]
-[A Hunter]Turn in [G21.85,46.32Redridge Mountains][QT34 An Unwelcome Guest]
-[A Hunter]Accept [QA180 Wanted: Lieutenant Fangore]
-[A Hunter][O]*!!!IMPORTANT!!!*\\SKIP this segment of the guide, go straight to *Duskwood part 2* if you haven't purchased a bronze tube yet--OnStepActivation,BAG_UPDATE>>BronzeTube,0,1
-[A Hunter]Accept [G31.53,57.85Redridge Mountains][QA128 Blackrock Bounty]
-[A Hunter]Accept [G33.5,48.96Redridge Mountains][QA19 Tharil'zun]
-[A Hunter]Kill [QC91Gnolls], loot the pendants[O]
-[A Hunter]Do [G80.17,37.05Redridge Mountains][QC180 Wanted: Lieutenant Fangore]
-[A Hunter][G71.40,55.07Redridge Mountains] Pet pull [QC19 Tharil'zun][O], kite him towards burning steppes-->>Unitscan,THARIL'ZUN
-[A Hunter]Do [G28.89,13.2,129Redridge Mountains][QC128 Blackrock Bounty]
-[A Hunter]Accept [G28.4,12.6Redridge Mountains][QA219][O]
-[A Hunter]Turn in [G33.5,48.96Redridge Mountains][QT19 Tharil'zun]
-[A Hunter]Turn in [QT219]
-[A Hunter]Turn in [G29.71,44.26Redridge Mountains][QT91 Solomon's Law]
-[A Hunter]Turn in [G29.98,44.45Redridge Mountains][QT180 Wanted: Lieutenant Fangore]
-[A Hunter]Turn in [G31.53,57.85Redridge Mountains][QT128 Blackrock Bounty]
-[A Hunter]Fly to [F Duskwood]-->>LoadNextGuide
+Remember to keep checking the engineering supplies NPC in duskwood if you haven't purchased a bronze tube yet[OC]-->>ZoneSkip,Duskwood,1
+Fly to [F Duskwood]-->>LoadNextGuide
 ]], "Zarant")
 
 
 Guidelime.registerGuide([[
-[N26-27Duskwood part 2]
+[N25-27Duskwood/Redridge]
 [NX27-29Wetlands/Hillsbrad]
-[NX27-28Wetlands part 1]
 [GA Alliance]
 [D Alliance Leveling Guide]
 
@@ -135,14 +109,13 @@ Turn in [G73.88,43.45Duskwood][QT93 Dusky Crab Cakes] \\Accept [QA240 Return to 
 [G79.63,48.1,151Westfall][QC57-][QC156-]Kill skeletons at the Raven Hill Cemetery
 Turn in [QT453 Finding the Shadowy Figure] \\Accept [QA268 Return to Sven] \\Turn in [QT240 Return to Jitters]
 Turn in [QT268 Return to Sven] \\Accept [QA323 Proving Your Worth]
-[A Hunter]Do [QC323 Proving Your Worth]
-[A Hunter]Turn in [QT323 Proving Your Worth] \\Accept [QA269 Seeking Wisdom]
+Do [QC323 Proving Your Worth]
+Turn in [QT323 Proving Your Worth] \\Accept [QA269 Seeking Wisdom]
 [O]Grind mobs until your HS is off cooldown, Hearth to [H Darkshire]--OnStepActivation,BAG_UPDATE>>BronzeTube,1
 If you haven't found a bronze tube, save your HS cooldown and fly from Westfall to [F Duskwood][OC]--OnStepActivation,BAG_UPDATE>>BronzeTube
 Turn in [G73.77,44.48Duskwood][QT156 Gather Rot Blossoms] \\Accept [QA159 Juice Delivery]
-Turn in [G73.59,46.89Duskwood][QT57 The Night Watch] 
-[A Hunter]Accept [QA58 The Night Watch]
-[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]If you managed to find *An Old History Book* right click it\\Accept [QA337][O] \\Skip this step if you don't have it
+Turn in [G73.59,46.89Duskwood][QT57 The Night Watch] \\Accept [QA58 The Night Watch]
+If you managed to find *An Old History Book* right click it\\Accept [QA337][O] \\Skip this step if you don't have it
 Fly to [F Redridge][OC]
 Kill [QC91-]Gnolls, loot their pendants[O]
 [S][O]Set your HS to redridge if you haven't found a bronze tube\\Skip this step if you purchased it already--OnStepActivation,BAG_UPDATE>>BronzeTube
@@ -162,15 +135,14 @@ Finish off [QC91]
 [A Hunter,Warlock][G71.40,55.07Redridge Mountains]Pet pull [QC19 Tharil'zun], kite him towards burning steppes-->>Unitscan,THARIL'ZUN
 Do [QC128 Blackrock Bounty]
 [O]If you haven't found a bronze tube, run to burning steppes, die on purpose, buy a bronze tube at flame's crest and hearth back to Redridge--OnStepActivation,BAG_UPDATE>>BronzeTube
-Death skip to Lakeshire[OC]
-Turn in [QT19 Tharil'zun][A Hunter]
+Accept [G28.4,12.6Redridge Mountains][QA219]
+[A Hunter,Warlock]Turn in [QT19 Tharil'zun]
+Turn in [QT219]
 Turn in [QT91 Solomon's Law] \\Turn in [QT180 Wanted: Lieutenant Fangore]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT126]
-Turn in [QT19 Tharil'zun][A Warlock]
 Turn in [QT128 Blackrock Bounty]
 
-Fly to [F Stormwind]
-
+Fly to [F Stormwind]-->>LoadNextGuide
 ]], "Zarant")
 
 if not Guidelime.Zarant then return end

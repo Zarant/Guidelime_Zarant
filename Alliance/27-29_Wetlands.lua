@@ -1,7 +1,7 @@
 
 Guidelime.registerGuide([[
 [N27-29Wetlands/Hillsbrad]
-[GA Alliance,Hunter]
+[GA Alliance]
 [D Alliance Leveling Guide]
 [NX29-32Duskwood]
 [V][O]Deposit the follwing items:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Wetlands27
@@ -30,7 +30,6 @@ Turn in [G13.94,34.81,20Wetlands][QT285 Search More Hovels] \\Accept [G13.94,34.
 Start working on [QC471][O]
 [G14.72,23.93,75Wetlands][QC289 -] Kill ghosts, enter the ship by the hole on the hull and kill Snellig
 Kill [G44.14,33.5,138Wetlands][QC277 Gnolls] on your way to other objectives[O]
-Kill [G44.25,25.61,40Wetlands][QC470 Slimes]
 Kill [G43.14,42.62,40Wetlands][QC464 Orcs]
 [G39.52,46.70,20Wetlands]Head towards the mountain shortcut \\Accept [G38.17,50.88Wetlands][QA294 Ormer's Revenge]
 Turn in [G38.9,52.33,20Wetlands][QT305 In Search of The Excavation Team] \\Accept [G38.9,52.33,20Wetlands][QA306 In Search of The Excavation Team] \\Accept [G38.8,52.38,20Wetlands][QA299 Uncovering the Past]
@@ -64,6 +63,7 @@ Turn in [G47.45,47.01,20Wetlands][QT465 Nek'rosh's Gambit]
 Accept [G47.45,47.01Wetlands][QA474 Defeat Nek'rosh] 
 [L53.46,54.65Wetlands]Kill [QC474 Nek'rosh][O] --<<
 Turn in [G56.37,40.4,20Wetlands][QT275 Blisters on The Land]
+Kill [G44.25,25.61,40Wetlands][QC470 Slimes]
 Turn in [G49.8,18.25,20Wetlands][QT472 Fall of Dun Modr] \\Accept [QA631 The Thandol Span]
 Turn in [G45.65,93.07,20Arathi Highlands][QT631 The Thandol Span] \\Accept [QA632 The Thandol Span]
 Turn in [G49.91,18.21,20Wetlands][QT632 The Thandol Span] \\Accept [QA633 The Thandol Span]
@@ -77,7 +77,7 @@ Get the [P Arathi Highlands] FP
 [G20.08,29.74,65Arathi Highlands]Head to Southshore
 Turn in [G52.13,58.73,20Hillsbrad Foothills][QT647 MacKreel's Moonshine]
 Get the [P Southshore] FP
-Do the murloc quests in Southshore or farm turtle meat until you are [XP29.55 55% into level 29] [O]
+[A Hunter]Do the murloc quests in Southshore or farm turtle meat until you are [XP29.55 55% into level 29] [O]
 Stable your pet and head east \\Tame a spider, learn bite rank 4 [A Hunter][OC]
 Kill turtles along the river and save turtle meat for later, don't go out of your way to kill them [OC]
 [H]Hearth to Menethil Harbor[OC]
@@ -99,7 +99,7 @@ Fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 
-
+--[[
 Guidelime.registerGuide([[
 [N27-28Wetlands part 1]
 [NX28-29Ashenvale]
@@ -263,7 +263,7 @@ Turn in [G9.86,57.48Wetlands][QT474 Defeat Nek'rosh]
 Fly to [F Ironforge]
 
 ]], "Zarant")
-
+]]
 
 
 if not Guidelime.Zarant then return end
