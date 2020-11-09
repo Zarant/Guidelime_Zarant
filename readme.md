@@ -23,6 +23,9 @@ This guide was mainly written for personal use and being a veteran player, I omi
 
 ## FAQ
 
+Q: Can I get to Mackreel's Moonshine without speed increase/slow fall?
+A: Yes, you don't need any specific item and every class can do it, look at [this video](https://www.twitch.tv/videos/646111384) for reference.
+
 I get a lot of questions from people starting this guide from some arbitrary level and are curious to know how to pick it up from the middle, there is no easy way to answer this question, some zones are broken down into several level ranges (e.g. STV), some quest chains span several zones and since this is a mainly a speedrunning guide, I try to minimize travel time as much as possible.
 
  The way this guide is set up, it's broken down into 4 independent chunks:

@@ -180,6 +180,7 @@ Accept [G68.67,55.96Dun Morogh][QA433 The Public Servant]
 Accept [G69.08,56.32Dun Morogh][QA432 Those Blasted Troggs!]
 Kill [QC433 Bonesnappers] and [QC432 Skullthumpers] at the quarry below
 Turn in [G68.67,55.96Dun Morogh][QT433 The Public Servant]
+[O][G68.4,54.6Dun Morogh][T]Train cooking
 Turn in [G69.08,56.32Dun Morogh][QT432 Those Blasted Troggs!]
 Accept [G12.17,36.76Loch Modan][QA419 The Lost Pilot]
 Click on the dead dwarf\\Turn in [G4.63,31.38Loch Modan][QT419 The Lost Pilot] \\Accept [QA417 A Pilot's Revenge] \\*DO NOT KILL MANGECLAW BEFORE COMPLETING THIS STEP*

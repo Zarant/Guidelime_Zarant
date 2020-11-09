@@ -9,9 +9,9 @@ Take the boat to Darkshore
 
 
 Fly to [F Stonetalon]
-[G54.76,0.47,60Desolace] Head to Desolace
-Accept [QA1437 Vahlarriel's Search]
-[G64.66,10.53Desolace]Get the [P Desolace] FP
+[OC][G54.76,0.47,60Desolace][G66.4,11.82,Desolace]Head to Desolace\\Fly to Desolace if you have the FP-->>ZoneSkip,Desolace
+Accept [G66.4,11.82,Desolace][QA1437 Vahlarriel's Search]
+[G64.66,10.53Desolace]Get the [P Desolace] FP[OC]
 
 [G66.28,6.55Desolace]Set your HS to [S Nijel's Point]
 

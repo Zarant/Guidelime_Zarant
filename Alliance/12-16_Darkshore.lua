@@ -42,7 +42,7 @@ Run north along the coast killing Threshers[OC]
 [A Dwarf,Gnome,Human][G20.94,1.49Felwood][QC982,1-]Enter the 1st ship by the hole on the hull
 [A Dwarf,Gnome,Human][G39.63,27.45Darkshore][QC982,2-]Enter the 2nd ship by the hole on the hull
 Turn in [G25.19,1.29Felwood][QT1001 Buzzbox 411] \\Accept [QA1002 Buzzbox 323]
-[QC1002-]Kill any type of Moonstalker[O]
+[QC1002-]Kill any type of Moonstalker[O]-->>Unitscan,Moonstalker,Moonstalker Runt
 [OC] Start collecting small eggs for leveling cooking later\\You will need 10 points in cooking to accept a quest later
 Turn in [G27.7,10.03Felwood][QT954 Bashal'Aran] pt.1 \\Accept [QA955 Bashal'Aran] pt.2
 [G29.13,12.34,153Felwood][QC955 Kill Imps]
@@ -132,7 +132,7 @@ Guidelime.registerGuide([[
 [G18.5,19.87Felwood][QA1138 Fruit of the Sea]
 Finish off [QC1002][O]
 [G39.99,78.46,40Darkshore]Kill [QC2138Rabid Thistle Bears] as you grind your way south
-Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears, don't go out of your way to finish it
+Kill any [QC986 Moonstalker Sire][O] you find, they share spawns with Grizzled Thistle Bears, don't go out of your way to finish it-->>Unitscan,Moonstalker Sire
 [G39.99,78.46,55Darkshore]Grind your way south\\Once you get to the fulborg camp, alternate between grinding fulborgs and killing bears/cats south
 [G38.6,80.5,130Darkshore]Kill [QC1003 Grizzled Thistle Bears][OC], keep grinding fulborgs while waiting for respawns--OnStepActivation>>Buzzbox1002
 [G27,55.59Felwood]Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]

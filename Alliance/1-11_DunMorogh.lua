@@ -176,6 +176,7 @@ Accept [QA432 Those Blasted Troggs!]
 Kill [QC433 -]Bonesnappers and [QC432 -]Skullthumpers at the quarry below
 Turn in [QT433 The Public Servant]
 Turn in [QT432 Those Blasted Troggs!]
+[O][G68.4,54.6Dun Morogh][T]Train cooking
 [A Hunter][O]Tame an Ice Claw Bear before leaving Dun Morogh
 Accept [QA419 The Lost Pilot]
 Click on the dead dwarf\\Turn in [QT419 The Lost Pilot] \\Accept [QA417 A Pilot's Revenge] \\*DO NOT KILL MANGECLAW BEFORE COMPLETING THIS STEP*

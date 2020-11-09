@@ -47,19 +47,23 @@ Turn in [G73.88,43.45Duskwood][QT5 Jitters' Growling Gut] \\Accept [QA93 Dusky C
 
 Turn in [G73.59,46.89Duskwood][QT56 The Night Watch] \\Accept [QA57 The Night Watch]
 Turn in [G72.53,46.85Duskwood][QT68 The Legend of Stalvan] \\Accept [QA69 The Legend of Stalvan]
-Turn in [G75.81,45.29Duskwood][QT148 Supplies from Darkshire] \\Accept [QA149 Ghost Hair Thread]--OnStepCompletion>>LoadNextGuide
+Turn in [G75.81,45.29Duskwood][QT148 Supplies from Darkshire] \\Accept [QA149 Ghost Hair Thread]
 
 [G81.83,19.77,60Duskwood]Head to Redridge\\[G30.6,59.4Redridge Mountains]Get the [P Redridge Mountains] FP[A Hunter][OC]
 Accept [QA128 Blackrock Bounty][A Hunter]
 Fly to [F Redridge][A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][OC]
 Head to Lakeshire\\Accept [G33.5,48.96Redridge Mountains][QA20 Blackrock Menace]
-Go inside the town hall \\Accept [QA91 Solomon's Law]
+Accept [G21.85,46.32Redridge Mountains][QA34 An Unwelcome Guest]
+Do [QC34]
+Turn in [G21.85,46.32Redridge Mountains][QT34 An Unwelcome Guest]
 [G27.34,47.29Redridge Mountains]Accept [QA127 Selling Fish] \\Accept [QA150 Murloc Poachers]
-Click on the wanted poster \\Accept [QA180 Wanted: Lieutenant Fangore][OC]
 [L56.8,50.86Redridge Mountains][QC150 -][O][QC127 -][O]Kill murlocs
 [G61.76,43.51Redridge Mountains][QC20 -]Prioritize killing orcs\\Once you clear the camp, kill murlocs southwest while you wait for respawns
 Turn in [G33.5,48.96Redridge Mountains][QT20 Blackrock Menace]
+Click on the wanted poster \\Accept [QA180 Wanted: Lieutenant Fangore][OC]
 Turn in [G27.72,47.38Redridge Mountains][QT127 Selling Fish] \\Turn in [G27.72,47.38Redridge Mountains][QT150 Murloc Poachers]
+[A Hunter]Click on the wanted poster \\Accept [QA180 Wanted: Lieutenant Fangore]
+[A Hunter]Go inside the town hall \\Accept [QA91 Solomon's Law]
 Remember to keep checking the engineering supplies NPC in duskwood if you haven't purchased a bronze tube yet[OC]-->>ZoneSkip,Duskwood,1
 Fly to [F Duskwood]-->>LoadNextGuide
 ]], "Zarant")
@@ -125,9 +129,6 @@ Accept [QA19 Tharil'zun][A Hunter,Warlock]
 [G31.0,47.3Redridge Mountains]Accept [QA126][O]
 Go inside the town hall \\Accept [QA91 Solomon's Law]
 Click on the wanted poster\\Accept [QA180 Wanted: Lieutenant Fangore]
-Accept [G21.85,46.32Redridge Mountains][QA34 An Unwelcome Guest]
-Do [QC34]
-Turn in [G21.85,46.32Redridge Mountains][QT34 An Unwelcome Guest]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Do [QC126]
 Do [G80.17,37.05Redridge Mountains][QC180 Wanted: Lieutenant Fangore]
 Turn in [G84.5,46.8Redridge Mountains][QT94 A Watchful Eye][O] at the lion statue
