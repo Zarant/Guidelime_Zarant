@@ -325,7 +325,8 @@ Turn in [G22.07,73.12Loch Modan][QT224 In Defense of the King's Lands]
 Turn in [G23.23,73.67Loch Modan][QT267 The Trogg Threat]
 --[G35.45,12.3,112Badlands][QC237 In Defense of the King's Lands]
 --[G22.66,0.2Badlands][QT237 In Defense of the King's Lands]
-[G33.93,50.95Loch Modan] Throw away your HS and unstuck\\Fly to [F Ironforge]
+Throw away your HS and unstuck back to Thelsamar\\[S]Speak to the innkeeper and set your hearth to loch modan again to get a new Hearthstone
+[G33.93,50.95Loch Modan]Fly to [F Ironforge]
 [T][O]Train skills
 Turn in [G51.52,26.31Ironforge][QT6391 Ride to Ironforge] \\Accept [QA6388 Gryth Thurden]
 Turn in [G55.5,47.74Ironforge][QT6388 Gryth Thurden]
@@ -357,7 +358,7 @@ Guidelime.registerGuide([[
 [NX15-19Darkshore]
 [D Dwarf/Gnome/Human route]--ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,OnLoad>>ZoneSkip,Darkshore,1
 [GA Alliance,Druid,Warlock,Warrior,Paladin,Priest,Rogue,Mage]
---[O]Fly to Westfall-->>ZoneSkip,Westfall
+[O]Fly to Westfall-->>ZoneSkip,Westfall
 Accept [QA64 The Forgotten Heirloom]
 Accept [QA36 Westfall Stew]\\
 Accept [QA151 Poor Old Blanchy]
