@@ -57,7 +57,7 @@ Turn in [QT4243]
 Do [G68.41,12.47][QC4301]
 Turn in [QT4301]
 Make sure you have 20 Un'Goro soil before leaving Un'Goro[O]
-[H]Hearth to Ratchet
+[H]Hearth to Ratchet\\You can also pull a mob, death skip at the Tanaris border and use HS batching in Gadgetzan to save you 5 minutes later on
 Turn in [QT4502] --volcanic activity
 [V][O]Withdraw the following: \\Eridan's vial\\Purified Moonwell Water\\Cenarion beacon\\Moontouched Feathers --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Ungoro53
 

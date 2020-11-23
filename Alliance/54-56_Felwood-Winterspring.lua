@@ -34,9 +34,9 @@ Run back to Winterspring\\Turn in [QT5085 Mystery Goo] \\Accept [QA5086 Toxic Ho
 [A Hunter]Death skip to everlook[OC]
 [A Hunter]Fly to [F Teldrassil][OC]
 [A Hunter]Turn in [QT978] \\Accept [QA979]
-[H]Hearth to Ratchet
+[H]Hearth to Ratchet or Tanaris
 
-Fly to [F Tanaris]
+Fly to [F Tanaris]-->>ZoneSkip,Tanaris
 Accept [QA4504 Super Sticky]
 Turn in [QT4496 Bungle in the Jungle]
 Use the Videre Elixir at the Tanaris graveyard[OC]

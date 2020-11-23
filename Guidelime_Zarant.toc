@@ -1,6 +1,6 @@
 ## Title: Guidelime_Zarant
 ## Author: Zarant
-## Version: 5.3.2
+## Version: 5.3.3
 ## Interface: 11305
 ## Dependencies: Guidelime
 ## OptionalDeps: unitscan
@@ -48,3 +48,4 @@ Horde\21-30.lua
 Horde\30-40.lua
 Horde\40-45.lua
 Horde\45-50.lua
+Horde\50-55.lua

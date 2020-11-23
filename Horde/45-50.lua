@@ -148,7 +148,7 @@ Take the Zeppelin to Undercity-->>ZoneSkip,Tirisfal Glades,1
 Guidelime.registerGuide([[
 [GA Horde]
 [N48-49The Hinterlands]
-[NX49-49Un'Goro]
+[NX49-50Feralas]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 [G73.2,32.8Undercity]Accept [QA2995 Lines of Communication]
 [G48.5,71.9Undercity]Accept [QA3568 Seeping Corruption]
@@ -227,48 +227,23 @@ Fly to [F Undercity]
 [L71.7,29.2Undercity]Do the Undercity cloth turn ins:\\[QA7813-][O][QT7813-][O]Wool \\[QA7814-][O][QT7814-][O]Silk \\[QA7817-][O][QT7817-][O]Mageweave
 [G73.5,32.7Undercity]Turn in [QT2995 Lines of Communication]\\
 Turn in [QT2782 Rin'ji's Secret]\\Turn in [QA8273-][QT8273]
+--[G47.4,73.1Undercity]Accept [QA4293 A Sample of Slime...]
 
 [H]Hearth to Tanaris
-[V][O]Deposit Dran's Ripple Delivery in your bank-->>BankDeposit,8685
+[V][O]Deposit the following items:\\Pupellyverbos Port\\Dran's Ripple Delivery-->>BankDeposit,3900,8685
 [G51.1,26.9Tanaris]Turn in [QT2641 Sprinkle's Secret Ingredient]\\
 Accept [QA2661 Delivery for Marin]
 [G51.8,28.6Tanaris]Turn in [QT2661 Delivery for Marin]\\
 Accept [QA2662 Noggenfogger Elixir]\\
-Turn in [QT2662 Noggenfogger Elixir]-->>LoadNextGuide
-]],"Zarant")
-
-Guidelime.registerGuide([[
-[GA Horde]
-[N49-49Un'Goro]
-[NX49-50Feralas]
-[D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-Run to Un'goro Crater\\Accept [QA4289] \\Accept [QA4290]
-Save Un'Goro Soil, you will need 25 later[OC]
-[O]As you quest through Un'Goro, loot 7 crystals of each color--BAG_UPDATE>>Crystals_Tanaris49
-[G27.5,42.8Tanaris]Accept [QA4289 The Apes of Un'Goro]\\
-Accept [QA4290 The Fare of Lar'korwi]\\
-[G63.1,68.6Un'Goro Crater]Accept [QA3844 It's a Secret to Everybody]
-[G63.1,69.0Un'Goro Crater]Turn in [QT3844 It's a Secret to Everybody]\\
-Accept [QA3845 It's a Secret to Everybody]
-[G68.8,56.8Un'Goro Crater]Collect [QC4290,1-]Piece of Threshadon Carcass
-[G71.6,76.0Un'Goro Crater]Turn in [QT4290 The Fare of Lar'korwi]\\
-Accept [QA4291 The Scent of Lar'korwi]
-Do [G67.3,73.1Un'Goro Crater][G66.6,66.7Un'Goro Crater][QC4291] by stepping on a raptor nest
-Turn in [QT4291 The Scent of Lar'korwi]\\
-Accept [QA4292 The Bait for Lar'korwi]
-Grind raptors until you find *A Mangled Journal* \\Accept [QA3884]
-[QC3845-]Open the small pack in your inventory [OC]
-[G44.7,8.1Un'Goro Crater]Turn in [QT3845 It's a Secret to Everybody]\\
-Accept [QA3908 It's a Secret to Everybody]
-[G44.0,7.3Un'Goro Crater]Turn in [QT3884 Williden's Journal]
-[G41.9,2.7Un'Goro Crater]Turn in [QA4284-][QT4284 Crystals of Power]
+Turn in [QT2662 Noggenfogger Elixir]
 Fly to [F Feralas]-->>LoadNextGuide
 ]],"Zarant")
+
 
 Guidelime.registerGuide([[
 [GA Horde]
 [N49-50Feralas]
-
+[NX49-50Un'Goro]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 [G76.2,43.8Feralas]Accept [QA3062 Dark Heart]\\
 Accept [QA3063 Vengeance on the Northspring]\\
@@ -290,6 +265,9 @@ Accept [QA3126 Treant Muisek]
 Collect [QC3126,1-]Treant Muisek (x3)-->>Unitscan,Wandering Forest Walker
 Collect [QC3128,1-]Splintered Log (x2)-->>Unitscan,Wandering Forest Walker
 [G55.9,63.8Feralas]Finish off [QC3128]
+[G53.4,55.7Feralas]Turn in [QA2766-][QT2766]\\Skip this step if you haven't found the distress beacon
+Accept the chicken escort\\Accept [QA2767 Rescue OOX-22/FE!]
+[QC2767-]Escort the chicken to the shore
 [G44.8,43.4Feralas]Accept [QA7003 Zapped Giants]\\
 Accept [QA7721 Fuel for the Zapping]
 Do [QC7003] \\Do [QC7721]
@@ -308,6 +286,40 @@ Accept [QA3129 Weapons of Spirit]
 [G74.5,42.9Feralas]Turn in [QA7738-][OC][QT7738 Perfect Yeti Hide][OC]
 [G74.5,42.9Feralas]Turn in [QT7733 Improved Quality]
 [G74.4,43.4Feralas]Turn in [QT3129 Weapons of Spirit]
+[G74.4,43.4Feralas]Accept [QA3380 The Sunken Temple]
 [G76.2,43.8Feralas]Turn in [QT3063 Vengeance on the Northspring]
 Turn in [QT3062 Dark Heart]
+Fly to [F Tanaris]-->>LoadNextGuide
+
+
+]],"Zarant")
+
+Guidelime.registerGuide([[
+[GA Horde]
+[N49-50Un'Goro]
+[NX50-51STV/Blasted Lands]
+[D Horde Hunter Leveling Guide - WORK IN PROGRESS]
+--[S]Set your HS to Tanaris
+[G52.7,45.9Tanaris]Turn in [QT3380 The Sunken Temple]\\
+Accept [QA3444 The Stone Circle]
+Run to Un'goro Crater\\Accept [QA4289] \\Accept [QA4290]
+Save Un'Goro Soil, you will need 25 later[OC]
+[O]As you quest through Un'Goro, loot 7 crystals of each color--BAG_UPDATE>>Crystals_Tanaris49
+[G27.5,42.8Tanaris]Accept [QA4289 The Apes of Un'Goro]\\
+Accept [QA4290 The Fare of Lar'korwi]\\
+[G63.1,68.6Un'Goro Crater]Accept [QA3844 It's a Secret to Everybody]
+[G63.1,69.0Un'Goro Crater]Turn in [QT3844 It's a Secret to Everybody]\\
+Accept [QA3845 It's a Secret to Everybody]
+[G68.8,56.8Un'Goro Crater]Collect [QC4290,1-]Piece of Threshadon Carcass
+[G71.6,76.0Un'Goro Crater]Turn in [QT4290 The Fare of Lar'korwi]\\
+Accept [QA4291 The Scent of Lar'korwi]
+Do [G67.3,73.1Un'Goro Crater][G66.6,66.7Un'Goro Crater][QC4291] by stepping on a raptor nest
+Turn in [QT4291 The Scent of Lar'korwi]\\
+Accept [QA4292 The Bait for Lar'korwi]
+[QC3845-]Open the small pack in your inventory [OC]
+[G44.7,8.1Un'Goro Crater]Turn in [QT3845 It's a Secret to Everybody]\\
+Accept [QA3908 It's a Secret to Everybody]
+[G41.9,2.7Un'Goro Crater]Turn in [QA4284-][QT4284 Crystals of Power]
+[S]Fly to Crossroads and set your HS to crossroads\\OR\\Use the website unstuck request and set your HS to Orgrimmar
+Fly to [F Ratchet]-->>LoadNextGuide
 ]],"Zarant")
