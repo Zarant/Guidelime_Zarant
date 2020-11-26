@@ -213,6 +213,7 @@ Accept [QA5158 Seeking Spiritual Aid]
 [G46.6,83.0Felwood]Turn in [QT4102 Cleansing Felwood]
 [G46.6,83.0Felwood]Make sure you have a Cenarion Beacon-->>Collect,11511,1
 [H]Hearth back to Org
+Deposit the following items:\\Filled Vial Labeled #1-4-->>BankWithdraw,10691,10692,10693,10694
 Turn in [QT3541 Delivery to Jes'rimon]\\
 Accept [QA3563 Jes'rimon's Payment to Jediga]
 Accept [QA4300]
@@ -311,7 +312,7 @@ Fly to [F Ratchet]-->>LoadNextGuide
 
 Guidelime.registerGuide([[
 [N54-56Felwood/Winterspring]
-
+[NX57-58WPL/EPL part 1]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
 
@@ -330,7 +331,91 @@ Accept [QA3542 Delivery to Andron Gant]
 Fly to [F Felwood]
 [G34.3,52.3Felwood]Accept [QA4506 Corrupted Sabers]
 [G34.8,52.8Felwood]Accept [QA4521 Wild Guardians]
+[O]Collect 6 Corrupted Soul Shards--OnStepActivation,BAG_UPDATE>>Collect,11515,6
 [G51.2,82.1Felwood]Turn in [QT5159 Cleansed Water Returns to Felwood]\\
 Accept [QA5165 Dousing the Flames of Protection]
 
-]], "Zarant")
+
+
+[G32.4,66.6Felwood]Use [V]Winna's Kitten Carrier at the corrupted moonwell-->>CastSpell,15647
+Run to Jaedenar\\[QC5165,1-]Douse the first flame
+Keep grinding mobs until you get the *Blood Red Key*\\Accept [QA5202 A Strange Red Key][O]
+[QC5165,4-]Douse the second flame
+[QC5165,3-]Douse the third flame
+[QC5165,2-]Douse the fourth flame
+Start the escort quest\\Turn in [QT5202 A Strange Red Key] \\Accept [QA5203 Rescue From Jaedenar]
+[QC5203-]Escort Arko'narin
+[G34.2,52.3Felwood]Turn in [QT4506 Corrupted Sabers]
+[G64.7,8.1Felwood]Accept [QA8461 Deadwood of the North]
+[QC8461-][O]Kill fulborgs
+[G60.2,5.9Felwood]Turn in [QT5084 Falling to Corruption]\\
+[G60.2,5.9Felwood]Accept [QA5085 Mystery Goo]
+[G64.7,8.2Felwood]Turn in [QT8461 Deadwood of the North]\\
+Accept [QA8465 Speak to Salfa]
+[G68.3,6.1Felwood]Turn in [QT8465 Speak to Salfa]
+Accept [QA8464 Winterfall Activity]
+[G31.3,45.1Winterspring]Turn in [QT980 The New Springs]\\
+Accept [QA4842 Strange Sources]\\
+Turn in [QT3909 The Videre Elixir]\\
+Accept [QA3912 Meet at the Grave]\\
+Turn in [QT5085 Mystery Goo]\\
+Accept [QA5086 Toxic Horrors]
+Kill [QC4521,2-][O]Ragged Owlbeast (x15)
+Accept [QA3783]
+Accept [QA5054]
+[G61.3,38.9Winterspring][S]Set your HS to Winterspring
+[QC5054,1-]Kill Ursius-->>Unitscan,Ursius
+Finish off [QC4521]
+Collect [QC3783,1-]Thick Yeti Fur (x10)
+[G61.9,38.4Winterspring]Turn in [QT5054 Ursius of the Shardtooth]
+Turn in [QT3783]
+Fly to [F Tanaris]
+Use the videre elixir at the tanaris GY\\
+[G53.9,23.4Tanaris]Turn in [QT3912 Meet at the Grave]\\
+Accept [QA3913 A Grave Situation]
+[G53.8,29.1Tanaris]Turn in [QT3913 A Grave Situation]\\
+Accept [QA3914 Linken's Sword]
+[G51.6,26.8Tanaris]Accept [QA4504 Super Sticky]
+Fly to [F Un'Goro Crater]
+
+[G13.1,6.4Tanaris]Turn in [QT3914 Linken's Sword]\\
+Accept [QA3941 A Gnome's Assistance]
+[G11.6,3.4Tanaris]Turn in [QT4285 The Northern Pylon]\\
+Turn in [QT4287 The Eastern Pylon]
+[G11.6,3.4Tanaris]Turn in [QT3941 A Gnome's Assistance]\\
+Accept [QA3942 Linken's Memory]
+Accept [QA4321 Making Sense of It]\\
+Turn in [QT4321 Making Sense of It]
+Collect [QC4504,1-]Super Sticky Tar (x12)
+Fly to [F Tanaris]
+[G51.6,26.8Tanaris]Turn in [QT4504 Super Sticky]
+[H][OC]Hearth to Winterspring
+Fly to [F Felwood]
+[G34.7,52.7Felwood]Turn in [QT4521 Wild Guardians]\\
+Accept [QA4741 Wild Guardians]
+[G51.2,82.1Felwood]Turn in [QT5165 Dousing the Flames of Protection]\\
+Accept [QA5242 A Final Blow]
+[G51.3,82.0Felwood]Turn in [QT5203 Rescue From Jaedenar]\\
+Accept [QA5204 Retribution of the Light]
+[G51.3,81.5Felwood]Turn in [QT3942 Linken's Memory]\\
+Accept [QA4084 Silver Heart]
+[QC4084,1-][O]Kill Wolves/Bears
+[G38.3,50.5Felwood]Go deep into Jaedenar\\Kill [QC5204,1-]Rakaiah
+[G38.5,50.4Felwood]Turn in [QT5204 Retribution of the Light]\\
+Accept [QA5385 The Remains of Trey Lightforge]
+[G38.9,46.8Felwood]Finish off [QC5242]
+[QC4084,2-][O]Kill Treants
+Collect [QC5086,1-]Toxic Horror Droplet (x3)
+[G72.7,19.2Felwood]Turn in [QT5086 Toxic Horrors]\\
+Accept [QA5087 Winterfall Runners]
+[QC5087-][O]Look for winterfall runners-->>Unitscan,Winterfall Runner
+[G31.3,45.2Winterspring]Turn in [QT5087 Winterfall Runners]\\
+Accept [QA5121 High Chief Winterfall]
+[OC]Death skip back to everlook
+Fly to [F Orgrimmar]-->>LoadNextGuide
+
+
+
+]],"Zarant")
+
+

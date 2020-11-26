@@ -832,3 +832,17 @@ function Guidelime.Zarant.BranchOut(self,args,event)
 	
 end
 
+function Guidelime.Zarant.CastSpell(self,args,event,target,guid,spellId)
+	if not self then 
+		return "UNIT_SPELLCAST_SUCCEEDED"
+	end
+
+	for i,v in ipairs(args) do
+		local name = GetSpellInfo(spellId)
+		if name == v or spellId == tonumber(v) then
+			self:SkipStep()
+			return
+		end
+	end
+
+end

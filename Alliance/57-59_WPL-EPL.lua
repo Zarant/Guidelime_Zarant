@@ -63,7 +63,7 @@ Turn in [QT6030 Duke Nicholas Zverenhoff]
 Turn in [QT5241 Uncle Carlin] \\Accept [QA5211 Defenders of Darrowshire]
 Get the [P Eastern Plaguelands] FP
 --[S]Set your HS to Light's Hope Chapel --Not available until later
-[QC5211-][O]Kill all ghouls you encounter
+[QC5211-][O]Kill all ghouls you encounter-->>Unitscan,Cannibal Ghoul
 [QC5542,3-][O]Kill Frenzied Plaguehounds
 Turn in [QT5245 Troubled Spirits of Kel'Theril]
 [QC5903-]Look for termite mounds around Plaguewood
