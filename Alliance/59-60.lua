@@ -196,7 +196,7 @@ local z = Guidelime.Zarant
 local IsOnQuest = C_QuestLog.IsOnQuest
 --local IsQuestFlaggedCompleted = C_QuestLog.IsQuestFlaggedCompleted
 
-local function FormatNumber(number,precision)
+function z.FormatNumber(number,precision)
 	if not precision then
 		precision = 0
 	end
@@ -286,7 +286,7 @@ function z:XpTo60(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 	local element = self.step.elements[#self.step.elements]
 	
 	local questXP = FormatNumber(self.questXP)
-	element.text = string.format("%s\nYou have %s XP worth of quest turn ins outside Silithus\n    XP needed: %s + %s",text,questXP,FormatNumber(missingXP),questXP)
+	element.text = string.format("%s\nYou have %s XP worth of quest turn ins outside Silithus\n    XP needed: %s + %s",text,questXP,z.FormatNumber(missingXP),questXP)
 
 
 	self:UpdateStep()

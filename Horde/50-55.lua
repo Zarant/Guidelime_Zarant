@@ -366,9 +366,20 @@ Accept [QA5054]
 [G61.3,38.9Winterspring][S]Set your HS to Winterspring
 [QC5054,1-]Kill Ursius-->>Unitscan,Ursius
 Finish off [QC4521]
+[G61.9,38.4Winterspring]Turn in [QT5054 Ursius of the Shardtooth]\\
+Accept [QA5055 Brumeran of the Chillwind]\\
+Accept [QA969 Luck Be With You]
 Collect [QC3783,1-]Thick Yeti Fur (x10)
-[G61.9,38.4Winterspring]Turn in [QT5054 Ursius of the Shardtooth]
+
+Kill [QC5055,1-][O]Brumeran-->>Unitscan,Brumeran
+[QC969-][O]Loot the blue crystals around the outer perimeter of the canyon\\Use your pet to bait the giants away from the crystals
+[QC4842,1-]Head to Darkwhisper Gorge
+Once you finish all quests, die on purpose and respawn at Everlook[OC]
+[G61.9,38.4Winterspring]Turn in [QT969 Luck Be With You][O]
+[G61.9,38.4Winterspring]Turn in [QT5055 Brumeran of the Chillwind]
 Turn in [QT3783]
+
+
 Fly to [F Tanaris]
 Use the videre elixir at the tanaris GY\\
 [G53.9,23.4Tanaris]Turn in [QT3912 Meet at the Grave]\\
@@ -406,15 +417,14 @@ Accept [QA5385 The Remains of Trey Lightforge]
 [G38.9,46.8Felwood]Finish off [QC5242]
 [QC4084,2-][O]Kill Treants
 Collect [QC5086,1-]Toxic Horror Droplet (x3)
-[G72.7,19.2Felwood]Turn in [QT5086 Toxic Horrors]\\
+[G31.3,45.2Winterspring]Turn in [QT4842 Strange Sources]
+[G31.3,45.2Winterspring]Turn in [QT5086 Toxic Horrors]\\
 Accept [QA5087 Winterfall Runners]
 [QC5087-][O]Look for winterfall runners-->>Unitscan,Winterfall Runner
 [G31.3,45.2Winterspring]Turn in [QT5087 Winterfall Runners]\\
 Accept [QA5121 High Chief Winterfall]
 [OC]Death skip back to everlook
 Fly to [F Orgrimmar]-->>LoadNextGuide
-
-
 
 ]],"Zarant")
 

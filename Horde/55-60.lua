@@ -3,7 +3,7 @@ Guidelime.registerGuide([[
 [NX58-59WPL/EPL part 2]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
-
+[V][O]Deposit the following items:\\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head-->>BankDeposit,17355,11511,11172,11173,13207,13562
 Withdraw the following items:\\Filled Vial Labeled #1-4\\Tablet of Markri-->>BankWithdraw,10691,10692,10693,10694,10540
 Take the Zeppelin to Undercity[OC]-->>ZoneSkip,Undercity
 [G67.7,38.1Undercity][S]Set your HS to Undercity
@@ -54,6 +54,7 @@ Accept [QA5232 Return to the Bulwark]
 [OC]Kill *Farmer Dalson* and loot *Dalson Cabinet Key*-->>Collect,12739,1
 [G47.37,49.66,1 Western Plaguelands]Click on the cabinet upstairs\\Turn in [QA5060-][QT5060 Locked Away]
 [H]Hearth to Undercity
+[O][L71.7,29.1Undercity]Do the Undercity cloth turn-ins
 [G4.9,61.6Western Plaguelands]Turn in [QT5023 Better Late Than Never]\\
 Accept [QA5049 The Jeremiah Blues]
 [G4.5,61.9Western Plaguelands]Turn in [QT5049 The Jeremiah Blues]\\
@@ -127,7 +128,7 @@ Turn in [QT5781 Of Forgotten Memories] \\Accept [QA5845 Of Lost Honor]-->>LoadNe
 
 Guidelime.registerGuide([[
 [N58-59WPL/EPL part 2]
-[NX59-60Winterspring/Silithus]
+[NX59-59Winterspring/Silithus]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
 
@@ -188,34 +189,249 @@ Drown yourself while heading west away from Caer Darrow then respawn at the Bulw
 
 Turn in [QT5168 Heroes of Darrowshire] \\Turn in [QT5181 Villains of Darrowshire] \\Accept [QA5206 Marauders of Darrowshire]
 Make sure to turn in all your scourgestones before continuing to the next step--OnStepActivation,BAG_UPDATE>>ScourgeStones
-Fly to Undercity and take the Zeppelin to Orgrimmar\\OR\\Use the website unstuck request to teleport you to durotar-->>ZoneSkip,Durotar
+Fly to Undercity and take the Zeppelin to Orgrimmar\\OR\\Use the website unstuck request to teleport you to durotar-->>ZoneSkip,Durotar,1
+]], "Zarant")
+
+
+Guidelime.registerGuide([[
+[N59-59Winterspring/Silithus]
+[NX59-60Winterspring]
+[GA Horde]
+[D Horde Leveling Guide - WORK IN PROGRESS]
+[L37.8,87.8Orgrimmar]Do the Darkspear trolls cloth turn ins
+Fly to [F Azshara][OC]
+[G22.5,51.4Azshara]Turn in [QT3564 Andron's Payment to Jediga]
+Fly to [F Winterspring]
+[G61.6,38.6Winterspring]Accept [QA4809 Chillwind Horns]
+[G61.9,38.4Winterspring]Accept [QA5056 Shy-Rotam]
+[G60.9,37.7Winterspring]Accept [QA977 Are We There, Yeti?]
+[QC8464-][O]Kill Fulborgs at the village west\\Skip this step if the village is too crowded
+[G69.7,38.3Winterspring]Kill [QC5121,1-]High Chief Winterfall
+Loot the Crudely-written Log\\Accept [QA5123 The Final Piece]
+[G67.7,41.7Winterspring]Collect [QC977,1-]Pristine Yeti Horn (x2)
+[G60.9,37.7Winterspring]Turn in [QT977 Are We There, Yeti?]\\
+Accept [QA5163 Are We There, Yeti?]
+[G61.5,38.6Winterspring][QC5163,1-]Scare Legacki
+[G65.1,21.1Winterspring]Kill [QC4741,1-]Moontouched Owlbeast (x13)
+[OC]Kill frostsabers until you get a sacred meat-->>Collect,12733,1
+[G49.7,9.8Winterspring]Kill [QC5056,1-]Shy-Rotam
+Death skip to Everlook[OC]
+[G61.9,38.4Winterspring]Turn in [QT5056 Shy-Rotam]
+Turn in [QA5057-][QT5057]
+
+[V][O]Withdraw the following items:\\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head-->>BankWithdraw,17355,11172,11173,13207,13562
+[S]Set your HS to Everlook
+[G31.3,45.2Winterspring]Turn in [QT5121 High Chief Winterfall]\\
+Turn in [QT5123 The Final Piece]\\
+Accept [QA5128 Words of the High Chief]
+Accept [QA8464]
+Head to moonglade, turn in Winterfall Activity on the way if you completed it earlier[OC]
+[G51.7,45.0Moonglade]Turn in [QT1123 Rabine Saturna]\\
+Accept [QA1124 Wasteland]
+Finish the dialogue with Rabine\\Accept [QA5527 A Reliquary of Purity] \\Skip this step if the Dire Maul dialogue is not available--GOSSIP_SHOW>>SkipGossip
+[G32.1,66.6Moonglade]Fly to [F Felwood]
+[G34.7,52.8Felwood]Turn in [QT4741 Wild Guardians]\\
+Accept [QA4721 Wild Guardians]
+[G13.9,96.1Winterspring]Turn in [QT5242 A Final Blow]
+[G14.0,96.0Winterspring]Turn in [QT5385 The Remains of Trey Lightforge]
+[G13.9,95.8Winterspring]Turn in [QT5128 Words of the High Chief]
+[G14.0,95.6Winterspring]Turn in [QT4084 Silver Heart]\\
+Accept [QA4005 Aquementas]
+[H]Hearth back to winterspring[OC]-->>ZoneSkip,Ashenvale
+[G62.7,39.8,20Ashenvale][OC]If your HS is on cooldown, head to Splintertree Post
+Fly to [F Thunder Bluff]
+[O][L43.1,42.8Thunder Bluff]Do the Thunder Bluff cloth turn-ins
+[G75.8,31.2Thunder Bluff]Turn in [QT4987 Glyphed Oaken Branch]
+
+[G51.1,26.9Tanaris][QC5163,2-]Scare Sprinkle
+[G50.9,27.0Tanaris]Accept [QA4507 Pawn Captures Queen]
+[G70.4,49.9Tanaris]Collect [QC4005,1-]Silver Totem of Aquementas
+Fly to [F Un'Goro Crater]
+[G11.6,3.4Tanaris]Turn in [QT4005 Aquementas]\\
+Accept [QA3961 Linken's Adventure]
+[G13.1,6.4Tanaris]Turn in [QT3961 Linken's Adventure]\\
+Accept [QA3962 It's Dangerous to Go Alone]
+[G43.7,9.4Un'Goro Crater][QC5163,3-]Scare Quixxil
+[G50.2,50.0Un'Goro Crater]Collect [QC3962,2-][O]Golden Flame
+Kill [QC3962,1-][O]Blazerunner
+[G50.0,81.5,30Un'Goro Crater]Head south towards the silithid hive\\
+[G43.6,81.1Un'Goro Crater]Collect [QC4507,1-]Gorishi Queen Brain
+[G29.2,22.1,30Un'Goro Crater]Head to Silithus-->>ZoneSkip,Silithus
+
+Turn in [QT1124] \\Accept [QA1125]
+
+[OC]Head to Cenarion Hold--PLAYER_XP_UPDATE,QUEST_LOG_UPDATE,OnStepActivation,OnStepCompletion>>XpTo60h,Head to Cenarion Hold
+Talk to the goblin at the 2nd floor of the inn\\[G51.8,38.6Silithus]Accept [QA8277 Deadly Desert Venom]
+Click on the wanted poster\\[G51.3,38.2Silithus]Accept [QA8283 Wanted - Deathclasp, Terror of the Sands]
+Turn in [QT8275][OC]
+[G51.2,38.2Silithus]Accept [QA8280 Securing the Supply Lines]
+[G49.6,37.3Silithus]Accept [QA8284 The Twilight Mystery]
+[G49.2,34.2Silithus]Accept [QA8304 Dearest Natalia]
+[G48.6,37.8Silithus]Accept [QA8318 Secret Communication]
+
+Kill [QC8280,1-][O]Dredge Striker (x15)
+Collect [QC8277,1-][O]Stonelash Scorpid Stinger (x8)\\
+Collect [QC8277,2-][O]Sand Skitterer Fang (x8)
+
+[G63.22,55.35 Silithus][QC5527-]Click on the small urn inside the lodge
+Finish off [QC1125]
+Turn in [QT1125] \\Accept [QA1126]
+[G60.22,52.55 Silithus][QC1126-]Clear the 3 bugs that spawn at the base of the tower\\Click on the object at the top of the tower\\Kill the 2 ambushers that spawn after clicking it
+Turn in [QT1126] \\Accept [QA6844]--Hive in the Tower
+
+[O]From this point forward, stop questing in silithus and skip straight to the part 2 of this guide once you have enough XP to ding from turn ins\\You need about 55k xp total, assuming you haven't skipped any quests--PLAYER_XP_UPDATE,QUEST_LOG_UPDATE,OnStepActivation,OnStepCompletion>>XpTo60h,Stop questing in Silithus and skip straight to the part 2 of this guide once you have enough XP
+
+[G23.5,13.7Silithus]Collect [QC8284,1-]Twilight Tablet Fragment (x8)
+Finish off the following quests:\\[QC8277] \\[QC8280]
+
+
+[G49.7,37.3Silithus]Turn in [QT8284 The Twilight Mystery]\\
+Accept [QA8285 The Deserter]
+[G51.1,38.2Silithus]Turn in [QT8280 Securing the Supply Lines]\\
+Accept [QA8281 Stepping Up Security]
+[G51.7,38.5Silithus]Turn in [QT8277 Deadly Desert Venom]\\
+Accept [QA8278 Noggle's Last Hope]
+
+Collect [QC8278,1-][O]Stonelash Flayer Stinger (x3)\\
+Collect [QC8278,2-][O]Stonelash Pincer Stinger (x3)\\
+Collect [QC8278,3-][O]Rock Stalker Fang (x3)
+Kill [QC8281,1-]Dredge Crusher (x20)
+[G41.3,88.5Silithus][QC8304,2-]Speak with Rutgar
+[G40.8,88.8Silithus][QC8304,1-]Speak with Frankal
+
+[G45.0,92.2Silithus]Collect [QC8283,1-]Deathclasp's Pincer
+[G67.2,69.7Silithus]Turn in [QT8285 The Deserter]\\
+Accept [QA8279 The Twilight Lexicon]
+
+Make sure to finish off all quests before heading back to Cenarion Hold\\ \\[G51.1,38.2Silithus]Turn in [QT8281 Stepping Up Security]
+[G51.7,38.5Silithus]Turn in [QT8278 Noggle's Last Hope]\\Accept [QA8282 Noggle's Lost Satchel]
+[G49.2,34.3Silithus]Turn in [QT8304 Dearest Natalia]
+[G50.8,33.6Silithus]Turn in [QT8283 Wanted - Deathclasp, Terror of the Sands]
+
+Kill twilight cultists as you quest\\Collect [QC8318,1-][O]Encrypted Twilight Text (x10)
+Kill [QC8279,3-]Twilight Keeper Havunth\\He patrols the twilight camp next to Cenarion Hold-->>Unitscan,TWILIGHT KEEPER HAVUNTH
+Kill [QC8279,1-]Twilight Keeper Mayna\\She patrols the twilight camp directly west of Cenarion Hold-->>Unitscan,TWILIGHT KEEPER MAYNA
+Kill [QC8279,2-]Twilight Keeper Exeter\\He is at the back of the southwestern twilight camp
+[G44.5,91.4Silithus]Collect [QC8282,1-]Noggle's Satchel
+[G67.2,69.8Silithus]Turn in [QT8279 The Twilight Lexicon]\\
+Accept [QA8287 A Terrible Purpose]\\
+Accept [QA8323 True Believers]
+
+Head to Cenarion Hold\\[G51.7,38.5Silithus]Turn in [QT8282 Noggle's Lost Satchel]
+[G49.2,34.2Silithus]Turn in [QT8287 A Terrible Purpose]
+[G48.7,37.5,50Silithus]Finish off [QC8318]
+[G48.6,37.7Silithus]Turn in [QT8318 Secret Communication]
+
+Grind mobs at the twilight camps until you get 10 Encrypted Twilight Texts\\Turn in [QT8323 True Believers]
+
+[G50.59,34.45 Silithus]Fly to [F Un'Goro Crater]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 Guidelime.registerGuide([[
-[N59-60Winterspring/Silithus]
+[N59-60Winterspring]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
 
+Fly to Un'Goro Crater[OC]
+Turn in [QT3962] (7300xp) --It's Dangerous to Go Alone
+Fly to [F Tanaris][OC]
+Turn in [QT4507] (5450xp) \\Accept [QA4509] --Pawn Captures Queen
+[H]Hearth to Everlook
+Turn in [QT5163] (7750xp) --Are We There, Yeti? part 3
 
-Fly to [F Winterspring]
-Accept [QA5055 Brumeran of the Chillwind]\\
-Accept [QA969 Luck Be With You]
-Accept [QA977]
-High chief winterfall/2nd yeti quest
+[G65.2,20.3Winterspring]Kill [QC4721,1-]Berserk Owlbeast (x10)-->>Unitscan,Berserk Owlbeast
+Finish off/Turn in [QT4809][OC] (5450xp) \\Skip this quest if you have enough xp to ding from all the quest turn-ins from moonglade/Orgrimmar\\(about 35k xp total)
+Grind until you are [XP60-34640 34.5k] xp away from 60[OC]
+Fly to [F Moonglade]
 
+Turn in [QT6844] (3000xp) \\Accept [QA6845] --Umber, Archivist
+Turn in [QT6845] (7550xp) --Uncovering Past Secrets
+Turn in [QT5527] (6600xp) --A Reliquary of Purity
+Turn in [G44.87,35.62Moonglade][QA1185-][QT1185] (3000xp) --Under the Chitin Was...
+[O]Make sure you are 15.100xp away from level 60 before flying to Felwood, grind fulborgs in northern felwood if you have to--PLAYER_XP_UPDATE,QUEST_LOG_UPDATE,OnStepActivation,OnStepCompletion>>XpTo60h,Grind Fulborgs in northern felwood until you have enough XP to ding 60
+Fly to [F Felwood]
 
-Kill [QC5055,1-][O]Brumeran-->>Unitscan,Brumeran
-[G64.7,60.0Winterspring]Kill [QC4741,1-]Moontouched Owlbeast (x13)
-[QC969-][O]Loot the blue crystals around the outer perimeter of the canyon\\Use your pet to bait the giants away from the crystals
-[QC4842,1-]Head to Darkwhisper Gorge
-Once you finish all quests, die on purpose and respawn at Everlook[OC]
-
-[G61.9,38.4Winterspring]Turn in [QT969 Luck Be With You][O]
-[G61.9,38.4Winterspring]Turn in [QT5055 Brumeran of the Chillwind] \\Accept [QA5056]
-[G60.9,37.6Winterspring]Turn in [QT977 Are We There, Yeti?] \\Accept [QA5163]
-[G31.3,45.2Winterspring]Turn in [QT4842 Strange Sources]
+[G0.5,72.3Winterspring]Turn in [QT4721 Wild Guardians] (6400xp)
+Fly to [F Orgrimmar]
+[G56.5,46.4Orgrimmar]Turn in [QT4509 Calm Before the Storm] (550xp)\\
+Accept [QA4511 Calm Before the Storm]
+[G49.7,69.3Orgrimmar]Turn in [QT4511 Calm Before the Storm] (8150xp)
 ]], "Zarant")
 
 
+if not Guidelime.Zarant then return end
+
+local z = Guidelime.Zarant
+
+local IsOnQuest = C_QuestLog.IsOnQuest
+--local IsQuestFlaggedCompleted = C_QuestLog.IsQuestFlaggedCompleted
 
 
+function z:XpTo60h(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
+	if UnitLevel("player") ~= 59 or event == "OnStepCompletion" then
+		self.questXP = nil
+		return 
+	end
+	
+	if event == "QUEST_LOG_UPDATE" or not self.questXP then
+		local questXP = 0.0
+		if IsOnQuest(6844) then --Moonglade chain
+			questXP = questXP + 3000 + 7550 + 3000
+		elseif IsQuestFlaggedCompleted(6844) then
+			if not IsQuestFlaggedCompleted(6845) then
+				questXP = questXP + 7550
+			end
+			if not IsQuestFlaggedCompleted(1185) then
+				questXP = questXP + 3000
+			end
+		end
+
+		if z.IsQuestComplete(4507) then --pawn captures queen
+			questXP = questXP + 5450 + 550  + 8150
+		elseif IsQuestFlaggedCompleted(4507) then
+			if IsOnQuest(4509) then
+				questXP = questXP + 550 + 8150
+			elseif not IsQuestFlaggedCompleted(4511) and IsQuestFlaggedCompleted(4509) then
+				questXP = questXP + 8150
+			end
+		end
+
+		if z.IsQuestComplete(3962) then --It's dangerous to go alone
+			questXP = questXP + 7300
+		end
+
+		if z.IsQuestComplete(5163) then --Are we there yeti?
+			questXP = questXP + 7750
+		end
+
+		if z.IsQuestComplete(5527) then --A Reliquary of Purity
+			questXP = questXP + 6600
+		end
+
+		if z.IsQuestComplete(4721) then--Wild Guardians
+			questXP = questXP + 6400
+		elseif IsOnQuest(4721) then
+			questXP = questXP + 6400 + 3300
+		end
+		
+		
+		self.questXP = questXP
+	end
+	
+
+	local missingXP = UnitXPMax("player") - UnitXP("player") - self.questXP
+	if missingXP <= 0 then
+		self:SkipStep()
+		return
+	end
+	
+	local text = args[1] or ""
+	local element = self.step.elements[#self.step.elements]
+	
+	local questXP = FormatNumber(self.questXP)
+	element.text = string.format("%s\nYou have %s XP worth of quest turn ins outside Silithus\n    XP needed: %s + %s",text,questXP,z.FormatNumber(missingXP),questXP)
+
+
+	self:UpdateStep()
+
+end
