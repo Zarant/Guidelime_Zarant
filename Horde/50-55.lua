@@ -109,7 +109,7 @@ Guidelime.registerGuide([[
 [NX53-53Felwood]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
-[V][O]Withdraw the following items:\\Dran's Ripple Delivery\\Linken's Training Sword\\Box of Empty Vials-->>BankWithdraw,8685,11133,10695
+[V][O]Withdraw the following items:\\Dran's Ripple Delivery\\Linken's Training Sword\\Box of Empty Vials-->>BankWithdraw,8685,11133,10695,10687,10688,10689,10690
 [V][O]Deposit Tinkee's Letter in your bank-->>BankDeposit,12438
 [S]Set your HS to Orgrimmar
 [G56.4,46.5Orgrimmar]Accept [QA4494 March of the Silithid]

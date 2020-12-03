@@ -60,6 +60,7 @@ Accept [QA1188 Safety First]
 [V][O]Withdraw the following items from your bank:\\  Hippogryph Egg\\  Yeh'kinya's Bramble-->>BankWithdraw,8564,10699
 [V][O]Deposit the following items in your bank:\\  Fool's Stout Report\\  Bundle of Atal'ai Artifacts\\  Wildkin Muisek Vessel-->>BankDeposit,5807,6193,9618
 [G51.9,27.0Tanaris]Accept [QA2875 WANTED: Andre Firebeard]
+Accept [QA3362]
 [G51.0,27.3Tanaris]Turn in [QT1188 Safety First]
 [G50.2,27.5Tanaris]Accept [QA992 Gadgetzan Water Survey]
 
@@ -127,7 +128,7 @@ Accept [QA113 Insect Part Analysis]
 [G50.2,27.5Tanaris]Turn in [QT113 Insect Part Analysis]\\
 Accept [QA32 Rise of the Silithid]
 Fly to [F Dustwallow Marsh][OC]
-[G31.1,66.1Dustwallow Marsh]Turn in [QT624 Cortello's Riddle]\\
+[G31.1,66.1Dustwallow Marsh]Turn in [QT625 Cortello's Riddle]\\
 [G31.1,66.1Dustwallow Marsh]Accept [QA626 Cortello's Riddle]
 Die and spirit rez[OC]
 Fly to [F Thunder Bluff]
@@ -153,7 +154,7 @@ Guidelime.registerGuide([[
 [G73.2,32.8Undercity]Accept [QA2995 Lines of Communication]
 [G48.5,71.9Undercity]Accept [QA3568 Seeping Corruption]
 [G50.0,68.2Undercity]Turn in [QT864 Return to Apothecary Zinge]
-[V][O]Deposit *Box of Empty Vials* in your bank-->>BankDeposit,10695
+[V][O]Deposit *Box of Empty Vials* in your bank-->>BankDeposit,10695,10687,10688,10689,10690
 Fly to [F Tarren Mill]
 [OC]Kill birds in hinterlands-->>Unitscan,Razorbeak Skylord,Trained Razorbeak,Razorbeak Gryphon
 [V][O]Collect Long Elegant Feather (x10)-->>Collect,4589,10
@@ -167,62 +168,64 @@ Accept [QA77 A Sticky Situation]
 [G78.2,81.3The Hinterlands]Accept [QA7840 Lard Lost His Lunch]
 [G80.4,81.5The Hinterlands]Accept [QA7815 Snapjaws, Mon!]\\
 Accept [QA7816 Gammerita, Mon!]
-[G81.7,81.8The Hinterlands][P]Get The Hinterlands FP
+--[G81.7,81.8The Hinterlands][P]Get The Hinterlands FP
 Collect [QC580,1-][O]Pupellyverbos Port (x12)
 Kill [QC7816,1-][O]Gammerita-->>Unitscan,Gammerita
-[G76.2,73.4The Hinterlands]Kill [QC7815,1-]Saltwater Snapjaw (x15)
+Kill [QC7815,1-][O]Saltwater Snapjaw (x15)
 [G80.8,46.8The Hinterlands]Turn in [QT626 Cortello's Riddle]
 [G84.4,41.3The Hinterlands]Collect [QC7840,1-]Lard's Lunch
 
 
+[G80.3,81.4The Hinterlands]Turn in [QT7815 Snapjaws, Mon!]
+Turn in [QT7816 Gammerita, Mon!]
+[G78.2,81.3The Hinterlands]Turn in [QT7840 Lard Lost His Lunch]
 [G78.8,78.4The Hinterlands]Accept [QA7844 Cannibalistic Cousins]
 [G79.4,79.1The Hinterlands]Accept [QA7841 Message to the Wildhammer]
 [G79.1,79.5The Hinterlands]Accept [QA7828 Stalking the Stalkers]\\
 Accept [QA7829 Hunt the Savages]\\
 Accept [QA7830 Avenging the Fallen]
-[G78.2,81.3The Hinterlands]Turn in [QT7840 Lard Lost His Lunch]
-[G80.3,81.4The Hinterlands]Turn in [QT7815 Snapjaws, Mon!]
-Turn in [QT7816 Gammerita, Mon!]
-Fly to [F Tarren Mill][OC]
-[G61.5,19.2Hillsbrad Foothills]Turn in [QT2933 Venom Bottles]\\
-Accept [QA2934 Undamaged Venom Sac]
+Collect [QC7839,1-][O]Slagtree's Lost Tools\\It has 5 different possible spawn locations
+[G57.5,39.5The Hinterlands]Collect [QC77,1-]Hinterlands Honey Ripple (x10)
+[G26.7,48.6The Hinterlands]Turn in [QT77 A Sticky Situation]\\
+Accept [QA81 Ripple Delivery]
 [G29.6,48.7The Hinterlands][QC2995,2-]Burn the Highvale Notes
 [G28.6,46.1The Hinterlands][QC2995,3-]Burn the Highvale Report
 [G32.0,46.9The Hinterlands][QC2995,1-]Burn the Highvale Records
 Start the escort quest\\Accept [QA2742][O]\\ \\[QC2742-][O]Escort Rin'ji
 Finish off [QC7841]
-[G34.1,68.9,140The Hinterlands][QC2934,1-][O]Kill spiders in Shadra'Alor
 [G33.7,75.1The Hinterlands]Turn in [QT1429 The Atal'ai Exile] \\Accept [QA1444 Return to Fel'Zerul]
 [G40.0,59.9The Hinterlands]Collect [QC2641,1-]Violet Tragan
+
+
+[G79.3,79.1The Hinterlands]Turn in [QT7841 Message to the Wildhammer]\\
+Accept [QA7842 Another Message to the Wildhammer]
+Turn in [QT7842 Another Message to the Wildhammer]\\
+Accept [QA7843 The Final Message to the Wildhammer]
+
+[G14.4,48.1The Hinterlands][QC7843,1-]Message to the Wildhammer Delivered
 Kill [QC7829,1-][O]Savage Owlbeast (x20)
 Collect [QC7830,1-][O]Skylord Plume-->>Unitscan,Razorbeak Skylord
 [L45.2,66.4The Hinterlands]Do [QC7844][O]
 Kill [QC7828,2-]Silvermane Howler (x15)
-Collect [QC7839,1-][O]Slagtree's Lost Tools\\It has 5 different possible spawn locations
-[G57.5,39.5The Hinterlands]Collect [QC77,1-]Hinterlands Honey Ripple (x10)
-[G70.9,62.4The Hinterlands]Kill [QC7828,1-]Silvermane Stalker (x15)
+[G70.9,62.4The Hinterlands]Kill [QC7828,1-][O]Silvermane Stalker (x15)
+
+[G49.3,37.7The Hinterlands]Turn in [QA485-][QT485 Find OOX-09/HL!]\\Skip this step if you haven't found the Distress Beacon
+Start the chicken escort\\Accept [QA836 Rescue OOX-09/HL!]
+[QC836-]Escort the robot chicken
+
 [G86.3,59.0The Hinterlands]Turn in [QT2742 Rin'ji is Trapped!]\\
 Accept [QA2782 Rin'ji's Secret]
 
 [G77.2,80.2The Hinterlands]Turn in [QT7839 Vilebranch Hooligans]
 [G78.8,78.4The Hinterlands]Turn in [QT7844 Cannibalistic Cousins]
-[G79.3,79.1The Hinterlands]Turn in [QT7841 Message to the Wildhammer]\\
-Accept [QA7842 Another Message to the Wildhammer]
-Turn in [QT7842 Another Message to the Wildhammer]\\
-Accept [QA7843 The Final Message to the Wildhammer]
 [G79.1,79.5The Hinterlands]Turn in [QT7828 Stalking the Stalkers]\\
 Turn in [QT7829 Hunt the Savages]\\
 Turn in [QT7830 Avenging the Fallen]
 
-[G14.4,48.1The Hinterlands][QC7843,1-]Message to the Wildhammer Delivered
-[G26.7,48.6The Hinterlands]Turn in [QT77 A Sticky Situation]\\
-Accept [QA81 Ripple Delivery]
-[G49.3,37.7The Hinterlands]Turn in [QA485-][QT485 Find OOX-09/HL!]\\Skip this step if you haven't found the Distress Beacon
-Start the chicken escort\\Accept [QA836 Rescue OOX-09/HL!]
-[QC836-]Escort the robot chicken
+
 [G79.4,79.1The Hinterlands]Turn in [QT7843 The Final Message to the Wildhammer]
 Fly to [F Tarren Mill][OC]
-[G61.5,19.1Hillsbrad Foothills]Turn in [QT2934 Undamaged Venom Sac]
+[G61.5,19.2Hillsbrad Foothills]Turn in [QT2933 Venom Bottles]
 Fly to [F Undercity]
 [L71.7,29.2Undercity]Do the Undercity cloth turn ins:\\[QA7813-][O][QT7813-][O]Wool \\[QA7814-][O][QT7814-][O]Silk \\[QA7817-][O][QT7817-][O]Mageweave
 [G73.5,32.7Undercity]Turn in [QT2995 Lines of Communication]\\

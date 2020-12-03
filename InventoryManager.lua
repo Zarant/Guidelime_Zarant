@@ -145,6 +145,21 @@ function z.DepositItems(itemList)
 	else
 		return
 	end
+	
+	local text = ""
+	for _,item in ipairs(itemList) do
+		local id = tonumber(item) or item
+		local name = GetItemInfo(id) or id
+		if name then
+			if text == "" then
+				text = "Attempting to deposit: "..name
+			else
+				text = text..", "..name
+			end
+		end
+	end
+	print(text)
+	
 	z.GoThroughBags(itemList,function(bag,slot,bagContents)
 		PickupContainerItem(bag,slot)
 		z.PutItemInBank(bagContents)
@@ -216,6 +231,21 @@ function z.WithdrawItems(itemList)
 	else
 		return
 	end
+	
+	local text = ""
+	for _,item in ipairs(itemList) do
+		local id = tonumber(item) or item
+		local name = GetItemInfo(id) or id
+		if name then
+			if text == "" then
+				text = "Attempting to withdraw: "..name
+			else
+				text = text..", "..name
+			end
+		end
+	end
+	print(text)
+	
 	z.GoThroughBank(itemList,function(bag,slot,bagContents)
 		PickupContainerItem(bag,slot)
 		z.PutItemInBags(bagContents)
