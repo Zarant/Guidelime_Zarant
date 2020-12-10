@@ -8,6 +8,7 @@ Guidelime.registerGuide([[
 [V][O]Deposit the following items:\\Torwa's Pouch\\Linken's Training Sword\\Stone Circle-->>BankDeposit,11568,11133,10556
 [V][O]Withdraw the follow items:\\Fool's Stout Report\\Stoley's Bottle\\Pupellyverbos Port-->>BankWithdraw,5807,9245,3900
 --[S]Set your HS to Ratchet
+[G62.5,38.7The Barrens]Turn in [QT4147 Marvon's Workshop]
 [G62.5,38.7The Barrens]Accept [QA4502 Volcanic Activity]
 [G62.5,38.6The Barrens]Collect [QC3444,1-]Stone Circle
 [OC]Take the boat to Booty Bay-->>ZoneSkip,Stranglethorn Vale
@@ -30,7 +31,6 @@ Turn in [QA2585-][QT2585] once you have:\\3 Scorpok Pincer\\2 Vulture Gizzard\\1
 [OC]Collect the following items:\\    12 Vulture Gizzard\\    11 Basilisk Brain\\    3 Scorpok Pincer\\    5 Blasted Boar Lung\\    5 Snickerfang Jowl --BAG_UPDATE,OnStepActivation>>BlastedLandsQuests
 Turn in [QA2583-][QT2583 A Boar's Vitality] \\Turn in [QA2581-][QT2581 Snickerfang Jowls] \\Turn in [QA2601-][QT2601 The Basilisk's Bite] \\Turn in [QA2603-][QT2603 Vulture's Vigor]
 [G46.1,54.8Swamp of Sorrows]Fly to [F Badlands]-->>LoadNextGuide
-
 ]],"Zarant")
 
 
@@ -39,7 +39,7 @@ Guidelime.registerGuide([[
 [NX52-53Azshara]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
-[G3.4,48.1Badlands]Accept [QA3821 Dreadmaul Rock]
+[G3.4,48.1Badlands]Accept [QA3821 Dreadmaul Rock]\\Skip this quest if the NPC is not there
 [G65.5,62.2Searing Gorge]Accept [QA4449 Caught!]
 [L63.2,60.7Searing Gorge][L69.1,34.1Searing Gorge]Kill [QC4449,1-]Dark Iron Geologist (x8)
 [G39.1,39.0Searing Gorge]Accept [QA3441 Divine Retribution] 
@@ -82,7 +82,7 @@ Turn in [QT4451 The Key to Freedom]
 
 [L38.9,39.0Searing Gorge]Turn in [QT3463][O] \\Accept [QA3481][O]\\ \\Open the Hoard of the Black Dragonflight and keep the Black Dragonflight Molt
 Turn in [QT7727 Incendosaurs? Whateverosaur is More Like It] \\Turn in [QT7729 JOB OPPORTUNITY: Culling the Competition] \\Turn in [QT7722 What the Flux?]
-
+[XP52 Grind to level 52]
 
 [G53.8,76.9,20Searing Gorge][G56.5,84.8,20Searing Gorge][G65.7,24.2,60Burning Steppes]Head to Burning Steppes-->>ZoneSkip,Burning Steppes
 [G65.7,24.2Burning Steppes][P]Get the Burning Steppes FP
@@ -90,17 +90,16 @@ Turn in [QT7727 Incendosaurs? Whateverosaur is More Like It] \\Turn in [QT7729 J
 [G65.3,23.8Burning Steppes]Accept [QA4296 Tablet of the Seven]
 [QC4726-][O]Use the quest item on whelps and kill them
 [G54.1,40.7Burning Steppes]Collect [QC4296,1-]Tablet Transcript
-[G79.8,45.6Burning Steppes]Turn in [QT3821 Dreadmaul Rock]\\
-Accept [QA3822 Krom'Grul]
-Do [QC3822]\\He has a random spawn location-->>Unitscan,Krom'Grul
+[G79.8,45.6Burning Steppes]Turn in [QT3821 Dreadmaul Rock]
+--Accept [QA3822 Krom'Grul]
+--Do [QC3822]\\He has a random spawn location-->>Unitscan,Krom'Grul
 [G95.09,31.56Burning Steppes]Turn in [QA4022-][O][QT4022][O] \\Skip this step if you don't have the Black Dragonflight Molt
 [G65.3,23.8Burning Steppes]Turn in [QT4726 Broodling Essence]\\
 Accept [QA4808 Felnok Steelspring]\\
 Turn in [QT4296 Tablet of the Seven]
-Fly to [F Badlands]
-[G3.4,48.1Badlands]Turn in [QT3822 Krom'Grul]
+--Fly to Badlands\\[G3.4,48.1Badlands]Turn in [QT3822 Krom'Grul]
 [H]Use your hearthstone[OC]
-Fly to [F Orgrimmar]-->>LoadNextGuide
+Fly to [F Orgrimmar]-->>ZoneSkip,Orgrimmar,1
 ]],"Zarant")
 
 
@@ -114,7 +113,7 @@ Guidelime.registerGuide([[
 [S]Set your HS to Orgrimmar
 [G56.4,46.5Orgrimmar]Accept [QA4494 March of the Silithid]
 [G59.4,36.9Orgrimmar]Turn in [QT81 Ripple Delivery]
---[G55.6,34.2Orgrimmar]Accept [QA4300 Bone-Bladed Weapons]
+[G55.6,34.2Orgrimmar]Turn in [QT4300 Bone-Bladed Weapons]
 [G75.0,34.3Orgrimmar]Accept [QA3504 Betrayed]
 [A Hunter][T][O]Make you have fire resistance maxed out on your pet
 [A Hunter][G66.0,18.6Orgrimmar]Accept [QA8151 The Hunter's Charm]
@@ -146,6 +145,8 @@ Do [QC3517]
 [G48.7,48.5Azshara]Collect [QC3568,3-]Filled Vial Labeled #3
 [G47.5,46.2Azshara]Collect [QC3568,4-]Filled Vial Labeled #4
 Turn in [QT5534 Kim'jael's "Missing" Equipment]
+[XP53 Grind blood elves to level 53]
+[A Hunter]Turn in [QT8153]
 [G22.6,51.4Azshara]Turn in [QT3517 Stealing Knowledge]\\
 Accept [QA3561 Delivery to Archmage Xylem]\\
 Accept [QA3518 Delivery to Magatha]\\
@@ -171,19 +172,19 @@ Head to Felwood[OC]
 [G50.9,81.7Felwood]Accept [QA5156 Verifying the Corruption]
 [G51.2,82.1Felwood]Accept [QA5155 Forces of Jaedenar]
 [G46.7,83.3Felwood]Accept [QA4102 Cleansing Felwood]
+[O]Collect Felwood Slime Sample (x30)-->>Collect,12230
 Do [QC5155]
 [G34.8,52.7Felwood]Accept [QA6162 A Husband's Last Battle]
 [G34.2,52.3Felwood]Accept [QA4505 Well of Corruption]
 [G34.4,53.9Felwood][P]Get the Felwood FP
 [G32.3,66.6Felwood]Collect [QC4505,1-]Filled Flasket
 
-[G51.2,82.2Felwood]Turn in [QT5155 Forces of Jaedenar]\\
-Accept [QA5157 Collection of the Corrupt Water]
-
 [G48.2,94.3Felwood]Collect [QC6162,1-]Overlord Ror's Claw
 Finish off [QC8460]
 [G51.0,85.0Felwood]Turn in [QT8460 Timbermaw Ally]\\
 Accept [QA8462 Speak to Nafien]
+[G51.2,82.2Felwood]Turn in [QT5155 Forces of Jaedenar]\\
+Accept [QA5157 Collection of the Corrupt Water]
 
 [G35.2,59.8Felwood]Collect [QC5157,1-]Corrupt Moonwell Water
 Do [QC5156]
@@ -213,7 +214,7 @@ Accept [QA5158 Seeking Spiritual Aid]
 [G46.6,83.0Felwood]Turn in [QT4102 Cleansing Felwood]
 [G46.6,83.0Felwood]Make sure you have a Cenarion Beacon-->>Collect,11511,1
 [H]Hearth back to Org
-Deposit the following items:\\Filled Vial Labeled #1-4-->>BankWithdraw,10691,10692,10693,10694
+Deposit the following items:\\Filled Vial Labeled #1-4\\Cenarion Beacon\\Corrupt Moonwell Water\\Felwood Slime Sample-->>BankDeposit,10691,10692,10693,10694,11511,12907,12230
 Turn in [QT3541 Delivery to Jes'rimon]\\
 Accept [QA3563 Jes'rimon's Payment to Jediga]
 Accept [QA4300]
@@ -221,6 +222,7 @@ Accept [QA4300]
 
 Fly to [F Camp Taurajo]-->>LoadNextGuide
 ]],"Zarant")
+
 
 Guidelime.registerGuide([[
 [N53-54Un'Goro Crater]
@@ -238,6 +240,7 @@ Fly to [F Un'Goro Crater]
 [G12.7,5.9Tanaris]Accept [QA3883 Alien Ecology]
 [G12.5,6.0Tanaris]Accept [QA3882 Roll the Bones]
 [G41.9,2.7Un'Goro Crater]Accept [QA4288 The Western Pylon]
+Accept [QA4285 The Northern Pylon]
 [G12.5,6.5Tanaris]Accept [QA4492 Lost!]\\
 Accept [QA4501 Beware of Pterrordax]
 [G12.8,8.1Tanaris]Accept [QA4503 Shizzle's Flyer]
@@ -245,6 +248,7 @@ Accept [QA4145 Larion and Muigin]
 [QC4145,1-][O][QC4145,4-][O]Kill Lashers/Threshers northeast
 [QC3882,1-][O][QC4503,1-][O]Kill Diametradons
 [L56.9,9.2Un'Goro Crater][L56.4,90.4Un'Goro Crater][L44.2,90.3Un'Goro Crater][QC4501-][O][QC4503,2-][O]Kill Pterrordaxes
+[G56.5,12.7Un'Goro Crater][QC4285,1-]Click the Northern Crystal Pylon
 Do [QC4289]--apes
 [G68.5,36.6Un'Goro Crater]Collect [QC3881,1-]Crate of Foodstuffs
 [QC4300,1-][O]Kill Raptors
@@ -252,7 +256,6 @@ Do [QC4289]--apes
 [G71.6,76.0Un'Goro Crater]Turn in [QT4289 The Apes of Un'Goro]\\
 Accept [QA4301 The Mighty U'cha]\\
 Turn in [QT4292 The Bait for Lar'korwi]
-Finish off [QC4300]
 [QC4145,3-][O]Kill Flayers south of the volcano
 [G48.7,85.2Un'Goro Crater]Collect [QC3883,1-]Hive Wall Sample
 Finish off [QC4496]
@@ -273,14 +276,14 @@ Start the escort quest\\Accept [QA4491 A Little Help From My Friends]
 Turn in [QA3884-][O][QT3884][O] if you managed to find the mangled journal
 [G43.9,7.3Un'Goro Crater]Turn in [QT3883 Alien Ecology]\\Turn in [QT3881 Expedition Salvation]
 [G41.9,2.7Un'Goro Crater]Turn in [QT4288 The Western Pylon]\\
-Accept [QA4285 The Northern Pylon]\\
+Turn in [QT4285 The Northern Pylon]\\
 Accept [QA4287 The Eastern Pylon]
 [G45.5,8.7Un'Goro Crater]Turn in [QT4145 Larion and Muigin]\\
 Accept [QA4147 Marvon's Workshop]
 [G44.2,11.6Un'Goro Crater]Turn in [QT4503 Shizzle's Flyer]
 [G46.3,13.5Un'Goro Crater]Accept [QA4243 Chasing A-Me 01]
 
-[G56.5,12.7Un'Goro Crater][QC4285,1-]Click the Northern Crystal Pylon
+--[G56.5,12.7Un'Goro Crater][QC4285,1-]Click the Northern Crystal Pylon
 [G67.6,16.7Un'Goro Crater]Turn in [QT4243 Chasing A-Me 01]
 [G68.2,12.6Un'Goro Crater]Collect [QC4301,1-]U'cha's Pelt
 [G77.1,49.9Un'Goro Crater][QC4287,1-]Click the Eastern Crystal Pylon
@@ -289,6 +292,7 @@ Head to tanaris, die and spirit rez at Gadgetzan[OC]
 [G50.9,27.0Tanaris]Turn in [QT4496 Bungle in the Jungle]
 
 Fly to [F Feralas]
+Turn in [QT4120]
 [G77.4,36.9Feralas]Pull mobs and die on purpose to go through the DM East back entrance as a ghost\\
 [G76.4,35.9Feralas]Zone into dire maul and then zone out, this is a pre requisite for a quest later
 [G45.12,25.56Feralas]Buy some bait from Gregan-->>Collect,11141,1
@@ -315,9 +319,10 @@ Guidelime.registerGuide([[
 [NX57-58WPL/EPL part 1]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
-
-[G62.5,38.7The Barrens]Turn in [QT4502 Volcanic Activity]\\
-Turn in [QT4147 Marvon's Workshop]
+[V][O]Deposit the following items:\\Un'Goro Slime Sample-->>BankDeposit,12235
+[V][O]Withdraw the following items:\\Cenarion Beacon\\Corrupt Moonwell Water-->>BankWithdraw,11511,12907
+[G62.5,38.7The Barrens]Turn in [QT4502 Volcanic Activity]
+[G62.5,38.7The Barrens]Turn in [QT4147 Marvon's Workshop]
 [G65.8,43.8The Barrens]Turn in [QT5158 Seeking Spiritual Aid]\\
 Accept [QA5159 Cleansed Water Returns to Felwood]
 --Fly to [F Orgrimmar]
@@ -391,7 +396,7 @@ Fly to [F Un'Goro Crater]
 
 [G13.1,6.4Tanaris]Turn in [QT3914 Linken's Sword]\\
 Accept [QA3941 A Gnome's Assistance]
-[G11.6,3.4Tanaris]Turn in [QT4285 The Northern Pylon]\\
+[G11.6,3.4Tanaris]Turn in [QT4285 The Northern Pylon]
 Turn in [QT4287 The Eastern Pylon]
 [G11.6,3.4Tanaris]Turn in [QT3941 A Gnome's Assistance]\\
 Accept [QA3942 Linken's Memory]
@@ -401,6 +406,7 @@ Collect [QC4504,1-]Super Sticky Tar (x12)
 Fly to [F Tanaris]
 [G51.6,26.8Tanaris]Turn in [QT4504 Super Sticky]
 [H][OC]Hearth to Winterspring
+Accept [QA6029]\\Accept [QA6030]\\Accept [QA5061]
 Fly to [F Felwood]
 [G34.7,52.7Felwood]Turn in [QT4521 Wild Guardians]\\
 Accept [QA4741 Wild Guardians]

@@ -80,7 +80,7 @@ Accept [QA3362]
 Loot [QC2873] upstairs
 [QC8365-][QC8366-]Kill more pirates
 Grind pirates until you find a distress beacon\\Accept [QA351][O]\\Skip this step and grind an extra 5% xp if you don't find it
-[XP46.8 Grind until you are 20% away from level 47]
+[XP47.5 Grind to level 47+50%]\\Make sure you have enough mageweave to do the Thunder Bluff+Orgrimmar+Darkspear cloth turn ins (9 stacks)
 Grind until your HS is off cooldown\\[H]Hearth back to Gadgetzan
 [G39.1,29.3Tanaris]Collect [QC992,1-]Tapped Dowsing Widget
 Turn in [QT992 Gadgetzan Water Survey]\\
@@ -138,11 +138,14 @@ Fly to [F Thunder Bluff]
 [QA7821-][O][QT7821-][O]Silk\\
 [QA7822-][O][QT7822-][O]Mageweave
 [G61.5,80.9Thunder Bluff]Turn in [QT1205 Deadmire]
-Fly to [F Orgrimmar]
+Fly to [F Orgrimmar][O]
+[L37.8,87.8Orgrimmar]Do the Darkspear cloth turn ins:\\[QA7833-][O][QT7833-][O]Wool\\[QA7834-][O][QT7834-][O]Silk \\[QA7835-][O][QT7835-][O]Mageweave
+[L63.4,51.0Orgrimmar]Do the Orgrimmar cloth turn-ins:\\[QA7826-][O][QT7826-][O]Wool\\[QA7827-][O][QT7827-][O]Silk\\[QA7831-][O][QT7831-][O]Mageweave
 [G56.4,46.5Orgrimmar]Turn in [QT32 Rise of the Silithid]
 [G59.4,36.7Orgrimmar]Accept [QA649 Ripple Recovery]
 [G59.5,36.8Orgrimmar]Turn in [QT649 Ripple Recovery]\\
 Accept [QA650 Ripple Recovery]
+Accept [QA4300]
 Take the Zeppelin to Undercity-->>ZoneSkip,Tirisfal Glades,1
 ]],"Zarant")
 
@@ -230,7 +233,8 @@ Fly to [F Undercity]
 [L71.7,29.2Undercity]Do the Undercity cloth turn ins:\\[QA7813-][O][QT7813-][O]Wool \\[QA7814-][O][QT7814-][O]Silk \\[QA7817-][O][QT7817-][O]Mageweave
 [G73.5,32.7Undercity]Turn in [QT2995 Lines of Communication]\\
 Turn in [QT2782 Rin'ji's Secret]\\Turn in [QA8273-][QT8273]
---[G47.4,73.1Undercity]Accept [QA4293 A Sample of Slime...]
+[G47.4,73.1Undercity]Accept [QA4293 A Sample of Slime...]
+
 
 [H]Hearth to Tanaris
 [V][O]Deposit the following items:\\Pupellyverbos Port\\Dran's Ripple Delivery-->>BankDeposit,3900,8685
@@ -309,7 +313,7 @@ Run to Un'goro Crater\\Accept [QA4289] \\Accept [QA4290]
 Save Un'Goro Soil, you will need 25 later[OC]
 [O]As you quest through Un'Goro, loot 7 crystals of each color--BAG_UPDATE>>Crystals_Tanaris49
 [G27.5,42.8Tanaris]Accept [QA4289 The Apes of Un'Goro]\\
-Accept [QA4290 The Fare of Lar'korwi]\\
+Accept [QA4290 The Fare of Lar'korwi]
 [G63.1,68.6Un'Goro Crater]Accept [QA3844 It's a Secret to Everybody]
 [G63.1,69.0Un'Goro Crater]Turn in [QT3844 It's a Secret to Everybody]\\
 Accept [QA3845 It's a Secret to Everybody]
@@ -319,10 +323,17 @@ Accept [QA4291 The Scent of Lar'korwi]
 Do [G67.3,73.1Un'Goro Crater][G66.6,66.7Un'Goro Crater][QC4291] by stepping on a raptor nest
 Turn in [QT4291 The Scent of Lar'korwi]\\
 Accept [QA4292 The Bait for Lar'korwi]
+Finish off [QC4300]
 [QC3845-]Open the small pack in your inventory [OC]
 [G44.7,8.1Un'Goro Crater]Turn in [QT3845 It's a Secret to Everybody]\\
 Accept [QA3908 It's a Secret to Everybody]
+[G45.5,8.7Un'Goro Crater]Accept [QA4145 Larion and Muigin]
+[G39.8,24.0Un'Goro Crater]Kill [QC4145,2-]Bloodpetal Trapper (x5)
+Finish off [QC4145] in northeastern Un'Goro
+Turn in [QT4145 Larion and Muigin]\\
+Accept [QA4147 Marvon's Workshop]
 [G41.9,2.7Un'Goro Crater]Turn in [QA4284-][QT4284 Crystals of Power]
 [S]Fly to Crossroads and set your HS to crossroads\\OR\\Use the website unstuck request and set your HS to Orgrimmar
+Turn in [QT4300]-->>ZoneSkip,The Barrens
 Fly to [F Ratchet]-->>LoadNextGuide
 ]],"Zarant")

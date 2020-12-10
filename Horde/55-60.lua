@@ -4,20 +4,24 @@ Guidelime.registerGuide([[
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
 [V][O]Deposit the following items:\\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head-->>BankDeposit,17355,11511,11172,11173,13207,13562
-Withdraw the following items:\\Filled Vial Labeled #1-4\\Tablet of Markri-->>BankWithdraw,10691,10692,10693,10694,10540
+Withdraw the following items:\\Filled Vial Labeled #1-4\\Tablet of Markri\\Un'Goro Slime Sample\\Felwood Slime Sample-->>BankWithdraw,10691,10692,10693,10694,10540,12235,12230
 Take the Zeppelin to Undercity[OC]-->>ZoneSkip,Undercity
 [G67.7,38.1Undercity][S]Set your HS to Undercity
 Accept [QA5093 A Call to Arms: The Plaguelands!][O]
 [G54.7,75.7Undercity]Turn in [QT3542 Delivery to Andron Gant]\\
---Accept [QA3564 Andron's Payment to Jediga]
+Accept [QA3564 Andron's Payment to Jediga]
 [G48.4,71.5Undercity]Turn in [QT3568 Seeping Corruption]\\
 Accept [QA3569 Seeping Corruption]
 [G48.8,70.8Undercity]Turn in [QT3569 Seeping Corruption]
+[G47.7,73.5Undercity][QC4293-][O]Use the Felwood test equipment
+Turn in [QT4293]
+
+
 [G57.9,91.8Undercity]Accept [QA5961 The Champion of the Banshee Queen]
 Run outside and head to the WPL border\\
-[G83.1,69.0Tirisfal Glades]Turn in [QT5093 A Call to Arms: The Plaguelands!]\\
-Accept [QA5096 Scarlet Diversions]
-[G83.1,69.0Tirisfal Glades]Loot the box on the ground right next to the NPC you just spoke with-->>Collect,12814,1
+Turn in [QT5093 A Call to Arms: The Plaguelands!][OC]
+[G83.1,69.0Tirisfal Glades]Accept [QA5096 Scarlet Diversions]
+[G83.1,69.0Tirisfal Glades][V]Loot the box on the ground right next to the NPC you just spoke with-->>Collect,12814,1
 [G83.2,68.5Tirisfal Glades]Turn in [QT6029 The Everlook Report]
 [G40.7,52.0Western Plaguelands][QC5096,1-]Destroy the tent and plant the banner
 [G26.5,56.1Western Plaguelands]Turn in [QT5096 Scarlet Diversions]\\
@@ -78,8 +82,7 @@ Accept [QA5543 Blood Tinged Skies]\\
 Accept [QA5544 Carrion Grubbage]
 [G26.6,74.7Eastern Plaguelands]Turn in [QT5961 The Champion of the Banshee Queen]\\
 Accept [QA6022 To Kill With Purpose]\\
-Accept [QA6042 Un-Life's Little Annoyances]\\
-Accept [QA6133 The Ranger Lord's Behest]
+Accept [QA6042 Un-Life's Little Annoyances]
 
 [QC5544-]Kill worms as you go along[O]
 [QC5543-]Kill Plaguebats[O]
@@ -102,8 +105,6 @@ Get the [P Eastern Plaguelands] FP
 Kill [QC6042,2-][O]Monstrous Plaguebat (x10)
 [QC5211-][O]Kill all ghouls you encounter-->>Unitscan,Cannibal Ghoul
 [QC5542,3-][O]Kill Frenzied Plaguehounds
-[G51.2,19.1,120Eastern Plaguelands]Do [QC6133][O]
-[G52.2,18.4Eastern Plaguelands]Collect [QC6133,4-]Quel'Thalas Registry
 
 [QC5901-]Look for termite mounds around Plaguewood
 Turn in [QT5281 The Restless Souls]
@@ -118,7 +119,7 @@ Accept [QA5742 Redemption]
 [QC5742-]Sit down and listen to his story-->>SkipGossip
 Turn in [QT5742 Redemption] \\Accept [QA5781 Of Forgotten Memories]
 [G26.6,74.7Eastern Plaguelands]Turn in [QT6042 Un-Life's Little Annoyances]\\
-Turn in [QT6133 The Ranger Lord's Behest]
+Accept [QA6133 The Ranger Lord's Behest]
 
 Enter the crypt and slay [QC6021 Zaeldarr the Outcast]
 Click on the scroll on the ground\\Accept [QA6024 Hameya's Plea]
@@ -155,9 +156,12 @@ Accept [QA5902 A Plague Upon Thee]
 Turn in [QT5210 Brother Carlin] \\Accept [QA5168 Heroes of Darrowshire] \\Accept [QA5181 Villains of Darrowshire]
 Turn in [QT6021 Zaeldarr the Outcast]
 Do [G71.29,33.95 Eastern Plaguelands][QC5845 Of Lost Honor]
-[QC6024-]Kill Infiltrator Hameya, he patrols around the troll temple
+[QC6024-]Kill Infiltrator Hameya, he patrols around the troll temple-->>Unitscan,Infiltrator Hameya
+[G51.2,19.1,120Eastern Plaguelands]Do [QC6133][O]
+[G52.2,18.4Eastern Plaguelands]Collect [QC6133,4-]Quel'Thalas Registry
 [G51.11,49.94 Eastern Plaguelands][QC5181,1-]Loot Horgus' Skull underwater
 Finish off [G53.91,65.76 Eastern Plaguelands][QC5181 Villains of Darrowshire]
+Turn in [QT6133 The Ranger Lord's Behest]
 Click on the mound of dirt next to the wooden cart\\Turn in [QT6024 Hameya's Plea]
 Turn in [QT5845 Of Lost Honor] \\Accept [QA5846 Of Love and Family]
 
@@ -198,7 +202,7 @@ Guidelime.registerGuide([[
 [NX59-60Winterspring]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
-[L37.8,87.8Orgrimmar]Do the Darkspear trolls cloth turn ins
+[G37.8,87.8Orgrimmar]Do the Darkspear cloth turn ins:\\[QA7833-][O][QT7833-][O]Wool \\[QA7834-][O][QT7834-][O]Silk \\[QA7835-][O][QT7835-][O]Mageweave\\[QA78356][O][QT7836-][O]Runecloth
 Fly to [F Azshara][OC]
 [G22.5,51.4Azshara]Turn in [QT3564 Andron's Payment to Jediga]
 Fly to [F Winterspring]
@@ -242,7 +246,8 @@ Accept [QA4005 Aquementas]
 Fly to [F Thunder Bluff]
 [O][L43.1,42.8Thunder Bluff]Do the Thunder Bluff cloth turn-ins
 [G75.8,31.2Thunder Bluff]Turn in [QT4987 Glyphed Oaken Branch]
-
+Fly to [F Tanaris]
+Accept [QA4504 Super Sticky]
 [G51.1,26.9Tanaris][QC5163,2-]Scare Sprinkle
 [G50.9,27.0Tanaris]Accept [QA4507 Pawn Captures Queen]
 [G70.4,49.9Tanaris]Collect [QC4005,1-]Silver Totem of Aquementas
@@ -252,6 +257,7 @@ Accept [QA3961 Linken's Adventure]
 [G13.1,6.4Tanaris]Turn in [QT3961 Linken's Adventure]\\
 Accept [QA3962 It's Dangerous to Go Alone]
 [G43.7,9.4Un'Goro Crater][QC5163,3-]Scare Quixxil
+Do [QC4504]
 [G50.2,50.0Un'Goro Crater]Collect [QC3962,2-][O]Golden Flame
 Kill [QC3962,1-][O]Blazerunner
 [G50.0,81.5,30Un'Goro Crater]Head south towards the silithid hive\\
@@ -336,6 +342,7 @@ Fly to Un'Goro Crater[OC]
 Turn in [QT3962] (7300xp) --It's Dangerous to Go Alone
 Fly to [F Tanaris][OC]
 Turn in [QT4507] (5450xp) \\Accept [QA4509] --Pawn Captures Queen
+Turn in [QT4504 Super Sticky] (5450xp)
 [H]Hearth to Everlook
 Turn in [QT5163] (7750xp) --Are We There, Yeti? part 3
 
@@ -385,7 +392,11 @@ function z:XpTo60h(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 				questXP = questXP + 3000
 			end
 		end
-
+		
+		if z.IsQuestComplete(4504) then --super sticky
+			questXP = questXP + 5450
+		end
+		
 		if z.IsQuestComplete(4507) then --pawn captures queen
 			questXP = questXP + 5450 + 550  + 8150
 		elseif IsQuestFlaggedCompleted(4507) then

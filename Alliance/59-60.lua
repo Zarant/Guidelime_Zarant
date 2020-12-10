@@ -51,6 +51,7 @@ Run south to Ashenvale unstuck and spirit rez at Astranaar[OC]
 Fly to [F Tanaris]
 Accept [QA4507]
 [QC5163,2-]Use the Mechanical Yeti on Sprinkle
+Accept [QA4504 Super Sticky]
 [G70.43,49.93Tanaris]Head to the pirate area\\Right click on Eridan's Supplies\\Use the book of Aquor to summon [QC4005]
 
 Head back to Gadgetzan\\Fly to [F Un'Goro Crater]
@@ -58,9 +59,10 @@ Turn in [QT4005] \\Accept [QA3961]
 Turn in [QT3961] \\Accept [QA3962]
 [G43.67,9.38 Un'Goro Crater][QC5163,3-]Use the Mechanical Yeti on Quixxil
 --[QC4513-][O]Kill slimes as you go along, use the sample jar on their corpses
-[QC3962,1-]Equip the Silver Totem of Aquementas on your off-hand\\Use it on Blazerunner at the top of the volcano
-[G50.28,49.98 Un'Goro Crater][QC3962,2-]Click on the chest at the back of the cave
-Head south and enter the bug hole\\[L44.13,81.41 Un'Goro Crater]Use the *Gorishi Queen Lure* after clearing the circular room\\[QC4507-]Clear all 3 waves of mobs
+Finish off [QC4504]
+[G50.28,49.98 Un'Goro Crater][QC3962,2-][O]Click on the chest at the back of the cave
+[QC3962,1-][O]Equip the Silver Totem of Aquementas on your off-hand\\Use it on Blazerunner at the top of the volcano
+Head south and enter the bug hole\\[G44.13,81.41 Un'Goro Crater]Use the *Gorishi Queen Lure* after clearing the circular room\\[QC4507-]Clear all 3 waves of mobs
 [G88.40,23.81,60 Silithus]Head to Silithus
 
 Turn in [QT1124] \\Accept [QA1125]
@@ -145,6 +147,7 @@ Fly to Un'Goro Crater[OC]
 Turn in [QT3962] (7300xp) --It's Dangerous to Go Alone
 Fly to [F Tanaris][OC]
 Turn in [QT4507] (5450xp) \\Accept [QA4508] --Pawn Captures Queen
+Turn in [QT4504 Super Sticky] (5450xp)
 [H]Hearth to Everlook
 Turn in [QT5163] (7750xp) --Are We There, Yeti? part 3
 Finish off/Turn in [QT4809][OC] (5450xp) \\Skip this quest if you have enough xp to ding from all the quest turn-ins from moonglade/darnassus\\(about 35k xp total)
@@ -249,6 +252,10 @@ function z:XpTo60(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 			elseif not IsQuestFlaggedCompleted(4510) and IsQuestFlaggedCompleted(4508) then
 				questXP = questXP + 8150
 			end
+		end
+		
+		if z.IsQuestComplete(4504) then --super sticky
+			questXP = questXP + 5450
 		end
 
 		if z.IsQuestComplete(3962) then --It's dangerous to go alone

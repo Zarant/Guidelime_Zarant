@@ -755,7 +755,7 @@ function Guidelime.Zarant.BankWithdraw(self,args,event)
 			end
 		end
 	else
-		if  Guidelime.Zarant.IsItemInBags(self.items) then
+		if  Guidelime.Zarant.IsItemInBags(self.items) or Guidelime.Zarant.IsItemNotInBank(self.items) then
 			self:SkipStep()
 			return
 		end

@@ -184,7 +184,7 @@ function z:BlastedLandsQuests() --BAG_UPDATE>>BlastedLandsQuests
 --14 Vulture Gizzard\\11 Basilisk Brain\\6 Scorpok Pincer\\6 Blasted Boar Lung\\5 Snickerfang Jowl
 	local step = self.guide.steps[self.stepLine]
 	local name = {
-		"Vulture Gizzard","Basilisk Brain","Scorpok Pincer","Blasted Boar Lung","Snickerfang Jowl"
+		"Vulture Gizzard","Basilisk Brain","Blasted Boar Lung","Scorpok Pincer","Snickerfang Jowl"
 	}
 	local quests = {
 		[2583] = {
