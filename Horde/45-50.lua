@@ -243,6 +243,7 @@ Accept [QA2661 Delivery for Marin]
 [G51.8,28.6Tanaris]Turn in [QT2661 Delivery for Marin]\\
 Accept [QA2662 Noggenfogger Elixir]\\
 Turn in [QT2662 Noggenfogger Elixir]
+[O]Make sure you have 3 stacks of Noggenfogger and then deposit it in your bank, you will need it for later-->>Collect,8529,60
 Fly to [F Feralas]-->>LoadNextGuide
 ]],"Zarant")
 

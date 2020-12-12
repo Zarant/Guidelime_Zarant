@@ -3,6 +3,7 @@ Guidelime.registerGuide([[
 [NX58-59WPL/EPL part 2]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
+[O]Withdraw 2 stacks of noggenfogger elixir from your bank
 [V][O]Deposit the following items:\\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head-->>BankDeposit,17355,11511,11172,11173,13207,13562
 Withdraw the following items:\\Filled Vial Labeled #1-4\\Tablet of Markri\\Un'Goro Slime Sample\\Felwood Slime Sample-->>BankWithdraw,10691,10692,10693,10694,10540,12235,12230
 Take the Zeppelin to Undercity[OC]-->>ZoneSkip,Undercity
