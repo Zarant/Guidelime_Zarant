@@ -202,7 +202,8 @@ Guidelime.registerGuide([[
 [NX59-60Winterspring]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
-[G37.8,87.8Orgrimmar]Do the Darkspear cloth turn ins:\\[QA7833-][O][QT7833-][O]Wool \\[QA7834-][O][QT7834-][O]Silk \\[QA7835-][O][QT7835-][O]Mageweave\\[QA78356][O][QT7836-][O]Runecloth
+[S]Set your HS to Orgrimmar
+[G37.8,87.8Orgrimmar]Do the Darkspear cloth turn ins:\\[QA7833-][O][QT7833-][O]Wool \\[QA7834-][O][QT7834-][O]Silk \\[QA7835-][O][QT7835-][O]Mageweave\\[QA7836][O][QT7836-][O]Runecloth
 Fly to [F Azshara][OC]
 [G22.5,51.4Azshara]Turn in [QT3564 Andron's Payment to Jediga]
 Fly to [F Winterspring]
@@ -224,7 +225,6 @@ Death skip to Everlook[OC]
 Turn in [QA5057-][QT5057]
 
 [V][O]Withdraw the following items:\\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head-->>BankWithdraw,17355,11172,11173,13207,13562
-[S]Set your HS to Everlook
 [G31.3,45.2Winterspring]Turn in [QT5121 High Chief Winterfall]\\
 Turn in [QT5123 The Final Piece]\\
 Accept [QA5128 Words of the High Chief]
@@ -397,6 +397,10 @@ function z:XpTo60h(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 			questXP = questXP + 5450
 		end
 		
+		if z.IsQuestComplete(4809) then --chillwind horns
+			questXP = questXP + 5450
+		end
+		
 		if z.IsQuestComplete(4507) then --pawn captures queen
 			questXP = questXP + 5450 + 550  + 8150
 		elseif IsQuestFlaggedCompleted(4507) then
@@ -439,7 +443,7 @@ function z:XpTo60h(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 	local text = args[1] or ""
 	local element = self.step.elements[#self.step.elements]
 	
-	local questXP = FormatNumber(self.questXP)
+	local questXP = z.FormatNumber(self.questXP)
 	element.text = string.format("%s\nYou have %s XP worth of quest turn ins outside Silithus\n    XP needed: %s + %s",text,questXP,z.FormatNumber(missingXP),questXP)
 
 

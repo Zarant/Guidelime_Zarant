@@ -257,7 +257,11 @@ function z:XpTo60(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 		if z.IsQuestComplete(4504) then --super sticky
 			questXP = questXP + 5450
 		end
-
+		
+		if z.IsQuestComplete(4809) then --chillwind horns
+			questXP = questXP + 5450
+		end
+		
 		if z.IsQuestComplete(3962) then --It's dangerous to go alone
 			questXP = questXP + 7300
 		end
@@ -292,7 +296,7 @@ function z:XpTo60(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 	local text = args[1] or ""
 	local element = self.step.elements[#self.step.elements]
 	
-	local questXP = FormatNumber(self.questXP)
+	local questXP = z.FormatNumber(self.questXP)
 	element.text = string.format("%s\nYou have %s XP worth of quest turn ins outside Silithus\n    XP needed: %s + %s",text,questXP,z.FormatNumber(missingXP),questXP)
 
 

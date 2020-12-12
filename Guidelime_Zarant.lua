@@ -238,6 +238,10 @@ function Guidelime.Zarant:UpdateStep()
 end
 
 function Guidelime.Zarant.IsQuestComplete(id)
+	if IsQuestFlaggedCompleted(id) then
+		return
+	end
+
 	for i = 1,GetNumQuestLogEntries() do
 		local questLogTitleText, level, questTag, isHeader, isCollapsed, isComplete, frequency, questID = GetQuestLogTitle(i);
 		if isComplete and questID == id then
