@@ -203,7 +203,7 @@ Turn in [QT865 Raptor Horns]
 [G62.3,38.4The Barrens]Turn in [QT821 Chen's Empty Keg]\\
 Accept [QA822 Chen's Empty Keg]
 Fly to [F Crossroads]
---[G52.0,29.9The Barrens][S]Set your HS to Crossroads
+[G52.0,29.9The Barrens][S]Set your HS to Crossroads
 [G52.2,31.9The Barrens]Turn in [QT880 Altered Beings]\\
 Accept [QA3301 Mura Runetotem] \\Accept [QA1489]
 [G52.0,31.6The Barrens]Turn in [QT899 Consumed by Hatred]
@@ -231,7 +231,7 @@ Turn in [QT913]\\Accept [QA874 Mahren Skyseer]
 Accept [QA1130 Melor Sends Word]\\
 Accept [QA6382 The Ashenvale Hunt]
 [G40.8,37.6,120Mulgore][OC]Head to Thunder Bluff-->>ZoneSkip,Thunder Bluff
-[G45.8,64.6Thunder Bluff][S]Set your HS to Thunder Bluff
+--[G45.8,64.6Thunder Bluff][S]Set your HS to Thunder Bluff
 [G42.3,33.2Mulgore]Turn in [QT1130 Melor Sends Word] \\Accept [QA1131 Steelsnap]
 [G54.9,51.4Thunder Bluff]Accept [QA1195 The Sacred Flame]
 [G70.0,30.9Thunder Bluff]Turn in [QT1063 The Elder Crone]
