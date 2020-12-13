@@ -259,14 +259,15 @@ Do [QC1068]-->>Unitscan,XT:4,XT:9
 [G78.2,42.7,30Stonetalon Mountains][G41.9,69.7,15Ashenvale]Head to Ashenvale-->>ZoneSkip,Ashenvale
 [G26.2,45.9,50Ashenvale][G19.9,30.4,50Ashenvale][G12.2,33.8Ashenvale][P][OC]Get the Zoram'gar FP
 
-[G12.0,34.6Ashenvale]Accept [QA216 Between a Rock and a Thistlefur]
 Start the escort quest\\Accept [QA6641 Vorsha the Lasher][O]
 [G11.6,34.3Ashenvale]Turn in [QT6562 Trouble in the Deeps]
-[G11.7,34.8Ashenvale]Accept [QA6462 Troll Charm] \\Accept [QA6442 Naga at the Zoram Strand]
+[G11.7,34.8Ashenvale]Accept [QA6442 Naga at the Zoram Strand]
 [QC6641-]Do the escort quest
 Do [QC6442]
+
 [G12.2,34.3Ashenvale]Turn in [QT6641 Vorsha the Lasher][O]
-[G11.7,34.8Ashenvale]Turn in [QT6442 Naga at the Zoram Strand]
+[G11.7,34.8Ashenvale]Turn in [QT6442 Naga at the Zoram Strand] \\Accept [QA6462 Troll Charm]
+[G12.0,34.6Ashenvale]Accept [QA216 Between a Rock and a Thistlefur]
 [H]Hearth to Crossroads
 
 Do [QC876]
