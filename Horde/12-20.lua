@@ -200,8 +200,8 @@ Accept [QA1095 Further Instructions]\\
 Accept [QA3921 Wenikee Boltbucket]
 [G62.4,37.7The Barrens]Turn in [QT1069 Deepmoss Spider Eggs]
 Turn in [QT865 Raptor Horns]
-[G62.3,38.4The Barrens]Turn in [QT821 Chen's Empty Keg]\\
-Accept [QA822 Chen's Empty Keg]
+[G62.3,38.4The Barrens]Turn in [QT821 Chen's Empty Keg]
+--Accept [QA822 Chen's Empty Keg]
 Fly to [F Crossroads]
 [G52.0,29.9The Barrens][S]Set your HS to Crossroads
 [G52.2,31.9The Barrens]Turn in [QT880 Altered Beings]\\

@@ -74,7 +74,7 @@ Fly to [F Camp Taurajo]
 [G44.5,59.2The Barrens]Accept [QA879 Betrayal from Within][O]
 Spend 4 blood shards with thorns buff for the upcoming segment\\[G45.6,59.0The Barrens][S]Set your HS to Camp Taurajo
 [G45.1,57.7The Barrens]Accept [QA893 Weapons of Choice]
-Do [QC822][O]
+--Do [QC822][O]
 Use eagle eye to look for the [QA897-][O]Silithid Harvester (rare), it can spawn anywhere in the field of giants\\Skip this step if you have to-->>Unitscan,Silithid Harvester
 Do [QC868]
 Accept [QA843 Gann's Reclamation][O]
@@ -93,7 +93,7 @@ Do [G46.8,85.2The Barrens][QC849]
 Turn in [QT849]
 [G29.0,47.1,100Dustwallow Marsh]Head to Dustwallow\\
 [G35.6,31.9Dustwallow Marsh]Fly to [F Ratchet]
-[G62.3,38.3The Barrens]Turn in [QT822 Chen's Empty Keg]
+--[G62.3,38.3The Barrens]Turn in [QT822 Chen's Empty Keg]
 [G65.8,43.9The Barrens]Turn in [QT874 Mahren Skyseer]\\
 Accept [QA873 Isha Awak]
 Do [QC873]-->>Unitscan,Isha Awak
@@ -118,7 +118,7 @@ Fly to [F Stonetalon Mountains]
 [G47.3,64.3Stonetalon Mountains]Accept [QA6393 Elemental War]
 [G47.4,58.4Stonetalon Mountains]Accept [QA6301 Cycle of Rebirth]
 [G47.3,61.1Stonetalon Mountains]Accept [QA5881 Calling in the Reserves]\\
-Accept [QA6282 Harpies Threaten]\\
+Accept [QA6282 Harpies Threaten]
 Turn in [QT6284 Arachnophobia]
 [QC6301-][O]Loot Gaea Seeds as you pass through the lake
 Do [QC1058][OC]
@@ -144,6 +144,7 @@ Turn in [QT6381 New Life]
 [G59.0,62.6Stonetalon Mountains]Accept [QA1096 Gerenzo Wrenchwhistle]
 [G66.4,45.4Stonetalon Mountains][QC1086,1-]Place the Toxic Fogger
 Do [QC1096,1]
+Turn in [QT1096]
 [G74.5,97.9Stonetalon Mountains]Turn in [QT1060 Letter to Jin'Zil]
 Turn in [QT1058 Jin'Zil's Forest Magic]
 [G35.3,27.9The Barrens]Turn in [QT1068 Shredding Machines]
@@ -163,7 +164,7 @@ Guidelime.registerGuide([[
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 [G73.1,61.5Ashenvale]Accept [QA6441 Satyr Horns]
 [G73.6,60.1Ashenvale]Accept [QA25 Stonetalon Standstill]
-[G74.0,60.7Ashenvale][S]Set your HS to Ashenvale
+--[G74.0,60.7Ashenvale][S]Set your HS to Ashenvale
 [G71.2,68.1Ashenvale]Accept [QA6503 Ashenvale Outrunners]
 Kill Sharptalon\\Accept [QA2 Sharptalon's Claw]-->>Unitscan,Sharptalon
 Kill [QC6503-]Ashenvale Outrunner (x9)
