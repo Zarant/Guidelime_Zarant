@@ -1,6 +1,6 @@
 
 Guidelime.registerGuide([[
-[N53-54Un'Goro Crater]
+[N53-54UnGoro Crater]
 [NX54-55Felwood/Winterspring]
 [GA Alliance]
 [D Alliance Leveling Guide]

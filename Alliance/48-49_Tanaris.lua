@@ -73,7 +73,8 @@ Accept [QA1691]--more wastewander justice
 
 Turn in [QT2661] \\Accept [QA2662] \\Turn in [QT2662]
 Make sure you carry 1 stack of noggenfogger with you at all times, buy 2 extra stacks and bank it [OC]
-Accept [QA3161] \\Turn in [QT3445]
+Accept [QA3161] 
+Turn in [QT3445] \\Accept [QA3444]
 [QC2781-]Kill Caliph Scorpid Sting, he patrols around \\Do [QC1691]
 [G68.85,41.55Tanaris][G73.2,47.1,140Tanaris]Head to Lost Rigger Cove
 [QC2875-]Kill Andre Firebeard by the campfire[O]
@@ -102,7 +103,8 @@ Turn in [QT110] \\Accept [QA113]
 Accept [QA3362]
 Turn in [QT113]
 
-Accept [QA3444] \\Turn in [QT3161] --marvon
+Turn in [QT3161]--marvon
+Accept [QA3444] 
 
 --dunemaul compound
 [QC5863,3] Kill Gor'marok [OC]

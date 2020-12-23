@@ -101,8 +101,8 @@ Do [QC7003] \\Do [QC7721]
 Turn in [QT7003] \\Turn in [QT7721]
 Grind Yetis until you get a pristine hide\\Accept [QA7735][O]--OnStepCompletion>>SkipStep
 Do [QC7733]
-Buy some bait from Gregan-->>Collect,11141,1
-Turn in [QT4142]
+Turn in [G45.12,25.56Feralas][QT4142][O]
+[G45.12,25.56Feralas]Buy some bait from Gregan-->>Collect,11141,1
 --[QA3909] --videre
 Accept [QA2844]
 [G44.64,10.59Feralas][V]Give some bait to the gnoll guarding the Evoroot-->>Collect,11242,1
@@ -124,7 +124,7 @@ Fly to [F Ratchet]--OnStepCompletion>>LoadNextGuide
 
 Guidelime.registerGuide([[
 [N53-53Azshara]
-[NX53-54Un'Goro Crater]
+[NX53-54UnGoro Crater]
 [GA Alliance]
 [D Alliance Leveling Guide]
 --[O]This segment contains a heavy grinding session (about 2 hours long), you can skip it if you are planning to run dungeons before level 60 --v2
