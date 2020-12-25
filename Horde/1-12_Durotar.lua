@@ -1,3 +1,8 @@
+if Guidelime.Zarant.faction == "Alliance" then
+	return
+end
+
+
 Guidelime.registerGuide([[
 [GA Orc,Troll]
 [N1-11Durotar]

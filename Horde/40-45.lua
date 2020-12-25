@@ -1,4 +1,6 @@
---]],"Zarant")
+if Guidelime.Zarant.faction == "Alliance" then
+	return
+end
 
 Guidelime.registerGuide([[
 [GA Horde]

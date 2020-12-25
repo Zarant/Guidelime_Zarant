@@ -1,3 +1,6 @@
+if Guidelime.Zarant.faction == "Horde" then
+	return
+end
 
 Guidelime.registerGuide([[
 [N53-54UnGoro Crater]
@@ -18,7 +21,8 @@ Turn in [QT2661] \\Accept [QA2662] \\Turn in [QT2662]
 
 Turn in [QT3444] --stonecricle
 Fly to [F Un'Goro]
-Accept [QA3881] \\Accept [QA3883] \\Accept [QA3882]
+Accept [QA3881] \\Accept [QA3883]
+Accept [QA3882]
 Turn in [QA4284-][QT4284]
 Accept [QA4285] \\Accept [QA4288] \\Accept [QA4287]
 Click on the Wanted Poster\\Accept [QA4501]
@@ -56,7 +60,7 @@ Accept [QA4243]
 Turn in [QT4243]
 Do [G68.41,12.47][QC4301]
 Turn in [QT4301]
-Make sure you have 20 Un'Goro soil before leaving Un'Goro[O]
+[O]Make sure you have 20 Un'Goro soil before leaving Un'Goro-->>Collect,11018,20
 [H]Hearth to Ratchet\\You can also pull a mob, death skip at the Tanaris border and use HS batching in Gadgetzan to save you 5 minutes later on
 Turn in [QT4502] --volcanic activity
 [V][O]Withdraw the following: \\Eridan's vial\\Purified Moonwell Water\\Cenarion beacon\\Moontouched Feathers --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_Ungoro53

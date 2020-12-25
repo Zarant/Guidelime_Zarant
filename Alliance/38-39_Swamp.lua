@@ -1,3 +1,6 @@
+if Guidelime.Zarant.faction == "Horde" then
+	return
+end
 
 Guidelime.registerGuide([[
 [N38-39Swamp of Sorrows]

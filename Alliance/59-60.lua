@@ -1,3 +1,6 @@
+if Guidelime.Zarant.faction == "Horde" then
+	return
+end
 
 Guidelime.registerGuide([[
 [N59-59Winterspring/Un'Goro/Silithus part 1]
@@ -199,31 +202,7 @@ local z = Guidelime.Zarant
 local IsOnQuest = C_QuestLog.IsOnQuest
 --local IsQuestFlaggedCompleted = C_QuestLog.IsQuestFlaggedCompleted
 
-function z.FormatNumber(number,precision)
-	if not precision then
-		precision = 0
-	end
-	local integer = math.floor(number)
-	local decimal = math.floor((number-integer)*10^precision+0.5)
-	if decimal > 0 then
-		decimal = '.'..tostring(decimal)
-	else
-		decimal = ""
-	end
-	integer = tostring(integer)
-	local i = #integer % 3
-	if i == 0 then
-		i = 3
-	end
 
-	local suffix = string.sub(integer,i+1)
-	integer = string.sub(integer,1,i)
-
-	for n in string.gmatch(suffix,"%d%d%d") do
-		integer = integer..","..n
-	end
-	return integer..decimal
-end
 
 function z:XpTo60(args,event) --PLAYER_XP_UPDATE,QUEST_LOG_UPDATE>>XpTo60
 	if UnitLevel("player") ~= 59 or event == "OnStepCompletion" then

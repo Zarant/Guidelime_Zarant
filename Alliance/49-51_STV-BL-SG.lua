@@ -1,3 +1,7 @@
+if Guidelime.Zarant.faction == "Horde" then
+	return
+end
+
 Guidelime.registerGuide([[
 [N50-50STV]
 [NX50-51Searing Gorge]
@@ -107,7 +111,7 @@ Turn in [QT7727 Incendosaurs? Whateverosaur is More Like It] \\Turn in [QT7729 J
 Fly to [F Loch Modan]
 Turn in [QT3181 The Horn of the Beast] \\Accept [QA3182 Proof of Deed]
 [H][OC]Hearth to Stormwind \\Skip this step if your HS is not set to Stormwind
-
+[G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][O][QT7791-][O]Wool \\[QA7793-][O][QT7793-][O]Silk \\[QA7794-][O][QT7794-][O]Mageweave
 Fly to [F Blasted Lands]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
@@ -129,22 +133,23 @@ Turn in [QA2585-][QT2585] once you have:\\3 Scorpok Pincer\\2 Vulture Gizzard\\1
 Turn in [QA2583-][QT2583 A Boar's Vitality] \\Turn in [QA2581-][QT2581 Snickerfang Jowls] \\Turn in [QA2601-][QT2601 The Basilisk's Bite] \\Turn in [QA2603-][QT2603 Vulture's Vigor]
 Fly to [F Redridige]
 Head to Burning Steppes\\Accept [QA3823]
-Get the [P Burning Steppes] FP
 Do [QC3823]
 Turn in [QT3823]
-[H]Hearth back to Stormwind
+Fly to [F Ironforge]
 [V][O]Withdraw the following items from your bank:\\Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather--BANKFRAME_OPENED,BAG_UPDATE>>BankW_BL51
-[G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][O][QT7791-][O]Wool \\[QA7793-][O][QT7793-][O]Silk \\[QA7794-][O][QT7794-][O]Mageweave
-Take the tram to Ironforge\\[G43.22,31.57Ironforge]Do the Gnomeregan Exiles cloth turn ins:\\[QA7802-][O][QT7802-][O]Wool \\[QA7803-][O][QT7803-][O]Silk \\[QA7809-][O][QT7809-][O]Mageweave
-[G43.22,31.57Ironforge]Do the Ironforge cloth turn ins:\\[QA7807-][O][QT7807-][O]Wool \\[QA7808-][O][QT7808-][O]Silk \\[QA7804-][O][QT7804-][O]Mageweave
+
+
+
+[G43.22,31.57Ironforge]Do the Gnomeregan cloth turn ins:\\[QA7807-][O][QT7807-][O]Wool \\[QA7808-][O][QT7808-][O]Silk \\[QA7809-][O][QT7809-][O]Mageweave
+[G43.22,31.57Ironforge]Do the Ironforge cloth turn ins:\\[QA7802-][O][QT7802-][O]Wool \\[QA7803-][O][QT7803-][O]Silk \\[QA7804-][O][QT7804-][O]Mageweave
 Accept [QA5090 A Call to Arms: The Plaguelands!]\\Skip this quest if you can't find the courier[O]-->>Unitscan,COURIER HAMMERFALL
+Accept [QA4512 A Little Slime Goes a Long Way][O]
 Turn in [QT3182 Proof of Deed] \\Accept [QA3201 At Last!] 
 Turn in [QT3368 Suntara Stones]
 Accept [QA3448 Passing the Burden]
-Accept [QA4512 A Little Slime Goes a Long Way]
 [A Warlock][G51.1,6.6Ironforge]Accept [QA8419]
 Turn in [QT3448 Passing the Burden] \\Accept [QA3449 Arcane Runes] \\Accept [QA3450 An Easy Pickup]
---[G18.1,51.6Ironforge][S]Set your HS to Ironforge
+[G18.1,51.6Ironforge][S]Set your HS to Ironforge
 Accept [G70.9,83.6Ironforge][QA8151][A Hunter]
 Turn in [QT3450 An Easy Pickup] \\Accept [QA3451 Signal for Pickup] \\Turn in [QT3451 Signal for Pickup]
 
@@ -161,12 +166,13 @@ Fly to [F Western Plaguelands]--OnStepCompletion>>LoadNextGuide
 if not Guidelime.Zarant then return end
 
 local z = Guidelime.Zarant
-
+--[[
 function z:DragonflightMolt()
-	if GetItemCount(10575) == 0 then
+	if GetItemCount(10575) == 0 or UnitLevel("player") < 52 then
 		self:SkipStep()
 	end
 end
+]]
 
 function z:BankW_BL51()  --Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feather --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV49
 	--local items = {"Super Snapper FX","Snapshot of Gammerita","Wildkin Feather"}
@@ -180,98 +186,3 @@ function z:BankW_BL51()  --Super Snapper FX\\Snapshot of Gammerita\\Wildkin Feat
 end
 
 
-function z:BlastedLandsQuests() --BAG_UPDATE>>BlastedLandsQuests
---14 Vulture Gizzard\\11 Basilisk Brain\\6 Scorpok Pincer\\6 Blasted Boar Lung\\5 Snickerfang Jowl
-	local step = self.guide.steps[self.stepLine]
-	local name = {
-		"Vulture Gizzard","Basilisk Brain","Blasted Boar Lung","Scorpok Pincer","Snickerfang Jowl"
-	}
-	local quests = {
-		[2583] = {
-			0, --gizzard
-			1, --brain
-			3, --lung
-			2, --pincer
-			0, --jowl
-		},
-		[2601] = {
-			2,
-			10,
-			0,
-			0,
-			0,
-		},
-		[2585] = {
-			2,
-			0,
-			1,
-			3,
-			0,
-		},
-		[2581] = {
-			0,
-			0,
-			2,
-			1,
-			3,
-		},
-		[2603] = {
-			10,
-			0,
-			0,
-			0,
-			2,
-		}
-	}
-	local id = {
-		8396,
-		8394,
-		8392,
-		8393,
-		8391,
-	}
-
-	local total = {
-		0,
-		0,
-		0,
-		0,
-		0,
-	}
-	
-	for quest,items in pairs(quests) do
-		if not IsQuestFlaggedCompleted(quest) then
-			for item,v in pairs(items) do
-				total[item] = total[item] + v
-			end
-		end
-	end
-	
-	local element = step.elements[#step.elements]
-	local skip = true
-	--element.textInactive = ""
-	element.text = "Collect the following items:"
-	
-	for item,goal in pairs(total) do
-		local itemCount = GetItemCount(id[item])
-		if goal > 0 then
-			if itemCount > goal then 
-				itemCount = goal 
-			end
-			element.text = string.format("%s\n    %s: %d/%d",element.text,name[item],itemCount,goal)
-		end
-		if itemCount < goal then
-			skip = false
-		end
-	end
-
-	
-	if skip then
-		--element.text = ""
-		z.SkipStep(self)
-		return
-	end
-
-	self:UpdateStep()
-
-end

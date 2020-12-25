@@ -1,3 +1,6 @@
+if Guidelime.Zarant.faction == "Horde" then
+	return
+end
 
 Guidelime.registerGuide([[
 [N54-55Felwood/Winterspring]
@@ -24,7 +27,8 @@ Do [QC8461 Deadwood of the North]
 --Grind to level [XP55]
 Turn in [QT8461 Deadwood of the North] \\Accept [QA8465 Speak to Salfa]
 Run to Winterspring\\Turn in [QT8465 Speak to Salfa] \\Accept [QA8464 Winterfall Activity]
-Turn in [QT3909 The Videre Elixir] \\Accept [QA3912 Meet at the Grave] \\Turn in [QT980 The New Springs] \\Accept [QA4842 Strange Sources] \\Accept [QA5082 Threat of the Winterfall]
+Turn in [QT3909 The Videre Elixir] \\Accept [QA3912 Meet at the Grave] 
+Turn in [QT980 The New Springs] \\Accept [QA4842 Strange Sources] \\Accept [QA5082 Threat of the Winterfall]
 Do [QC5082 Threat of the Winterfall]
 Keep grinding fulborgs until you get an *Empty Firewater Flask*\\Accept [QA5083 Winterfall Firewater]
 Turn in [QT5082 Threat of the Winterfall] \\Turn in [QT5083 Winterfall Firewater] \\Accept [QA5084 Falling to Corruption]

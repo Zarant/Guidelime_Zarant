@@ -1,3 +1,7 @@
+if Guidelime.Zarant.faction == "Alliance" then
+	return
+end
+
 Guidelime.registerGuide([[
 [N57-58WPL/EPL part 1]
 [NX58-59WPL/EPL part 2]

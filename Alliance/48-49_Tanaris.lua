@@ -1,3 +1,7 @@
+if Guidelime.Zarant.faction == "Horde" then
+	return
+end
+
 Guidelime.registerGuide([[
 [N48-49Tanaris/Hinterlands]
 [NX49-50Tanaris/Un'goro]

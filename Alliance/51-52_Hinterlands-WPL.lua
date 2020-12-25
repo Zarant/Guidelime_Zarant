@@ -1,3 +1,7 @@
+if Guidelime.Zarant.faction == "Horde" then
+	return
+end
+
 --Hinterlands part moved to level 48-49
 
 Guidelime.registerGuide([[

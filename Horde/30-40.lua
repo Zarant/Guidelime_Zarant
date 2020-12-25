@@ -1,3 +1,7 @@
+if Guidelime.Zarant.faction == "Alliance" then
+	return
+end
+
 Guidelime.registerGuide([[
 [GA Horde]
 [N30-32Hillsbrad/Arathi]

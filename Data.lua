@@ -31,6 +31,8 @@ function z.UpdateQuestRewardList()
 	end
 end
 
+z.faction = UnitFactionGroup("player")
+
 
 z.foodList = {
 	{

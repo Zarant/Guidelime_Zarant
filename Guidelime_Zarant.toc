@@ -1,6 +1,6 @@
 ## Title: Guidelime_Zarant
 ## Author: Zarant
-## Version: 5.4.8
+## Version: 5.4.9
 ## Interface: 11306
 ## Dependencies: Guidelime
 ## OptionalDeps: unitscan
@@ -10,6 +10,15 @@ Guidelime_Zarant.lua
 Data.lua
 InventoryManager.lua
 EventHandler.lua
+
+Horde\1-12_Durotar.lua
+Horde\12-20.lua
+Horde\21-30.lua
+Horde\30-40.lua
+Horde\40-45.lua
+Horde\45-50.lua
+Horde\50-55.lua
+Horde\55-60.lua
 
 Alliance\1-11_DunMorogh.lua
 Alliance\1-12_Teldrassil.lua
@@ -42,11 +51,3 @@ Alliance\54-56_Felwood-Winterspring.lua
 Alliance\56-57_BS.lua
 Alliance\57-59_WPL-EPL.lua
 Alliance\59-60.lua
-Horde\1-12_Durotar.lua
-Horde\12-20.lua
-Horde\21-30.lua
-Horde\30-40.lua
-Horde\40-45.lua
-Horde\45-50.lua
-Horde\50-55.lua
-Horde\55-60.lua

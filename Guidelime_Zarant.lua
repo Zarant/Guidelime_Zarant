@@ -850,3 +850,129 @@ function Guidelime.Zarant.CastSpell(self,args,event,target,guid,spellId)
 	end
 
 end
+
+function Guidelime.Zarant.FormatNumber(number,precision)
+	if not precision then
+		precision = 0
+	end
+	local integer = math.floor(number)
+	local decimal = math.floor((number-integer)*10^precision+0.5)
+	if decimal > 0 then
+		decimal = '.'..tostring(decimal)
+	else
+		decimal = ""
+	end
+	integer = tostring(integer)
+	local i = #integer % 3
+	if i == 0 then
+		i = 3
+	end
+
+	local suffix = string.sub(integer,i+1)
+	integer = string.sub(integer,1,i)
+
+	for n in string.gmatch(suffix,"%d%d%d") do
+		integer = integer..","..n
+	end
+	return integer..decimal
+end
+
+function Guidelime.Zarant.BlastedLandsQuests(self) --BAG_UPDATE>>BlastedLandsQuests
+	--14 Vulture Gizzard\\11 Basilisk Brain\\6 Scorpok Pincer\\6 Blasted Boar Lung\\5 Snickerfang Jowl
+	if not self then
+		return "OnStepActivation,BAG_UPDATE"
+	end
+	local step = self.guide.steps[self.stepLine]
+	local name = {
+		"Vulture Gizzard","Basilisk Brain","Blasted Boar Lung","Scorpok Pincer","Snickerfang Jowl"
+	}
+	local quests = {
+		[2583] = {
+			0, --gizzard
+			1, --brain
+			3, --lung
+			2, --pincer
+			0, --jowl
+		},
+		[2601] = {
+			2,
+			10,
+			0,
+			0,
+			0,
+		},
+		[2585] = {
+			2,
+			0,
+			1,
+			3,
+			0,
+		},
+		[2581] = {
+			0,
+			0,
+			2,
+			1,
+			3,
+		},
+		[2603] = {
+			10,
+			0,
+			0,
+			0,
+			2,
+		}
+	}
+	local id = {
+		8396,
+		8394,
+		8392,
+		8393,
+		8391,
+	}
+
+	local total = {
+		0,
+		0,
+		0,
+		0,
+		0,
+	}
+	
+	for quest,items in pairs(quests) do
+		if not IsQuestFlaggedCompleted(quest) then
+			for item,v in pairs(items) do
+				total[item] = total[item] + v
+			end
+		end
+	end
+	
+	local element = step.elements[#step.elements]
+	local skip = true
+	--element.textInactive = ""
+	element.text = "Collect the following items:"
+	
+	for item,goal in pairs(total) do
+		local itemCount = GetItemCount(id[item])
+		if goal > 0 then
+			if itemCount > goal then 
+				itemCount = goal 
+			end
+			element.text = string.format("%s\n    %s: %d/%d",element.text,name[item],itemCount,goal)
+		end
+		if itemCount < goal then
+			skip = false
+		end
+	end
+
+	
+	if skip then
+		--element.text = ""
+		z.SkipStep(self)
+		return
+	end
+
+	self:UpdateStep()
+
+end
+

@@ -1,3 +1,7 @@
+if Guidelime.Zarant.faction == "Horde" then
+	return
+end
+
 Guidelime.registerGuide([[
 [D Alliance Leveling Guide]
 [GA Human]

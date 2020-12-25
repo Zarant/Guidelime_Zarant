@@ -1,3 +1,6 @@
+if Guidelime.Zarant.faction == "Alliance" then
+	return
+end
 
 Guidelime.registerGuide([[
 [GA Horde]
@@ -162,7 +165,7 @@ Fly to [F Splintertree Post]-->>LoadNextGuide
 
 Guidelime.registerGuide([[
 [N53-53Felwood]
-[NX53-54UnGoro Crater]
+[NX53-54Un'Goro Crater]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
 Head to Felwood[OC]
@@ -225,7 +228,7 @@ Fly to [F Camp Taurajo]-->>LoadNextGuide
 
 
 Guidelime.registerGuide([[
-[N53-54UnGoro Crater]
+[N53-54Un'Goro Crater]
 [NX54-56Felwood/Winterspring]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
