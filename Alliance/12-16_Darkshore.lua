@@ -270,9 +270,10 @@ Turn in [G27.7,10.03Felwood][QT956 Bashal'Aran] pt.3 \\Accept [QA957 Bashal'Aran
 
 [G40.3,59.7Darkshore]Accept [QA953 The Fall of Ameth'Aran]
 [QC963 -][O]Kill Anaya Dawnrunner-->>Unitscan,ANAYA DAWNRUNNER
-[G25.98,40.62Felwood][QC953,2 The Fall of Ameth'Aran]
-[G25.66,39.11Felwood][QC957 Bashal'Aran]
-[G26.71,35.53Felwood][QC953,1 The Fall of Ameth'Aran]
+Do [G25.98,40.62Felwood][QC953,2 The Fall of Ameth'Aran]
+Do [G25.66,39.11Felwood][QC957 Bashal'Aran]
+Do [G26.71,35.53Felwood][QC953,1 The Fall of Ameth'Aran]
+[QC963-]Kill Anaya Dawnrunner
 Finish off [QC958 Tools of the Highborne]
 Turn in [G23.29,36.73Felwood][QT953 The Fall of Ameth'Aran]
 [G18.41,49.43Felwood][QA4728 Beached Sea Creature]

@@ -7,14 +7,14 @@ Guidelime.registerGuide([[
 [NX59-60Winterspring/Un'Goro/Silithus part 2]
 [GA Alliance]
 [D Alliance Leveling Guide]
-Take the tram to SW[OC]
+Take the tram to SW[OC]-->>Map,Stormwind City
 Turn in [QT6186]
-[G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][O][QT7791-][O]Wool \\[QA7793-][O][QT7793-][O]Silk \\[QA7794-][O][QT7794-][O]Mageweave \\[QA7795-][O][QT7795-][O]Runecloth
+[G44.27,73.99Stormwind City]Do the Stormwind cloth turn ins:\\[QA7791-][QT7791-]Wool \\[QA7793-][QT7793-]Silk \\[QA7794-][QT7794-]Mageweave \\[QA7795-][QT7795-]Runecloth
 Fly to [F Booty Bay]
-Take the boat to ratchet [OC]
 [V][O]Withdraw Tinkee's Letter from your bank --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Letter59
+Take the boat to ratchet
 
-Fly to [F Winterspring]
+Fly to [F Winterspring]-->>Map,Winterspring
 [A Hunter][O]Once you get to level 59, stable your current pet, head to northern winterspring and replace it by a level 59 Owl
 [S]Set your HS to Everlook
 
@@ -35,15 +35,15 @@ Head south to Frowstwhisper Gorge\\Do [QC969] \\The elite giants are immune to f
 Turn in [QT977] \\Accept [QA5163]
 [QC5163,1-]Use the Mechanical Yet on Legacki
 Turn in [QT969]
-[V][O]Withdraw the following: \\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring59
+[V]Withdraw the following: \\Rabine's Letter\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring59
 Turn in [QT5121] \\Turn in [QT5123] \\Accept [QA5128]
 
-Head to Moonglade[OC]
+Head to Moonglade[OC]-->>Map,Moonglade
 Turn in [QT6762 Rabine Saturna] \\Accept [QA1124 Wasteland]
 Finish the dialogue with Rabine\\Accept [QA5527 A Reliquary of Purity] \\Skip this step if the Dire Maul dialogue is not available--GOSSIP_SHOW>>SkipGossip
 Unstuck to the Moonglade graveyard and spirit rez[OC]
 [G48.13,67.34Moonglade]Get the [P Moonglade] FP
-Head back to the fulborg tunnel\\Once the zone text changes to Felwood, unstuck back to the graveyard and spirit rez[OC]
+Head back to the fulborg tunnel\\Once the zone text changes to Felwood, unstuck back to the graveyard and spirit rez[OC]-->>Map,Felwood
 [G40.84,66.78,40Felwood]Run south to the slime pond\\[G56.4,86.8,40]Death warp to southern Felwood
 Turn in [QT5242]
 Turn in [QT5385]
@@ -51,24 +51,24 @@ Turn in [QT5128]
 Turn in [QT4084] \\Accept [QA4005]
 Run south to Ashenvale unstuck and spirit rez at Astranaar[OC]
 
-Fly to [F Tanaris]
+Fly to [F Tanaris]-->>Map,Tanaris
 Accept [QA4507]
 [QC5163,2-]Use the Mechanical Yeti on Sprinkle
 Accept [QA4504 Super Sticky]
 [G70.43,49.93Tanaris]Head to the pirate area\\Right click on Eridan's Supplies\\Use the book of Aquor to summon [QC4005]
 
-Head back to Gadgetzan\\Fly to [F Un'Goro Crater]
+Head back to Gadgetzan\\Fly to [F Un'Goro Crater]-->>Map,Un'Goro Crater
 Turn in [QT4005] \\Accept [QA3961]
 Turn in [QT3961] \\Accept [QA3962]
 [G43.67,9.38 Un'Goro Crater][QC5163,3-]Use the Mechanical Yeti on Quixxil
 --[QC4513-][O]Kill slimes as you go along, use the sample jar on their corpses
 Finish off [QC4504]
-[G50.28,49.98 Un'Goro Crater][QC3962,2-][O]Click on the chest at the back of the cave
-[QC3962,1-][O]Equip the Silver Totem of Aquementas on your off-hand\\Use it on Blazerunner at the top of the volcano
+[QC3962,1-][O]Equip the Silver Totem of Aquementas on your off-hand\\Deafeat Blazerunner at the top of the volcano
+[G50.28,49.98 Un'Goro Crater][QC3962,2-]Click on the chest at the back of the cave
 Head south and enter the bug hole\\[G44.13,81.41 Un'Goro Crater]Use the *Gorishi Queen Lure* after clearing the circular room\\[QC4507-]Clear all 3 waves of mobs
 [G88.40,23.81,60 Silithus]Head to Silithus
 
-Turn in [QT1124] \\Accept [QA1125]
+Turn in [QT1124] \\Accept [QA1125]-->>Map,Silithus
 
 --Phase 4
 [OC]Head to Cenarion Hold--PLAYER_XP_UPDATE,QUEST_LOG_UPDATE,OnStepActivation,OnStepCompletion>>XpTo60,Head to Cenarion Hold
@@ -111,8 +111,8 @@ Collect [QC8278,3-][O]Rock Stalker Fang (x3)
 Kill [QC8281,1-]Dredge Crusher (x20)
 [G41.3,88.5Silithus][QC8304,2-]Speak with Rutgar
 [G40.8,88.8Silithus][QC8304,1-]Speak with Frankal
-
 [G45.0,92.2Silithus]Collect [QC8283,1-]Deathclasp's Pincer
+Finish off [QC8278]
 [G67.2,69.7Silithus]Turn in [QT8285 The Deserter]\\
 Accept [QA8279 The Twilight Lexicon]
 
@@ -125,6 +125,7 @@ Kill twilight cultists as you quest\\Collect [QC8318,1-][O]Encrypted Twilight Te
 Kill [QC8279,3-]Twilight Keeper Havunth\\He patrols the twilight camp next to Cenarion Hold-->>Unitscan,TWILIGHT KEEPER HAVUNTH
 Kill [QC8279,1-]Twilight Keeper Mayna\\She patrols the twilight camp directly west of Cenarion Hold-->>Unitscan,TWILIGHT KEEPER MAYNA
 Kill [QC8279,2-]Twilight Keeper Exeter\\He is at the back of the southwestern twilight camp
+[QC8318,1-]Finish off looting the 10 twilight texts
 [G44.5,91.4Silithus]Collect [QC8282,1-]Noggle's Satchel
 [G67.2,69.8Silithus]Turn in [QT8279 The Twilight Lexicon]\\
 Accept [QA8287 A Terrible Purpose]\\
@@ -146,7 +147,7 @@ Guidelime.registerGuide([[
 [N59-60Winterspring/Un'Goro/Silithus part 2]
 [GA Alliance]
 [D Alliance Leveling Guide]
-Fly to Un'Goro Crater[OC]
+Fly to Un'Goro Crater[OC]-->>Map,Un'Goro Crater
 Turn in [QT3962] (7300xp) --It's Dangerous to Go Alone
 Fly to [F Tanaris][OC]
 Turn in [QT4507] (5450xp) \\Accept [QA4508] --Pawn Captures Queen
@@ -155,21 +156,20 @@ Turn in [QT4504 Super Sticky] (5450xp)
 Turn in [QT5163] (7750xp) --Are We There, Yeti? part 3
 Finish off/Turn in [QT4809][OC] (5450xp) \\Skip this quest if you have enough xp to ding from all the quest turn-ins from moonglade/darnassus\\(about 35k xp total)
 Grind until you are [XP60-34640 34.5k] xp away from 60[OC]
-Fly to [F Moonglade]
+Fly to [F Moonglade]-->>Map,Moonglade
 
 Turn in [QT6844] (3000xp) \\Accept [QA6845] --Umber, Archivist
 Turn in [QT6845] (7550xp) --Uncovering Past Secrets
 Turn in [QT5527] (6600xp) --A Reliquary of Purity
 Turn in [G44.87,35.62Moonglade][QA1185-][QT1185] (3000xp) --Under the Chitin Was...
 [O]Fly to Felwood ang grind fulborgs if you don't have enough XP to ding 60 from quest turn ins in Darnassus--PLAYER_XP_UPDATE,QUEST_LOG_UPDATE,OnStepActivation,OnStepCompletion>>XpTo60,Grind Fulborgs in northern felwood until you have enough XP
-[XP60-14490 Assuming you didn't skip any quests you need to grind until you are 14.5k experience away from level 60]
-Fly to [F Teldrassil]
-Turn in [QT4901] (4800xp)
-Accept [QA4902]
-Turn in [G41.85,85.64Darnassus][QT4508] (540xp) \\Accept [QA4510] --Calm Before the Storm part 1
+[XP60-14490 Assuming you didn't skip any quests you should be 14.5k experience away from level 60]
+Fly to [F Teldrassil]-->>Map,Teldrassil
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT4901] (4800xp)\\Accept [QA4902]
+Turn in [G41.85,85.64Darnassus][QT4508] (540xp) \\Accept [QA4510] -->>Map,Darnassus
 Turn in [QT4510] (8150xp) --Calm Before the Storm part 2
 Turn in [QT4986] at the middle floor (5800xp) --Glyphed Oaken Branch
-Turn in [QT4902] at the top floor (6000xp)
+[A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT4902] at the top floor (6000xp)
 ]], "Zarant")
 
 

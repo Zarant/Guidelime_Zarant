@@ -7,22 +7,14 @@ Guidelime.registerGuide([[
 [NX38-39Swamp of Sorrows]
 [GA Alliance]
 [D Alliance Leveling Guide]
-[T][O]If you used the unstuck feature to SW, remember to train your level 36 spells
-[V][O]Deposit the following items:\\Karnitol's Satchel\\Decrypted Letter\\Letter of Commendation\\Fizzle Brassbolts' Letter\\Buzzard Wing --BANKFRAME_OPENED,BAG_UPDATE>>BankD_STV37
-[V][O]Withdraw *Small Brass Key* from your bank (if you have it)\\Make sure you have water breathing pots for this segment --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV37
-[S]Set your HS to Booty Bay[OC]
+[V][O]Withdraw *Small Brass Key*\\Withdraw water breathing pots --BANKFRAME_OPENED,BAG_UPDATE>>BankW_STV37
+[V]Deposit the following items:\\Karnitol's Satchel\\Decrypted Letter\\Letter of Commendation\\Fizzle Brassbolts' Letter\\Buzzard Wing --BANKFRAME_OPENED,BAG_UPDATE>>BankD_STV37
+[S]Set your HS to Booty Bay-->>Map,Stranglethorn Vale
 Turn in [QT1115 The Rumormonger][OC]
 Accept [QA189 Bloodscalp Ears] \\Accept [QA601 Water Elementals] \\Accept [QA577 Some Assembly Required] --should have it form the previous segment
-[S][O]Make sure to set your HS to Booty Bay\\*OR*\\Set your HS to Duskwood or Westfall if you used the unstuck self service to teleport to SW
-Fly to [F Westfall][OC]
-Turn in [QT325] \\Accept [QA55]
-Do [QC228]\\He patrols around the northern side of the graveyard[O]-->>Unitscan,MOR'LADIM
-Do [QC55]\\Use the off-hand weapon provided to remove his shield
-Turn in [QT55]
-Fly to [F Duskwood][O]-->>ZoneSkip,Duskwood
-
-Run to STV\\Accept [QA574 Special Forces] \\Accept [QA207 Kurzen's Mystery]
-Accept [QA200 Bookie Herod][O]
+[F]Fly to Westfall[OC]
+Run to STV\\Accept [QA200 Bookie Herod][O]
+Accept [QA574 Special Forces] \\Accept [QA207 Kurzen's Mystery]
 Accept [QA192 Panther Mastery] \\Accept [QA195 Raptor Mastery] \\Accept [QA188 Tiger Mastery]--should have it from the previous segment
 Click on the pile of books upstairs \\Turn in [QT200 Bookie Herod] \\Accept [QA328 The Hidden Key]
 Turn in [QT328 The Hidden Key] \\Accept [QA329 The Spy Revealed!]
@@ -51,10 +43,9 @@ Turn in [QT330 Patrol Schedules] \\Accept [QA331 Report to Doren]
 Turn in [QT331 Report to Doren]
 Turn in [QT188 Tiger Mastery] \\Turn in [QT195 Raptor Mastery] \\Accept [QA196 Raptor Mastery] \\Turn in [QT192 Panther Mastery] \\Accept [QA193 Panther Mastery]
 [H]Use your Hearthstone
-[O]Fly to [F Booty Bay]--OnStepActivation,ZONE_CHANGED,ZONE_CHANGED_NEW_AREA,NEW_WMO_CHUNK>>ZoneSkip,Stranglethorn Vale
-Turn in [QT1115 The Rumormonger] \\Accept [QA1116 Dream Dust in the Swamp] \\Turn in [QT189 Bloodscalp Ears]
+Head to Booty Bay\\Turn in [QT1115 The Rumormonger] \\Accept [QA1116 Dream Dust in the Swamp] \\Turn in [QT189 Bloodscalp Ears]
 Turn in [QT601 Water Elementals] \\Accept [QA602 Magical Analysis]
-Set your HS to [S Booty Bay] if you haven't--OnStepActivation>>BindLocation,Booty Bay
+Set your HS to [S Booty Bay] if you haven't[O]--OnStepActivation>>BindLocation,Booty Bay
 Turn in [QT577 Some Assembly Required]
 --Accept [QA628 Excelsior]
 [XP38 Make sure you are level 38 before starting the next segment]

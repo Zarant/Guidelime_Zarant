@@ -23,7 +23,7 @@ Fly to [F Southshore]
 As you quest through Hillsbrad pay attention to the syndicate assassin event in southshore \\If you manage to kill an assassin, turn in the [QA522-][O][QT522 Assassin's Contract][O] and skip the follow up
 Fly to Southshore[OC]
 Accept [G52.41,55.96,20Hillsbrad Foothills][QA564 Costly Menace]
-Turn in [QT538]
+Turn in [QT538]-->>Map,Hillsbrad Foothills
 Accept [G50.34,59.04,20Hillsbrad Foothills][QA659 Hints of a New Plague?]
 --Accept [QA9435]
 Accept [G51.46,58.38,20Hillsbrad Foothills][QA536 Down the Coast]
@@ -39,8 +39,8 @@ Turn in [G51.46,58.38,20Hillsbrad Foothills][QT561 Farren's Proof] \\Accept [QA5
 [G57.31,67.82,139Hillsbrad Foothills][QC562 -] Kill Nagas
 Turn in [G51.46,58.38,20Hillsbrad Foothills][QT562 Stormwind Ho!] \\Accept [QA563 Reassignment]
 [G48.96,55.06Hillsbrad Foothills]Buy 4x[V]*Soothing Spices*--OnStepActivation,BAG_UPDATE,MERCHANT_SHOW>>SoothingSpices
-[G40.15,92.44,140Alterac Mountains][QC689 -] Loot granite chunks inside the Yeti cave
-[G30.92,84.58,100Alterac Mountains]Do [QC564 Costly Menace]
+[QC689 -] Loot granite chunks inside the Yeti cave
+[G30.92,84.58,100Alterac Mountains]Do [QC564 Costly Menace]-->>Map,Alterac Mountains
 Click on the scroll on top of the table \\Accept [G58.31,67.92,20Alterac Mountains][QA510 Foreboding Plans] \\Accept [QA511 Encrypted Letter]
 Do [G58.3,67.97,88Alterac Mountains][QC505 Syndicate Assassins]
 [G69.3,12.4,60Hillsbrad Foothills][QC555,1 -] Kill turtles along the river
@@ -53,7 +53,7 @@ Turn in [G48.13,59.1,20Hillsbrad Foothills][QT505 Syndicate Assassins] \\Turn in
 Turn in [G52.41,55.96,20Hillsbrad Foothills][QT564 Costly Menace]
 
 Fly to [F Arathi Highlands]
-Accept [G45.83,47.55,20Arathi Highlands][QA681 Northfold Manor]
+Accept [G45.83,47.55,20Arathi Highlands][QA681 Northfold Manor]-->>Map,Arathi Highlands
 Turn in [G46.65,47.01,20Arathi Highlands][QT690 Malin's Request]
 Turn in [G60.18,53.84,20Arathi Highlands][QT659 Hints of a New Plague?] \\Accept [QA658 Hints of a New Plague?]
 [A Hunter][QC658 -][O] Use eagle eye to find the Forsaken Courier\\If the courier is not in Arathi, look for it in Hillsbrad after finishing Northfold Manor-->>Unitscan,FORSAKEN COURIER

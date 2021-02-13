@@ -296,8 +296,7 @@ Head to tanaris, die and spirit rez at Gadgetzan[OC]
 
 Fly to [F Feralas]
 Turn in [QT4120]
-[G77.4,36.9Feralas]Pull mobs and die on purpose to go through the DM East back entrance as a ghost\\
-[G76.4,35.9Feralas]Zone into dire maul and then zone out, this is a pre requisite for a quest later
+[OC]Head towards Dire Maul and skip this step once the General Chat changes to Dire Maul (this is a pre requisite for a Moonglade quest later)--reliquary of purity
 [G45.12,25.56Feralas]Buy some bait from Gregan-->>Collect,11141,1
 [G44.64,10.59Feralas]Give some bait to the gnoll guarding the Evoroot-->>Collect,11242,1
 [G45.12,25.56Feralas][QC3909-]Talk to Gregan and trade in the Evoroot

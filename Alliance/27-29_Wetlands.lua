@@ -11,7 +11,7 @@ Guidelime.registerGuide([[
 [V][O]Deposit the follwing items:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Wetlands27
 [A Hunter][V][O]Withdraw from your bank:\\Gobbler's Head\\Bundle of Crocolisk Skins\\Young Crocolisk Skin (x4) --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Wetlands27
 Fly to Stormwind\\
-Turn in [QT269] \\Accept [QA270]
+[G39.11,27.88,20Stormwind City]Turn in [QT269] \\Accept [QA270]
 Accept [G40.55,30.91Stormwind City][QA2923 Tinkmaster Overspark]
 Take the tram to Ironforge [OC]
 Turn in [QT1072]
@@ -83,7 +83,7 @@ Turn in [G52.13,58.73,20Hillsbrad Foothills][QT647 MacKreel's Moonshine]
 Get the [P Southshore] FP
 [A Hunter]Do the murloc quests in Southshore or farm turtle meat until you are [XP29.55 55% into level 29] [O]
 Stable your pet and head east \\Tame a spider, learn bite rank 4 [A Hunter][OC]
-Kill turtles along the river and save turtle meat for later, don't go out of your way to kill them [OC]
+Kill turtles along the river and save turtle meat for later, don't go out of your way to kill them
 [H]Hearth to Menethil Harbor[OC]
 Turn in [G10.58,60.59,20Wetlands][QT292 The Eye of Paleth] \\Accept [QA293 Cleansing the Eye]
 Accept [QA321 Lightforge Iron]

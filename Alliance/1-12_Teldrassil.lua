@@ -13,7 +13,7 @@ Accept [QA456 The Balance of Nature]
 Do [QC456]
 [G58.69,44.26Teldrassil][QT456 The Balance of Nature] pt.1 \\Accept [QA457 The Balance of Nature] pt.2
 Accept [G59.92,42.47Teldrassil][QA458 The Woodland Protector] pt.1
-[G60.89,41.96Teldrassil][QA4495 A Good Friend]
+[G60.89,41.96Teldrassil]Accept [QA4495 A Good Friend]
 
 [G60.18,34.91,170Teldrassil][QC457-]Kill thistle boars/mangy nightsabers
 Turn in [G54.59,32.99Teldrassil][QT4495 A Good Friend] \\Accept [QA3519 A Friend in Need]
@@ -40,7 +40,7 @@ Unstuck/Death warp back to the graveyard [OC]
 [G57.8,41.65Teldrassil]Turn in [QT917 Webwood Egg] \\Accept [QA920 Tenaron's Summons]
 Climb the big tree\\Turn in [QT920 Tenaron's Summons]
 Accept [G59.06,39.44Teldrassil][QA921 Crown of the Earth]
-[G59.94,33.04Teldrassil][QC921 Fill the flask at the moonwell]
+[G59.94,33.04Teldrassil][QC921-]Fill the flask at the moonwell
 Unstuck back to the graveyard [OC]
 [L59.32,41.1Teldrassil][V] Vendor some stuff if you don't have 1s to buy arcane shot [OC]--
 [G59.06,39.44Teldrassil]Turn in [QT921 Crown of the Earth] \\Accept [QA928 Crown of the Earth]
@@ -48,8 +48,7 @@ Unstuck back to the graveyard [OC]
 -- Dolanaar
 [G61.15,47.64Teldrassil]Accept [QA2159 Dolanaar Delivery]
 [G60.44,56.14Teldrassil]Accept [QA488 Zenn's Bidding]
-Save 7 *Small Spider Legs* for later\\([QA4161-][O][QT4161][O])--
-Do [QC488 Zenn's Bidding][O] as you quest
+Save 7 *Small Spider Legs* for later\\ \\Do [QC488 Zenn's Bidding][O] as you quest
 [G56.07,57.72Teldrassil]Accept [QA997 Denalan's Earth]
 [G55.95,57.27Teldrassil]Accept [QA475 A Troubling Breeze]
 [G55.57,56.94Teldrassil]Run to the top of the building\\Accept [QA2438 The Emerald Dreamcatcher] \\Accept [QA932 Twisted Hatred]
@@ -119,6 +118,7 @@ Death warp to Darnassus [OC]
 [G24.82,64.8Teldrassil]Accept [QA2518 Tears of the Moon]
 [H]Hearth to Dolanaar
 [G56.14,61.71Teldrassil]Turn in [QT7383 Crown of the Earth] \\Accept [QA935 Crown of the Earth]
+Turn in [QT4161]
 [G60.89,68.48Teldrassil]Turn in [QT927 The Moss-twined Heart][OC]
 Turn in [QT931 The Shimmering Frond]
 Turn in [QT930 The Glowing Fruit] \\Click on the plant vase\\Turn in [QA2399-][QT2399]

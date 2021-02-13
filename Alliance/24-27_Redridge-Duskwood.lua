@@ -15,7 +15,7 @@ Guidelime.registerGuide([[
 Head to Stormwind City\\[G42.79,80.15Stormwind City]Turn in [QT1075 A Scroll from Mauren] \\Accept [QA1076 Devils in Westfall]
 [G71.19,89.10,35Stormwind City] Head to Elwynn Forest
 
-Accept [G68.33,39.18Westfall][QA226 Wolves at Our Heels]
+Accept [QA226 Wolves at Our Heels]
 [QC226-]Kill wolves along the N/NW river bank[O]
 Speak with Madame Eva\\Accept [G75.81,45.29Duskwood][QA66 The Legend of Stalvan] \\Accept [G75.81,45.29Duskwood][QA101 The Totem of Infliction]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Speak with Chief Grual \\Accept [G73.88,43.45Duskwood][QA90 Seasoned Wolf Kabobs][O] \\You need 50 cooking to accept this quest, skip this step if you don't have 50 cooking
@@ -32,15 +32,15 @@ Accept [G79.8,48.02Duskwood][QA175 Look To The Stars]
 [QC177 -]Kill the Insane Ghoul inside the chapel
 Do [G79.4,70.77,166Duskwood][QC56 The Night Watch]
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][QC90,1-][O]Start saving Lean Wolf Flanks
-Accept [G97.18,65.28Westfall][QA245 Eight-Legged Menaces]
-Turn in [G76.55,57.05Westfall][QT163 Raven Hill] \\Accept [G76.55,57.05Westfall][QA5 Jitters' Growling Gut]
+Accept [QA245 Eight-Legged Menaces]
+Turn in [QT163 Raven Hill] \\Accept [QA5 Jitters' Growling Gut]
 [QC245 -]Kill spiders along the western river bank\\Don't go out of your way to do this quest, skip it if necessary[O]
 Turn in [QT164 Deliveries to Sven] \\Accept [QA95] 
 Turn in [QT226]
-Turn in [G84.06,37.84Westfall][QT165 The Hermit] \\Accept [G84.06,37.84Westfall][QA148 Supplies from Darkshire]
+Turn in [QT165 The Hermit] \\Accept [QA148 Supplies from Darkshire]
 --Finish off [QC245]
 Grind mobs until your Hearthstone cooldown is < 5min \\Make sure you have [V]*Gooey Spider Leg*x6-->>HS,5
-[G56.55,52.63Westfall][QC1076 -]Head to westfall and look out for dust devils [OC]-->>Unitscan,DUST DEVIL
+[QC1076 -]Head to westfall and look out for dust devils [OC]-->>Unitscan,DUST DEVIL
 [G56.55,52.63Westfall] Get the [P Westfall] Flight Path
 [QC1076 -]Look out for dust devils[OC]-->>Unitscan,DUST DEVIL
 Make sure you have at least 1 bag slot\\Click on the footlocker on the ground \\Turn in [G41.51,66.72Westfall][QT67 The Legend of Stalvan] \\Accept [G41.51,66.72Westfall][QA68 The Legend of Stalvan]
@@ -81,17 +81,16 @@ Guidelime.registerGuide([[
 Head to the small farmhouse southeast of Darkshire\\Turn in [QT149 Ghost Hair Thread] \\Accept [QA154 Return the Comb]
 Turn in [G75.81,45.29Duskwood][QT154 Return the Comb] \\Accept [QA157 Deliver the Thread]
 Turn in [G49.85,77.71Duskwood][QT95 Sven's Revenge] \\Accept [QA230 Sven's Camp]
-Turn in [G97.18,65.28Westfall][QT245 Eight-Legged Menaces][O]
+Turn in [QT245 Eight-Legged Menaces][O]
 [QT93-]Kill spiders[O]
-Turn in [G84.06,37.84Westfall][QT157 Deliver the Thread] \\Accept [QA158 Zombie Juice]
-Turn in [G68.38,39.85Westfall][QT230 Sven's Camp] \\Accept [QA262 The Shadowy Figure]
+Turn in [QT157 Deliver the Thread] \\Accept [QA158 Zombie Juice]
+Turn in [QT230 Sven's Camp] \\Accept [QA262 The Shadowy Figure]
 Finish off [QT93 Dusky Crab Cakes]
 [XP25.85 Grind to 25 + 85%]
 
---Run to Elwynn Forest [OC]
-Turn in [G85.72,2.68Westfall][QT69 The Legend of Stalvan] \\Accept [QA70 The Legend of Stalvan]
+Run to Elwynn Forest [OC]
+Turn in [G43.7,66.0Elwynn Forest][QT69 The Legend of Stalvan] \\Accept [QA70 The Legend of Stalvan]
 Run up the stairs\\Loot the [QC70 chest] on the floor
-[G49.60,40.42Elwynn Forest]Turn in [QT347 Rethban Ore] \\Accept [QA346 Return to Kristoff]
 
 --Run to SW [OC]
 Turn in [G43.08,80.39Stormwind City][QT1076 Devils in Westfall][O]
@@ -113,7 +112,7 @@ Turn in [G73.88,43.45Duskwood][QT93 Dusky Crab Cakes] \\Accept [QA240 Return to 
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][G73.88,43.45Duskwood]Turn in [QT90 Seasoned Wolf Kabobs][O]
 
 --3rd pass [OC]
-[G79.63,48.1,151Westfall][QC57-][QC156-]Kill skeletons at the Raven Hill Cemetery
+[QC57-][QC156-]Kill skeletons at the Raven Hill Cemetery
 Turn in [QT453 Finding the Shadowy Figure] \\Accept [QA268 Return to Sven] \\Turn in [QT240 Return to Jitters]
 Turn in [QT268 Return to Sven] \\Accept [QA323 Proving Your Worth]
 Do [QC323 Proving Your Worth]

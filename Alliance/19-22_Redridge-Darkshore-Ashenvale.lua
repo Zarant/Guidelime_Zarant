@@ -105,50 +105,50 @@ Accept [QA948]
 Accept [QA4740]
 Accept [QA993]
 Kill [QC1003 -][O]Grizzled Thistle Bears
-[G27,55.59Felwood][QT952 Grove of the Ancients][A NightElf][OC]
-[G27,55.59Felwood]Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]
-[G22.36,3.98Ashenvale][QC944 Enter The Master's Glaive] and clear mobs around the altar in the center
+[QT952 Grove of the Ancients][A NightElf][OC]
+Turn in [QT948 Onu] \\Accept [QA944 The Master's Glaive]
+[QC944 Enter The Master's Glaive] and clear mobs around the altar in the center
 [L22.36,3.98Ashenvale]Start the escort quest\\Accept [QA945 Therylune's Escape][O]
 Drop the scrying bowl on the ground \\Turn in [QT944 The Master's Glaive] \\Accept [QA949 The Twilight Camp]
-[G22.24,2.52Ashenvale]Click on the book on top of the pedestal \\Turn in [QT949 The Twilight Camp] \\Accept[QA950 Return to Onu]
+Click on the book on top of the pedestal \\Turn in [QT949 The Twilight Camp] \\Accept[QA950 Return to Onu]
 
-[G18.08,64.03Felwood]Turn in [QT729 The Absent Minded Prospector] pt.1 
+Turn in [QT729 The Absent Minded Prospector] pt.1 
 Start the escort quest\\Accept [QA731 The Absent Minded Prospector] pt.2 
 [QC731-]Escort Prospector Remtravel
-[G13.97,4.1Ashenvale]Accept [QA4733 Beached Sea Creature]
-[G13.93,2.01Ashenvale]Accept [QA4732 Beached Sea Turtle]
-[G13.47,64.01Felwood]Accept [QA4731 Beached Sea Turtle]
-[G14.62,60.72Felwood]Accept [QA4730 Beached Sea Creature]
+Accept [QA4733 Beached Sea Creature]
+Accept [QA4732 Beached Sea Turtle]
+Accept [QA4731 Beached Sea Turtle]
+Accept [QA4730 Beached Sea Creature]
 [G36.64,76.53,20Darkshore]Clear the murloc camp, maintain a safe distance while doing it\\Move to the center of the camp to summon [QC4740 Murkdeep]
-Turn in [G24.53,60.46Felwood][QT1003 Buzzbox 525]
+Turn in [QT1003 Buzzbox 525]
 Turn in [QT993 A Lost Master] \\Accept [QA995]
 [QC995 -]Wait until the RP sequence is over
 [QC994 Escort Volcor]
-[G27,55.59Felwood]Turn in [QT951 Mathystra Relics][O]\\Abandon this quest if you haven't completed this quest earlier
-[G27,55.59Felwood]Turn in [QT950 Return to Onu]
-[G27.96,55.76Felwood]Accept [QA5321 The Sleeper Has Awakened] 
+Turn in [QT951 Mathystra Relics][O]\\Abandon this quest if you haven't completed this quest earlier
+Turn in [QT950 Return to Onu]
+Accept [QA5321 The Sleeper Has Awakened] 
 [QC5321,1-]Loot the chest next to the quest giver
 
 Head to ashenvale[OC]
-[G27.26,35.58Ashenvale]Turn in [QT5321 The Sleeper Has Awakened]
-[G26.43,38.59Ashenvale][QA1010 Bathran's Hair][O]
-[G26.19,38.69Ashenvale]Turn in [QT967 The Tower of Althalaxx] pt.3 \\Accept [QA970 The Tower of Althalaxx] pt.4
-[G31.41,30.66,145Ashenvale][QC970-]Kill cultists[OC]
-[G26.19,38.69Ashenvale]Turn in [QT970 The Tower of Althalaxx] pt.4[OC]
+Turn in [QT5321 The Sleeper Has Awakened]
+[QA1010 Bathran's Hair][O]
+Turn in [QT967 The Tower of Althalaxx] pt.3 \\Accept [QA970 The Tower of Althalaxx] pt.4
+[QC970-]Kill cultists[OC]
+Turn in [QT970 The Tower of Althalaxx] pt.4[OC]
 Grind to level [XP20]
-[G26.43,38.59Ashenvale][QA1010 Bathran's Hair]
-[G31.63,22.33,114Ashenvale][QC1010-]Look out for the herb sacks on the ground
-[G31.41,30.66,145Ashenvale][QC970-]Kill cultists
-[G26.43,38.59,25Ashenvale]Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]\\
-Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5 --[G26.19,38.69Ashenvale]
+[QA1010 Bathran's Hair]
+[QC1010-]Look out for the herb sacks on the ground
+[QC970-]Kill cultists
+Turn in [QT1010 Bathran's Hair] \\Accept [QA1020 Orendil's Cure]\\
+Turn in [QT970 The Tower of Althalaxx] pt.4 \\Accept [QA973 The Tower of Althalaxx] pt.5 --
 
 
-[G34.4,48Ashenvale]Get the [P Astranaar] Flight Path 
-Accept [G34.67,48.83Ashenvale][QA1008 The Zoram Strand] 
-Accept [G34.89,49.79Ashenvale][QA1070 On Guard in Stonetalon]
-Accept [G35.76,49.1Ashenvale][QA1056 Journey to Stonetalon Peak]
-Accept [G36.61,49.58Ashenvale][QA991 Raene's Cleansing]\\Accept [QA1054]
-[G37.36,51.79Ashenvale]Turn in [QT1020 Orendil's Cure]-->>LoadNextGuide
+Get the [P Astranaar] Flight Path 
+Accept [QA1008 The Zoram Strand] 
+Accept [QA1070 On Guard in Stonetalon]
+Accept [QA1056 Journey to Stonetalon Peak]
+Accept [QA991 Raene's Cleansing]\\Accept [QA1054]
+Turn in [QT1020 Orendil's Cure]-->>LoadNextGuide
 
 ]],"Zarant")
 
@@ -160,26 +160,26 @@ Guidelime.registerGuide([[
 
 Accept [QA1033 Elune's Tear]
 
-[G46.37,46.38,50Ashenvale][QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater
-[G37.36,51.79Ashenvale]Turn in [QT1033 Elune's Tear]\\Wait for the RP sequence to end\\Accept [QA1034 The Ruins of Stardust]
-[G33.3,67.79,101Ashenvale][QC1034 -]Loot the bushes around the lake
-[G31.67,64.24Ashenvale]Head to the base of the mountain\\[G31.21,61.60Ashenvale]Run straight north while climbing the mountain
-[G27.50,60.76,5Ashenvale]Climb the hill next to the big tree to the right of the Fire Scar Shrine entrance \\Jump over the tree root and hug the right to avoid aggroing mobs\\[G25.27,60.68Ashenvale][QC973 -]Kill Ilkrud Magthrull
-[G22.64,51.91Ashenvale]Turn in [QT945 Therylune's Escape]
-[G26.19,38.69Ashenvale]Turn in [QT973 The Tower of Althalaxx] pt.5
-Accept [G14.79,31.29Ashenvale][QA1007 The Ancient Statuette]
+[QC1033 -]Loot the pearl shaped objects \\Be careful with mobs sneaking underwater
+Turn in [QT1033 Elune's Tear]\\Wait for the RP sequence to end\\Accept [QA1034 The Ruins of Stardust]
+[QC1034 -]Loot the bushes around the lake
+Run straight north while climbing the mountain
+[QC973 -]Kill Ilkrud Magthrull
+Turn in [QT945 Therylune's Escape]
+Turn in [QT973 The Tower of Althalaxx] pt.5
+Accept [QA1007 The Ancient Statuette]
 [QC1008-]Kill nagas[O]
-[G14.2,20.64Ashenvale]Loot [QC1007 The Ancient Statuette]
-[G14.79,31.29Ashenvale]Turn in [QT1007 The Ancient Statuette] \\Wait for the RP sequence\\Accept [QA1009 Ruuzel]
-[G7.4,13.4Ashenvale]Kill [QC1009 Ruuzel] \\Lady Vespia (rare) can also drop the ring
+Loot [QC1007 The Ancient Statuette]
+Turn in [QT1007 The Ancient Statuette] \\Wait for the RP sequence\\Accept [QA1009 Ruuzel]
+Kill [QC1009 Ruuzel] \\Lady Vespia (rare) can also drop the ring
 Finish off [QC1008 The Zoram Strand]
 Turn in [QT1009]
-[G20.31,42.33Ashenvale]Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
+Turn in [QT991 Raene's Cleansing] \\Accept [QA1023 Raene's Cleansing] 
 Kill Murlocs until the [QC1023 Glowing Gem] drops
 [A Warrior,Paladin,Priest,Rogue,Mage,Druid]Die at the east side of the lake and spirit rez
-[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT1034 The Ruins of Stardust]
 [A Warrior,Paladin,Priest,Rogue,Mage,Druid][S]Set your HS to Astranaar
-[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing]\\Accept [QA1025]
+[A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT1023 Raene's Cleansing]\\Accept [QA1025]
 [A Warrior,Paladin,Priest,Rogue,Mage,Druid]Throw away *Teronis' Journal*[O]-->>Destroy,5505
 [A Warrior,Paladin,Priest,Rogue,Mage,Druid]Turn in [QT1008 The Zoram Strand]\\Accept [QA1134]
 [A Warrior,Paladin,Priest,Rogue,Mage,Druid]Fly to [F Darkshore][OC]
@@ -198,11 +198,11 @@ Kill Murlocs until the [QC1023 Glowing Gem] drops
 [A Warrior,Paladin,Priest,Rogue,Mage,Druid][H]Hearth back to Astranaar
 
 [A Warlock]Head back to Astranaar\\Turn in [QT1008 The Zoram Strand]\\Accept [QA1134]
-[A Warlock]Turn in [G36.61,49.58Ashenvale][QT1023 Raene's Cleansing]\\Accept [QA1025]
+[A Warlock]Turn in [QT1023 Raene's Cleansing]\\Accept [QA1025]
 [A Warlock]Throw away *Teronis' Journal*[O]-->>Destroy,5505
-[A Warlock]Turn in [G37.36,51.79Ashenvale][QT1034 The Ruins of Stardust]
+[A Warlock]Turn in [QT1034 The Ruins of Stardust]
 
-[G42.5,71.7,50Ashenvale]Head to stonetalon
+Head to stonetalon
 Turn in [QT1070 On Guard in Stonetalon] \\Accept [QA1085 On Guard in Stonetalon]
 Turn in [QT1085 On Guard in Stonetalon] \\Accept [QA1071 A Gnome's Respite]
 Accept [QA1093 Super Reaper 6000]
@@ -239,19 +239,19 @@ Turn in [QT1134 Pridewings of Stonetalon]
 Accept [QA1025 An Aggressive Defense]
 Accept [QA1035]--Fallen Sky Lake
 
-Accept [G49.79,67.21,20Ashenvale][QA1016 Elemental Bracers]
+Accept [QA1016 Elemental Bracers]
 [OC]Loot 5 *Intact Elemental Bracers*-->>Collect,12220,5
 [QC1016 -]Right click the *Divining Scroll*
-Turn in [G49.79,67.21,20Ashenvale][QT1016 Elemental Bracers]
-Do [G54.05,62.83,144Ashenvale][QC1025 An Aggressive Defense]
+Turn in [QT1016 Elemental Bracers]
+Do [QC1025 An Aggressive Defense]
 Run east to Azshara[OC]
 Do [QC1035]\\This quest requires you to kill a level 30 mob, skip it if necessary
 --Turn in [QT4581]
 [G11.90,77.57Azshara]Get the [P Azshara] flight path[OC]
 Fly to [F Astranaar]
-[G39.54,36.47Ashenvale]Kill [QC1054-]Dal Bloodclaw-->>Unitscan,DAL BLOODCLAW
+Kill [QC1054-]Dal Bloodclaw-->>Unitscan,DAL BLOODCLAW
 [A Warrior,Paladin,Priest,Rogue,Mage,Druid]Die and resurrect at Astranaar[OC]
-[A Warlock][G31.5,31.5Ashenvale]Do [QC1738]
+[A Warlock]Do [QC1738]
 [A Warlock]Run east and die back to Astranaar[O]-->>ZoneSkip,Darkshore
 Turn in [QT1035]
 Turn in [QT1025 An Aggressive Defense]

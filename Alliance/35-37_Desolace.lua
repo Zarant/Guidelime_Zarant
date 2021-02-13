@@ -7,13 +7,13 @@ Guidelime.registerGuide([[
 [NX36-38STV(2)]
 [GA Alliance,Hunter]
 [D Alliance Leveling Guide]
-Go to Ironforge\\Accept [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace]
+Make sure you accepted [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace][O] in Ironforge
 Take the boat to Darkshore
 
 
 Fly to [F Stonetalon]
 [OC][G54.76,0.47,60Desolace][G66.4,11.82,Desolace]Head to Desolace\\Fly to Desolace if you have the FP-->>ZoneSkip,Desolace
-Accept [G66.4,11.82,Desolace][QA1437 Vahlarriel's Search]
+Accept [G66.4,11.82,Desolace][QA1437 Vahlarriel's Search]-->>Map,Desolace
 [G64.66,10.53Desolace]Get the [P Desolace] FP[OC]
 
 [G66.28,6.55Desolace]Set your HS to [S Nijel's Point]
@@ -45,8 +45,9 @@ Accept [QA5501 Bone Collector]
 Accept [QA5561 Kodo Roundup]
 [G72.0,76.0,160Desolace][QC1387 -][O]Kill centaurs
 [G72.0,76.0,160Desolace][QC1382-]Keep killing centaurs until you get *friendly* rep. with Gelkis centaur
-Do [QC5501 Bone Collector][O]
 Do [QT5561 Kodo Roundup][O] \\Grind mobs on your way back and forth\\Be on the lookout for the kodos that patrol next to the quest giver
+Do [QC5501 Bone Collector]
+Turn in [QT5561]
 Finish off [QC1459]
 Turn in [QT5501 Bone Collector]
 
@@ -72,11 +73,11 @@ Unstuck and spirit rez at the kodo graveyard [OC]
 [O][A Hunter]Tame a *Scorpashi Lasher* \\Learn claw rank 5--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,4697
 Turn in [QT1382]
 Head to [G41.13,91.72,20Desolace]Feralas
-[G54.81,47.99,20Feralas]Once you get to feralas, unstuck and rez at the Dire Maul GY
+[G54.81,47.99,20Feralas][O]Once you get to feralas, unstuck and rez at the Dire Maul GY-->>Map,Feralas
 [G43.33,42.77Feralas]Run to the edge of the dock and unstuck \\Spirit rez at [G31.83,48.12,20Feralas]Feathermoon
 
 Fly to [F Tanaris]
-Run to Thousand Needles \\Turn in [QT1112 Parts for Kravel]
+Run to Thousand Needles \\Turn in [QT1112 Parts for Kravel]-->>Map,Thousand Needles
 Accept [QA1107 Encrusted Tail Fins]
 Turn in [QT1183 Goblin Sponsorship] \\Accept [QA1186 The Eighteenth Pilot]
 Turn in [QT1186 The Eighteenth Pilot] \\Accept [QA1187 Razzeric's Tweaking]

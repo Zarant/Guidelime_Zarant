@@ -8,10 +8,10 @@ Guidelime.registerGuide([[
 [NX43-44Tanaris/Dustwallow]
 [GA Alliance]
 [D Alliance Leveling Guide]
-[V][O]Withdraw the following items from your bank:\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_STV41
+[V]Withdraw the following items from your bank:\\Perenolde Tiara\\Tomes of Alterac\\Kravel's Scheme\\Sample Elven Gem --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_STV41
 [T]Train skills\\Make sure your pet has Frost Resistance maxed out [O][A Hunter]
 Take the tram to Stormwind [OC]
-Turn in [QT543 The Perenolde Tiara]
+Turn in [QT543 The Perenolde Tiara]-->>Map,Stormwind City
 Turn in [QT542 Return to Milton]
 Accept [QA1363 Mazen's Behest] pt.1\\Run upstairs and turn in [QT1363 Mazen's Behest] pt.1\\Accept [QA1364 Mazen's Behest] pt.2
 Accept [QA1477 Vital Supplies] at the mage tower
@@ -28,8 +28,8 @@ Accept [QA1477 Vital Supplies] at the mage tower
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT212 A Meal Served Cold]
 
 
-Fly to [F Booty Bay]
-Turn in [QT1116 Dream Dust in the Swamp] at the top floor
+Fly to [F Booty Bay]-->>Map,Stranglethorn Vale
+Turn in [QT1116 Dream Dust in the Swamp][O] at the top floor
 Accept [QA209 Skullsplitter Tusks] at the top floor
 Turn in [QT669 Sunken Treasure]
 Turn in [QT603 Ansirem's Key] at the middle floor \\Accept [QA610 "Pretty Boy" Duncan]
@@ -51,7 +51,7 @@ Accept [QA576 Keep An Eye Out]
 
 Do [G33.58,66.24,150Stranglethorn Vale][QC606 Scaring Shaky] \\Save Gorilla Fangs for later
 Do [QC196] --Raptor mastery 3
-[QC197-][OC]Kill Tethis if you have the associated quest, skip this step otherwise
+[QC197-][OC]Kill Tethis if you have the associated quest
 Do [G41.65,43.69,185Stranglethorn Vale][QC600 Venture Company Mining]
 [G45.7,32.62,135Stranglethorn Vale][QC205 -]Kill doctors/mystics \\[G45.3,42.41,152Stranglethorn Vale][QC209 -]Gather Skullsplitter Tusks
 [G49.6,24.02,30Stranglethorn Vale][QC193 -] Look for Bhag'thera with eagle eye \\You can found it either north or west of the ogre mound-->>Unitscan,BHAG'THERA
@@ -67,8 +67,8 @@ Turn in [QT193 Panther Mastery]\\Turn in [QT196 Raptor Mastery] \\Accept [QA197 
 Turn in [QT600 Venture Company Mining]
 Turn in [QT209 Skullsplitter Tusks] at the top floor
 Accept [QA604 The Bloodsail Buccaneers] \\Turn in [QT611 The Curse of the Tides]
-[V][O]Withdraw *Khadgar's Essays on Dimensional Convergence* if you have it --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_STV41
-Withdraw Green Hills pages from your bank\\Ch.1: 1,4,6,8\\Ch.2: 10,11,14,16\\Ch.3: 18,20,21,24\\Ch.4: 25,26,27 [O]
+[O]Withdraw Green Hills pages from your bank\\Ch.1: 1,4,6,8\\Ch.2: 10,11,14,16\\Ch.3: 18,20,21,24\\Ch.4: 25,26,27
+[V]Withdraw *Khadgar's Essays on Dimensional Convergence* if you have it --BANKFRAME_OPENED,BAG_UPDATE>>BankW2_STV41
 Turn in [QT606 Scaring Shaky] \\Accept [QA607 Return to MacKinley]
 Turn in [QT607 Return to MacKinley] \\Accept [QA609 Voodoo Dues]
 Turn in [QT628 Excelsior]
@@ -76,7 +76,7 @@ Turn in [QT628 Excelsior]
 [QC587-][O]Kill every pirate you see
 Do [G27.27,62.11,184Stranglethorn Vale][QC617 Akiris by the Bundle]
 Do [QC604 The Bloodsail Buccaneers]
-[QC587-][QC576-]Kill more pirates
+Finish off the following:\\ [QC587] \\ [QC576]
 Use eagle eye to find [QA624 Cortello's Riddle] \\It's a small parchment that can spawn inside one of the 3 ships\\Right click the parchment and accept the quest from the item in your bag
 [QC609,3-]Kill Chucky "Ten Thumbs"
 [QC609,2-] Kill Jon-Jon the Crow \\[QC609,1-] Kill Maury "Club Foot" Wilkins\\[QC621-]Get 12 mixtures
@@ -87,10 +87,10 @@ Turn in [QT208 Big Game Hunter]
 Turn in all Green Hills pages
 
 --Swamp of Sorrows
-Run to Duskwood \\Turn in [QT1477 Vital Supplies] \\Accept [QA1395 Supplies for Nethergarde]
+Run to Duskwood \\Turn in [QT1477 Vital Supplies] \\Accept [QA1395 Supplies for Nethergarde]-->>Map,Duskwood
 --Stable your Pet [A Hunter]
 --Fly to [F Blasted Lands]
-Run to Swamp of Sorrows \\Nethergarde supplies has a 1hr timer, be mindful of that [OC]
+Run to Swamp of Sorrows \\Nethergarde supplies has a 1hr timer, be mindful of that [OC]-->>Map,Swamp of Sorrows
 Turn in [QT624 Cortello's Riddle] \\Accept [QA625 Cortello's Riddle]
 [QC1364-]Kill all swamp creatures you see [O]
 Accept [QA1398 Driftwood]
@@ -100,19 +100,19 @@ Finish off [QC1398]
 [G14.97,37.31,70Swamp of Sorrows]Finish off [QC1364 Mazen's Behest]
 Turn in [QT1398 Driftwood] \\Accept [QA1425 Deliver the Shipment]
 Run to Blasted Lands [OC]
-Turn in [QT1395 Supplies for Nethergarde]
+Turn in [QT1395 Supplies for Nethergarde]-->>Map,Blasted Lands
 Turn in [QT1425 Deliver the Shipment]
 Turn in [QT1364 Mazen's Behest] at the top of the tower
 Fly to [F Booty Bay]
 
 
-Turn in [QT587 Up to Snuff] \\Accept [QA2864 Tran'rek]
+Turn in [QT587 Up to Snuff] \\Accept [QA2864 Tran'rek]-->>Map,Stranglethorn Vale
 --Accept [QA1117 Rumors for Kravel]
 Turn in [QT604 The Bloodsail Buccaneers]
 Turn in [QT621 Zanzil's Secret] \\Accept [QA1119] \\Accept [QA580 Whiskey Slim's Lost Grog]
 Turn in [QT617 Akiris by the Bundle] \\Accept [QA623 Akiris by the Bundle]
-[V][O]Deposit the following items: Gorilla Fangs\\Carfully folded note --BANKFRAME_OPENED,BAG_UPDATE>>BankD_STV41
 [V][O]Withdraw the following items:\\Seaforium Booster --BANKFRAME_OPENED,BAG_UPDATE>>BankW3_STV41
+[V]Deposit the following items: Gorilla Fangs\\Carfully folded note --BANKFRAME_OPENED,BAG_UPDATE>>BankD_STV41
 Accept [QA2872] 
 Turn in [QT609 Voodoo Dues]
 Turn in [QT576 Keep An Eye Out]

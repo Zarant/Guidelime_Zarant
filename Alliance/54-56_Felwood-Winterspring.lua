@@ -9,7 +9,7 @@ Guidelime.registerGuide([[
 [D Alliance Leveling Guide]
 
 [O]Collect 6 Corrupted Soul Shards--OnStepActivation,BAG_UPDATE>>Collect,11515,6
-Go inside the small hut and turn in [QT4441 Felbound Ancients] first
+Go inside the small hut and turn in [QT4441 Felbound Ancients] first-->>Map,Felwood
 Turn in [QT5159 Cleansed Water Returns to Felwood] \\Accept [QA5165 Dousing the Flames of Protection]
 Accept [QA4442 Purified!] \\Turn in [QT4442 Purified!]
 Turn in [G54.2,86.8Felwood][QA5882-][QT5882]
@@ -18,7 +18,8 @@ Keep grinding mobs until you get the *Blood Red Key*\\Accept [QA5202 A Strange R
 [QC5165,4-]Douse the second flame
 [QC5165,3-]Douse the third flame
 [QC5165,2-]Douse the fourth flame
-Start the escort quest\\Turn in [QT5202 A Strange Red Key] \\Accept [QA5203 Rescue From Jaedenar]
+Start the escort quest\\Turn in [QT5202 A Strange Red Key][O]
+Accept [QA5203 Rescue From Jaedenar]
 [QC5203-]Escort Arko'narin
 [G49.55,29.71Felwood]Stop by the northern GY, right click on the flute of the ancients and start the escort quest\\([QA4261 Ancient Spirit])
 [QC4261-]Escort Arei
@@ -26,19 +27,19 @@ Accept [QA8461 Deadwood of the North]
 Do [QC8461 Deadwood of the North]
 --Grind to level [XP55]
 Turn in [QT8461 Deadwood of the North] \\Accept [QA8465 Speak to Salfa]
-Run to Winterspring\\Turn in [QT8465 Speak to Salfa] \\Accept [QA8464 Winterfall Activity]
+Run to Winterspring\\Turn in [QT8465 Speak to Salfa] \\Accept [QA8464 Winterfall Activity]-->>Map,Winterspring
 Turn in [QT3909 The Videre Elixir] \\Accept [QA3912 Meet at the Grave] 
 Turn in [QT980 The New Springs] \\Accept [QA4842 Strange Sources] \\Accept [QA5082 Threat of the Winterfall]
 Do [QC5082 Threat of the Winterfall]
 Keep grinding fulborgs until you get an *Empty Firewater Flask*\\Accept [QA5083 Winterfall Firewater]
 Turn in [QT5082 Threat of the Winterfall] \\Turn in [QT5083 Winterfall Firewater] \\Accept [QA5084 Falling to Corruption]
-Run back to Felwood\\Turn in [QT5084 Falling to Corruption] \\Accept [QA5085 Mystery Goo]
-Run back to Winterspring\\Turn in [QT5085 Mystery Goo] \\Accept [QA5086 Toxic Horrors]
-[QC978-]Look for blue feathers on the ground
-[A Hunter]Death skip to everlook[OC]
-[A Hunter]Fly to [F Teldrassil][OC]
-[A Hunter]Turn in [QT978] \\Accept [QA979]
-[H]Hearth to Ratchet or Tanaris
+Run back to Felwood\\Turn in [QT5084 Falling to Corruption] \\Accept [QA5085 Mystery Goo]-->>Map,Felwood
+Run back to Winterspring\\Turn in [QT5085 Mystery Goo] \\Accept [QA5086 Toxic Horrors]-->Map,Winterspring
+[QC978-]Look for blue feathers on the ground\\Skip this step if you did this quest earlier
+[A Hunter]Fly to Teldrassil[OC]-->>Map,Teldrassil
+[A Hunter]Turn in [QT978][OC]
+[A Hunter]Accept [QA979]\\Skip this step if you have this quest already
+[H]Hearth to Ratchet or Tanaris-->>Map,Tanaris
 
 Fly to [F Tanaris]-->>ZoneSkip,Tanaris
 Accept [QA4504 Super Sticky]
@@ -46,39 +47,31 @@ Turn in [QT4496 Bungle in the Jungle]
 Use the Videre Elixir at the Tanaris graveyard[OC]
 Speak to the ghost just north of the graveyard, you can only see him while dead\\Turn in [G53.93,23.33Tanaris][QT3912] \\Accept [QA3913]
 Click on the Conspicuous Gravestone\\Turn in [QT3913] \\Accept [QA3914]
-Fly to [F Un'Goro]
+Fly to [F Un'Goro]-->>Map,Un'Goro Crater
 Turn in [QT3914 Linken's Sword] \\Accept [QA3941 A Gnome's Assistance]
 Turn in [QT3941 A Gnome's Assistance] \\Accept [QA3942 Linken's Memory]
 Do [QC4504]
-Fly to [F Tanaris]
+Fly to [F Tanaris]-->>Map,Tanaris
 Turn in [QT4504 Super Sticky]
-Fly to [F Azshara]
+Fly to [F Azshara]-->>Map,Ashenvale
 
 
 Run to Ashenvale\\Turn in [QT4261 Ancient Spirit]
 [O]Throw away the Flute of the Ancients-->>Destroy,11445
-Run to Felwood\\[G54.15,86.84Felwood]Turn in [QA5882-][QT5882 Salve via Hunting]
+Run to Felwood\\[G54.15,86.84Felwood]Turn in [QA5882-][QT5882 Salve via Hunting]-->>Map,Felwood
 Turn in [QT5165 Dousing the Flames of Protection] \\Accept [QA5242 A Final Blow]
 Turn in [QT5203 Rescue From Jaedenar] \\Accept [QA5204 Retribution of the Light]
 Turn in [QT3942 Linken's Memory] \\Accept [QA4084 Silver Heart]
-Run to Jaedenar, enter the Shadow Hold\\[G38.49,50.40Felwood][QC5204-]Kill Rakaiah
+Run to Jaedenar, enter the Shadow Hold\\[G38.49,50.40Felwood][QC5204-][OC]Kill Rakaiah
 [G38.49,50.40Felwood]Turn in [QT5204 Retribution of the Light] \\Accept [QA5385 The Remains of Trey Lightforge]
 Go deeper into the Shadow Hold\\Do [G38.86,46.79Felwood][QC5242 A Final Blow]
 [QC4084,1-]Kill Bears/Wolves as you go through Felwood[O]
 Do [G49.52,25.10,90Felwood][QC5086 Toxic Horrors]
 [QC4084,2-]Kill Irontree Stompers
+Finish off [QC4084]\\
 [G65.4,7.1,80Felwood]Go to Winterspring through the fulborg tunnel
 
-Run to Winterspring\\Turn in [QT5086 Toxic Horrors] \\Accept [QA5087 Winterfall Runners]
 
-[QC5087-][O]Look for winterfall runners as you quest-->>Unitscan,WINTERFALL RUNNER
-Turn in [QT5250 Starfall] \\Accept [QA5244 The Ruins of Kel'Theril]
-Accept [QA4861 Enraged Wildkin] \\Turn in [QT5244 The Ruins of Kel'Theril] \\Accept [QA5245 Troubled Spirits of Kel'Theril]
-Do [QC5245,2 Troubled Spirits of Kel'Theril]
-Do [QC5245,4 Troubled Spirits of Kel'Theril]
-Do [QC5245,3 Troubled Spirits of Kel'Theril]
-Do [QC5245,1 Troubled Spirits of Kel'Theril]
-[G61.3,38.9,150Winterspring]Head to Everlook--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
 Guidelime.registerGuide([[
@@ -86,10 +79,18 @@ Guidelime.registerGuide([[
 [NX56-57Burning Steppes]
 [GA Alliance]
 [D Alliance Leveling Guide]
+Run to Winterspring\\Turn in [QT5086 Toxic Horrors] \\Accept [QA5087 Winterfall Runners]-->>Map,Winterspring
 
+[QC5087-][O]Look for winterfall runners as you quest-->>Unitscan,WINTERFALL RUNNER
+Turn in [QT5250 Starfall] \\Accept [QA5244 The Ruins of Kel'Theril]
+Accept [QA4861 Enraged Wildkin] \\Turn in [QT5244 The Ruins of Kel'Theril] \\Accept [QA5245 Troubled Spirits of Kel'Theril]
+[QC5245,2-]Loot the first relic
+[QC5245,4-]Loot the second relic
+[QC5245,3-]Loot the third relic
+[QC5245,1-]Loot the fourth relic
 [G61.3,38.9Winterspring][S]Set your Hearthstone to Everlook
 Accept [QA6030 Duke Nicholas Zverenhoff] \\Accept [QA6028 The Everlook Report] \\Accept [QA5601 Sister Pamela]
-[V][O]Deposit the following items:\\Everlook report\\Studies in spirit speaking\\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head\\Jaron's Pick\\All 4 Relics --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Winterspring54
+[V]Deposit the following items:\\Everlook report\\Studies in spirit speaking\\Rabine's Letter\\Cenarion Beacon\\Silvery Claws\\Irontree Heart\\Remains of Trey Lightforge\\Shadow Lord Fel'dan's Head\\Jaron's Pick\\All 4 Relics --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Winterspring54
 [A Hunter]Accept [QA969]
 --Accept [QA3783 Are We There, Yeti?]
 
@@ -117,14 +118,14 @@ Turn in [QT8464 Winterfall Activity]
 
 
 Unstuck back to the graveyard[OC]
-Fly to [F Teldrassil][OC]
+Fly to [F Teldrassil]-->>Map,Teldrassil
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT978] \\Accept [QA979]
 
 [A Hunter]Turn in [QT4901 Guardians of the Altar] \\Accept [QA4902 Wildkin of Elune]
 
-[A Hunter][V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel\\Black Dragonflight Molt--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
+[A Hunter][V]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel\\Black Dragonflight Molt--BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
 [A Hunter][T][O]Train skills
-[A Hunter]Turn in [QT4902 Wildkin of Elune]
+[A Hunter]Turn in [QT4902 Wildkin of Elune]-->>Map,Darnassus
 Fly to [F Darkshore]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 

@@ -9,8 +9,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Leveling Guide]
 [V][O]Deposit the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Mirefin Head --BANKFRAME_OPENED,BAG_UPDATE>>Bank_1kN33
-Take the Boat to Booty Bay [OC]
-Turn in [G26.34,73.56,20Stranglethorn Vale][QT1180 Goblin Sponsorship] \\Accept [QA1181 Goblin Sponsorship]
+Turn in [G26.34,73.56,20Stranglethorn Vale][QT1180 Goblin Sponsorship] \\Accept [QA1181 Goblin Sponsorship]-->>Map,Stranglethorn Vale
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior]Turn in [QT1040] \\Accept [QA1041]
 Enter the inn from the bottom floor \\Accept [G27.11,77.21,20Stranglethorn Vale][QA605 Singing Blue Shards]
 [S] Set your HS to Booty Bay
@@ -19,7 +18,7 @@ Talk to Baron Revilgaz\\Turn in [G27.22,76.87,20Stranglethorn Vale][QT616 The Ha
 Accept [G28.29,77.59,20Stranglethorn Vale][QA575 Supply and Demand]
 Throw away the *Library Scrip*[O]-->>Destroy,3898
 [G27.53,77.78Stranglethorn Vale]Fly to [F Westfall][OC]
-Turn in [QT231 A Daughter's Love]
+Turn in [QT231 A Daughter's Love]-->>Map,Duskwood
 
 Turn in [QT198 Supplies to Private Thorsen][O]
 Turn in [QA215-][O][QT215 Jungle Secrets][O] if you have it, otherwise keep an eye for Private Thorsen's RP sequence\\He patrols down the road every 30 minutes
@@ -27,7 +26,7 @@ Run to the STV/Duskwood border\\Accept [G92.05,81.87,20Westfall][QA203 The Secon
 [L48.53,8.68Stranglethorn Vale][L24.50,17.37Stranglethorn Vale][QC605 -]Kill basilisks [O]
 [QC575 -]Kill river crocolisks [O]
 
-Head to STV\\Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]
+Head to STV\\Accept [QA583 Welcome to the Jungle] \\Turn in [QT583 Welcome to the Jungle]-->>Map,Stranglethorn Vale
 Accept [QA185 Tiger Mastery] pt.1\\Accept [QA190 Panther Mastery] pt.1
 Turn in [QT5762][OC]
 Do [QC185][O]
@@ -43,6 +42,7 @@ Accept [G37.7,3.3,20Stranglethorn Vale][QA210 Krazek's Cookery]
 Turn in [G92.05,81.87,20Westfall][QT203 The Second Rebellion] \\Turn in [G92.05,81.87,20Westfall][QT204 Bad Medicine]
 Turn in [QT190 Panther Mastery][OC] pt.1
 Turn in [G87.67,95.16,20Westfall][QT186 Tiger Mastery] \\Accept [QA187 Tiger Mastery] \\Turn in [QT5762 Hemet Nesingwary] \\Accept [QA194 Raptor Mastery] \\Accept [QA191 Panther Mastery]
+Finish off [QC575]
 Do [G76.35,95.88,171Westfall][QC191 Panther Mastery] \\Do [G31.92,18.21,170Stranglethorn Vale][QC187 Tiger Mastery]
 Do [G26.87,16.32,163Stranglethorn Vale][QC194 Raptor Mastery]
 [G25.55,17.89,50Stranglethorn Vale][QC605 -]Finish off basilisks
@@ -59,11 +59,11 @@ Turn in [G28.29,77.59,20Stranglethorn Vale][QT575 Supply and Demand] \\Accept [Q
 
 Fly to [F Stormwind]
 [V][O]Withdraw the following items:\\Farren's Report\\Cleverly Encrypted Letter\\Alterac Granite\\Water Breathing Potions --BANKFRAME_OPENED,BAG_UPDATE>>Bank_STV34
-Turn in [G72.6,15.85,20Stormwind City][QT563 Reassignment]
+Turn in [G72.6,15.85,20Stormwind City][QT563 Reassignment]-->>Map,Stormwind City
 Skip this step if you haven't found the quest item\\Turn in [G74.16,7.49Stormwind City][QA337-][QT337 An Old History Book][O] \\Accept [QA538 Southshore][O]
 Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
 Take the tram to Ironforge [OC]
-Accept [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace]
+Accept [G67.91,17.5,20Ironforge][QA1453 Reclaimers' Business in Desolace]-->>Map,Ironforge
 [A Warlock]Turn in [QT1758]
 Turn in [G74.64,11.74,20Ironforge][QT514 Letter to Stormpike] \\Accept [QA525 Further Mysteries]
 Turn in [G39.03,88.05,20Ironforge][QT689 A King's Tribute] \\Wait for the RP sequence to end \\Accept [QA700 A King's Tribute]

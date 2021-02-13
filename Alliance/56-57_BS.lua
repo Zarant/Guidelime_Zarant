@@ -8,7 +8,7 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Leveling Guide]
 Take the boat to Wetlands-->>ZoneSkip,Wetlands
-Fly to [F Ironforge]
+Fly to [F Ironforge]-->>Map,Ironforge
 [A Druid,Mage,Paladin,Priest,Rogue,Warlock,Warrior][V][O]Withdraw the following: Drawing Kit\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar\\Janice's Parcel\\Black Dragonflight Molt --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Winterspring54
 
 Turn in [QT4512]
@@ -18,7 +18,7 @@ Turn in [QT3461]
 Accept [QA3702] pt.1
 [QC3702-]Listen to her story-->>SkipGossip
 Turn in [QT3702] pt.1\\Accept [QA3701] pt.2
-Fly to [F Bunring Steppes]
+Fly to [F Bunring Steppes]-->>Map,Burning Steppes
 Accept [QA3823] 
 Accept [QA4283]
 Accept [QA4182]
@@ -26,43 +26,44 @@ Accept [QA4182]
 Finish off [G82.80,37.40,60][QC3823]
 Turn in [QT3823] 
 Accept [QA3824]
-[G95.09,31.56Burning Steppes]Turn in [QA4022-][O][QT4022][O] \\Skip this step if you don't have the Black Dragonflight Molt
 Accept [QA4726] \\Accept [QA4296]--Horde FP
 [QC4726-][O]Kill broodlings as you go along, use the quest item when they get low
-[QC4182-][O]Prioritize killing broodlings over anything else
+Do [QC4182][O]\\Prioritize killing broodlings over anything else
+[G95.09,31.56Burning Steppes]Turn in [QA4022-][QT4022] \\Skip this step if you don't have the Black Dragonflight Molt
 
 [QC3701-][O]Right click on the small stone obelisks on the ground
 [G54.06,40.71Burning Steppes][QC4296-]Transcribe the tablet-->>SkipGossip
+Finish off [QC3701]
 [QC4283-][OC]Kill orcs
 Do [G38.89,54.73 Burning Steppes][QC3824]
 Finish off [QC4283]
-Finish off [QC4182]
+Finish off [QC4182] and [QC4726]
 Turn in [QT4182] \\Accept [QA4183]
 Turn in [QT4283] \\Turn in [QT3824] \\Accept [QA3825]
-Fly to [F Redridge Mountains]
+Fly to [F Redridge Mountains]-->>Map,Redridge Mountains
 Turn in [QT4183] \\Accept [QA4184]
-Fly to [F Stormwind]
+Fly to [F Stormwind]-->>Map,Stormwind City
 --[V][O]Withdraw Janice's Parcel/Drawing Kit from your bank --BANKFRAME_OPENED,BAG_UPDATE BankW_Winterspring54
 Turn in [QT5022] \\Accept [QA5048]
 [G52.48,41.95Stormwind City]Find Ol'Emma, she can roam around SW from time to time\\Turn in [QT5048] \\Accept [QA5050]-->>Unitscan,Ol' Emma
 Accept [QA6182] \\Turn in [QT4184] \\Accept [QA4185]
-[QC4185-]Speak with Lady Katrana Prestor and go through her whole dialogue-->>SkipGossip
+[QC4185-][OC]Speak with Lady Katrana Prestor and go through her whole dialogue-->>SkipGossip
 Turn in [QT4185]
 Accept [QA4186]
 Turn in [QT6182] \\Accept [QA6183] \\Turn in [QT6183] \\Accept [QA6184]
-Fly to [F Redridge Mountains]
+Fly to [F Redridge Mountains]-->>Map,Redridge Mountains
 Turn in [QT4186] \\Accept [QA4223]
-Fly to [F Burning Steppes]
+Fly to [F Burning Steppes]-->>Map,Burning Steppes
 Turn in [QT4223] \\Accept [QA4224]
 Turn in [QT4726] \\Accept [QA4808] \\Turn in [QT4296]
 [QC4224-]Talk to Ragged John-->>SkipGossip
 [G81.04,46.71 Burning Steppes][QC3825-]Click on the dirt mound on top of the mountain
 Turn in [QT3825]
 Turn in [QT4224]
-[H]Hearth to Ironforge
-[V][O]Withdraw the follwing items:\\Everlook report\\Studies in spirit speaking\\4 relic fragments and Jaron's pick --BANKFRAME_OPENED,BAG_UPDATE>>BankW_BS56
+[H]Hearth to Ironforge-->>Map,Ironforge
 [V][O]Make sure you have 2 stacks of noggenfogger with you-->>Collect,8529,40
-[V][O]Deposit *Tinkee's Letter* in your bank --BANKFRAME_OPENED,BAG_UPDATE>>BankD_BS56
+[V][O]Withdraw the follwing items:\\Everlook report\\Studies in spirit speaking\\4 relic fragments and Jaron's pick --BANKFRAME_OPENED,BAG_UPDATE>>BankW_BS56
+[V]Deposit *Tinkee's Letter* in your bank --BANKFRAME_OPENED,BAG_UPDATE>>BankD_BS56
 [G43.22,31.57Ironforge]Do the Gnomeregan cloth turn ins:\\[QA7807-][O][QT7807-][O]Wool \\[QA7808-][O][QT7808-][O]Silk \\[QA7809-][O][QT7809-][O]Mageweave  \\[QA7811-][O][QT7811-][O]Runecloth
 [G43.22,31.57Ironforge]Do the Ironforge cloth turn ins:\\[QA7802-][O][QT7802-][O]Wool \\[QA7803-][O][QT7803-][O]Silk \\[QA7804-][O][QT7804-][O]Mageweave \\[QA7805-][O][QT7805-][O]Runecloth
 Turn in [QT3701]

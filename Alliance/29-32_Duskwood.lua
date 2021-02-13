@@ -7,21 +7,20 @@ Guidelime.registerGuide([[
 [NX32-33Hillsbrad/Arathi]
 [GA Alliance]
 [D Alliance Leveling Guide]
-[O]This segment has a long grinding session, you can substitute that for a Gnomeregan run
-[V][O]Withdraw the follwing:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom\\An Old History Book (if you have it) --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_Duskwood29
+--[O]This segment has a long grinding session, you can substitute that for a Gnomeregan run
+[V]Withdraw the follwing:\\A Torn Journal Page\\Bottle of Zombie Juice\\Skeleton Finger\\Vial of Spider Venom\\An Old History Book (if you have it) --BANKFRAME_OPENED,BAG_UPDATE>>BankW1_Duskwood29
 Fly to Ironforge\\
 Turn in [QT637 Sully Balloo's Letter] \\Wait for the RP sequence\\Accept [QA683 Sara Balloo's Plea]
 Turn in [QT683 Sara Balloo's Plea] \\Accept [QA686 A King's Tribute]
 Turn in [QT686 A King's Tribute] \\Accept [QA689 A King's Tribute]
-[T]Train skills\\Train pet skills\\Make sure you have frost/nature resistance maxed out on your pet[O]
-Accept [QA1179 The Brassbolts Brothers]
+[T]Train pet skills\\Make sure you have frost/nature resistance maxed out on your pet[O]
+[G72.72,94Ironforge]Accept [QA1179 The Brassbolts Brothers]
 Take the tram to Stormwind [OC]
-Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
-[V][O]Deposit the following items:\\Musquash Root\\Crate of Crash Helmets\\Turtle Meat --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Duskwood29
-[T] Train first aid at the cathedral [O]
+[V]Deposit the following items:\\Musquash Root\\Crate of Crash Helmets\\Turtle Meat --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Duskwood29
+[G51.75,12.06,20Stormwind City]Turn in [QT322 Blessed Arm] \\Accept [QA325 Armed and Ready]
 
 [T][O]If you get level 30 turning in the next few quests in SW, remember to buy class/pet skills
-Turn in [G39.6,27.2Stormwind City][QT293 Cleansing the Eye][O]
+Turn in [G39.6,27.2Stormwind City][QT293 Cleansing the Eye]
 Accept [QA1274 The Missing Diplomat] pt.1 
 
 Turn in [QT1274 The Missing Diplomat] pt.1 \\Accept [QA1241 The Missing Diplomat] pt.2
@@ -45,7 +44,7 @@ Do [G63.0,41.6,120Duskwood][QC173 Worgen in the Woods]
 Turn in [QT173 Worgen in the Woods] pt.1\\Accept [QA221 Worgen in the Woods] pt.2
 Do [G61.8,45.3,120Duskwood][QC221 Worgen in the Woods] pt.2
 
-Head northeast to Elwynn Forest\\Turn in [QT74 The Legend of Stalvan] pt.7 \\Accept [QA75 The Legend of Stalvan] pt.8
+[G84.6,69.37,20Elwynn Forest]Head northeast to Elwynn Forest\\Turn in [QT74 The Legend of Stalvan] pt.7 \\Accept [QA75 The Legend of Stalvan] pt.8
 [QC75-]Loot the chest inside the house
 Turn in [QT75 The Legend of Stalvan] pt.8 \\Accept [QA78 The Legend of Stalvan] pt.9
 
@@ -53,7 +52,7 @@ Turn in [QT159 Juice Delivery] \\Accept [QA133 Ghoulish Effigy] --<<
 Finish off [QC101 The Totem of Infliction][O]
 [QC58 -][QC133 -] Kill Ghouls/Plague Spreaders
 Turn in [QT133 Ghoulish Effigy] \\Accept [QA134 Ogre Thieves]
-[QC1244 -] Loot the chest inside the farmhouse
+[G24.1,72.0Duskwood][QC1244 -] Loot the chest inside the farmhouse
 [QC134 -] Click on the crate on the ground
 [QC181 -] Kill Zzarc'Vul
 Turn in [QT134 Ogre Thieves] \\Accept [QA160 Note to the Mayor]
@@ -74,8 +73,8 @@ Talk to the mayor again\\Turn in [QT252 Translation to Ello]
 Accept [QA253 Bride of the Embalmer]
 Turn in [QT97 The Legend of Stalvan] pt.12 \\Accept [QA98 The Legend of Stalvan] pt.13 \\Turn in [QT227 Morgan Ladimore] \\Accept [QA228 Mor'Ladim]
 Turn in [QT1244 The Missing Diplomat] pt.5\\Accept [QA1245 The Missing Diplomat] pt.6
-[G77.3,36.2Duskwood][QC98-][O] Kill Stalvan inside the farmhouse
-[QC335,1 -] Loot the small flower at the farm
+[G77.3,36.2Duskwood][QC98-]Kill Stalvan inside the farmhouse\\
+[QC335,1 -]Loot the small flower at the farm
 Turn in [QT98 The Legend of Stalvan] \\Turn in [QT101 The Totem of Infliction]
 Turn in [QT221 Worgen in the Woods] pt.2
 Accept [QA222 Worgen in the Woods] pt.3
@@ -109,7 +108,6 @@ Turn in [QT1246 The Missing Diplomat] pt.7 \\Accept [QA1447 The Missing Diplomat
 [QC1447 -] Beat Dashel Stonefist
 Turn in [QT1447 The Missing Diplomat] pt.8\\Accept [QA1247 The Missing Diplomat] pt.9
 Turn in [QT1247 The Missing Diplomat] pt.9 \\Accept [QA1248 The Missing Diplomat] pt.10
-Turn in [QT1078 Retrieval for Mauren]
 Accept [QA690 Malin's Request]
 Accept [QA1301 James Hyal] pt.1
 Turn in [QT335 A Noble Brew] pt.1 \\Accept [QA336 A Noble Brew] pt.2

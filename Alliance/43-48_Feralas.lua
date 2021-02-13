@@ -8,7 +8,7 @@ Guidelime.registerGuide([[
 [GA Alliance,Druid,Mage,Paladin,Priest,Rogue,Hunter,Warrior]
 [D Alliance Leveling Guide]
 Head to Ratchet[OC]
-Fly to [F Theramore]
+Fly to [F Theramore]-->>Map,Dustwallow Marsh
 
 [L67.76,48.97Dustwallow Marsh][QA6624-][O][QT6624-][O]Do the First Aid quest if applicable\\(Requires 225 First Aid)
 Turn in [QT623 Akiris by the Bundle]
@@ -18,7 +18,7 @@ Turn in [QT1258 ... and Bugs]
 
 [H]Hearth back[OC]
 
-Fly to [F Tanaris][OC]
+Fly to [F Tanaris][OC]-->>Map,Tanaris
 
 Accept [QA1690 Wastewander Justice] \\Accept [QA1707 Water Pouch Bounty]
 Stable your pet [A Hunter][O]-->>Stable
@@ -27,7 +27,7 @@ Turn in [QT2864 Tran'rek]
 Turn in [QT1188 Safety First] \\Accept [QA1189]
 Tame a *Starving Blisterpaw* \\[T]Keep using *Dash 2* as you travel to the next step[OC][A Hunter]
 
-Run to Shimmering Flats\\Turn in [QT1137 News for Fizzle]
+Run to Shimmering Flats\\Turn in [QT1137 News for Fizzle]-->>Map,Thousand Needles
 Turn in [QT1119]
 Accept [QA1120]
 Turn in [QT1120]
@@ -39,16 +39,16 @@ Accept [QA1190 Keeping Pace]
 
 Turn in [QT1194 Rizzle's Schematics]
 Throw away the Sample of Indurium Ore[OC]
-[G50.50,18.52,40Tanaris]Run back to Tanaris
+[G50.50,18.52,40Tanaris]Run back to Tanaris-->>Map,Tanaris
 
 
 Withdraw your pet from the stable [OC][A Hunter]-->>Stable
 [QC1452,1-][O]Kill vultures as you quest through tanaris
-Do [QC1690 Wastewander Justice][O]
-Do [QC1707 Water Pouch Bounty][O]
+[QC1690-][O][QC1707-][O]Kill Wastewander mobs
 Accept [QA8365 Pirate Hats Ahoy!]
 Accept [QA3520 Screecher Spirits]
 Accept [QA8366 Southsea Shakedown] \\Turn in [QT2872 Stoley's Debt] \\Accept [QA2873 Stoley's Shipment]
+Finish off\\ [QC1960]\\ [QC1707]
 [A Hunter]Accept [QA3161]
 [A Hunter][G47.31,65.14,80Tanaris][L40.68,72.98]Do [QC3161]
 [A Hunter]Turn in [QT3161]
@@ -124,12 +124,12 @@ Guidelime.registerGuide([[
 [NX48-49Tanaris/Hinterlands]
 [GA Alliance]
 [D Alliance Leveling Guide]
-There is A LOT of grinding required in this segment, you can substitute some of that for ZF/Maraudon or even Uldaman runs [O]
-[A Human,Dwarf,Gnome][O]Once you get to 100g, use the battle.net website unstuck service to teleport to SW, buy a mount and then hearth back
+Accept [QA2821 The Mark of Quality]-->>Map,Feralas
+--There is A LOT of grinding required in this segment, you can substitute some of that for ZF/Maraudon or even Uldaman runs [O]
+--[A Human,Dwarf,Gnome][O]Once you get to 100g, use the battle.net website unstuck service to teleport to SW, buy a mount and then hearth back
 [L31.6,43.2Feralas][O][A Hunter]Stable your pet[OC]
 [O][A Hunter]Tame a wolf south of Feathermoon Stronghold and learn Bite 6--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,5286
-[V]Restock on supplies, very long grinding session ahead\\Buy 5 stacks of food/water\\Make sure you have 25 stacks of ammo[O]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
-Accept [QA2821 The Mark of Quality]
+[V]Restock on supplies, very long grinding session ahead\\Buy 5 stacks of food/water\\Make sure you have 25 stacks of ammo--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
 [S]Set your Hearthstone to Feralas
 Accept [QA4124 The Missing Courier] \\Accept [QA2866 The Ruins of Solarsal]
 Accept [QA2939 In Search of Knowledge] \\Accept [QA2982 The High Wilderness]
@@ -155,12 +155,13 @@ Swim to the mainland [OC]
 [QC3520-][O]Kill wind serpents, use the quest item on their corpse
 Kill [QC1452,2Bears][O] and [QC1452,3Apes][O] as you quest through Feralas
 Do [G7.47,99.05,145The Barrens][QC2821 The Mark of Quality]
-Do the chicken escort\\Turn in [G8.77,97.09,20The Barrens][QA2766-][QT2766 Find OOX-22/FE!] \\Accept [QA2767 Rescue OOX-22/FE!]
+Do the chicken escort\\Turn in [QA2766-][QT2766 Find OOX-22/FE!] \\Accept [QA2767 Rescue OOX-22/FE!]
 [QC2767-]Escort the robot chicken
 Start working on [QC2982 The High Wilderness][OC]
 [G56.64,75.89Feralas]Head south and look for Hippogryph nests by the mountains\\[V]Loot an Hyppogryph Egg--OnStepActivation,BAG_UPDATE>>HippogryphEgg,8564,1
 Finish off [QC2982 The High Wilderness]
 Finish off [QC3520]
+Finish off [QC1452,2-][QC1452,3]
 Do [QA2969 Freedom for All Creatures] \\Clear some mobs around the wooden cage before accepting the escort
 [QC2969-]Open the bamboo cage and protect the faerie dragons trying to escape
 Turn in [QT2969 Freedom for All Creatures] \\Accept [QA2970 Doling Justice]
@@ -175,13 +176,13 @@ Go upstairs\\Turn in [QT4265 Freed from the Hive] \\Accept [QA4266 A Hero's Welc
 Turn in [QT4266 A Hero's Welcome] \\Accept [QA4267 Rise of the Silithid]
 
 [V]Buy 5 stacks of food/water and 25 stacks of ammo[OC]--MERCHANT_SHOW,MERCHANT_CLOSED,PLAYER_MONEY>>Vendor
-[G26.19,67.51Feralas]Head back to the naga cave and keep grinding mobs until HS cooldown is <10min\\Death warp back to Feathermoon once you have 100 gold to buy skills and a mount\\Fly to [F Teldrassil]
+[G26.19,67.51Feralas]Head back to the naga cave and keep grinding mobs until HS cooldown is <10min\\Death warp back to Feathermoon once you have 100 gold to buy skills and a mount\\Fly to [F Teldrassil]-->>Map,Teldrassil
 Accept [QA3661 Favored of Elune?]
 Turn in [QT3022 Handle With Care]
 Turn in [QT2939 In Search of Knowledge]
 Click on the green book on the ground\\Accept [QA2940 Feralas: A History]
 Turn in [QT2940 Feralas: A History] \\Accept [QA2941 The Borrower]
-Head to the temple of the mooon\\Turn in [QT4267]
+Head to the temple of the mooon\\Turn in [QT4267]-->>Map,Darnassus
 Turn in [QT2972]
 [T]Train skills in Darnassus [A NightElf][OC]
 
@@ -191,7 +192,7 @@ Buy a mount[OC]
 
 
 
-[G26.19,67.51Feralas]Head back to the naga cave and grind to [XP48 level 48]
+[G26.19,67.51Feralas]Head back to the naga cave and grind to [XP48 level 48]-->>Map,Feralas
 [H]Hearth back to feathermoon
 Turn in [QT2982 The High Wilderness] \\Accept [QA3445 The Sunken Temple]
 Turn in [QT2821 The Mark of Quality]

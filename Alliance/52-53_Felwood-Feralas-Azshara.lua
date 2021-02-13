@@ -11,27 +11,27 @@ Guidelime.registerGuide([[
 Take the boat to Darkshore [OC]
 [S]Set your HS to Auberdine
 Fly to [F Teldrassil]
-Turn in [QT3661]
-Accept [QA978][OC]
+Turn in [QT3661]-->>Map,Teldrassil
+Accept [QA978] \\If you are not yet level 52, skip this step
 Turn in [QT2944] \\Accept [QA2943]
-[V][O]Deposit the follwing items: \\Janice's Parcel\\Flare gun\\Drawing kit --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Felwood52
 [V][O]Withdraw the following items:\\Jer'kai's Signet Ring\\Raschal's Report\\Insect Analysis Report\\Linken's Training Sword\\Package of Empty Ooze Containers\\Bloodpetal --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Felwood52
+[V]Deposit the follwing items: \\Janice's Parcel\\Flare gun\\Drawing kit --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Felwood52
 [T]Train skills [O]
-[V][O]Restock on supplies, long grinding session ahead
+[V][O]Restock on supplies, long grinding session ahead-->>Map,Darnassus
 --Sunken Temple class quest
-[G42.44,7.36Darnassus]Accept  [QA8151][O][A Hunter]
+[G42.44,7.36Darnassus]Accept [QA8151][O][A Hunter]
 Turn in [QT162]\\Accept [QA4493]
 Turn in [QT4267]
 Turn in [QT2972]
-Accept [QA978] \\If you are not yet level 52, skip this step
+
 
 --Fly to [F Ashenvale]
-Fly to [F Azshara][OC]
+Fly to [F Azshara][OC]-->>Map,Azshara
 Accept [QA5535] \\Accept [QA5536]
 Do [QC5535][O]
 Do [QC5536] \\Make sure to prioritize satyrs
 Turn in [QT5535] \\Turn in [QT5536]
-Head to Felwood [OC]
+Head to Felwood [OC]-->>Map,Felwood
 Accept [QA4101]
 Accept [QA6131]
 Run to the Emerald Sanctuary\\Accept [QA5155] \\Accept [QA5156] \\Accept [QA4421]
@@ -63,23 +63,24 @@ Do [G56.1,17.0,70Felwood][QC4101]
 [V]Vendor stuff, you gonna spirit rez 3 times on the next segment[OC]
 [G62.50,24.24Felwood]Get the [P Felwood] FP
 Turn in [QT8462]
-Run to Winterspring\\Turn in [QT3908] \\Accept [QA3909]
-[QC978-]Look for Moontouched feathers on the ground\\Skip this step if you don't have this quest
+Run to Winterspring\\Turn in [QT3908] \\Accept [QA3909]-->>Map,Winterspring
+Look for Moontouched feathers on the ground\\Skip this step if you don't have this quest\\([QC978])
 Die and spirit rez at Everlook[OC]
 [G60.38,37.92Winterspring]Stable your pet [A Hunter][OC]
-Fly to [F Felwood]
+Fly to [F Felwood]-->>Map,Felwood
 Tame a *Felpaw Ravager*, learn bite 7 [A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,8961
 Death warp to the graveyard[OC]
 Tame an *Ironbeak Hunter* or *Angerclaw Mauler* and learn claw 7 [OC][A Hunter]--UNIT_SPELLCAST_SUCCEEDED>>TameBeast,7099,8958
 [A Warlock]Turn in [QT8421]
-[G40.84,66.78,40Felwood] Run south to the slime pond\\Death warp to southern felwood[OC]
+[G40.84,66.78,40Felwood] Run south to the slime pond\\Death warp to southern felwood
 Turn in [QT4101]
-[V][O][G16.27,99.89,20Winterspring]Make sure you have a Cenarion Beacon--BAG_UPDATE>>Collect,11511,1
+[V][G16.27,99.89,20Winterspring]Make sure you have a Cenarion Beacon--BAG_UPDATE>>Collect,11511,1
 Turn in [QT5157] \\Accept [QA5158]
 Turn in [QT939] \\Accept [QA4441] \\Turn in [QT4906]
 Turn in [QT5156]
 
 [H]Hearth to Darkshore
+Withdraw your pet from the stables [A Hunter][O]
 Fly to [F Feathermoon]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
@@ -93,9 +94,8 @@ Guidelime.registerGuide([[
 --[V][O]Withdraw the follwing items:\\Bloodpetal --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Feralas52
 
 Withdraw your pet from the stables [A Hunter][O]
-
 --Fly to [F Feathermoon]
-Accept [QA7733]
+Accept [QA7733]-->>Map,Feralas
 [S]Set your HS to Feathermoon
 Turn in [QT2943] \\Accept [QA2879]
 Swim to the mainland[OC]
@@ -104,7 +104,7 @@ Do [QC7003] \\Do [QC7721]
 Turn in [QT7003] \\Turn in [QT7721]
 Grind Yetis until you get a pristine hide\\Accept [QA7735][O]--OnStepCompletion>>SkipStep
 Do [QC7733]
-Turn in [G45.12,25.56Feralas][QT4142][O]
+Turn in [G45.12,25.56Feralas][QT4142]
 [G45.12,25.56Feralas]Buy some bait from Gregan-->>Collect,11141,1
 --[QA3909] --videre
 Accept [QA2844]
@@ -117,8 +117,8 @@ Turn in [QT2844] \\Accept [QA2845]
 [G42.38,22.00Feralas][QC2845-]Escort Shay
 Turn in [QT2845]
 [G45.12,25.56Feralas][QC3909-]Talk to Gregan and trade in the Evoroot
-[OC]Death warp to Dire Maul, enter DM east (this is a pre requisite for another quest later) --reliquary of purity
-[H]Once you're inside the instance, hearth back to Feathermoon
+[OC]Die and spirit rez, head towards Dire Maul and skip this step once the General Chat changes to Dire Maul (this is a pre requisite for a Moonglade quest later) --reliquary of purity
+[H]Hearth back to Feathermoon
 Turn in [QT2942]
 Turn in [QT7735][O]
 Turn in [QT7733]
@@ -131,19 +131,19 @@ Guidelime.registerGuide([[
 [GA Alliance]
 [D Alliance Leveling Guide]
 --[O]This segment contains a heavy grinding session (about 2 hours long), you can skip it if you are planning to run dungeons before level 60 --v2
-[V][O]Deposit the follwing items:\\Eridan's Vial\\Cenarion Beacon\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas52
+[O]Make sure you have at least 1 stack of noggenfogger for this next segment-->>Collect,8529,20
 [V][O]Withdraw the following:\\Drawing Kit\\Flare Gun --BANKFRAME_OPENED,BAG_UPDATE>>BankW_Azshara53
-Make sure you have at least 1 stack of noggenfogger for this next segment-->>Collect,8529,20
+[V]Deposit the follwing items:\\Eridan's Vial\\Cenarion Beacon\\Filled Cursed Ooze Jar\\Filled Tainted Ooze Jar --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Feralas52
 --[V][O]Buy 3 stacks of food/water at the innkeeper
 [S]Set your HS to Ratchet
-Fly to [F Azshara]
---[V][O]Buy extra arrows, long grinding session ahead
+[V][O]Buy extra supplies, long grinding session ahead
+Fly to [F Azshara]-->>Map,Azshara
 
 --ST class quest
 [A Hunter][G42.37,42.61Azshara]Turn in [QT8151] \\Accept [QA8153] 
 [A Hunter][QC8153-]Kill mosshoof coursers as you quest [O]
 Accept [QA3601 Kim'jael Indeed!]
-[G57.02,29.45,170Azshara][QC3601-][O]Loot the boxes scattered around the camp
+[G57.02,29.45,170Azshara][QC3601-]Loot the boxes scattered around the camp
 Turn in [QT3601 Kim'jael Indeed!] \\Accept [QA5534 Kim'jael's "Missing" Equipment]
 Kill nagas for [QC5534 Kim'jael's "Missing" Equipment][O]
 [G39.57,50.32Azshara][QC3449,2-]Click on the first monolith
@@ -162,8 +162,8 @@ Turn in [QT5534 Kim'jael's "Missing" Equipment]
 [G73.22,87.87,40Azshara]Go behind the giant statue\\[G77.80,91.32Azshara]Use noggenfoger to jump down to the small island east\\Use the flare gun at the landing pad\\Turn in [QT3449 Arcane Runes] \\Accept [QA3461 Return to Tymor]
 [O]Destroy the flare gun-->>Destroy,10444
 [H]Hearth to Ratchet
-Turn in [QT5158] \\Accept [QA5159]
-[V][O]Deposit the following items:\\Drawing kit\\Purified Moonwell Water --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Azshara53
+Turn in [QT5158] \\Accept [QA5159]-->>Map,The Barrens
+[V]Deposit the following items:\\Drawing kit\\Purified Moonwell Water --BANKFRAME_OPENED,BAG_UPDATE>>BankD_Azshara53
 Accept [QA4502]
 [QC3444-]Loot the small chest outside the metal hut
 Fly to [F Tanaris]--OnStepCompletion>>LoadNextGuide
