@@ -7,10 +7,10 @@ Guidelime.registerGuide([[
 [N21-23Hillsbrad]
 [NX23-26Southern Barrens/Stonetalon]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[V][O]Deposit the following items in your bank:\\  Besseleth's Fang in your bank-->>BankDeposit,16192
+[V]Deposit the following items in your bank:\\  Besseleth's Fang in your bank-->>BankDeposit,16192
 --Take the Zeppelin to UC\\[G63.3,48.6Undercity][P][OC]Get the Undercity FP
 --[G46.4,43.9,25Undercity][G14.7,31.7,50Undercity]Exit UC from the sewers backdoor\\[G66.8,5.0,40Silverpine Forest]Run to Silverpine Forest\\[G43.0,42.0Silverpine Forest]Head to Sepulcher[OC]-->>ZoneSkip,Silverpine Forest
-Take the Zeppelin to Undercity[OC]
+Take the Zeppelin to Undercity[OC]-->>Map,Silverpine Forest
 [A Undead]Fly to [F The Sepulcher][OC]
 [A Orc,Troll,Tauren]Head to Silverpine\\[G45.6,42.6Silverpine Forest][P][OC]Get The Sepulcher FP
 [G44.1,42.6Silverpine Forest]Turn in [QT264 Until Death Do Us Part]
@@ -18,7 +18,7 @@ Turn in [QT3301 Mura Runetotem]
 [G42.9,40.8Silverpine Forest]Accept [QA493 Journey to Hillsbrad Foothills]
 --[G45.6,42.6Silverpine Forest][P][OC]Get The Sepulcher FP\\[G20.8,47.4Hillsbrad Foothills]Head to Hillsbrad Foothills
 [G20.8,47.4Hillsbrad Foothills]Accept [QA494 Time To Strike]
-[G60.1,18.6Hillsbrad Foothills][P][OC]Get the Tarren Mill FP
+[G60.1,18.6Hillsbrad Foothills][P]Get the Tarren Mill FP-->>Map,Hillsbrad Foothills
 [G61.5,19.2Hillsbrad Foothills]Turn in [QT493 Journey to Hillsbrad Foothills]\\
 Turn in [QT1065 Journey to Tarren Mill]\\
 Accept [QA1066 Blood of Innocents]\\
@@ -61,8 +61,7 @@ Turn in [QT502]
 [G61.5,19.2Hillsbrad Foothills]Turn in [QT496 Elixir of Suffering]\\
 Accept [QA499 Elixir of Suffering]\\
 Turn in [QT499 Elixir of Suffering]
-[G62.1,20.4Hillsbrad Foothills]Turn in [QT529 Battle of Hillsbrad]
-[H]Hearth to Crossroads-->>LoadNextGuide
+[G62.1,20.4Hillsbrad Foothills]Turn in [QT529 Battle of Hillsbrad]-->>LoadNextGuide
 ]],"Zarant")
 
 Guidelime.registerGuide([[
@@ -70,21 +69,22 @@ Guidelime.registerGuide([[
 [N23-26Southern Barrens/Stonetalon]
 [NX26-28Ashenvale]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[G51.6,30.9The Barrens]Turn in [QT876 Serena Bloodfeather] \\Accept [QA1060 Letter to Jin'Zil]
+[OC]Hearth to Crossroads
+[G51.6,30.9The Barrens]Turn in [QT876 Serena Bloodfeather] \\Accept [QA1060 Letter to Jin'Zil]-->>Map,The Barrens
 [G51.1,29.6The Barrens]Accept [QA868 Egg Hunt]
 Fly to [F Camp Taurajo]
-[G44.5,59.2The Barrens]Accept [QA879 Betrayal from Within][O]
+[G44.5,59.2The Barrens]Accept [QA879 Betrayal from Within]
 Spend 4 blood shards with thorns buff for the upcoming segment\\[G45.6,59.0The Barrens][S]Set your HS to Camp Taurajo
 [G45.1,57.7The Barrens]Accept [QA893 Weapons of Choice]
 --Do [QC822][O]
 Use eagle eye to look for the [QA897-][O]Silithid Harvester (rare), it can spawn anywhere in the field of giants\\Skip this step if you have to-->>Unitscan,Silithid Harvester
 Do [QC868]
-Accept [QA843 Gann's Reclamation][O]
-Kill [QA885-][O]Washte Pawne-->>Unitscan,Washte Pawne
+Accept [QA843 Gann's Reclamation]
 [G45.2,80.3,40The Barrens]Collect [QC879,1-]Kuz's Skull
 [G43.8,83.0The Barrens]Collect [QC879,2-]Nak's Skull
 [G40.2,80.6The Barrens]Collect [QC879,3-]Lok's Skull
 Finish off [QC893]
+Kill and loot [QA885-]Washte Pawne-->>Unitscan,Washte Pawne
 Do [QC843] \\Loot the journal from the named mob-->>Unitscan,Prospector Khazgorm
 Turn in [QT843 Gann's Reclamation]\\
 Accept [QA846 Revenge of Gann]
@@ -93,11 +93,11 @@ Turn in [QT846 Revenge of Gann]\\
 Accept [QA849 Revenge of Gann]
 Do [G46.8,85.2The Barrens][QC849]
 Turn in [QT849]
-[G29.0,47.1,100Dustwallow Marsh]Head to Dustwallow\\
-[G35.6,31.9Dustwallow Marsh]Fly to [F Ratchet]
+Head east to Dustwallow\\
+[G35.6,31.9Dustwallow Marsh]Fly to [F Ratchet]-->>Map,Dustwallow Marsh
 --[G62.3,38.3The Barrens]Turn in [QT822 Chen's Empty Keg]
 [G65.8,43.9The Barrens]Turn in [QT874 Mahren Skyseer]\\
-Accept [QA873 Isha Awak]
+Accept [QA873 Isha Awak]-->>Map,The Barrens
 Do [QC873]-->>Unitscan,Isha Awak
 Turn in [QT873]
 
@@ -107,15 +107,15 @@ Turn in [QT897 The Harvester][O] (optional)
 [G44.6,59.2The Barrens]Turn in [QT879 Betrayal from Within]\\
 Accept [QA906 Betrayal from Within]
 
-Fly to [F Thunder Bluff]
+Fly to [F Thunder Bluff]-->>Map,Thunder Bluff
 [A Hunter][V][O]Stock up and buy a LOT of level 25 arrows
-[V][O]Deposit Hillsbrad Human Skulls in your bank-->>BankDeposit,3692
-[V][O]Withdraw the following items from your bank:\\  Besseleth's Fang-->>BankWithdraw,16192
+[V][O]Withdraw Besseleth's Fang from your bank-->>BankWithdraw,16192
+[V]Deposit Hillsbrad Human Skulls in your bank-->>BankDeposit,3692
 [G22.9,21.0Thunder Bluff]Turn in [QT1067 Return to Thunder Bluff]\\
 Accept [QA1086 The Flying Machine Airport]
 [G54.7,51.3Thunder Bluff]Accept [QA1195 The Sacred Flame]
 
-Fly to [F Stonetalon Mountains]
+Fly to [F Stonetalon Mountains]-->>Map,Stonetalon Mountains
 [G45.9,60.4Stonetalon Mountains]Accept [QA1087 Cenarius' Legacy]
 [G47.3,64.3Stonetalon Mountains]Accept [QA6393 Elemental War]
 [G47.4,58.4Stonetalon Mountains]Accept [QA6301 Cycle of Rebirth]
@@ -164,7 +164,7 @@ Guidelime.registerGuide([[
 [N26-28Ashenvale]
 [NX28-30Thousand Needles]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[G73.1,61.5Ashenvale]Accept [QA6441 Satyr Horns]
+[G73.1,61.5Ashenvale]Accept [QA6441 Satyr Horns]-->>Map,Ashenvale
 [G73.6,60.1Ashenvale]Accept [QA25 Stonetalon Standstill]
 --[G74.0,60.7Ashenvale][S]Set your HS to Ashenvale
 [G71.2,68.1Ashenvale]Accept [QA6503 Ashenvale Outrunners]

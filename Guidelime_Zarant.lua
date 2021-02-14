@@ -1365,6 +1365,8 @@ end
 text = string.gsub(text,",}","}")
 text = string.gsub(text,", Q%w = {}","")
 
+text = string.gsub(text,"Q([AT]) = {(%d+)}","Q%1 = %2")
+text = string.gsub(text,"QC = { %[(%d+)%] = 0}","QC = %1")
 GuidelimeData.GC_Settings["CurrentGuide"] = text
 f:Show()
 end

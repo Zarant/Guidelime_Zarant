@@ -8,19 +8,19 @@ Guidelime.registerGuide([[
 [NX17-21Stonetalon/Barrens/Ashenvale]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 
-[G51.9,30.3The Barrens]Accept [QA869 Raptor Thieves]
+[G51.9,30.3The Barrens]Accept [QA869 Raptor Thieves]-->>Map,The Barrens
 [G51.5,30.8The Barrens]Accept [QA871 Disrupt the Attacks]\\
 Accept [QA5041 Supplies for the Crossroads]
 [G52.2,31.9The Barrens]Accept [QA870 The Forgotten Pools]
 [G52.2,31.0The Barrens]Accept [QA844 Plainstrider Menace]
 [G52.6,29.9The Barrens]Turn in [QT6386 Return to the Crossroads.]
 
-Collect [QC844,1-]Plainstrider Beak (x7)[O]
-[G55.7,27.3The Barrens]Accept [QA819 Chen's Empty Keg][O]
+Collect [QC844-]Plainstrider Beak (x7)[O]
+[G55.7,27.3The Barrens]Accept [QA819 Chen's Empty Keg]\\
 Do [QC871]
 
 [G48.0,19.1The Barrens][QC924,1-]Destroy the Demon Seed
-
+Finish off [QC844]
 [G51.5,30.2The Barrens]Accept [QA848 Fungal Spores]\\
 Accept [QA1492 Wharfmaster Dizzywig]
 [G51.5,30.9The Barrens]Turn in [QT871 Disrupt the Attacks]\\
@@ -30,11 +30,12 @@ Accept [QA872 The Disruption Ends]
 Accept [QA845 The Zhevra]
 
 
-Collect [QC845,1-]Zhevra Hooves (x4)[O]
+Collect [QC845-]Zhevra Hooves (x4)[O]
 
 [G58.4,27.2The Barrens]Do [QC872]
 [G58.5,27.3The Barrens]Collect [QC5041,1-]Crossroads' Supply Crates
 [G62.4,20.1The Barrens]Turn in [QT924 The Demon Seed]
+[G62.7,36.2The Barrens]Finish off [QC845]
 [G62.7,36.2The Barrens]Accept [QA887 Southsea Freebooters]
 [G63.1,37.2The Barrens][P]Get the Ratchet FP
 
@@ -69,7 +70,7 @@ Collect [QC821,1-][O]Savannah Lion Tusk (x5)
 Collect [QC869,1-][O]Raptor Head (x12)
 [G45.4,28.4The Barrens]Accept [QA850 Kolkar Leaders]\\
 Accept [QA855 Centaur Bracers]
-Collect [QC848,1-][O]Fungal Spores (x4)
+Collect [QC848,1-]Fungal Spores (x4)\\
 [G45.1,22.6The Barrens][QC870,1-]Explore the waters of the Forgotten Pools
 [G42.9,23.5The Barrens]Collect [QC850,1-]Barak's Head
 [G41.2,22.9,100The Barrens]Collect [QC903,1-]Prowler Claws (x7)
@@ -140,6 +141,8 @@ Accept [QA880 Altered Beings]
 [G45.4,28.4The Barrens]Turn in [QT855 Centaur Bracers]\\
 Turn in [QT850 Kolkar Leaders]
 [G39.4,15.9,100The Barrens]Collect [QC875,1-]Harpy Lieutenant Ring (x6)-->>LoadNextGuide
+[G35.3,27.8The Barrens]Accept [QA1062 Goblin Invaders]\\
+[G35.2,27.8The Barrens]Accept [QA6548 Avenge My Village]
 
 ]],"Zarant")
 
@@ -150,9 +153,7 @@ Guidelime.registerGuide([[
 [NX21-23Hillsbrad]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 
-[G35.3,27.8The Barrens]Accept [QA1062 Goblin Invaders]
-[G35.2,27.8The Barrens]Accept [QA6548 Avenge My Village]
-[G79.8,87.4,100Stonetalon Mountains]Do [QC6548]
+[G79.8,87.4,100Stonetalon Mountains]Do [QC6548]-->>Map,Stonetalon Mountains
 
 [G35.2,27.7The Barrens]Turn in [QT6548 Avenge My Village]\\
 Accept [QA6629 Kill Grundig Darkcloud]
@@ -170,6 +171,7 @@ Kill [QC1062,1-][O]Venture Co. Logger (x15)
 [G62.5,53.9,20Stonetalon Mountains]Collect [QC1093,1-]Super Reaper 6000 Blueprints
 Turn in [QT1093 Super Reaper 6000]\\
 Accept [QA1094 Further Instructions]
+Finish off:\\[QC1069] \\[QC6461]
 --.
 [G47.2,64.5Stonetalon Mountains]Accept [QA6421]
 [A Hunter][O]Stable your pet, tame a Deepmoss Creeper and learn Bite 3
@@ -185,7 +187,7 @@ Turn in [QT6629 Kill Grundig Darkcloud]
 Accept [QA1068 Shredding Machines]
 
 
-[H]Hearth back to Camp T.
+[H]Hearth back to Camp T.-->>Map,The Barrens
 
 [G44.9,59.1The Barrens]Turn in [QT3261 Jorn Skyseer]\\
 Accept [QA882 Ishamuhale]
@@ -234,9 +236,10 @@ Turn in [QT913]\\Accept [QA874 Mahren Skyseer]
 [G44.9,59.1The Barrens]Turn in [QT884 Owatanka]\\
 Accept [QA1130 Melor Sends Word]\\
 Accept [QA6382 The Ashenvale Hunt]
+[OC][XP20 Grind to level 20]-->>Map,Mulgore
 [G40.8,37.6,120Mulgore][OC]Head to Thunder Bluff-->>ZoneSkip,Thunder Bluff
 --[G45.8,64.6Thunder Bluff][S]Set your HS to Thunder Bluff
-[G42.3,33.2Mulgore]Turn in [QT1130 Melor Sends Word] \\Accept [QA1131 Steelsnap]
+[G42.3,33.2Mulgore]Turn in [QT1130 Melor Sends Word] \\Accept [QA1131 Steelsnap]-->>Map,Thunder Bluff
 [G54.9,51.4Thunder Bluff]Accept [QA1195 The Sacred Flame]
 [G70.0,30.9Thunder Bluff]Turn in [QT1063 The Elder Crone]
 Turn in [QT1489] \\Accept [QA1490] \\Turn in [QT1490]
@@ -248,7 +251,7 @@ Accept [QA1065 Journey to Tarren Mill]
 --Fly to [F Crossroads]
 
 --. Stonetalon
-Fly to [F Stonetalon Mountains]
+Fly to [F Stonetalon Mountains]-->>Map,Stonetalon Mountains
 --Turn in [QT1060 Letter to Jin'Zil]
 --[G47.3,61.1Stonetalon Mountains]Turn in [QT6284 Arachnophobia]
 
@@ -261,7 +264,7 @@ Accept [QA6284 Arachnophobia]
 [G59.0,62.6Stonetalon Mountains]Turn in [QT1095 Further Instructions]
 Do [QC1068]-->>Unitscan,XT:4,XT:9
 [G78.2,42.7,30Stonetalon Mountains][G41.9,69.7,15Ashenvale]Head to Ashenvale-->>ZoneSkip,Ashenvale
-[G26.2,45.9,50Ashenvale][G19.9,30.4,50Ashenvale][G12.2,33.8Ashenvale][P][OC]Get the Zoram'gar FP
+[G26.2,45.9,50Ashenvale][G19.9,30.4,50Ashenvale][G12.2,33.8Ashenvale][OC]Get the Zoram'gar FP-->>Map,Ashenvale
 
 Start the escort quest\\Accept [QA6641 Vorsha the Lasher][O]
 [G11.6,34.3Ashenvale]Turn in [QT6562 Trouble in the Deeps]
@@ -269,15 +272,15 @@ Start the escort quest\\Accept [QA6641 Vorsha the Lasher][O]
 [QC6641-]Do the escort quest
 Do [QC6442]
 
-[G12.2,34.3Ashenvale]Turn in [QT6641 Vorsha the Lasher][O]
+[G12.2,34.3Ashenvale]Turn in [QT6641 Vorsha the Lasher]
 [G11.7,34.8Ashenvale]Turn in [QT6442 Naga at the Zoram Strand] \\Accept [QA6462 Troll Charm]
 [G12.0,34.6Ashenvale]Accept [QA216 Between a Rock and a Thistlefur]
-[H]Hearth to Crossroads
+[H]Hearth to Crossroads-->>Map,The Barrens
 
 Do [QC876]
 [G49.0,11.2The Barrens]Turn in [QT3921 Wenikee Boltbucket]
 [G48.1,5.4The Barrens]Turn in [QT6541 Report to Kadrak]
-[G68.3,75.3Ashenvale]Start the escort quest\\Accept [QA6544 Torek's Assault]
+[G68.3,75.3Ashenvale]Start the escort quest\\Accept [QA6544 Torek's Assault]-->>Map,Ashenvale
 [QC6544-]Escort Torek
 [G73.0,62.5Ashenvale]Turn in [QT6544 Torek's Assault]
 Turn in [QT6382][OC]

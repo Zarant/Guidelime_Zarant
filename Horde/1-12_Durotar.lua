@@ -8,7 +8,7 @@ Guidelime.registerGuide([[
 [N1-11Durotar]
 [NX11-12Durotar part 2]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
-[G43.3,68.6Durotar]Accept [QA4641 Your Place In The World]
+[G43.3,68.6Durotar]Accept [QA4641 Your Place In The World]-->>Map,Durotar
 [G42.1,68.3Durotar]Turn in [QT4641 Your Place In The World]\\
 Accept [QA788 Cutting Teeth]
 Kill [QC788,1-][O]Mottled Boar (x10)
@@ -82,8 +82,8 @@ Finish off [QC784] \\Finish off [QC791]
 [XP8-1570 Grind until you are 1570 xp away from level 8][OC]
 [G52.3,43.2Durotar]Turn in [QT823 Report to Orgnil]\\
 Accept [QA806 Dark Storms]
-Accept [QA837 Encroachment]\\
-[G52.0,43.4Durotar]Turn in [QT784 Vanquish the Betrayers]\\
+[G52.0,43.4Durotar]Accept [QA837 Encroachment]\\
+Turn in [QT784 Vanquish the Betrayers]\\
 Accept [QA825 From The Wreckage....]\\
 Turn in [QT830 The Admiral's Orders]\\
 Accept [QA831 The Admiral's Orders]
@@ -128,8 +128,8 @@ Accept [QA835 Securing the Lines]
 [H]Hearth back to Razor hill
 
 [G51.1,42.4Durotar]Turn in [QT815 Break a Few Eggs]
-[G52.2,43.1Durotar]Turn in [QT806 Dark Storms]\\
-Accept [QA828 Margoz]
+Turn in [QT806 Dark Storms][OC]
+[G52.2,43.1Durotar]Accept [QA828 Margoz]
 [G52.0,43.4Durotar]Turn in [QT825 From The Wreckage...]
 
 [A Hunter][G51.9,43.5Durotar]Accept [QA6062 Taming the Beast]
@@ -137,15 +137,18 @@ Accept [QA828 Margoz]
 
 [G42.9,39.1Durotar]Kill [QC837,4-]Razormane Battleguard (x4)\\
 Kill [QC837,3-]Razormane Dustrunner (x4)
-[G51.9,43.5Durotar]Turn in [QT6062 Taming the Beast] \\Accept [QA6083 Taming the Beast][A Hunter]
+Turn in [QT6062 Taming the Beast][OC][A Hunter]
+[G51.9,43.5Durotar]Accept [QA6083 Taming the Beast][A Hunter]
 [G52.0,43.5Durotar]Turn in [QT837 Encroachment]
 [G58.8,28.1Durotar][QC6083,1-]Tame a Surf Crawler[A Hunter]
-Death warp to Razor Hill\\[G51.9,43.5Durotar]Turn in [QT6083 Taming the Beast]\\Accept [QA6082 Taming the Beast][A Hunter]
+Death warp to Razor Hill\\[G51.9,43.5Durotar]Turn in [QT6083 Taming the Beast][OC][A Hunter]
+Accept [QA6082 Taming the Beast][A Hunter]
 [G54.9,37.3Durotar][QC6082,1-]Tame an Armored Scorpid[A Hunter]
-Turn in [QT6082 Taming the Beast]\\Accept [QA6081 Training the Beast][A Hunter]
+Turn in [QT6082 Taming the Beast][OC][A Hunter]
+Accept [QA6081 Training the Beast][A Hunter]
 
 [G50.9,43.6Durotar]Accept [QA840 Conscript of the Horde]
-[G32.6,42.7Durotar]Turn in [QT840 Conscript of the Horde]\\
+[G32.6,42.7Durotar]Turn in [QT840 Conscript of the Horde][OC]-->>Map,The Barrens
 Accept [QA842 Crossroads Conscription]
 Death warp to Crossroads[OC]
 
@@ -170,7 +173,7 @@ Guidelime.registerGuide([[
 [NX12-17The Barrens]
 [D Horde Hunter Leveling Guide - WORK IN PROGRESS]
 --[S][O]Set your HS to Orgrimmar
-Turn in [QT6384] \\Accept [QA6385]
+Turn in [QT6384] \\Accept [QA6385]-->>Map,Orgrimmar
 [G45.2,64.0Orgrimmar]Turn in [QT6385 Doras the Wind Rider Master]\\
 Accept [QA6386 Return to the Crossroads.]
 [G32.5,36.1Orgrimmar]Turn in [QT831 The Admiral's Orders]
@@ -195,18 +198,18 @@ Make sure you are 1820 XP away from level 12 before heading to Orgrimmar\\[L46.4
 
 Head to Orgrimmar\\[G31.9,37.8Orgrimmar]Turn in [QT5726 Hidden Enemies]\\
 Accept [QA5727 Hidden Enemies]
-[G47.1,53.4Orgrimmar]Turn in [QT813 Finding the Antidote][OC]\\ \\[G49.6,50.6Orgrimmar]Talk to Neeru Fireblade
+[G47.1,53.4Orgrimmar]Turn in [QT813 Finding the Antidote]
 [G49.6,50.6Orgrimmar]Turn in [QT829 Neeru Fireblade]\\
 Accept [QA809 Ak'Zeloth]-->>SkipGossip
-[G49.6,50.5Orgrimmar][QC5727,1-]Speak to Neeru Fireblade-->>SkipGossip
+[G49.6,50.5Orgrimmar][QC5727,1-][OC]Speak to Neeru Fireblade-->>SkipGossip
 [G31.9,37.8Orgrimmar]Turn in [QT5727 Hidden Enemies]
 Train skills then unstuck back to the gates of Orgrimmar[OC]
-[G41.5,18.6Durotar]Turn in [QA812-][QT812 Need for a Cure]
+[G41.5,18.6Durotar]Turn in [QA812-][QT812 Need for a Cure]-->>Map,Durotar
 [G32.6,42.7Durotar]Grind your way south along the river bank\\Collect [QC816,1-]Kron's Amulet\\Skip this quest if you haven't found the amulet
 
 [G32.8,43.9Durotar]Turn in [QT809 Ak'Zeloth]\\
 Accept [QA924 The Demon Seed]
-Click on the *Flawed Power Stones* sitting on top of a circular table-->>Collect,4986,1
+Loot the *Flawed Power Stones* sitting on top of a circular table-->>Collect,4986,1
 Turn in [QT816 Lost But Not Forgotten]
 [H]Hearth to Crossroads-->>LoadNextGuide
 ]],"Zarant")
