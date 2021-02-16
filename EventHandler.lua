@@ -19,7 +19,7 @@ EventHandler:RegisterEvent("MERCHANT_CLOSED")
 EventHandler:RegisterEvent("PLAYER_ENTERING_WORLD")
 --EventHandler:RegisterEvent("CHAT_MSG_SYSTEM")
 --EventHandler:RegisterAllEvents()
-
+local trainerUpdate = 0
 
 function z.BuySpells(id,level)
 	local name, rank, category, expanded = GetTrainerServiceInfo(id);
@@ -58,7 +58,7 @@ end
 local function OnTrainer()
 	local level = UnitLevel("player")
 	local n = GetNumTrainerServices()
-	if not n or n == 0 then
+	if not n or n == 0 or GetTime() - trainerUpdate > 15 then
 		return
 	end
 	for id = 1,n do
@@ -459,15 +459,15 @@ end
 
 
 local timer = 0
-local trainerUpdate
+
 function TrainerFrameUpdate(self,t)
 	timer = timer + t
 	if timer >= 0.2 then
-		OnTrainer()
 		timer = 0
-		if GetTime() - trainerUpdate > 60 then
+		if GetTime() - trainerUpdate > 15 then
 			EventHandler:SetScript("OnUpdate",nil)
 		end
+		OnTrainer()
 	end
 end
 
