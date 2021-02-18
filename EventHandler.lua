@@ -460,7 +460,7 @@ end
 
 local timer = 0
 
-function TrainerFrameUpdate(self,t)
+local function trainerFrameUpdate(self,t)
 	timer = timer + t
 	if timer >= 0.2 then
 		timer = 0
@@ -477,7 +477,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 
 	if event == "TRAINER_SHOW" then
 		trainerUpdate = GetTime()
-		EventHandler:SetScript("OnUpdate",TrainerFrameUpdate)
+		EventHandler:SetScript("OnUpdate",trainerFrameUpdate)
 	elseif event == "TRAINER_CLOSED" then
 		EventHandler:SetScript("OnUpdate",nil)
 	elseif event == "QUEST_COMPLETE" then

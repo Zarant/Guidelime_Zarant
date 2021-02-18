@@ -39,8 +39,49 @@ local autoComplete = GuidelimeData.autoCompleteQuest
 	GuidelimeData.autoCompleteQuest = autoComplete
 end
 
+--[[
+	Writing custom functions
+	
+	After each step in your guide, write:  
+	
+		--EVENT_1,EVENT_2,EVENT_3>>FUNCTION_NAME,arg1,arg2,arg3,argn
+	
+	Your function will run whenever the wow client fires EVENT_1, EVENT_2 or EVENT_3 and the step associated is active
+	
+	Write the function in the following format: function Guidelime.Zarant.FUNCTION_NAME(self,args,event,...)
+	Your function will receive as arguments:
+	
+	args	: A table with strings containing all the arguments given after the FUNCTION_NAME (sepparated by a comma)
+	event	: the name of the event in which caused your function to be called
+	...		: vararg containing the arguments referring to the event that triggered the function call
+	
+	Optionally you can set the return value of your function when no argument is given to the name of the events you want your function to be called when no event name is given e.g:
+	
+		if not self then 
+			return "EVENT_1,EVENT_2,EVENT_3"
+		end
+	
+	In this case you can omit the event names and just write:
+	
+		[F]Fly to Orgrimmar-->>FUNCTION_NAME,arg1,arg2,arg3,argn
+		
+	
+	Additional event names:
+	
+	OnLoad				: Calls the function once when loading the guide
+	OnStepActivation	: Calls the function whenever the step becomes active
+	OnStepCompletion	: Calls the function whenever you complete or manually skip a step
+	OnStepUpdate		: Calls the function whenever any step is activated or deactivated. With this, your function will be called even if the step associated is not active 
+	Persistent			: It's not exactly an event but a flag that indicates that your function will still be called if the step is not active
+	
+	Your custom functions will inherit all the methods contained in the Guidelime.Zarant table
+	
+	self.guide will return a table with the guide information
+	self.step will return a table with the step information
+	self.stepLine returns the line in which the step was written, it can be used to access data relevant to adjacent steps e.g. self.guide.steps[stepLine+1] will return a table with the data about the next step
+]]
 
-function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,frameCounter)
+function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepLine,frameCounter)
 	
 	if frameCounter > #self.eventFrame+1  then
 		return
@@ -55,15 +96,12 @@ function Guidelime.Zarant:RegisterStep(eventList,eval,args,stepNumber,stepLine,f
 	
 	local frame = self.eventFrame[frameCounter]
 	frame.data = {}
-	frame.data.stepLine = stepLine
-	frame.data.stepNumber = stepNumber
+	frame.data.stepLine = stepLine 
 	frame.data.guide = addon.guides[GuidelimeDataChar.currentGuide]
 	frame.data.step = frame.data.guide.steps[stepLine]
 	frame.args = args
 	setmetatable(frame.data, self)
 	
-	
-
 	local function EventHandler(s,...) --Executes the function if step is active or if it's specified on a 0 element step (e.g. guide name)
 		if s.data.step.active or #s.data.step.elements == 0 or s.data.persistent then 
 			self[eval](s.data,args,...)
@@ -138,7 +176,6 @@ function addon.loadCurrentGuide(...)
 	
 	local frameCounter = 0
 	
-	local stepNumber = 0
 	for stepLine, step in ipairs(guide.steps) do
 		if addon.applies(step) then 
 			if step.eval and step.event then
@@ -164,7 +201,7 @@ function addon.loadCurrentGuide(...)
 					table.insert(eventList,event)
 				end
 				--print(tostring(step.eval)..":"..tostring(step.event))
-				Guidelime.Zarant:RegisterStep(eventList,eval,args,step.index,stepLine,frameCounter)
+				Guidelime.Zarant:RegisterStep(eventList,eval,args,stepLine,frameCounter)
 			end
 		end
 	end
@@ -228,13 +265,13 @@ function Guidelime.Zarant:SkipStep(value)
 	if not self.step.index then return end
 	if value ~= false then value = true end
 	self.step.skip = value
-	print(self.stepNumber,self.step.index)
+	--print(self.step.index,self.step.index)
 	GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.step.index] = self.step.skip
 	addon.updateSteps({self.step.index})
 end
 
 function Guidelime.Zarant:UpdateStep()
-	addon.updateSteps({self.stepNumber})
+	addon.updateSteps({self.step.index})
 end
 
 function Guidelime.Zarant.IsQuestComplete(id)
@@ -533,9 +570,9 @@ function Guidelime.Zarant.SkipGossip(self,args,event)
 	end
 end
 
-function Guidelime.Zarant.Collect(self,args) --OnStepActivation,BAG_UPDATE>>Collect,id,qty,id,qty...
+function Guidelime.Zarant.Collect(self,args,event,itemId,success) --OnStepActivation,BAG_UPDATE>>Collect,id,qty,id,qty...
 	if not self then 
-		return "OnStepActivation,BAG_UPDATE"
+		return "OnStepActivation,BAG_UPDATE,GET_ITEM_INFO_RECEIVED"
 	end
 	if not self.id then
 		self.id = {}
@@ -548,6 +585,21 @@ function Guidelime.Zarant.Collect(self,args) --OnStepActivation,BAG_UPDATE>>Coll
 				if not value then value = 1 end
 				table.insert(self.quantity,value)
 			end
+		end
+		if #self.id == #self.quantity+1 then
+			table.insert(self.quantity,1)
+		end
+	end
+	
+	if event == "GET_ITEM_INFO_RECEIVED" then
+		local id
+		for i,v in pairs(self.id) do
+			if v == itemId then
+				id = itemId
+			end
+		end
+		if not (id and success) then
+			return
 		end
 	end
 	
@@ -563,23 +615,23 @@ function Guidelime.Zarant.Collect(self,args) --OnStepActivation,BAG_UPDATE>>Coll
 	
 	local skip = true
 	for i,itemID in ipairs(self.id) do
-		local count = GetItemCount(itemID)
 		local name = GetItemInfo(itemID)
-		local icon
-		if count < self.quantity[i] then
-			skip = false
-			icon = "|T" .. addon.icons.item .. ":12|t"
-		else
-			count = self.quantity[i]
-			icon = "|T" .. addon.icons.COMPLETED .. ":12|t"
-		end
+		local icon,count
 		if name then
+			count = GetItemCount(itemID)
+			if count < self.quantity[i] then
+				skip = false
+				icon = "|T" .. addon.icons.item .. ":12|t"
+			else
+				count = self.quantity[i]
+				icon = "|T" .. addon.icons.COMPLETED .. ":12|t"
+			end
 			element.text = string.format("%s\n   %s%s: %d/%d",element.text,icon,name,count,self.quantity[i])
-		elseif not self.timer or GetTime()-self.timer > 2.0 then
+		--[[elseif not self.timer or GetTime()-self.timer > 2.0 then
 			self.timer = GetTime()
 			C_Timer.After(2.0,function()
 				self:Collect(args)
-			end)
+			end)]]
 		end
 	end
 	
@@ -817,21 +869,21 @@ function Guidelime.Zarant.BranchOut(self,args,event)
 			active = true
 		end
 	end
-	local skip = GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.stepNumber]
+	local skip = GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.step.index]
 	if self.step.active and active then
 		if not self.step.skip then
 			self.step.skip = true
-			addon.updateSteps({self.stepNumber})
+			addon.updateSteps({self.step.index})
 		end
 	end
 	if event == "OnStepCompletion" then
 		local nextGuide = self.guide.steps[self.stepLine+1]
 		if nextGuide.branch then
 			nextGuide.skip = false or skip
-			addon.updateSteps({self.stepNumber+1})
+			addon.updateSteps({self.step.index+1})
 		end
 	elseif event == "OnStepActivation" then
-		addon.updateSteps({self.stepNumber+1})
+		addon.updateSteps({self.step.index+1})
 	end
 	
 end
