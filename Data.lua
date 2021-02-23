@@ -86,9 +86,14 @@ z.projectileList = {
 	},
 }
 
+local name,addon = ...
 if Guidelime.addon then
-	z.map = Guidelime.addon.mapIDs
-else
+	addon = Guidelime.addon
+end
+
+z.map = addon.mapIDs
+
+if not z.map then
 	z.map = {
 		["Durotar"] = 1411,
 		["Mulgore"] = 1412,
@@ -149,3 +154,44 @@ z.standingID = {
 	["Revered"] = 7,
 	["Exalted"] = 8,
 }
+
+function Guidelime.Zarant.RemoveQuestRequirement(id,arg)
+	if not addon.questsDB[id] then
+		return false
+	elseif not arg or arg == "prequests" then
+		addon.questsDB[id]["prequests"] = nil
+		addon.questsDB[id]["oneOfPrequests"] = nil
+		return true
+	elseif arg == "faction" or arg == "classes" or arg == "req" then
+		addon.questsDB[id][arg] = nil
+		return true
+	else
+		return false
+	end
+end
+
+
+Guidelime.Zarant.RemoveQuestRequirement(353,"prequests") --Stormpike's Delivery
+Guidelime.Zarant.RemoveQuestRequirement(614,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(615,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(5237,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(5238,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(8553,"faction")
+Guidelime.Zarant.RemoveQuestRequirement(5092,"prequests")
+Guidelime.Zarant.RemoveQuestRequirement(8551,"faction")
+
+
+
+Guidelime.Zarant.RemoveQuestRequirement(1365,"prequests") --Khan Dez'hepah
+Guidelime.Zarant.RemoveQuestRequirement(6383,"prequests") --Ashenvale Hunt
+Guidelime.Zarant.RemoveQuestRequirement(7792,"prequests")--A Donation of Wool(Darnassus)
+
+
+--Fixes issues with the quest DB treating breadcrumb quests as mandatory pre-quests:
+Guidelime.Zarant.RemoveQuestRequirement(1204,"prequests") --Mudrock soup and bugs
+Guidelime.Zarant.RemoveQuestRequirement(5149,"prequests") --Pamela's Doll
+Guidelime.Zarant.RemoveQuestRequirement(2518,"prequests") --Tears of the Moon
+Guidelime.Zarant.RemoveQuestRequirement(1395,"prequests") --Supplies for Nethergarde
+Guidelime.Zarant.RemoveQuestRequirement(5082,"prequests") --Threat of the Winterfall
+Guidelime.Zarant.RemoveQuestRequirement(5096,"prequests") --Scarlet Diversions
+Guidelime.Zarant.RemoveQuestRequirement(484,"prequests") --Young Crocolisk Skins

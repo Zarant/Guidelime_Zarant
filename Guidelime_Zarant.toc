@@ -7,6 +7,7 @@
 ## Notes: Alliance Leveling Guide
 
 Guidelime_Zarant.lua
+Functions.lua
 Data.lua
 InventoryManager.lua
 EventHandler.lua
