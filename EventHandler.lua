@@ -26,8 +26,8 @@ function z.BuySpells(id,level)
 	if category ~= "available" then
 		return
 	end
-	if Guidelime.Zarant.skillList then
-		for spellName,spellRank in pairs(Guidelime.Zarant.skillList) do
+	if z.skillList then
+		for spellName,spellRank in pairs(z.skillList) do
 			--print(rank)
 			if name == spellName and (rank == spellRank or not rank or rank == "" or spellRank == 0) then
 				BuyTrainerService(id)
@@ -462,7 +462,7 @@ local timer = 0
 
 local function trainerFrameUpdate(self,t)
 	timer = timer + t
-	if timer >= 0.2 then
+	if timer >= 0.4 then
 		timer = 0
 		if GetTime() - trainerUpdate > 15 then
 			EventHandler:SetScript("OnUpdate",nil)
@@ -476,8 +476,10 @@ end
 EventHandler:SetScript("OnEvent",function(self,event,arg1)
 
 	if event == "TRAINER_SHOW" then
+		if GetTime()-trainerUpdate > 0.5 then
+			EventHandler:SetScript("OnUpdate",trainerFrameUpdate)
+		end
 		trainerUpdate = GetTime()
-		EventHandler:SetScript("OnUpdate",trainerFrameUpdate)
 	elseif event == "TRAINER_CLOSED" then
 		EventHandler:SetScript("OnUpdate",nil)
 	elseif event == "QUEST_COMPLETE" then
