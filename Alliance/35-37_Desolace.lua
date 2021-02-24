@@ -44,7 +44,7 @@ Accept the escort quest [QA1440 Return to Vahlarriel]
 Accept [QA5501 Bone Collector]
 Accept [QA5561 Kodo Roundup]
 [G72.0,76.0,160Desolace][QC1387 -][O]Kill centaurs
-[G72.0,76.0,160Desolace][QC1382-]Keep killing centaurs until you get *friendly* rep. with Gelkis centaur
+[G72.0,76.0,160Desolace][QC1382-]Keep killing centaurs until you get *friendly* rep. with Gelkis centaur-->>Reputation,92,friendly
 Do [QC5501 Bone Collector][O]
 Do [QT5561 Kodo Roundup][O] \\Grind mobs on your way back and forth\\Be on the lookout for the kodos that patrol next to the quest giver
 Finish off [QC1459]
@@ -118,7 +118,7 @@ Click on the small book on the ground next to the chest \\Accept [QA6161 Claim R
 
 Accept [QA5561 Kodo Roundup]
 [G72.0,76.0,160Desolace][QC1387 -][O]Kill centaurs
-[G72.0,76.0,160Desolace][QC1382-]Keep killing centaurs until you get *friendly* rep. with Gelkis centaur
+[G72.0,76.0,160Desolace][QC1382-]Keep killing centaurs until you get *friendly* rep. with Gelkis centaur-->>Reputation,92,friendly
 Turn in [QT1382] \\Accept [QA1384]
 
 Grind until your HS is off cooldown\\[H]Hearth back to Nijel's Point [OC]

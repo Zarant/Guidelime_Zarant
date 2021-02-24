@@ -52,7 +52,8 @@ Accept [QA5156]
 Accept [QA6131]
 Do [QC6131]
 Turn in [QT6131] \\Accept [QA8462]
-Grind fulborgs until you get unfriendly with Timbermaw Hold\\ \\Keep grinding fulborgs until you have enough Mageweave for alliance cloth turn ins (12 stacks)\\You can skip the mageweave farm if you can afford to buy it from the AH
+[O]Grind fulborgs until you get unfriendly with Timbermaw Hold-->>Reputation,576,Unfriendly
+Keep grinding fulborgs until you have enough Mageweave for alliance cloth turn ins (12 stacks)\\You can skip the mageweave farm if you can afford to buy it from the AH
 [G35.16,59.77Felwood][QC5157-]Fill the empty canteen at the Jaedenar moonwell
 
 Do [QC5156]

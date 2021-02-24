@@ -28,11 +28,9 @@ local autoComplete = GuidelimeData.autoCompleteQuest
 	GuidelimeData.autoCompleteQuest = autoComplete
 end
 
-
 if addon.parseCustomLuaCode or Guidelime.Zarant.RegisterStep then
 	return
 end
-
 
 
 
