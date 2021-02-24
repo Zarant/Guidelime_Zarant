@@ -21,6 +21,10 @@ function Guidelime.Zarant:UpdateStep()
 	addon.updateSteps({self.step.index})
 end
 
+function Guidelime.Zarant:UpdateText()
+	addon.updateStepsText()
+end
+
 function Guidelime.Zarant.IsQuestComplete(id)
 	if IsQuestFlaggedCompleted(id) then
 		return
@@ -349,7 +353,7 @@ function Guidelime.Zarant.Collect(self,args,event,itemId,success) --OnStepActiva
 		return
 	end
 
-	self:UpdateStep()
+	self:UpdateText()
 end
 
 function Guidelime.Zarant.Destroy(self,args) --OnStepActivation,BAG_UPDATE>>Destroy,id_1,id_2,id_3...
@@ -369,20 +373,31 @@ function Guidelime.Zarant.Destroy(self,args) --OnStepActivation,BAG_UPDATE>>Dest
 		return
 	end
 
-	self:UpdateStep()
 end
+
+
+local standingID = {
+	["Hated"] = 1,
+	["Hostile"] = 2,
+	["Unfriendly"] = 3,
+	["Neutral"] = 4,
+	["Friendly"] = 5,
+	["Honored"] = 6,
+	["Revered"] = 7,
+	["Exalted"] = 8,
+}
 
 function Guidelime.Zarant.Reputation(self,args) --UPDATE_FACTION>>Reputation,id,standing
 	if not self then 
 		return "OnStepActivation,UPDATE_FACTION"
 	end
 	local factionID = tonumber(args[1])
-	local goal = self.standingID[args[2]] or tonumber(args[2])
+	local goal = standingID[args[2]] or tonumber(args[2])
 	
 	
 	if not goal then return end
-	local name, description, standingID, barMin, barMax, barValue = GetFactionInfoByID(factionID)
-	local standing = getglobal("FACTION_STANDING_LABEL"..standingID)
+	local name, description, standingID, barMin, barMax, barValue = GetFactionInfo(factionIndex);
+	local currentStanding = getglobal("FACTION_STANDING_LABEL"..standingID)
 
 	local step = self.step
 	if not self.element then
@@ -397,7 +412,8 @@ function Guidelime.Zarant.Reputation(self,args) --UPDATE_FACTION>>Reputation,id,
 	if standingID >= goal then
 		self:SkipStep()
 	else
-		element.text = string.format("\n   |T%s:12|t%d/%d (%s)",addon.icons.object,barValue,barMax,standing)
+		element.text = string.format("\n   |T%s:12|t%d/%d (%s)",addon.icons.object,barValue-barMin,barMax-barMin,currentStanding)
+		self:UpdateText()
 	end
 
 end
@@ -729,10 +745,10 @@ function Guidelime.Zarant.BlastedLandsQuests(self)
 	
 	if skip then
 		--element.text = ""
-		z.SkipStep(self)
+		self:SkipStep()
 		return
 	end
 
-	self:UpdateStep()
+	self:UpdateText()
 
 end

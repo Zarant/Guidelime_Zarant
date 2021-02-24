@@ -2,6 +2,9 @@ local name,addon = ...
 
 Guidelime.Zarant = {}
 
+if not addon.parseLine and Guidelime.addon then
+	addon = Guidelime.addon
+end
 
 Guidelime.Zarant.Modules = {}
 
@@ -25,10 +28,6 @@ local autoComplete = GuidelimeData.autoCompleteQuest
 	GuidelimeData.autoCompleteQuest = autoComplete
 end
 
-if not addon.parseLine and Guidelime.addon then
-	addon = Guidelime.addon
-end
-Guidelime.Zarant.addonTable = addon
 
 if addon.parseCustomLuaCode or Guidelime.Zarant.RegisterStep then
 	return
