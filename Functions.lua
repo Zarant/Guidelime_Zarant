@@ -376,28 +376,44 @@ function Guidelime.Zarant.Destroy(self,args) --OnStepActivation,BAG_UPDATE>>Dest
 end
 
 
-local standingID = {
-	["Hated"] = 1,
-	["Hostile"] = 2,
-	["Unfriendly"] = 3,
-	["Neutral"] = 4,
-	["Friendly"] = 5,
-	["Honored"] = 6,
-	["Revered"] = 7,
-	["Exalted"] = 8,
+local repStandingID = {
+	["hated"] = 1,
+	["hostile"] = 2,
+	["unfriendly"] = 3,
+	["neutral"] = 4,
+	["friendly"] = 5,
+	["honored"] = 6,
+	["revered"] = 7,
+	["exalted"] = 8,
 }
 
-function Guidelime.Zarant.Reputation(self,args) --UPDATE_FACTION>>Reputation,id,standing
+local repStartValue = {
+-42000,--hated
+-6000,--hostile
+-3000,--unfriendly
+0,--neutral
+3000,--friendly
+9000,--honored
+21000,--revered
+42000,--exalted
+}
+
+function Guidelime.Zarant.Reputation(self,args) --UPDATE_FACTION>>Reputation,id,standing,value(optional)
 	if not self then 
 		return "OnStepActivation,UPDATE_FACTION"
 	end
 	local factionID = tonumber(args[1])
-	local goal = standingID[args[2]] or tonumber(args[2])
+	local standing = repStandingID[string.lower(args[2])] or tonumber(args[2])
+	if not standing then
+		
+		return print('Error parsing guide at line '..self.step.line..' invalid faction/standing') 
+	end
 	
+	local value = tonumber(args[3]) or 0
+	local goal = repStartValue[standing] + value
 	
 	if not goal then return end
-	local name, description, standingID, barMin, barMax, barValue = GetFactionInfo(factionIndex);
-	local currentStanding = getglobal("FACTION_STANDING_LABEL"..standingID)
+	local name, description, standingID, barMin, barMax, barValue = GetFactionInfoByID(factionID);
 
 	local step = self.step
 	if not self.element then
@@ -409,10 +425,10 @@ function Guidelime.Zarant.Reputation(self,args) --UPDATE_FACTION>>Reputation,id,
 	element.textInactive = ""
 	element.text = ""
 	
-	if standingID >= goal then
+	if barValue >= goal then
 		self:SkipStep()
 	else
-		element.text = string.format("\n   |T%s:12|t%d/%d (%s)",addon.icons.object,barValue-barMin,barMax-barMin,currentStanding)
+		element.text = string.format("\n   |T%s:12|t%s: %d/%d ",addon.icons.npc,name,barValue-barMin,goal-barMin)
 		self:UpdateText()
 	end
 
