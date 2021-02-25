@@ -640,6 +640,55 @@ function Guidelime.Zarant.CastSpell(self,args,event,target,guid,spellId)
 
 end
 
+function Guidelime.Zarant.PlayerBuff(self,args,event,target,guid,spellId)
+-->>PlayerBuff,buffNameOrId,persistent
+	if not self then 
+		return "OnStepActivation,UNIT_AURA:player"
+	end
+	
+	
+	if event == "OnStepActivation" then
+		self.buffName = args[1]
+		self.buffCheck = true
+		self.buffName:gsub("%s*(!?)(.*%S)",function(mode,name)
+			local id = tonumber(name)
+			if id then
+				self.buffName = GetSpellInfo(id)
+			else
+				self.buffName = name
+			end
+			if mode == "!" then
+				self.buffCheck = nil
+			end
+		end)
+		if args[2] then
+			self.persistent = true
+		end
+	elseif not self.buffName then
+		return
+	end
+
+	local isBuffPresent
+	local i = 1
+	local name = UnitBuff("player",i)
+	while name do
+		if name == self.buffName then
+			isBuffPresent = true 
+			name = nil
+		end
+		i = i+1
+		name = UnitBuff("player",i)
+	end
+
+	if isBuffPresent == self.buffCheck then 
+		self:SkipStep()
+	elseif not self.step.active then
+		self:SkipStep(false)
+	end
+
+end
+
+
 function Guidelime.Zarant.FormatNumber(number,precision)
 	if not precision then
 		precision = 0
