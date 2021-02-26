@@ -398,37 +398,45 @@ local repStartValue = {
 42000,--exalted
 }
 
-function Guidelime.Zarant.Reputation(self,args) --UPDATE_FACTION>>Reputation,id,standing,value(optional)
+function Guidelime.Zarant.Reputation(self,args)
+-->>Reputation,id,standing,value(optional)
 	if not self then 
 		return "OnStepActivation,UPDATE_FACTION"
 	end
-	local factionID = tonumber(args[1])
+	if event == "OnStepActivation" then
+		arg[1]:gsub("(!?)%s*(%d+)",function(mode,id)
+			if mode == "!" then
+				self.mode = false
+			else
+				self.mode = true
+			end
+			self.factionID = tonumber(id)
+		end)
+		if not self.element then
+			local step = self.step
+			table.insert(step.elements,{})
+			self.element = step.elements[#step.elements]
+			self.element.textInactive = ""
+		end
+	end	
 	local standing = repStandingID[string.lower(args[2])] or tonumber(args[2])
-	if not standing then
+	if not (standing and self.factionID) then
 		
-		return print('Error parsing guide at line '..self.step.line..' invalid faction/standing') 
+		return print('Error parsing guide at line '..self.step.line..': invalid faction/standing') 
 	end
 	
 	local value = tonumber(args[3]) or 0
 	local goal = repStartValue[standing] + value
 	
 	if not goal then return end
-	local name, description, standingID, barMin, barMax, barValue = GetFactionInfoByID(factionID);
+	local name, description, standingID, barMin, barMax, barValue = GetFactionInfoByID(self.factionID);
 
-	local step = self.step
-	if not self.element then
-		table.insert(step.elements,{})
-		self.element = #step.elements
-	end
-
-	local element = step.elements[self.element]
-	element.textInactive = ""
-	element.text = ""
+	self.element.text = ""
 	
-	if barValue >= goal then
+	if (barValue >= goal) == self.mode then
 		self:SkipStep()
 	else
-		element.text = string.format("\n   |T%s:12|t%s: %d/%d ",addon.icons.npc,name,barValue-barMin,goal-barMin)
+		self.element.text = string.format("\n   |T%s:12|t%s: %d/%d ",addon.icons.npc,name,barValue-barMin,goal-barMin)
 		self:UpdateText()
 	end
 
@@ -463,8 +471,6 @@ function Guidelime.Zarant.Train(self,args,event,spellId)
 	end
 	
 	if event == "LEARNED_SPELL_IN_TAB" then
-		if not self.skillList[name] then return end
-
 		local name = GetSpellInfo(spellId)
 		local rank = self.skillList[name]
 		
