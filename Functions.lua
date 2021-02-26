@@ -459,21 +459,24 @@ end
 
 function Guidelime.Zarant.Train(self,args,event,spellId)
 	if not self then 
-		return "LEARNED_SPELL_IN_TAB,OnStepActivation,OnStepCompletion"
+		return "LEARNED_SPELL_IN_TAB,TRAINER_CLOSED,OnStepActivation,OnStepCompletion"
 	end
 	
 	if event == "LEARNED_SPELL_IN_TAB" then
 		if not self.skillList[name] then return end
-		local name, rank = GetSpellInfo(spellId)
-		if rank == self.skillList[name] or string.match(self.skillList[name],tostring(rank)) then
-			self.skillList[name] = nil
+
+		local name = GetSpellInfo(spellId)
+		local rank = self.skillList[name]
+		
+		if rank and (rank == GetSpellSubtext(spellId) or rank == "" or rank == 0) then
+			self.spellsTrained = self.spellsTrained+1
 		end
-		if #self.skillList == 0 then
-			self:SkipStep()
-		end
+		
 	elseif event == "OnStepActivation" then
-		self.skillList = {}
-		self.spellsTrained = 0
+		if not self.skillList then
+			self.skillList = {}
+			self.spellsTrained = 0
+		end
 		for _,v in pairs(args) do
 			local spell, rank = string.match(v,"%s*(%w.*%w)%s*%((.+)%)")
 			--print(spell,rank)
@@ -481,14 +484,15 @@ function Guidelime.Zarant.Train(self,args,event,spellId)
 				spell = v
 				rank = 0
 			end
-			Guidelime.Zarant.skillList[spell] = rank
 			self.skillList[spell] = rank
+			Guidelime.Zarant.skillList[spell] = rank
 		end
+	elseif event == "TRAINER_CLOSED" and self.spellsTrained >= #self.skillList then
+		self:SkipStep()
 	elseif event == "OnStepCompletion" then
 		for spell,rank in pairs(self.skillList) do
 			Guidelime.Zarant.skillList[spell] = nil
 		end
-		self.skillList = nil
 	end
 end
 
