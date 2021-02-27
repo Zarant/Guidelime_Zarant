@@ -97,7 +97,7 @@ function z:SoothingSpices(args,event)
 	else
 		return self:SkipStep()
 	end
-	if event == "MERCHANT_SHOW" and GuidelimeData.Merchant and total > 0 then
+	if event == "MERCHANT_SHOW" and GuidelimeZarantData.Merchant and total > 0 then
 		z.BuyItem(id,total)
 	end
 	self:UpdateStep()

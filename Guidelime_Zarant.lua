@@ -10,23 +10,223 @@ Guidelime.Zarant.Modules = {}
 
 local z = Guidelime.Zarant
 
+--local j = 0
+function z.getQuestItemList()
+	local itemList = {}
+	for bag = BACKPACK_CONTAINER, NUM_BAG_FRAMES do
+		for slot = 1,GetContainerNumSlots(bag) do
+			local id = GetContainerItemID(bag, slot)
+			local spell = GetItemSpell(id)
+			if id and spell then
+				local itemName, _, _, _, _, _, _, _,_, itemTexture, _, classID = GetItemInfo(id)
+				if classID == 12 then
+					--j = j+1
+					itemList[id] = {name = itemName, texture = itemTexture, bag = bag, slot = slot}
+				end
+			end
+		end
+	end
+	return itemList
+end
+
+
+function z.CreateItemFrame()
+if zQuestItemFrame then return end
+--[[
+local x = GuidelimeZarantData.fx or 0
+local y = GuidelimeZarantData.fy or 0
+local point = GuidelimeZarantData.point or "BOTTOMRIGHT"
+local relativePoint = GuidelimeZarantData.relativePoint or "BOTTOMRIGHT"
+]]
+local x =  0
+local y =  -50
+local point = "BOTTOMLEFT"
+local relativePoint =  "BOTTOMLEFT"
+
+zQuestItemFrame = CreateFrame("Frame","zQuestItemFrame",addon.mainFrame)
+
+local f = zQuestItemFrame
+local backdrop = {bgFile = "Interface/Tooltips/UI-Tooltip-Background", 
+	tile = true, tileSize = 16, 
+	--edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
+	--edgeSize = 16, insets = {left = 4, right = 4, top = 4, bottom = 4}
+}
+f:SetPoint(point,addon.mainFrame,relativePoint, x, y)
+f:SetBackdrop(backdrop);
+f:SetBackdropColor(0,0,0,0);
+
+--f:SetClampedToScreen(true)
+--f:EnableMouse(true)
+--f:SetMovable(true)
+
+--[[
+f:SetScript("OnMouseDown", function(self, button)
+	if IsAltKeyDown() then
+		f:StartSizing("BOTTOMRIGHT")
+	else
+		f:StartMoving()
+	end
+	
+end)
+f:SetScript("OnMouseUp", function(self,button)
+	f:StopMovingOrSizing()
+	local point, relativeTo, relativePoint, x, y = self:GetPoint()
+	GuidelimeZarantData.fx = x
+	GuidelimeZarantData.fy = y
+	GuidelimeZarantData.point = point
+	GuidelimeZarantData.relativePoint = relativePoint
+	z.UpdateFrame()
+end)]]
+
+f:RegisterEvent("BAG_UPDATE")
+f:SetScript("OnEvent",function()
+	if not InCombatLockdown() then
+		z.UpdateFrame()
+	end
+end)
+
+f = zQuestItemFrame
+f.TextFrame = f.TextFrame or CreateFrame("Frame", "$parentTextFrame", f)
+f.TextFrame:SetPoint("RIGHT", f,"LEFT")
+f.TextFrame:SetWidth(70)
+f.TextFrame:SetHeight(14)
+f.TextFrame.text = f.TextFrame.text or f.TextFrame:CreateFontString(nil,"OVERLAY") 
+f.TextFrame.text:SetFontObject(GameFontNormal)
+f.TextFrame.text:SetPoint("TOPLEFT",7,-5)
+f.TextFrame.text:SetJustifyH("RIGHT")
+f.TextFrame.text:SetJustifyV("TOP")
+f.TextFrame:SetPoint("TOPLEFT",0,0)
+f.TextFrame.text:SetText("Quest Items")
+zQuestItemFrame:SetHeight(50);
+
+z.UpdateFrame()
+
+end
+
+local buttonList = {}
+
+local fOnEnter = function(self)
+	--print(self.itemId)
+	if self.itemId then
+		GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+		GameTooltip:SetInventoryItemByID(self.itemId)
+		GameTooltip:Show()
+	end
+end
+
+local fOnLeave = function(self)
+	GameTooltip:Hide()
+	if IsMouseButtonDown() and not InCombatLockdown() then
+		PickupContainerItem(self.bag,self.slot)
+	end
+end
+
+function z.UpdateFrame()
+	if addon.currentGuide and addon.currentGuide.group ~= "Zarant" then
+		return zQuestItemFrame:Hide()
+	end
+	
+	local itemList = z.getQuestItemList()
+
+--/run Guidelime.Zarant.CreateItemFrame()
+	local i = 0
+	for id,item in pairs(itemList) do
+		i = i+1
+		local btn = buttonList[i]
+		
+		if not btn then
+			btn = CreateFrame("CheckButton", "Example", zQuestItemFrame, "SecureActionButtonTemplate")
+			btn:SetAttribute("type", "item")
+			btn:SetSize(25, 25)
+			table.insert(buttonList,btn)
+			local n = #buttonList
+
+			btn:ClearAllPoints()
+			if n == 1 then
+				btn:SetPoint("BOTTOMLEFT", zQuestItemFrame,"BOTTOMLEFT", 5,5)
+			else
+				btn:SetPoint("CENTER",buttonList[n-1],"CENTER",27,0)
+			end
+			btn.icon  = btn:CreateTexture(nil, "BACKGROUND");
+			local icon = btn.icon
+			icon:SetAllPoints(true);
+			icon:SetTexture("Interface/Buttons/Button-Backpack-Up");
+			
+			
+			
+			btn:SetScript("OnEnter",fOnEnter)
+			btn:SetScript("OnLeave",fOnLeave)
+
+			local ht = btn:CreateTexture(nil, "HIGHLIGHT")
+			ht:SetAllPoints(true)
+			ht:SetTexture("Interface\\Buttons\\ButtonHilight-Square")
+			ht:SetBlendMode("ADD")
+		end
+		
+		--print(id,item.texture,item.name)
+		btn:SetAttribute("item", item.name)
+		btn.itemId = id
+		btn.bag = item.bag
+		btn.slot = item.slot
+		btn.icon:SetTexture(item.texture)
+		btn:Show()
+	end
+	if i == 0 then
+		zQuestItemFrame:Hide()
+	else
+		zQuestItemFrame:Show()
+	end
+
+	for n = i+1,#buttonList do
+		buttonList[n]:Hide()
+	end
+
+local width = math.max(90,i*27+7)
+zQuestItemFrame:SetWidth(width);
+zQuestItemFrame:Show()
+
+end
+
+print('ok')
+--"PLAYER_REGEN_ENABLED"
+
+
+
+
+
+
+
+
+
+
+
 
 local QUEST_GREETING_OLD = addon.frame.QUEST_GREETING
 local npcList = {467,349,1379,7766,1978,7784,2713,2768,2610,2917,7806,3439,3465,3568,3584,4484,3692,4508,4880,4983,5391,5644,5955,7780,7807,7774,7850,8284,8380,8516,9020,9520,9623,9598,9023,9999,10427,10300,10646,10638,11016,11218,11711,11625,11626,1842,12277,12580,12818,11856,12858,12717,13716}
 
 --Prevents auto accept script from accepting escort quests (needs testing)
 function addon.frame.QUEST_GREETING(...)
-local autoComplete = GuidelimeData.autoCompleteQuest
+local autoComplete = GuidelimeZarantData.autoCompleteQuest
 	
 	local id = Guidelime.Zarant.NpcId()
 	for _,v in ipairs(npcList) do
 		if id == v then
-			GuidelimeData.autoCompleteQuest = false
+			GuidelimeZarantData.autoCompleteQuest = false
 		end
 	end
 	QUEST_GREETING_OLD(...)
-	GuidelimeData.autoCompleteQuest = autoComplete
+	GuidelimeZarantData.autoCompleteQuest = autoComplete
 end
+
+local ParseCustomLuaCode = function() return end
+local loadCurrentGuideOLD = addon.loadCurrentGuide
+function addon.loadCurrentGuide(...)
+	local r = loadCurrentGuideOLD(...)
+	ParseCustomLuaCode()
+	if Guidelime.Zarant.Modules.OnLoad then z.UpdateFrame() end
+	return r
+end
+
 
 if addon.parseCustomLuaCode or Guidelime.Zarant.RegisterStep then
 	return
@@ -35,7 +235,7 @@ end
 
 
 local parseLineOLD = addon.parseLine
-local loadCurrentGuideOLD = addon.loadCurrentGuide
+
 local updateStepsOLD = addon.updateSteps
 local function RegisterStep(self,eventList,eval,args,frameCounter,guide,step)
 	
@@ -127,8 +327,8 @@ function addon.parseLine(...)
 	return parseLineOLD(...)
 end
 
-local function ParseCustomLuaCode()
-	local guide = addon.guides[GuidelimeDataChar.currentGuide]
+function ParseCustomLuaCode()
+	local guide = addon.guides[GuidelimeZarantDataChar.currentGuide]
 	local groupTable = Guidelime[guide.group]
 	if not groupTable then Guidelime[guide.group] = true end
 	addon.WipcustomCodeDataData()
@@ -168,11 +368,7 @@ local function ParseCustomLuaCode()
 end
 
 
-function addon.loadCurrentGuide(...)
-	local r = loadCurrentGuideOLD(...)
-	ParseCustomLuaCode()
-	return r
-end
+
 
 
 function addon.updateSteps(...)

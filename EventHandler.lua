@@ -6,6 +6,9 @@ Guidelime.Zarant.Modules.EventHandler = true
 local z = Guidelime.Zarant
 local _, class = UnitClass("player")
 
+
+
+
 z.EventHandler = CreateFrame("Frame")
 local EventHandler = z.EventHandler
 EventHandler:RegisterEvent("TRAINER_SHOW")
@@ -37,11 +40,11 @@ function z.BuySpells(id,level)
 		end
 	end
 	--[[
-	if not GuidelimeData.trainerData then
-		GuidelimeData.trainerData = {}
-		GuidelimeData.trainerData[class] = {}
+	if not GuidelimeZarantData.trainerData then
+		GuidelimeZarantData.trainerData = {}
+		GuidelimeZarantData.trainerData[class] = {}
 	else
-		for trainingLevel,spellList in pairs(GuidelimeData.trainerData[class]) do
+		for trainingLevel,spellList in pairs(GuidelimeZarantData.trainerData[class]) do
 			if trainingLevel <= level then
 				for _,spell in ipairs(spellList) do
 					if spell[1] == name and (rank == spell[2] or not rank or rank == "") then
@@ -68,9 +71,9 @@ end
 
 
 local function GetQuestRewardData(n)
-	GuidelimeDataChar.questRewardList = GuidelimeDataChar.questRewardList or {}
-	if n and n > 0 and questId and not GuidelimeDataChar.questRewardList[questId] then
-		GuidelimeDataChar.questRewardList[questId] = n
+	GuidelimeZarantDataChar.questRewardList = GuidelimeZarantDataChar.questRewardList or {}
+	if n and n > 0 and questId and not GuidelimeZarantDataChar.questRewardList[questId] then
+		GuidelimeZarantDataChar.questRewardList[questId] = n
 	end
 end
 hooksecurefunc("GetQuestReward", GetQuestRewardData)
@@ -393,7 +396,7 @@ end
 
 local merchantTimer = 0
 local function Merchant()
-	if not GuidelimeData.Merchant then
+	if not GuidelimeZarantData.Merchant then
 		return
 	end
 	
@@ -484,7 +487,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		EventHandler:SetScript("OnUpdate",nil)
 	elseif event == "QUEST_COMPLETE" then
 		questId = GetQuestID()
-		local reward = GuidelimeData.questRewardList[class] and GuidelimeData.questRewardList[class][questId]
+		local reward = GuidelimeZarantData.questRewardList[class] and GuidelimeZarantData.questRewardList[class][questId]
 		--print(reward)
 		
 		--/run name,_,_,_,_,id = GetQuestLogChoiceInfo(2) print(id)
@@ -517,7 +520,7 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		end)
 	elseif event == "PLAYER_ENTERING_WORLD" then
 		z.OnLoad()
-		local tick = GuidelimeData.moveTicker
+		local tick = GuidelimeZarantData.moveTicker
 		if tick and class == "HUNTER" then
 			z.moveAmmo = C_Timer.NewTicker(tick, function()
 				moveTicker = true
@@ -529,10 +532,10 @@ EventHandler:SetScript("OnEvent",function(self,event,arg1)
 		local spell,rank = string.match(arg1,"You have learned a new %a+%:%s(.*)%s%((Rank%s%d+)%)")
 		if spell then
 			GuidelimeDataChar = GuidelimeDataChar or {}
-			if GuidelimeDataChar.trainerData[level] then
-				table.insert(GuidelimeDataChar.trainerData[level],{spell,rank})
+			if GuidelimeZarantDataChar.trainerData[level] then
+				table.insert(GuidelimeZarantDataChar.trainerData[level],{spell,rank})
 			else
-				GuidelimeDataChar.trainerData[level] = {{spell,rank}}
+				GuidelimeZarantDataChar.trainerData[level] = {{spell,rank}}
 			end
 		end
 		]]

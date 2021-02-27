@@ -3,31 +3,33 @@ local z = Guidelime.Zarant
 local _, class = UnitClass("player")
 Guidelime.Zarant.Modules.Data = true
 z.skillList = z.skillList or {}
-GuidelimeDataChar = GuidelimeDataChar or {}
-GuidelimeData = GuidelimeData or {}
-function z.OnLoad()
-	
-	GuidelimeDataChar.trainerData = GuidelimeDataChar.trainerData or {}
-	GuidelimeData.trainerData = GuidelimeData.trainerData or {}
-	GuidelimeData.trainerData[class] = GuidelimeData.trainerData[class] or {}
 
-	GuidelimeData.questRewardList = GuidelimeData.questRewardList or {}
-	GuidelimeData.questRewardList[class] = GuidelimeData.questRewardList[class] or {}
-	GuidelimeDataChar.questRewardList = GuidelimeDataChar.questRewardList or {}
-	
+
+function z.OnLoad()
+	GuidelimeZarantData = GuidelimeZarantData or {}
+	GuidelimeZarantDataChar = GuidelimeZarantDataChar or {}
+	GuidelimeZarantDataChar.trainerData = GuidelimeZarantDataChar.trainerData or {}
+	GuidelimeZarantData.trainerData = GuidelimeZarantData.trainerData or {}
+	GuidelimeZarantData.trainerData[class] = GuidelimeZarantData.trainerData[class] or {}
+
+	GuidelimeZarantData.questRewardList = GuidelimeZarantData.questRewardList or {}
+	GuidelimeZarantData.questRewardList[class] = GuidelimeZarantData.questRewardList[class] or {}
+	GuidelimeZarantDataChar.questRewardList = GuidelimeZarantDataChar.questRewardList or {}
+	z.CreateItemFrame()
 	--GuidelimeZarantData = GuidelimeData
 	--GuidelimeZarantDataChar = GuidelimeDataChar
+	Guidelime.Zarant.Modules.OnLoad = true
 end
 
 function z.UpdateTrainerData()
-	--if #GuidelimeDataChar.trainerData > 0 then
-		GuidelimeData.trainerData[class] = GuidelimeDataChar.trainerData
+	--if #GuidelimeZarantDataChar.trainerData > 0 then
+		GuidelimeZarantData.trainerData[class] = GuidelimeZarantDataChar.trainerData
 	--end
 end
 
 function z.UpdateQuestRewardList()
-	if GuidelimeDataChar.questRewardList then
-		GuidelimeData.questRewardList[class] = GuidelimeDataChar.questRewardList
+	if GuidelimeZarantDataChar.questRewardList then
+		GuidelimeZarantData.questRewardList[class] = GuidelimeZarantDataChar.questRewardList
 	end
 end
 

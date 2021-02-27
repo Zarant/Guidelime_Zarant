@@ -5,12 +5,15 @@
 ## Dependencies: Guidelime
 ## OptionalDeps: unitscan
 ## Notes: Alliance Leveling Guide
+## SavedVariables: GuidelimeZarantData
+## SavedVariablesPerCharacter: GuidelimeZarantDataChar
 
 Guidelime_Zarant.lua
 Functions.lua
 Data.lua
 InventoryManager.lua
 EventHandler.lua
+
 
 Horde\1-12_Durotar.lua
 Horde\12-20.lua
