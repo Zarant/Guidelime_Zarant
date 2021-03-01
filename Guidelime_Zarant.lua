@@ -183,7 +183,7 @@ function z.UpdateFrame()
 
 local width = math.max(90,i*27+7)
 zQuestItemFrame:SetWidth(width);
-zQuestItemFrame:Show()
+
 
 end
 
