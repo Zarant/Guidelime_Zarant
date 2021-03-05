@@ -186,8 +186,6 @@ zQuestItemFrame:SetWidth(width);
 
 
 end
-
-print('ok')
 --"PLAYER_REGEN_ENABLED"
 
 
@@ -328,12 +326,13 @@ function addon.parseLine(...)
 end
 
 function ParseCustomLuaCode()
+	addon.WipcustomCodeDataData()
 	local guide = addon.guides[GuidelimeZarantDataChar.currentGuide]
+	if not (guide and guide.group) then return end
 	local groupTable = Guidelime[guide.group]
 	if not groupTable then Guidelime[guide.group] = true end
-	addon.WipcustomCodeDataData()
 	
-	if guide and type(groupTable) == "table" then
+	if type(groupTable) == "table" then
 		local frameCounter = 0
 		groupTable.__index = groupTable
 		
@@ -345,13 +344,13 @@ function ParseCustomLuaCode()
 					local eval = nil
 					for arg in step.eval:gmatch('[^,]+') do
 						if not eval then
-							eval = arg:gsub("%s*","")
+							eval = arg:gsub("%s","")
 						else
 							local c = string.match(arg,"^%s*(.*%S+)%s*$")
 							if c then table.insert(args,c) end
 						end
 					end
-					step.event = step.event:gsub("%s*","")
+					step.event = step.event:gsub("%s","")
 					if step.event == "" then 
 						step.event = groupTable[eval]() or "OnStepActivation"
 					end
