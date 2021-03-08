@@ -219,6 +219,7 @@ Accept [QA6027 Book of the Ancients]
 [G28.2,6.6Desolace][QC6027,1-]Click on the statue and kill the level 38 naga
 [G30.0,8.8Desolace]Turn in [QT6161 Claim Rackmore's Treasure!]
 Finish off [QC6143]
+Turn in [QT6027]
 
 
 Turn in [QT1435 The Burning of Spirits] \\Turn in [QT1482]

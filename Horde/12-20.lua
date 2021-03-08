@@ -176,7 +176,7 @@ Accept [QA1094 Further Instructions]
 [G45.1,59.8Stonetalon Mountains][P]Get the Stonetalon FP
 Do [QC6421]
 [G71.2,94.9Stonetalon Mountains]Turn in [QT6461 Blood Feeders]
-[G74.5,97.9Stonetalon Mountains]Accept [QA1058 Jin'Zil's Forest Magic] 
+--[G74.5,97.9Stonetalon Mountains]Accept [QA1058 Jin'Zil's Forest Magic] 
 [G35.3,27.8The Barrens]Turn in [QT1062 Goblin Invaders]
 [G35.2,27.8The Barrens]Turn in [QT6523 Protect Kaya]\\
 Accept [QA6401 Kaya's Alive]\\
@@ -256,6 +256,7 @@ Fly to [F Stonetalon Mountains]
 Accept [QA6301 Cycle of Rebirth] \\Turn in [QT6401 Kaya's Alive]
 
 Accept [QA6284 Arachnophobia]
+--[G74.5,97.9Stonetalon Mountains]Accept [QA1058 Jin'Zil's Forest Magic]
 [G52.0,73.8Stonetalon Mountains]Collect [QC6284,1-]Besseleth's Fang-->>Unitscan,Besseleth
 
 [G59.0,62.6Stonetalon Mountains]Turn in [QT1095 Further Instructions]

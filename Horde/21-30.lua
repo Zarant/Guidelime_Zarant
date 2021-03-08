@@ -123,9 +123,9 @@ Fly to [F Stonetalon Mountains]
 Accept [QA6282 Harpies Threaten]
 Turn in [QT6284 Arachnophobia]
 [QC6301-][O]Loot Gaea Seeds as you pass through the lake
-Do [QC1058][OC]
+--Do [QC1058][OC]
 Do [QC1087]
-Finish off [QC1058]
+--Finish off [QC1058]
 [QC6393-][O]Kill Fire Elementals
 Do [QC6282]
 [G37.9,67.9,40Stonetalon Mountains]Head to Sun Rock Retreat\\
@@ -148,7 +148,7 @@ Turn in [QT6381 New Life]
 Do [QC1096,1]
 Turn in [QT1096]
 [G74.5,97.9Stonetalon Mountains]Turn in [QT1060 Letter to Jin'Zil]
-Turn in [QT1058 Jin'Zil's Forest Magic]
+--Turn in [QT1058 Jin'Zil's Forest Magic]
 [G35.3,27.9The Barrens]Turn in [QT1068 Shredding Machines]
 [H]Hearth to Camp T.
 Fly to [F Crossroads]
