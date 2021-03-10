@@ -13,7 +13,7 @@ function Guidelime.Zarant:SkipStep(value)
 	if value ~= false then value = true end
 	self.step.skip = value
 	--print(self.step.index,self.step.index)
-	GuidelimeZarantDataChar.guideSkip[addon.currentGuide.name][self.step.index] = self.step.skip
+	GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.step.index] = self.step.skip
 	addon.updateSteps({self.step.index})
 end
 
@@ -616,7 +616,7 @@ function Guidelime.Zarant.BranchOut(self,args,event)
 			active = true
 		end
 	end
-	local skip = GuidelimeZarantDataChar.guideSkip[addon.currentGuide.name][self.step.index]
+	local skip = GuidelimeDataChar.guideSkip[addon.currentGuide.name][self.step.index]
 	if self.step.active and active then
 		if not self.step.skip then
 			self.step.skip = true
