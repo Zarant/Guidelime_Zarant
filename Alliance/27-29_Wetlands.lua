@@ -32,7 +32,7 @@ Turn in [G13.52,41.37,20Wetlands][QT281 Reclaiming Goods] \\Accept [G13.52,41.37
 Turn in [G13.6,38.22,20Wetlands][QT284 The Search Continues] \\Accept [G13.6,38.22,20Wetlands][QA285 Search More Hovels]
 Turn in [G13.94,34.81,20Wetlands][QT285 Search More Hovels] \\Accept [G13.94,34.81,20Wetlands][QA286 Return the Statuette]
 Start working on [QC471][O]
-[G14.72,23.93,75Wetlands][QC289 -] Kill ghosts, enter the ship by the hole on the hull and kill Snellig
+[G14.0,29.8,75Wetlands][QC289 -] Kill ghosts, enter the ship by the hole on the hull and kill Snellig
 Kill [G44.14,33.5,138Wetlands][QC277 Gnolls] on your way to other objectives[O]
 Kill [G43.14,42.62,40Wetlands][QC464 Orcs]
 [G39.52,46.70,20Wetlands]Head towards the mountain shortcut \\Accept [G38.17,50.88Wetlands][QA294 Ormer's Revenge]
