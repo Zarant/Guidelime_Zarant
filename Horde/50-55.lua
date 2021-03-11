@@ -319,7 +319,7 @@ Fly to [F Ratchet]-->>LoadNextGuide
 
 Guidelime.registerGuide([[
 [N54-56Felwood/Winterspring]
-[NX57-58WPL/EPL part 1]
+[NX56-58WPL/EPL part 1]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
 [V][O]Deposit the following items:\\Un'Goro Slime Sample-->>BankDeposit,12235

@@ -3,7 +3,7 @@ if Guidelime.Zarant.faction == "Alliance" then
 end
 
 Guidelime.registerGuide([[
-[N57-58WPL/EPL part 1]
+[N56-58WPL/EPL part 1]
 [NX58-59WPL/EPL part 2]
 [GA Horde]
 [D Horde Leveling Guide - WORK IN PROGRESS]
