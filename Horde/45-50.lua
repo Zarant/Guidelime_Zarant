@@ -260,7 +260,7 @@ Guidelime.registerGuide([[
 [G76.2,43.8Feralas]Accept [QA3062 Dark Heart]\\
 Accept [QA3063 Vengeance on the Northspring]\\
 Accept [QA4120 The Strength of Corruption]
-[G74.5,42.9Feralas]Accept [QA7733 Improved Quality]
+[G74.5,42.9Feralas]Accept [QA7734 Improved Quality]
 [G74.5,43.4Feralas]Turn in [QT3123 Testing the Vessel]\\
 Accept [QA3124 Hippogryph Muisek]\\
 [G74.5,43.4Feralas]Accept [QA3128 Natural Materials]
@@ -274,8 +274,9 @@ Collect [QC3128,2-][O]Encrusted Minerals (x6)
 [G68.8,48.1Feralas]Collect [QC3125,1-]Faerie Dragon Muisek (x8)
 Turn in [QT3125 Faerie Dragon Muisek]\\
 Accept [QA3126 Treant Muisek]
+Collect [QC3128,1-][O]Splintered Log (x2)-->>Unitscan,Wandering Forest Walker
 Collect [QC3126,1-]Treant Muisek (x3)-->>Unitscan,Wandering Forest Walker
-Collect [QC3128,1-]Splintered Log (x2)-->>Unitscan,Wandering Forest Walker
+Turn in [QT3126 Treant Muisek]
 [G55.9,63.8Feralas]Finish off [QC3128]
 [G53.4,55.7Feralas]Turn in [QA2766-][QT2766]\\Skip this step if you haven't found the distress beacon
 Accept the chicken escort\\Accept [QA2767 Rescue OOX-22/FE!]
@@ -285,7 +286,7 @@ Accept [QA7721 Fuel for the Zapping]
 Do [QC7003] \\Do [QC7721]
 [G44.8,43.4Feralas]Turn in [QT7003 Zapped Giants]\\
 Turn in [QT7721 Fuel for the Zapping]
-[G52.6,31.8Feralas]Collect [QC7733,1-]Rage Scar Yeti Hide (x10)
+[G52.6,31.8Feralas]Collect [QC7734,1-]Rage Scar Yeti Hide (x10)
 [G40.3,23.4Feralas]Collect [QC3127,1-]Mountain Giant Muisek (x7)\\Remember to use the Ultra-Shrinker on them
 Kill Harpies until you get the Horn of Hatetalon[OC]-->>Collect,9530,1
 [G40.5,8.6Feralas]Collect [QC3062,1-]Edana's Dark Heart
@@ -296,7 +297,7 @@ Finish off [QC3063]
 Turn in [QT3128 Natural Materials]\\
 Accept [QA3129 Weapons of Spirit]
 [G74.5,42.9Feralas]Turn in [QA7738-][OC][QT7738 Perfect Yeti Hide][OC]
-[G74.5,42.9Feralas]Turn in [QT7733 Improved Quality]
+[G74.5,42.9Feralas]Turn in [QT7734 Improved Quality]
 [G74.4,43.4Feralas]Turn in [QT3129 Weapons of Spirit]
 [G74.4,43.4Feralas]Accept [QA3380 The Sunken Temple]
 [G76.2,43.8Feralas]Turn in [QT3063 Vengeance on the Northspring]
