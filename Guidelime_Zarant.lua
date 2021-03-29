@@ -327,7 +327,7 @@ end
 
 function ParseCustomLuaCode()
 	addon.WipcustomCodeDataData()
-	local guide = addon.guides[GuidelimeZarantDataChar.currentGuide]
+	local guide = addon.guides[GuidelimeDataChar.currentGuide]
 	if not (guide and guide.group) then return end
 	local groupTable = Guidelime[guide.group]
 	if not groupTable then Guidelime[guide.group] = true end
