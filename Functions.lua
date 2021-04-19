@@ -422,7 +422,7 @@ function Guidelime.Zarant.Reputation(self,args)
 	local standing = repStandingID[string.lower(args[2])] or tonumber(args[2])
 	if not (standing and self.factionID) then
 		
-		return print('Error parsing guide at line '..self.step.line..': invalid faction/standing') 
+		return error('Error parsing guide at line '..self.step.line..': invalid faction/standing') 
 	end
 	
 	local value = tonumber(args[3]) or 0
@@ -824,3 +824,18 @@ function Guidelime.Zarant.BlastedLandsQuests(self)
 	self:UpdateText()
 
 end
+
+function Guidelime.Zarant:ScourgeStones()
+	if GetItemCount(12841) < 10 and GetItemCount(12840) < 20 then
+		self:SkipStep()
+	end
+end
+
+function Guidelime.Zarant.WanderingSkeleton(self,args,event)
+	if not self then
+		return "OnStepActivation,OnStepCompletion,BAG_UPDATE"
+	end
+	self:Collect({"12738","1"},event)
+	self:Unitscan({"WANDERING SKELETON"},event)
+end
+

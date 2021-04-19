@@ -148,16 +148,3 @@ Turn in [QT5846 Of Love and Family]
 Use the website unstuck tool to teleport to SW\\*OR*\\Throw away your HS and unstuck back to Chillwind Camp, then fly to [F Ironforge]--OnStepCompletion>>LoadNextGuide
 ]], "Zarant")
 
-function Guidelime.Zarant:ScourgeStones()
-	if GetItemCount(12841) < 10 and GetItemCount(12840) < 20 then
-		self:SkipStep()
-	end
-end
-
-function Guidelime.Zarant.WanderingSkeleton(self,args,event)
-	if not self then
-		return "OnStepActivation,OnStepCompletion,BAG_UPDATE"
-	end
-	self:Collect({"12738","1"},event)
-	self:Unitscan({"WANDERING SKELETON"},event)
-end
