@@ -122,7 +122,7 @@ Finish off [QC5863]
 
 Run to Un'goro Crater\\Accept [QA4289] \\Accept [QA4290]
 Save Un'Goro Soil, you will need 25 later[OC]
-[O]As you quest through Un'Goro, loot 7 crystals of each color--BAG_UPDATE>>Crystals_Tanaris49
+[O]As you quest through Un'Goro, loot 7 crystals of each color-->>Collect,11186,7,11185,7,11184,7,11188,7
 Click on the Wrecked Raft\\Accept [QA3844]
 Click on the small pack underwater\\Turn in [QT3844] \\Accept [QA3845]
 [QC4290-]Loot the threshadon carcass
@@ -209,52 +209,5 @@ function z:BankW_Tanaris49()  --Carefully Folded Note\\Gorilla Fangs\\Fool's Sto
 	end
 	
 	z.WithdrawItems(items)
-end
-
-function z:Crystals_Tanaris49() --BAG_UPDATE>>Crystals_Tanaris49
-	
-	local step = self.guide.steps[self.stepLine]
-	if not self.element then
-		self.element = #step.elements + 1
-		table.insert(step.elements,{})
-	end
-
-	local element = step.elements[self.element]
-	
-	local r = GetItemCount(11186)
-	local g = GetItemCount(11185)
-	local b = GetItemCount(11184)
-	local y = GetItemCount(11188)
-	
-	
-	element.textInactive = ""
-	element.text = ""
-	
-	local skip = true
-	if r < 7 then
-		skip = false
-		element.text = element.text.."\n   Red: "..r.."/7"
-	end
-	if g < 7 then
-		skip = false
-		element.text = element.text.."\n   Green: "..g.."/7"
-	end	
-	if b < 7 then
-		skip = false
-		element.text = element.text.."\n   Blue: "..b.."/7"
-	end	
-	if y < 7 then
-		skip = false
-		element.text = element.text.."\n   Yellow: "..y.."/7"
-	end
-
-	if  skip then
-		element.text = ""
-		z.SkipStep(self)
-		return
-	end
-
-	self:UpdateStep()
-
 end
 

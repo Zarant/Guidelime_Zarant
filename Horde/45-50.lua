@@ -3,6 +3,7 @@ if Guidelime.Zarant.faction == "Alliance" then
 end
 
 Guidelime.registerGuide([[
+[DL1-60 https://github.com/Zarant/Guidelime_Zarant Guidelime_Zarant]
 [GA Horde]
 [N45-46Swamp of Sorrows]
 [NX46-48Tanaris]
@@ -50,6 +51,7 @@ Fly to [F Tanaris]-->>LoadNextGuide
 ]],"Zarant")
 
 Guidelime.registerGuide([[
+[DL1-60 https://github.com/Zarant/Guidelime_Zarant Guidelime_Zarant]
 [GA Horde]
 [N46-48Tanaris]
 [NX48-49The Hinterlands]
@@ -154,6 +156,7 @@ Take the Zeppelin to Undercity-->>ZoneSkip,Tirisfal Glades,1
 ]],"Zarant")
 
 Guidelime.registerGuide([[
+[DL1-60 https://github.com/Zarant/Guidelime_Zarant Guidelime_Zarant]
 [GA Horde]
 [N48-49The Hinterlands]
 [NX49-50Feralas]
@@ -253,6 +256,7 @@ Fly to [F Feralas]-->>LoadNextGuide
 
 
 Guidelime.registerGuide([[
+[DL1-60 https://github.com/Zarant/Guidelime_Zarant Guidelime_Zarant]
 [GA Horde]
 [N49-50Feralas]
 [NX49-50Un'Goro]
@@ -308,6 +312,7 @@ Fly to [F Tanaris]-->>LoadNextGuide
 ]],"Zarant")
 
 Guidelime.registerGuide([[
+[DL1-60 https://github.com/Zarant/Guidelime_Zarant Guidelime_Zarant]
 [GA Horde]
 [N49-50Un'Goro]
 [NX50-51STV/Blasted Lands]
@@ -317,7 +322,7 @@ Guidelime.registerGuide([[
 Accept [QA3444 The Stone Circle]
 Run to Un'goro Crater\\Accept [QA4289] \\Accept [QA4290]
 Save Un'Goro Soil, you will need 25 later[OC]
-[O]As you quest through Un'Goro, loot 7 crystals of each color--BAG_UPDATE>>Crystals_Tanaris49
+[O]As you quest through Un'Goro, loot 7 crystals of each color-->>Collect,11186,7,11185,7,11184,7,11188,7
 [G27.5,42.8Tanaris]Accept [QA4289 The Apes of Un'Goro]\\
 Accept [QA4290 The Fare of Lar'korwi]
 [G63.1,68.6Un'Goro Crater]Accept [QA3844 It's a Secret to Everybody]
