@@ -3,6 +3,7 @@ if Guidelime.Zarant.faction == "Alliance" then
 end
 
 Guidelime.registerGuide([[
+[DL1-60 https://github.com/Zarant/Guidelime_Zarant Guidelime_Zarant]
 [GA Horde]
 [N12-17The Barrens]
 [NX17-21Stonetalon/Barrens/Ashenvale]
@@ -145,6 +146,7 @@ Turn in [QT850 Kolkar Leaders]
 
 
 Guidelime.registerGuide([[
+[DL1-60 https://github.com/Zarant/Guidelime_Zarant Guidelime_Zarant]
 [GA Horde]
 [N17-21Stonetalon/Barrens/Ashenvale]
 [NX21-23Hillsbrad]
@@ -156,11 +158,11 @@ Guidelime.registerGuide([[
 
 [G35.2,27.7The Barrens]Turn in [QT6548 Avenge My Village]\\
 Accept [QA6629 Kill Grundig Darkcloud]
-[G71.3,95.1Stonetalon Mountains]Accept [QA6461 Blood Feeders]
 
 [G73.6,86.1Stonetalon Mountains]Do [QC6629]
 [G73.5,85.7Stonetalon Mountains]Accept [QA6523 Protect Kaya]
 [QC6523-]Escort Kaya
+[G71.3,95.1Stonetalon Mountains]Accept [QA6461 Blood Feeders]
 Collect [QC1069,1-][O]Deepmoss Egg (x15)
 [G58.8,76.0,120Stonetalon Mountains]Kill [QC6461,1-]Deepmoss Creeper (x10)
 Kill [QC6461,2-][O]Deepmoss Venomspitter (x7)

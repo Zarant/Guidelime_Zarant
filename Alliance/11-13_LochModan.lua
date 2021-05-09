@@ -146,6 +146,7 @@ Stable your pet and learn *Bite 2* from a spider[O][A Hunter]
 [G35.48,24.36,129Loch Modan][QC416-]Kill kobolds[OC]
 [G35.48,24.36,129Loch Modan][QC307-]Loot the crates inside the mine
 Finish off [QC416]
+Turn in [QT307]
 Grind your way back to Thelsamar\\Finish off [QC418]
 Buy *Smoked Bear Meat* cooking recipe from the trade supplier insde the inn[O]
 Turn in [QT418]
@@ -158,18 +159,11 @@ Finish off [QC267 The Trogg Threat]
 Turn in [G22.07,73.12Loch Modan][QT224 In Defense of the King's Lands]
 Turn in [G23.23,73.67Loch Modan][QT267 The Trogg Threat]
 
-[G33.93,50.95Loch Modan] Throw away your HS and unstuck\\Fly to [F Ironforge][A Human]
-[H] Hearth to Darnassus[A NightElf]
-[T][O]Train skills
-[V][O]Bank your cooking mats
-[G30.61,34.49Dun Morogh] Leave IF and start heading towards the mountain shortcut[A Human]
-[G32.75,26.10Dun Morogh] Run up the hill and die by jumping down to your left\\Spirit rez at Menethil Harbor[A Human]
-[P Get the Menethil FP][A Human]
-Take the boat to Darkshore[A Human]
+[H] Hearth to Darnassus
 
-[G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil][A NightElf]
-[G58.39,94.01Teldrassil]Turn in [QT6341 The Bounty of Teldrassil] \\Accept [QA6342 Flight to Auberdine][A NightElf]
-[F Fly to Darkshore][A NightElf]-->>LoadNextGuide
+[G56.25,92.44Teldrassil]Turn in [QT6344 Nessa Shadowsong] \\Accept [QA6341 The Bounty of Teldrassil]
+[G58.39,94.01Teldrassil]Turn in [QT6341 The Bounty of Teldrassil] \\Accept [QA6342 Flight to Auberdine]
+[F Fly to Darkshore]-->>LoadNextGuide
 
 ]], "Zarant")
 
