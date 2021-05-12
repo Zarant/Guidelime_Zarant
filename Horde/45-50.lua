@@ -41,7 +41,7 @@ Accept [QA2801 A Tale of Sorrow]
 [QC2801,1-]Go through the whole dialogue-->>SkipGossip
 Turn in [QT2801 A Tale of Sorrow]
 [G22.9,48.3Swamp of Sorrows]Turn in [QT624 Cortello's Riddle]\\
-Accept [QA624 Cortello's Riddle]
+Accept [QA625 Cortello's Riddle]
 [G27.8,29.1Deadwind Pass]Turn in [QT1383 Nothing But The Truth]\\
 Accept [QA1388 Nothing But The Truth]\\
 Turn in [QT1388 Nothing But The Truth]
